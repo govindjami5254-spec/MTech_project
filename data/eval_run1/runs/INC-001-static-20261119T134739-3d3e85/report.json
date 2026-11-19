@@ -1,0 +1,165 @@
+{
+  "run_id": "INC-001-static-20261119T134739-3d3e85",
+  "mode": "static",
+  "incident": {
+    "id": "INC-001",
+    "rule": "gateway-5xx",
+    "description": "API gateway returned 5xx errors to clients",
+    "time": "2026-01-10T10:05:22Z",
+    "trigger": "api-gateway.log:36"
+  },
+  "hypotheses": [
+    {
+      "cause_component": "order-service",
+      "cause_summary": "The order-service ran out of disk space, causing it to become unavailable and resulting in the API gateway returning 503 errors.",
+      "confidence": 0.7,
+      "grounded": true,
+      "claims": [
+        {
+          "text": "The order-service experienced disk usage reaching 98% at 10:04:56Z, which led to a write failure at 10:05:16Z.",
+          "evidence_ids": [
+            "E2",
+            "E3",
+            "E4"
+          ],
+          "supported": true
+        },
+        {
+          "text": "The API gateway returned a 503 error at 10:05:22Z because the order-service was unavailable.",
+          "evidence_ids": [
+            "E1"
+          ],
+          "supported": true
+        }
+      ],
+      "rank": 1
+    },
+    {
+      "cause_component": "api-gateway",
+      "cause_summary": "The API gateway returned 503 errors due to the upstream order-service being unavailable, which was caused by disk space exhaustion.",
+      "confidence": 0.7,
+      "grounded": true,
+      "claims": [
+        {
+          "text": "The API gateway returned a 503 error at 10:05:22Z because the order-service was unavailable.",
+          "evidence_ids": [
+            "E1"
+          ],
+          "supported": true
+        },
+        {
+          "text": "The order-service became unavailable due to disk space exhaustion, as evidenced by the write failure at 10:05:16Z.",
+          "evidence_ids": [
+            "E4"
+          ],
+          "supported": true
+        }
+      ],
+      "rank": 2
+    }
+  ],
+  "evidence_gaps": [
+    "There is no evidence indicating whether the disk space issue was resolved or if there were any attempts to free up space."
+  ],
+  "recommendations": [
+    "Check the disk usage metrics for the order-service to confirm the root cause of the disk space exhaustion.",
+    "Verify if there were any processes or logs that could have generated excessive data leading to the disk space issue.",
+    "Ensure that disk usage monitoring and alerting are in place to prevent similar incidents in the future."
+  ],
+  "validation": {
+    "claims_total": 6,
+    "claims_supported": 6,
+    "fabricated_ids": 0,
+    "hypotheses_in": 3,
+    "hypotheses_dropped": 1,
+    "suspicious_citations": 0,
+    "unsupported_claim_rate": 0.0
+  },
+  "evidence": [
+    {
+      "id": "E1",
+      "uid": "api-gateway.log:36",
+      "ts": "2026-01-10T10:05:22Z",
+      "severity": "ERROR",
+      "component": "api-gateway",
+      "source": "api-gateway.log",
+      "line_no": 36,
+      "message": "503 returned to client: upstream order-service unavailable",
+      "step": 0,
+      "tool": "incident",
+      "suspicious": false,
+      "cited": true
+    },
+    {
+      "id": "E2",
+      "uid": "order-service.log:27",
+      "ts": "2026-01-10T10:04:16Z",
+      "severity": "WARN",
+      "component": "order-service",
+      "source": "order-service.log",
+      "line_no": 27,
+      "message": "disk usage 91% on /var/lib/data",
+      "step": 0,
+      "tool": "static_retrieval",
+      "suspicious": false,
+      "cited": true
+    },
+    {
+      "id": "E3",
+      "uid": "order-service.log:32",
+      "ts": "2026-01-10T10:04:56Z",
+      "severity": "WARN",
+      "component": "order-service",
+      "source": "order-service.log",
+      "line_no": 32,
+      "message": "disk usage 98% on /var/lib/data",
+      "step": 0,
+      "tool": "static_retrieval",
+      "suspicious": false,
+      "cited": true
+    },
+    {
+      "id": "E4",
+      "uid": "order-service.log:35",
+      "ts": "2026-01-10T10:05:16Z",
+      "severity": "ERROR",
+      "component": "order-service",
+      "source": "order-service.log",
+      "line_no": 35,
+      "message": "write failed: no space left on device",
+      "step": 0,
+      "tool": "static_retrieval",
+      "suspicious": false,
+      "cited": true
+    }
+  ],
+  "metrics": {
+    "llm_calls": 1,
+    "tokens_in": 501,
+    "tokens_out": 653,
+    "llm_seconds": 99.90394935710356,
+    "steps": 0,
+    "tool_calls": 0,
+    "blocked_calls": 0,
+    "gate_rounds": 0,
+    "parse_failures": 0,
+    "injection_flagged": 0,
+    "wall_seconds": 99.92338574398309,
+    "model_memory_bytes": 6679680778
+  },
+  "safety": {
+    "blocked_tool_calls": 0,
+    "injection_suspected_lines": 0,
+    "read_only": true
+  },
+  "settings": {
+    "model": "qwen3:8b",
+    "num_ctx": 8192,
+    "temperature": 0,
+    "seed": 42,
+    "think": false,
+    "coverage_gate": true,
+    "validate": true,
+    "max_steps": 8
+  }
+}

@@ -1,0 +1,334 @@
+{
+  "run_id": "INC-001-agent-20261119T140052-967f08",
+  "mode": "agent",
+  "incident": {
+    "id": "INC-001",
+    "rule": "gateway-5xx",
+    "description": "API gateway returned 5xx errors to clients",
+    "time": "2026-01-10T10:05:22Z",
+    "trigger": "api-gateway.log:36"
+  },
+  "hypotheses": [
+    {
+      "cause_component": "order-service",
+      "cause_summary": "The order-service encountered an OutOfMemoryError, leading to its process being killed by the OOM killer, which made it unavailable for the API gateway.",
+      "confidence": 0.7,
+      "grounded": true,
+      "claims": [
+        {
+          "text": "The order-service experienced an OutOfMemoryError at 2026-01-10T10:05:16Z.",
+          "evidence_ids": [
+            "E9"
+          ],
+          "supported": true
+        },
+        {
+          "text": "The order-service was subsequently killed by the OOM killer at 2026-01-10T10:05:18Z.",
+          "evidence_ids": [
+            "E14"
+          ],
+          "supported": true
+        },
+        {
+          "text": "The API gateway returned 503 errors to clients due to the order-service being unavailable.",
+          "evidence_ids": [
+            "E1",
+            "E2",
+            "E3",
+            "E4",
+            "E5"
+          ],
+          "supported": true
+        }
+      ],
+      "rank": 1
+    }
+  ],
+  "evidence_gaps": [
+    "There is no evidence to confirm whether the order-service's heap size was insufficient or if there was a dependency failure.",
+    "The exact cause of the OutOfMemoryError is not specified in the logs."
+  ],
+  "recommendations": [
+    "Check the heap configuration of the order-service to ensure it is sufficient for the workload.",
+    "Investigate any potential dependency failures that may have contributed to the OutOfMemoryError.",
+    "Monitor the order-service's memory usage and garbage collection logs to identify any patterns or issues."
+  ],
+  "validation": {
+    "claims_total": 7,
+    "claims_supported": 7,
+    "fabricated_ids": 0,
+    "hypotheses_in": 3,
+    "hypotheses_dropped": 2,
+    "suspicious_citations": 0,
+    "unsupported_claim_rate": 0.0
+  },
+  "evidence": [
+    {
+      "id": "E1",
+      "uid": "api-gateway.log:36",
+      "ts": "2026-01-10T10:05:22Z",
+      "severity": "ERROR",
+      "component": "api-gateway",
+      "source": "api-gateway.log",
+      "line_no": 36,
+      "message": "503 returned to client: upstream order-service unavailable",
+      "step": 0,
+      "tool": "incident",
+      "suspicious": false,
+      "cited": true
+    },
+    {
+      "id": "E2",
+      "uid": "api-gateway.log:37",
+      "ts": "2026-01-10T10:05:25Z",
+      "severity": "ERROR",
+      "component": "api-gateway",
+      "source": "api-gateway.log",
+      "line_no": 37,
+      "message": "503 returned to client: upstream order-service unavailable",
+      "step": 3,
+      "tool": "search_logs",
+      "suspicious": false,
+      "cited": true
+    },
+    {
+      "id": "E3",
+      "uid": "api-gateway.log:38",
+      "ts": "2026-01-10T10:05:28Z",
+      "severity": "ERROR",
+      "component": "api-gateway",
+      "source": "api-gateway.log",
+      "line_no": 38,
+      "message": "503 returned to client: upstream order-service unavailable",
+      "step": 3,
+      "tool": "search_logs",
+      "suspicious": false,
+      "cited": true
+    },
+    {
+      "id": "E4",
+      "uid": "api-gateway.log:39",
+      "ts": "2026-01-10T10:05:31Z",
+      "severity": "ERROR",
+      "component": "api-gateway",
+      "source": "api-gateway.log",
+      "line_no": 39,
+      "message": "503 returned to client: upstream order-service unavailable",
+      "step": 3,
+      "tool": "search_logs",
+      "suspicious": false,
+      "cited": true
+    },
+    {
+      "id": "E5",
+      "uid": "api-gateway.log:41",
+      "ts": "2026-01-10T10:05:34Z",
+      "severity": "ERROR",
+      "component": "api-gateway",
+      "source": "api-gateway.log",
+      "line_no": 41,
+      "message": "503 returned to client: upstream order-service unavailable",
+      "step": 3,
+      "tool": "search_logs",
+      "suspicious": false,
+      "cited": true
+    },
+    {
+      "id": "E6",
+      "uid": "db-primary.log:32",
+      "ts": "2026-01-10T10:05:09Z",
+      "severity": "INFO",
+      "component": "db-primary",
+      "source": "db-primary.log",
+      "line_no": 32,
+      "message": "request handled in 34ms status=200",
+      "step": 4,
+      "tool": "get_context",
+      "suspicious": false,
+      "cited": false
+    },
+    {
+      "id": "E7",
+      "uid": "auth-service.log:30",
+      "ts": "2026-01-10T10:05:10Z",
+      "severity": "INFO",
+      "component": "auth-service",
+      "source": "auth-service.log",
+      "line_no": 30,
+      "message": "request handled in 35ms status=200",
+      "step": 4,
+      "tool": "get_context",
+      "suspicious": false,
+      "cited": false
+    },
+    {
+      "id": "E8",
+      "uid": "order-service.log:33",
+      "ts": "2026-01-10T10:05:12Z",
+      "severity": "INFO",
+      "component": "order-service",
+      "source": "order-service.log",
+      "line_no": 33,
+      "message": "request handled in 88ms status=200",
+      "step": 4,
+      "tool": "get_context",
+      "suspicious": false,
+      "cited": false
+    },
+    {
+      "id": "E9",
+      "uid": "order-service.log:34",
+      "ts": "2026-01-10T10:05:16Z",
+      "severity": "ERROR",
+      "component": "order-service",
+      "source": "order-service.log",
+      "line_no": 34,
+      "message": "java.lang.OutOfMemoryError: Java heap space",
+      "step": 4,
+      "tool": "get_context",
+      "suspicious": false,
+      "cited": true
+    },
+    {
+      "id": "E10",
+      "uid": "payment-service.log:30",
+      "ts": "2026-01-10T10:05:16Z",
+      "severity": "INFO",
+      "component": "payment-service",
+      "source": "payment-service.log",
+      "line_no": 30,
+      "message": "request handled in 43ms status=200",
+      "step": 4,
+      "tool": "get_context",
+      "suspicious": false,
+      "cited": false
+    },
+    {
+      "id": "E11",
+      "uid": "auth-service.log:31",
+      "ts": "2026-01-10T10:05:17Z",
+      "severity": "INFO",
+      "component": "auth-service",
+      "source": "auth-service.log",
+      "line_no": 31,
+      "message": "request handled in 63ms status=200",
+      "step": 4,
+      "tool": "get_context",
+      "suspicious": false,
+      "cited": false
+    },
+    {
+      "id": "E12",
+      "uid": "cache-service.log:31",
+      "ts": "2026-01-10T10:05:17Z",
+      "severity": "INFO",
+      "component": "cache-service",
+      "source": "cache-service.log",
+      "line_no": 31,
+      "message": "request handled in 13ms status=200",
+      "step": 4,
+      "tool": "get_context",
+      "suspicious": false,
+      "cited": false
+    },
+    {
+      "id": "E13",
+      "uid": "db-primary.log:33",
+      "ts": "2026-01-10T10:05:17Z",
+      "severity": "INFO",
+      "component": "db-primary",
+      "source": "db-primary.log",
+      "line_no": 33,
+      "message": "request handled in 46ms status=200",
+      "step": 4,
+      "tool": "get_context",
+      "suspicious": false,
+      "cited": false
+    },
+    {
+      "id": "E14",
+      "uid": "order-service.log:35",
+      "ts": "2026-01-10T10:05:18Z",
+      "severity": "FATAL",
+      "component": "order-service",
+      "source": "order-service.log",
+      "line_no": 35,
+      "message": "process killed by OOM killer",
+      "step": 4,
+      "tool": "get_context",
+      "suspicious": false,
+      "cited": true
+    },
+    {
+      "id": "E15",
+      "uid": "api-gateway.log:35",
+      "ts": "2026-01-10T10:05:20Z",
+      "severity": "INFO",
+      "component": "api-gateway",
+      "source": "api-gateway.log",
+      "line_no": 35,
+      "message": "request handled in 19ms status=200",
+      "step": 4,
+      "tool": "get_context",
+      "suspicious": false,
+      "cited": false
+    },
+    {
+      "id": "E16",
+      "uid": "payment-service.log:31",
+      "ts": "2026-01-10T10:05:23Z",
+      "severity": "INFO",
+      "component": "payment-service",
+      "source": "payment-service.log",
+      "line_no": 31,
+      "message": "request handled in 13ms status=200",
+      "step": 4,
+      "tool": "get_context",
+      "suspicious": false,
+      "cited": false
+    },
+    {
+      "id": "E17",
+      "uid": "order-service.log:36",
+      "ts": "2026-01-10T10:05:26Z",
+      "severity": "INFO",
+      "component": "order-service",
+      "source": "order-service.log",
+      "line_no": 36,
+      "message": "request handled in 65ms status=200",
+      "step": 4,
+      "tool": "get_context",
+      "suspicious": false,
+      "cited": false
+    }
+  ],
+  "metrics": {
+    "llm_calls": 9,
+    "tokens_in": 14255,
+    "tokens_out": 932,
+    "llm_seconds": 295.01750367088243,
+    "steps": 8,
+    "tool_calls": 7,
+    "blocked_calls": 0,
+    "gate_rounds": 0,
+    "parse_failures": 0,
+    "injection_flagged": 0,
+    "wall_seconds": 295.071447347058,
+    "model_memory_bytes": 6679680778
+  },
+  "safety": {
+    "blocked_tool_calls": 0,
+    "injection_suspected_lines": 0,
+    "read_only": true
+  },
+  "settings": {
+    "model": "qwen3:8b",
+    "num_ctx": 8192,
+    "temperature": 0,
+    "seed": 42,
+    "think": false,
+    "coverage_gate": true,
+    "validate": true,
+    "max_steps": 8
+  }
+}

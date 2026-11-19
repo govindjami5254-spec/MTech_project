@@ -1,0 +1,3 @@
+{"ts": "2026-11-19T14:10:29.509849+00:00", "run_id": "INC-001-static-20261119T141029-ae9c31", "kind": "run_start", "mode": "static", "incident": "INC-001", "model": "qwen3:8b", "log_files": 6, "events": 364, "suspicious_lines": 0}
+{"ts": "2026-11-19T14:13:11.104335+00:00", "run_id": "INC-001-static-20261119T141029-ae9c31", "kind": "llm_final", "phase": "static", "attempt": 1, "tokens_in": 456, "tokens_out": 622, "evidence_in_prompt": 3}
+{"ts": "2026-11-19T14:13:11.174162+00:00", "run_id": "INC-001-static-20261119T141029-ae9c31", "kind": "run_end", "hypotheses": 2, "validation": {"claims_total": 8, "claims_supported": 8, "fabricated_ids": 0, "hypotheses_in": 3, "hypotheses_dropped": 1, "suspicious_citations": 0, "unsupported_claim_rate": 0.0}}

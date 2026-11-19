@@ -1,0 +1,163 @@
+{
+  "run_id": "INC-001-static-20261119T135830-9c53b3",
+  "mode": "static",
+  "incident": {
+    "id": "INC-001",
+    "rule": "gateway-5xx",
+    "description": "API gateway returned 5xx errors to clients",
+    "time": "2026-01-10T10:05:22Z",
+    "trigger": "api-gateway.log:36"
+  },
+  "hypotheses": [
+    {
+      "cause_component": "order-service",
+      "cause_summary": "The order-service ran out of memory, leading to an OutOfMemoryError and subsequent termination by the OOM killer.",
+      "confidence": 0.7,
+      "grounded": true,
+      "claims": [
+        {
+          "text": "The order-service experienced a Java heap space error at 2026-01-10T10:05:16Z.",
+          "evidence_ids": [
+            "E3"
+          ],
+          "supported": true
+        },
+        {
+          "text": "The order-service was terminated by the OOM killer at 2026-01-10T10:05:18Z.",
+          "evidence_ids": [
+            "E4"
+          ],
+          "supported": true
+        },
+        {
+          "text": "The order-service had high heap usage (92%) before the OOM error, indicating memory pressure.",
+          "evidence_ids": [
+            "E2"
+          ],
+          "supported": true
+        }
+      ],
+      "rank": 1
+    },
+    {
+      "cause_component": "api-gateway",
+      "cause_summary": "The API gateway returned a 503 error to clients because the upstream order-service was unavailable.",
+      "confidence": 0.6,
+      "grounded": true,
+      "claims": [
+        {
+          "text": "The API gateway returned a 503 error to clients at 2026-01-10T10:05:22Z due to the upstream order-service being unavailable.",
+          "evidence_ids": [
+            "E1"
+          ],
+          "supported": true
+        }
+      ],
+      "rank": 2
+    }
+  ],
+  "evidence_gaps": [
+    "No evidence was found about the exact cause of the memory pressure (e.g., memory leaks, insufficient heap size, or external factors)."
+  ],
+  "recommendations": [
+    "Check the order-service's memory configuration and heap size to ensure it is adequate for the workload.",
+    "Investigate if there were any memory leaks or unexpected usage patterns in the order-service.",
+    "Monitor system-level memory usage to determine if there were broader memory constraints affecting the entire environment."
+  ],
+  "validation": {
+    "claims_total": 5,
+    "claims_supported": 5,
+    "fabricated_ids": 0,
+    "hypotheses_in": 3,
+    "hypotheses_dropped": 1,
+    "suspicious_citations": 0,
+    "unsupported_claim_rate": 0.0
+  },
+  "evidence": [
+    {
+      "id": "E1",
+      "uid": "api-gateway.log:36",
+      "ts": "2026-01-10T10:05:22Z",
+      "severity": "ERROR",
+      "component": "api-gateway",
+      "source": "api-gateway.log",
+      "line_no": 36,
+      "message": "503 returned to client: upstream order-service unavailable",
+      "step": 0,
+      "tool": "incident",
+      "suspicious": false,
+      "cited": true
+    },
+    {
+      "id": "E2",
+      "uid": "order-service.log:27",
+      "ts": "2026-01-10T10:04:16Z",
+      "severity": "WARN",
+      "component": "order-service",
+      "source": "order-service.log",
+      "line_no": 27,
+      "message": "heap usage 92% (GC overhead high)",
+      "step": 0,
+      "tool": "static_retrieval",
+      "suspicious": false,
+      "cited": true
+    },
+    {
+      "id": "E3",
+      "uid": "order-service.log:34",
+      "ts": "2026-01-10T10:05:16Z",
+      "severity": "ERROR",
+      "component": "order-service",
+      "source": "order-service.log",
+      "line_no": 34,
+      "message": "java.lang.OutOfMemoryError: Java heap space",
+      "step": 0,
+      "tool": "static_retrieval",
+      "suspicious": false,
+      "cited": true
+    },
+    {
+      "id": "E4",
+      "uid": "order-service.log:35",
+      "ts": "2026-01-10T10:05:18Z",
+      "severity": "FATAL",
+      "component": "order-service",
+      "source": "order-service.log",
+      "line_no": 35,
+      "message": "process killed by OOM killer",
+      "step": 0,
+      "tool": "static_retrieval",
+      "suspicious": false,
+      "cited": true
+    }
+  ],
+  "metrics": {
+    "llm_calls": 1,
+    "tokens_in": 498,
+    "tokens_out": 547,
+    "llm_seconds": 142.02320996299386,
+    "steps": 0,
+    "tool_calls": 0,
+    "blocked_calls": 0,
+    "gate_rounds": 0,
+    "parse_failures": 0,
+    "injection_flagged": 0,
+    "wall_seconds": 142.05849667289294,
+    "model_memory_bytes": 6679680778
+  },
+  "safety": {
+    "blocked_tool_calls": 0,
+    "injection_suspected_lines": 0,
+    "read_only": true
+  },
+  "settings": {
+    "model": "qwen3:8b",
+    "num_ctx": 8192,
+    "temperature": 0,
+    "seed": 42,
+    "think": false,
+    "coverage_gate": true,
+    "validate": true,
+    "max_steps": 8
+  }
+}

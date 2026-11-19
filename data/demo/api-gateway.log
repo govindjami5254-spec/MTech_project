@@ -1,0 +1,66 @@
+2026-01-10T10:00:01Z INFO api-gateway request handled in 40ms status=200
+2026-01-10T10:00:08Z INFO api-gateway request handled in 71ms status=200
+2026-01-10T10:00:21Z INFO api-gateway request handled in 68ms status=200
+2026-01-10T10:00:33Z INFO api-gateway request handled in 34ms status=200
+2026-01-10T10:00:40Z INFO api-gateway request handled in 70ms status=200
+2026-01-10T10:00:46Z INFO api-gateway request handled in 57ms status=200
+2026-01-10T10:00:58Z INFO api-gateway request handled in 85ms status=200
+2026-01-10T10:01:04Z INFO api-gateway request handled in 65ms status=200
+2026-01-10T10:01:14Z INFO api-gateway request handled in 37ms status=200
+2026-01-10T10:01:21Z INFO api-gateway request handled in 48ms status=200
+2026-01-10T10:01:27Z INFO api-gateway request handled in 10ms status=200
+2026-01-10T10:01:33Z INFO api-gateway request handled in 77ms status=200
+2026-01-10T10:01:39Z INFO api-gateway request handled in 56ms status=200
+2026-01-10T10:01:48Z INFO api-gateway request handled in 62ms status=200
+2026-01-10T10:01:54Z INFO api-gateway request handled in 75ms status=200
+2026-01-10T10:02:03Z INFO api-gateway request handled in 64ms status=200
+2026-01-10T10:02:16Z INFO api-gateway request handled in 78ms status=200
+2026-01-10T10:02:25Z INFO api-gateway request handled in 52ms status=200
+2026-01-10T10:02:34Z INFO api-gateway request handled in 36ms status=200
+2026-01-10T10:02:47Z INFO api-gateway request handled in 45ms status=200
+2026-01-10T10:02:53Z INFO api-gateway request handled in 61ms status=200
+2026-01-10T10:03:07Z INFO api-gateway request handled in 90ms status=200
+2026-01-10T10:03:14Z INFO api-gateway request handled in 31ms status=200
+2026-01-10T10:03:24Z INFO api-gateway request handled in 23ms status=200
+2026-01-10T10:03:35Z INFO api-gateway request handled in 72ms status=200
+2026-01-10T10:03:47Z INFO api-gateway request handled in 72ms status=200
+2026-01-10T10:03:56Z INFO api-gateway request handled in 46ms status=200
+2026-01-10T10:04:06Z INFO api-gateway request handled in 83ms status=200
+2026-01-10T10:04:19Z INFO api-gateway request handled in 72ms status=200
+2026-01-10T10:04:31Z INFO api-gateway request handled in 83ms status=200
+2026-01-10T10:04:37Z INFO api-gateway request handled in 69ms status=200
+2026-01-10T10:04:46Z INFO api-gateway request handled in 59ms status=200
+2026-01-10T10:04:58Z INFO api-gateway request handled in 30ms status=200
+2026-01-10T10:05:05Z ERROR api-gateway 503 returned to client: upstream order-service unavailable
+2026-01-10T10:05:08Z ERROR api-gateway 503 returned to client: upstream order-service unavailable
+2026-01-10T10:05:09Z INFO api-gateway request handled in 78ms status=200
+2026-01-10T10:05:11Z ERROR api-gateway 503 returned to client: upstream order-service unavailable
+2026-01-10T10:05:14Z ERROR api-gateway 503 returned to client: upstream order-service unavailable
+2026-01-10T10:05:17Z ERROR api-gateway 503 returned to client: upstream order-service unavailable
+2026-01-10T10:05:20Z INFO api-gateway request handled in 19ms status=200
+2026-01-10T10:05:33Z INFO api-gateway request handled in 73ms status=200
+2026-01-10T10:05:40Z INFO api-gateway request handled in 28ms status=200
+2026-01-10T10:05:54Z INFO api-gateway request handled in 58ms status=200
+2026-01-10T10:06:05Z INFO api-gateway request handled in 70ms status=200
+2026-01-10T10:06:11Z INFO api-gateway request handled in 68ms status=200
+2026-01-10T10:06:17Z INFO api-gateway request handled in 47ms status=200
+2026-01-10T10:06:29Z INFO api-gateway request handled in 90ms status=200
+2026-01-10T10:06:37Z INFO api-gateway request handled in 29ms status=200
+2026-01-10T10:06:51Z INFO api-gateway request handled in 37ms status=200
+2026-01-10T10:06:57Z INFO api-gateway request handled in 33ms status=200
+2026-01-10T10:07:11Z INFO api-gateway request handled in 78ms status=200
+2026-01-10T10:07:20Z INFO api-gateway request handled in 59ms status=200
+2026-01-10T10:07:34Z INFO api-gateway request handled in 52ms status=200
+2026-01-10T10:07:45Z INFO api-gateway request handled in 66ms status=200
+2026-01-10T10:07:55Z INFO api-gateway request handled in 78ms status=200
+2026-01-10T10:08:01Z INFO api-gateway request handled in 57ms status=200
+2026-01-10T10:08:15Z INFO api-gateway request handled in 24ms status=200
+2026-01-10T10:08:29Z INFO api-gateway request handled in 79ms status=200
+2026-01-10T10:08:38Z INFO api-gateway request handled in 62ms status=200
+2026-01-10T10:08:44Z INFO api-gateway request handled in 69ms status=200
+2026-01-10T10:08:55Z INFO api-gateway request handled in 80ms status=200
+2026-01-10T10:09:09Z INFO api-gateway request handled in 33ms status=200
+2026-01-10T10:09:23Z INFO api-gateway request handled in 60ms status=200
+2026-01-10T10:09:36Z INFO api-gateway request handled in 53ms status=200
+2026-01-10T10:09:48Z INFO api-gateway request handled in 52ms status=200
+2026-01-10T10:09:54Z INFO api-gateway request handled in 76ms status=200

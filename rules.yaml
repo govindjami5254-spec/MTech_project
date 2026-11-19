@@ -1,0 +1,15 @@
+# Deterministic incident-detection rules. Lower priority number = investigated first.
+rules:
+  - id: gateway-5xx
+    description: API gateway returned 5xx errors to clients
+    priority: 1
+    component: api-gateway
+    severity: [ERROR, FATAL]
+    contains: ["503", "502", "500"]
+    window_s: 120
+    diagnosis: "Upstream dependency unavailable"
+  - id: service-fatal
+    description: A service logged a FATAL event
+    priority: 2
+    severity: [FATAL]
+    window_s: 300
