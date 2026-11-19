@@ -1,6 +1,6 @@
 # LogAgent-RCA — Literature Review (verification notes)
 
-Status: working notes, 2026-11-19. Part A papers were each read in full text once (one reviewer
+Status: working notes, 2026-11-19. Part A (20) papers were each read in full text once (one reviewer
 pass); quotations are verbatim from `pdftotext` output, page numbers are PDF page indices and may
 be approximate for two-column layouts. Part B items are **abstract-level only** and must not be
 cited as verified until read in full.
@@ -205,17 +205,63 @@ Google Scholar / IEEE Xplore / ACM DL search is still required** (Section C).
 - **Gap elements:** i P, ii P (fine-tuned); others N.
 - **Relevance:** Shows small models can be strong, but via training — outside our zero-shot scope.
 
+### A18. Where Does the Accuracy of LLM-Based RCA Come From? (Hussain & Farrukh)
+- **Status:** Research Square preprint, DOI 10.21203/rs.3.rs-11401166/v1, posted 2026-10-19, not peer
+  reviewed; authors "developed the system under study" (p1).
+- **Method:** One single-call agent on RCAEval RE2 (270) and RE3 (90), multimodal; text conditions
+  (stripped, decoy, placebo, nolog, …) with the same detector output (§4.4, p12); 2×2 of evidence × prompt.
+  Models gpt-oss-120b/20b, qwen3.8-27b via Groq, temp 0.1 (§4.5, p15).
+- **Findings:** RE2 AC@1 0.441 vs. N-Sigma 0.800 (Table 4, p20); RE3 0.600 → 0.356 without log text
+  (H6a, p27); evidence effect +0.296 vs. prompt +0.051 (Table 12, p31); decoy named first in 21–42%
+  (Table 5) and 62% in the generic pipeline (p30).
+- **Statistics:** pre-registered; "95% cluster-bootstrap interval… two-sided cluster sign-flip permutation
+  test (10,000 permutations)" (§4.7, p16), Holm; most conditions run once (§7, p37).
+- **Limitations:** "We study one single-call agent… agents that call tools, iterate or retrieve may behave
+  differently" (§7, p36).
+- **Gap elements:** i N, ii P (open-weight 20–120B, hosted), iii N, iv N, v N, vi P (decoy steering only).
+- **Relevance:** Precedent for our statistical protocol (D-020) and diagnosis-steering metric; shows logs
+  carry much of RE3's signal; explicitly leaves iterative agents open.
+
+### A19. Free to Look, Free to Reason (Bi et al.) — arXiv 2610.35767
+- **Status:** arXiv preprint (v1, 2026-10-26).
+- **Method:** One-shot, SQL agent (≤100 calls) and Codex harnesses vs. five published agents on RCAtlas
+  (90 cases from eight public datasets, all with metrics; Table 1, p4). Same information "namely the
+  flagged period, the candidate inventory and the telemetry" (§5, p3), but one-shot evidence is
+  rule-selected (§6.3, p7); shared limit is wall-clock time, not tokens (prompt tokens 235k–381k, Table 8).
+- **Findings:** PR@1 Codex 77.2, SQL agent 72.8, one-shot 65.3 vs. FoA 53.3 (Table 3, p6). Published
+  agents with more prescribed calls scored lower, but "measures how much of an investigation is fixed,
+  not that this fixing causes the lower accuracy" (p8).
+- **Statistics:** three runs for some arms; paired bootstrap over cases (App. B).
+- **Gap elements:** i P, ii N, iii N, iv N (coverage measured, and authors argue against prescribed steps),
+  v N (IDs cited, not validated), vi N.
+- **Relevance:** **Counter-argument to the coverage gate** — prescribing investigation may hurt; A2 must
+  test this. Also: free agents beat one-shot here with frontier models, contrary to 2601.22208 for small models.
+
+### A20. TriFleetRCA — arXiv 2609.23766
+- **Status:** arXiv preprint (v1, 2026-09-20).
+- **Method:** Single pass, no tools: fixed-scope evidence (Loki pod logs + Kubernetes API state), template
+  de-duplication, BM25 top-25 lines, one call to Qwen2.5-14B-Instruct on local vLLM (§IV, §V.A).
+  "No external service was contacted" (p4).
+- **Findings:** Hit 0.85–0.95; grounded-citation rate 0.75; dns-blocked grounding 0/5 even when correct;
+  median 1.6 s, ~2,200 prompt tokens. Citations resolved to lines but only graded offline by regex
+  (§V.E). Poisoned runbook rejected by pattern guard in 80/80; guard off 0/20 followed (§VI.C);
+  no false-block test.
+- **Gap elements:** i N, ii Y, iii N (logs + K8s state), iv N, v P, vi P.
+- **Relevance:** Shows a ≤14B local single-pass pipeline is practical and fast — a realistic E2b design
+  point; no agent comparison.
+
 ---
 
 ## B. Discovered beyond arXiv — abstract level only (NOT verified)
+
+Update 2026-11-19: three ★ items were read in full and moved to A18–A20. The three IEEE ★ items
+(Context-RCA, RCAgentOps, VerifyRCA) are listed as CC-BY open access, but IEEE Xplore blocked automated
+download (HTTP 418); they remain **abstract-level** until downloaded manually in a browser.
 
 Must be read in full before the gap is finalised. Items marked ★ could affect our novelty claims.
 
 | Item | Venue / ID | Possible overlap |
 |---|---|---|
-| ★ Where Does the Accuracy of LLM-Based RCA Come From? | Research Square preprint, DOI 10.21203/rs.3.rs-11401166/v1 | (i) agent vs. own pipeline on same evidence; (vi) decoy text; open-weight models |
-| ★ Free to Look, Free to Reason | arXiv 2610.35767 | (i) single call over evidence package and simple harnesses beat five published agents |
-| ★ TriFleetRCA | arXiv 2609.23766 | (ii) Qwen2.5-14B local; (iii) log-heavy; (v) cited evidence lines; (vi) poisoned runbook |
 | ★ Context-RCA | IEEE JointCloud 2026, DOI 10.1109/jcc72984.2026.00052 | (iv) SOP workflow blocks conclusions until enough evidence |
 | ★ RCAgentOps | IEEE AIoTC 2026, DOI 10.1109/aiotc71250.2026.11689122 | (iv) rule-based coverage checks in critic; (v) evidence records |
 | ★ VerifyRCA | IEEE ICETIS 2026, DOI 10.1109/icetis70504.2026.11633469 | (v) non-LLM verifier; fixed query budget |
@@ -247,7 +293,8 @@ GALA+ → ASE 2026, 10.1145/3832783.3834335; LogConfigLocalizer (2404.00640) →
 
 ## C. Outstanding before the gap is final
 
-1. Full-text read of the ★ items in Part B.
+1. Full-text read of Context-RCA, RCAgentOps and VerifyRCA (download manually; CC-BY on IEEE Xplore).
+   Priority: Context-RCA (abstract claims it prevents "premature conclusions before sufficient evidence is collected").
 2. Manual searches in Google Scholar, IEEE Xplore and ACM DL (automated access blocked), using:
    `"root cause" LLM agent logs`, `"root cause" "single-pass" OR "one-shot" LLM agent`,
    `"prompt injection" logs agent operations`, `"small language model" "root cause"`,

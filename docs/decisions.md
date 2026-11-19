@@ -24,8 +24,8 @@ Status values: **Agreed**, **Tentative** (needs verification), **Open**.
 | D-016 | 2026-11-19 | Final contribution has four elements: controlled comparison, coverage gate, grounding validator, safety evaluation | Focused, defensible contribution | Agreed |
 | D-017 | 2026-11-19 | Research gap stays provisional until full texts of cited papers are read and relied-upon claims verified | Abstract-level checks are insufficient | Agreed |
 | D-018 | 2026-11-19 | Revised gap framing approved; contributions 3 (validator) and 4 (safety) narrowed; absence claims qualified until manual IEEE/ACM/Scholar searches and remaining full-text reads are done | Full-text review found close prior art (2310.16340, 2606.08590, 2604.15368, 2605.24421) | Agreed |
-| D-019 | 2026-11-19 | Synthetic test bed is primary for H1; RCAEval RE3 is the primary public external-validity set, with RE2 log-silent cases and Nezha as secondary | Only synthetic data gives evidence-line and propagation ground truth, strata and independence control | Proposed — awaiting approval |
-| D-020 | 2026-11-19 | Case is the statistical unit; families (shared templates) are split and used for clustered inference; per-case mean over runs; primary = family-level paired permutation test on top-1 difference; ≥ 90 test cases in ≥ 30 families | Q-012 approval; 2609.27069 checklist; power analysis | Proposed — awaiting approval |
+| D-019 | 2026-11-19 | Synthetic test bed is primary for H1; RCAEval RE3 is the primary public external-validity set, with RE2 log-silent cases and Nezha as secondary | Only synthetic data gives evidence-line and propagation ground truth, strata and independence control | Agreed |
+| D-020 | 2026-11-19 | Case is the statistical unit; families (shared templates) are split and used for clustered inference; per-case mean over runs; primary = family-level paired permutation test on top-1 difference; ≥ 90 test cases in ≥ 30 families | Q-012 approval; 2609.27069 checklist; power analysis | Agreed |
 | D-021 | 2026-11-19 | Detailed literature notes kept in `docs/literature-review.md`; PDFs kept outside Git | Q-013 approval | Agreed |
 
 ## Open questions
@@ -43,10 +43,10 @@ Status values: **Agreed**, **Tentative** (needs verification), **Open**.
 | Q-009 | A4 time box | Team | After E3 works |
 | Q-010 | Test-set size and runs per configuration, given compute budget | Team | After Q-003, Q-004 |
 | Q-011 | Revised gap framing | Student | **Closed (D-018)** |
-| Q-012 | Statistical unit of analysis | Team | **Closed (D-020, pending approval of details)** |
+| Q-012 | Statistical unit of analysis | Team | **Closed (D-020)** |
 | Q-013 | Save literature notes | Student | **Closed (D-021)** |
 | Q-014 | Manual Google Scholar / IEEE Xplore / ACM DL searches (automated access blocked) | Student | Before final gap |
-| Q-015 | Full-text read of six ★ papers (literature review Part B) | Team | Before final gap |
+| Q-015 | Full-text read of ★ papers | Team / Student | 3 of 6 done (A18–A20). Context-RCA, RCAgentOps, VerifyRCA need manual browser download (CC-BY on IEEE Xplore) |
 | Q-016 | Resolve licence conflicts (RCAEval, GAIA, Loghub) and verify OpenStack-RCA-Bench availability | Team | Before data use |
 | Q-017 | Compute budget of ~180–250 CPU hours: GPU access or reduced secondary arms | Student | Architecture approval |
 

@@ -56,8 +56,10 @@ Y = yes, P = partly, N = no.
 | Small-model RCA 2611.02416 | Qwen3-4B **fine-tuned** (DPO), vLLM | P | P | N | N | N | N | 4B beats 14B OpsAgent, but via fine-tuning and unmatched inputs |
 
 **Beyond arXiv (abstract level, not verified).** Crossref (IEEE, ACM), OpenAlex and Semantic Scholar
-searches found further candidates; six (★ in `docs/literature-review.md`, Part B) may overlap our
-elements (i), (iv), (v) or (vi) and must be read in full before the gap is final. Google Scholar,
+searches found further candidates. Three were then read in full (A18–A20: 10.21203/rs.3.rs-11401166/v1,
+2610.35767, 2609.23766); none matches evidence and token budget across an agent and a single pass.
+Three IEEE papers (Context-RCA, RCAgentOps, VerifyRCA) remain abstract-level and may overlap
+elements (iv) and (v). Google Scholar,
 IEEE Xplore, ACM DL and DBLP blocked automated access; manual searches are outstanding.
 
 **What the evidence says about element (i).** Results are mixed and none matches token budgets:
@@ -92,7 +94,8 @@ gain comes from evidence discovery or from iterative reasoning.
 2. **Coverage gate.** Code-level enforcement that a component with pre-incident problems is inspected
    before the agent may conclude. Nearest prior art: RCAgent's soft "early finalizing" warning
    (2310.16340, §3.3.2) and prompt-level exploration instructions; Context-RCA and RCAgentOps
-   (abstract level) must be checked.
+   (abstract level) must be checked. Counter-evidence: 2610.35767 reports that agents with more
+   prescribed calls scored lower (correlational), so ablation A2 may show the gate hurts.
 3. **Claim-level grounding validator (narrowed).** Not novel as a mechanism: evidence filters and
    deterministic grounding checks exist (2310.16340 §3.2.2; 2606.08590 §IV-D). Our increment is
    validating **every claim of the final diagnosis** (cited evidence IDs exist and support the
