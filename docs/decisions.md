@@ -32,6 +32,8 @@ Status values: **Agreed**, **Tentative** (needs verification), **Open**.
 | D-024 | 2026-11-19 | Exploratory test set: 60 cases / 20 families, 3 runs (5 if time); minimum arms E1, E2b, E3, A2, A3; A3 scored from E3 raw output; effect sizes and CIs only, no significance claims; other arms, public data, dashboard, Docker deferred | 13 days, CPU-only | Agreed |
 | D-025 | 2026-11-19 | Implementation on branch `logagent-rca` in new package `logagent_rca/`; prototype `agentrca/` and branch `poc-preservation` untouched | Preserve prototype | Agreed |
 | D-026 | 2026-11-19 | Ollama 0.40.16 and qwen3:8b moved to `/home/zjamgov/ollama` (blob checksums verified; old `/tmp` copy deleted); llama3.1:8b dropped | `/tmp` could be cleaned mid-experiment | Agreed |
+| D-027 | 2026-11-21 | Token counter: `tokenizers==0.23.3` + Qwen3-8B `tokenizer.json` (HF rev b968826d9c46dd6066d109eabc6255188de91218, SHA-256 aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4); verified on load; file not committed (`models/` ignored) | Q-018 approval; exact, strict B | Agreed |
+| D-028 | 2026-11-21 | Evidence accounting: canonical line `[E<n>] <ts> <SEV> <component> (<source>:<line>) <message>` + newline charged once per stable uid; block framing and prompts are overhead; repeats free for B but recorded; same ledger for E2b and E3 | User M2 requirements 1–5 | Agreed |
 
 ## Open questions
 
@@ -53,8 +55,8 @@ Status values: **Agreed**, **Tentative** (needs verification), **Open**.
 | Q-014 | Manual Google Scholar / IEEE Xplore / ACM DL searches (automated access blocked) | Student | Before final gap |
 | Q-015 | Full-text read of ★ papers | Team / Student | 3 of 6 done (A18–A20). Context-RCA, RCAgentOps, VerifyRCA need manual browser download (CC-BY on IEEE Xplore) |
 | Q-016 | Resolve licence conflicts (RCAEval, GAIA, Loghub) and verify OpenStack-RCA-Bench availability | Team | Before data use |
-| Q-017 | Compute budget of ~180–250 CPU hours: GPU access or reduced secondary arms | Student | Architecture approval |
-| Q-018 | Token counter for B: HF `tokenizers` + Qwen3 `tokenizer.json` (exact) — Ollama 0.40.16 has no tokenize endpoint | Team | Before M2 |
+| Q-017 | Compute: measured CPU prefill 22–29 tok/s; core estimate now ~43–61 h; choose reductions at pilot freeze | Student / Team | Pilot freeze (27 Nov) |
+| Q-018 | Token counter for B | Team | **Closed (D-027)**; calibration: constant +16/+21 template tokens vs Ollama |
 
 ## Mid-report review (next week)
 

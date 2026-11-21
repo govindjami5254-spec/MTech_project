@@ -1,0 +1,113 @@
+{
+  "created_at": "2026-11-21T14:20:29.619722+00:00",
+  "ollama_version": "0.40.16",
+  "model": "qwen3:8b",
+  "manifest_digest": "b3d9ba7c899cfd112df2574c6a91458a70b724c5e4e50dfffd75574b2d1648e7",
+  "num_ctx": 8192,
+  "tokenizer": {
+    "tokenizer_file": "qwen3-tokenizer.json",
+    "tokenizer_sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+    "tokenizers_version": "0.23.3",
+    "vocab_size": 151669
+  },
+  "rows": [
+    {
+      "items": 1,
+      "variant": "user_only",
+      "evidence_tokens_B": 50,
+      "framing_tokens": 16,
+      "our_text_tokens": 66,
+      "ollama_prompt_eval_count": 82,
+      "difference": 16,
+      "prompt_eval_ms": 2449,
+      "wall_s": 7.57
+    },
+    {
+      "items": 1,
+      "variant": "with_system",
+      "evidence_tokens_B": 50,
+      "framing_tokens": 16,
+      "our_text_tokens": 86,
+      "ollama_prompt_eval_count": 107,
+      "difference": 21,
+      "prompt_eval_ms": 3210,
+      "wall_s": 3.27
+    },
+    {
+      "items": 5,
+      "variant": "user_only",
+      "evidence_tokens_B": 266,
+      "framing_tokens": 16,
+      "our_text_tokens": 282,
+      "ollama_prompt_eval_count": 298,
+      "difference": 16,
+      "prompt_eval_ms": 18706,
+      "wall_s": 18.75
+    },
+    {
+      "items": 5,
+      "variant": "with_system",
+      "evidence_tokens_B": 266,
+      "framing_tokens": 16,
+      "our_text_tokens": 302,
+      "ollama_prompt_eval_count": 323,
+      "difference": 21,
+      "prompt_eval_ms": 9774,
+      "wall_s": 9.84
+    },
+    {
+      "items": 20,
+      "variant": "user_only",
+      "evidence_tokens_B": 1080,
+      "framing_tokens": 16,
+      "our_text_tokens": 1096,
+      "ollama_prompt_eval_count": 1112,
+      "difference": 16,
+      "prompt_eval_ms": 51025,
+      "wall_s": 51.09
+    },
+    {
+      "items": 20,
+      "variant": "with_system",
+      "evidence_tokens_B": 1080,
+      "framing_tokens": 16,
+      "our_text_tokens": 1116,
+      "ollama_prompt_eval_count": 1137,
+      "difference": 21,
+      "prompt_eval_ms": 54369,
+      "wall_s": 54.46
+    },
+    {
+      "items": 60,
+      "variant": "user_only",
+      "evidence_tokens_B": 3321,
+      "framing_tokens": 16,
+      "our_text_tokens": 3337,
+      "ollama_prompt_eval_count": 3353,
+      "difference": 16,
+      "prompt_eval_ms": 151981,
+      "wall_s": 152.13
+    },
+    {
+      "items": 60,
+      "variant": "with_system",
+      "evidence_tokens_B": 3321,
+      "framing_tokens": 16,
+      "our_text_tokens": 3357,
+      "ollama_prompt_eval_count": 3378,
+      "difference": 21,
+      "prompt_eval_ms": 117135,
+      "wall_s": 117.56
+    },
+    {
+      "items": 60,
+      "variant": "repeat_same_prompt",
+      "evidence_tokens_B": 3321,
+      "our_text_tokens": 3337,
+      "ollama_prompt_eval_count": 3353,
+      "difference": 16,
+      "prompt_eval_ms": 2619,
+      "wall_s": 3.01
+    }
+  ]
+}

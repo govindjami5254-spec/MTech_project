@@ -23,10 +23,13 @@ llm:
   think: false
 
 budget:
-  evidence_token_budget: 3000   # B: strict unique-evidence-token budget (calibrate in pilot)
+  evidence_token_budget: 3000   # B: DEVELOPMENT PLACEHOLDER; strict unique-evidence-token budget; set after pilot
   prompt_overhead_tokens: 1500
   token_counter: hf_tokenizer
   tokenizer_file: models/qwen3-tokenizer.json
+  tokenizer_sha256: aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4
+  tokenizer_source: https://huggingface.co/Qwen/Qwen3-8B/resolve/b968826d9c46dd6066d109eabc6255188de91218/tokenizer.json
+  tokenizers_version: "0.23.3"
 
 agent:
   max_steps: 6

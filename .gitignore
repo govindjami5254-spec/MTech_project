@@ -3,3 +3,6 @@
 __pycache__/
 *.py[cod]
 .pytest_cache/
+
+# Downloaded model artifacts (hash recorded in config)
+models/

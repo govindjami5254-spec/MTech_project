@@ -114,6 +114,11 @@ class BudgetConfig(_Section):
     prompt_overhead_tokens: Annotated[int, Field(ge=0, le=20_000)] = 1500      # system + schema + framing
     token_counter: Literal["hf_tokenizer"] = "hf_tokenizer"                     # exact model tokenizer (M2)
     tokenizer_file: Annotated[str, StringConstraints(min_length=1)] = "models/qwen3-tokenizer.json"
+    tokenizer_sha256: Annotated[str, StringConstraints(pattern=r"^[0-9a-f]{64}$")] = (
+        "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4")
+    tokenizer_source: str = ("https://huggingface.co/Qwen/Qwen3-8B/resolve/"
+                             "b968826d9c46dd6066d109eabc6255188de91218/tokenizer.json")
+    tokenizers_version: Literal["0.23.3"] = "0.23.3"
 
 
 class AgentConfig(_Section):

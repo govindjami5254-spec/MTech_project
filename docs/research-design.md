@@ -157,6 +157,16 @@ told the budget is exhausted. Total processed tokens (all prompts, including rep
 history), output tokens, latency, tool calls, CPU and memory are recorded separately. **Equal total
 compute is not claimed**; E3 is expected to process more tokens than E2b.
 
+**Token-count calibration (M2, 2026-11-21; `results/calibration/token-calibration-20261121T142029Z.json`).**
+Counter: Qwen3-8B `tokenizer.json` (HF revision b968826d…, SHA-256 aeb13307…), `tokenizers` 0.23.3.
+Against Ollama 0.40.16 / qwen3:8b (`think=false`), for prompts of 1–60 evidence items (50–3,321 evidence
+tokens), `prompt_eval_count` exceeded our exact count of the message text by a **constant** 16 tokens
+(user message only) or 21 tokens (system + user) — the chat template's special and role tokens. No
+size-dependent drift was observed. The evidence-token count B is a subset of the user text and is
+therefore never equal to `prompt_eval_count`. An identical repeated prompt reported the same
+`prompt_eval_count` but took 2.6 s instead of 152 s: Ollama reuses the cached prefix without lowering
+the reported count, so **latency, not `prompt_eval_count`, reflects caching**. Both are recorded.
+
 **Final-stage definition (makes E2-oracle meaningful).** E3's final call receives the collected
 evidence **plus** the investigation trace (tool calls, observations, gate notes). E2-oracle receives
 the same evidence **without** the trace.
@@ -310,17 +320,22 @@ reported as such.
 document and committed before test-set runs; the commit hash is cited in the dissertation. Per-case
 outputs of every arm are released (2606.29159).
 
-## 12. Compute budget [A, from prototype measurements on a 4-core CPU server]
+## 12. Compute budget (revised after M2 calibration)
 
-| Item | Estimate |
-|---|---|
-| Primary arms (E2b, E3) | 90 cases × 5 runs × 2 arms = 900 runs |
-| Other LLM arms (E2a, E2-oracle, E2-matched, A1, A2, A3, A5) | 90 × 3 × 7 = 1,890 runs (E2-matched costs k calls each) |
-| Time per run | E2 arms ~2–3 min; E3 and ablations ~6 min [M] |
-| Total synthetic test-set compute | ~180–250 hours on this CPU, excluding dev tuning, public sets and A4 |
+**Measured on this server (M2):** prompt processing ≈ 22–29 tokens/s on CPU (3,337 tokens in 152 s;
+3,357 in 118 s); cached identical prefix ≈ 2.6 s. Earlier per-run estimates (E2 ~1.5 min) were too low.
 
-Levers (decide at architecture time from measurements): shorter structured outputs, lower step limit,
-GPU access, fewer secondary arms on the public set.
+| Arm (60 cases × runs) | Assumption [A] | Per run | Total |
+|---|---|---|---|
+| E2b, 3 runs | ~3.3k prompt tokens + ~300 output tokens | ~3–3.5 min | ~10 h |
+| E3, 3 runs | Conversation prefix cached across turns; final call appended to the same conversation | ~6–9 min | ~18–27 h |
+| A2, 3 runs | As E3, fewer gate-forced steps | ~5–8 min | ~15–24 h |
+| A3 | Scored from E3 raw output | 0 | 0 |
+| **Core total** | | | **~43–61 h** |
+
+This exceeds a safe run window. Reduction options, to be chosen at the pilot freeze with measured
+per-run times: B = 2,000 instead of 3,000; A2 at 2 runs; 45 cases (15 families × 3); compact
+references for repeated evidence in E3 to keep the conversation short.
 
 ## 13. Threats to validity
 
