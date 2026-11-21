@@ -1,0 +1,38 @@
+# LogAgent-RCA development configuration (pilot calibration happens on dev families only).
+# Relative paths resolve against the working directory (run from the repository root).
+config_version: "1"
+
+data:
+  cases_dir: data/synthetic/dev/cases      # agent-accessible case bundles
+  truth_dir: data/synthetic/dev/truth      # ground truth, never passed to any arm
+
+experiment:
+  name: dev-pilot
+  split: dev
+  arms: [E1, E2b, E3, A2, A3]
+  repeats: 1
+  base_seed: 1000
+  output_dir: runs/dev
+
+llm:
+  model: qwen3:8b
+  base_url: http://127.0.0.1:11434
+  num_ctx: 8192
+  num_predict: 600
+  temperature: 0.2          # shared by all LLM arms (Q-007; confirm in pilot)
+  think: false
+
+budget:
+  evidence_token_budget: 3000   # B: strict unique-evidence-token budget (calibrate in pilot)
+  prompt_overhead_tokens: 1500
+  token_counter: hf_tokenizer
+  tokenizer_file: models/qwen3-tokenizer.json
+
+agent:
+  max_steps: 6
+  min_tool_calls: 2
+  coverage_gate: true
+  lookback_s: 600
+
+validator:
+  enabled: true

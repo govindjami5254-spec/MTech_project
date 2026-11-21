@@ -14,9 +14,8 @@ Evidence labels used in this document:
 
 ## 1. Research question
 
-**Main RQ.** Does iterative, evidence-grounded investigation using a controlled local LLM agent
-improve log-based root-cause diagnosis compared with rule-based and single-pass LLM approaches,
-when all approaches receive equivalent available evidence?
+**Main RQ (revised, D-022).** Does iterative evidence collection improve log-based RCA over a strong
+single-pass LLM when both have the same evidence-token budget?
 
 | Sub-question | Focus | Answered by |
 |---|---|---|
@@ -150,6 +149,14 @@ The pre-declared primary test is defined in Section 11.
 | Per-call context budget C | e.g. 8k tokens | Yes |
 | Total token budget T | E2: one call ≤ C; E3: ≤ T across steps | No — reported and controlled by E2-matched |
 
+**Evidence-token budget B (D-023).** B is a strict cap on the **unique evidence tokens** presented to
+the model per case: for E2b, the packed evidence; for E3, the union of all evidence lines returned by
+tools (each line counted once, when first presented), including the incident trigger. Tokens are counted
+with the model's own tokenizer. A tool result that would exceed B is truncated to fit, and the agent is
+told the budget is exhausted. Total processed tokens (all prompts, including repeated conversation
+history), output tokens, latency, tool calls, CPU and memory are recorded separately. **Equal total
+compute is not claimed**; E3 is expected to process more tokens than E2b.
+
 **Final-stage definition (makes E2-oracle meaningful).** E3's final call receives the collected
 evidence **plus** the investigation trace (tool calls, observations, gate notes). E2-oracle receives
 the same evidence **without** the trace.
@@ -277,6 +284,12 @@ cases). Sensitivity analysis: exact McNemar on per-case majority outcome (≥ 3 
 
 **Secondary.** All other arm comparisons and metrics, with Holm correction; reported per stratum.
 Public-set results reported separately, not pooled with synthetic.
+
+**Scope for the submission (D-024).** The test set is 60 cases in 20 families with 3 runs (5 if time
+permits). This is **exploratory**: about 58% power for a 15-point difference before clustering. Results
+are reported as effect sizes with 95% cluster-bootstrap CIs and permutation p-values as descriptive
+statistics; **no claim of statistical significance** is made. Minimum experiment set: E1, E2b, E3,
+A2, A3. E2a, E2-oracle, E2-matched, A1, A4, A5, public datasets, dashboard and Docker are deferred.
 
 **Sample size.** Exact McNemar power (α = 0.05) computed for planned sizes, assuming 5% of cases favour
 E2b:

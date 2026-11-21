@@ -1,0 +1,4 @@
+# LogAgent-RCA dependencies (pinned). The preserved prototype uses requirements.txt.
+pydantic==2.14.4
+pyyaml==6.0.3
+pytest==9.2.0

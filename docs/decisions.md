@@ -27,6 +27,11 @@ Status values: **Agreed**, **Tentative** (needs verification), **Open**.
 | D-019 | 2026-11-19 | Synthetic test bed is primary for H1; RCAEval RE3 is the primary public external-validity set, with RE2 log-silent cases and Nezha as secondary | Only synthetic data gives evidence-line and propagation ground truth, strata and independence control | Agreed |
 | D-020 | 2026-11-19 | Case is the statistical unit; families (shared templates) are split and used for clustered inference; per-case mean over runs; primary = family-level paired permutation test on top-1 difference; ≥ 90 test cases in ≥ 30 families | Q-012 approval; 2609.27069 checklist; power analysis | Agreed |
 | D-021 | 2026-11-19 | Detailed literature notes kept in `docs/literature-review.md`; PDFs kept outside Git | Q-013 approval | Agreed |
+| D-022 | 2026-11-19 | Research question revised: "Does iterative evidence collection improve log-based RCA over a strong single-pass LLM when both have the same evidence-token budget?" | Deadline 2 Dec; budget defined precisely | Agreed |
+| D-023 | 2026-11-19 | B = strict unique-evidence-token budget, counted with the model tokenizer; total processed tokens, latency, tool calls, CPU and memory recorded separately; equal total compute not claimed | Operational definition of "same budget" | Agreed |
+| D-024 | 2026-11-19 | Exploratory test set: 60 cases / 20 families, 3 runs (5 if time); minimum arms E1, E2b, E3, A2, A3; A3 scored from E3 raw output; effect sizes and CIs only, no significance claims; other arms, public data, dashboard, Docker deferred | 13 days, CPU-only | Agreed |
+| D-025 | 2026-11-19 | Implementation on branch `logagent-rca` in new package `logagent_rca/`; prototype `agentrca/` and branch `poc-preservation` untouched | Preserve prototype | Agreed |
+| D-026 | 2026-11-19 | Ollama 0.40.16 and qwen3:8b moved to `/home/zjamgov/ollama` (blob checksums verified; old `/tmp` copy deleted); llama3.1:8b dropped | `/tmp` could be cleaned mid-experiment | Agreed |
 
 ## Open questions
 
@@ -49,6 +54,7 @@ Status values: **Agreed**, **Tentative** (needs verification), **Open**.
 | Q-015 | Full-text read of ★ papers | Team / Student | 3 of 6 done (A18–A20). Context-RCA, RCAgentOps, VerifyRCA need manual browser download (CC-BY on IEEE Xplore) |
 | Q-016 | Resolve licence conflicts (RCAEval, GAIA, Loghub) and verify OpenStack-RCA-Bench availability | Team | Before data use |
 | Q-017 | Compute budget of ~180–250 CPU hours: GPU access or reduced secondary arms | Student | Architecture approval |
+| Q-018 | Token counter for B: HF `tokenizers` + Qwen3 `tokenizer.json` (exact) — Ollama 0.40.16 has no tokenize endpoint | Team | Before M2 |
 
 ## Mid-report review (next week)
 
