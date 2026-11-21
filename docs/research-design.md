@@ -242,6 +242,20 @@ model outcomes.
 separately from development templates (different topologies, fault families and log vocabularies),
 frozen and committed before any E3 tuning. Generator code and seeds are released.
 
+### 8.2a Frozen synthetic splits (D-029)
+
+Test split frozen at commit `a4a6c25` (generator 2.0.0) before any E3 work: 60 cases in 20 families
+(easy 3, multi-hop 4, distractor 4, over-budget 4, concurrent 2, insufficient 3 families; 3 cases each).
+Development split: 18 cases in 6 families (one per stratum). Topologies, component names and log
+vocabularies (including timestamp formats and level spellings) are disjoint between splits; the
+regeneration test reproduces both `SHA256SUMS` files byte for byte.
+
+Measured volumes (exact tokens of canonical evidence lines): every case has ~27k–83k tokens of logs, far
+above B. WARN+ evidence alone fits within B = 3,000 in all strata except over-budget (test median
+1.2k–2.4k tokens; over-budget 47k–64k). Consequently, at B = 3,000 a strong single pass can see every
+WARN+ line in 48 of 60 test cases; the iterative arm can only gain from evidence selection in the
+remaining cases or from INFO-level context. B is chosen at the pilot freeze on an arm-neutral basis (Q-019).
+
 ### 8.3 Difficulty strata
 
 easy (short cascade), multi-hop (root cause ≥ 3 hops from symptom), distractor (earlier unrelated

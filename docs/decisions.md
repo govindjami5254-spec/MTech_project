@@ -34,6 +34,7 @@ Status values: **Agreed**, **Tentative** (needs verification), **Open**.
 | D-026 | 2026-11-19 | Ollama 0.40.16 and qwen3:8b moved to `/home/zjamgov/ollama` (blob checksums verified; old `/tmp` copy deleted); llama3.1:8b dropped | `/tmp` could be cleaned mid-experiment | Agreed |
 | D-027 | 2026-11-21 | Token counter: `tokenizers==0.23.3` + Qwen3-8B `tokenizer.json` (HF rev b968826d9c46dd6066d109eabc6255188de91218, SHA-256 aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4); verified on load; file not committed (`models/` ignored) | Q-018 approval; exact, strict B | Agreed |
 | D-028 | 2026-11-21 | Evidence accounting: canonical line `[E<n>] <ts> <SEV> <component> (<source>:<line>) <message>` + newline charged once per stable uid; block framing and prompts are overhead; repeats free for B but recorded; same ledger for E2b and E3 | User M2 requirements 1–5 | Agreed |
+| D-029 | 2026-11-21 | Synthetic test split frozen at commit a4a6c25 (generator 2.0.0): 60 cases, 20 families x 3; SHA256SUMS digest 7b39d343...72ad. Dev split: 18 cases, 6 families (SHA256SUMS digest 7aaf9322...a8e1). Test templates must not be edited; any change requires a new version and is reported | Pre-registration of the test set before any E3 tuning | Agreed |
 
 ## Open questions
 
@@ -57,6 +58,7 @@ Status values: **Agreed**, **Tentative** (needs verification), **Open**.
 | Q-016 | Resolve licence conflicts (RCAEval, GAIA, Loghub) and verify OpenStack-RCA-Bench availability | Team | Before data use |
 | Q-017 | Compute: measured CPU prefill 22–29 tok/s; core estimate now ~43–61 h; choose reductions at pilot freeze | Student / Team | Pilot freeze (27 Nov) |
 | Q-018 | Token counter for B | Team | **Closed (D-027)**; calibration: constant +16/+21 template tokens vs Ollama |
+| Q-019 | At B = 3,000, only the over-budget stratum (12 of 60 test cases) has more WARN+ evidence than B; in other strata all WARN+ lines fit (median 1.1k-2.4k tokens). Choose B at the pilot freeze on a stated, arm-neutral basis (compute or a fixed fraction), not on observed arm differences | Team | Pilot freeze |
 
 ## Mid-report review (next week)
 
