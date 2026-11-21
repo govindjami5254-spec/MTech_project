@@ -1,0 +1,59 @@
+2026-01-24T13:10:51Z INFO fx-feed http request method=GET status=200 latency_ms=76 span=3d26ee56
+2026-01-24T13:11:05Z INFO fx-feed tick ok elapsed_ms=17
+2026-01-24T13:11:17Z INFO fx-feed tick ok elapsed_ms=42
+2026-01-24T13:11:27Z INFO fx-feed tick ok elapsed_ms=18
+2026-01-24T13:11:39Z INFO fx-feed http request method=GET status=200 latency_ms=33 span=672bd5bf
+2026-01-24T13:11:53Z INFO fx-feed tick ok elapsed_ms=64
+2026-01-24T13:12:05Z INFO fx-feed tick ok elapsed_ms=52
+2026-01-24T13:12:16Z INFO fx-feed tick ok elapsed_ms=17
+2026-01-24T13:12:24Z INFO fx-feed tick ok elapsed_ms=32
+2026-01-24T13:12:33Z INFO fx-feed tick ok elapsed_ms=68
+2026-01-24T13:12:45Z INFO fx-feed tick ok elapsed_ms=71
+2026-01-24T13:12:51Z INFO fx-feed tick ok elapsed_ms=55
+2026-01-24T13:12:57Z INFO fx-feed tick ok elapsed_ms=83
+2026-01-24T13:13:07Z INFO fx-feed http request method=GET status=200 latency_ms=25 span=a3351367
+2026-01-24T13:13:16Z INFO fx-feed http request method=GET status=200 latency_ms=72 span=0c34c013
+2026-01-24T13:13:24Z INFO fx-feed http request method=GET status=200 latency_ms=76 span=b6f3f170
+2026-01-24T13:13:38Z INFO fx-feed tick ok elapsed_ms=82
+2026-01-24T13:13:50Z INFO fx-feed http request method=GET status=200 latency_ms=64 span=1968a3f5
+2026-01-24T13:14:00Z INFO fx-feed http request method=GET status=200 latency_ms=85 span=c3cce25d
+2026-01-24T13:14:08Z INFO fx-feed tick ok elapsed_ms=83
+2026-01-24T13:14:16Z INFO fx-feed tick ok elapsed_ms=23
+2026-01-24T13:14:24Z INFO fx-feed tick ok elapsed_ms=15
+2026-01-24T13:14:35Z INFO fx-feed tick ok elapsed_ms=92
+2026-01-24T13:14:45Z INFO fx-feed tick ok elapsed_ms=86
+2026-01-24T13:14:56Z INFO fx-feed http request method=GET status=200 latency_ms=28 span=da1562ef
+2026-01-24T13:15:09Z INFO fx-feed http request method=GET status=200 latency_ms=14 span=8ec56d51
+2026-01-24T13:15:16Z INFO fx-feed http request method=GET status=200 latency_ms=10 span=1a22fc14
+2026-01-24T13:15:28Z INFO fx-feed tick ok elapsed_ms=61
+2026-01-24T13:15:39Z INFO fx-feed tick ok elapsed_ms=65
+2026-01-24T13:15:52Z INFO fx-feed http request method=GET status=200 latency_ms=69 span=07015dfe
+2026-01-24T13:15:53Z WARN fx-feed slow poll elapsed_ms=750
+2026-01-24T13:15:58Z INFO fx-feed http request method=GET status=200 latency_ms=28 span=b0991667
+2026-01-24T13:16:10Z INFO fx-feed http request method=GET status=200 latency_ms=23 span=45eb47fb
+2026-01-24T13:16:20Z INFO fx-feed http request method=GET status=200 latency_ms=36 span=4acb65c8
+2026-01-24T13:16:28Z INFO fx-feed tick ok elapsed_ms=32
+2026-01-24T13:16:42Z INFO fx-feed http request method=GET status=200 latency_ms=85 span=704127fa
+2026-01-24T13:16:54Z INFO fx-feed tick ok elapsed_ms=20
+2026-01-24T13:17:07Z INFO fx-feed http request method=GET status=200 latency_ms=21 span=37f3a856
+2026-01-24T13:17:13Z INFO fx-feed tick ok elapsed_ms=34
+2026-01-24T13:17:25Z INFO fx-feed tick ok elapsed_ms=57
+2026-01-24T13:17:38Z INFO fx-feed tick ok elapsed_ms=19
+2026-01-24T13:17:51Z INFO fx-feed http request method=GET status=200 latency_ms=47 span=3a87112c
+2026-01-24T13:18:05Z INFO fx-feed tick ok elapsed_ms=48
+2026-01-24T13:18:15Z INFO fx-feed http request method=GET status=200 latency_ms=95 span=816a43d2
+2026-01-24T13:18:24Z INFO fx-feed http request method=GET status=200 latency_ms=56 span=935842c0
+2026-01-24T13:18:31Z INFO fx-feed tick ok elapsed_ms=75
+2026-01-24T13:18:44Z INFO fx-feed tick ok elapsed_ms=85
+2026-01-24T13:18:52Z INFO fx-feed tick ok elapsed_ms=72
+2026-01-24T13:19:05Z INFO fx-feed tick ok elapsed_ms=20
+2026-01-24T13:19:12Z INFO fx-feed http request method=GET status=200 latency_ms=44 span=a29c2f5e
+2026-01-24T13:19:21Z INFO fx-feed tick ok elapsed_ms=25
+2026-01-24T13:19:30Z INFO fx-feed http request method=GET status=200 latency_ms=75 span=706ff639
+2026-01-24T13:19:37Z INFO fx-feed http request method=GET status=200 latency_ms=11 span=fb098e01
+2026-01-24T13:19:51Z INFO fx-feed http request method=GET status=200 latency_ms=38 span=8f953a77
+2026-01-24T13:20:00Z INFO fx-feed tick ok elapsed_ms=57
+2026-01-24T13:20:13Z INFO fx-feed http request method=GET status=200 latency_ms=72 span=f7767176
+2026-01-24T13:20:21Z INFO fx-feed tick ok elapsed_ms=25
+2026-01-24T13:20:29Z INFO fx-feed tick ok elapsed_ms=94
+2026-01-24T13:20:41Z INFO fx-feed tick ok elapsed_ms=77

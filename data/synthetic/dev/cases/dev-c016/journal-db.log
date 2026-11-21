@@ -1,0 +1,67 @@
+2026-01-24 11:13:22,563 INFO journal-db handled request rid=4253c625 status=200 dur=35ms
+2026-01-24 11:13:29,654 INFO journal-db ping ok latency=79ms
+2026-01-24 11:13:43,257 INFO journal-db ping ok latency=50ms
+2026-01-24 11:13:54,854 INFO journal-db handled request rid=9b951586 status=200 dur=56ms
+2026-01-24 11:14:03,130 INFO journal-db ping ok latency=63ms
+2026-01-24 11:14:15,904 INFO journal-db ping ok latency=17ms
+2026-01-24 11:14:16,000 WARNING journal-db retry budget low on client pool
+2026-01-24 11:14:22,842 INFO journal-db handled request rid=55daca00 status=200 dur=63ms
+2026-01-24 11:14:30,565 INFO journal-db handled request rid=82c4e431 status=200 dur=61ms
+2026-01-24 11:14:44,407 INFO journal-db ping ok latency=80ms
+2026-01-24 11:14:51,334 INFO journal-db handled request rid=1ca5e6b2 status=200 dur=73ms
+2026-01-24 11:14:58,944 INFO journal-db handled request rid=122bde41 status=200 dur=54ms
+2026-01-24 11:15:06,349 INFO journal-db handled request rid=140bf059 status=200 dur=50ms
+2026-01-24 11:15:16,234 INFO journal-db handled request rid=460e138a status=200 dur=13ms
+2026-01-24 11:15:26,772 INFO journal-db ping ok latency=14ms
+2026-01-24 11:15:36,346 INFO journal-db handled request rid=30545eb2 status=200 dur=88ms
+2026-01-24 11:15:50,025 INFO journal-db handled request rid=a74c6b3e status=200 dur=77ms
+2026-01-24 11:15:57,939 INFO journal-db handled request rid=cd770d3d status=200 dur=26ms
+2026-01-24 11:15:58,000 WARNING journal-db retry budget low on client pool
+2026-01-24 11:16:08,805 INFO journal-db handled request rid=077de5e0 status=200 dur=69ms
+2026-01-24 11:16:14,073 INFO journal-db ping ok latency=46ms
+2026-01-24 11:16:28,527 INFO journal-db ping ok latency=16ms
+2026-01-24 11:16:38,177 INFO journal-db handled request rid=775e277e status=200 dur=71ms
+2026-01-24 11:16:39,000 WARNING journal-db slow handler rid=587558b3 dur=760ms
+2026-01-24 11:16:45,248 INFO journal-db ping ok latency=33ms
+2026-01-24 11:16:54,412 INFO journal-db handled request rid=7e72b6df status=200 dur=44ms
+2026-01-24 11:17:02,542 INFO journal-db handled request rid=69679fc9 status=200 dur=70ms
+2026-01-24 11:17:11,515 INFO journal-db ping ok latency=10ms
+2026-01-24 11:17:17,682 INFO journal-db ping ok latency=15ms
+2026-01-24 11:17:30,079 INFO journal-db ping ok latency=72ms
+2026-01-24 11:17:42,877 INFO journal-db ping ok latency=62ms
+2026-01-24 11:17:52,095 INFO journal-db ping ok latency=79ms
+2026-01-24 11:18:03,811 INFO journal-db ping ok latency=27ms
+2026-01-24 11:18:10,545 INFO journal-db handled request rid=b05fded9 status=200 dur=37ms
+2026-01-24 11:18:18,947 INFO journal-db handled request rid=93e4a867 status=200 dur=36ms
+2026-01-24 11:18:31,009 INFO journal-db handled request rid=93982052 status=200 dur=47ms
+2026-01-24 11:18:44,888 INFO journal-db handled request rid=93d36f07 status=200 dur=46ms
+2026-01-24 11:18:50,070 INFO journal-db ping ok latency=93ms
+2026-01-24 11:19:00,857 INFO journal-db handled request rid=87ce1811 status=200 dur=28ms
+2026-01-24 11:19:11,575 INFO journal-db handled request rid=d1160fee status=200 dur=68ms
+2026-01-24 11:19:20,419 INFO journal-db handled request rid=803934da status=200 dur=10ms
+2026-01-24 11:19:26,574 INFO journal-db handled request rid=99adb1b4 status=200 dur=54ms
+2026-01-24 11:19:40,887 INFO journal-db ping ok latency=63ms
+2026-01-24 11:19:46,911 INFO journal-db handled request rid=8a9461f1 status=200 dur=82ms
+2026-01-24 11:19:55,032 INFO journal-db handled request rid=8a42dd9a status=200 dur=51ms
+2026-01-24 11:20:06,139 INFO journal-db ping ok latency=35ms
+2026-01-24 11:20:17,784 INFO journal-db ping ok latency=16ms
+2026-01-24 11:20:26,711 INFO journal-db handled request rid=bb2c52a7 status=200 dur=30ms
+2026-01-24 11:20:36,794 INFO journal-db ping ok latency=39ms
+2026-01-24 11:20:50,692 INFO journal-db ping ok latency=19ms
+2026-01-24 11:20:59,610 INFO journal-db handled request rid=f0ff436f status=200 dur=94ms
+2026-01-24 11:21:05,614 INFO journal-db handled request rid=c188d4e3 status=200 dur=60ms
+2026-01-24 11:21:12,000 INFO journal-db ping ok latency=84ms
+2026-01-24 11:21:21,601 INFO journal-db ping ok latency=95ms
+2026-01-24 11:21:27,189 INFO journal-db ping ok latency=65ms
+2026-01-24 11:21:33,034 INFO journal-db handled request rid=1166e49f status=200 dur=60ms
+2026-01-24 11:21:34,000 WARNING journal-db retry budget low on client pool
+2026-01-24 11:21:39,659 INFO journal-db ping ok latency=83ms
+2026-01-24 11:21:47,335 INFO journal-db ping ok latency=95ms
+2026-01-24 11:21:54,583 INFO journal-db handled request rid=32d6f623 status=200 dur=53ms
+2026-01-24 11:22:08,120 INFO journal-db handled request rid=e5826741 status=200 dur=61ms
+2026-01-24 11:22:21,392 INFO journal-db handled request rid=4aab99b9 status=200 dur=64ms
+2026-01-24 11:22:34,685 INFO journal-db handled request rid=5354e8f4 status=200 dur=92ms
+2026-01-24 11:22:45,085 INFO journal-db handled request rid=4620657b status=200 dur=76ms
+2026-01-24 11:22:55,163 INFO journal-db ping ok latency=36ms
+2026-01-24 11:23:02,804 INFO journal-db handled request rid=66f5ae9c status=200 dur=15ms
+2026-01-24 11:23:16,213 INFO journal-db handled request rid=57c465b5 status=200 dur=61ms

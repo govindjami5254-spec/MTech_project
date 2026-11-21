@@ -1,0 +1,69 @@
+2026-01-18 13:46:56,579 INFO session-svc handled request rid=2794b7f0 status=200 dur=75ms
+2026-01-18 13:47:09,277 INFO session-svc handled request rid=397604ac status=200 dur=72ms
+2026-01-18 13:47:22,440 INFO session-svc handled request rid=24197749 status=200 dur=38ms
+2026-01-18 13:47:29,833 INFO session-svc ping ok latency=17ms
+2026-01-18 13:47:39,545 INFO session-svc handled request rid=34587c88 status=200 dur=89ms
+2026-01-18 13:47:48,995 INFO session-svc handled request rid=4a592eb3 status=200 dur=26ms
+2026-01-18 13:47:54,406 INFO session-svc handled request rid=bdf1a16a status=200 dur=73ms
+2026-01-18 13:47:55,000 WARNING session-svc retry budget low on client pool
+2026-01-18 13:48:04,681 INFO session-svc handled request rid=2ee3ecc7 status=200 dur=70ms
+2026-01-18 13:48:16,470 INFO session-svc handled request rid=928b9ecf status=200 dur=33ms
+2026-01-18 13:48:22,109 INFO session-svc ping ok latency=77ms
+2026-01-18 13:48:34,801 INFO session-svc ping ok latency=29ms
+2026-01-18 13:48:41,222 INFO session-svc handled request rid=f0d416f0 status=200 dur=88ms
+2026-01-18 13:48:49,631 INFO session-svc handled request rid=eaf8e614 status=200 dur=48ms
+2026-01-18 13:49:03,383 INFO session-svc handled request rid=399c6974 status=200 dur=33ms
+2026-01-18 13:49:15,304 INFO session-svc ping ok latency=26ms
+2026-01-18 13:49:22,540 INFO session-svc handled request rid=381fdb93 status=200 dur=56ms
+2026-01-18 13:49:23,000 WARNING session-svc slow handler rid=be2af287 dur=640ms
+2026-01-18 13:49:36,922 INFO session-svc handled request rid=ed02139a status=200 dur=59ms
+2026-01-18 13:49:45,639 INFO session-svc ping ok latency=95ms
+2026-01-18 13:49:51,881 INFO session-svc ping ok latency=46ms
+2026-01-18 13:50:00,768 INFO session-svc ping ok latency=53ms
+2026-01-18 13:50:06,005 INFO session-svc ping ok latency=92ms
+2026-01-18 13:50:12,828 INFO session-svc handled request rid=a4b6e2da status=200 dur=43ms
+2026-01-18 13:50:22,445 INFO session-svc handled request rid=054d7a69 status=200 dur=20ms
+2026-01-18 13:50:23,436 ERROR session-svc leader election lost for cron lock, re-electing
+2026-01-18 13:50:32,021 INFO session-svc ping ok latency=13ms
+2026-01-18 13:50:34,410 ERROR session-svc leader election lost for cron lock, re-electing
+2026-01-18 13:50:40,094 INFO session-svc ping ok latency=16ms
+2026-01-18 13:50:52,221 INFO session-svc handled request rid=70cd960d status=200 dur=85ms
+2026-01-18 13:50:58,387 INFO session-svc handled request rid=3a2da8f0 status=200 dur=62ms
+2026-01-18 13:51:05,597 INFO session-svc handled request rid=433b7339 status=200 dur=73ms
+2026-01-18 13:51:18,115 INFO session-svc ping ok latency=49ms
+2026-01-18 13:51:24,522 INFO session-svc ping ok latency=92ms
+2026-01-18 13:51:31,669 INFO session-svc ping ok latency=37ms
+2026-01-18 13:51:38,716 INFO session-svc handled request rid=168e81a3 status=200 dur=43ms
+2026-01-18 13:51:44,856 INFO session-svc handled request rid=a56dc900 status=200 dur=75ms
+2026-01-18 13:51:52,541 INFO session-svc ping ok latency=95ms
+2026-01-18 13:52:01,469 INFO session-svc ping ok latency=36ms
+2026-01-18 13:52:11,311 INFO session-svc handled request rid=9cf1c4e3 status=200 dur=32ms
+2026-01-18 13:52:24,693 INFO session-svc handled request rid=ac2e620e status=200 dur=86ms
+2026-01-18 13:52:30,082 INFO session-svc ping ok latency=95ms
+2026-01-18 13:52:42,571 INFO session-svc handled request rid=7b116c99 status=200 dur=19ms
+2026-01-18 13:52:52,554 INFO session-svc handled request rid=bd33ae87 status=200 dur=9ms
+2026-01-18 13:53:02,786 INFO session-svc ping ok latency=68ms
+2026-01-18 13:53:16,783 INFO session-svc ping ok latency=74ms
+2026-01-18 13:53:30,757 INFO session-svc ping ok latency=13ms
+2026-01-18 13:53:31,000 WARNING session-svc slow handler rid=16ccc86d dur=510ms
+2026-01-18 13:53:39,049 INFO session-svc handled request rid=99703f73 status=200 dur=54ms
+2026-01-18 13:53:51,599 INFO session-svc ping ok latency=63ms
+2026-01-18 13:53:57,246 INFO session-svc handled request rid=cc6c6595 status=200 dur=33ms
+2026-01-18 13:54:06,639 INFO session-svc ping ok latency=12ms
+2026-01-18 13:54:14,754 INFO session-svc ping ok latency=78ms
+2026-01-18 13:54:22,128 INFO session-svc ping ok latency=73ms
+2026-01-18 13:54:33,172 INFO session-svc ping ok latency=59ms
+2026-01-18 13:54:44,582 INFO session-svc handled request rid=20d7e73d status=200 dur=70ms
+2026-01-18 13:54:52,259 INFO session-svc ping ok latency=89ms
+2026-01-18 13:55:00,927 INFO session-svc ping ok latency=91ms
+2026-01-18 13:55:09,794 INFO session-svc ping ok latency=73ms
+2026-01-18 13:55:16,029 INFO session-svc handled request rid=48f6e32c status=200 dur=66ms
+2026-01-18 13:55:23,441 INFO session-svc handled request rid=a5497200 status=200 dur=69ms
+2026-01-18 13:55:31,380 INFO session-svc handled request rid=cfe6ef12 status=200 dur=21ms
+2026-01-18 13:55:43,367 INFO session-svc ping ok latency=70ms
+2026-01-18 13:55:53,965 INFO session-svc ping ok latency=34ms
+2026-01-18 13:56:05,643 INFO session-svc ping ok latency=14ms
+2026-01-18 13:56:13,785 INFO session-svc ping ok latency=51ms
+2026-01-18 13:56:20,664 INFO session-svc ping ok latency=81ms
+2026-01-18 13:56:28,412 INFO session-svc handled request rid=f559c02c status=200 dur=75ms
+2026-01-18 13:56:40,881 INFO session-svc handled request rid=99e31075 status=200 dur=20ms

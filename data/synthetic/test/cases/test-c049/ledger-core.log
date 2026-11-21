@@ -1,0 +1,65 @@
+2026-01-27T15:53:19.447+05:30 info ledger-core served GET /api status=200 in 15ms trace=6e3878dc
+2026-01-27T15:53:33.173+05:30 info ledger-core served GET /api status=200 in 31ms trace=c45fdd57
+2026-01-27T15:53:47.239+05:30 info ledger-core event loop lag 72ms ok
+2026-01-27T15:53:55.513+05:30 info ledger-core served GET /api status=200 in 54ms trace=2586f922
+2026-01-27T15:54:08.948+05:30 info ledger-core event loop lag 30ms ok
+2026-01-27T15:54:22.598+05:30 info ledger-core event loop lag 18ms ok
+2026-01-27T15:54:31.586+05:30 info ledger-core served GET /api status=200 in 94ms trace=6ad48806
+2026-01-27T15:54:40.760+05:30 info ledger-core event loop lag 71ms ok
+2026-01-27T15:54:46.486+05:30 info ledger-core event loop lag 11ms ok
+2026-01-27T15:55:00.267+05:30 info ledger-core served GET /api status=200 in 10ms trace=3f67f1e2
+2026-01-27T15:55:07.173+05:30 info ledger-core served GET /api status=200 in 12ms trace=214bac07
+2026-01-27T15:55:21.832+05:30 info ledger-core served GET /api status=200 in 45ms trace=f943aee0
+2026-01-27T15:55:27.330+05:30 info ledger-core event loop lag 20ms ok
+2026-01-27T15:55:38.870+05:30 info ledger-core served GET /api status=200 in 65ms trace=df40fef6
+2026-01-27T15:55:47.767+05:30 info ledger-core event loop lag 50ms ok
+2026-01-27T15:55:58.287+05:30 info ledger-core served GET /api status=200 in 66ms trace=079aba2a
+2026-01-27T15:56:06.590+05:30 info ledger-core event loop lag 67ms ok
+2026-01-27T15:56:14.959+05:30 info ledger-core served GET /api status=200 in 25ms trace=8ca249bb
+2026-01-27T15:56:28.053+05:30 info ledger-core event loop lag 82ms ok
+2026-01-27T15:56:39.232+05:30 info ledger-core served GET /api status=200 in 16ms trace=90e10ef2
+2026-01-27T15:56:48.246+05:30 info ledger-core served GET /api status=200 in 34ms trace=a039f9bb
+2026-01-27T15:57:02.768+05:30 info ledger-core event loop lag 55ms ok
+2026-01-27T15:57:08.212+05:30 info ledger-core event loop lag 18ms ok
+2026-01-27T15:57:15.376+05:30 info ledger-core served GET /api status=200 in 9ms trace=8d45c7ab
+2026-01-27T15:57:21.236+05:30 info ledger-core event loop lag 27ms ok
+2026-01-27T15:57:35.074+05:30 info ledger-core event loop lag 40ms ok
+2026-01-27T15:57:41.501+05:30 info ledger-core served GET /api status=200 in 66ms trace=a0bc783d
+2026-01-27T15:57:42.345+05:30 warn ledger-core pg pool waiting clients 76
+2026-01-27T15:57:47.644+05:30 info ledger-core served GET /api status=200 in 30ms trace=c6eadb12
+2026-01-27T15:58:01.603+05:30 info ledger-core served GET /api status=200 in 50ms trace=79b130a6
+2026-01-27T15:58:07.020+05:30 info ledger-core event loop lag 16ms ok
+2026-01-27T15:58:12.136+05:30 error ledger-core Error: timeout exceeded when trying to connect (pool exhausted)
+2026-01-27T15:58:17.384+05:30 error ledger-core dropping requests: database pool exhausted
+2026-01-27T15:58:21.359+05:30 info ledger-core event loop lag 79ms ok
+2026-01-27T15:58:27.957+05:30 info ledger-core served GET /api status=200 in 14ms trace=64fb332d
+2026-01-27T15:58:33.101+05:30 info ledger-core served GET /api status=200 in 24ms trace=bdac268c
+2026-01-27T15:58:40.337+05:30 info ledger-core served GET /api status=200 in 58ms trace=7a385f4e
+2026-01-27T15:58:53.882+05:30 info ledger-core served GET /api status=200 in 30ms trace=026dbdd4
+2026-01-27T15:59:06.190+05:30 info ledger-core event loop lag 21ms ok
+2026-01-27T15:59:15.091+05:30 info ledger-core event loop lag 79ms ok
+2026-01-27T15:59:21.893+05:30 info ledger-core event loop lag 19ms ok
+2026-01-27T15:59:32.672+05:30 info ledger-core served GET /api status=200 in 65ms trace=242977b0
+2026-01-27T15:59:46.300+05:30 info ledger-core served GET /api status=200 in 80ms trace=9c3a3951
+2026-01-27T15:59:57.509+05:30 info ledger-core event loop lag 79ms ok
+2026-01-27T16:00:05.400+05:30 info ledger-core served GET /api status=200 in 17ms trace=4f6c0caa
+2026-01-27T16:00:12.767+05:30 info ledger-core served GET /api status=200 in 64ms trace=8ea4be06
+2026-01-27T16:00:22.226+05:30 info ledger-core event loop lag 25ms ok
+2026-01-27T16:00:30.971+05:30 info ledger-core served GET /api status=200 in 37ms trace=478667c4
+2026-01-27T16:00:40.980+05:30 info ledger-core event loop lag 44ms ok
+2026-01-27T16:00:46.491+05:30 info ledger-core event loop lag 93ms ok
+2026-01-27T16:00:58.730+05:30 info ledger-core served GET /api status=200 in 16ms trace=4204cfa8
+2026-01-27T16:01:10.228+05:30 info ledger-core served GET /api status=200 in 72ms trace=e8ad4d92
+2026-01-27T16:01:17.171+05:30 info ledger-core event loop lag 66ms ok
+2026-01-27T16:01:29.920+05:30 info ledger-core served GET /api status=200 in 41ms trace=0ff3ad63
+2026-01-27T16:01:38.263+05:30 info ledger-core served GET /api status=200 in 52ms trace=fb7492aa
+2026-01-27T16:01:50.316+05:30 info ledger-core served GET /api status=200 in 26ms trace=98f47071
+2026-01-27T16:02:04.958+05:30 info ledger-core served GET /api status=200 in 22ms trace=7030b584
+2026-01-27T16:02:14.069+05:30 info ledger-core served GET /api status=200 in 75ms trace=d63aff0e
+2026-01-27T16:02:28.719+05:30 info ledger-core served GET /api status=200 in 86ms trace=9af303ae
+2026-01-27T16:02:35.177+05:30 info ledger-core served GET /api status=200 in 54ms trace=7d49046a
+2026-01-27T16:02:42.074+05:30 info ledger-core event loop lag 17ms ok
+2026-01-27T16:02:48.269+05:30 info ledger-core event loop lag 28ms ok
+2026-01-27T16:02:55.318+05:30 info ledger-core served GET /api status=200 in 23ms trace=f7ae5bef
+2026-01-27T16:03:04.334+05:30 info ledger-core served GET /api status=200 in 39ms trace=ec7a9d30
+2026-01-27T16:03:13.637+05:30 info ledger-core served GET /api status=200 in 60ms trace=60533f00

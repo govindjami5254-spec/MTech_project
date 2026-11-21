@@ -1,0 +1,60 @@
+2026-02-10T18:01:24.275+05:30 info profile-db event loop lag 84ms ok
+2026-02-10T18:01:32.332+05:30 info profile-db event loop lag 10ms ok
+2026-02-10T18:01:41.376+05:30 info profile-db served GET /api status=200 in 60ms trace=b45c487e
+2026-02-10T18:01:54.677+05:30 info profile-db served GET /api status=200 in 18ms trace=40dff08c
+2026-02-10T18:02:07.632+05:30 info profile-db event loop lag 71ms ok
+2026-02-10T18:02:13.660+05:30 info profile-db served GET /api status=200 in 52ms trace=87fdbfc8
+2026-02-10T18:02:21.049+05:30 info profile-db served GET /api status=200 in 21ms trace=9fd6217f
+2026-02-10T18:02:35.165+05:30 info profile-db event loop lag 66ms ok
+2026-02-10T18:02:46.177+05:30 info profile-db event loop lag 74ms ok
+2026-02-10T18:02:57.154+05:30 info profile-db event loop lag 93ms ok
+2026-02-10T18:03:08.166+05:30 info profile-db served GET /api status=200 in 30ms trace=e6eac642
+2026-02-10T18:03:19.486+05:30 info profile-db served GET /api status=200 in 24ms trace=28184496
+2026-02-10T18:03:28.838+05:30 info profile-db served GET /api status=200 in 81ms trace=2dc6b45a
+2026-02-10T18:03:42.747+05:30 info profile-db served GET /api status=200 in 83ms trace=22104d66
+2026-02-10T18:03:51.565+05:30 info profile-db event loop lag 88ms ok
+2026-02-10T18:03:57.922+05:30 info profile-db served GET /api status=200 in 83ms trace=6003ddc8
+2026-02-10T18:04:11.818+05:30 info profile-db event loop lag 76ms ok
+2026-02-10T18:04:23.094+05:30 info profile-db served GET /api status=200 in 37ms trace=dfaba8d6
+2026-02-10T18:04:33.980+05:30 info profile-db event loop lag 87ms ok
+2026-02-10T18:04:39.601+05:30 info profile-db served GET /api status=200 in 40ms trace=ad33d55e
+2026-02-10T18:04:45.854+05:30 info profile-db event loop lag 39ms ok
+2026-02-10T18:04:51.756+05:30 info profile-db served GET /api status=200 in 61ms trace=8eca2f54
+2026-02-10T18:04:57.147+05:30 info profile-db served GET /api status=200 in 64ms trace=46ce6472
+2026-02-10T18:05:11.294+05:30 info profile-db event loop lag 25ms ok
+2026-02-10T18:05:19.833+05:30 info profile-db event loop lag 38ms ok
+2026-02-10T18:05:20.000+05:30 warn profile-db unhandled header x-legacy ignored trace=5e64444e
+2026-02-10T18:05:28.041+05:30 info profile-db served GET /api status=200 in 52ms trace=90c8eaa2
+2026-02-10T18:05:34.219+05:30 info profile-db served GET /api status=200 in 59ms trace=10faa475
+2026-02-10T18:05:43.374+05:30 info profile-db event loop lag 74ms ok
+2026-02-10T18:05:56.834+05:30 info profile-db served GET /api status=200 in 83ms trace=c4e21678
+2026-02-10T18:06:03.009+05:30 info profile-db event loop lag 77ms ok
+2026-02-10T18:06:12.437+05:30 info profile-db event loop lag 54ms ok
+2026-02-10T18:06:23.298+05:30 info profile-db served GET /api status=200 in 23ms trace=d88bba83
+2026-02-10T18:06:34.445+05:30 info profile-db event loop lag 20ms ok
+2026-02-10T18:06:46.312+05:30 info profile-db event loop lag 91ms ok
+2026-02-10T18:06:58.316+05:30 info profile-db event loop lag 82ms ok
+2026-02-10T18:07:08.827+05:30 info profile-db served GET /api status=200 in 70ms trace=e4fffd1e
+2026-02-10T18:07:15.544+05:30 info profile-db event loop lag 51ms ok
+2026-02-10T18:07:24.110+05:30 info profile-db served GET /api status=200 in 16ms trace=c76af0f2
+2026-02-10T18:07:37.842+05:30 info profile-db served GET /api status=200 in 84ms trace=2fe7e5c8
+2026-02-10T18:07:50.180+05:30 info profile-db event loop lag 85ms ok
+2026-02-10T18:08:00.487+05:30 info profile-db served GET /api status=200 in 15ms trace=8b4509be
+2026-02-10T18:08:11.008+05:30 info profile-db served GET /api status=200 in 23ms trace=1e68f345
+2026-02-10T18:08:19.911+05:30 info profile-db served GET /api status=200 in 51ms trace=62e7787c
+2026-02-10T18:08:26.555+05:30 info profile-db event loop lag 18ms ok
+2026-02-10T18:08:38.579+05:30 info profile-db event loop lag 64ms ok
+2026-02-10T18:08:51.803+05:30 info profile-db served GET /api status=200 in 52ms trace=4dcf14c6
+2026-02-10T18:09:04.285+05:30 info profile-db served GET /api status=200 in 90ms trace=4310097e
+2026-02-10T18:09:12.334+05:30 info profile-db served GET /api status=200 in 67ms trace=dedce160
+2026-02-10T18:09:24.930+05:30 info profile-db event loop lag 24ms ok
+2026-02-10T18:09:31.138+05:30 info profile-db served GET /api status=200 in 69ms trace=213a3d1d
+2026-02-10T18:09:42.500+05:30 info profile-db event loop lag 45ms ok
+2026-02-10T18:09:56.490+05:30 info profile-db served GET /api status=200 in 35ms trace=f1c832b4
+2026-02-10T18:10:05.274+05:30 info profile-db served GET /api status=200 in 68ms trace=10e0ce52
+2026-02-10T18:10:19.709+05:30 info profile-db event loop lag 49ms ok
+2026-02-10T18:10:29.348+05:30 info profile-db served GET /api status=200 in 52ms trace=ad0dfa44
+2026-02-10T18:10:43.111+05:30 info profile-db served GET /api status=200 in 79ms trace=028953ee
+2026-02-10T18:10:55.313+05:30 info profile-db event loop lag 22ms ok
+2026-02-10T18:11:05.866+05:30 info profile-db event loop lag 49ms ok
+2026-02-10T18:11:11.268+05:30 info profile-db served GET /api status=200 in 60ms trace=bef421a9

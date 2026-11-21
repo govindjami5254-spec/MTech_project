@@ -1,0 +1,288 @@
+2026-02-04T13:00:41Z INFO fx-feed http request method=GET status=200 latency_ms=30 span=a18f72ab
+2026-02-04T13:00:54Z INFO fx-feed tick ok elapsed_ms=40
+2026-02-04T13:01:03Z WARN fx-feed fx rate feed stale by 260ms
+2026-02-04T13:01:04Z WARN fx-feed report generation behind schedule by 0s
+2026-02-04T13:01:07Z INFO fx-feed tick ok elapsed_ms=21
+2026-02-04T13:01:07Z WARN fx-feed fx rate feed stale by 940ms
+2026-02-04T13:01:09Z WARN fx-feed fx rate feed stale by 550ms
+2026-02-04T13:01:11Z WARN fx-feed report generation behind schedule by 0s
+2026-02-04T13:01:13Z WARN fx-feed fx rate feed stale by 770ms
+2026-02-04T13:01:14Z INFO fx-feed tick ok elapsed_ms=42
+2026-02-04T13:01:17Z WARN fx-feed fx rate feed stale by 910ms
+2026-02-04T13:01:20Z WARN fx-feed report generation behind schedule by 0s
+2026-02-04T13:01:23Z WARN fx-feed report generation behind schedule by 0s
+2026-02-04T13:01:25Z INFO fx-feed tick ok elapsed_ms=68
+2026-02-04T13:01:26Z WARN fx-feed fx rate feed stale by 200ms
+2026-02-04T13:01:27Z WARN fx-feed report generation behind schedule by 0s
+2026-02-04T13:01:29Z WARN fx-feed fx rate feed stale by 910ms
+2026-02-04T13:01:31Z INFO fx-feed tick ok elapsed_ms=40
+2026-02-04T13:01:32Z WARN fx-feed fx rate feed stale by 650ms
+2026-02-04T13:01:34Z WARN fx-feed report generation behind schedule by 0s
+2026-02-04T13:01:36Z WARN fx-feed fx rate feed stale by 240ms
+2026-02-04T13:01:39Z WARN fx-feed fx rate feed stale by 480ms
+2026-02-04T13:01:40Z WARN fx-feed report generation behind schedule by 0s
+2026-02-04T13:01:41Z INFO fx-feed tick ok elapsed_ms=89
+2026-02-04T13:01:42Z WARN fx-feed report generation behind schedule by 0s
+2026-02-04T13:01:45Z WARN fx-feed report generation behind schedule by 0s
+2026-02-04T13:01:48Z WARN fx-feed report generation behind schedule by 0s
+2026-02-04T13:01:50Z WARN fx-feed fx rate feed stale by 280ms
+2026-02-04T13:01:52Z INFO fx-feed tick ok elapsed_ms=26
+2026-02-04T13:01:53Z WARN fx-feed fx rate feed stale by 660ms
+2026-02-04T13:01:56Z WARN fx-feed fx rate feed stale by 760ms
+2026-02-04T13:02:00Z WARN fx-feed report generation behind schedule by 0s
+2026-02-04T13:02:02Z WARN fx-feed fx rate feed stale by 580ms
+2026-02-04T13:02:04Z WARN fx-feed report generation behind schedule by 0s
+2026-02-04T13:02:05Z INFO fx-feed tick ok elapsed_ms=30
+2026-02-04T13:02:08Z WARN fx-feed fx rate feed stale by 310ms
+2026-02-04T13:02:11Z WARN fx-feed fx rate feed stale by 850ms
+2026-02-04T13:02:13Z WARN fx-feed fx rate feed stale by 150ms
+2026-02-04T13:02:16Z INFO fx-feed tick ok elapsed_ms=27
+2026-02-04T13:02:16Z WARN fx-feed report generation behind schedule by 0s
+2026-02-04T13:02:19Z WARN fx-feed fx rate feed stale by 270ms
+2026-02-04T13:02:22Z WARN fx-feed report generation behind schedule by 0s
+2026-02-04T13:02:25Z WARN fx-feed report generation behind schedule by 0s
+2026-02-04T13:02:28Z WARN fx-feed fx rate feed stale by 290ms
+2026-02-04T13:02:30Z INFO fx-feed tick ok elapsed_ms=45
+2026-02-04T13:02:30Z WARN fx-feed report generation behind schedule by 0s
+2026-02-04T13:02:33Z WARN fx-feed fx rate feed stale by 700ms
+2026-02-04T13:02:36Z WARN fx-feed report generation behind schedule by 0s
+2026-02-04T13:02:38Z WARN fx-feed fx rate feed stale by 170ms
+2026-02-04T13:02:40Z INFO fx-feed tick ok elapsed_ms=10
+2026-02-04T13:02:41Z WARN fx-feed report generation behind schedule by 0s
+2026-02-04T13:02:44Z WARN fx-feed report generation behind schedule by 0s
+2026-02-04T13:02:46Z INFO fx-feed http request method=GET status=200 latency_ms=64 span=09f5d6e2
+2026-02-04T13:02:47Z WARN fx-feed report generation behind schedule by 0s
+2026-02-04T13:02:50Z WARN fx-feed report generation behind schedule by 0s
+2026-02-04T13:02:53Z WARN fx-feed fx rate feed stale by 160ms
+2026-02-04T13:02:56Z WARN fx-feed report generation behind schedule by 0s
+2026-02-04T13:02:57Z INFO fx-feed http request method=GET status=200 latency_ms=12 span=1ba9add9
+2026-02-04T13:02:58Z WARN fx-feed report generation behind schedule by 0s
+2026-02-04T13:03:01Z WARN fx-feed report generation behind schedule by 0s
+2026-02-04T13:03:03Z WARN fx-feed fx rate feed stale by 80ms
+2026-02-04T13:03:05Z INFO fx-feed http request method=GET status=200 latency_ms=90 span=8ea08b24
+2026-02-04T13:03:05Z WARN fx-feed report generation behind schedule by 0s
+2026-02-04T13:03:07Z WARN fx-feed report generation behind schedule by 0s
+2026-02-04T13:03:10Z WARN fx-feed report generation behind schedule by 0s
+2026-02-04T13:03:13Z WARN fx-feed report generation behind schedule by 0s
+2026-02-04T13:03:16Z WARN fx-feed fx rate feed stale by 260ms
+2026-02-04T13:03:17Z INFO fx-feed tick ok elapsed_ms=73
+2026-02-04T13:03:18Z WARN fx-feed report generation behind schedule by 0s
+2026-02-04T13:03:21Z WARN fx-feed report generation behind schedule by 0s
+2026-02-04T13:03:24Z WARN fx-feed report generation behind schedule by 0s
+2026-02-04T13:03:27Z WARN fx-feed fx rate feed stale by 460ms
+2026-02-04T13:03:29Z INFO fx-feed tick ok elapsed_ms=31
+2026-02-04T13:03:30Z WARN fx-feed report generation behind schedule by 0s
+2026-02-04T13:03:32Z WARN fx-feed report generation behind schedule by 0s
+2026-02-04T13:03:35Z WARN fx-feed report generation behind schedule by 0s
+2026-02-04T13:03:38Z WARN fx-feed report generation behind schedule by 0s
+2026-02-04T13:03:40Z WARN fx-feed report generation behind schedule by 0s
+2026-02-04T13:03:42Z INFO fx-feed tick ok elapsed_ms=45
+2026-02-04T13:03:43Z WARN fx-feed fx rate feed stale by 550ms
+2026-02-04T13:03:46Z WARN fx-feed report generation behind schedule by 0s
+2026-02-04T13:03:49Z WARN fx-feed report generation behind schedule by 0s
+2026-02-04T13:03:51Z WARN fx-feed report generation behind schedule by 0s
+2026-02-04T13:03:54Z INFO fx-feed tick ok elapsed_ms=8
+2026-02-04T13:03:54Z WARN fx-feed fx rate feed stale by 320ms
+2026-02-04T13:03:57Z WARN fx-feed fx rate feed stale by 280ms
+2026-02-04T13:04:00Z WARN fx-feed report generation behind schedule by 0s
+2026-02-04T13:04:02Z WARN fx-feed fx rate feed stale by 330ms
+2026-02-04T13:04:04Z INFO fx-feed http request method=GET status=200 latency_ms=26 span=0b7aaed8
+2026-02-04T13:04:04Z WARN fx-feed fx rate feed stale by 530ms
+2026-02-04T13:04:07Z WARN fx-feed report generation behind schedule by 0s
+2026-02-04T13:04:09Z WARN fx-feed report generation behind schedule by 0s
+2026-02-04T13:04:12Z WARN fx-feed fx rate feed stale by 560ms
+2026-02-04T13:04:15Z WARN fx-feed fx rate feed stale by 180ms
+2026-02-04T13:04:16Z INFO fx-feed http request method=GET status=200 latency_ms=20 span=4d9c4379
+2026-02-04T13:04:17Z WARN fx-feed report generation behind schedule by 0s
+2026-02-04T13:04:20Z WARN fx-feed report generation behind schedule by 0s
+2026-02-04T13:04:23Z WARN fx-feed report generation behind schedule by 0s
+2026-02-04T13:04:26Z WARN fx-feed fx rate feed stale by 200ms
+2026-02-04T13:04:28Z WARN fx-feed report generation behind schedule by 0s
+2026-02-04T13:04:30Z INFO fx-feed http request method=GET status=200 latency_ms=47 span=6b58dddd
+2026-02-04T13:04:31Z WARN fx-feed fx rate feed stale by 830ms
+2026-02-04T13:04:33Z WARN fx-feed report generation behind schedule by 0s
+2026-02-04T13:04:35Z WARN fx-feed fx rate feed stale by 290ms
+2026-02-04T13:04:37Z WARN fx-feed report generation behind schedule by 0s
+2026-02-04T13:04:40Z WARN fx-feed report generation behind schedule by 0s
+2026-02-04T13:04:42Z WARN fx-feed report generation behind schedule by 0s
+2026-02-04T13:04:43Z INFO fx-feed tick ok elapsed_ms=63
+2026-02-04T13:04:44Z WARN fx-feed report generation behind schedule by 0s
+2026-02-04T13:04:47Z WARN fx-feed fx rate feed stale by 730ms
+2026-02-04T13:04:49Z WARN fx-feed report generation behind schedule by 0s
+2026-02-04T13:04:51Z WARN fx-feed fx rate feed stale by 850ms
+2026-02-04T13:04:53Z WARN fx-feed fx rate feed stale by 910ms
+2026-02-04T13:04:55Z INFO fx-feed tick ok elapsed_ms=68
+2026-02-04T13:04:56Z WARN fx-feed fx rate feed stale by 220ms
+2026-02-04T13:04:58Z WARN fx-feed fx rate feed stale by 540ms
+2026-02-04T13:04:59Z WARN fx-feed report generation behind schedule by 0s
+2026-02-04T13:05:02Z WARN fx-feed report generation behind schedule by 0s
+2026-02-04T13:05:03Z INFO fx-feed tick ok elapsed_ms=63
+2026-02-04T13:05:05Z WARN fx-feed report generation behind schedule by 0s
+2026-02-04T13:05:08Z WARN fx-feed fx rate feed stale by 820ms
+2026-02-04T13:05:10Z WARN fx-feed fx rate feed stale by 380ms
+2026-02-04T13:05:13Z WARN fx-feed report generation behind schedule by 0s
+2026-02-04T13:05:14Z INFO fx-feed http request method=GET status=200 latency_ms=55 span=190c7c91
+2026-02-04T13:05:16Z WARN fx-feed report generation behind schedule by 0s
+2026-02-04T13:05:18Z WARN fx-feed report generation behind schedule by 0s
+2026-02-04T13:05:21Z WARN fx-feed report generation behind schedule by 0s
+2026-02-04T13:05:23Z INFO fx-feed tick ok elapsed_ms=22
+2026-02-04T13:05:23Z WARN fx-feed report generation behind schedule by 0s
+2026-02-04T13:05:25Z WARN fx-feed fx rate feed stale by 800ms
+2026-02-04T13:05:28Z WARN fx-feed fx rate feed stale by 440ms
+2026-02-04T13:05:30Z WARN fx-feed fx rate feed stale by 810ms
+2026-02-04T13:05:33Z WARN fx-feed report generation behind schedule by 0s
+2026-02-04T13:05:34Z INFO fx-feed tick ok elapsed_ms=39
+2026-02-04T13:05:36Z WARN fx-feed report generation behind schedule by 0s
+2026-02-04T13:05:38Z WARN fx-feed report generation behind schedule by 0s
+2026-02-04T13:05:40Z WARN fx-feed fx rate feed stale by 170ms
+2026-02-04T13:05:43Z WARN fx-feed report generation behind schedule by 0s
+2026-02-04T13:05:44Z INFO fx-feed tick ok elapsed_ms=19
+2026-02-04T13:05:45Z WARN fx-feed report generation behind schedule by 0s
+2026-02-04T13:05:47Z WARN fx-feed fx rate feed stale by 160ms
+2026-02-04T13:05:49Z WARN fx-feed report generation behind schedule by 0s
+2026-02-04T13:05:51Z WARN fx-feed fx rate feed stale by 750ms
+2026-02-04T13:05:54Z WARN fx-feed report generation behind schedule by 0s
+2026-02-04T13:05:57Z INFO fx-feed tick ok elapsed_ms=81
+2026-02-04T13:05:57Z WARN fx-feed fx rate feed stale by 900ms
+2026-02-04T13:06:00Z WARN fx-feed report generation behind schedule by 0s
+2026-02-04T13:06:03Z WARN fx-feed report generation behind schedule by 0s
+2026-02-04T13:06:05Z INFO fx-feed http request method=GET status=200 latency_ms=42 span=1780d4e8
+2026-02-04T13:06:07Z WARN fx-feed fx rate feed stale by 190ms
+2026-02-04T13:06:09Z WARN fx-feed fx rate feed stale by 450ms
+2026-02-04T13:06:12Z WARN fx-feed report generation behind schedule by 0s
+2026-02-04T13:06:14Z WARN fx-feed report generation behind schedule by 0s
+2026-02-04T13:06:15Z WARN fx-feed report generation behind schedule by 0s
+2026-02-04T13:06:17Z INFO fx-feed tick ok elapsed_ms=23
+2026-02-04T13:06:18Z WARN fx-feed report generation behind schedule by 0s
+2026-02-04T13:06:21Z WARN fx-feed fx rate feed stale by 300ms
+2026-02-04T13:06:23Z INFO fx-feed http request method=GET status=200 latency_ms=63 span=f52fca95
+2026-02-04T13:06:24Z WARN fx-feed report generation behind schedule by 0s
+2026-02-04T13:06:27Z WARN fx-feed fx rate feed stale by 290ms
+2026-02-04T13:06:29Z WARN fx-feed report generation behind schedule by 0s
+2026-02-04T13:06:31Z INFO fx-feed http request method=GET status=200 latency_ms=60 span=4f70e2cb
+2026-02-04T13:06:31Z WARN fx-feed report generation behind schedule by 0s
+2026-02-04T13:06:32Z WARN fx-feed fx rate feed stale by 670ms
+2026-02-04T13:06:36Z WARN fx-feed fx rate feed stale by 480ms
+2026-02-04T13:06:39Z WARN fx-feed report generation behind schedule by 0s
+2026-02-04T13:06:40Z INFO fx-feed tick ok elapsed_ms=17
+2026-02-04T13:06:42Z WARN fx-feed report generation behind schedule by 0s
+2026-02-04T13:06:44Z WARN fx-feed fx rate feed stale by 670ms
+2026-02-04T13:06:47Z WARN fx-feed fx rate feed stale by 210ms
+2026-02-04T13:06:50Z WARN fx-feed report generation behind schedule by 0s
+2026-02-04T13:06:53Z WARN fx-feed fx rate feed stale by 870ms
+2026-02-04T13:06:54Z INFO fx-feed http request method=GET status=200 latency_ms=56 span=3ac7cfcf
+2026-02-04T13:06:55Z WARN fx-feed fx rate feed stale by 580ms
+2026-02-04T13:06:57Z WARN fx-feed report generation behind schedule by 0s
+2026-02-04T13:06:59Z WARN fx-feed report generation behind schedule by 0s
+2026-02-04T13:07:01Z WARN fx-feed report generation behind schedule by 0s
+2026-02-04T13:07:03Z WARN fx-feed fx rate feed stale by 820ms
+2026-02-04T13:07:05Z INFO fx-feed tick ok elapsed_ms=22
+2026-02-04T13:07:05Z WARN fx-feed report generation behind schedule by 0s
+2026-02-04T13:07:07Z WARN fx-feed fx rate feed stale by 400ms
+2026-02-04T13:07:09Z WARN fx-feed fx rate feed stale by 450ms
+2026-02-04T13:07:11Z WARN fx-feed fx rate feed stale by 270ms
+2026-02-04T13:07:14Z WARN fx-feed report generation behind schedule by 0s
+2026-02-04T13:07:17Z WARN fx-feed report generation behind schedule by 0s
+2026-02-04T13:07:19Z INFO fx-feed http request method=GET status=200 latency_ms=95 span=bcda4a2a
+2026-02-04T13:07:19Z WARN fx-feed fx rate feed stale by 250ms
+2026-02-04T13:07:22Z WARN fx-feed report generation behind schedule by 0s
+2026-02-04T13:07:25Z WARN fx-feed fx rate feed stale by 840ms
+2026-02-04T13:07:27Z INFO fx-feed http request method=GET status=200 latency_ms=49 span=24f3175c
+2026-02-04T13:07:28Z WARN fx-feed report generation behind schedule by 0s
+2026-02-04T13:07:29Z WARN fx-feed report generation behind schedule by 0s
+2026-02-04T13:07:31Z WARN fx-feed fx rate feed stale by 690ms
+2026-02-04T13:07:33Z INFO fx-feed tick ok elapsed_ms=40
+2026-02-04T13:07:33Z WARN fx-feed report generation behind schedule by 0s
+2026-02-04T13:07:36Z WARN fx-feed fx rate feed stale by 760ms
+2026-02-04T13:07:39Z WARN fx-feed fx rate feed stale by 950ms
+2026-02-04T13:07:41Z WARN fx-feed fx rate feed stale by 450ms
+2026-02-04T13:07:43Z INFO fx-feed http request method=GET status=200 latency_ms=58 span=d6f20af4
+2026-02-04T13:07:43Z WARN fx-feed report generation behind schedule by 0s
+2026-02-04T13:07:46Z WARN fx-feed report generation behind schedule by 0s
+2026-02-04T13:07:48Z WARN fx-feed fx rate feed stale by 610ms
+2026-02-04T13:07:49Z INFO fx-feed http request method=GET status=200 latency_ms=63 span=302bb8ba
+2026-02-04T13:07:50Z WARN fx-feed slow poll elapsed_ms=490
+2026-02-04T13:07:51Z WARN fx-feed fx rate feed stale by 770ms
+2026-02-04T13:07:53Z WARN fx-feed fx rate feed stale by 890ms
+2026-02-04T13:07:55Z WARN fx-feed fx rate feed stale by 470ms
+2026-02-04T13:07:57Z WARN fx-feed fx rate feed stale by 650ms
+2026-02-04T13:07:59Z WARN fx-feed fx rate feed stale by 910ms
+2026-02-04T13:08:02Z WARN fx-feed fx rate feed stale by 300ms
+2026-02-04T13:08:03Z INFO fx-feed http request method=GET status=200 latency_ms=73 span=6bb0b898
+2026-02-04T13:08:04Z WARN fx-feed report generation behind schedule by 0s
+2026-02-04T13:08:06Z WARN fx-feed fx rate feed stale by 140ms
+2026-02-04T13:08:08Z WARN fx-feed report generation behind schedule by 0s
+2026-02-04T13:08:11Z WARN fx-feed fx rate feed stale by 890ms
+2026-02-04T13:08:14Z WARN fx-feed fx rate feed stale by 450ms
+2026-02-04T13:08:16Z INFO fx-feed tick ok elapsed_ms=33
+2026-02-04T13:08:16Z WARN fx-feed fx rate feed stale by 410ms
+2026-02-04T13:08:19Z WARN fx-feed fx rate feed stale by 840ms
+2026-02-04T13:08:21Z WARN fx-feed fx rate feed stale by 660ms
+2026-02-04T13:08:25Z WARN fx-feed fx rate feed stale by 840ms
+2026-02-04T13:08:27Z WARN fx-feed report generation behind schedule by 0s
+2026-02-04T13:08:30Z INFO fx-feed tick ok elapsed_ms=35
+2026-02-04T13:08:30Z WARN fx-feed fx rate feed stale by 380ms
+2026-02-04T13:08:33Z WARN fx-feed report generation behind schedule by 0s
+2026-02-04T13:08:35Z WARN fx-feed report generation behind schedule by 0s
+2026-02-04T13:08:38Z WARN fx-feed fx rate feed stale by 420ms
+2026-02-04T13:08:41Z WARN fx-feed fx rate feed stale by 700ms
+2026-02-04T13:08:42Z INFO fx-feed http request method=GET status=200 latency_ms=83 span=3f70e337
+2026-02-04T13:08:43Z WARN fx-feed fx rate feed stale by 770ms
+2026-02-04T13:08:46Z WARN fx-feed fx rate feed stale by 740ms
+2026-02-04T13:08:50Z WARN fx-feed fx rate feed stale by 910ms
+2026-02-04T13:08:51Z WARN fx-feed report generation behind schedule by 0s
+2026-02-04T13:08:52Z INFO fx-feed tick ok elapsed_ms=47
+2026-02-04T13:08:54Z WARN fx-feed fx rate feed stale by 820ms
+2026-02-04T13:08:56Z WARN fx-feed report generation behind schedule by 0s
+2026-02-04T13:08:59Z WARN fx-feed report generation behind schedule by 0s
+2026-02-04T13:09:01Z INFO fx-feed http request method=GET status=200 latency_ms=89 span=6654d5eb
+2026-02-04T13:09:02Z WARN fx-feed report generation behind schedule by 0s
+2026-02-04T13:09:04Z WARN fx-feed report generation behind schedule by 0s
+2026-02-04T13:09:06Z WARN fx-feed report generation behind schedule by 0s
+2026-02-04T13:09:08Z INFO fx-feed tick ok elapsed_ms=67
+2026-02-04T13:09:09Z WARN fx-feed report generation behind schedule by 0s
+2026-02-04T13:09:12Z WARN fx-feed report generation behind schedule by 0s
+2026-02-04T13:09:13Z WARN fx-feed fx rate feed stale by 390ms
+2026-02-04T13:09:16Z WARN fx-feed fx rate feed stale by 860ms
+2026-02-04T13:09:19Z WARN fx-feed report generation behind schedule by 0s
+2026-02-04T13:09:21Z INFO fx-feed http request method=GET status=200 latency_ms=51 span=b88b2189
+2026-02-04T13:09:22Z WARN fx-feed fx rate feed stale by 830ms
+2026-02-04T13:09:24Z WARN fx-feed report generation behind schedule by 0s
+2026-02-04T13:09:26Z WARN fx-feed fx rate feed stale by 720ms
+2026-02-04T13:09:28Z INFO fx-feed tick ok elapsed_ms=45
+2026-02-04T13:09:28Z WARN fx-feed fx rate feed stale by 180ms
+2026-02-04T13:09:29Z WARN fx-feed fx rate feed stale by 300ms
+2026-02-04T13:09:31Z WARN fx-feed fx rate feed stale by 340ms
+2026-02-04T13:09:35Z WARN fx-feed report generation behind schedule by 0s
+2026-02-04T13:09:36Z INFO fx-feed http request method=GET status=200 latency_ms=13 span=a567fbb9
+2026-02-04T13:09:37Z WARN fx-feed fx rate feed stale by 220ms
+2026-02-04T13:09:39Z WARN fx-feed report generation behind schedule by 0s
+2026-02-04T13:09:42Z WARN fx-feed report generation behind schedule by 0s
+2026-02-04T13:09:44Z WARN fx-feed fx rate feed stale by 350ms
+2026-02-04T13:09:46Z WARN fx-feed fx rate feed stale by 640ms
+2026-02-04T13:09:48Z INFO fx-feed http request method=GET status=200 latency_ms=60 span=568db4ab
+2026-02-04T13:09:48Z WARN fx-feed fx rate feed stale by 770ms
+2026-02-04T13:09:51Z WARN fx-feed fx rate feed stale by 850ms
+2026-02-04T13:09:54Z WARN fx-feed fx rate feed stale by 890ms
+2026-02-04T13:09:56Z WARN fx-feed fx rate feed stale by 850ms
+2026-02-04T13:09:58Z WARN fx-feed fx rate feed stale by 630ms
+2026-02-04T13:10:01Z INFO fx-feed tick ok elapsed_ms=64
+2026-02-04T13:10:01Z WARN fx-feed fx rate feed stale by 80ms
+2026-02-04T13:10:04Z WARN fx-feed fx rate feed stale by 80ms
+2026-02-04T13:10:06Z WARN fx-feed fx rate feed stale by 680ms
+2026-02-04T13:10:09Z WARN fx-feed fx rate feed stale by 310ms
+2026-02-04T13:10:10Z INFO fx-feed http request method=GET status=200 latency_ms=82 span=9fb3d618
+2026-02-04T13:10:11Z WARN fx-feed fx rate feed stale by 870ms
+2026-02-04T13:10:14Z WARN fx-feed fx rate feed stale by 880ms
+2026-02-04T13:10:17Z WARN fx-feed fx rate feed stale by 110ms
+2026-02-04T13:10:20Z WARN fx-feed fx rate feed stale by 940ms
+2026-02-04T13:10:23Z WARN fx-feed report generation behind schedule by 0s
+2026-02-04T13:10:24Z INFO fx-feed http request method=GET status=200 latency_ms=83 span=34728081
+2026-02-04T13:10:26Z WARN fx-feed report generation behind schedule by 0s
+2026-02-04T13:10:29Z WARN fx-feed fx rate feed stale by 240ms
+2026-02-04T13:10:30Z INFO fx-feed tick ok elapsed_ms=13
+2026-02-04T13:10:32Z WARN fx-feed fx rate feed stale by 910ms
+2026-02-04T13:10:34Z WARN fx-feed fx rate feed stale by 320ms
+2026-02-04T13:10:36Z WARN fx-feed fx rate feed stale by 890ms
+2026-02-04T13:10:38Z INFO fx-feed tick ok elapsed_ms=61
+2026-02-04T13:10:38Z WARN fx-feed fx rate feed stale by 470ms

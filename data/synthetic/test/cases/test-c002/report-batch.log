@@ -1,0 +1,66 @@
+2026-02-06 12:47:25,528 INFO report-batch GET /v1/items 200 16ms req_id=20fb13b9
+2026-02-06 12:47:37,206 INFO report-batch worker heartbeat ok (17ms)
+2026-02-06 12:47:43,421 INFO report-batch GET /v1/items 200 28ms req_id=4f447401
+2026-02-06 12:47:55,084 INFO report-batch GET /v1/items 200 61ms req_id=20040bd8
+2026-02-06 12:48:06,186 INFO report-batch GET /v1/items 200 46ms req_id=481a10b0
+2026-02-06 12:48:18,281 INFO report-batch worker heartbeat ok (21ms)
+2026-02-06 12:48:32,772 INFO report-batch worker heartbeat ok (73ms)
+2026-02-06 12:48:40,297 INFO report-batch worker heartbeat ok (20ms)
+2026-02-06 12:48:51,681 INFO report-batch worker heartbeat ok (18ms)
+2026-02-06 12:48:58,724 INFO report-batch GET /v1/items 200 19ms req_id=8c0edb41
+2026-02-06 12:49:07,422 INFO report-batch worker heartbeat ok (48ms)
+2026-02-06 12:49:14,046 INFO report-batch worker heartbeat ok (31ms)
+2026-02-06 12:49:27,148 INFO report-batch GET /v1/items 200 25ms req_id=606335ef
+2026-02-06 12:49:34,662 INFO report-batch GET /v1/items 200 77ms req_id=2f4e0974
+2026-02-06 12:49:48,549 INFO report-batch GET /v1/items 200 84ms req_id=8ca38675
+2026-02-06 12:49:59,287 INFO report-batch GET /v1/items 200 93ms req_id=43d6ebee
+2026-02-06 12:50:08,527 INFO report-batch worker heartbeat ok (72ms)
+2026-02-06 12:50:17,007 INFO report-batch worker heartbeat ok (23ms)
+2026-02-06 12:50:24,426 INFO report-batch worker heartbeat ok (84ms)
+2026-02-06 12:50:33,256 INFO report-batch worker heartbeat ok (17ms)
+2026-02-06 12:50:46,807 INFO report-batch GET /v1/items 200 20ms req_id=be18b0de
+2026-02-06 12:50:57,430 INFO report-batch GET /v1/items 200 80ms req_id=69fac60e
+2026-02-06 12:51:08,978 INFO report-batch worker heartbeat ok (33ms)
+2026-02-06 12:51:14,393 INFO report-batch worker heartbeat ok (39ms)
+2026-02-06 12:51:15,000 WARNING report-batch deprecated parameter 'page' used by client
+2026-02-06 12:51:26,937 INFO report-batch worker heartbeat ok (72ms)
+2026-02-06 12:51:33,578 INFO report-batch GET /v1/items 200 64ms req_id=70daa43e
+2026-02-06 12:51:41,858 INFO report-batch worker heartbeat ok (45ms)
+2026-02-06 12:51:48,553 INFO report-batch GET /v1/items 200 84ms req_id=ce1fc063
+2026-02-06 12:52:01,565 INFO report-batch worker heartbeat ok (35ms)
+2026-02-06 12:52:13,071 INFO report-batch worker heartbeat ok (95ms)
+2026-02-06 12:52:19,438 INFO report-batch GET /v1/items 200 85ms req_id=204d8c1f
+2026-02-06 12:52:26,158 INFO report-batch GET /v1/items 200 11ms req_id=b18688a9
+2026-02-06 12:52:33,962 INFO report-batch GET /v1/items 200 16ms req_id=4399f9c1
+2026-02-06 12:52:41,260 INFO report-batch GET /v1/items 200 57ms req_id=3fbb66a2
+2026-02-06 12:52:53,026 INFO report-batch worker heartbeat ok (33ms)
+2026-02-06 12:53:01,157 INFO report-batch worker heartbeat ok (69ms)
+2026-02-06 12:53:10,392 INFO report-batch GET /v1/items 200 20ms req_id=d5ac2a2a
+2026-02-06 12:53:24,511 INFO report-batch GET /v1/items 200 41ms req_id=58a50cce
+2026-02-06 12:53:37,910 INFO report-batch worker heartbeat ok (14ms)
+2026-02-06 12:53:46,848 INFO report-batch worker heartbeat ok (32ms)
+2026-02-06 12:53:53,229 INFO report-batch GET /v1/items 200 14ms req_id=3fd0ec30
+2026-02-06 12:53:59,705 INFO report-batch worker heartbeat ok (60ms)
+2026-02-06 12:54:07,283 INFO report-batch worker heartbeat ok (58ms)
+2026-02-06 12:54:18,798 INFO report-batch GET /v1/items 200 18ms req_id=318e6327
+2026-02-06 12:54:29,966 INFO report-batch GET /v1/items 200 21ms req_id=ca96bae8
+2026-02-06 12:54:38,203 INFO report-batch GET /v1/items 200 73ms req_id=7e42e7d9
+2026-02-06 12:54:44,242 INFO report-batch GET /v1/items 200 83ms req_id=ae73923c
+2026-02-06 12:54:52,013 INFO report-batch GET /v1/items 200 34ms req_id=37ba9f0e
+2026-02-06 12:55:01,827 INFO report-batch worker heartbeat ok (68ms)
+2026-02-06 12:55:12,805 INFO report-batch worker heartbeat ok (95ms)
+2026-02-06 12:55:20,798 INFO report-batch GET /v1/items 200 75ms req_id=61f6f88d
+2026-02-06 12:55:29,684 INFO report-batch GET /v1/items 200 69ms req_id=118679d4
+2026-02-06 12:55:40,386 INFO report-batch worker heartbeat ok (78ms)
+2026-02-06 12:55:52,043 INFO report-batch worker heartbeat ok (82ms)
+2026-02-06 12:55:58,425 INFO report-batch GET /v1/items 200 89ms req_id=54fae081
+2026-02-06 12:56:07,422 INFO report-batch worker heartbeat ok (51ms)
+2026-02-06 12:56:14,743 INFO report-batch GET /v1/items 200 8ms req_id=63e34731
+2026-02-06 12:56:20,287 INFO report-batch worker heartbeat ok (72ms)
+2026-02-06 12:56:29,485 INFO report-batch GET /v1/items 200 24ms req_id=9eb33c80
+2026-02-06 12:56:38,778 INFO report-batch worker heartbeat ok (65ms)
+2026-02-06 12:56:51,345 INFO report-batch worker heartbeat ok (75ms)
+2026-02-06 12:56:58,804 INFO report-batch GET /v1/items 200 22ms req_id=d6a500c1
+2026-02-06 12:56:59,000 WARNING report-batch slow query took 620ms req_id=bb1a6a56
+2026-02-06 12:57:05,367 INFO report-batch GET /v1/items 200 27ms req_id=92608164
+2026-02-06 12:57:14,279 INFO report-batch GET /v1/items 200 18ms req_id=01a1bd9a

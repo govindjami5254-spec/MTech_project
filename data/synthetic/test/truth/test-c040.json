@@ -1,0 +1,39 @@
+{
+  "schema_version": "1",
+  "case_id": "test-c040",
+  "split": "test",
+  "family_id": "tf11",
+  "stratum": "distractor",
+  "root_causes": [
+    "fare-svc"
+  ],
+  "fault_type": "oom",
+  "expected_abstain": false,
+  "key_evidence": [
+    "fare-svc.log:27",
+    "fare-svc.log:32",
+    "fare-svc.log:33"
+  ],
+  "relevant_evidence": [
+    "booking-svc.log:30",
+    "booking-svc.log:31",
+    "booking-svc.log:33",
+    "fare-svc.log:27",
+    "fare-svc.log:32",
+    "fare-svc.log:33",
+    "web-gateway.log:30",
+    "web-gateway.log:31",
+    "web-gateway.log:32",
+    "web-gateway.log:33",
+    "web-gateway.log:35",
+    "web-gateway.log:36",
+    "web-gateway.log:38"
+  ],
+  "propagation_path": [
+    "fare-svc",
+    "booking-svc",
+    "web-gateway"
+  ],
+  "injection_uids": [],
+  "decoy_component": null
+}

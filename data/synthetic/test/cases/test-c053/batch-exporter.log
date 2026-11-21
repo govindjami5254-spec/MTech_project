@@ -1,0 +1,58 @@
+2026-01-11T15:50:37.889+05:30 info batch-exporter served GET /api status=200 in 91ms trace=757c3ade
+2026-01-11T15:50:46.641+05:30 info batch-exporter served GET /api status=200 in 15ms trace=10c7e69c
+2026-01-11T15:50:59.859+05:30 info batch-exporter served GET /api status=200 in 54ms trace=a06157c5
+2026-01-11T15:51:09.098+05:30 info batch-exporter served GET /api status=200 in 17ms trace=b51a335f
+2026-01-11T15:51:23.202+05:30 info batch-exporter event loop lag 42ms ok
+2026-01-11T15:51:36.554+05:30 info batch-exporter event loop lag 29ms ok
+2026-01-11T15:51:44.356+05:30 info batch-exporter event loop lag 23ms ok
+2026-01-11T15:51:45.000+05:30 warn batch-exporter event loop lag 530ms
+2026-01-11T15:51:51.870+05:30 info batch-exporter served GET /api status=200 in 59ms trace=87054257
+2026-01-11T15:52:02.835+05:30 info batch-exporter served GET /api status=200 in 73ms trace=02b59f3a
+2026-01-11T15:52:03.000+05:30 warn batch-exporter unhandled header x-legacy ignored trace=d3d2cfd8
+2026-01-11T15:52:13.706+05:30 info batch-exporter event loop lag 51ms ok
+2026-01-11T15:52:20.061+05:30 info batch-exporter event loop lag 75ms ok
+2026-01-11T15:52:27.871+05:30 info batch-exporter event loop lag 70ms ok
+2026-01-11T15:52:40.404+05:30 info batch-exporter event loop lag 63ms ok
+2026-01-11T15:52:46.381+05:30 info batch-exporter served GET /api status=200 in 48ms trace=37e2e787
+2026-01-11T15:52:54.673+05:30 info batch-exporter served GET /api status=200 in 48ms trace=15c340d7
+2026-01-11T15:53:05.261+05:30 info batch-exporter event loop lag 65ms ok
+2026-01-11T15:53:17.191+05:30 info batch-exporter served GET /api status=200 in 14ms trace=3bb8dc3e
+2026-01-11T15:53:28.737+05:30 info batch-exporter served GET /api status=200 in 70ms trace=f8a0882c
+2026-01-11T15:53:39.243+05:30 info batch-exporter event loop lag 39ms ok
+2026-01-11T15:53:50.961+05:30 info batch-exporter event loop lag 39ms ok
+2026-01-11T15:54:03.082+05:30 info batch-exporter event loop lag 67ms ok
+2026-01-11T15:54:14.124+05:30 info batch-exporter event loop lag 63ms ok
+2026-01-11T15:54:28.730+05:30 info batch-exporter served GET /api status=200 in 62ms trace=11a25775
+2026-01-11T15:54:40.945+05:30 info batch-exporter served GET /api status=200 in 29ms trace=16c70b8c
+2026-01-11T15:54:54.746+05:30 info batch-exporter event loop lag 24ms ok
+2026-01-11T15:55:02.662+05:30 info batch-exporter served GET /api status=200 in 25ms trace=435a033d
+2026-01-11T15:55:14.234+05:30 info batch-exporter served GET /api status=200 in 86ms trace=f3ccc98b
+2026-01-11T15:55:23.091+05:30 info batch-exporter served GET /api status=200 in 79ms trace=f87e4842
+2026-01-11T15:55:36.027+05:30 info batch-exporter event loop lag 21ms ok
+2026-01-11T15:55:46.554+05:30 info batch-exporter event loop lag 78ms ok
+2026-01-11T15:55:57.166+05:30 info batch-exporter event loop lag 94ms ok
+2026-01-11T15:56:03.063+05:30 info batch-exporter served GET /api status=200 in 64ms trace=9f54a346
+2026-01-11T15:56:14.196+05:30 info batch-exporter event loop lag 75ms ok
+2026-01-11T15:56:20.883+05:30 info batch-exporter served GET /api status=200 in 57ms trace=cb3a8368
+2026-01-11T15:56:29.136+05:30 info batch-exporter served GET /api status=200 in 45ms trace=9e027e20
+2026-01-11T15:56:42.795+05:30 info batch-exporter served GET /api status=200 in 71ms trace=ba070121
+2026-01-11T15:56:53.735+05:30 info batch-exporter event loop lag 64ms ok
+2026-01-11T15:56:59.786+05:30 info batch-exporter served GET /api status=200 in 20ms trace=709b8ff2
+2026-01-11T15:57:12.643+05:30 info batch-exporter served GET /api status=200 in 60ms trace=fbb8be5f
+2026-01-11T15:57:23.795+05:30 info batch-exporter served GET /api status=200 in 84ms trace=f608f39d
+2026-01-11T15:57:34.469+05:30 info batch-exporter event loop lag 90ms ok
+2026-01-11T15:57:42.291+05:30 info batch-exporter served GET /api status=200 in 87ms trace=e72a15ce
+2026-01-11T15:57:53.150+05:30 info batch-exporter event loop lag 36ms ok
+2026-01-11T15:57:59.099+05:30 info batch-exporter event loop lag 55ms ok
+2026-01-11T15:58:07.627+05:30 info batch-exporter served GET /api status=200 in 14ms trace=7f1ccae8
+2026-01-11T15:58:17.705+05:30 info batch-exporter served GET /api status=200 in 75ms trace=f037d3c8
+2026-01-11T15:58:31.960+05:30 info batch-exporter event loop lag 73ms ok
+2026-01-11T15:58:42.607+05:30 info batch-exporter event loop lag 51ms ok
+2026-01-11T15:58:56.721+05:30 info batch-exporter event loop lag 13ms ok
+2026-01-11T15:59:09.911+05:30 info batch-exporter served GET /api status=200 in 46ms trace=4470d969
+2026-01-11T15:59:21.772+05:30 info batch-exporter event loop lag 42ms ok
+2026-01-11T15:59:34.958+05:30 info batch-exporter event loop lag 48ms ok
+2026-01-11T15:59:47.284+05:30 info batch-exporter served GET /api status=200 in 69ms trace=9c691da4
+2026-01-11T15:59:59.098+05:30 info batch-exporter served GET /api status=200 in 40ms trace=d7be7306
+2026-01-11T16:00:13.705+05:30 info batch-exporter served GET /api status=200 in 13ms trace=162e683b
+2026-01-11T16:00:26.161+05:30 info batch-exporter event loop lag 20ms ok

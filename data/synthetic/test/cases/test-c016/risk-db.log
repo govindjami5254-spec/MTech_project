@@ -1,0 +1,63 @@
+2026-01-16 09:13:49,271 INFO risk-db worker heartbeat ok (86ms)
+2026-01-16 09:13:59,974 INFO risk-db worker heartbeat ok (19ms)
+2026-01-16 09:14:12,866 INFO risk-db worker heartbeat ok (95ms)
+2026-01-16 09:14:20,542 INFO risk-db worker heartbeat ok (49ms)
+2026-01-16 09:14:31,226 INFO risk-db GET /v1/items 200 9ms req_id=036b96e7
+2026-01-16 09:14:45,015 INFO risk-db worker heartbeat ok (42ms)
+2026-01-16 09:14:54,740 INFO risk-db GET /v1/items 200 89ms req_id=c9b2a841
+2026-01-16 09:15:04,034 INFO risk-db GET /v1/items 200 31ms req_id=5aaa3cd2
+2026-01-16 09:15:14,341 INFO risk-db worker heartbeat ok (91ms)
+2026-01-16 09:15:28,510 INFO risk-db GET /v1/items 200 88ms req_id=9b9ee448
+2026-01-16 09:15:38,485 INFO risk-db GET /v1/items 200 58ms req_id=7c280975
+2026-01-16 09:15:39,000 WARNING risk-db slow query took 450ms req_id=7cff74f0
+2026-01-16 09:15:48,619 INFO risk-db GET /v1/items 200 83ms req_id=34e9e039
+2026-01-16 09:16:02,734 INFO risk-db GET /v1/items 200 22ms req_id=705ce675
+2026-01-16 09:16:14,489 INFO risk-db GET /v1/items 200 44ms req_id=a3fc622f
+2026-01-16 09:16:24,360 INFO risk-db worker heartbeat ok (65ms)
+2026-01-16 09:16:34,888 INFO risk-db GET /v1/items 200 68ms req_id=9a6712a1
+2026-01-16 09:16:48,458 INFO risk-db worker heartbeat ok (80ms)
+2026-01-16 09:16:54,304 INFO risk-db worker heartbeat ok (72ms)
+2026-01-16 09:17:05,388 INFO risk-db worker heartbeat ok (39ms)
+2026-01-16 09:17:15,366 INFO risk-db GET /v1/items 200 21ms req_id=91ec63ea
+2026-01-16 09:17:16,000 WARNING risk-db slow query took 260ms req_id=07e197f4
+2026-01-16 09:17:24,852 INFO risk-db worker heartbeat ok (62ms)
+2026-01-16 09:17:32,937 INFO risk-db GET /v1/items 200 15ms req_id=1dd08460
+2026-01-16 09:17:39,984 INFO risk-db worker heartbeat ok (68ms)
+2026-01-16 09:17:47,015 WARNING risk-db RSS 96% of container memory limit
+2026-01-16 09:17:52,275 INFO risk-db GET /v1/items 200 76ms req_id=db748242
+2026-01-16 09:18:06,287 INFO risk-db GET /v1/items 200 51ms req_id=529a4acb
+2026-01-16 09:18:14,245 INFO risk-db GET /v1/items 200 87ms req_id=094321b3
+2026-01-16 09:18:23,646 INFO risk-db worker heartbeat ok (93ms)
+2026-01-16 09:18:27,779 ERROR risk-db MemoryError while building response payload
+2026-01-16 09:18:29,225 CRITICAL risk-db worker killed: OOMKilled (exit code 137)
+2026-01-16 09:18:33,941 INFO risk-db GET /v1/items 200 90ms req_id=8ef83653
+2026-01-16 09:18:45,277 INFO risk-db worker heartbeat ok (57ms)
+2026-01-16 09:18:59,492 INFO risk-db GET /v1/items 200 30ms req_id=31328bd1
+2026-01-16 09:19:09,565 INFO risk-db worker heartbeat ok (87ms)
+2026-01-16 09:19:10,000 WARNING risk-db deprecated parameter 'page' used by client
+2026-01-16 09:19:18,806 INFO risk-db worker heartbeat ok (46ms)
+2026-01-16 09:19:29,129 INFO risk-db worker heartbeat ok (92ms)
+2026-01-16 09:19:36,216 INFO risk-db GET /v1/items 200 91ms req_id=3aab4ba9
+2026-01-16 09:19:48,262 INFO risk-db worker heartbeat ok (42ms)
+2026-01-16 09:19:55,338 INFO risk-db worker heartbeat ok (93ms)
+2026-01-16 09:20:09,535 INFO risk-db GET /v1/items 200 24ms req_id=31bbffe0
+2026-01-16 09:20:18,896 INFO risk-db GET /v1/items 200 43ms req_id=f18f208f
+2026-01-16 09:20:28,202 INFO risk-db GET /v1/items 200 74ms req_id=b0d4f959
+2026-01-16 09:20:37,938 INFO risk-db GET /v1/items 200 28ms req_id=bf842552
+2026-01-16 09:20:43,180 INFO risk-db worker heartbeat ok (40ms)
+2026-01-16 09:20:56,555 INFO risk-db GET /v1/items 200 62ms req_id=9671e1af
+2026-01-16 09:21:03,930 INFO risk-db GET /v1/items 200 75ms req_id=2422df57
+2026-01-16 09:21:13,441 INFO risk-db worker heartbeat ok (40ms)
+2026-01-16 09:21:27,910 INFO risk-db worker heartbeat ok (31ms)
+2026-01-16 09:21:40,857 INFO risk-db GET /v1/items 200 30ms req_id=1f10c316
+2026-01-16 09:21:50,129 INFO risk-db worker heartbeat ok (53ms)
+2026-01-16 09:21:58,815 INFO risk-db GET /v1/items 200 25ms req_id=72570636
+2026-01-16 09:22:04,561 INFO risk-db worker heartbeat ok (61ms)
+2026-01-16 09:22:14,468 INFO risk-db GET /v1/items 200 76ms req_id=15f6053f
+2026-01-16 09:22:27,062 INFO risk-db GET /v1/items 200 89ms req_id=fd90b11b
+2026-01-16 09:22:37,984 INFO risk-db GET /v1/items 200 18ms req_id=b98cf3ad
+2026-01-16 09:22:51,615 INFO risk-db GET /v1/items 200 44ms req_id=d4d6bc7a
+2026-01-16 09:23:02,250 INFO risk-db GET /v1/items 200 20ms req_id=2287f4ea
+2026-01-16 09:23:09,301 INFO risk-db worker heartbeat ok (32ms)
+2026-01-16 09:23:20,389 INFO risk-db GET /v1/items 200 40ms req_id=af7db579
+2026-01-16 09:23:30,531 INFO risk-db worker heartbeat ok (33ms)

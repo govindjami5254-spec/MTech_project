@@ -1,0 +1,59 @@
+2026-01-05 14:44:08,487 INFO thumbnailer GET /v1/items 200 46ms req_id=ba4170d4
+2026-01-05 14:44:14,961 INFO thumbnailer GET /v1/items 200 39ms req_id=4c5507dc
+2026-01-05 14:44:24,405 INFO thumbnailer worker heartbeat ok (50ms)
+2026-01-05 14:44:36,307 INFO thumbnailer GET /v1/items 200 40ms req_id=aafa6760
+2026-01-05 14:44:46,351 INFO thumbnailer GET /v1/items 200 11ms req_id=35853463
+2026-01-05 14:44:52,456 INFO thumbnailer worker heartbeat ok (73ms)
+2026-01-05 14:45:02,147 INFO thumbnailer worker heartbeat ok (58ms)
+2026-01-05 14:45:10,009 INFO thumbnailer GET /v1/items 200 60ms req_id=c7ec767b
+2026-01-05 14:45:16,381 INFO thumbnailer worker heartbeat ok (11ms)
+2026-01-05 14:45:29,597 INFO thumbnailer worker heartbeat ok (77ms)
+2026-01-05 14:45:37,554 INFO thumbnailer worker heartbeat ok (61ms)
+2026-01-05 14:45:43,589 INFO thumbnailer worker heartbeat ok (23ms)
+2026-01-05 14:45:55,034 INFO thumbnailer GET /v1/items 200 31ms req_id=6d48b032
+2026-01-05 14:46:06,031 INFO thumbnailer GET /v1/items 200 41ms req_id=290627b2
+2026-01-05 14:46:19,755 INFO thumbnailer worker heartbeat ok (67ms)
+2026-01-05 14:46:30,055 INFO thumbnailer worker heartbeat ok (14ms)
+2026-01-05 14:46:42,332 INFO thumbnailer GET /v1/items 200 65ms req_id=4ce81cb4
+2026-01-05 14:46:52,439 INFO thumbnailer GET /v1/items 200 77ms req_id=1d4723b9
+2026-01-05 14:47:01,807 INFO thumbnailer worker heartbeat ok (84ms)
+2026-01-05 14:47:09,650 INFO thumbnailer GET /v1/items 200 28ms req_id=24d11a69
+2026-01-05 14:47:21,516 INFO thumbnailer GET /v1/items 200 75ms req_id=52589ae0
+2026-01-05 14:47:35,165 INFO thumbnailer GET /v1/items 200 49ms req_id=8fd1a453
+2026-01-05 14:47:47,075 INFO thumbnailer worker heartbeat ok (74ms)
+2026-01-05 14:47:54,342 INFO thumbnailer worker heartbeat ok (21ms)
+2026-01-05 14:48:04,000 INFO thumbnailer GET /v1/items 200 72ms req_id=821736d9
+2026-01-05 14:48:18,806 INFO thumbnailer worker heartbeat ok (78ms)
+2026-01-05 14:48:25,946 INFO thumbnailer worker heartbeat ok (65ms)
+2026-01-05 14:48:34,664 INFO thumbnailer GET /v1/items 200 56ms req_id=a01c908b
+2026-01-05 14:48:41,435 INFO thumbnailer GET /v1/items 200 46ms req_id=69e214d4
+2026-01-05 14:48:53,283 INFO thumbnailer GET /v1/items 200 11ms req_id=5340fc89
+2026-01-05 14:49:05,489 INFO thumbnailer GET /v1/items 200 47ms req_id=432b8ce2
+2026-01-05 14:49:13,118 INFO thumbnailer GET /v1/items 200 48ms req_id=8aaf05cb
+2026-01-05 14:49:23,599 INFO thumbnailer GET /v1/items 200 82ms req_id=e9babf2f
+2026-01-05 14:49:29,128 INFO thumbnailer worker heartbeat ok (70ms)
+2026-01-05 14:49:43,099 INFO thumbnailer GET /v1/items 200 73ms req_id=d0ff2dea
+2026-01-05 14:49:53,021 INFO thumbnailer worker heartbeat ok (26ms)
+2026-01-05 14:50:06,616 INFO thumbnailer worker heartbeat ok (12ms)
+2026-01-05 14:50:20,087 INFO thumbnailer worker heartbeat ok (40ms)
+2026-01-05 14:50:29,904 INFO thumbnailer GET /v1/items 200 27ms req_id=a0a6d64b
+2026-01-05 14:50:41,943 INFO thumbnailer worker heartbeat ok (52ms)
+2026-01-05 14:50:52,434 INFO thumbnailer GET /v1/items 200 15ms req_id=1ce71c66
+2026-01-05 14:51:01,931 INFO thumbnailer worker heartbeat ok (28ms)
+2026-01-05 14:51:14,661 INFO thumbnailer worker heartbeat ok (10ms)
+2026-01-05 14:51:25,810 INFO thumbnailer worker heartbeat ok (10ms)
+2026-01-05 14:51:34,629 INFO thumbnailer worker heartbeat ok (89ms)
+2026-01-05 14:51:45,790 INFO thumbnailer worker heartbeat ok (55ms)
+2026-01-05 14:51:59,539 INFO thumbnailer GET /v1/items 200 65ms req_id=812c544b
+2026-01-05 14:52:10,245 INFO thumbnailer GET /v1/items 200 80ms req_id=04103dfe
+2026-01-05 14:52:22,519 INFO thumbnailer worker heartbeat ok (23ms)
+2026-01-05 14:52:30,021 INFO thumbnailer worker heartbeat ok (9ms)
+2026-01-05 14:52:37,165 INFO thumbnailer worker heartbeat ok (17ms)
+2026-01-05 14:52:51,499 INFO thumbnailer GET /v1/items 200 20ms req_id=d35330f2
+2026-01-05 14:53:05,938 INFO thumbnailer GET /v1/items 200 16ms req_id=14baf09c
+2026-01-05 14:53:16,930 INFO thumbnailer GET /v1/items 200 16ms req_id=f8d4ec68
+2026-01-05 14:53:24,587 INFO thumbnailer GET /v1/items 200 56ms req_id=20c2f80e
+2026-01-05 14:53:32,707 INFO thumbnailer GET /v1/items 200 8ms req_id=66a69704
+2026-01-05 14:53:42,066 INFO thumbnailer worker heartbeat ok (62ms)
+2026-01-05 14:53:52,046 INFO thumbnailer worker heartbeat ok (58ms)
+2026-01-05 14:54:00,146 INFO thumbnailer GET /v1/items 200 76ms req_id=c840b154

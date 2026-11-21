@@ -1,0 +1,232 @@
+2026-01-19T15:05:36.747+05:30 info booking-svc served GET /api status=200 in 51ms trace=2132e090
+2026-01-19T15:05:43.652+05:30 info booking-svc event loop lag 23ms ok
+2026-01-19T15:05:52.094+05:30 info booking-svc event loop lag 95ms ok
+2026-01-19T15:06:01.905+05:30 info booking-svc served GET /api status=200 in 20ms trace=adb14e3e
+2026-01-19T15:06:15.487+05:30 info booking-svc event loop lag 46ms ok
+2026-01-19T15:06:29.875+05:30 info booking-svc served GET /api status=200 in 28ms trace=1439d489
+2026-01-19T15:06:38.250+05:30 info booking-svc served GET /api status=200 in 90ms trace=828db869
+2026-01-19T15:06:51.751+05:30 info booking-svc served GET /api status=200 in 78ms trace=8978cc17
+2026-01-19T15:07:02.207+05:30 info booking-svc served GET /api status=200 in 76ms trace=995f319e
+2026-01-19T15:07:11.137+05:30 info booking-svc served GET /api status=200 in 19ms trace=59551204
+2026-01-19T15:07:23.315+05:30 info booking-svc served GET /api status=200 in 60ms trace=f971eb16
+2026-01-19T15:07:31.864+05:30 info booking-svc event loop lag 89ms ok
+2026-01-19T15:07:39.068+05:30 info booking-svc served GET /api status=200 in 66ms trace=4e925c92
+2026-01-19T15:07:53.606+05:30 info booking-svc event loop lag 60ms ok
+2026-01-19T15:08:07.424+05:30 info booking-svc event loop lag 50ms ok
+2026-01-19T15:08:20.921+05:30 info booking-svc served GET /api status=200 in 50ms trace=2a4b653c
+2026-01-19T15:08:33.158+05:30 info booking-svc served GET /api status=200 in 33ms trace=2e21f4ad
+2026-01-19T15:08:42.337+05:30 info booking-svc event loop lag 15ms ok
+2026-01-19T15:08:56.782+05:30 info booking-svc event loop lag 83ms ok
+2026-01-19T15:09:09.336+05:30 info booking-svc event loop lag 63ms ok
+2026-01-19T15:09:20.806+05:30 info booking-svc event loop lag 75ms ok
+2026-01-19T15:09:28.400+05:30 info booking-svc served GET /api status=200 in 65ms trace=69ee164b
+2026-01-19T15:09:29.000+05:30 warn booking-svc unhandled header x-legacy ignored trace=2de0477d
+2026-01-19T15:09:37.991+05:30 info booking-svc event loop lag 13ms ok
+2026-01-19T15:09:44.513+05:30 info booking-svc served GET /api status=200 in 87ms trace=f91c6934
+2026-01-19T15:09:45.000+05:30 warn booking-svc event loop lag 290ms
+2026-01-19T15:09:53.792+05:30 info booking-svc event loop lag 25ms ok
+2026-01-19T15:10:04.402+05:30 info booking-svc served GET /api status=200 in 64ms trace=2194cb3f
+2026-01-19T15:10:13.314+05:30 info booking-svc served GET /api status=200 in 39ms trace=4e7abc13
+2026-01-19T15:10:22.936+05:30 info booking-svc event loop lag 34ms ok
+2026-01-19T15:10:32.478+05:30 info booking-svc event loop lag 48ms ok
+2026-01-19T15:10:40.940+05:30 error booking-svc FetchError: request to http://fare-svc:6103 failed, reason: socket hang up trace=45c3fdb8
+2026-01-19T15:10:42.978+05:30 warn booking-svc retry 2/3 for fare-svc scheduled in 500ms
+2026-01-19T15:10:43.974+05:30 info booking-svc event loop lag 50ms ok
+2026-01-19T15:10:45.134+05:30 error booking-svc circuit open for fare-svc after repeated failures
+2026-01-19T15:10:46.211+05:30 error booking-svc FetchError: request to http://fare-svc:6103 failed, reason: socket hang up trace=897bf01e
+2026-01-19T15:10:47.799+05:30 error booking-svc FetchError: request to http://fare-svc:6103 failed, reason: socket hang up trace=cc5822e4
+2026-01-19T15:10:50.522+05:30 error booking-svc Error: connect ECONNREFUSED fare-svc:6103 trace=5b1786ae
+2026-01-19T15:10:51.654+05:30 info booking-svc served GET /api status=200 in 66ms trace=82d1fba3
+2026-01-19T15:10:51.714+05:30 error booking-svc Error: connect ECONNREFUSED fare-svc:6103 trace=ac357d75
+2026-01-19T15:10:53.543+05:30 error booking-svc Error: connect ECONNREFUSED fare-svc:6103 trace=2de82c5b
+2026-01-19T15:10:54.181+05:30 error booking-svc Error: connect ECONNREFUSED fare-svc:6103 trace=fde78aa8
+2026-01-19T15:10:54.999+05:30 error booking-svc Error: connect ECONNREFUSED fare-svc:6103 trace=e27b5968
+2026-01-19T15:10:57.069+05:30 error booking-svc FetchError: request to http://fare-svc:6103 failed, reason: socket hang up trace=34bab627
+2026-01-19T15:10:59.231+05:30 error booking-svc FetchError: request to http://fare-svc:6103 failed, reason: socket hang up trace=08dc4f32
+2026-01-19T15:11:01.614+05:30 error booking-svc Error: connect ECONNREFUSED fare-svc:6103 trace=e7c56a83
+2026-01-19T15:11:04.243+05:30 error booking-svc Error: connect ECONNREFUSED fare-svc:6103 trace=228a93b1
+2026-01-19T15:11:05.222+05:30 info booking-svc event loop lag 56ms ok
+2026-01-19T15:11:06.649+05:30 error booking-svc FetchError: request to http://fare-svc:6103 failed, reason: socket hang up trace=c533f62c
+2026-01-19T15:11:08.882+05:30 error booking-svc FetchError: request to http://fare-svc:6103 failed, reason: socket hang up trace=92ae1881
+2026-01-19T15:11:10.489+05:30 error booking-svc Error: connect ECONNREFUSED fare-svc:6103 trace=7cfe4046
+2026-01-19T15:11:12.321+05:30 error booking-svc Error: connect ECONNREFUSED fare-svc:6103 trace=e7ac1f76
+2026-01-19T15:11:14.083+05:30 info booking-svc event loop lag 24ms ok
+2026-01-19T15:11:14.285+05:30 error booking-svc FetchError: request to http://fare-svc:6103 failed, reason: socket hang up trace=daa89542
+2026-01-19T15:11:16.522+05:30 error booking-svc Error: connect ECONNREFUSED fare-svc:6103 trace=fbd08c49
+2026-01-19T15:11:17.977+05:30 error booking-svc FetchError: request to http://fare-svc:6103 failed, reason: socket hang up trace=6bfdd191
+2026-01-19T15:11:19.820+05:30 error booking-svc FetchError: request to http://fare-svc:6103 failed, reason: socket hang up trace=0226ca98
+2026-01-19T15:11:21.426+05:30 error booking-svc Error: connect ECONNREFUSED fare-svc:6103 trace=12c07d2c
+2026-01-19T15:11:22.421+05:30 error booking-svc FetchError: request to http://fare-svc:6103 failed, reason: socket hang up trace=a5d38ca6
+2026-01-19T15:11:22.599+05:30 info booking-svc event loop lag 88ms ok
+2026-01-19T15:11:23.397+05:30 error booking-svc FetchError: request to http://fare-svc:6103 failed, reason: socket hang up trace=23e127ca
+2026-01-19T15:11:25.526+05:30 error booking-svc Error: connect ECONNREFUSED fare-svc:6103 trace=e88f73a0
+2026-01-19T15:11:27.987+05:30 error booking-svc Error: connect ECONNREFUSED fare-svc:6103 trace=93e96f6c
+2026-01-19T15:11:30.113+05:30 error booking-svc FetchError: request to http://fare-svc:6103 failed, reason: socket hang up trace=dfc024ca
+2026-01-19T15:11:31.081+05:30 error booking-svc Error: connect ECONNREFUSED fare-svc:6103 trace=ba0db7c2
+2026-01-19T15:11:32.220+05:30 error booking-svc Error: connect ECONNREFUSED fare-svc:6103 trace=9363b43d
+2026-01-19T15:11:33.195+05:30 info booking-svc served GET /api status=200 in 27ms trace=e2b0c3d4
+2026-01-19T15:11:33.795+05:30 error booking-svc Error: connect ECONNREFUSED fare-svc:6103 trace=7372abdf
+2026-01-19T15:11:34.477+05:30 error booking-svc Error: connect ECONNREFUSED fare-svc:6103 trace=1d50d805
+2026-01-19T15:11:36.331+05:30 error booking-svc Error: connect ECONNREFUSED fare-svc:6103 trace=b348357b
+2026-01-19T15:11:37.295+05:30 error booking-svc FetchError: request to http://fare-svc:6103 failed, reason: socket hang up trace=0cfe9b60
+2026-01-19T15:11:38.998+05:30 error booking-svc FetchError: request to http://fare-svc:6103 failed, reason: socket hang up trace=4e923ee4
+2026-01-19T15:11:40.087+05:30 error booking-svc Error: connect ECONNREFUSED fare-svc:6103 trace=0760e0b8
+2026-01-19T15:11:41.808+05:30 error booking-svc Error: connect ECONNREFUSED fare-svc:6103 trace=8b71fddc
+2026-01-19T15:11:43.409+05:30 error booking-svc Error: connect ECONNREFUSED fare-svc:6103 trace=b5283abe
+2026-01-19T15:11:45.326+05:30 error booking-svc FetchError: request to http://fare-svc:6103 failed, reason: socket hang up trace=fec8ef1f
+2026-01-19T15:11:46.873+05:30 error booking-svc FetchError: request to http://fare-svc:6103 failed, reason: socket hang up trace=0687c51e
+2026-01-19T15:11:46.897+05:30 info booking-svc event loop lag 32ms ok
+2026-01-19T15:11:49.042+05:30 error booking-svc FetchError: request to http://fare-svc:6103 failed, reason: socket hang up trace=8baf8cff
+2026-01-19T15:11:50.634+05:30 error booking-svc Error: connect ECONNREFUSED fare-svc:6103 trace=f13c6bca
+2026-01-19T15:11:52.763+05:30 error booking-svc FetchError: request to http://fare-svc:6103 failed, reason: socket hang up trace=457d9e25
+2026-01-19T15:11:54.746+05:30 error booking-svc FetchError: request to http://fare-svc:6103 failed, reason: socket hang up trace=3418bfb3
+2026-01-19T15:11:54.774+05:30 info booking-svc event loop lag 84ms ok
+2026-01-19T15:11:56.641+05:30 error booking-svc Error: connect ECONNREFUSED fare-svc:6103 trace=a71c9099
+2026-01-19T15:11:59.090+05:30 error booking-svc FetchError: request to http://fare-svc:6103 failed, reason: socket hang up trace=2298651a
+2026-01-19T15:12:00.594+05:30 error booking-svc FetchError: request to http://fare-svc:6103 failed, reason: socket hang up trace=2da0e1be
+2026-01-19T15:12:01.601+05:30 error booking-svc Error: connect ECONNREFUSED fare-svc:6103 trace=aebdabd0
+2026-01-19T15:12:03.367+05:30 error booking-svc FetchError: request to http://fare-svc:6103 failed, reason: socket hang up trace=d06e2f5d
+2026-01-19T15:12:05.395+05:30 error booking-svc FetchError: request to http://fare-svc:6103 failed, reason: socket hang up trace=6f84aa97
+2026-01-19T15:12:06.848+05:30 error booking-svc FetchError: request to http://fare-svc:6103 failed, reason: socket hang up trace=fa229d49
+2026-01-19T15:12:07.642+05:30 info booking-svc event loop lag 39ms ok
+2026-01-19T15:12:09.181+05:30 error booking-svc FetchError: request to http://fare-svc:6103 failed, reason: socket hang up trace=586a2c0a
+2026-01-19T15:12:10.307+05:30 error booking-svc FetchError: request to http://fare-svc:6103 failed, reason: socket hang up trace=3c53b0cb
+2026-01-19T15:12:12.409+05:30 error booking-svc Error: connect ECONNREFUSED fare-svc:6103 trace=7de2f6d5
+2026-01-19T15:12:13.907+05:30 error booking-svc FetchError: request to http://fare-svc:6103 failed, reason: socket hang up trace=b4136828
+2026-01-19T15:12:16.003+05:30 error booking-svc Error: connect ECONNREFUSED fare-svc:6103 trace=c46d65bc
+2026-01-19T15:12:17.085+05:30 error booking-svc Error: connect ECONNREFUSED fare-svc:6103 trace=6777edf9
+2026-01-19T15:12:19.096+05:30 error booking-svc FetchError: request to http://fare-svc:6103 failed, reason: socket hang up trace=da3ad7e9
+2026-01-19T15:12:21.082+05:30 info booking-svc served GET /api status=200 in 60ms trace=5801e52d
+2026-01-19T15:12:21.625+05:30 error booking-svc Error: connect ECONNREFUSED fare-svc:6103 trace=cfc29d37
+2026-01-19T15:12:22.834+05:30 error booking-svc Error: connect ECONNREFUSED fare-svc:6103 trace=188dde35
+2026-01-19T15:12:24.151+05:30 error booking-svc FetchError: request to http://fare-svc:6103 failed, reason: socket hang up trace=3c9aa336
+2026-01-19T15:12:26.474+05:30 error booking-svc FetchError: request to http://fare-svc:6103 failed, reason: socket hang up trace=6893caf8
+2026-01-19T15:12:28.056+05:30 info booking-svc served GET /api status=200 in 62ms trace=8a3853f7
+2026-01-19T15:12:29.114+05:30 error booking-svc Error: connect ECONNREFUSED fare-svc:6103 trace=b0941211
+2026-01-19T15:12:30.268+05:30 error booking-svc Error: connect ECONNREFUSED fare-svc:6103 trace=33b1dd06
+2026-01-19T15:12:31.936+05:30 error booking-svc Error: connect ECONNREFUSED fare-svc:6103 trace=365f7906
+2026-01-19T15:12:33.215+05:30 error booking-svc FetchError: request to http://fare-svc:6103 failed, reason: socket hang up trace=d9e7a251
+2026-01-19T15:12:34.733+05:30 error booking-svc FetchError: request to http://fare-svc:6103 failed, reason: socket hang up trace=71ef7cd1
+2026-01-19T15:12:36.530+05:30 error booking-svc Error: connect ECONNREFUSED fare-svc:6103 trace=0af8977f
+2026-01-19T15:12:38.340+05:30 error booking-svc Error: connect ECONNREFUSED fare-svc:6103 trace=bd3c96f6
+2026-01-19T15:12:40.574+05:30 info booking-svc event loop lag 88ms ok
+2026-01-19T15:12:40.843+05:30 error booking-svc Error: connect ECONNREFUSED fare-svc:6103 trace=069b73ed
+2026-01-19T15:12:42.817+05:30 error booking-svc FetchError: request to http://fare-svc:6103 failed, reason: socket hang up trace=912aafff
+2026-01-19T15:12:43.489+05:30 error booking-svc Error: connect ECONNREFUSED fare-svc:6103 trace=11f416e7
+2026-01-19T15:12:45.566+05:30 error booking-svc Error: connect ECONNREFUSED fare-svc:6103 trace=cd020076
+2026-01-19T15:12:46.907+05:30 error booking-svc Error: connect ECONNREFUSED fare-svc:6103 trace=765a6168
+2026-01-19T15:12:48.949+05:30 info booking-svc served GET /api status=200 in 49ms trace=d17464e5
+2026-01-19T15:12:49.511+05:30 error booking-svc FetchError: request to http://fare-svc:6103 failed, reason: socket hang up trace=414441d9
+2026-01-19T15:12:50.947+05:30 error booking-svc FetchError: request to http://fare-svc:6103 failed, reason: socket hang up trace=39818425
+2026-01-19T15:12:52.180+05:30 error booking-svc Error: connect ECONNREFUSED fare-svc:6103 trace=e2ad4bf0
+2026-01-19T15:12:54.096+05:30 error booking-svc FetchError: request to http://fare-svc:6103 failed, reason: socket hang up trace=540d8490
+2026-01-19T15:12:56.620+05:30 error booking-svc Error: connect ECONNREFUSED fare-svc:6103 trace=6aeb60a1
+2026-01-19T15:12:56.681+05:30 error booking-svc FetchError: request to http://fare-svc:6103 failed, reason: socket hang up trace=f04926d8
+2026-01-19T15:12:58.611+05:30 error booking-svc FetchError: request to http://fare-svc:6103 failed, reason: socket hang up trace=dcd672f9
+2026-01-19T15:12:59.076+05:30 error booking-svc FetchError: request to http://fare-svc:6103 failed, reason: socket hang up trace=3a4f5afc
+2026-01-19T15:12:59.249+05:30 info booking-svc event loop lag 65ms ok
+2026-01-19T15:13:00.976+05:30 error booking-svc FetchError: request to http://fare-svc:6103 failed, reason: socket hang up trace=172af0de
+2026-01-19T15:13:03.039+05:30 error booking-svc FetchError: request to http://fare-svc:6103 failed, reason: socket hang up trace=c0a059dc
+2026-01-19T15:13:05.435+05:30 error booking-svc Error: connect ECONNREFUSED fare-svc:6103 trace=6e5e618c
+2026-01-19T15:13:06.282+05:30 error booking-svc Error: connect ECONNREFUSED fare-svc:6103 trace=455f05fc
+2026-01-19T15:13:08.972+05:30 error booking-svc FetchError: request to http://fare-svc:6103 failed, reason: socket hang up trace=40d5e5a3
+2026-01-19T15:13:09.372+05:30 error booking-svc Error: connect ECONNREFUSED fare-svc:6103 trace=5eddcb3d
+2026-01-19T15:13:10.101+05:30 info booking-svc served GET /api status=200 in 53ms trace=33db822e
+2026-01-19T15:13:11.062+05:30 error booking-svc Error: connect ECONNREFUSED fare-svc:6103 trace=7147272f
+2026-01-19T15:13:13.030+05:30 error booking-svc FetchError: request to http://fare-svc:6103 failed, reason: socket hang up trace=a842c647
+2026-01-19T15:13:15.231+05:30 error booking-svc Error: connect ECONNREFUSED fare-svc:6103 trace=d7f0c485
+2026-01-19T15:13:17.126+05:30 error booking-svc Error: connect ECONNREFUSED fare-svc:6103 trace=af433677
+2026-01-19T15:13:18.799+05:30 error booking-svc Error: connect ECONNREFUSED fare-svc:6103 trace=449785ee
+2026-01-19T15:13:19.951+05:30 error booking-svc FetchError: request to http://fare-svc:6103 failed, reason: socket hang up trace=fa945be5
+2026-01-19T15:13:22.279+05:30 error booking-svc FetchError: request to http://fare-svc:6103 failed, reason: socket hang up trace=f7d27e0a
+2026-01-19T15:13:23.292+05:30 info booking-svc event loop lag 94ms ok
+2026-01-19T15:13:24.101+05:30 error booking-svc Error: connect ECONNREFUSED fare-svc:6103 trace=ad535df0
+2026-01-19T15:13:26.350+05:30 error booking-svc FetchError: request to http://fare-svc:6103 failed, reason: socket hang up trace=0d7a8bd9
+2026-01-19T15:13:27.148+05:30 error booking-svc Error: connect ECONNREFUSED fare-svc:6103 trace=cdd927c1
+2026-01-19T15:13:29.756+05:30 error booking-svc Error: connect ECONNREFUSED fare-svc:6103 trace=b2b8f9b4
+2026-01-19T15:13:31.092+05:30 error booking-svc FetchError: request to http://fare-svc:6103 failed, reason: socket hang up trace=d67f887a
+2026-01-19T15:13:32.403+05:30 info booking-svc served GET /api status=200 in 73ms trace=51ebf4ec
+2026-01-19T15:13:33.045+05:30 error booking-svc Error: connect ECONNREFUSED fare-svc:6103 trace=0bba11a0
+2026-01-19T15:13:34.185+05:30 error booking-svc FetchError: request to http://fare-svc:6103 failed, reason: socket hang up trace=bee241cd
+2026-01-19T15:13:36.477+05:30 error booking-svc FetchError: request to http://fare-svc:6103 failed, reason: socket hang up trace=2f5f3618
+2026-01-19T15:13:38.809+05:30 error booking-svc FetchError: request to http://fare-svc:6103 failed, reason: socket hang up trace=feaa1935
+2026-01-19T15:13:40.220+05:30 error booking-svc Error: connect ECONNREFUSED fare-svc:6103 trace=223291fe
+2026-01-19T15:13:42.033+05:30 error booking-svc FetchError: request to http://fare-svc:6103 failed, reason: socket hang up trace=4b076160
+2026-01-19T15:13:42.450+05:30 info booking-svc event loop lag 61ms ok
+2026-01-19T15:13:44.221+05:30 error booking-svc FetchError: request to http://fare-svc:6103 failed, reason: socket hang up trace=0fbe8293
+2026-01-19T15:13:46.555+05:30 error booking-svc FetchError: request to http://fare-svc:6103 failed, reason: socket hang up trace=c66a390f
+2026-01-19T15:13:47.303+05:30 error booking-svc Error: connect ECONNREFUSED fare-svc:6103 trace=00f01543
+2026-01-19T15:13:48.421+05:30 error booking-svc Error: connect ECONNREFUSED fare-svc:6103 trace=270a0fca
+2026-01-19T15:13:50.604+05:30 error booking-svc Error: connect ECONNREFUSED fare-svc:6103 trace=fd915341
+2026-01-19T15:13:51.380+05:30 info booking-svc served GET /api status=200 in 88ms trace=ac1a8746
+2026-01-19T15:13:51.610+05:30 error booking-svc FetchError: request to http://fare-svc:6103 failed, reason: socket hang up trace=e79835d1
+2026-01-19T15:13:53.895+05:30 error booking-svc FetchError: request to http://fare-svc:6103 failed, reason: socket hang up trace=13bd5ad9
+2026-01-19T15:13:55.672+05:30 error booking-svc FetchError: request to http://fare-svc:6103 failed, reason: socket hang up trace=5a4fc848
+2026-01-19T15:13:57.422+05:30 error booking-svc FetchError: request to http://fare-svc:6103 failed, reason: socket hang up trace=e7a64d2b
+2026-01-19T15:13:59.699+05:30 error booking-svc Error: connect ECONNREFUSED fare-svc:6103 trace=3e540dc3
+2026-01-19T15:14:01.084+05:30 info booking-svc event loop lag 53ms ok
+2026-01-19T15:14:01.357+05:30 error booking-svc FetchError: request to http://fare-svc:6103 failed, reason: socket hang up trace=7f7d44a2
+2026-01-19T15:14:03.562+05:30 error booking-svc Error: connect ECONNREFUSED fare-svc:6103 trace=69c324d5
+2026-01-19T15:14:05.565+05:30 error booking-svc Error: connect ECONNREFUSED fare-svc:6103 trace=5e9f2f07
+2026-01-19T15:14:06.817+05:30 error booking-svc FetchError: request to http://fare-svc:6103 failed, reason: socket hang up trace=190bbfc0
+2026-01-19T15:14:08.062+05:30 error booking-svc FetchError: request to http://fare-svc:6103 failed, reason: socket hang up trace=9a361358
+2026-01-19T15:14:09.581+05:30 info booking-svc event loop lag 14ms ok
+2026-01-19T15:14:09.666+05:30 error booking-svc FetchError: request to http://fare-svc:6103 failed, reason: socket hang up trace=b4afaf64
+2026-01-19T15:14:11.172+05:30 error booking-svc Error: connect ECONNREFUSED fare-svc:6103 trace=0dc6bea0
+2026-01-19T15:14:14.024+05:30 error booking-svc FetchError: request to http://fare-svc:6103 failed, reason: socket hang up trace=ecafaf7b
+2026-01-19T15:14:14.899+05:30 error booking-svc Error: connect ECONNREFUSED fare-svc:6103 trace=c82ab671
+2026-01-19T15:14:15.571+05:30 info booking-svc served GET /api status=200 in 82ms trace=804ba581
+2026-01-19T15:14:17.531+05:30 error booking-svc FetchError: request to http://fare-svc:6103 failed, reason: socket hang up trace=a436bc92
+2026-01-19T15:14:18.733+05:30 error booking-svc FetchError: request to http://fare-svc:6103 failed, reason: socket hang up trace=bc6d98ef
+2026-01-19T15:14:20.591+05:30 error booking-svc FetchError: request to http://fare-svc:6103 failed, reason: socket hang up trace=00f758ca
+2026-01-19T15:14:22.419+05:30 error booking-svc Error: connect ECONNREFUSED fare-svc:6103 trace=cf4499cb
+2026-01-19T15:14:24.298+05:30 error booking-svc FetchError: request to http://fare-svc:6103 failed, reason: socket hang up trace=bb7200fa
+2026-01-19T15:14:25.536+05:30 error booking-svc Error: connect ECONNREFUSED fare-svc:6103 trace=0f5d6bf8
+2026-01-19T15:14:26.084+05:30 info booking-svc served GET /api status=200 in 86ms trace=ea17c807
+2026-01-19T15:14:28.323+05:30 error booking-svc Error: connect ECONNREFUSED fare-svc:6103 trace=398fc50e
+2026-01-19T15:14:29.459+05:30 error booking-svc FetchError: request to http://fare-svc:6103 failed, reason: socket hang up trace=37f48f9e
+2026-01-19T15:14:31.352+05:30 error booking-svc FetchError: request to http://fare-svc:6103 failed, reason: socket hang up trace=f0ad9575
+2026-01-19T15:14:32.154+05:30 error booking-svc Error: connect ECONNREFUSED fare-svc:6103 trace=93fb2529
+2026-01-19T15:14:34.262+05:30 error booking-svc FetchError: request to http://fare-svc:6103 failed, reason: socket hang up trace=19f1e54c
+2026-01-19T15:14:35.261+05:30 info booking-svc served GET /api status=200 in 22ms trace=2514a41c
+2026-01-19T15:14:35.943+05:30 error booking-svc FetchError: request to http://fare-svc:6103 failed, reason: socket hang up trace=55cd1192
+2026-01-19T15:14:37.830+05:30 error booking-svc Error: connect ECONNREFUSED fare-svc:6103 trace=bbce9933
+2026-01-19T15:14:38.167+05:30 error booking-svc Error: connect ECONNREFUSED fare-svc:6103 trace=067e63c5
+2026-01-19T15:14:40.025+05:30 error booking-svc Error: connect ECONNREFUSED fare-svc:6103 trace=e506e837
+2026-01-19T15:14:42.095+05:30 error booking-svc Error: connect ECONNREFUSED fare-svc:6103 trace=a831b744
+2026-01-19T15:14:42.654+05:30 info booking-svc served GET /api status=200 in 32ms trace=09f3218a
+2026-01-19T15:14:43.898+05:30 error booking-svc Error: connect ECONNREFUSED fare-svc:6103 trace=d1ba7368
+2026-01-19T15:14:45.503+05:30 error booking-svc FetchError: request to http://fare-svc:6103 failed, reason: socket hang up trace=d61fd150
+2026-01-19T15:14:47.039+05:30 error booking-svc Error: connect ECONNREFUSED fare-svc:6103 trace=1f2cc9ff
+2026-01-19T15:14:48.667+05:30 error booking-svc Error: connect ECONNREFUSED fare-svc:6103 trace=df5e1bd2
+2026-01-19T15:14:49.172+05:30 error booking-svc Error: connect ECONNREFUSED fare-svc:6103 trace=03a29a17
+2026-01-19T15:14:50.964+05:30 info booking-svc event loop lag 46ms ok
+2026-01-19T15:14:52.080+05:30 error booking-svc FetchError: request to http://fare-svc:6103 failed, reason: socket hang up trace=5b400a88
+2026-01-19T15:14:52.887+05:30 error booking-svc FetchError: request to http://fare-svc:6103 failed, reason: socket hang up trace=2fd41c07
+2026-01-19T15:14:54.728+05:30 error booking-svc Error: connect ECONNREFUSED fare-svc:6103 trace=eb2002ef
+2026-01-19T15:14:56.202+05:30 error booking-svc Error: connect ECONNREFUSED fare-svc:6103 trace=c2e4463a
+2026-01-19T15:14:57.935+05:30 error booking-svc Error: connect ECONNREFUSED fare-svc:6103 trace=9300590a
+2026-01-19T15:15:00.183+05:30 error booking-svc FetchError: request to http://fare-svc:6103 failed, reason: socket hang up trace=bad15007
+2026-01-19T15:15:01.228+05:30 error booking-svc FetchError: request to http://fare-svc:6103 failed, reason: socket hang up trace=2e01f8d6
+2026-01-19T15:15:03.196+05:30 info booking-svc served GET /api status=200 in 84ms trace=b18240dd
+2026-01-19T15:15:03.440+05:30 error booking-svc FetchError: request to http://fare-svc:6103 failed, reason: socket hang up trace=0fb2bc5c
+2026-01-19T15:15:05.326+05:30 error booking-svc FetchError: request to http://fare-svc:6103 failed, reason: socket hang up trace=f52329c8
+2026-01-19T15:15:07.387+05:30 error booking-svc FetchError: request to http://fare-svc:6103 failed, reason: socket hang up trace=4d4f69f6
+2026-01-19T15:15:08.829+05:30 error booking-svc Error: connect ECONNREFUSED fare-svc:6103 trace=b2c99e8c
+2026-01-19T15:15:10.277+05:30 error booking-svc Error: connect ECONNREFUSED fare-svc:6103 trace=4f5f9098
+2026-01-19T15:15:11.974+05:30 error booking-svc FetchError: request to http://fare-svc:6103 failed, reason: socket hang up trace=a03a2c65
+2026-01-19T15:15:12.428+05:30 info booking-svc event loop lag 18ms ok
+2026-01-19T15:15:13.270+05:30 error booking-svc FetchError: request to http://fare-svc:6103 failed, reason: socket hang up trace=d8c110cc
+2026-01-19T15:15:14.584+05:30 error booking-svc FetchError: request to http://fare-svc:6103 failed, reason: socket hang up trace=895b1681
+2026-01-19T15:15:17.099+05:30 error booking-svc FetchError: request to http://fare-svc:6103 failed, reason: socket hang up trace=225bc05a
+2026-01-19T15:15:18.924+05:30 error booking-svc FetchError: request to http://fare-svc:6103 failed, reason: socket hang up trace=b554cd7c
+2026-01-19T15:15:20.333+05:30 error booking-svc Error: connect ECONNREFUSED fare-svc:6103 trace=63d7f8fb
+2026-01-19T15:15:21.654+05:30 error booking-svc FetchError: request to http://fare-svc:6103 failed, reason: socket hang up trace=fc7b70f3
+2026-01-19T15:15:23.862+05:30 error booking-svc FetchError: request to http://fare-svc:6103 failed, reason: socket hang up trace=9bbc19b2
+2026-01-19T15:15:24.843+05:30 error booking-svc FetchError: request to http://fare-svc:6103 failed, reason: socket hang up trace=eab3528e
+2026-01-19T15:15:26.547+05:30 error booking-svc FetchError: request to http://fare-svc:6103 failed, reason: socket hang up trace=82cd5965
+2026-01-19T15:15:26.664+05:30 info booking-svc event loop lag 14ms ok
+2026-01-19T15:15:27.651+05:30 error booking-svc Error: connect ECONNREFUSED fare-svc:6103 trace=669ec849
+2026-01-19T15:15:29.592+05:30 error booking-svc Error: connect ECONNREFUSED fare-svc:6103 trace=42d7740d
+2026-01-19T15:15:32.305+05:30 error booking-svc Error: connect ECONNREFUSED fare-svc:6103 trace=925c2a24
+2026-01-19T15:15:33.456+05:30 error booking-svc FetchError: request to http://fare-svc:6103 failed, reason: socket hang up trace=a0e9be57

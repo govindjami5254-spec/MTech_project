@@ -1,0 +1,66 @@
+2026-01-06T15:37:28.873+05:30 info stream-proc served GET /api status=200 in 87ms trace=693c53bf
+2026-01-06T15:37:39.050+05:30 info stream-proc served GET /api status=200 in 61ms trace=c40e6529
+2026-01-06T15:37:48.750+05:30 info stream-proc event loop lag 86ms ok
+2026-01-06T15:38:02.674+05:30 info stream-proc served GET /api status=200 in 73ms trace=852722c6
+2026-01-06T15:38:10.047+05:30 info stream-proc event loop lag 12ms ok
+2026-01-06T15:38:17.567+05:30 info stream-proc served GET /api status=200 in 19ms trace=d11243f9
+2026-01-06T15:38:29.165+05:30 info stream-proc served GET /api status=200 in 85ms trace=e0eac640
+2026-01-06T15:38:39.609+05:30 info stream-proc event loop lag 46ms ok
+2026-01-06T15:38:45.664+05:30 info stream-proc served GET /api status=200 in 36ms trace=346eae45
+2026-01-06T15:38:57.390+05:30 info stream-proc served GET /api status=200 in 17ms trace=8c9d2657
+2026-01-06T15:39:10.591+05:30 info stream-proc event loop lag 32ms ok
+2026-01-06T15:39:16.923+05:30 info stream-proc served GET /api status=200 in 45ms trace=f747f60b
+2026-01-06T15:39:25.163+05:30 info stream-proc event loop lag 86ms ok
+2026-01-06T15:39:34.304+05:30 info stream-proc event loop lag 35ms ok
+2026-01-06T15:39:44.493+05:30 info stream-proc served GET /api status=200 in 79ms trace=1d76ed11
+2026-01-06T15:39:55.392+05:30 info stream-proc served GET /api status=200 in 28ms trace=0cdc0e92
+2026-01-06T15:40:05.740+05:30 info stream-proc event loop lag 74ms ok
+2026-01-06T15:40:14.176+05:30 info stream-proc served GET /api status=200 in 94ms trace=8433fd5d
+2026-01-06T15:40:20.599+05:30 info stream-proc served GET /api status=200 in 29ms trace=a00004cd
+2026-01-06T15:40:26.313+05:30 info stream-proc event loop lag 35ms ok
+2026-01-06T15:40:40.086+05:30 info stream-proc served GET /api status=200 in 34ms trace=296bacf2
+2026-01-06T15:40:48.329+05:30 info stream-proc event loop lag 68ms ok
+2026-01-06T15:40:58.291+05:30 info stream-proc event loop lag 55ms ok
+2026-01-06T15:41:06.333+05:30 info stream-proc served GET /api status=200 in 22ms trace=747cbb17
+2026-01-06T15:41:15.205+05:30 info stream-proc served GET /api status=200 in 22ms trace=da024901
+2026-01-06T15:41:27.932+05:30 info stream-proc served GET /api status=200 in 47ms trace=3b482177
+2026-01-06T15:41:35.743+05:30 info stream-proc served GET /api status=200 in 68ms trace=5ed999d0
+2026-01-06T15:41:44.913+05:30 info stream-proc served GET /api status=200 in 60ms trace=5369ef90
+2026-01-06T15:41:57.524+05:30 info stream-proc event loop lag 58ms ok
+2026-01-06T15:42:04.472+05:30 info stream-proc event loop lag 79ms ok
+2026-01-06T15:42:11.277+05:30 info stream-proc event loop lag 40ms ok
+2026-01-06T15:42:18.018+05:30 info stream-proc served GET /api status=200 in 90ms trace=516ce624
+2026-01-06T15:42:32.511+05:30 info stream-proc served GET /api status=200 in 22ms trace=45ebdba0
+2026-01-06T15:42:40.922+05:30 info stream-proc loading config from config/production.json
+2026-01-06T15:42:42.000+05:30 info stream-proc served GET /api status=200 in 26ms trace=607bbb6e
+2026-01-06T15:42:44.113+05:30 error stream-proc ConfigError: 'poolSize' must be a positive integer, got 'abc'
+2026-01-06T15:42:46.791+05:30 fatal stream-proc refusing to start with invalid configuration
+2026-01-06T15:42:54.469+05:30 info stream-proc served GET /api status=200 in 16ms trace=cbcdd8f3
+2026-01-06T15:43:02.668+05:30 info stream-proc served GET /api status=200 in 37ms trace=6430a5db
+2026-01-06T15:43:13.144+05:30 info stream-proc served GET /api status=200 in 37ms trace=60e4405b
+2026-01-06T15:43:20.424+05:30 info stream-proc event loop lag 79ms ok
+2026-01-06T15:43:28.893+05:30 info stream-proc event loop lag 44ms ok
+2026-01-06T15:43:37.848+05:30 info stream-proc served GET /api status=200 in 39ms trace=b7242ce2
+2026-01-06T15:43:49.769+05:30 info stream-proc served GET /api status=200 in 57ms trace=753102df
+2026-01-06T15:43:57.822+05:30 info stream-proc served GET /api status=200 in 24ms trace=103061a5
+2026-01-06T15:44:03.224+05:30 info stream-proc served GET /api status=200 in 71ms trace=82b0365d
+2026-01-06T15:44:14.308+05:30 info stream-proc served GET /api status=200 in 31ms trace=6f37bb0a
+2026-01-06T15:44:26.536+05:30 info stream-proc served GET /api status=200 in 57ms trace=d4cee7eb
+2026-01-06T15:44:34.861+05:30 info stream-proc served GET /api status=200 in 39ms trace=ce62c15e
+2026-01-06T15:44:42.198+05:30 info stream-proc event loop lag 77ms ok
+2026-01-06T15:44:53.218+05:30 info stream-proc event loop lag 79ms ok
+2026-01-06T15:44:59.631+05:30 info stream-proc event loop lag 46ms ok
+2026-01-06T15:45:09.597+05:30 info stream-proc event loop lag 24ms ok
+2026-01-06T15:45:21.355+05:30 info stream-proc event loop lag 33ms ok
+2026-01-06T15:45:22.000+05:30 warn stream-proc unhandled header x-legacy ignored trace=e44ecf15
+2026-01-06T15:45:29.212+05:30 info stream-proc event loop lag 15ms ok
+2026-01-06T15:45:37.862+05:30 info stream-proc served GET /api status=200 in 90ms trace=d2142b10
+2026-01-06T15:45:49.219+05:30 info stream-proc event loop lag 8ms ok
+2026-01-06T15:46:03.869+05:30 info stream-proc event loop lag 66ms ok
+2026-01-06T15:46:12.077+05:30 info stream-proc served GET /api status=200 in 44ms trace=4367ba5c
+2026-01-06T15:46:24.932+05:30 info stream-proc event loop lag 52ms ok
+2026-01-06T15:46:37.938+05:30 info stream-proc served GET /api status=200 in 26ms trace=6f28e301
+2026-01-06T15:46:45.043+05:30 info stream-proc event loop lag 45ms ok
+2026-01-06T15:46:51.237+05:30 info stream-proc served GET /api status=200 in 64ms trace=8f0e0ad7
+2026-01-06T15:47:00.365+05:30 info stream-proc served GET /api status=200 in 50ms trace=bc605929
+2026-01-06T15:47:13.424+05:30 info stream-proc event loop lag 20ms ok

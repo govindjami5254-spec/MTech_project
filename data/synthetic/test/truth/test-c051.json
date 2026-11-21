@@ -1,0 +1,26 @@
+{
+  "schema_version": "1",
+  "case_id": "test-c051",
+  "split": "test",
+  "family_id": "tf20",
+  "stratum": "insufficient",
+  "root_causes": [],
+  "fault_type": "silent_partition",
+  "expected_abstain": true,
+  "key_evidence": [],
+  "relevant_evidence": [
+    "ingress.log:31",
+    "ingress.log:33",
+    "ingress.log:34",
+    "ingress.log:35",
+    "ingress.log:36",
+    "ingress.log:38",
+    "ingress.log:39",
+    "telemetry-api.log:29",
+    "telemetry-api.log:30",
+    "telemetry-api.log:31"
+  ],
+  "propagation_path": [],
+  "injection_uids": [],
+  "decoy_component": null
+}

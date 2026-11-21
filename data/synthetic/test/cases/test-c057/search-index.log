@@ -1,0 +1,64 @@
+2026-01-05 09:51:44,328 INFO search-index GET /v1/items 200 46ms req_id=4836fe95
+2026-01-05 09:51:54,551 INFO search-index worker heartbeat ok (21ms)
+2026-01-05 09:52:02,029 INFO search-index worker heartbeat ok (90ms)
+2026-01-05 09:52:12,968 INFO search-index worker heartbeat ok (35ms)
+2026-01-05 09:52:22,345 INFO search-index GET /v1/items 200 10ms req_id=b749393e
+2026-01-05 09:52:29,659 INFO search-index worker heartbeat ok (56ms)
+2026-01-05 09:52:42,102 INFO search-index worker heartbeat ok (26ms)
+2026-01-05 09:52:56,903 INFO search-index GET /v1/items 200 90ms req_id=bc64a5a8
+2026-01-05 09:53:08,932 INFO search-index worker heartbeat ok (82ms)
+2026-01-05 09:53:17,971 INFO search-index GET /v1/items 200 15ms req_id=fd6d5100
+2026-01-05 09:53:24,676 INFO search-index GET /v1/items 200 71ms req_id=27978762
+2026-01-05 09:53:36,972 INFO search-index worker heartbeat ok (80ms)
+2026-01-05 09:53:50,228 INFO search-index worker heartbeat ok (39ms)
+2026-01-05 09:54:00,249 INFO search-index worker heartbeat ok (49ms)
+2026-01-05 09:54:10,059 INFO search-index worker heartbeat ok (91ms)
+2026-01-05 09:54:23,995 INFO search-index GET /v1/items 200 42ms req_id=d320f2d2
+2026-01-05 09:54:34,978 INFO search-index worker heartbeat ok (83ms)
+2026-01-05 09:54:47,684 INFO search-index GET /v1/items 200 24ms req_id=ce11318f
+2026-01-05 09:54:53,843 INFO search-index GET /v1/items 200 48ms req_id=460ffe42
+2026-01-05 09:55:03,522 INFO search-index GET /v1/items 200 18ms req_id=bcacbb78
+2026-01-05 09:55:15,423 INFO search-index worker heartbeat ok (88ms)
+2026-01-05 09:55:26,791 INFO search-index GET /v1/items 200 13ms req_id=948b52de
+2026-01-05 09:55:32,890 INFO search-index GET /v1/items 200 82ms req_id=322caad1
+2026-01-05 09:55:46,173 INFO search-index worker heartbeat ok (62ms)
+2026-01-05 09:55:59,910 INFO search-index GET /v1/items 200 8ms req_id=fd65c6b3
+2026-01-05 09:56:13,216 INFO search-index GET /v1/items 200 41ms req_id=e85c3730
+2026-01-05 09:56:21,464 INFO search-index worker heartbeat ok (39ms)
+2026-01-05 09:56:28,411 WARNING search-index SQLAlchemy pool overflow 69 in use
+2026-01-05 09:56:35,496 INFO search-index GET /v1/items 200 79ms req_id=d94eeaa0
+2026-01-05 09:56:43,988 INFO search-index worker heartbeat ok (10ms)
+2026-01-05 09:56:57,684 INFO search-index worker heartbeat ok (32ms)
+2026-01-05 09:56:58,511 ERROR search-index sqlalchemy.exc.TimeoutError: QueuePool limit of size 20 reached
+2026-01-05 09:57:03,710 INFO search-index GET /v1/items 200 52ms req_id=64111f9d
+2026-01-05 09:57:03,893 ERROR search-index returning 503 internally: no DB connection available
+2026-01-05 09:57:16,118 INFO search-index GET /v1/items 200 22ms req_id=05f58df1
+2026-01-05 09:57:28,105 INFO search-index GET /v1/items 200 71ms req_id=9b7e2e0e
+2026-01-05 09:57:34,870 INFO search-index GET /v1/items 200 22ms req_id=3638f36e
+2026-01-05 09:57:44,111 INFO search-index worker heartbeat ok (19ms)
+2026-01-05 09:57:55,837 INFO search-index GET /v1/items 200 93ms req_id=30738294
+2026-01-05 09:58:07,040 INFO search-index GET /v1/items 200 11ms req_id=58d0daad
+2026-01-05 09:58:17,997 INFO search-index GET /v1/items 200 66ms req_id=b4a8989b
+2026-01-05 09:58:23,359 INFO search-index GET /v1/items 200 49ms req_id=367a371d
+2026-01-05 09:58:24,000 WARNING search-index slow query took 510ms req_id=2787c93b
+2026-01-05 09:58:29,395 INFO search-index GET /v1/items 200 71ms req_id=d9c9775a
+2026-01-05 09:58:38,182 INFO search-index GET /v1/items 200 63ms req_id=5d34d535
+2026-01-05 09:58:50,182 INFO search-index GET /v1/items 200 63ms req_id=c2202e14
+2026-01-05 09:59:01,468 INFO search-index GET /v1/items 200 42ms req_id=54bfaf9b
+2026-01-05 09:59:10,136 INFO search-index GET /v1/items 200 21ms req_id=b55acd17
+2026-01-05 09:59:20,748 INFO search-index worker heartbeat ok (43ms)
+2026-01-05 09:59:34,747 INFO search-index worker heartbeat ok (67ms)
+2026-01-05 09:59:43,045 INFO search-index GET /v1/items 200 77ms req_id=5b88cc07
+2026-01-05 09:59:52,765 INFO search-index GET /v1/items 200 64ms req_id=172c77c2
+2026-01-05 10:00:01,972 INFO search-index worker heartbeat ok (82ms)
+2026-01-05 10:00:08,985 INFO search-index worker heartbeat ok (18ms)
+2026-01-05 10:00:21,286 INFO search-index GET /v1/items 200 54ms req_id=5241d5e7
+2026-01-05 10:00:30,069 INFO search-index GET /v1/items 200 30ms req_id=d983d0d6
+2026-01-05 10:00:38,666 INFO search-index worker heartbeat ok (82ms)
+2026-01-05 10:00:46,644 INFO search-index worker heartbeat ok (15ms)
+2026-01-05 10:00:55,865 INFO search-index worker heartbeat ok (88ms)
+2026-01-05 10:01:02,499 INFO search-index worker heartbeat ok (73ms)
+2026-01-05 10:01:10,141 INFO search-index GET /v1/items 200 35ms req_id=7a62c65b
+2026-01-05 10:01:21,493 INFO search-index GET /v1/items 200 89ms req_id=12e32fb0
+2026-01-05 10:01:22,000 WARNING search-index slow query took 680ms req_id=5422bdac
+2026-01-05 10:01:35,784 INFO search-index worker heartbeat ok (65ms)

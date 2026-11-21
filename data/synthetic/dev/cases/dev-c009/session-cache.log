@@ -1,0 +1,63 @@
+2026-01-07 09:51:26,354 INFO session-cache handled request rid=7c080b4c status=200 dur=84ms
+2026-01-07 09:51:36,163 INFO session-cache ping ok latency=72ms
+2026-01-07 09:51:50,873 INFO session-cache handled request rid=fd411d57 status=200 dur=18ms
+2026-01-07 09:51:59,599 INFO session-cache handled request rid=ba41cc59 status=200 dur=88ms
+2026-01-07 09:52:12,786 INFO session-cache handled request rid=870cdfed status=200 dur=52ms
+2026-01-07 09:52:21,188 INFO session-cache ping ok latency=42ms
+2026-01-07 09:52:33,262 INFO session-cache ping ok latency=53ms
+2026-01-07 09:52:43,640 INFO session-cache ping ok latency=89ms
+2026-01-07 09:52:54,369 INFO session-cache handled request rid=a3cec76d status=200 dur=85ms
+2026-01-07 09:53:07,232 INFO session-cache ping ok latency=35ms
+2026-01-07 09:53:18,335 INFO session-cache handled request rid=af129355 status=200 dur=51ms
+2026-01-07 09:53:26,788 INFO session-cache handled request rid=b0489e3b status=200 dur=45ms
+2026-01-07 09:53:35,288 INFO session-cache handled request rid=afd05fc8 status=200 dur=52ms
+2026-01-07 09:53:43,986 INFO session-cache handled request rid=a351a019 status=200 dur=34ms
+2026-01-07 09:53:56,741 INFO session-cache ping ok latency=44ms
+2026-01-07 09:54:03,529 INFO session-cache ping ok latency=10ms
+2026-01-07 09:54:09,278 INFO session-cache ping ok latency=84ms
+2026-01-07 09:54:16,783 INFO session-cache handled request rid=285b7d81 status=200 dur=45ms
+2026-01-07 09:54:27,350 INFO session-cache handled request rid=098973be status=200 dur=29ms
+2026-01-07 09:54:28,000 WARNING session-cache slow handler rid=82bb3a61 dur=180ms
+2026-01-07 09:54:40,590 INFO session-cache ping ok latency=85ms
+2026-01-07 09:54:41,000 WARNING session-cache retry budget low on client pool
+2026-01-07 09:54:52,314 INFO session-cache ping ok latency=22ms
+2026-01-07 09:54:59,584 INFO session-cache handled request rid=7d76301a status=200 dur=57ms
+2026-01-07 09:55:07,028 INFO session-cache handled request rid=cc782b80 status=200 dur=90ms
+2026-01-07 09:55:19,009 INFO session-cache ping ok latency=39ms
+2026-01-07 09:55:31,151 INFO session-cache ping ok latency=42ms
+2026-01-07 09:55:43,345 INFO session-cache handled request rid=6dc165fd status=200 dur=41ms
+2026-01-07 09:55:53,570 INFO session-cache ping ok latency=32ms
+2026-01-07 09:56:06,092 INFO session-cache handled request rid=902ed54b status=200 dur=60ms
+2026-01-07 09:56:16,330 INFO session-cache handled request rid=aa08400b status=200 dur=67ms
+2026-01-07 09:56:25,573 INFO session-cache handled request rid=30f5b5bf status=200 dur=70ms
+2026-01-07 09:56:38,691 INFO session-cache ping ok latency=12ms
+2026-01-07 09:56:44,602 INFO session-cache ping ok latency=27ms
+2026-01-07 09:56:45,000 WARNING session-cache slow handler rid=7841c57a dur=780ms
+2026-01-07 09:56:53,620 INFO session-cache ping ok latency=54ms
+2026-01-07 09:57:03,715 INFO session-cache ping ok latency=79ms
+2026-01-07 09:57:12,778 INFO session-cache ping ok latency=67ms
+2026-01-07 09:57:22,620 INFO session-cache ping ok latency=93ms
+2026-01-07 09:57:32,739 INFO session-cache ping ok latency=43ms
+2026-01-07 09:57:46,476 INFO session-cache handled request rid=61d3a37c status=200 dur=44ms
+2026-01-07 09:57:56,011 INFO session-cache handled request rid=14161f42 status=200 dur=50ms
+2026-01-07 09:58:02,896 INFO session-cache ping ok latency=14ms
+2026-01-07 09:58:12,272 INFO session-cache ping ok latency=73ms
+2026-01-07 09:58:18,964 INFO session-cache handled request rid=570af5e4 status=200 dur=79ms
+2026-01-07 09:58:29,460 INFO session-cache handled request rid=9f14dc1d status=200 dur=48ms
+2026-01-07 09:58:41,891 INFO session-cache ping ok latency=34ms
+2026-01-07 09:58:53,904 INFO session-cache ping ok latency=73ms
+2026-01-07 09:59:06,364 INFO session-cache handled request rid=f3f6287b status=200 dur=11ms
+2026-01-07 09:59:16,946 INFO session-cache ping ok latency=15ms
+2026-01-07 09:59:22,391 INFO session-cache handled request rid=1cf0b87e status=200 dur=93ms
+2026-01-07 09:59:35,584 INFO session-cache ping ok latency=71ms
+2026-01-07 09:59:47,236 INFO session-cache ping ok latency=26ms
+2026-01-07 09:59:59,830 INFO session-cache handled request rid=91d7a641 status=200 dur=58ms
+2026-01-07 10:00:05,293 INFO session-cache handled request rid=abdaa215 status=200 dur=72ms
+2026-01-07 10:00:15,976 INFO session-cache handled request rid=f2563fc2 status=200 dur=13ms
+2026-01-07 10:00:22,683 INFO session-cache handled request rid=1fa07db0 status=200 dur=61ms
+2026-01-07 10:00:28,482 INFO session-cache handled request rid=1855654b status=200 dur=58ms
+2026-01-07 10:00:37,528 INFO session-cache handled request rid=89ef67cf status=200 dur=94ms
+2026-01-07 10:00:44,964 INFO session-cache handled request rid=52069f57 status=200 dur=62ms
+2026-01-07 10:00:56,018 INFO session-cache handled request rid=6d5938f0 status=200 dur=87ms
+2026-01-07 10:01:09,126 INFO session-cache ping ok latency=90ms
+2026-01-07 10:01:15,381 INFO session-cache handled request rid=9b28751e status=200 dur=13ms

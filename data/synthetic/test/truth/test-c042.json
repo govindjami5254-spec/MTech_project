@@ -1,0 +1,63 @@
+{
+  "schema_version": "1",
+  "case_id": "test-c042",
+  "split": "test",
+  "family_id": "tf17",
+  "stratum": "concurrent",
+  "root_causes": [
+    "tsdb",
+    "registry-db"
+  ],
+  "fault_type": "oom+dns_failure",
+  "expected_abstain": false,
+  "key_evidence": [
+    "registry-db.log:26",
+    "registry-db.log:29",
+    "registry-db.log:30",
+    "tsdb.log:24",
+    "tsdb.log:30",
+    "tsdb.log:31"
+  ],
+  "relevant_evidence": [
+    "device-registry.log:25",
+    "device-registry.log:27",
+    "device-registry.log:28",
+    "ingress.log:31",
+    "ingress.log:32",
+    "ingress.log:33",
+    "ingress.log:35",
+    "ingress.log:36",
+    "ingress.log:37",
+    "ingress.log:39",
+    "ingress.log:40",
+    "ingress.log:42",
+    "ingress.log:43",
+    "ingress.log:44",
+    "ingress.log:45",
+    "ingress.log:47",
+    "ingress.log:48",
+    "registry-db.log:26",
+    "registry-db.log:29",
+    "registry-db.log:30",
+    "stream-proc.log:30",
+    "stream-proc.log:32",
+    "stream-proc.log:33",
+    "telemetry-api.log:28",
+    "telemetry-api.log:29",
+    "telemetry-api.log:30",
+    "telemetry-api.log:34",
+    "telemetry-api.log:35",
+    "telemetry-api.log:36",
+    "tsdb.log:24",
+    "tsdb.log:30",
+    "tsdb.log:31"
+  ],
+  "propagation_path": [
+    "tsdb",
+    "stream-proc",
+    "telemetry-api",
+    "ingress"
+  ],
+  "injection_uids": [],
+  "decoy_component": null
+}

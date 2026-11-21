@@ -1,0 +1,62 @@
+2026-02-14T13:07:08Z INFO notifier http request method=GET status=200 latency_ms=58 span=2dbe6ee5
+2026-02-14T13:07:18Z INFO notifier tick ok elapsed_ms=60
+2026-02-14T13:07:24Z INFO notifier tick ok elapsed_ms=68
+2026-02-14T13:07:31Z INFO notifier tick ok elapsed_ms=35
+2026-02-14T13:07:39Z INFO notifier http request method=GET status=200 latency_ms=11 span=507b5598
+2026-02-14T13:07:46Z INFO notifier tick ok elapsed_ms=49
+2026-02-14T13:07:59Z INFO notifier tick ok elapsed_ms=85
+2026-02-14T13:08:12Z INFO notifier tick ok elapsed_ms=41
+2026-02-14T13:08:21Z INFO notifier http request method=GET status=200 latency_ms=67 span=8e325861
+2026-02-14T13:08:33Z INFO notifier http request method=GET status=200 latency_ms=52 span=afa1b166
+2026-02-14T13:08:44Z INFO notifier http request method=GET status=200 latency_ms=92 span=e78bdc64
+2026-02-14T13:08:57Z INFO notifier http request method=GET status=200 latency_ms=21 span=f1597221
+2026-02-14T13:09:07Z INFO notifier http request method=GET status=200 latency_ms=22 span=f5af4921
+2026-02-14T13:09:13Z INFO notifier http request method=GET status=200 latency_ms=63 span=10839cef
+2026-02-14T13:09:20Z INFO notifier tick ok elapsed_ms=33
+2026-02-14T13:09:32Z INFO notifier tick ok elapsed_ms=12
+2026-02-14T13:09:45Z INFO notifier http request method=GET status=200 latency_ms=75 span=7730c986
+2026-02-14T13:09:59Z INFO notifier tick ok elapsed_ms=36
+2026-02-14T13:10:09Z INFO notifier http request method=GET status=200 latency_ms=50 span=6c635a8d
+2026-02-14T13:10:15Z INFO notifier http request method=GET status=200 latency_ms=38 span=a00a8174
+2026-02-14T13:10:26Z INFO notifier http request method=GET status=200 latency_ms=9 span=e3772a7b
+2026-02-14T13:10:33Z INFO notifier tick ok elapsed_ms=49
+2026-02-14T13:10:41Z INFO notifier http request method=GET status=200 latency_ms=11 span=6ba59f8c
+2026-02-14T13:10:47Z INFO notifier tick ok elapsed_ms=29
+2026-02-14T13:10:56Z INFO notifier http request method=GET status=200 latency_ms=85 span=f2d1c9fe
+2026-02-14T13:11:08Z INFO notifier http request method=GET status=200 latency_ms=42 span=02f4c2f9
+2026-02-14T13:11:15Z INFO notifier http request method=GET status=200 latency_ms=29 span=51afce80
+2026-02-14T13:11:29Z INFO notifier http request method=GET status=200 latency_ms=35 span=09af3ca8
+2026-02-14T13:11:42Z INFO notifier http request method=GET status=200 latency_ms=71 span=7b557565
+2026-02-14T13:11:55Z INFO notifier tick ok elapsed_ms=45
+2026-02-14T13:12:01Z INFO notifier tick ok elapsed_ms=26
+2026-02-14T13:12:10Z INFO notifier http request method=GET status=200 latency_ms=23 span=0c219acb
+2026-02-14T13:12:22Z INFO notifier http request method=GET status=200 latency_ms=44 span=55ad2841
+2026-02-14T13:12:35Z INFO notifier http request method=GET status=200 latency_ms=66 span=1c1ecd70
+2026-02-14T13:12:45Z INFO notifier tick ok elapsed_ms=19
+2026-02-14T13:12:59Z INFO notifier tick ok elapsed_ms=60
+2026-02-14T13:13:00Z WARN notifier client sent oversized header, truncated span=40a00c2d
+2026-02-14T13:13:08Z INFO notifier tick ok elapsed_ms=33
+2026-02-14T13:13:16Z INFO notifier http request method=GET status=200 latency_ms=33 span=a7e9af88
+2026-02-14T13:13:17Z WARN notifier client sent oversized header, truncated span=319847e7
+2026-02-14T13:13:30Z INFO notifier http request method=GET status=200 latency_ms=18 span=3c160c4a
+2026-02-14T13:13:41Z INFO notifier http request method=GET status=200 latency_ms=42 span=f662fc6b
+2026-02-14T13:13:48Z INFO notifier tick ok elapsed_ms=19
+2026-02-14T13:13:54Z INFO notifier tick ok elapsed_ms=53
+2026-02-14T13:14:03Z INFO notifier http request method=GET status=200 latency_ms=73 span=9422bff2
+2026-02-14T13:14:17Z INFO notifier http request method=GET status=200 latency_ms=46 span=42e2865c
+2026-02-14T13:14:24Z INFO notifier http request method=GET status=200 latency_ms=55 span=66fecde5
+2026-02-14T13:14:33Z INFO notifier tick ok elapsed_ms=33
+2026-02-14T13:14:42Z INFO notifier tick ok elapsed_ms=45
+2026-02-14T13:14:50Z INFO notifier tick ok elapsed_ms=70
+2026-02-14T13:15:04Z INFO notifier tick ok elapsed_ms=46
+2026-02-14T13:15:16Z INFO notifier tick ok elapsed_ms=30
+2026-02-14T13:15:26Z INFO notifier tick ok elapsed_ms=93
+2026-02-14T13:15:38Z INFO notifier http request method=GET status=200 latency_ms=60 span=8dd42418
+2026-02-14T13:15:50Z INFO notifier tick ok elapsed_ms=51
+2026-02-14T13:16:01Z INFO notifier tick ok elapsed_ms=15
+2026-02-14T13:16:07Z INFO notifier http request method=GET status=200 latency_ms=55 span=b0b089a4
+2026-02-14T13:16:13Z INFO notifier tick ok elapsed_ms=16
+2026-02-14T13:16:19Z INFO notifier http request method=GET status=200 latency_ms=16 span=9d45533d
+2026-02-14T13:16:33Z INFO notifier http request method=GET status=200 latency_ms=93 span=869c952f
+2026-02-14T13:16:46Z INFO notifier tick ok elapsed_ms=71
+2026-02-14T13:16:52Z INFO notifier tick ok elapsed_ms=74

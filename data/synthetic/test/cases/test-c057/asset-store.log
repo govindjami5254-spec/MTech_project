@@ -1,0 +1,64 @@
+2026-01-05 09:51:50,998 INFO asset-store GET /v1/items 200 85ms req_id=ebbdf3af
+2026-01-05 09:52:01,951 INFO asset-store GET /v1/items 200 91ms req_id=b410d18a
+2026-01-05 09:52:15,264 INFO asset-store worker heartbeat ok (84ms)
+2026-01-05 09:52:21,917 INFO asset-store GET /v1/items 200 75ms req_id=65d08b89
+2026-01-05 09:52:27,936 INFO asset-store GET /v1/items 200 80ms req_id=01b469e4
+2026-01-05 09:52:34,739 INFO asset-store GET /v1/items 200 21ms req_id=a6c7c6e4
+2026-01-05 09:52:42,784 INFO asset-store worker heartbeat ok (86ms)
+2026-01-05 09:52:52,642 INFO asset-store worker heartbeat ok (73ms)
+2026-01-05 09:53:05,510 INFO asset-store GET /v1/items 200 52ms req_id=31c62c10
+2026-01-05 09:53:15,701 INFO asset-store worker heartbeat ok (27ms)
+2026-01-05 09:53:25,059 INFO asset-store worker heartbeat ok (66ms)
+2026-01-05 09:53:32,272 INFO asset-store worker heartbeat ok (10ms)
+2026-01-05 09:53:42,278 INFO asset-store worker heartbeat ok (71ms)
+2026-01-05 09:53:56,899 INFO asset-store GET /v1/items 200 17ms req_id=57ec7b7d
+2026-01-05 09:54:05,387 INFO asset-store worker heartbeat ok (62ms)
+2026-01-05 09:54:16,942 INFO asset-store GET /v1/items 200 49ms req_id=d2be0c43
+2026-01-05 09:54:27,203 INFO asset-store worker heartbeat ok (17ms)
+2026-01-05 09:54:37,597 INFO asset-store GET /v1/items 200 44ms req_id=6d223419
+2026-01-05 09:54:44,040 INFO asset-store GET /v1/items 200 55ms req_id=a5e2b14f
+2026-01-05 09:54:58,644 INFO asset-store worker heartbeat ok (21ms)
+2026-01-05 09:55:09,412 INFO asset-store worker heartbeat ok (77ms)
+2026-01-05 09:55:18,290 INFO asset-store worker heartbeat ok (89ms)
+2026-01-05 09:55:24,077 INFO asset-store GET /v1/items 200 10ms req_id=05b135f2
+2026-01-05 09:55:37,595 INFO asset-store GET /v1/items 200 24ms req_id=304a6ecd
+2026-01-05 09:55:49,814 INFO asset-store worker heartbeat ok (21ms)
+2026-01-05 09:55:57,068 INFO asset-store GET /v1/items 200 77ms req_id=9c7005de
+2026-01-05 09:56:08,769 INFO asset-store GET /v1/items 200 16ms req_id=c5370319
+2026-01-05 09:56:18,302 INFO asset-store worker heartbeat ok (46ms)
+2026-01-05 09:56:28,664 INFO asset-store GET /v1/items 200 75ms req_id=839ce703
+2026-01-05 09:56:34,400 INFO asset-store worker heartbeat ok (30ms)
+2026-01-05 09:56:45,805 INFO asset-store GET /v1/items 200 56ms req_id=e13a9395
+2026-01-05 09:56:55,734 INFO asset-store GET /v1/items 200 56ms req_id=63071a1b
+2026-01-05 09:57:03,252 INFO asset-store worker heartbeat ok (25ms)
+2026-01-05 09:57:12,594 INFO asset-store worker heartbeat ok (67ms)
+2026-01-05 09:57:25,645 INFO asset-store GET /v1/items 200 70ms req_id=c3a7d70a
+2026-01-05 09:57:35,222 INFO asset-store GET /v1/items 200 94ms req_id=6a3b8a0c
+2026-01-05 09:57:44,369 INFO asset-store GET /v1/items 200 95ms req_id=7f037247
+2026-01-05 09:57:51,739 INFO asset-store worker heartbeat ok (17ms)
+2026-01-05 09:58:03,082 INFO asset-store worker heartbeat ok (50ms)
+2026-01-05 09:58:09,691 INFO asset-store GET /v1/items 200 68ms req_id=ea729b26
+2026-01-05 09:58:18,160 INFO asset-store worker heartbeat ok (21ms)
+2026-01-05 09:58:29,673 INFO asset-store worker heartbeat ok (68ms)
+2026-01-05 09:58:39,258 INFO asset-store GET /v1/items 200 12ms req_id=e38c7f0a
+2026-01-05 09:58:49,173 INFO asset-store GET /v1/items 200 50ms req_id=89219501
+2026-01-05 09:58:57,306 INFO asset-store worker heartbeat ok (73ms)
+2026-01-05 09:59:10,049 INFO asset-store GET /v1/items 200 46ms req_id=3fb2ece8
+2026-01-05 09:59:23,924 INFO asset-store worker heartbeat ok (41ms)
+2026-01-05 09:59:32,174 INFO asset-store GET /v1/items 200 65ms req_id=253d4992
+2026-01-05 09:59:45,110 INFO asset-store GET /v1/items 200 10ms req_id=0751a1b0
+2026-01-05 09:59:52,517 INFO asset-store worker heartbeat ok (80ms)
+2026-01-05 10:00:00,467 INFO asset-store worker heartbeat ok (16ms)
+2026-01-05 10:00:09,142 INFO asset-store worker heartbeat ok (21ms)
+2026-01-05 10:00:21,849 INFO asset-store worker heartbeat ok (64ms)
+2026-01-05 10:00:28,493 INFO asset-store GET /v1/items 200 69ms req_id=26a54fc1
+2026-01-05 10:00:38,383 INFO asset-store GET /v1/items 200 56ms req_id=28adb394
+2026-01-05 10:00:49,055 INFO asset-store worker heartbeat ok (84ms)
+2026-01-05 10:00:57,233 INFO asset-store GET /v1/items 200 29ms req_id=01d6d736
+2026-01-05 10:01:03,544 INFO asset-store worker heartbeat ok (94ms)
+2026-01-05 10:01:09,345 INFO asset-store worker heartbeat ok (22ms)
+2026-01-05 10:01:16,926 INFO asset-store GET /v1/items 200 29ms req_id=f8e9061e
+2026-01-05 10:01:26,076 INFO asset-store worker heartbeat ok (59ms)
+2026-01-05 10:01:27,000 WARNING asset-store slow query took 380ms req_id=b4eee22f
+2026-01-05 10:01:39,149 INFO asset-store GET /v1/items 200 55ms req_id=d2f4ddfb
+2026-01-05 10:01:40,000 WARNING asset-store slow query took 700ms req_id=a2ff9bf6

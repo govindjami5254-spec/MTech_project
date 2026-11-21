@@ -1,0 +1,42 @@
+{
+  "schema_version": "1",
+  "case_id": "test-c034",
+  "split": "test",
+  "family_id": "tf04",
+  "stratum": "multi_hop",
+  "root_causes": [
+    "blob-db"
+  ],
+  "fault_type": "disk_full",
+  "expected_abstain": false,
+  "key_evidence": [
+    "blob-db.log:24",
+    "blob-db.log:30",
+    "blob-db.log:32"
+  ],
+  "relevant_evidence": [
+    "asset-store.log:34",
+    "asset-store.log:35",
+    "asset-store.log:36",
+    "blob-db.log:24",
+    "blob-db.log:30",
+    "blob-db.log:32",
+    "catalog-api.log:32",
+    "catalog-api.log:33",
+    "catalog-api.log:35",
+    "edge-proxy.log:33",
+    "edge-proxy.log:34",
+    "edge-proxy.log:36",
+    "edge-proxy.log:37",
+    "edge-proxy.log:38",
+    "edge-proxy.log:40"
+  ],
+  "propagation_path": [
+    "blob-db",
+    "asset-store",
+    "catalog-api",
+    "edge-proxy"
+  ],
+  "injection_uids": [],
+  "decoy_component": null
+}

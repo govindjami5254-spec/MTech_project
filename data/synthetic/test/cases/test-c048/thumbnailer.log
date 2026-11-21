@@ -1,0 +1,65 @@
+2026-01-14 14:20:50,850 INFO thumbnailer worker heartbeat ok (62ms)
+2026-01-14 14:21:00,549 INFO thumbnailer GET /v1/items 200 68ms req_id=c9dd8d7a
+2026-01-14 14:21:06,861 INFO thumbnailer GET /v1/items 200 78ms req_id=969c4061
+2026-01-14 14:21:12,659 INFO thumbnailer worker heartbeat ok (42ms)
+2026-01-14 14:21:20,963 INFO thumbnailer worker heartbeat ok (64ms)
+2026-01-14 14:21:21,000 WARNING thumbnailer deprecated parameter 'page' used by client
+2026-01-14 14:21:34,171 INFO thumbnailer worker heartbeat ok (49ms)
+2026-01-14 14:21:47,290 INFO thumbnailer GET /v1/items 200 20ms req_id=7c11acfa
+2026-01-14 14:21:53,418 INFO thumbnailer GET /v1/items 200 16ms req_id=cd6e4185
+2026-01-14 14:21:59,811 INFO thumbnailer worker heartbeat ok (23ms)
+2026-01-14 14:22:07,566 INFO thumbnailer worker heartbeat ok (85ms)
+2026-01-14 14:22:13,454 INFO thumbnailer GET /v1/items 200 30ms req_id=30021a52
+2026-01-14 14:22:26,722 INFO thumbnailer worker heartbeat ok (64ms)
+2026-01-14 14:22:27,000 WARNING thumbnailer slow query took 160ms req_id=65a92b56
+2026-01-14 14:22:39,037 INFO thumbnailer GET /v1/items 200 34ms req_id=dbb14e59
+2026-01-14 14:22:47,000 INFO thumbnailer GET /v1/items 200 54ms req_id=8d9ab19e
+2026-01-14 14:22:58,803 INFO thumbnailer GET /v1/items 200 70ms req_id=f504ef4a
+2026-01-14 14:23:06,388 INFO thumbnailer GET /v1/items 200 32ms req_id=bb99e7dd
+2026-01-14 14:23:13,791 INFO thumbnailer worker heartbeat ok (75ms)
+2026-01-14 14:23:23,730 INFO thumbnailer GET /v1/items 200 20ms req_id=2e887f8e
+2026-01-14 14:23:34,567 INFO thumbnailer worker heartbeat ok (51ms)
+2026-01-14 14:23:42,402 INFO thumbnailer worker heartbeat ok (64ms)
+2026-01-14 14:23:49,023 INFO thumbnailer GET /v1/items 200 23ms req_id=05ac6319
+2026-01-14 14:24:01,612 INFO thumbnailer GET /v1/items 200 57ms req_id=2c3d11d4
+2026-01-14 14:24:14,974 INFO thumbnailer GET /v1/items 200 26ms req_id=6721796f
+2026-01-14 14:24:23,234 INFO thumbnailer worker heartbeat ok (27ms)
+2026-01-14 14:24:36,029 INFO thumbnailer GET /v1/items 200 35ms req_id=072e4d4f
+2026-01-14 14:24:45,297 INFO thumbnailer worker heartbeat ok (10ms)
+2026-01-14 14:24:55,452 INFO thumbnailer GET /v1/items 200 15ms req_id=16dd2446
+2026-01-14 14:25:07,407 INFO thumbnailer GET /v1/items 200 51ms req_id=362ee547
+2026-01-14 14:25:17,297 INFO thumbnailer worker heartbeat ok (17ms)
+2026-01-14 14:25:28,077 INFO thumbnailer GET /v1/items 200 50ms req_id=c209e428
+2026-01-14 14:25:36,619 INFO thumbnailer GET /v1/items 200 26ms req_id=ebfbd4bf
+2026-01-14 14:25:47,333 INFO thumbnailer GET /v1/items 200 13ms req_id=eb2dc303
+2026-01-14 14:25:53,019 INFO thumbnailer GET /v1/items 200 46ms req_id=25330d88
+2026-01-14 14:26:00,053 INFO thumbnailer worker heartbeat ok (64ms)
+2026-01-14 14:26:09,959 INFO thumbnailer GET /v1/items 200 18ms req_id=30a7ced9
+2026-01-14 14:26:20,919 INFO thumbnailer GET /v1/items 200 67ms req_id=c55fb91f
+2026-01-14 14:26:27,052 INFO thumbnailer GET /v1/items 200 32ms req_id=0da58b39
+2026-01-14 14:26:34,180 INFO thumbnailer worker heartbeat ok (68ms)
+2026-01-14 14:26:42,133 INFO thumbnailer worker heartbeat ok (91ms)
+2026-01-14 14:26:51,249 INFO thumbnailer worker heartbeat ok (73ms)
+2026-01-14 14:27:04,970 INFO thumbnailer worker heartbeat ok (73ms)
+2026-01-14 14:27:16,554 INFO thumbnailer GET /v1/items 200 41ms req_id=caceeb44
+2026-01-14 14:27:26,929 INFO thumbnailer worker heartbeat ok (12ms)
+2026-01-14 14:27:36,635 INFO thumbnailer worker heartbeat ok (56ms)
+2026-01-14 14:27:46,670 INFO thumbnailer worker heartbeat ok (71ms)
+2026-01-14 14:27:56,746 INFO thumbnailer worker heartbeat ok (69ms)
+2026-01-14 14:28:04,932 INFO thumbnailer GET /v1/items 200 11ms req_id=b15e8a14
+2026-01-14 14:28:10,188 INFO thumbnailer worker heartbeat ok (22ms)
+2026-01-14 14:28:20,453 INFO thumbnailer GET /v1/items 200 85ms req_id=6277a0f3
+2026-01-14 14:28:29,123 INFO thumbnailer GET /v1/items 200 53ms req_id=6b73b6a7
+2026-01-14 14:28:38,888 INFO thumbnailer GET /v1/items 200 95ms req_id=d5fc0848
+2026-01-14 14:28:44,867 INFO thumbnailer GET /v1/items 200 55ms req_id=7748f5bd
+2026-01-14 14:28:54,110 INFO thumbnailer GET /v1/items 200 68ms req_id=4e53f09b
+2026-01-14 14:29:02,575 INFO thumbnailer GET /v1/items 200 18ms req_id=ae8a9158
+2026-01-14 14:29:13,239 INFO thumbnailer GET /v1/items 200 58ms req_id=7cd338b4
+2026-01-14 14:29:19,376 INFO thumbnailer GET /v1/items 200 59ms req_id=4afcd5b4
+2026-01-14 14:29:25,594 INFO thumbnailer GET /v1/items 200 20ms req_id=bb8764cc
+2026-01-14 14:29:37,776 INFO thumbnailer GET /v1/items 200 51ms req_id=5ecde15a
+2026-01-14 14:29:43,070 INFO thumbnailer GET /v1/items 200 69ms req_id=86a760b9
+2026-01-14 14:29:57,130 INFO thumbnailer worker heartbeat ok (71ms)
+2026-01-14 14:30:09,474 INFO thumbnailer GET /v1/items 200 41ms req_id=72f72837
+2026-01-14 14:30:23,017 INFO thumbnailer worker heartbeat ok (79ms)
+2026-01-14 14:30:36,564 INFO thumbnailer worker heartbeat ok (14ms)

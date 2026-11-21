@@ -1,0 +1,63 @@
+2026-01-22 13:26:17,329 INFO firmware-cdn worker heartbeat ok (87ms)
+2026-01-22 13:26:29,662 INFO firmware-cdn GET /v1/items 200 33ms req_id=1482495b
+2026-01-22 13:26:38,811 INFO firmware-cdn GET /v1/items 200 80ms req_id=964343f3
+2026-01-22 13:26:47,215 INFO firmware-cdn worker heartbeat ok (60ms)
+2026-01-22 13:26:56,482 INFO firmware-cdn GET /v1/items 200 46ms req_id=40f9a942
+2026-01-22 13:27:03,604 INFO firmware-cdn GET /v1/items 200 51ms req_id=12882b8d
+2026-01-22 13:27:16,735 INFO firmware-cdn GET /v1/items 200 20ms req_id=83f73991
+2026-01-22 13:27:24,613 INFO firmware-cdn worker heartbeat ok (59ms)
+2026-01-22 13:27:33,206 INFO firmware-cdn worker heartbeat ok (94ms)
+2026-01-22 13:27:43,062 INFO firmware-cdn GET /v1/items 200 54ms req_id=68ad21ca
+2026-01-22 13:27:51,418 INFO firmware-cdn GET /v1/items 200 59ms req_id=9743a716
+2026-01-22 13:27:52,000 WARNING firmware-cdn deprecated parameter 'page' used by client
+2026-01-22 13:28:02,953 INFO firmware-cdn GET /v1/items 200 83ms req_id=c6ccdaff
+2026-01-22 13:28:12,151 INFO firmware-cdn worker heartbeat ok (39ms)
+2026-01-22 13:28:13,000 WARNING firmware-cdn slow query took 890ms req_id=daa4f808
+2026-01-22 13:28:20,402 INFO firmware-cdn worker heartbeat ok (43ms)
+2026-01-22 13:28:31,061 INFO firmware-cdn GET /v1/items 200 28ms req_id=47183f08
+2026-01-22 13:28:39,623 INFO firmware-cdn GET /v1/items 200 68ms req_id=237b7f42
+2026-01-22 13:28:50,389 INFO firmware-cdn GET /v1/items 200 46ms req_id=0ab627cc
+2026-01-22 13:28:57,095 INFO firmware-cdn GET /v1/items 200 20ms req_id=4be5826e
+2026-01-22 13:29:11,414 INFO firmware-cdn GET /v1/items 200 31ms req_id=f623c29b
+2026-01-22 13:29:18,103 INFO firmware-cdn GET /v1/items 200 86ms req_id=cfc3053c
+2026-01-22 13:29:24,542 INFO firmware-cdn GET /v1/items 200 57ms req_id=7a00148d
+2026-01-22 13:29:38,812 INFO firmware-cdn worker heartbeat ok (93ms)
+2026-01-22 13:29:47,427 INFO firmware-cdn worker heartbeat ok (30ms)
+2026-01-22 13:30:00,433 INFO firmware-cdn worker heartbeat ok (26ms)
+2026-01-22 13:30:06,886 INFO firmware-cdn GET /v1/items 200 21ms req_id=488aecde
+2026-01-22 13:30:18,030 INFO firmware-cdn worker heartbeat ok (23ms)
+2026-01-22 13:30:27,017 INFO firmware-cdn GET /v1/items 200 20ms req_id=c174b303
+2026-01-22 13:30:38,355 INFO firmware-cdn GET /v1/items 200 76ms req_id=02b35302
+2026-01-22 13:30:48,147 INFO firmware-cdn GET /v1/items 200 54ms req_id=402b768c
+2026-01-22 13:30:56,733 INFO firmware-cdn worker heartbeat ok (80ms)
+2026-01-22 13:31:06,252 INFO firmware-cdn worker heartbeat ok (87ms)
+2026-01-22 13:31:18,512 INFO firmware-cdn worker heartbeat ok (88ms)
+2026-01-22 13:31:31,081 INFO firmware-cdn worker heartbeat ok (35ms)
+2026-01-22 13:31:44,467 INFO firmware-cdn GET /v1/items 200 60ms req_id=f38ad143
+2026-01-22 13:31:51,258 INFO firmware-cdn worker heartbeat ok (27ms)
+2026-01-22 13:32:01,384 INFO firmware-cdn GET /v1/items 200 76ms req_id=5d746036
+2026-01-22 13:32:13,283 INFO firmware-cdn worker heartbeat ok (34ms)
+2026-01-22 13:32:23,641 INFO firmware-cdn worker heartbeat ok (15ms)
+2026-01-22 13:32:31,688 INFO firmware-cdn worker heartbeat ok (16ms)
+2026-01-22 13:32:39,487 INFO firmware-cdn GET /v1/items 200 78ms req_id=3727abd5
+2026-01-22 13:32:45,366 INFO firmware-cdn GET /v1/items 200 41ms req_id=13c2c663
+2026-01-22 13:32:59,126 INFO firmware-cdn worker heartbeat ok (82ms)
+2026-01-22 13:33:08,377 INFO firmware-cdn worker heartbeat ok (77ms)
+2026-01-22 13:33:16,551 INFO firmware-cdn GET /v1/items 200 53ms req_id=19139184
+2026-01-22 13:33:28,615 INFO firmware-cdn worker heartbeat ok (43ms)
+2026-01-22 13:33:36,719 INFO firmware-cdn worker heartbeat ok (93ms)
+2026-01-22 13:33:49,037 INFO firmware-cdn worker heartbeat ok (19ms)
+2026-01-22 13:33:55,937 INFO firmware-cdn worker heartbeat ok (86ms)
+2026-01-22 13:34:03,056 INFO firmware-cdn worker heartbeat ok (51ms)
+2026-01-22 13:34:16,057 INFO firmware-cdn worker heartbeat ok (46ms)
+2026-01-22 13:34:25,102 INFO firmware-cdn GET /v1/items 200 60ms req_id=1a5beac3
+2026-01-22 13:34:34,925 INFO firmware-cdn GET /v1/items 200 82ms req_id=109b4f13
+2026-01-22 13:34:41,405 INFO firmware-cdn worker heartbeat ok (57ms)
+2026-01-22 13:34:54,194 INFO firmware-cdn worker heartbeat ok (47ms)
+2026-01-22 13:35:03,316 INFO firmware-cdn worker heartbeat ok (37ms)
+2026-01-22 13:35:11,563 INFO firmware-cdn GET /v1/items 200 55ms req_id=48f2d4f3
+2026-01-22 13:35:24,381 INFO firmware-cdn GET /v1/items 200 81ms req_id=b8f3bb47
+2026-01-22 13:35:33,670 INFO firmware-cdn GET /v1/items 200 70ms req_id=e79b97a7
+2026-01-22 13:35:46,866 INFO firmware-cdn worker heartbeat ok (34ms)
+2026-01-22 13:35:55,788 INFO firmware-cdn GET /v1/items 200 94ms req_id=b65c119d
+2026-01-22 13:36:02,568 INFO firmware-cdn worker heartbeat ok (45ms)

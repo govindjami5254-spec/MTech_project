@@ -1,0 +1,78 @@
+2026-02-04 11:54:42,154 INFO front-door GET /v1/items 200 39ms req_id=addf223d
+2026-02-04 11:54:52,861 INFO front-door GET /v1/items 200 55ms req_id=7e23a529
+2026-02-04 11:55:01,343 INFO front-door GET /v1/items 200 62ms req_id=bd9ded22
+2026-02-04 11:55:02,000 WARNING front-door deprecated parameter 'page' used by client
+2026-02-04 11:55:08,746 INFO front-door worker heartbeat ok (64ms)
+2026-02-04 11:55:22,040 INFO front-door worker heartbeat ok (52ms)
+2026-02-04 11:55:33,847 INFO front-door GET /v1/items 200 73ms req_id=174fa003
+2026-02-04 11:55:39,174 INFO front-door worker heartbeat ok (33ms)
+2026-02-04 11:55:52,977 INFO front-door GET /v1/items 200 93ms req_id=46972784
+2026-02-04 11:56:01,046 INFO front-door worker heartbeat ok (9ms)
+2026-02-04 11:56:11,541 INFO front-door GET /v1/items 200 29ms req_id=f6fcb693
+2026-02-04 11:56:25,902 INFO front-door GET /v1/items 200 38ms req_id=3ae5c43d
+2026-02-04 11:56:38,439 INFO front-door GET /v1/items 200 46ms req_id=f4ddf15b
+2026-02-04 11:56:48,273 INFO front-door GET /v1/items 200 77ms req_id=0dea74d5
+2026-02-04 11:57:01,660 INFO front-door worker heartbeat ok (67ms)
+2026-02-04 11:57:10,372 INFO front-door worker heartbeat ok (79ms)
+2026-02-04 11:57:18,130 INFO front-door worker heartbeat ok (25ms)
+2026-02-04 11:57:19,000 WARNING front-door slow query took 100ms req_id=315acd74
+2026-02-04 11:57:24,153 INFO front-door worker heartbeat ok (65ms)
+2026-02-04 11:57:30,970 INFO front-door GET /v1/items 200 24ms req_id=7ef760b4
+2026-02-04 11:57:39,888 INFO front-door worker heartbeat ok (9ms)
+2026-02-04 11:57:46,713 INFO front-door GET /v1/items 200 79ms req_id=46b9aaab
+2026-02-04 11:57:55,506 INFO front-door GET /v1/items 200 77ms req_id=2c67d9c9
+2026-02-04 11:58:07,814 INFO front-door GET /v1/items 200 60ms req_id=fb247585
+2026-02-04 11:58:20,601 INFO front-door GET /v1/items 200 39ms req_id=2763190a
+2026-02-04 11:58:26,652 INFO front-door GET /v1/items 200 61ms req_id=5f33699f
+2026-02-04 11:58:36,677 INFO front-door GET /v1/items 200 18ms req_id=38939a9c
+2026-02-04 11:58:37,000 WARNING front-door deprecated parameter 'page' used by client
+2026-02-04 11:58:42,702 INFO front-door worker heartbeat ok (88ms)
+2026-02-04 11:58:54,684 INFO front-door GET /v1/items 200 22ms req_id=ac021b68
+2026-02-04 11:59:08,818 INFO front-door worker heartbeat ok (63ms)
+2026-02-04 11:59:17,434 INFO front-door GET /v1/items 200 19ms req_id=14a902b3
+2026-02-04 11:59:25,026 INFO front-door worker heartbeat ok (71ms)
+2026-02-04 11:59:26,801 ERROR front-door upstream error from payments-api; sent 502 to client req_id=c1417c31
+2026-02-04 11:59:29,209 ERROR front-door upstream error from payments-api; sent 502 to client req_id=bb2070b1
+2026-02-04 11:59:32,844 ERROR front-door sent 503 to client, payments-api unhealthy req_id=58f6c0a4
+2026-02-04 11:59:35,105 INFO front-door worker heartbeat ok (64ms)
+2026-02-04 11:59:35,279 ERROR front-door upstream error from payments-api; sent 502 to client req_id=3b3842b3
+2026-02-04 11:59:38,851 ERROR front-door sent 503 to client, payments-api unhealthy req_id=0409fbbb
+2026-02-04 11:59:40,252 ERROR front-door upstream error from payments-api; sent 502 to client req_id=32e47e30
+2026-02-04 11:59:41,150 ERROR front-door upstream error from payments-api; sent 502 to client req_id=f36efdd7
+2026-02-04 11:59:43,240 ERROR front-door sent 503 to client, payments-api unhealthy req_id=b8d68b8c
+2026-02-04 11:59:44,492 ERROR front-door upstream error from payments-api; sent 502 to client req_id=793e908f
+2026-02-04 11:59:46,961 ERROR front-door sent 503 to client, payments-api unhealthy req_id=08b7fbd6
+2026-02-04 11:59:47,811 ERROR front-door sent 503 to client, payments-api unhealthy req_id=a802a089
+2026-02-04 11:59:48,739 INFO front-door GET /v1/items 200 94ms req_id=1e8505ed
+2026-02-04 11:59:49,345 ERROR front-door sent 503 to client, payments-api unhealthy req_id=b1063022
+2026-02-04 11:59:50,195 ERROR front-door sent 503 to client, payments-api unhealthy req_id=73fd09e4
+2026-02-04 11:59:52,632 ERROR front-door upstream error from payments-api; sent 502 to client req_id=9c0418c6
+2026-02-04 11:59:54,103 INFO front-door GET /v1/items 200 28ms req_id=913f9434
+2026-02-04 11:59:55,217 ERROR front-door sent 503 to client, payments-api unhealthy req_id=6196c4c4
+2026-02-04 12:00:08,338 INFO front-door worker heartbeat ok (56ms)
+2026-02-04 12:00:22,372 INFO front-door worker heartbeat ok (57ms)
+2026-02-04 12:00:33,528 INFO front-door worker heartbeat ok (43ms)
+2026-02-04 12:00:39,720 INFO front-door worker heartbeat ok (20ms)
+2026-02-04 12:00:48,152 INFO front-door GET /v1/items 200 34ms req_id=2320eb94
+2026-02-04 12:00:59,086 INFO front-door worker heartbeat ok (77ms)
+2026-02-04 12:01:10,781 INFO front-door GET /v1/items 200 61ms req_id=c9bd0a6c
+2026-02-04 12:01:22,057 INFO front-door GET /v1/items 200 47ms req_id=551d1118
+2026-02-04 12:01:36,115 INFO front-door worker heartbeat ok (68ms)
+2026-02-04 12:01:46,399 INFO front-door GET /v1/items 200 95ms req_id=6be4297d
+2026-02-04 12:01:57,269 INFO front-door worker heartbeat ok (54ms)
+2026-02-04 12:02:10,263 INFO front-door GET /v1/items 200 66ms req_id=43375263
+2026-02-04 12:02:24,177 INFO front-door GET /v1/items 200 22ms req_id=2fdf4df9
+2026-02-04 12:02:37,105 INFO front-door worker heartbeat ok (42ms)
+2026-02-04 12:02:48,622 INFO front-door worker heartbeat ok (88ms)
+2026-02-04 12:02:59,013 INFO front-door worker heartbeat ok (30ms)
+2026-02-04 12:03:09,369 INFO front-door GET /v1/items 200 24ms req_id=f51c7f1c
+2026-02-04 12:03:20,325 INFO front-door GET /v1/items 200 81ms req_id=6f161af1
+2026-02-04 12:03:30,881 INFO front-door worker heartbeat ok (27ms)
+2026-02-04 12:03:38,880 INFO front-door worker heartbeat ok (69ms)
+2026-02-04 12:03:44,615 INFO front-door GET /v1/items 200 32ms req_id=25027110
+2026-02-04 12:03:51,496 INFO front-door GET /v1/items 200 10ms req_id=9b5f39fb
+2026-02-04 12:03:57,662 INFO front-door worker heartbeat ok (11ms)
+2026-02-04 12:04:11,644 INFO front-door worker heartbeat ok (85ms)
+2026-02-04 12:04:18,829 INFO front-door GET /v1/items 200 13ms req_id=a9f9bf60
+2026-02-04 12:04:29,635 INFO front-door GET /v1/items 200 81ms req_id=3acd7ca4
+2026-02-04 12:04:39,258 INFO front-door worker heartbeat ok (47ms)

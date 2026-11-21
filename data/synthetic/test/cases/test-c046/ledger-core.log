@@ -1,0 +1,60 @@
+2026-01-12T13:36:33Z INFO ledger-core http request method=GET status=200 latency_ms=65 span=44667797
+2026-01-12T13:36:44Z INFO ledger-core http request method=GET status=200 latency_ms=33 span=dbef6335
+2026-01-12T13:36:58Z INFO ledger-core tick ok elapsed_ms=12
+2026-01-12T13:37:12Z INFO ledger-core http request method=GET status=200 latency_ms=18 span=10dcec72
+2026-01-12T13:37:20Z INFO ledger-core tick ok elapsed_ms=41
+2026-01-12T13:37:34Z INFO ledger-core tick ok elapsed_ms=21
+2026-01-12T13:37:43Z INFO ledger-core tick ok elapsed_ms=14
+2026-01-12T13:37:56Z INFO ledger-core tick ok elapsed_ms=28
+2026-01-12T13:38:05Z INFO ledger-core tick ok elapsed_ms=90
+2026-01-12T13:38:14Z INFO ledger-core http request method=GET status=200 latency_ms=64 span=fa4f15f5
+2026-01-12T13:38:23Z INFO ledger-core tick ok elapsed_ms=62
+2026-01-12T13:38:33Z INFO ledger-core http request method=GET status=200 latency_ms=27 span=987e76c3
+2026-01-12T13:38:42Z INFO ledger-core http request method=GET status=200 latency_ms=41 span=4f9f311b
+2026-01-12T13:38:56Z INFO ledger-core tick ok elapsed_ms=53
+2026-01-12T13:39:04Z INFO ledger-core tick ok elapsed_ms=25
+2026-01-12T13:39:17Z INFO ledger-core tick ok elapsed_ms=66
+2026-01-12T13:39:28Z INFO ledger-core tick ok elapsed_ms=44
+2026-01-12T13:39:35Z INFO ledger-core http request method=GET status=200 latency_ms=49 span=98f75c8d
+2026-01-12T13:39:44Z INFO ledger-core tick ok elapsed_ms=52
+2026-01-12T13:39:52Z INFO ledger-core http request method=GET status=200 latency_ms=22 span=4a90961b
+2026-01-12T13:39:59Z INFO ledger-core tick ok elapsed_ms=59
+2026-01-12T13:40:00Z WARN ledger-core slow poll elapsed_ms=470
+2026-01-12T13:40:05Z INFO ledger-core http request method=GET status=200 latency_ms=58 span=09cc371e
+2026-01-12T13:40:11Z INFO ledger-core tick ok elapsed_ms=85
+2026-01-12T13:40:21Z INFO ledger-core http request method=GET status=200 latency_ms=92 span=51ef4c48
+2026-01-12T13:40:28Z INFO ledger-core http request method=GET status=200 latency_ms=84 span=7a733da1
+2026-01-12T13:40:42Z INFO ledger-core tick ok elapsed_ms=81
+2026-01-12T13:40:53Z INFO ledger-core http request method=GET status=200 latency_ms=71 span=a5a9d5cb
+2026-01-12T13:41:04Z INFO ledger-core tick ok elapsed_ms=82
+2026-01-12T13:41:15Z INFO ledger-core http request method=GET status=200 latency_ms=80 span=f65c6b65
+2026-01-12T13:41:27Z INFO ledger-core tick ok elapsed_ms=39
+2026-01-12T13:41:41Z INFO ledger-core http request method=GET status=200 latency_ms=66 span=13bcaab4
+2026-01-12T13:41:54Z INFO ledger-core http request method=GET status=200 latency_ms=71 span=c2236001
+2026-01-12T13:42:07Z INFO ledger-core tick ok elapsed_ms=53
+2026-01-12T13:42:21Z INFO ledger-core tick ok elapsed_ms=40
+2026-01-12T13:42:27Z INFO ledger-core tick ok elapsed_ms=27
+2026-01-12T13:42:35Z INFO ledger-core http request method=GET status=200 latency_ms=29 span=ff1d6292
+2026-01-12T13:42:44Z INFO ledger-core http request method=GET status=200 latency_ms=43 span=41d06d1d
+2026-01-12T13:42:56Z INFO ledger-core http request method=GET status=200 latency_ms=88 span=d7545d5c
+2026-01-12T13:43:09Z INFO ledger-core tick ok elapsed_ms=94
+2026-01-12T13:43:17Z INFO ledger-core http request method=GET status=200 latency_ms=35 span=71e752af
+2026-01-12T13:43:26Z INFO ledger-core tick ok elapsed_ms=42
+2026-01-12T13:43:27Z WARN ledger-core client sent oversized header, truncated span=15b72188
+2026-01-12T13:43:38Z INFO ledger-core http request method=GET status=200 latency_ms=91 span=f1165429
+2026-01-12T13:43:50Z INFO ledger-core http request method=GET status=200 latency_ms=12 span=0447abfa
+2026-01-12T13:44:04Z INFO ledger-core http request method=GET status=200 latency_ms=22 span=9ea4945f
+2026-01-12T13:44:10Z INFO ledger-core http request method=GET status=200 latency_ms=71 span=21a447b7
+2026-01-12T13:44:19Z INFO ledger-core http request method=GET status=200 latency_ms=32 span=937b83b8
+2026-01-12T13:44:33Z INFO ledger-core http request method=GET status=200 latency_ms=71 span=9139d3c7
+2026-01-12T13:44:39Z INFO ledger-core http request method=GET status=200 latency_ms=43 span=47da6834
+2026-01-12T13:44:53Z INFO ledger-core tick ok elapsed_ms=93
+2026-01-12T13:45:04Z INFO ledger-core tick ok elapsed_ms=90
+2026-01-12T13:45:15Z INFO ledger-core tick ok elapsed_ms=52
+2026-01-12T13:45:28Z INFO ledger-core http request method=GET status=200 latency_ms=18 span=fa7b8015
+2026-01-12T13:45:41Z INFO ledger-core tick ok elapsed_ms=66
+2026-01-12T13:45:51Z INFO ledger-core http request method=GET status=200 latency_ms=73 span=9f5e3342
+2026-01-12T13:46:01Z INFO ledger-core tick ok elapsed_ms=93
+2026-01-12T13:46:08Z INFO ledger-core tick ok elapsed_ms=55
+2026-01-12T13:46:15Z INFO ledger-core http request method=GET status=200 latency_ms=23 span=a3a8cd09
+2026-01-12T13:46:22Z INFO ledger-core tick ok elapsed_ms=64

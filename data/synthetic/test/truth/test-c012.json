@@ -1,0 +1,61 @@
+{
+  "schema_version": "1",
+  "case_id": "test-c012",
+  "split": "test",
+  "family_id": "tf16",
+  "stratum": "concurrent",
+  "root_causes": [
+    "risk-db",
+    "ledger-core"
+  ],
+  "fault_type": "disk_full+bad_config",
+  "expected_abstain": false,
+  "key_evidence": [
+    "ledger-core.log:26",
+    "ledger-core.log:28",
+    "ledger-core.log:29",
+    "risk-db.log:21",
+    "risk-db.log:29",
+    "risk-db.log:30"
+  ],
+  "relevant_evidence": [
+    "front-door.log:34",
+    "front-door.log:35",
+    "front-door.log:36",
+    "front-door.log:38",
+    "front-door.log:39",
+    "front-door.log:40",
+    "front-door.log:41",
+    "front-door.log:42",
+    "front-door.log:43",
+    "front-door.log:44",
+    "front-door.log:45",
+    "front-door.log:47",
+    "front-door.log:48",
+    "front-door.log:49",
+    "front-door.log:51",
+    "ledger-core.log:26",
+    "ledger-core.log:28",
+    "ledger-core.log:29",
+    "payments-api.log:28",
+    "payments-api.log:29",
+    "payments-api.log:31",
+    "payments-api.log:33",
+    "payments-api.log:34",
+    "payments-api.log:36",
+    "risk-db.log:21",
+    "risk-db.log:29",
+    "risk-db.log:30",
+    "risk-engine.log:30",
+    "risk-engine.log:31",
+    "risk-engine.log:33"
+  ],
+  "propagation_path": [
+    "risk-db",
+    "risk-engine",
+    "payments-api",
+    "front-door"
+  ],
+  "injection_uids": [],
+  "decoy_component": null
+}

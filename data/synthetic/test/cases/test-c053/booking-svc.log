@@ -1,0 +1,66 @@
+2026-01-11T15:50:42.235+05:30 info booking-svc served GET /api status=200 in 13ms trace=8edaf665
+2026-01-11T15:50:54.611+05:30 info booking-svc served GET /api status=200 in 65ms trace=c9f4a895
+2026-01-11T15:51:08.135+05:30 info booking-svc event loop lag 80ms ok
+2026-01-11T15:51:16.252+05:30 info booking-svc served GET /api status=200 in 15ms trace=8e133d81
+2026-01-11T15:51:23.990+05:30 info booking-svc event loop lag 18ms ok
+2026-01-11T15:51:36.365+05:30 info booking-svc event loop lag 72ms ok
+2026-01-11T15:51:43.039+05:30 info booking-svc event loop lag 57ms ok
+2026-01-11T15:51:56.418+05:30 info booking-svc event loop lag 94ms ok
+2026-01-11T15:52:07.968+05:30 info booking-svc served GET /api status=200 in 75ms trace=0cbfc3e7
+2026-01-11T15:52:19.048+05:30 info booking-svc served GET /api status=200 in 53ms trace=75186e24
+2026-01-11T15:52:31.709+05:30 info booking-svc event loop lag 34ms ok
+2026-01-11T15:52:39.416+05:30 info booking-svc served GET /api status=200 in 20ms trace=85567fb8
+2026-01-11T15:52:50.412+05:30 info booking-svc event loop lag 42ms ok
+2026-01-11T15:52:58.165+05:30 info booking-svc event loop lag 14ms ok
+2026-01-11T15:53:07.296+05:30 info booking-svc served GET /api status=200 in 15ms trace=eaa50b65
+2026-01-11T15:53:16.390+05:30 info booking-svc served GET /api status=200 in 75ms trace=0f4757f8
+2026-01-11T15:53:22.465+05:30 info booking-svc served GET /api status=200 in 31ms trace=d815f5c3
+2026-01-11T15:53:36.735+05:30 info booking-svc served GET /api status=200 in 95ms trace=79b81c5d
+2026-01-11T15:53:37.000+05:30 warn booking-svc unhandled header x-legacy ignored trace=24c78516
+2026-01-11T15:53:44.289+05:30 info booking-svc served GET /api status=200 in 47ms trace=7700cc9b
+2026-01-11T15:53:55.505+05:30 info booking-svc served GET /api status=200 in 68ms trace=ec663139
+2026-01-11T15:54:09.013+05:30 info booking-svc served GET /api status=200 in 42ms trace=18894dea
+2026-01-11T15:54:15.778+05:30 info booking-svc served GET /api status=200 in 33ms trace=97f5912f
+2026-01-11T15:54:27.815+05:30 info booking-svc served GET /api status=200 in 69ms trace=af59be9f
+2026-01-11T15:54:28.000+05:30 warn booking-svc unhandled header x-legacy ignored trace=7161e14e
+2026-01-11T15:54:41.575+05:30 info booking-svc served GET /api status=200 in 41ms trace=6ab0525c
+2026-01-11T15:54:47.201+05:30 info booking-svc event loop lag 74ms ok
+2026-01-11T15:55:01.422+05:30 info booking-svc served GET /api status=200 in 25ms trace=156ce755
+2026-01-11T15:55:12.487+05:30 info booking-svc served GET /api status=200 in 22ms trace=5f954bfe
+2026-01-11T15:55:26.298+05:30 info booking-svc event loop lag 48ms ok
+2026-01-11T15:55:36.949+05:30 info booking-svc event loop lag 61ms ok
+2026-01-11T15:55:42.851+05:30 info booking-svc served GET /api status=200 in 38ms trace=734976c7
+2026-01-11T15:55:45.908+05:30 info booking-svc loading config from config/production.json
+2026-01-11T15:55:49.022+05:30 error booking-svc ConfigError: 'poolSize' must be a positive integer, got 'abc'
+2026-01-11T15:55:51.730+05:30 fatal booking-svc refusing to start with invalid configuration
+2026-01-11T15:55:56.980+05:30 info booking-svc event loop lag 54ms ok
+2026-01-11T15:56:06.387+05:30 info booking-svc event loop lag 44ms ok
+2026-01-11T15:56:19.179+05:30 info booking-svc event loop lag 43ms ok
+2026-01-11T15:56:28.897+05:30 info booking-svc served GET /api status=200 in 45ms trace=caa983b7
+2026-01-11T15:56:41.375+05:30 info booking-svc event loop lag 61ms ok
+2026-01-11T15:56:53.563+05:30 info booking-svc served GET /api status=200 in 22ms trace=0d67c72a
+2026-01-11T15:57:06.676+05:30 info booking-svc event loop lag 26ms ok
+2026-01-11T15:57:07.000+05:30 warn booking-svc event loop lag 100ms
+2026-01-11T15:57:19.658+05:30 info booking-svc event loop lag 16ms ok
+2026-01-11T15:57:31.277+05:30 info booking-svc served GET /api status=200 in 28ms trace=c109a6f1
+2026-01-11T15:57:42.263+05:30 info booking-svc event loop lag 87ms ok
+2026-01-11T15:57:49.957+05:30 info booking-svc event loop lag 26ms ok
+2026-01-11T15:57:59.669+05:30 info booking-svc served GET /api status=200 in 42ms trace=6bff2a2a
+2026-01-11T15:58:10.691+05:30 info booking-svc served GET /api status=200 in 50ms trace=7f5722f0
+2026-01-11T15:58:16.652+05:30 info booking-svc served GET /api status=200 in 22ms trace=c5614d93
+2026-01-11T15:58:27.371+05:30 info booking-svc event loop lag 85ms ok
+2026-01-11T15:58:35.069+05:30 info booking-svc event loop lag 64ms ok
+2026-01-11T15:58:43.188+05:30 info booking-svc served GET /api status=200 in 28ms trace=65d2c092
+2026-01-11T15:58:53.997+05:30 info booking-svc served GET /api status=200 in 50ms trace=d5e9fd9c
+2026-01-11T15:58:59.273+05:30 info booking-svc event loop lag 69ms ok
+2026-01-11T15:59:05.771+05:30 info booking-svc event loop lag 50ms ok
+2026-01-11T15:59:06.000+05:30 warn booking-svc event loop lag 660ms
+2026-01-11T15:59:17.094+05:30 info booking-svc event loop lag 53ms ok
+2026-01-11T15:59:24.205+05:30 info booking-svc served GET /api status=200 in 80ms trace=537fa883
+2026-01-11T15:59:37.363+05:30 info booking-svc event loop lag 12ms ok
+2026-01-11T15:59:44.828+05:30 info booking-svc event loop lag 57ms ok
+2026-01-11T15:59:54.534+05:30 info booking-svc served GET /api status=200 in 27ms trace=220c567a
+2026-01-11T16:00:02.300+05:30 info booking-svc served GET /api status=200 in 16ms trace=c8563b3d
+2026-01-11T16:00:09.361+05:30 info booking-svc event loop lag 94ms ok
+2026-01-11T16:00:15.060+05:30 info booking-svc served GET /api status=200 in 25ms trace=12c70382
+2026-01-11T16:00:21.465+05:30 info booking-svc event loop lag 45ms ok

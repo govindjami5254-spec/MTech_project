@@ -1,0 +1,288 @@
+{
+  "generator_version": "2.0.0",
+  "split": "test",
+  "cases": 60,
+  "families": {
+    "tf02": {
+      "topology": "t-travel",
+      "vocab": "tv-node",
+      "stratum": "easy",
+      "fault_type": "bad_config",
+      "target": "booking-svc",
+      "second_fault": null,
+      "second_target": null,
+      "cases": [
+        "test-c001",
+        "test-c053",
+        "test-c059"
+      ]
+    },
+    "tf16": {
+      "topology": "t-bank",
+      "vocab": "tv-python",
+      "stratum": "concurrent",
+      "fault_type": "disk_full",
+      "target": "risk-db",
+      "second_fault": "bad_config",
+      "second_target": "ledger-core",
+      "cases": [
+        "test-c002",
+        "test-c012",
+        "test-c024"
+      ]
+    },
+    "tf14": {
+      "topology": "t-bank",
+      "vocab": "tv-rust",
+      "stratum": "over_budget",
+      "fault_type": "disk_full",
+      "target": "core-db",
+      "second_fault": null,
+      "second_target": null,
+      "cases": [
+        "test-c003",
+        "test-c013",
+        "test-c044"
+      ]
+    },
+    "tf04": {
+      "topology": "t-media",
+      "vocab": "tv-node",
+      "stratum": "multi_hop",
+      "fault_type": "disk_full",
+      "target": "blob-db",
+      "second_fault": null,
+      "second_target": null,
+      "cases": [
+        "test-c004",
+        "test-c020",
+        "test-c034"
+      ]
+    },
+    "tf01": {
+      "topology": "t-media",
+      "vocab": "tv-python",
+      "stratum": "easy",
+      "fault_type": "oom",
+      "target": "catalog-api",
+      "second_fault": null,
+      "second_target": null,
+      "cases": [
+        "test-c005",
+        "test-c047",
+        "test-c048"
+      ]
+    },
+    "tf07": {
+      "topology": "t-bank",
+      "vocab": "tv-python",
+      "stratum": "multi_hop",
+      "fault_type": "oom",
+      "target": "risk-db",
+      "second_fault": null,
+      "second_target": null,
+      "cases": [
+        "test-c006",
+        "test-c016",
+        "test-c054"
+      ]
+    },
+    "tf18": {
+      "topology": "t-media",
+      "vocab": "tv-rust",
+      "stratum": "insufficient",
+      "fault_type": "silent_partition",
+      "target": "asset-store",
+      "second_fault": null,
+      "second_target": null,
+      "cases": [
+        "test-c007",
+        "test-c026",
+        "test-c041"
+      ]
+    },
+    "tf08": {
+      "topology": "t-iot",
+      "vocab": "tv-node",
+      "stratum": "distractor",
+      "fault_type": "bad_config",
+      "target": "stream-proc",
+      "second_fault": null,
+      "second_target": null,
+      "cases": [
+        "test-c008",
+        "test-c039",
+        "test-c058"
+      ]
+    },
+    "tf06": {
+      "topology": "t-iot",
+      "vocab": "tv-python",
+      "stratum": "multi_hop",
+      "fault_type": "disk_full",
+      "target": "tsdb",
+      "second_fault": null,
+      "second_target": null,
+      "cases": [
+        "test-c009",
+        "test-c023",
+        "test-c025"
+      ]
+    },
+    "tf12": {
+      "topology": "t-iot",
+      "vocab": "tv-rust",
+      "stratum": "over_budget",
+      "fault_type": "oom",
+      "target": "device-registry",
+      "second_fault": null,
+      "second_target": null,
+      "cases": [
+        "test-c010",
+        "test-c038",
+        "test-c060"
+      ]
+    },
+    "tf20": {
+      "topology": "t-iot",
+      "vocab": "tv-python",
+      "stratum": "insufficient",
+      "fault_type": "silent_partition",
+      "target": "device-registry",
+      "second_fault": null,
+      "second_target": null,
+      "cases": [
+        "test-c011",
+        "test-c015",
+        "test-c051"
+      ]
+    },
+    "tf15": {
+      "topology": "t-travel",
+      "vocab": "tv-node",
+      "stratum": "over_budget",
+      "fault_type": "cert_expired",
+      "target": "fare-cache",
+      "second_fault": null,
+      "second_target": null,
+      "cases": [
+        "test-c014",
+        "test-c033",
+        "test-c035"
+      ]
+    },
+    "tf03": {
+      "topology": "t-bank",
+      "vocab": "tv-rust",
+      "stratum": "easy",
+      "fault_type": "cert_expired",
+      "target": "otp-svc",
+      "second_fault": null,
+      "second_target": null,
+      "cases": [
+        "test-c017",
+        "test-c019",
+        "test-c046"
+      ]
+    },
+    "tf09": {
+      "topology": "t-bank",
+      "vocab": "tv-node",
+      "stratum": "distractor",
+      "fault_type": "conn_pool_exhausted",
+      "target": "ledger-core",
+      "second_fault": null,
+      "second_target": null,
+      "cases": [
+        "test-c018",
+        "test-c049",
+        "test-c050"
+      ]
+    },
+    "tf10": {
+      "topology": "t-media",
+      "vocab": "tv-rust",
+      "stratum": "distractor",
+      "fault_type": "dns_failure",
+      "target": "asset-store",
+      "second_fault": null,
+      "second_target": null,
+      "cases": [
+        "test-c021",
+        "test-c032",
+        "test-c045"
+      ]
+    },
+    "tf13": {
+      "topology": "t-media",
+      "vocab": "tv-python",
+      "stratum": "over_budget",
+      "fault_type": "conn_pool_exhausted",
+      "target": "search-index",
+      "second_fault": null,
+      "second_target": null,
+      "cases": [
+        "test-c022",
+        "test-c027",
+        "test-c057"
+      ]
+    },
+    "tf11": {
+      "topology": "t-travel",
+      "vocab": "tv-python",
+      "stratum": "distractor",
+      "fault_type": "oom",
+      "target": "fare-svc",
+      "second_fault": null,
+      "second_target": null,
+      "cases": [
+        "test-c028",
+        "test-c040",
+        "test-c052"
+      ]
+    },
+    "tf19": {
+      "topology": "t-travel",
+      "vocab": "tv-python",
+      "stratum": "insufficient",
+      "fault_type": "silent_partition",
+      "target": "seat-svc",
+      "second_fault": null,
+      "second_target": null,
+      "cases": [
+        "test-c029",
+        "test-c055",
+        "test-c056"
+      ]
+    },
+    "tf05": {
+      "topology": "t-travel",
+      "vocab": "tv-rust",
+      "stratum": "multi_hop",
+      "fault_type": "conn_pool_exhausted",
+      "target": "seat-db",
+      "second_fault": null,
+      "second_target": null,
+      "cases": [
+        "test-c030",
+        "test-c036",
+        "test-c043"
+      ]
+    },
+    "tf17": {
+      "topology": "t-iot",
+      "vocab": "tv-node",
+      "stratum": "concurrent",
+      "fault_type": "oom",
+      "target": "tsdb",
+      "second_fault": "dns_failure",
+      "second_target": "registry-db",
+      "cases": [
+        "test-c031",
+        "test-c037",
+        "test-c042"
+      ]
+    }
+  },
+  "cases_per_family": 3
+}

@@ -1,0 +1,59 @@
+2026-01-19 14:16:35,496 INFO registry-db GET /v1/items 200 31ms req_id=5416cf67
+2026-01-19 14:16:45,011 INFO registry-db worker heartbeat ok (89ms)
+2026-01-19 14:16:59,259 INFO registry-db worker heartbeat ok (45ms)
+2026-01-19 14:17:11,127 INFO registry-db GET /v1/items 200 43ms req_id=b606ffa3
+2026-01-19 14:17:22,458 INFO registry-db worker heartbeat ok (81ms)
+2026-01-19 14:17:28,798 INFO registry-db worker heartbeat ok (24ms)
+2026-01-19 14:17:41,434 INFO registry-db GET /v1/items 200 92ms req_id=51456ef0
+2026-01-19 14:17:49,097 INFO registry-db worker heartbeat ok (79ms)
+2026-01-19 14:18:00,315 INFO registry-db worker heartbeat ok (42ms)
+2026-01-19 14:18:14,035 INFO registry-db GET /v1/items 200 30ms req_id=4e3df992
+2026-01-19 14:18:22,366 INFO registry-db GET /v1/items 200 78ms req_id=f9672e72
+2026-01-19 14:18:28,441 INFO registry-db GET /v1/items 200 75ms req_id=004c86c0
+2026-01-19 14:18:36,142 INFO registry-db GET /v1/items 200 43ms req_id=69994776
+2026-01-19 14:18:46,140 INFO registry-db worker heartbeat ok (40ms)
+2026-01-19 14:18:59,817 INFO registry-db worker heartbeat ok (89ms)
+2026-01-19 14:19:06,435 INFO registry-db worker heartbeat ok (64ms)
+2026-01-19 14:19:19,254 INFO registry-db GET /v1/items 200 69ms req_id=bd665042
+2026-01-19 14:19:25,596 INFO registry-db worker heartbeat ok (20ms)
+2026-01-19 14:19:33,185 INFO registry-db worker heartbeat ok (71ms)
+2026-01-19 14:19:39,578 INFO registry-db GET /v1/items 200 78ms req_id=f0d3fe23
+2026-01-19 14:19:52,946 INFO registry-db worker heartbeat ok (94ms)
+2026-01-19 14:19:53,000 WARNING registry-db deprecated parameter 'page' used by client
+2026-01-19 14:20:06,059 INFO registry-db worker heartbeat ok (91ms)
+2026-01-19 14:20:20,324 INFO registry-db GET /v1/items 200 18ms req_id=34f7e0d5
+2026-01-19 14:20:32,915 INFO registry-db GET /v1/items 200 23ms req_id=56376409
+2026-01-19 14:20:39,405 INFO registry-db GET /v1/items 200 24ms req_id=fea8b927
+2026-01-19 14:20:45,775 INFO registry-db GET /v1/items 200 26ms req_id=356762a2
+2026-01-19 14:20:58,159 INFO registry-db GET /v1/items 200 12ms req_id=dcb23109
+2026-01-19 14:21:07,090 INFO registry-db GET /v1/items 200 68ms req_id=702516ab
+2026-01-19 14:21:08,000 WARNING registry-db slow query took 260ms req_id=d593bd20
+2026-01-19 14:21:20,778 INFO registry-db GET /v1/items 200 19ms req_id=896c3512
+2026-01-19 14:21:28,718 INFO registry-db GET /v1/items 200 73ms req_id=f2394665
+2026-01-19 14:21:36,743 INFO registry-db GET /v1/items 200 64ms req_id=558436ce
+2026-01-19 14:21:44,220 INFO registry-db GET /v1/items 200 87ms req_id=f3ffd871
+2026-01-19 14:21:57,452 INFO registry-db GET /v1/items 200 21ms req_id=6a5aae7c
+2026-01-19 14:22:11,315 INFO registry-db worker heartbeat ok (70ms)
+2026-01-19 14:22:18,716 INFO registry-db GET /v1/items 200 54ms req_id=44d06219
+2026-01-19 14:22:30,369 INFO registry-db worker heartbeat ok (53ms)
+2026-01-19 14:22:42,392 INFO registry-db worker heartbeat ok (27ms)
+2026-01-19 14:22:50,361 INFO registry-db GET /v1/items 200 25ms req_id=518f52d0
+2026-01-19 14:23:02,857 INFO registry-db worker heartbeat ok (41ms)
+2026-01-19 14:23:08,781 INFO registry-db GET /v1/items 200 35ms req_id=f487eadf
+2026-01-19 14:23:22,866 INFO registry-db worker heartbeat ok (58ms)
+2026-01-19 14:23:29,136 INFO registry-db worker heartbeat ok (64ms)
+2026-01-19 14:23:38,125 INFO registry-db GET /v1/items 200 34ms req_id=c0a04486
+2026-01-19 14:23:51,561 INFO registry-db worker heartbeat ok (47ms)
+2026-01-19 14:23:57,894 INFO registry-db GET /v1/items 200 78ms req_id=e6cfd885
+2026-01-19 14:24:09,183 INFO registry-db worker heartbeat ok (33ms)
+2026-01-19 14:24:22,329 INFO registry-db GET /v1/items 200 84ms req_id=11731bca
+2026-01-19 14:24:33,169 INFO registry-db GET /v1/items 200 78ms req_id=7072996d
+2026-01-19 14:24:47,571 INFO registry-db worker heartbeat ok (88ms)
+2026-01-19 14:24:55,318 INFO registry-db GET /v1/items 200 43ms req_id=c05286c8
+2026-01-19 14:25:09,285 INFO registry-db worker heartbeat ok (89ms)
+2026-01-19 14:25:19,495 INFO registry-db worker heartbeat ok (72ms)
+2026-01-19 14:25:33,898 INFO registry-db GET /v1/items 200 38ms req_id=6adcb606
+2026-01-19 14:25:46,025 INFO registry-db worker heartbeat ok (73ms)
+2026-01-19 14:25:57,851 INFO registry-db worker heartbeat ok (47ms)
+2026-01-19 14:26:11,785 INFO registry-db worker heartbeat ok (25ms)
+2026-01-19 14:26:23,226 INFO registry-db GET /v1/items 200 70ms req_id=5d7821ad

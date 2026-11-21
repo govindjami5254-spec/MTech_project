@@ -1,0 +1,65 @@
+2026-01-17T16:29:38.479+05:30 info seat-svc served GET /api status=200 in 69ms trace=d0e2e719
+2026-01-17T16:29:44.745+05:30 info seat-svc served GET /api status=200 in 94ms trace=6977d2d9
+2026-01-17T16:29:53.878+05:30 info seat-svc served GET /api status=200 in 76ms trace=64a287ff
+2026-01-17T16:30:02.808+05:30 info seat-svc served GET /api status=200 in 77ms trace=48b53920
+2026-01-17T16:30:10.760+05:30 info seat-svc served GET /api status=200 in 62ms trace=c51c91a4
+2026-01-17T16:30:22.658+05:30 info seat-svc served GET /api status=200 in 23ms trace=6981fc6c
+2026-01-17T16:30:29.841+05:30 info seat-svc event loop lag 32ms ok
+2026-01-17T16:30:35.391+05:30 info seat-svc event loop lag 89ms ok
+2026-01-17T16:30:42.195+05:30 info seat-svc served GET /api status=200 in 21ms trace=97f37f82
+2026-01-17T16:30:52.169+05:30 info seat-svc event loop lag 24ms ok
+2026-01-17T16:30:59.610+05:30 info seat-svc served GET /api status=200 in 51ms trace=c55076f9
+2026-01-17T16:31:12.587+05:30 info seat-svc served GET /api status=200 in 89ms trace=e1e652d3
+2026-01-17T16:31:20.421+05:30 info seat-svc event loop lag 43ms ok
+2026-01-17T16:31:34.348+05:30 info seat-svc event loop lag 66ms ok
+2026-01-17T16:31:35.000+05:30 warn seat-svc event loop lag 570ms
+2026-01-17T16:31:44.430+05:30 info seat-svc served GET /api status=200 in 14ms trace=a8be2b73
+2026-01-17T16:31:50.516+05:30 info seat-svc event loop lag 90ms ok
+2026-01-17T16:31:57.676+05:30 info seat-svc event loop lag 17ms ok
+2026-01-17T16:32:03.119+05:30 info seat-svc event loop lag 43ms ok
+2026-01-17T16:32:17.768+05:30 info seat-svc served GET /api status=200 in 42ms trace=fb507725
+2026-01-17T16:32:31.763+05:30 info seat-svc event loop lag 24ms ok
+2026-01-17T16:32:37.052+05:30 info seat-svc event loop lag 18ms ok
+2026-01-17T16:32:45.614+05:30 info seat-svc served GET /api status=200 in 30ms trace=73c446a1
+2026-01-17T16:32:56.283+05:30 info seat-svc served GET /api status=200 in 77ms trace=6ab4fed4
+2026-01-17T16:33:08.330+05:30 info seat-svc served GET /api status=200 in 57ms trace=49bbe0b7
+2026-01-17T16:33:21.429+05:30 info seat-svc event loop lag 58ms ok
+2026-01-17T16:33:32.376+05:30 info seat-svc served GET /api status=200 in 63ms trace=f10e5044
+2026-01-17T16:33:43.264+05:30 info seat-svc event loop lag 38ms ok
+2026-01-17T16:33:52.163+05:30 info seat-svc served GET /api status=200 in 33ms trace=1231c746
+2026-01-17T16:34:03.969+05:30 info seat-svc event loop lag 60ms ok
+2026-01-17T16:34:10.294+05:30 info seat-svc served GET /api status=200 in 77ms trace=26eae42c
+2026-01-17T16:34:22.465+05:30 info seat-svc served GET /api status=200 in 82ms trace=5bbfd70e
+2026-01-17T16:34:30.904+05:30 info seat-svc event loop lag 40ms ok
+2026-01-17T16:34:41.354+05:30 info seat-svc served GET /api status=200 in 21ms trace=0d896f5f
+2026-01-17T16:34:47.345+05:30 info seat-svc served GET /api status=200 in 33ms trace=e6185efa
+2026-01-17T16:35:00.113+05:30 info seat-svc event loop lag 79ms ok
+2026-01-17T16:35:06.564+05:30 info seat-svc event loop lag 47ms ok
+2026-01-17T16:35:20.151+05:30 info seat-svc served GET /api status=200 in 63ms trace=e324558e
+2026-01-17T16:35:34.056+05:30 info seat-svc event loop lag 12ms ok
+2026-01-17T16:35:44.599+05:30 info seat-svc event loop lag 69ms ok
+2026-01-17T16:35:57.747+05:30 info seat-svc served GET /api status=200 in 10ms trace=53b78c2c
+2026-01-17T16:36:09.961+05:30 info seat-svc event loop lag 34ms ok
+2026-01-17T16:36:16.505+05:30 info seat-svc event loop lag 38ms ok
+2026-01-17T16:36:27.669+05:30 info seat-svc event loop lag 67ms ok
+2026-01-17T16:36:35.483+05:30 info seat-svc event loop lag 78ms ok
+2026-01-17T16:36:49.070+05:30 info seat-svc served GET /api status=200 in 68ms trace=606a10df
+2026-01-17T16:37:00.752+05:30 info seat-svc event loop lag 95ms ok
+2026-01-17T16:37:08.427+05:30 info seat-svc served GET /api status=200 in 18ms trace=86c20052
+2026-01-17T16:37:21.799+05:30 info seat-svc served GET /api status=200 in 32ms trace=69db812c
+2026-01-17T16:37:34.600+05:30 info seat-svc served GET /api status=200 in 54ms trace=e7da21a4
+2026-01-17T16:37:42.619+05:30 info seat-svc served GET /api status=200 in 37ms trace=24794ff8
+2026-01-17T16:37:50.805+05:30 info seat-svc event loop lag 15ms ok
+2026-01-17T16:37:57.933+05:30 info seat-svc served GET /api status=200 in 61ms trace=1855b3f5
+2026-01-17T16:38:07.730+05:30 info seat-svc event loop lag 95ms ok
+2026-01-17T16:38:14.456+05:30 info seat-svc event loop lag 57ms ok
+2026-01-17T16:38:20.104+05:30 info seat-svc event loop lag 12ms ok
+2026-01-17T16:38:30.476+05:30 info seat-svc event loop lag 10ms ok
+2026-01-17T16:38:38.479+05:30 info seat-svc served GET /api status=200 in 70ms trace=befa671a
+2026-01-17T16:38:48.609+05:30 info seat-svc event loop lag 25ms ok
+2026-01-17T16:38:56.245+05:30 info seat-svc event loop lag 34ms ok
+2026-01-17T16:39:02.991+05:30 info seat-svc event loop lag 54ms ok
+2026-01-17T16:39:10.100+05:30 info seat-svc event loop lag 44ms ok
+2026-01-17T16:39:16.873+05:30 info seat-svc event loop lag 26ms ok
+2026-01-17T16:39:22.417+05:30 info seat-svc served GET /api status=200 in 24ms trace=696f8a46
+2026-01-17T16:39:30.409+05:30 info seat-svc event loop lag 85ms ok

@@ -1,0 +1,28 @@
+{
+  "schema_version": "1",
+  "case_id": "dev-c017",
+  "split": "dev",
+  "family_id": "df06",
+  "stratum": "insufficient",
+  "root_causes": [],
+  "fault_type": "silent_partition",
+  "expected_abstain": true,
+  "key_evidence": [],
+  "relevant_evidence": [
+    "api-edge.log:33",
+    "api-edge.log:34",
+    "api-edge.log:36",
+    "api-edge.log:37",
+    "api-edge.log:38",
+    "api-edge.log:39",
+    "api-edge.log:41",
+    "api-edge.log:42",
+    "api-edge.log:43",
+    "ledger-svc.log:32",
+    "ledger-svc.log:33",
+    "ledger-svc.log:34"
+  ],
+  "propagation_path": [],
+  "injection_uids": [],
+  "decoy_component": null
+}

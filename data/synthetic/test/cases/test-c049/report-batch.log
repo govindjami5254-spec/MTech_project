@@ -1,0 +1,64 @@
+2026-01-27T15:53:20.310+05:30 info report-batch event loop lag 63ms ok
+2026-01-27T15:53:33.164+05:30 info report-batch served GET /api status=200 in 57ms trace=0537067d
+2026-01-27T15:53:40.304+05:30 info report-batch event loop lag 94ms ok
+2026-01-27T15:53:41.000+05:30 warn report-batch event loop lag 270ms
+2026-01-27T15:53:53.150+05:30 info report-batch served GET /api status=200 in 79ms trace=0bef8f16
+2026-01-27T15:54:07.265+05:30 info report-batch served GET /api status=200 in 88ms trace=e46addde
+2026-01-27T15:54:13.210+05:30 info report-batch event loop lag 19ms ok
+2026-01-27T15:54:24.251+05:30 info report-batch served GET /api status=200 in 42ms trace=49ef329f
+2026-01-27T15:54:34.050+05:30 info report-batch served GET /api status=200 in 64ms trace=59500f6b
+2026-01-27T15:54:40.870+05:30 info report-batch event loop lag 18ms ok
+2026-01-27T15:54:54.294+05:30 info report-batch served GET /api status=200 in 95ms trace=ec3386f8
+2026-01-27T15:55:01.720+05:30 info report-batch served GET /api status=200 in 44ms trace=2ace4d49
+2026-01-27T15:55:08.268+05:30 info report-batch served GET /api status=200 in 60ms trace=aa0f7319
+2026-01-27T15:55:22.137+05:30 info report-batch event loop lag 9ms ok
+2026-01-27T15:55:30.134+05:30 info report-batch served GET /api status=200 in 14ms trace=8a1ee007
+2026-01-27T15:55:38.136+05:30 info report-batch event loop lag 87ms ok
+2026-01-27T15:55:44.524+05:30 info report-batch event loop lag 64ms ok
+2026-01-27T15:55:44.592+05:30 error report-batch failed to rotate access logs: EACCES
+2026-01-27T15:55:55.306+05:30 error report-batch failed to rotate access logs: EACCES
+2026-01-27T15:55:58.541+05:30 info report-batch event loop lag 34ms ok
+2026-01-27T15:56:06.174+05:30 info report-batch event loop lag 95ms ok
+2026-01-27T15:56:06.729+05:30 error report-batch failed to rotate access logs: EACCES
+2026-01-27T15:56:17.755+05:30 error report-batch failed to rotate access logs: EACCES
+2026-01-27T15:56:18.459+05:30 info report-batch served GET /api status=200 in 27ms trace=e15d8057
+2026-01-27T15:56:19.000+05:30 warn report-batch unhandled header x-legacy ignored trace=57708034
+2026-01-27T15:56:26.212+05:30 info report-batch served GET /api status=200 in 83ms trace=c25b90c7
+2026-01-27T15:56:39.932+05:30 info report-batch event loop lag 75ms ok
+2026-01-27T15:56:47.643+05:30 info report-batch event loop lag 66ms ok
+2026-01-27T15:56:59.598+05:30 info report-batch served GET /api status=200 in 13ms trace=8dc4d4c6
+2026-01-27T15:57:11.691+05:30 info report-batch event loop lag 22ms ok
+2026-01-27T15:57:21.119+05:30 info report-batch served GET /api status=200 in 68ms trace=86d0bef6
+2026-01-27T15:57:35.627+05:30 info report-batch event loop lag 92ms ok
+2026-01-27T15:57:44.446+05:30 info report-batch event loop lag 68ms ok
+2026-01-27T15:57:56.942+05:30 info report-batch event loop lag 15ms ok
+2026-01-27T15:58:10.067+05:30 info report-batch served GET /api status=200 in 32ms trace=f0e43388
+2026-01-27T15:58:24.965+05:30 info report-batch served GET /api status=200 in 90ms trace=c6680517
+2026-01-27T15:58:35.153+05:30 info report-batch event loop lag 23ms ok
+2026-01-27T15:58:48.223+05:30 info report-batch served GET /api status=200 in 95ms trace=11f752e7
+2026-01-27T15:58:56.501+05:30 info report-batch event loop lag 33ms ok
+2026-01-27T15:59:03.095+05:30 info report-batch event loop lag 15ms ok
+2026-01-27T15:59:09.506+05:30 info report-batch event loop lag 50ms ok
+2026-01-27T15:59:20.969+05:30 info report-batch event loop lag 12ms ok
+2026-01-27T15:59:34.017+05:30 info report-batch served GET /api status=200 in 28ms trace=e13fb036
+2026-01-27T15:59:46.896+05:30 info report-batch event loop lag 75ms ok
+2026-01-27T15:59:53.947+05:30 info report-batch served GET /api status=200 in 23ms trace=5b44f4ee
+2026-01-27T16:00:03.685+05:30 info report-batch served GET /api status=200 in 75ms trace=3a43a04b
+2026-01-27T16:00:17.409+05:30 info report-batch event loop lag 58ms ok
+2026-01-27T16:00:30.941+05:30 info report-batch served GET /api status=200 in 67ms trace=e7fe6764
+2026-01-27T16:00:43.805+05:30 info report-batch event loop lag 95ms ok
+2026-01-27T16:00:50.870+05:30 info report-batch event loop lag 66ms ok
+2026-01-27T16:01:03.800+05:30 info report-batch event loop lag 88ms ok
+2026-01-27T16:01:11.259+05:30 info report-batch served GET /api status=200 in 84ms trace=20e717c1
+2026-01-27T16:01:19.348+05:30 info report-batch event loop lag 44ms ok
+2026-01-27T16:01:29.350+05:30 info report-batch served GET /api status=200 in 28ms trace=32d6699f
+2026-01-27T16:01:35.597+05:30 info report-batch event loop lag 55ms ok
+2026-01-27T16:01:48.408+05:30 info report-batch event loop lag 90ms ok
+2026-01-27T16:01:57.628+05:30 info report-batch served GET /api status=200 in 53ms trace=4fa65db2
+2026-01-27T16:02:09.949+05:30 info report-batch event loop lag 80ms ok
+2026-01-27T16:02:16.726+05:30 info report-batch served GET /api status=200 in 19ms trace=e050bda3
+2026-01-27T16:02:30.097+05:30 info report-batch served GET /api status=200 in 17ms trace=3f79052a
+2026-01-27T16:02:37.959+05:30 info report-batch served GET /api status=200 in 93ms trace=1f390138
+2026-01-27T16:02:46.402+05:30 info report-batch event loop lag 42ms ok
+2026-01-27T16:02:59.529+05:30 info report-batch served GET /api status=200 in 71ms trace=0a58d7a1
+2026-01-27T16:03:11.804+05:30 info report-batch served GET /api status=200 in 71ms trace=3ab84f11

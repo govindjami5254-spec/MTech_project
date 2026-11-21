@@ -1,0 +1,65 @@
+2026-02-12T14:47:48Z INFO front-door tick ok elapsed_ms=51
+2026-02-12T14:47:59Z INFO front-door http request method=GET status=200 latency_ms=14 span=a32c77d8
+2026-02-12T14:48:09Z INFO front-door http request method=GET status=200 latency_ms=77 span=f7713ea4
+2026-02-12T14:48:18Z INFO front-door http request method=GET status=200 latency_ms=85 span=2c01763c
+2026-02-12T14:48:30Z INFO front-door tick ok elapsed_ms=43
+2026-02-12T14:48:44Z INFO front-door http request method=GET status=200 latency_ms=85 span=45bb3634
+2026-02-12T14:48:53Z INFO front-door tick ok elapsed_ms=36
+2026-02-12T14:49:05Z INFO front-door tick ok elapsed_ms=62
+2026-02-12T14:49:11Z INFO front-door tick ok elapsed_ms=29
+2026-02-12T14:49:20Z INFO front-door tick ok elapsed_ms=84
+2026-02-12T14:49:30Z INFO front-door http request method=GET status=200 latency_ms=51 span=b21f52bd
+2026-02-12T14:49:39Z INFO front-door tick ok elapsed_ms=58
+2026-02-12T14:49:51Z INFO front-door tick ok elapsed_ms=34
+2026-02-12T14:50:05Z INFO front-door tick ok elapsed_ms=64
+2026-02-12T14:50:16Z INFO front-door http request method=GET status=200 latency_ms=15 span=104fa3fa
+2026-02-12T14:50:26Z INFO front-door tick ok elapsed_ms=94
+2026-02-12T14:50:37Z INFO front-door http request method=GET status=200 latency_ms=33 span=ccf7c8ac
+2026-02-12T14:50:49Z INFO front-door http request method=GET status=200 latency_ms=28 span=11a1a8ac
+2026-02-12T14:50:56Z INFO front-door tick ok elapsed_ms=85
+2026-02-12T14:51:08Z INFO front-door http request method=GET status=200 latency_ms=86 span=c3d1bbad
+2026-02-12T14:51:18Z INFO front-door http request method=GET status=200 latency_ms=20 span=eef3b86b
+2026-02-12T14:51:27Z INFO front-door tick ok elapsed_ms=31
+2026-02-12T14:51:36Z INFO front-door tick ok elapsed_ms=71
+2026-02-12T14:51:48Z INFO front-door tick ok elapsed_ms=65
+2026-02-12T14:52:02Z INFO front-door tick ok elapsed_ms=82
+2026-02-12T14:52:16Z INFO front-door tick ok elapsed_ms=28
+2026-02-12T14:52:22Z INFO front-door tick ok elapsed_ms=28
+2026-02-12T14:52:32Z INFO front-door tick ok elapsed_ms=87
+2026-02-12T14:52:43Z INFO front-door http request method=GET status=200 latency_ms=92 span=04bf15fd
+2026-02-12T14:52:49Z INFO front-door tick ok elapsed_ms=39
+2026-02-12T14:53:00Z INFO front-door http request method=GET status=200 latency_ms=62 span=5b716cda
+2026-02-12T14:53:02Z ERR front-door bad gateway: otp-svc failed span=d5b4ba56 status=502
+2026-02-12T14:53:05Z ERR front-door service unavailable: otp-svc span=e1376c85 status=503
+2026-02-12T14:53:08Z ERR front-door bad gateway: otp-svc failed span=d108a954 status=502
+2026-02-12T14:53:11Z ERR front-door bad gateway: otp-svc failed span=84b433e5 status=502
+2026-02-12T14:53:14Z INFO front-door http request method=GET status=200 latency_ms=71 span=9b84051f
+2026-02-12T14:53:14Z ERR front-door bad gateway: otp-svc failed span=df67d092 status=502
+2026-02-12T14:53:17Z ERR front-door bad gateway: otp-svc failed span=630baa08 status=502
+2026-02-12T14:53:20Z ERR front-door service unavailable: otp-svc span=228c1929 status=503
+2026-02-12T14:53:23Z ERR front-door bad gateway: otp-svc failed span=c812be52 status=502
+2026-02-12T14:53:26Z INFO front-door tick ok elapsed_ms=32
+2026-02-12T14:53:26Z ERR front-door service unavailable: otp-svc span=b6aad0fb status=503
+2026-02-12T14:53:39Z INFO front-door http request method=GET status=200 latency_ms=27 span=a76fc29f
+2026-02-12T14:53:47Z INFO front-door http request method=GET status=200 latency_ms=42 span=d0c4ef83
+2026-02-12T14:53:58Z INFO front-door tick ok elapsed_ms=92
+2026-02-12T14:54:09Z INFO front-door tick ok elapsed_ms=17
+2026-02-12T14:54:15Z INFO front-door http request method=GET status=200 latency_ms=44 span=e4e24627
+2026-02-12T14:54:26Z INFO front-door tick ok elapsed_ms=62
+2026-02-12T14:54:38Z INFO front-door tick ok elapsed_ms=55
+2026-02-12T14:54:48Z INFO front-door http request method=GET status=200 latency_ms=66 span=83136baa
+2026-02-12T14:55:00Z INFO front-door tick ok elapsed_ms=80
+2026-02-12T14:55:13Z INFO front-door tick ok elapsed_ms=93
+2026-02-12T14:55:26Z INFO front-door http request method=GET status=200 latency_ms=69 span=ee7902fb
+2026-02-12T14:55:35Z INFO front-door tick ok elapsed_ms=83
+2026-02-12T14:55:43Z INFO front-door http request method=GET status=200 latency_ms=59 span=552b6d84
+2026-02-12T14:55:53Z INFO front-door http request method=GET status=200 latency_ms=19 span=8428007e
+2026-02-12T14:56:04Z INFO front-door http request method=GET status=200 latency_ms=64 span=25086ae0
+2026-02-12T14:56:18Z INFO front-door http request method=GET status=200 latency_ms=63 span=cbae83d5
+2026-02-12T14:56:32Z INFO front-door http request method=GET status=200 latency_ms=13 span=5ee21d59
+2026-02-12T14:56:46Z INFO front-door http request method=GET status=200 latency_ms=65 span=4a75bd6d
+2026-02-12T14:56:56Z INFO front-door tick ok elapsed_ms=72
+2026-02-12T14:57:04Z INFO front-door http request method=GET status=200 latency_ms=52 span=d8478abe
+2026-02-12T14:57:13Z INFO front-door tick ok elapsed_ms=89
+2026-02-12T14:57:26Z INFO front-door http request method=GET status=200 latency_ms=30 span=1aab86c1
+2026-02-12T14:57:35Z INFO front-door http request method=GET status=200 latency_ms=34 span=3f1f6719

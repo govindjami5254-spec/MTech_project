@@ -1,0 +1,63 @@
+2026-02-02T14:33:16Z INFO blob-db tick ok elapsed_ms=57
+2026-02-02T14:33:27Z INFO blob-db tick ok elapsed_ms=78
+2026-02-02T14:33:34Z INFO blob-db http request method=GET status=200 latency_ms=43 span=d912fb8d
+2026-02-02T14:33:48Z INFO blob-db tick ok elapsed_ms=45
+2026-02-02T14:33:56Z INFO blob-db tick ok elapsed_ms=62
+2026-02-02T14:34:07Z INFO blob-db tick ok elapsed_ms=15
+2026-02-02T14:34:15Z INFO blob-db http request method=GET status=200 latency_ms=61 span=953e7cd2
+2026-02-02T14:34:28Z INFO blob-db tick ok elapsed_ms=89
+2026-02-02T14:34:38Z INFO blob-db tick ok elapsed_ms=46
+2026-02-02T14:34:51Z INFO blob-db http request method=GET status=200 latency_ms=20 span=1403ee06
+2026-02-02T14:34:57Z INFO blob-db tick ok elapsed_ms=17
+2026-02-02T14:35:03Z INFO blob-db tick ok elapsed_ms=80
+2026-02-02T14:35:10Z INFO blob-db tick ok elapsed_ms=43
+2026-02-02T14:35:16Z INFO blob-db tick ok elapsed_ms=19
+2026-02-02T14:35:23Z INFO blob-db tick ok elapsed_ms=24
+2026-02-02T14:35:36Z INFO blob-db http request method=GET status=200 latency_ms=66 span=886c795c
+2026-02-02T14:35:49Z INFO blob-db http request method=GET status=200 latency_ms=11 span=ec570448
+2026-02-02T14:35:59Z INFO blob-db tick ok elapsed_ms=35
+2026-02-02T14:36:11Z INFO blob-db http request method=GET status=200 latency_ms=37 span=7af31cde
+2026-02-02T14:36:20Z INFO blob-db tick ok elapsed_ms=76
+2026-02-02T14:36:26Z INFO blob-db http request method=GET status=200 latency_ms=45 span=4e1de8f2
+2026-02-02T14:36:36Z INFO blob-db tick ok elapsed_ms=38
+2026-02-02T14:36:42Z INFO blob-db http request method=GET status=200 latency_ms=74 span=18bc3e00
+2026-02-02T14:36:48Z INFO blob-db tick ok elapsed_ms=16
+2026-02-02T14:37:02Z INFO blob-db tick ok elapsed_ms=66
+2026-02-02T14:37:09Z INFO blob-db http request method=GET status=200 latency_ms=57 span=95d588f2
+2026-02-02T14:37:20Z INFO blob-db tick ok elapsed_ms=92
+2026-02-02T14:37:26Z INFO blob-db tick ok elapsed_ms=16
+2026-02-02T14:37:32Z INFO blob-db tick ok elapsed_ms=86
+2026-02-02T14:37:43Z INFO blob-db http request method=GET status=200 latency_ms=53 span=d7c7c3c9
+2026-02-02T14:37:50Z INFO blob-db tick ok elapsed_ms=92
+2026-02-02T14:38:00Z INFO blob-db tick ok elapsed_ms=81
+2026-02-02T14:38:09Z INFO blob-db tick ok elapsed_ms=48
+2026-02-02T14:38:22Z INFO blob-db http request method=GET status=200 latency_ms=13 span=7285cd8b
+2026-02-02T14:38:36Z INFO blob-db tick ok elapsed_ms=52
+2026-02-02T14:38:49Z INFO blob-db tick ok elapsed_ms=24
+2026-02-02T14:39:03Z INFO blob-db http request method=GET status=200 latency_ms=28 span=40adda0c
+2026-02-02T14:39:14Z INFO blob-db tick ok elapsed_ms=83
+2026-02-02T14:39:15Z WARN blob-db client sent oversized header, truncated span=00a3bcd3
+2026-02-02T14:39:22Z INFO blob-db tick ok elapsed_ms=62
+2026-02-02T14:39:29Z INFO blob-db tick ok elapsed_ms=27
+2026-02-02T14:39:43Z INFO blob-db http request method=GET status=200 latency_ms=45 span=a68a3cb5
+2026-02-02T14:39:50Z INFO blob-db http request method=GET status=200 latency_ms=59 span=84f2dac3
+2026-02-02T14:39:59Z INFO blob-db tick ok elapsed_ms=42
+2026-02-02T14:40:12Z INFO blob-db tick ok elapsed_ms=51
+2026-02-02T14:40:21Z INFO blob-db tick ok elapsed_ms=32
+2026-02-02T14:40:27Z INFO blob-db tick ok elapsed_ms=70
+2026-02-02T14:40:41Z INFO blob-db http request method=GET status=200 latency_ms=39 span=789b800f
+2026-02-02T14:40:47Z INFO blob-db tick ok elapsed_ms=21
+2026-02-02T14:41:01Z INFO blob-db http request method=GET status=200 latency_ms=28 span=4a2ad1e6
+2026-02-02T14:41:09Z INFO blob-db tick ok elapsed_ms=89
+2026-02-02T14:41:18Z INFO blob-db http request method=GET status=200 latency_ms=66 span=14df3fe6
+2026-02-02T14:41:24Z INFO blob-db tick ok elapsed_ms=91
+2026-02-02T14:41:34Z INFO blob-db http request method=GET status=200 latency_ms=77 span=717f5972
+2026-02-02T14:41:42Z INFO blob-db http request method=GET status=200 latency_ms=82 span=44e58498
+2026-02-02T14:41:55Z INFO blob-db http request method=GET status=200 latency_ms=9 span=896010e9
+2026-02-02T14:42:01Z INFO blob-db http request method=GET status=200 latency_ms=74 span=1e2c93a4
+2026-02-02T14:42:11Z INFO blob-db tick ok elapsed_ms=65
+2026-02-02T14:42:18Z INFO blob-db http request method=GET status=200 latency_ms=29 span=fa8b3be8
+2026-02-02T14:42:32Z INFO blob-db tick ok elapsed_ms=31
+2026-02-02T14:42:38Z INFO blob-db http request method=GET status=200 latency_ms=59 span=09420458
+2026-02-02T14:42:50Z INFO blob-db tick ok elapsed_ms=77
+2026-02-02T14:43:02Z INFO blob-db http request method=GET status=200 latency_ms=42 span=b02e463d

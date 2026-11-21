@@ -1,0 +1,290 @@
+2026-02-05 09:26:13,477 INFO log-forwarder worker heartbeat ok (45ms)
+2026-02-05 09:26:23,866 INFO log-forwarder worker heartbeat ok (91ms)
+2026-02-05 09:26:30,304 INFO log-forwarder worker heartbeat ok (52ms)
+2026-02-05 09:26:35,949 WARNING log-forwarder log shipping lag 300ms
+2026-02-05 09:26:37,015 INFO log-forwarder GET /v1/items 200 16ms req_id=01f1fd96
+2026-02-05 09:26:38,722 WARNING log-forwarder thumbnail queue backlog 0 items
+2026-02-05 09:26:40,848 WARNING log-forwarder log shipping lag 780ms
+2026-02-05 09:26:42,048 WARNING log-forwarder thumbnail queue backlog 0 items
+2026-02-05 09:26:44,671 WARNING log-forwarder log shipping lag 610ms
+2026-02-05 09:26:47,585 WARNING log-forwarder thumbnail queue backlog 0 items
+2026-02-05 09:26:50,173 INFO log-forwarder GET /v1/items 200 56ms req_id=61903968
+2026-02-05 09:26:50,546 WARNING log-forwarder thumbnail queue backlog 0 items
+2026-02-05 09:26:52,092 WARNING log-forwarder thumbnail queue backlog 0 items
+2026-02-05 09:26:55,494 WARNING log-forwarder log shipping lag 540ms
+2026-02-05 09:26:57,666 WARNING log-forwarder log shipping lag 390ms
+2026-02-05 09:26:59,033 WARNING log-forwarder thumbnail queue backlog 0 items
+2026-02-05 09:27:02,576 WARNING log-forwarder log shipping lag 830ms
+2026-02-05 09:27:02,729 INFO log-forwarder worker heartbeat ok (81ms)
+2026-02-05 09:27:04,551 WARNING log-forwarder log shipping lag 250ms
+2026-02-05 09:27:06,938 WARNING log-forwarder thumbnail queue backlog 0 items
+2026-02-05 09:27:09,571 WARNING log-forwarder thumbnail queue backlog 0 items
+2026-02-05 09:27:12,288 WARNING log-forwarder log shipping lag 690ms
+2026-02-05 09:27:14,736 INFO log-forwarder worker heartbeat ok (37ms)
+2026-02-05 09:27:14,965 WARNING log-forwarder log shipping lag 760ms
+2026-02-05 09:27:17,791 WARNING log-forwarder thumbnail queue backlog 0 items
+2026-02-05 09:27:20,255 WARNING log-forwarder log shipping lag 650ms
+2026-02-05 09:27:21,709 WARNING log-forwarder thumbnail queue backlog 0 items
+2026-02-05 09:27:23,748 INFO log-forwarder worker heartbeat ok (55ms)
+2026-02-05 09:27:24,090 WARNING log-forwarder thumbnail queue backlog 0 items
+2026-02-05 09:27:27,416 WARNING log-forwarder log shipping lag 850ms
+2026-02-05 09:27:29,479 WARNING log-forwarder thumbnail queue backlog 0 items
+2026-02-05 09:27:33,080 WARNING log-forwarder thumbnail queue backlog 0 items
+2026-02-05 09:27:33,180 INFO log-forwarder worker heartbeat ok (14ms)
+2026-02-05 09:27:35,097 WARNING log-forwarder thumbnail queue backlog 0 items
+2026-02-05 09:27:37,352 WARNING log-forwarder log shipping lag 630ms
+2026-02-05 09:27:39,458 WARNING log-forwarder thumbnail queue backlog 0 items
+2026-02-05 09:27:41,832 WARNING log-forwarder thumbnail queue backlog 0 items
+2026-02-05 09:27:43,210 INFO log-forwarder GET /v1/items 200 81ms req_id=f340f37d
+2026-02-05 09:27:45,265 WARNING log-forwarder log shipping lag 530ms
+2026-02-05 09:27:47,743 WARNING log-forwarder log shipping lag 540ms
+2026-02-05 09:27:51,429 WARNING log-forwarder thumbnail queue backlog 0 items
+2026-02-05 09:27:54,103 WARNING log-forwarder thumbnail queue backlog 0 items
+2026-02-05 09:27:55,375 WARNING log-forwarder thumbnail queue backlog 0 items
+2026-02-05 09:27:57,063 INFO log-forwarder worker heartbeat ok (68ms)
+2026-02-05 09:27:58,132 WARNING log-forwarder log shipping lag 130ms
+2026-02-05 09:28:00,254 WARNING log-forwarder thumbnail queue backlog 0 items
+2026-02-05 09:28:02,133 WARNING log-forwarder thumbnail queue backlog 0 items
+2026-02-05 09:28:04,518 WARNING log-forwarder log shipping lag 730ms
+2026-02-05 09:28:04,693 INFO log-forwarder GET /v1/items 200 61ms req_id=9900552f
+2026-02-05 09:28:06,320 WARNING log-forwarder thumbnail queue backlog 0 items
+2026-02-05 09:28:08,265 WARNING log-forwarder thumbnail queue backlog 0 items
+2026-02-05 09:28:11,099 WARNING log-forwarder log shipping lag 190ms
+2026-02-05 09:28:11,853 INFO log-forwarder worker heartbeat ok (64ms)
+2026-02-05 09:28:13,356 WARNING log-forwarder thumbnail queue backlog 0 items
+2026-02-05 09:28:15,921 WARNING log-forwarder log shipping lag 790ms
+2026-02-05 09:28:17,442 INFO log-forwarder worker heartbeat ok (13ms)
+2026-02-05 09:28:19,205 WARNING log-forwarder log shipping lag 850ms
+2026-02-05 09:28:22,495 WARNING log-forwarder log shipping lag 450ms
+2026-02-05 09:28:24,869 WARNING log-forwarder thumbnail queue backlog 0 items
+2026-02-05 09:28:26,934 WARNING log-forwarder thumbnail queue backlog 0 items
+2026-02-05 09:28:27,669 INFO log-forwarder worker heartbeat ok (10ms)
+2026-02-05 09:28:29,814 WARNING log-forwarder log shipping lag 600ms
+2026-02-05 09:28:31,799 WARNING log-forwarder thumbnail queue backlog 0 items
+2026-02-05 09:28:33,153 INFO log-forwarder GET /v1/items 200 65ms req_id=94bd3d73
+2026-02-05 09:28:34,043 WARNING log-forwarder log shipping lag 870ms
+2026-02-05 09:28:36,451 WARNING log-forwarder thumbnail queue backlog 0 items
+2026-02-05 09:28:39,383 WARNING log-forwarder log shipping lag 490ms
+2026-02-05 09:28:40,234 WARNING log-forwarder thumbnail queue backlog 0 items
+2026-02-05 09:28:43,074 WARNING log-forwarder thumbnail queue backlog 0 items
+2026-02-05 09:28:46,090 WARNING log-forwarder thumbnail queue backlog 0 items
+2026-02-05 09:28:46,836 INFO log-forwarder GET /v1/items 200 64ms req_id=051605f2
+2026-02-05 09:28:49,621 WARNING log-forwarder log shipping lag 220ms
+2026-02-05 09:28:50,995 WARNING log-forwarder thumbnail queue backlog 0 items
+2026-02-05 09:28:52,597 WARNING log-forwarder log shipping lag 850ms
+2026-02-05 09:28:55,757 INFO log-forwarder worker heartbeat ok (81ms)
+2026-02-05 09:28:55,859 WARNING log-forwarder thumbnail queue backlog 0 items
+2026-02-05 09:28:59,132 WARNING log-forwarder thumbnail queue backlog 0 items
+2026-02-05 09:29:00,353 WARNING log-forwarder log shipping lag 610ms
+2026-02-05 09:29:01,472 INFO log-forwarder worker heartbeat ok (34ms)
+2026-02-05 09:29:03,287 WARNING log-forwarder log shipping lag 310ms
+2026-02-05 09:29:05,896 WARNING log-forwarder log shipping lag 820ms
+2026-02-05 09:29:08,199 WARNING log-forwarder thumbnail queue backlog 0 items
+2026-02-05 09:29:08,610 INFO log-forwarder GET /v1/items 200 23ms req_id=79ccf64c
+2026-02-05 09:29:11,971 WARNING log-forwarder log shipping lag 950ms
+2026-02-05 09:29:14,470 WARNING log-forwarder log shipping lag 270ms
+2026-02-05 09:29:18,871 WARNING log-forwarder log shipping lag 410ms
+2026-02-05 09:29:21,166 WARNING log-forwarder thumbnail queue backlog 0 items
+2026-02-05 09:29:22,159 INFO log-forwarder GET /v1/items 200 14ms req_id=8510d1ff
+2026-02-05 09:29:24,011 WARNING log-forwarder log shipping lag 590ms
+2026-02-05 09:29:27,096 WARNING log-forwarder log shipping lag 80ms
+2026-02-05 09:29:29,476 WARNING log-forwarder thumbnail queue backlog 0 items
+2026-02-05 09:29:31,650 WARNING log-forwarder thumbnail queue backlog 0 items
+2026-02-05 09:29:33,113 WARNING log-forwarder log shipping lag 170ms
+2026-02-05 09:29:34,593 INFO log-forwarder worker heartbeat ok (13ms)
+2026-02-05 09:29:36,712 WARNING log-forwarder thumbnail queue backlog 0 items
+2026-02-05 09:29:38,673 WARNING log-forwarder thumbnail queue backlog 0 items
+2026-02-05 09:29:40,595 INFO log-forwarder GET /v1/items 200 60ms req_id=21b69465
+2026-02-05 09:29:41,358 WARNING log-forwarder thumbnail queue backlog 0 items
+2026-02-05 09:29:43,355 WARNING log-forwarder log shipping lag 480ms
+2026-02-05 09:29:45,571 WARNING log-forwarder log shipping lag 770ms
+2026-02-05 09:29:46,968 WARNING log-forwarder log shipping lag 330ms
+2026-02-05 09:29:48,771 INFO log-forwarder GET /v1/items 200 14ms req_id=ff5b5484
+2026-02-05 09:29:50,320 WARNING log-forwarder thumbnail queue backlog 0 items
+2026-02-05 09:29:52,753 WARNING log-forwarder log shipping lag 440ms
+2026-02-05 09:29:53,723 WARNING log-forwarder thumbnail queue backlog 0 items
+2026-02-05 09:29:55,698 WARNING log-forwarder log shipping lag 210ms
+2026-02-05 09:29:58,037 WARNING log-forwarder thumbnail queue backlog 0 items
+2026-02-05 09:30:01,499 WARNING log-forwarder thumbnail queue backlog 0 items
+2026-02-05 09:30:01,506 INFO log-forwarder GET /v1/items 200 22ms req_id=3040e3cc
+2026-02-05 09:30:03,752 WARNING log-forwarder thumbnail queue backlog 0 items
+2026-02-05 09:30:07,050 WARNING log-forwarder thumbnail queue backlog 0 items
+2026-02-05 09:30:08,776 WARNING log-forwarder thumbnail queue backlog 0 items
+2026-02-05 09:30:10,408 WARNING log-forwarder thumbnail queue backlog 0 items
+2026-02-05 09:30:12,215 WARNING log-forwarder thumbnail queue backlog 0 items
+2026-02-05 09:30:14,262 INFO log-forwarder GET /v1/items 200 74ms req_id=95b3f64b
+2026-02-05 09:30:14,670 WARNING log-forwarder log shipping lag 330ms
+2026-02-05 09:30:17,513 WARNING log-forwarder thumbnail queue backlog 0 items
+2026-02-05 09:30:21,349 WARNING log-forwarder log shipping lag 250ms
+2026-02-05 09:30:22,915 WARNING log-forwarder thumbnail queue backlog 0 items
+2026-02-05 09:30:25,069 WARNING log-forwarder log shipping lag 440ms
+2026-02-05 09:30:26,346 INFO log-forwarder GET /v1/items 200 37ms req_id=e5f53c2c
+2026-02-05 09:30:27,268 WARNING log-forwarder thumbnail queue backlog 0 items
+2026-02-05 09:30:29,202 WARNING log-forwarder thumbnail queue backlog 0 items
+2026-02-05 09:30:31,332 WARNING log-forwarder log shipping lag 530ms
+2026-02-05 09:30:33,199 WARNING log-forwarder thumbnail queue backlog 0 items
+2026-02-05 09:30:33,465 INFO log-forwarder worker heartbeat ok (76ms)
+2026-02-05 09:30:36,113 WARNING log-forwarder log shipping lag 450ms
+2026-02-05 09:30:39,268 WARNING log-forwarder thumbnail queue backlog 0 items
+2026-02-05 09:30:39,903 INFO log-forwarder worker heartbeat ok (58ms)
+2026-02-05 09:30:41,182 WARNING log-forwarder thumbnail queue backlog 0 items
+2026-02-05 09:30:43,813 WARNING log-forwarder thumbnail queue backlog 0 items
+2026-02-05 09:30:45,876 WARNING log-forwarder log shipping lag 310ms
+2026-02-05 09:30:49,151 WARNING log-forwarder log shipping lag 890ms
+2026-02-05 09:30:50,849 INFO log-forwarder worker heartbeat ok (81ms)
+2026-02-05 09:30:52,481 WARNING log-forwarder log shipping lag 80ms
+2026-02-05 09:30:54,446 WARNING log-forwarder thumbnail queue backlog 0 items
+2026-02-05 09:30:56,414 INFO log-forwarder GET /v1/items 200 46ms req_id=6d40e9fb
+2026-02-05 09:30:57,395 WARNING log-forwarder log shipping lag 520ms
+2026-02-05 09:31:00,540 WARNING log-forwarder thumbnail queue backlog 0 items
+2026-02-05 09:31:02,284 WARNING log-forwarder thumbnail queue backlog 0 items
+2026-02-05 09:31:04,955 WARNING log-forwarder thumbnail queue backlog 0 items
+2026-02-05 09:31:07,164 WARNING log-forwarder log shipping lag 930ms
+2026-02-05 09:31:09,782 WARNING log-forwarder log shipping lag 770ms
+2026-02-05 09:31:10,085 INFO log-forwarder GET /v1/items 200 8ms req_id=ed5c75b6
+2026-02-05 09:31:13,197 WARNING log-forwarder thumbnail queue backlog 0 items
+2026-02-05 09:31:15,604 WARNING log-forwarder thumbnail queue backlog 0 items
+2026-02-05 09:31:18,434 WARNING log-forwarder log shipping lag 380ms
+2026-02-05 09:31:20,930 WARNING log-forwarder thumbnail queue backlog 0 items
+2026-02-05 09:31:22,921 INFO log-forwarder GET /v1/items 200 17ms req_id=0fb70e6f
+2026-02-05 09:31:23,440 WARNING log-forwarder log shipping lag 450ms
+2026-02-05 09:31:25,795 WARNING log-forwarder thumbnail queue backlog 0 items
+2026-02-05 09:31:27,899 WARNING log-forwarder log shipping lag 230ms
+2026-02-05 09:31:30,651 WARNING log-forwarder log shipping lag 210ms
+2026-02-05 09:31:34,253 WARNING log-forwarder thumbnail queue backlog 0 items
+2026-02-05 09:31:34,560 INFO log-forwarder GET /v1/items 200 89ms req_id=ab1b1971
+2026-02-05 09:31:36,208 WARNING log-forwarder thumbnail queue backlog 0 items
+2026-02-05 09:31:38,237 WARNING log-forwarder log shipping lag 140ms
+2026-02-05 09:31:41,663 INFO log-forwarder worker heartbeat ok (78ms)
+2026-02-05 09:31:41,716 WARNING log-forwarder log shipping lag 380ms
+2026-02-05 09:31:44,815 WARNING log-forwarder log shipping lag 500ms
+2026-02-05 09:31:47,300 WARNING log-forwarder thumbnail queue backlog 0 items
+2026-02-05 09:31:47,363 INFO log-forwarder worker heartbeat ok (77ms)
+2026-02-05 09:31:49,916 WARNING log-forwarder log shipping lag 760ms
+2026-02-05 09:31:53,213 WARNING log-forwarder log shipping lag 210ms
+2026-02-05 09:31:56,291 WARNING log-forwarder thumbnail queue backlog 0 items
+2026-02-05 09:31:56,645 INFO log-forwarder worker heartbeat ok (71ms)
+2026-02-05 09:31:58,359 WARNING log-forwarder thumbnail queue backlog 0 items
+2026-02-05 09:32:01,835 WARNING log-forwarder thumbnail queue backlog 0 items
+2026-02-05 09:32:03,311 WARNING log-forwarder thumbnail queue backlog 0 items
+2026-02-05 09:32:05,366 WARNING log-forwarder log shipping lag 790ms
+2026-02-05 09:32:08,014 WARNING log-forwarder thumbnail queue backlog 0 items
+2026-02-05 09:32:09,360 WARNING log-forwarder thumbnail queue backlog 0 items
+2026-02-05 09:32:09,642 INFO log-forwarder GET /v1/items 200 8ms req_id=ba551ba2
+2026-02-05 09:32:12,650 WARNING log-forwarder log shipping lag 770ms
+2026-02-05 09:32:15,018 WARNING log-forwarder log shipping lag 410ms
+2026-02-05 09:32:17,116 WARNING log-forwarder log shipping lag 820ms
+2026-02-05 09:32:18,433 INFO log-forwarder worker heartbeat ok (92ms)
+2026-02-05 09:32:18,810 WARNING log-forwarder thumbnail queue backlog 0 items
+2026-02-05 09:32:21,829 WARNING log-forwarder thumbnail queue backlog 0 items
+2026-02-05 09:32:23,708 WARNING log-forwarder log shipping lag 780ms
+2026-02-05 09:32:25,009 WARNING log-forwarder log shipping lag 760ms
+2026-02-05 09:32:28,299 WARNING log-forwarder thumbnail queue backlog 0 items
+2026-02-05 09:32:29,105 INFO log-forwarder worker heartbeat ok (59ms)
+2026-02-05 09:32:30,646 WARNING log-forwarder log shipping lag 560ms
+2026-02-05 09:32:33,307 WARNING log-forwarder thumbnail queue backlog 0 items
+2026-02-05 09:32:35,804 WARNING log-forwarder log shipping lag 850ms
+2026-02-05 09:32:37,331 WARNING log-forwarder thumbnail queue backlog 0 items
+2026-02-05 09:32:38,961 WARNING log-forwarder log shipping lag 560ms
+2026-02-05 09:32:40,633 INFO log-forwarder GET /v1/items 200 55ms req_id=6c75ed13
+2026-02-05 09:32:42,367 WARNING log-forwarder thumbnail queue backlog 0 items
+2026-02-05 09:32:43,608 WARNING log-forwarder log shipping lag 580ms
+2026-02-05 09:32:46,599 WARNING log-forwarder thumbnail queue backlog 0 items
+2026-02-05 09:32:48,751 INFO log-forwarder GET /v1/items 200 44ms req_id=2eb532fd
+2026-02-05 09:32:49,351 WARNING log-forwarder thumbnail queue backlog 0 items
+2026-02-05 09:32:52,704 WARNING log-forwarder thumbnail queue backlog 0 items
+2026-02-05 09:32:54,794 WARNING log-forwarder thumbnail queue backlog 0 items
+2026-02-05 09:32:56,165 INFO log-forwarder GET /v1/items 200 60ms req_id=5968fa26
+2026-02-05 09:32:56,623 WARNING log-forwarder log shipping lag 810ms
+2026-02-05 09:32:58,201 WARNING log-forwarder log shipping lag 220ms
+2026-02-05 09:32:59,884 WARNING log-forwarder log shipping lag 770ms
+2026-02-05 09:33:03,571 WARNING log-forwarder thumbnail queue backlog 0 items
+2026-02-05 09:33:06,558 WARNING log-forwarder log shipping lag 930ms
+2026-02-05 09:33:09,097 WARNING log-forwarder thumbnail queue backlog 0 items
+2026-02-05 09:33:10,822 INFO log-forwarder GET /v1/items 200 19ms req_id=cc9fc621
+2026-02-05 09:33:11,215 WARNING log-forwarder log shipping lag 220ms
+2026-02-05 09:33:13,650 WARNING log-forwarder thumbnail queue backlog 0 items
+2026-02-05 09:33:16,382 WARNING log-forwarder thumbnail queue backlog 0 items
+2026-02-05 09:33:19,788 WARNING log-forwarder thumbnail queue backlog 0 items
+2026-02-05 09:33:21,272 INFO log-forwarder worker heartbeat ok (24ms)
+2026-02-05 09:33:23,455 WARNING log-forwarder log shipping lag 590ms
+2026-02-05 09:33:25,682 WARNING log-forwarder thumbnail queue backlog 0 items
+2026-02-05 09:33:28,148 WARNING log-forwarder log shipping lag 510ms
+2026-02-05 09:33:29,033 INFO log-forwarder GET /v1/items 200 63ms req_id=a098ffcb
+2026-02-05 09:33:31,353 WARNING log-forwarder thumbnail queue backlog 0 items
+2026-02-05 09:33:33,066 WARNING log-forwarder log shipping lag 540ms
+2026-02-05 09:33:36,127 WARNING log-forwarder log shipping lag 300ms
+2026-02-05 09:33:38,843 WARNING log-forwarder thumbnail queue backlog 0 items
+2026-02-05 09:33:39,368 INFO log-forwarder worker heartbeat ok (21ms)
+2026-02-05 09:33:41,090 WARNING log-forwarder thumbnail queue backlog 0 items
+2026-02-05 09:33:43,562 WARNING log-forwarder log shipping lag 530ms
+2026-02-05 09:33:45,467 WARNING log-forwarder log shipping lag 710ms
+2026-02-05 09:33:46,624 INFO log-forwarder worker heartbeat ok (73ms)
+2026-02-05 09:33:48,425 WARNING log-forwarder log shipping lag 570ms
+2026-02-05 09:33:51,516 WARNING log-forwarder thumbnail queue backlog 0 items
+2026-02-05 09:33:54,121 WARNING log-forwarder thumbnail queue backlog 0 items
+2026-02-05 09:33:56,542 WARNING log-forwarder log shipping lag 370ms
+2026-02-05 09:33:56,726 INFO log-forwarder worker heartbeat ok (68ms)
+2026-02-05 09:33:58,883 WARNING log-forwarder log shipping lag 630ms
+2026-02-05 09:34:02,668 WARNING log-forwarder thumbnail queue backlog 0 items
+2026-02-05 09:34:04,764 WARNING log-forwarder log shipping lag 420ms
+2026-02-05 09:34:05,347 INFO log-forwarder GET /v1/items 200 37ms req_id=81948e3f
+2026-02-05 09:34:07,569 WARNING log-forwarder log shipping lag 450ms
+2026-02-05 09:34:10,707 WARNING log-forwarder thumbnail queue backlog 0 items
+2026-02-05 09:34:12,652 WARNING log-forwarder log shipping lag 150ms
+2026-02-05 09:34:14,163 INFO log-forwarder GET /v1/items 200 39ms req_id=313b6f52
+2026-02-05 09:34:14,175 WARNING log-forwarder thumbnail queue backlog 0 items
+2026-02-05 09:34:16,984 WARNING log-forwarder log shipping lag 230ms
+2026-02-05 09:34:18,860 WARNING log-forwarder log shipping lag 470ms
+2026-02-05 09:34:21,896 WARNING log-forwarder log shipping lag 170ms
+2026-02-05 09:34:24,516 WARNING log-forwarder thumbnail queue backlog 0 items
+2026-02-05 09:34:26,250 INFO log-forwarder GET /v1/items 200 29ms req_id=12535cdb
+2026-02-05 09:34:26,764 WARNING log-forwarder thumbnail queue backlog 0 items
+2026-02-05 09:34:29,430 WARNING log-forwarder log shipping lag 600ms
+2026-02-05 09:34:31,956 WARNING log-forwarder thumbnail queue backlog 0 items
+2026-02-05 09:34:34,260 INFO log-forwarder GET /v1/items 200 72ms req_id=5b7ff467
+2026-02-05 09:34:35,098 WARNING log-forwarder log shipping lag 580ms
+2026-02-05 09:34:36,097 WARNING log-forwarder log shipping lag 90ms
+2026-02-05 09:34:38,829 WARNING log-forwarder log shipping lag 230ms
+2026-02-05 09:34:41,978 WARNING log-forwarder log shipping lag 260ms
+2026-02-05 09:34:43,419 INFO log-forwarder worker heartbeat ok (27ms)
+2026-02-05 09:34:45,492 WARNING log-forwarder log shipping lag 780ms
+2026-02-05 09:34:48,516 WARNING log-forwarder log shipping lag 140ms
+2026-02-05 09:34:50,079 INFO log-forwarder worker heartbeat ok (44ms)
+2026-02-05 09:34:52,086 WARNING log-forwarder thumbnail queue backlog 0 items
+2026-02-05 09:34:53,559 WARNING log-forwarder log shipping lag 230ms
+2026-02-05 09:34:57,165 WARNING log-forwarder log shipping lag 900ms
+2026-02-05 09:34:59,591 WARNING log-forwarder log shipping lag 920ms
+2026-02-05 09:35:00,287 INFO log-forwarder GET /v1/items 200 22ms req_id=530fa8a6
+2026-02-05 09:35:02,115 WARNING log-forwarder thumbnail queue backlog 0 items
+2026-02-05 09:35:04,110 WARNING log-forwarder log shipping lag 580ms
+2026-02-05 09:35:06,308 WARNING log-forwarder thumbnail queue backlog 0 items
+2026-02-05 09:35:08,591 WARNING log-forwarder thumbnail queue backlog 0 items
+2026-02-05 09:35:10,800 WARNING log-forwarder thumbnail queue backlog 0 items
+2026-02-05 09:35:13,106 WARNING log-forwarder thumbnail queue backlog 0 items
+2026-02-05 09:35:13,412 INFO log-forwarder worker heartbeat ok (85ms)
+2026-02-05 09:35:14,595 WARNING log-forwarder log shipping lag 420ms
+2026-02-05 09:35:16,895 WARNING log-forwarder thumbnail queue backlog 0 items
+2026-02-05 09:35:18,841 WARNING log-forwarder thumbnail queue backlog 0 items
+2026-02-05 09:35:21,977 WARNING log-forwarder thumbnail queue backlog 0 items
+2026-02-05 09:35:24,563 INFO log-forwarder worker heartbeat ok (85ms)
+2026-02-05 09:35:24,660 WARNING log-forwarder log shipping lag 350ms
+2026-02-05 09:35:26,997 WARNING log-forwarder log shipping lag 240ms
+2026-02-05 09:35:29,118 WARNING log-forwarder log shipping lag 300ms
+2026-02-05 09:35:31,232 WARNING log-forwarder log shipping lag 460ms
+2026-02-05 09:35:33,559 INFO log-forwarder GET /v1/items 200 36ms req_id=6721df7c
+2026-02-05 09:35:34,767 WARNING log-forwarder log shipping lag 780ms
+2026-02-05 09:35:37,067 WARNING log-forwarder thumbnail queue backlog 0 items
+2026-02-05 09:35:39,865 WARNING log-forwarder log shipping lag 950ms
+2026-02-05 09:35:42,317 WARNING log-forwarder log shipping lag 260ms
+2026-02-05 09:35:45,875 WARNING log-forwarder thumbnail queue backlog 0 items
+2026-02-05 09:35:46,574 INFO log-forwarder GET /v1/items 200 14ms req_id=92f6983b
+2026-02-05 09:35:48,404 WARNING log-forwarder thumbnail queue backlog 0 items
+2026-02-05 09:35:51,710 WARNING log-forwarder thumbnail queue backlog 0 items
+2026-02-05 09:35:54,660 WARNING log-forwarder thumbnail queue backlog 0 items
+2026-02-05 09:35:56,257 INFO log-forwarder worker heartbeat ok (26ms)
+2026-02-05 09:35:57,547 WARNING log-forwarder log shipping lag 830ms
+2026-02-05 09:36:01,104 WARNING log-forwarder log shipping lag 640ms
+2026-02-05 09:36:03,701 WARNING log-forwarder thumbnail queue backlog 0 items
+2026-02-05 09:36:07,390 INFO log-forwarder worker heartbeat ok (40ms)
+2026-02-05 09:36:07,881 WARNING log-forwarder thumbnail queue backlog 0 items

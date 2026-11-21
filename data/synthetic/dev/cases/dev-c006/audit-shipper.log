@@ -1,0 +1,294 @@
+2026-02-14T13:37:57Z INFO audit-shipper health check passed in 39ms
+2026-02-14T13:38:03Z WARN audit-shipper queue lag 0 messages on topic events
+2026-02-14T13:38:05Z INFO audit-shipper request completed in 84ms status=200 rid=996330bd
+2026-02-14T13:38:06Z WARN audit-shipper metrics push delayed 72ms (buffer 80%)
+2026-02-14T13:38:08Z WARN audit-shipper queue lag 0 messages on topic events
+2026-02-14T13:38:10Z WARN audit-shipper queue lag 0 messages on topic events
+2026-02-14T13:38:12Z INFO audit-shipper request completed in 90ms status=200 rid=94af9ab6
+2026-02-14T13:38:13Z WARN audit-shipper queue lag 0 messages on topic events
+2026-02-14T13:38:15Z WARN audit-shipper queue lag 0 messages on topic events
+2026-02-14T13:38:17Z WARN audit-shipper queue lag 0 messages on topic events
+2026-02-14T13:38:20Z WARN audit-shipper queue lag 0 messages on topic events
+2026-02-14T13:38:21Z INFO audit-shipper health check passed in 22ms
+2026-02-14T13:38:24Z WARN audit-shipper queue lag 0 messages on topic events
+2026-02-14T13:38:26Z WARN audit-shipper queue lag 0 messages on topic events
+2026-02-14T13:38:29Z WARN audit-shipper metrics push delayed 65ms (buffer 80%)
+2026-02-14T13:38:30Z WARN audit-shipper queue lag 0 messages on topic events
+2026-02-14T13:38:33Z INFO audit-shipper health check passed in 84ms
+2026-02-14T13:38:33Z WARN audit-shipper queue lag 0 messages on topic events
+2026-02-14T13:38:37Z WARN audit-shipper queue lag 0 messages on topic events
+2026-02-14T13:38:40Z WARN audit-shipper metrics push delayed 25ms (buffer 80%)
+2026-02-14T13:38:42Z WARN audit-shipper metrics push delayed 49ms (buffer 80%)
+2026-02-14T13:38:44Z WARN audit-shipper metrics push delayed 44ms (buffer 80%)
+2026-02-14T13:38:47Z INFO audit-shipper request completed in 94ms status=200 rid=73ee9908
+2026-02-14T13:38:47Z WARN audit-shipper metrics push delayed 53ms (buffer 80%)
+2026-02-14T13:38:50Z WARN audit-shipper metrics push delayed 24ms (buffer 80%)
+2026-02-14T13:38:53Z WARN audit-shipper queue lag 0 messages on topic events
+2026-02-14T13:38:56Z WARN audit-shipper queue lag 0 messages on topic events
+2026-02-14T13:38:57Z INFO audit-shipper health check passed in 13ms
+2026-02-14T13:39:00Z WARN audit-shipper queue lag 0 messages on topic events
+2026-02-14T13:39:02Z WARN audit-shipper metrics push delayed 12ms (buffer 80%)
+2026-02-14T13:39:04Z INFO audit-shipper request completed in 47ms status=200 rid=65287cbb
+2026-02-14T13:39:04Z WARN audit-shipper metrics push delayed 80ms (buffer 80%)
+2026-02-14T13:39:07Z WARN audit-shipper metrics push delayed 10ms (buffer 80%)
+2026-02-14T13:39:10Z WARN audit-shipper metrics push delayed 86ms (buffer 80%)
+2026-02-14T13:39:12Z INFO audit-shipper health check passed in 72ms
+2026-02-14T13:39:13Z WARN audit-shipper metrics push delayed 80ms (buffer 80%)
+2026-02-14T13:39:17Z WARN audit-shipper metrics push delayed 91ms (buffer 80%)
+2026-02-14T13:39:18Z INFO audit-shipper request completed in 75ms status=200 rid=7d7a353a
+2026-02-14T13:39:18Z WARN audit-shipper metrics push delayed 50ms (buffer 80%)
+2026-02-14T13:39:21Z WARN audit-shipper queue lag 0 messages on topic events
+2026-02-14T13:39:23Z WARN audit-shipper queue lag 0 messages on topic events
+2026-02-14T13:39:27Z WARN audit-shipper metrics push delayed 87ms (buffer 80%)
+2026-02-14T13:39:28Z WARN audit-shipper metrics push delayed 41ms (buffer 80%)
+2026-02-14T13:39:30Z INFO audit-shipper request completed in 56ms status=200 rid=b08104b1
+2026-02-14T13:39:31Z WARN audit-shipper metrics push delayed 80ms (buffer 80%)
+2026-02-14T13:39:33Z WARN audit-shipper metrics push delayed 31ms (buffer 80%)
+2026-02-14T13:39:36Z WARN audit-shipper queue lag 0 messages on topic events
+2026-02-14T13:39:38Z WARN audit-shipper queue lag 0 messages on topic events
+2026-02-14T13:39:40Z WARN audit-shipper queue lag 0 messages on topic events
+2026-02-14T13:39:42Z INFO audit-shipper health check passed in 72ms
+2026-02-14T13:39:42Z WARN audit-shipper metrics push delayed 48ms (buffer 80%)
+2026-02-14T13:39:44Z WARN audit-shipper metrics push delayed 19ms (buffer 80%)
+2026-02-14T13:39:46Z WARN audit-shipper metrics push delayed 30ms (buffer 80%)
+2026-02-14T13:39:49Z WARN audit-shipper metrics push delayed 93ms (buffer 80%)
+2026-02-14T13:39:51Z INFO audit-shipper health check passed in 44ms
+2026-02-14T13:39:52Z WARN audit-shipper metrics push delayed 32ms (buffer 80%)
+2026-02-14T13:39:55Z WARN audit-shipper metrics push delayed 84ms (buffer 80%)
+2026-02-14T13:39:57Z WARN audit-shipper metrics push delayed 42ms (buffer 80%)
+2026-02-14T13:39:59Z WARN audit-shipper metrics push delayed 23ms (buffer 80%)
+2026-02-14T13:40:02Z INFO audit-shipper request completed in 60ms status=200 rid=bb9fb92a
+2026-02-14T13:40:02Z WARN audit-shipper queue lag 0 messages on topic events
+2026-02-14T13:40:04Z WARN audit-shipper metrics push delayed 23ms (buffer 80%)
+2026-02-14T13:40:06Z WARN audit-shipper queue lag 0 messages on topic events
+2026-02-14T13:40:08Z INFO audit-shipper request completed in 93ms status=200 rid=86d8e1dd
+2026-02-14T13:40:08Z WARN audit-shipper metrics push delayed 42ms (buffer 80%)
+2026-02-14T13:40:11Z WARN audit-shipper metrics push delayed 21ms (buffer 80%)
+2026-02-14T13:40:14Z WARN audit-shipper metrics push delayed 27ms (buffer 80%)
+2026-02-14T13:40:16Z INFO audit-shipper request completed in 51ms status=200 rid=53dcbe68
+2026-02-14T13:40:16Z WARN audit-shipper queue lag 0 messages on topic events
+2026-02-14T13:40:19Z WARN audit-shipper metrics push delayed 19ms (buffer 80%)
+2026-02-14T13:40:23Z WARN audit-shipper queue lag 0 messages on topic events
+2026-02-14T13:40:25Z WARN audit-shipper metrics push delayed 80ms (buffer 80%)
+2026-02-14T13:40:27Z INFO audit-shipper request completed in 34ms status=200 rid=41b92f50
+2026-02-14T13:40:28Z WARN audit-shipper metrics push delayed 10ms (buffer 80%)
+2026-02-14T13:40:30Z WARN audit-shipper metrics push delayed 48ms (buffer 80%)
+2026-02-14T13:40:32Z WARN audit-shipper queue lag 0 messages on topic events
+2026-02-14T13:40:34Z WARN audit-shipper metrics push delayed 13ms (buffer 80%)
+2026-02-14T13:40:38Z WARN audit-shipper queue lag 0 messages on topic events
+2026-02-14T13:40:40Z WARN audit-shipper metrics push delayed 17ms (buffer 80%)
+2026-02-14T13:40:41Z INFO audit-shipper request completed in 69ms status=200 rid=9312e5e6
+2026-02-14T13:40:41Z WARN audit-shipper queue lag 0 messages on topic events
+2026-02-14T13:40:44Z WARN audit-shipper metrics push delayed 18ms (buffer 80%)
+2026-02-14T13:40:46Z WARN audit-shipper queue lag 0 messages on topic events
+2026-02-14T13:40:49Z WARN audit-shipper metrics push delayed 85ms (buffer 80%)
+2026-02-14T13:40:51Z WARN audit-shipper metrics push delayed 64ms (buffer 80%)
+2026-02-14T13:40:53Z INFO audit-shipper request completed in 56ms status=200 rid=c66f65cf
+2026-02-14T13:40:53Z WARN audit-shipper metrics push delayed 9ms (buffer 80%)
+2026-02-14T13:40:55Z WARN audit-shipper queue lag 0 messages on topic events
+2026-02-14T13:40:57Z WARN audit-shipper metrics push delayed 33ms (buffer 80%)
+2026-02-14T13:40:59Z INFO audit-shipper health check passed in 41ms
+2026-02-14T13:41:00Z WARN audit-shipper metrics push delayed 27ms (buffer 80%)
+2026-02-14T13:41:03Z WARN audit-shipper queue lag 0 messages on topic events
+2026-02-14T13:41:06Z WARN audit-shipper queue lag 0 messages on topic events
+2026-02-14T13:41:08Z WARN audit-shipper metrics push delayed 52ms (buffer 80%)
+2026-02-14T13:41:11Z WARN audit-shipper metrics push delayed 46ms (buffer 80%)
+2026-02-14T13:41:12Z INFO audit-shipper health check passed in 56ms
+2026-02-14T13:41:12Z WARN audit-shipper queue lag 0 messages on topic events
+2026-02-14T13:41:15Z WARN audit-shipper metrics push delayed 11ms (buffer 80%)
+2026-02-14T13:41:18Z WARN audit-shipper queue lag 0 messages on topic events
+2026-02-14T13:41:21Z WARN audit-shipper metrics push delayed 54ms (buffer 80%)
+2026-02-14T13:41:23Z WARN audit-shipper metrics push delayed 18ms (buffer 80%)
+2026-02-14T13:41:25Z INFO audit-shipper health check passed in 50ms
+2026-02-14T13:41:25Z WARN audit-shipper metrics push delayed 52ms (buffer 80%)
+2026-02-14T13:41:28Z WARN audit-shipper metrics push delayed 84ms (buffer 80%)
+2026-02-14T13:41:30Z WARN audit-shipper queue lag 0 messages on topic events
+2026-02-14T13:41:32Z WARN audit-shipper metrics push delayed 62ms (buffer 80%)
+2026-02-14T13:41:33Z INFO audit-shipper request completed in 56ms status=200 rid=f4a50ae8
+2026-02-14T13:41:34Z WARN audit-shipper metrics push delayed 66ms (buffer 80%)
+2026-02-14T13:41:37Z WARN audit-shipper queue lag 0 messages on topic events
+2026-02-14T13:41:39Z INFO audit-shipper request completed in 39ms status=200 rid=eb55d040
+2026-02-14T13:41:40Z WARN audit-shipper queue lag 0 messages on topic events
+2026-02-14T13:41:43Z WARN audit-shipper metrics push delayed 26ms (buffer 80%)
+2026-02-14T13:41:45Z WARN audit-shipper queue lag 0 messages on topic events
+2026-02-14T13:41:48Z WARN audit-shipper queue lag 0 messages on topic events
+2026-02-14T13:41:51Z WARN audit-shipper metrics push delayed 75ms (buffer 80%)
+2026-02-14T13:41:52Z INFO audit-shipper request completed in 65ms status=200 rid=6dde1156
+2026-02-14T13:41:54Z WARN audit-shipper queue lag 0 messages on topic events
+2026-02-14T13:41:57Z WARN audit-shipper queue lag 0 messages on topic events
+2026-02-14T13:41:59Z WARN audit-shipper queue lag 0 messages on topic events
+2026-02-14T13:42:00Z INFO audit-shipper health check passed in 20ms
+2026-02-14T13:42:02Z WARN audit-shipper queue lag 0 messages on topic events
+2026-02-14T13:42:05Z WARN audit-shipper queue lag 0 messages on topic events
+2026-02-14T13:42:07Z INFO audit-shipper health check passed in 20ms
+2026-02-14T13:42:07Z WARN audit-shipper queue lag 0 messages on topic events
+2026-02-14T13:42:10Z WARN audit-shipper queue lag 0 messages on topic events
+2026-02-14T13:42:12Z WARN audit-shipper queue lag 0 messages on topic events
+2026-02-14T13:42:13Z INFO audit-shipper request completed in 15ms status=200 rid=87c93aba
+2026-02-14T13:42:15Z WARN audit-shipper metrics push delayed 28ms (buffer 80%)
+2026-02-14T13:42:18Z WARN audit-shipper queue lag 0 messages on topic events
+2026-02-14T13:42:22Z WARN audit-shipper metrics push delayed 37ms (buffer 80%)
+2026-02-14T13:42:24Z INFO audit-shipper health check passed in 9ms
+2026-02-14T13:42:25Z WARN audit-shipper metrics push delayed 52ms (buffer 80%)
+2026-02-14T13:42:28Z WARN audit-shipper queue lag 0 messages on topic events
+2026-02-14T13:42:30Z WARN audit-shipper metrics push delayed 51ms (buffer 80%)
+2026-02-14T13:42:33Z WARN audit-shipper queue lag 0 messages on topic events
+2026-02-14T13:42:35Z WARN audit-shipper metrics push delayed 29ms (buffer 80%)
+2026-02-14T13:42:36Z INFO audit-shipper health check passed in 73ms
+2026-02-14T13:42:37Z WARN audit-shipper queue lag 0 messages on topic events
+2026-02-14T13:42:41Z WARN audit-shipper metrics push delayed 52ms (buffer 80%)
+2026-02-14T13:42:43Z WARN audit-shipper metrics push delayed 14ms (buffer 80%)
+2026-02-14T13:42:46Z INFO audit-shipper request completed in 24ms status=200 rid=f1d82a66
+2026-02-14T13:42:46Z WARN audit-shipper metrics push delayed 64ms (buffer 80%)
+2026-02-14T13:42:49Z WARN audit-shipper queue lag 0 messages on topic events
+2026-02-14T13:42:51Z WARN audit-shipper metrics push delayed 87ms (buffer 80%)
+2026-02-14T13:42:52Z INFO audit-shipper request completed in 8ms status=200 rid=d9148aec
+2026-02-14T13:42:53Z WARN audit-shipper metrics push delayed 64ms (buffer 80%)
+2026-02-14T13:42:56Z WARN audit-shipper metrics push delayed 93ms (buffer 80%)
+2026-02-14T13:42:59Z WARN audit-shipper metrics push delayed 8ms (buffer 80%)
+2026-02-14T13:43:01Z INFO audit-shipper request completed in 88ms status=200 rid=5ef6713a
+2026-02-14T13:43:01Z WARN audit-shipper metrics push delayed 65ms (buffer 80%)
+2026-02-14T13:43:04Z WARN audit-shipper metrics push delayed 65ms (buffer 80%)
+2026-02-14T13:43:06Z WARN audit-shipper queue lag 0 messages on topic events
+2026-02-14T13:43:09Z WARN audit-shipper metrics push delayed 62ms (buffer 80%)
+2026-02-14T13:43:10Z INFO audit-shipper health check passed in 36ms
+2026-02-14T13:43:11Z WARN audit-shipper queue lag 0 messages on topic events
+2026-02-14T13:43:13Z WARN audit-shipper queue lag 0 messages on topic events
+2026-02-14T13:43:15Z WARN audit-shipper metrics push delayed 8ms (buffer 80%)
+2026-02-14T13:43:18Z INFO audit-shipper health check passed in 81ms
+2026-02-14T13:43:19Z WARN audit-shipper metrics push delayed 9ms (buffer 80%)
+2026-02-14T13:43:21Z WARN audit-shipper metrics push delayed 15ms (buffer 80%)
+2026-02-14T13:43:23Z WARN audit-shipper queue lag 0 messages on topic events
+2026-02-14T13:43:26Z INFO audit-shipper request completed in 37ms status=200 rid=32f715c3
+2026-02-14T13:43:26Z WARN audit-shipper queue lag 0 messages on topic events
+2026-02-14T13:43:29Z WARN audit-shipper queue lag 0 messages on topic events
+2026-02-14T13:43:32Z WARN audit-shipper queue lag 0 messages on topic events
+2026-02-14T13:43:35Z WARN audit-shipper metrics push delayed 66ms (buffer 80%)
+2026-02-14T13:43:37Z INFO audit-shipper health check passed in 26ms
+2026-02-14T13:43:37Z WARN audit-shipper metrics push delayed 87ms (buffer 80%)
+2026-02-14T13:43:39Z WARN audit-shipper metrics push delayed 59ms (buffer 80%)
+2026-02-14T13:43:42Z WARN audit-shipper metrics push delayed 74ms (buffer 80%)
+2026-02-14T13:43:45Z WARN audit-shipper queue lag 0 messages on topic events
+2026-02-14T13:43:48Z WARN audit-shipper queue lag 0 messages on topic events
+2026-02-14T13:43:50Z INFO audit-shipper health check passed in 89ms
+2026-02-14T13:43:51Z WARN audit-shipper queue lag 0 messages on topic events
+2026-02-14T13:43:53Z WARN audit-shipper metrics push delayed 75ms (buffer 80%)
+2026-02-14T13:43:55Z WARN audit-shipper queue lag 0 messages on topic events
+2026-02-14T13:43:58Z WARN audit-shipper metrics push delayed 76ms (buffer 80%)
+2026-02-14T13:43:59Z WARN audit-shipper queue lag 0 messages on topic events
+2026-02-14T13:44:01Z INFO audit-shipper request completed in 94ms status=200 rid=45fda452
+2026-02-14T13:44:02Z WARN audit-shipper queue lag 0 messages on topic events
+2026-02-14T13:44:05Z WARN audit-shipper metrics push delayed 47ms (buffer 80%)
+2026-02-14T13:44:07Z WARN audit-shipper metrics push delayed 60ms (buffer 80%)
+2026-02-14T13:44:09Z INFO audit-shipper request completed in 75ms status=200 rid=75a93c4b
+2026-02-14T13:44:09Z WARN audit-shipper queue lag 0 messages on topic events
+2026-02-14T13:44:11Z WARN audit-shipper metrics push delayed 72ms (buffer 80%)
+2026-02-14T13:44:13Z WARN audit-shipper queue lag 0 messages on topic events
+2026-02-14T13:44:16Z WARN audit-shipper queue lag 0 messages on topic events
+2026-02-14T13:44:17Z INFO audit-shipper health check passed in 24ms
+2026-02-14T13:44:18Z WARN audit-shipper metrics push delayed 38ms (buffer 80%)
+2026-02-14T13:44:20Z WARN audit-shipper queue lag 0 messages on topic events
+2026-02-14T13:44:23Z WARN audit-shipper queue lag 0 messages on topic events
+2026-02-14T13:44:26Z WARN audit-shipper metrics push delayed 54ms (buffer 80%)
+2026-02-14T13:44:29Z INFO audit-shipper request completed in 15ms status=200 rid=e9feb6db
+2026-02-14T13:44:29Z WARN audit-shipper queue lag 0 messages on topic events
+2026-02-14T13:44:33Z WARN audit-shipper queue lag 0 messages on topic events
+2026-02-14T13:44:35Z WARN audit-shipper queue lag 0 messages on topic events
+2026-02-14T13:44:36Z INFO audit-shipper health check passed in 77ms
+2026-02-14T13:44:38Z WARN audit-shipper metrics push delayed 62ms (buffer 80%)
+2026-02-14T13:44:40Z WARN audit-shipper queue lag 0 messages on topic events
+2026-02-14T13:44:44Z INFO audit-shipper request completed in 70ms status=200 rid=aa84b2d3
+2026-02-14T13:44:44Z WARN audit-shipper metrics push delayed 85ms (buffer 80%)
+2026-02-14T13:44:46Z WARN audit-shipper metrics push delayed 34ms (buffer 80%)
+2026-02-14T13:44:49Z WARN audit-shipper queue lag 0 messages on topic events
+2026-02-14T13:44:51Z WARN audit-shipper metrics push delayed 56ms (buffer 80%)
+2026-02-14T13:44:54Z INFO audit-shipper request completed in 46ms status=200 rid=30a8b382
+2026-02-14T13:44:54Z WARN audit-shipper queue lag 0 messages on topic events
+2026-02-14T13:44:56Z WARN audit-shipper metrics push delayed 62ms (buffer 80%)
+2026-02-14T13:44:59Z WARN audit-shipper queue lag 0 messages on topic events
+2026-02-14T13:45:01Z WARN audit-shipper queue lag 0 messages on topic events
+2026-02-14T13:45:03Z WARN audit-shipper metrics push delayed 30ms (buffer 80%)
+2026-02-14T13:45:05Z INFO audit-shipper request completed in 52ms status=200 rid=64822955
+2026-02-14T13:45:05Z WARN audit-shipper metrics push delayed 18ms (buffer 80%)
+2026-02-14T13:45:09Z WARN audit-shipper queue lag 0 messages on topic events
+2026-02-14T13:45:11Z WARN audit-shipper metrics push delayed 36ms (buffer 80%)
+2026-02-14T13:45:13Z WARN audit-shipper metrics push delayed 86ms (buffer 80%)
+2026-02-14T13:45:16Z WARN audit-shipper metrics push delayed 80ms (buffer 80%)
+2026-02-14T13:45:19Z INFO audit-shipper health check passed in 90ms
+2026-02-14T13:45:19Z WARN audit-shipper queue lag 0 messages on topic events
+2026-02-14T13:45:21Z WARN audit-shipper metrics push delayed 51ms (buffer 80%)
+2026-02-14T13:45:23Z WARN audit-shipper metrics push delayed 85ms (buffer 80%)
+2026-02-14T13:45:25Z WARN audit-shipper metrics push delayed 55ms (buffer 80%)
+2026-02-14T13:45:27Z INFO audit-shipper request completed in 63ms status=200 rid=a52a3660
+2026-02-14T13:45:27Z WARN audit-shipper queue lag 0 messages on topic events
+2026-02-14T13:45:30Z WARN audit-shipper queue lag 0 messages on topic events
+2026-02-14T13:45:33Z WARN audit-shipper queue lag 0 messages on topic events
+2026-02-14T13:45:34Z WARN audit-shipper metrics push delayed 60ms (buffer 80%)
+2026-02-14T13:45:37Z WARN audit-shipper queue lag 0 messages on topic events
+2026-02-14T13:45:39Z INFO audit-shipper health check passed in 42ms
+2026-02-14T13:45:39Z WARN audit-shipper queue lag 0 messages on topic events
+2026-02-14T13:45:42Z WARN audit-shipper queue lag 0 messages on topic events
+2026-02-14T13:45:44Z WARN audit-shipper queue lag 0 messages on topic events
+2026-02-14T13:45:46Z WARN audit-shipper queue lag 0 messages on topic events
+2026-02-14T13:45:49Z INFO audit-shipper request completed in 92ms status=200 rid=9b998434
+2026-02-14T13:45:49Z WARN audit-shipper queue lag 0 messages on topic events
+2026-02-14T13:45:52Z WARN audit-shipper metrics push delayed 94ms (buffer 80%)
+2026-02-14T13:45:55Z WARN audit-shipper queue lag 0 messages on topic events
+2026-02-14T13:45:56Z INFO audit-shipper request completed in 15ms status=200 rid=15001d29
+2026-02-14T13:45:57Z WARN audit-shipper metrics push delayed 43ms (buffer 80%)
+2026-02-14T13:46:00Z WARN audit-shipper metrics push delayed 10ms (buffer 80%)
+2026-02-14T13:46:02Z WARN audit-shipper queue lag 0 messages on topic events
+2026-02-14T13:46:06Z WARN audit-shipper metrics push delayed 85ms (buffer 80%)
+2026-02-14T13:46:08Z INFO audit-shipper health check passed in 24ms
+2026-02-14T13:46:09Z WARN audit-shipper metrics push delayed 95ms (buffer 80%)
+2026-02-14T13:46:11Z WARN audit-shipper metrics push delayed 19ms (buffer 80%)
+2026-02-14T13:46:14Z INFO audit-shipper request completed in 54ms status=200 rid=50304399
+2026-02-14T13:46:14Z WARN audit-shipper metrics push delayed 21ms (buffer 80%)
+2026-02-14T13:46:16Z WARN audit-shipper queue lag 0 messages on topic events
+2026-02-14T13:46:19Z WARN audit-shipper metrics push delayed 84ms (buffer 80%)
+2026-02-14T13:46:21Z WARN audit-shipper metrics push delayed 63ms (buffer 80%)
+2026-02-14T13:46:24Z WARN audit-shipper queue lag 0 messages on topic events
+2026-02-14T13:46:25Z INFO audit-shipper health check passed in 54ms
+2026-02-14T13:46:27Z WARN audit-shipper queue lag 0 messages on topic events
+2026-02-14T13:46:30Z WARN audit-shipper queue lag 0 messages on topic events
+2026-02-14T13:46:33Z WARN audit-shipper queue lag 0 messages on topic events
+2026-02-14T13:46:36Z INFO audit-shipper request completed in 73ms status=200 rid=8ad37b02
+2026-02-14T13:46:36Z WARN audit-shipper metrics push delayed 17ms (buffer 80%)
+2026-02-14T13:46:39Z WARN audit-shipper metrics push delayed 61ms (buffer 80%)
+2026-02-14T13:46:42Z WARN audit-shipper queue lag 0 messages on topic events
+2026-02-14T13:46:45Z WARN audit-shipper metrics push delayed 8ms (buffer 80%)
+2026-02-14T13:46:46Z INFO audit-shipper request completed in 63ms status=200 rid=cc686339
+2026-02-14T13:46:47Z WARN audit-shipper GC pause 37ms (young gen)
+2026-02-14T13:46:48Z WARN audit-shipper queue lag 0 messages on topic events
+2026-02-14T13:46:50Z WARN audit-shipper metrics push delayed 15ms (buffer 80%)
+2026-02-14T13:46:53Z WARN audit-shipper metrics push delayed 91ms (buffer 80%)
+2026-02-14T13:46:56Z WARN audit-shipper metrics push delayed 72ms (buffer 80%)
+2026-02-14T13:46:57Z WARN audit-shipper queue lag 0 messages on topic events
+2026-02-14T13:46:59Z INFO audit-shipper request completed in 55ms status=200 rid=10ba9912
+2026-02-14T13:47:00Z WARN audit-shipper metrics push delayed 50ms (buffer 80%)
+2026-02-14T13:47:03Z WARN audit-shipper queue lag 0 messages on topic events
+2026-02-14T13:47:06Z WARN audit-shipper metrics push delayed 23ms (buffer 80%)
+2026-02-14T13:47:07Z INFO audit-shipper health check passed in 93ms
+2026-02-14T13:47:08Z WARN audit-shipper metrics push delayed 63ms (buffer 80%)
+2026-02-14T13:47:11Z WARN audit-shipper metrics push delayed 87ms (buffer 80%)
+2026-02-14T13:47:14Z WARN audit-shipper metrics push delayed 63ms (buffer 80%)
+2026-02-14T13:47:16Z WARN audit-shipper metrics push delayed 24ms (buffer 80%)
+2026-02-14T13:47:17Z INFO audit-shipper request completed in 88ms status=200 rid=ea487da3
+2026-02-14T13:47:18Z WARN audit-shipper metrics push delayed 52ms (buffer 80%)
+2026-02-14T13:47:20Z WARN audit-shipper metrics push delayed 68ms (buffer 80%)
+2026-02-14T13:47:22Z WARN audit-shipper queue lag 0 messages on topic events
+2026-02-14T13:47:24Z INFO audit-shipper request completed in 51ms status=200 rid=f957a8f4
+2026-02-14T13:47:25Z WARN audit-shipper queue lag 0 messages on topic events
+2026-02-14T13:47:27Z WARN audit-shipper metrics push delayed 55ms (buffer 80%)
+2026-02-14T13:47:30Z WARN audit-shipper metrics push delayed 64ms (buffer 80%)
+2026-02-14T13:47:33Z WARN audit-shipper queue lag 0 messages on topic events
+2026-02-14T13:47:35Z WARN audit-shipper metrics push delayed 32ms (buffer 80%)
+2026-02-14T13:47:36Z INFO audit-shipper request completed in 40ms status=200 rid=c435029c
+2026-02-14T13:47:37Z WARN audit-shipper queue lag 0 messages on topic events
+2026-02-14T13:47:40Z WARN audit-shipper queue lag 0 messages on topic events
+2026-02-14T13:47:43Z WARN audit-shipper queue lag 0 messages on topic events
+2026-02-14T13:47:45Z WARN audit-shipper metrics push delayed 12ms (buffer 80%)
+2026-02-14T13:47:46Z INFO audit-shipper health check passed in 59ms
+2026-02-14T13:47:46Z WARN audit-shipper queue lag 0 messages on topic events
+2026-02-14T13:47:48Z WARN audit-shipper queue lag 0 messages on topic events
+2026-02-14T13:47:51Z WARN audit-shipper queue lag 0 messages on topic events

@@ -1,0 +1,24 @@
+{
+  "schema_version": "1",
+  "case_id": "test-c005",
+  "split": "test",
+  "incident": {
+    "id": "INC-001",
+    "rule_id": "entry-5xx",
+    "description": "Entry service returned 5xx errors to clients",
+    "ts": "2026-01-30T09:17:15.911000Z",
+    "trigger_uid": "edge-proxy.log:35",
+    "trigger_component": "edge-proxy"
+  },
+  "log_files": [
+    "asset-store.log",
+    "blob-db.log",
+    "catalog-api.log",
+    "edge-proxy.log",
+    "log-forwarder.log",
+    "profile-db.log",
+    "search-index.log",
+    "thumbnailer.log",
+    "user-api.log"
+  ]
+}

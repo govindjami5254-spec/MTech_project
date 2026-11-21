@@ -1,0 +1,64 @@
+2026-01-22T12:25:19Z INFO seat-svc tick ok elapsed_ms=13
+2026-01-22T12:25:31Z INFO seat-svc http request method=GET status=200 latency_ms=39 span=89e489c9
+2026-01-22T12:25:43Z INFO seat-svc tick ok elapsed_ms=89
+2026-01-22T12:25:54Z INFO seat-svc http request method=GET status=200 latency_ms=49 span=86ef67e6
+2026-01-22T12:26:06Z INFO seat-svc tick ok elapsed_ms=34
+2026-01-22T12:26:18Z INFO seat-svc tick ok elapsed_ms=9
+2026-01-22T12:26:27Z INFO seat-svc tick ok elapsed_ms=29
+2026-01-22T12:26:37Z INFO seat-svc http request method=GET status=200 latency_ms=75 span=df930d04
+2026-01-22T12:26:46Z INFO seat-svc http request method=GET status=200 latency_ms=63 span=4a9ec7f0
+2026-01-22T12:26:57Z INFO seat-svc tick ok elapsed_ms=53
+2026-01-22T12:27:03Z INFO seat-svc tick ok elapsed_ms=16
+2026-01-22T12:27:15Z INFO seat-svc tick ok elapsed_ms=55
+2026-01-22T12:27:24Z INFO seat-svc http request method=GET status=200 latency_ms=95 span=fabffadb
+2026-01-22T12:27:34Z INFO seat-svc http request method=GET status=200 latency_ms=66 span=61e87215
+2026-01-22T12:27:48Z INFO seat-svc http request method=GET status=200 latency_ms=74 span=1c45c4dd
+2026-01-22T12:28:00Z INFO seat-svc http request method=GET status=200 latency_ms=38 span=a736b9e8
+2026-01-22T12:28:12Z INFO seat-svc http request method=GET status=200 latency_ms=22 span=2ef9b47b
+2026-01-22T12:28:23Z INFO seat-svc http request method=GET status=200 latency_ms=57 span=9b4d8da5
+2026-01-22T12:28:30Z INFO seat-svc http request method=GET status=200 latency_ms=84 span=1ae24e6b
+2026-01-22T12:28:38Z INFO seat-svc http request method=GET status=200 latency_ms=86 span=208420e7
+2026-01-22T12:28:50Z INFO seat-svc http request method=GET status=200 latency_ms=88 span=8ae74061
+2026-01-22T12:28:59Z INFO seat-svc http request method=GET status=200 latency_ms=45 span=113aec4b
+2026-01-22T12:29:12Z INFO seat-svc tick ok elapsed_ms=23
+2026-01-22T12:29:13Z WARN seat-svc client sent oversized header, truncated span=eba94449
+2026-01-22T12:29:20Z INFO seat-svc http request method=GET status=200 latency_ms=47 span=68f14609
+2026-01-22T12:29:30Z INFO seat-svc http request method=GET status=200 latency_ms=33 span=4326c07a
+2026-01-22T12:29:37Z INFO seat-svc http request method=GET status=200 latency_ms=55 span=44425748
+2026-01-22T12:29:50Z INFO seat-svc tick ok elapsed_ms=18
+2026-01-22T12:29:58Z INFO seat-svc tick ok elapsed_ms=62
+2026-01-22T12:30:07Z INFO seat-svc http request method=GET status=200 latency_ms=87 span=7339eba5
+2026-01-22T12:30:16Z INFO seat-svc http request method=GET status=200 latency_ms=27 span=81b21e6d
+2026-01-22T12:30:27Z INFO seat-svc http request method=GET status=200 latency_ms=70 span=f056ce0d
+2026-01-22T12:30:35Z INFO seat-svc tick ok elapsed_ms=64
+2026-01-22T12:30:42Z INFO seat-svc http request method=GET status=200 latency_ms=47 span=d844ee22
+2026-01-22T12:30:49Z INFO seat-svc tick ok elapsed_ms=50
+2026-01-22T12:30:50Z WARN seat-svc slow poll elapsed_ms=210
+2026-01-22T12:30:51Z ERR seat-svc hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to seat-db:5433 span=3a6b0db2
+2026-01-22T12:30:53Z WARN seat-svc tower retry: attempt 2 for seat-db
+2026-01-22T12:30:56Z ERR seat-svc request to seat-db exhausted retry budget
+2026-01-22T12:30:59Z INFO seat-svc tick ok elapsed_ms=61
+2026-01-22T12:31:12Z INFO seat-svc http request method=GET status=200 latency_ms=16 span=59398642
+2026-01-22T12:31:21Z INFO seat-svc tick ok elapsed_ms=77
+2026-01-22T12:31:28Z INFO seat-svc tick ok elapsed_ms=29
+2026-01-22T12:31:38Z INFO seat-svc tick ok elapsed_ms=49
+2026-01-22T12:31:51Z INFO seat-svc http request method=GET status=200 latency_ms=85 span=84872c34
+2026-01-22T12:32:03Z INFO seat-svc http request method=GET status=200 latency_ms=93 span=8b34baa2
+2026-01-22T12:32:17Z INFO seat-svc http request method=GET status=200 latency_ms=30 span=225739d8
+2026-01-22T12:32:26Z INFO seat-svc tick ok elapsed_ms=41
+2026-01-22T12:32:38Z INFO seat-svc http request method=GET status=200 latency_ms=73 span=fe7bb0b5
+2026-01-22T12:32:52Z INFO seat-svc http request method=GET status=200 latency_ms=67 span=3167a7a4
+2026-01-22T12:33:06Z INFO seat-svc tick ok elapsed_ms=56
+2026-01-22T12:33:15Z INFO seat-svc http request method=GET status=200 latency_ms=15 span=d810aca3
+2026-01-22T12:33:24Z INFO seat-svc http request method=GET status=200 latency_ms=18 span=cb8f5ffd
+2026-01-22T12:33:35Z INFO seat-svc http request method=GET status=200 latency_ms=37 span=48b986ac
+2026-01-22T12:33:46Z INFO seat-svc http request method=GET status=200 latency_ms=39 span=e798c729
+2026-01-22T12:33:53Z INFO seat-svc tick ok elapsed_ms=42
+2026-01-22T12:34:00Z INFO seat-svc http request method=GET status=200 latency_ms=73 span=66a625ae
+2026-01-22T12:34:06Z INFO seat-svc tick ok elapsed_ms=34
+2026-01-22T12:34:18Z INFO seat-svc tick ok elapsed_ms=52
+2026-01-22T12:34:29Z INFO seat-svc tick ok elapsed_ms=63
+2026-01-22T12:34:41Z INFO seat-svc tick ok elapsed_ms=63
+2026-01-22T12:34:55Z INFO seat-svc http request method=GET status=200 latency_ms=16 span=8f0f5fdd
+2026-01-22T12:35:04Z INFO seat-svc tick ok elapsed_ms=53
+2026-01-22T12:35:11Z INFO seat-svc http request method=GET status=200 latency_ms=11 span=ac0320e4

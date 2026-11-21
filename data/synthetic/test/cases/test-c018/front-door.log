@@ -1,0 +1,70 @@
+2026-02-07T15:48:17.907+05:30 info front-door served GET /api status=200 in 95ms trace=0c29eb38
+2026-02-07T15:48:23.928+05:30 info front-door served GET /api status=200 in 16ms trace=ae44bf58
+2026-02-07T15:48:31.903+05:30 info front-door served GET /api status=200 in 63ms trace=3fc7eac7
+2026-02-07T15:48:37.426+05:30 info front-door served GET /api status=200 in 22ms trace=8eec9f2a
+2026-02-07T15:48:44.826+05:30 info front-door served GET /api status=200 in 89ms trace=bf8982aa
+2026-02-07T15:48:52.586+05:30 info front-door event loop lag 50ms ok
+2026-02-07T15:48:58.079+05:30 info front-door event loop lag 92ms ok
+2026-02-07T15:49:07.437+05:30 info front-door event loop lag 54ms ok
+2026-02-07T15:49:14.941+05:30 info front-door served GET /api status=200 in 27ms trace=4ced4769
+2026-02-07T15:49:21.310+05:30 info front-door served GET /api status=200 in 86ms trace=535be628
+2026-02-07T15:49:32.555+05:30 info front-door event loop lag 41ms ok
+2026-02-07T15:49:39.525+05:30 info front-door event loop lag 52ms ok
+2026-02-07T15:49:46.711+05:30 info front-door served GET /api status=200 in 62ms trace=1afabee9
+2026-02-07T15:49:58.984+05:30 info front-door served GET /api status=200 in 94ms trace=8ebd87e8
+2026-02-07T15:50:04.264+05:30 info front-door event loop lag 89ms ok
+2026-02-07T15:50:18.510+05:30 info front-door event loop lag 9ms ok
+2026-02-07T15:50:29.441+05:30 info front-door event loop lag 95ms ok
+2026-02-07T15:50:39.903+05:30 info front-door event loop lag 83ms ok
+2026-02-07T15:50:48.126+05:30 info front-door event loop lag 16ms ok
+2026-02-07T15:50:55.716+05:30 info front-door event loop lag 90ms ok
+2026-02-07T15:51:07.682+05:30 info front-door served GET /api status=200 in 48ms trace=5c1a105b
+2026-02-07T15:51:17.192+05:30 info front-door served GET /api status=200 in 92ms trace=309272e4
+2026-02-07T15:51:23.151+05:30 info front-door served GET /api status=200 in 66ms trace=44870c05
+2026-02-07T15:51:37.622+05:30 info front-door served GET /api status=200 in 84ms trace=273c4498
+2026-02-07T15:51:50.857+05:30 info front-door served GET /api status=200 in 76ms trace=72422455
+2026-02-07T15:51:59.969+05:30 info front-door served GET /api status=200 in 13ms trace=5796b586
+2026-02-07T15:52:13.006+05:30 info front-door event loop lag 26ms ok
+2026-02-07T15:52:22.078+05:30 info front-door served GET /api status=200 in 92ms trace=b2d52d62
+2026-02-07T15:52:30.595+05:30 info front-door served GET /api status=200 in 79ms trace=fc743e4c
+2026-02-07T15:52:41.346+05:30 info front-door event loop lag 28ms ok
+2026-02-07T15:52:47.067+05:30 info front-door event loop lag 13ms ok
+2026-02-07T15:52:59.060+05:30 info front-door event loop lag 61ms ok
+2026-02-07T15:53:09.958+05:30 info front-door event loop lag 42ms ok
+2026-02-07T15:53:18.024+05:30 info front-door served GET /api status=200 in 54ms trace=e86162af
+2026-02-07T15:53:31.650+05:30 error front-door 503 Service Unavailable returned (payments-api down) trace=500eff16
+2026-02-07T15:53:32.154+05:30 info front-door served GET /api status=200 in 19ms trace=773f533f
+2026-02-07T15:53:34.884+05:30 error front-door 503 Service Unavailable returned (payments-api down) trace=3701ddfa
+2026-02-07T15:53:37.540+05:30 error front-door 503 Service Unavailable returned (payments-api down) trace=05843494
+2026-02-07T15:53:40.155+05:30 error front-door 503 Service Unavailable returned (payments-api down) trace=75fd1991
+2026-02-07T15:53:42.579+05:30 info front-door served GET /api status=200 in 49ms trace=52e6e257
+2026-02-07T15:53:43.640+05:30 error front-door 503 Service Unavailable returned (payments-api down) trace=65671e01
+2026-02-07T15:53:46.577+05:30 error front-door 503 Service Unavailable returned (payments-api down) trace=76fd7cfc
+2026-02-07T15:53:49.885+05:30 error front-door proxy error contacting payments-api; responded 502 trace=fc56eb4b
+2026-02-07T15:53:52.250+05:30 error front-door proxy error contacting payments-api; responded 502 trace=a6f88926
+2026-02-07T15:53:53.542+05:30 info front-door served GET /api status=200 in 18ms trace=a553e0ce
+2026-02-07T15:53:55.390+05:30 error front-door 503 Service Unavailable returned (payments-api down) trace=56aec7a3
+2026-02-07T15:54:03.528+05:30 info front-door served GET /api status=200 in 69ms trace=85f29d2a
+2026-02-07T15:54:15.001+05:30 info front-door event loop lag 33ms ok
+2026-02-07T15:54:28.249+05:30 info front-door event loop lag 89ms ok
+2026-02-07T15:54:35.884+05:30 info front-door event loop lag 80ms ok
+2026-02-07T15:54:47.469+05:30 info front-door event loop lag 92ms ok
+2026-02-07T15:54:58.198+05:30 info front-door served GET /api status=200 in 19ms trace=9e74de0e
+2026-02-07T15:55:12.017+05:30 info front-door served GET /api status=200 in 93ms trace=8e10bc6a
+2026-02-07T15:55:26.752+05:30 info front-door served GET /api status=200 in 91ms trace=0e0aa4df
+2026-02-07T15:55:39.649+05:30 info front-door event loop lag 10ms ok
+2026-02-07T15:55:46.873+05:30 info front-door served GET /api status=200 in 24ms trace=96bdc9a5
+2026-02-07T15:55:54.390+05:30 info front-door served GET /api status=200 in 59ms trace=3c06424c
+2026-02-07T15:56:03.753+05:30 info front-door served GET /api status=200 in 85ms trace=466e66b8
+2026-02-07T15:56:17.723+05:30 info front-door served GET /api status=200 in 80ms trace=ed838a08
+2026-02-07T15:56:29.173+05:30 info front-door served GET /api status=200 in 71ms trace=99bff26f
+2026-02-07T15:56:40.440+05:30 info front-door event loop lag 50ms ok
+2026-02-07T15:56:53.874+05:30 info front-door served GET /api status=200 in 25ms trace=38261725
+2026-02-07T15:57:05.184+05:30 info front-door served GET /api status=200 in 75ms trace=889af77b
+2026-02-07T15:57:16.190+05:30 info front-door event loop lag 53ms ok
+2026-02-07T15:57:22.288+05:30 info front-door served GET /api status=200 in 61ms trace=62af86ac
+2026-02-07T15:57:31.536+05:30 info front-door event loop lag 50ms ok
+2026-02-07T15:57:45.550+05:30 info front-door event loop lag 74ms ok
+2026-02-07T15:57:51.255+05:30 info front-door event loop lag 9ms ok
+2026-02-07T15:57:57.636+05:30 info front-door served GET /api status=200 in 21ms trace=f78ce3fc
+2026-02-07T15:58:10.160+05:30 info front-door event loop lag 22ms ok

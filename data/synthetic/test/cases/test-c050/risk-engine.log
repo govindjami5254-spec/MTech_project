@@ -1,0 +1,66 @@
+2026-01-07T17:42:51.315+05:30 info risk-engine served GET /api status=200 in 22ms trace=21b3dc86
+2026-01-07T17:43:00.751+05:30 info risk-engine served GET /api status=200 in 11ms trace=6cccd566
+2026-01-07T17:43:01.000+05:30 warn risk-engine event loop lag 900ms
+2026-01-07T17:43:12.398+05:30 info risk-engine served GET /api status=200 in 34ms trace=9cb0f3ac
+2026-01-07T17:43:18.866+05:30 info risk-engine served GET /api status=200 in 37ms trace=0c0bca3a
+2026-01-07T17:43:24.243+05:30 info risk-engine event loop lag 35ms ok
+2026-01-07T17:43:37.259+05:30 info risk-engine served GET /api status=200 in 14ms trace=67792f25
+2026-01-07T17:43:48.926+05:30 info risk-engine served GET /api status=200 in 33ms trace=008ee76b
+2026-01-07T17:43:55.819+05:30 info risk-engine event loop lag 87ms ok
+2026-01-07T17:44:03.281+05:30 info risk-engine served GET /api status=200 in 20ms trace=e5a3a57e
+2026-01-07T17:44:12.021+05:30 info risk-engine event loop lag 14ms ok
+2026-01-07T17:44:22.572+05:30 info risk-engine served GET /api status=200 in 18ms trace=5333fb3a
+2026-01-07T17:44:28.646+05:30 info risk-engine event loop lag 89ms ok
+2026-01-07T17:44:29.000+05:30 warn risk-engine event loop lag 530ms
+2026-01-07T17:44:36.993+05:30 info risk-engine event loop lag 66ms ok
+2026-01-07T17:44:48.279+05:30 info risk-engine event loop lag 71ms ok
+2026-01-07T17:44:58.426+05:30 info risk-engine event loop lag 78ms ok
+2026-01-07T17:45:04.207+05:30 info risk-engine served GET /api status=200 in 65ms trace=c92d0af7
+2026-01-07T17:45:16.866+05:30 info risk-engine served GET /api status=200 in 44ms trace=7ef7bf19
+2026-01-07T17:45:29.872+05:30 info risk-engine event loop lag 10ms ok
+2026-01-07T17:45:38.254+05:30 info risk-engine event loop lag 79ms ok
+2026-01-07T17:45:46.571+05:30 info risk-engine served GET /api status=200 in 16ms trace=343d299c
+2026-01-07T17:46:00.293+05:30 info risk-engine served GET /api status=200 in 39ms trace=d39e9ad9
+2026-01-07T17:46:06.053+05:30 info risk-engine event loop lag 21ms ok
+2026-01-07T17:46:17.300+05:30 info risk-engine served GET /api status=200 in 95ms trace=ffe0dfae
+2026-01-07T17:46:29.112+05:30 info risk-engine served GET /api status=200 in 53ms trace=d24ca01b
+2026-01-07T17:46:36.260+05:30 info risk-engine event loop lag 94ms ok
+2026-01-07T17:46:44.468+05:30 info risk-engine served GET /api status=200 in 15ms trace=616cd0b5
+2026-01-07T17:46:52.169+05:30 info risk-engine served GET /api status=200 in 72ms trace=288707b6
+2026-01-07T17:47:02.446+05:30 info risk-engine event loop lag 49ms ok
+2026-01-07T17:47:10.368+05:30 info risk-engine served GET /api status=200 in 11ms trace=c9ac0505
+2026-01-07T17:47:17.720+05:30 info risk-engine served GET /api status=200 in 74ms trace=e4308b67
+2026-01-07T17:47:30.214+05:30 info risk-engine event loop lag 91ms ok
+2026-01-07T17:47:42.614+05:30 info risk-engine served GET /api status=200 in 59ms trace=46e587f7
+2026-01-07T17:47:49.804+05:30 info risk-engine event loop lag 35ms ok
+2026-01-07T17:47:55.008+05:30 info risk-engine event loop lag 78ms ok
+2026-01-07T17:48:06.142+05:30 info risk-engine served GET /api status=200 in 87ms trace=a1242398
+2026-01-07T17:48:14.525+05:30 info risk-engine served GET /api status=200 in 10ms trace=ee14d7c3
+2026-01-07T17:48:23.570+05:30 info risk-engine served GET /api status=200 in 15ms trace=8cfe2b0e
+2026-01-07T17:48:29.111+05:30 info risk-engine event loop lag 52ms ok
+2026-01-07T17:48:43.618+05:30 info risk-engine served GET /api status=200 in 93ms trace=084e278a
+2026-01-07T17:48:51.220+05:30 info risk-engine event loop lag 38ms ok
+2026-01-07T17:48:57.530+05:30 info risk-engine served GET /api status=200 in 21ms trace=b3496359
+2026-01-07T17:49:10.753+05:30 info risk-engine served GET /api status=200 in 84ms trace=2621778c
+2026-01-07T17:49:17.855+05:30 info risk-engine event loop lag 61ms ok
+2026-01-07T17:49:30.256+05:30 info risk-engine event loop lag 59ms ok
+2026-01-07T17:49:39.398+05:30 info risk-engine event loop lag 10ms ok
+2026-01-07T17:49:49.771+05:30 info risk-engine served GET /api status=200 in 90ms trace=e43d077b
+2026-01-07T17:50:01.166+05:30 info risk-engine event loop lag 56ms ok
+2026-01-07T17:50:09.233+05:30 info risk-engine served GET /api status=200 in 55ms trace=334acca7
+2026-01-07T17:50:15.024+05:30 info risk-engine event loop lag 94ms ok
+2026-01-07T17:50:22.139+05:30 info risk-engine served GET /api status=200 in 14ms trace=0a125fa5
+2026-01-07T17:50:29.615+05:30 info risk-engine served GET /api status=200 in 56ms trace=300f260e
+2026-01-07T17:50:37.820+05:30 info risk-engine served GET /api status=200 in 27ms trace=84d1a610
+2026-01-07T17:50:48.738+05:30 info risk-engine event loop lag 60ms ok
+2026-01-07T17:51:01.329+05:30 info risk-engine served GET /api status=200 in 13ms trace=c31f8167
+2026-01-07T17:51:10.813+05:30 info risk-engine served GET /api status=200 in 28ms trace=bbe92475
+2026-01-07T17:51:23.010+05:30 info risk-engine served GET /api status=200 in 88ms trace=139002a2
+2026-01-07T17:51:33.504+05:30 info risk-engine event loop lag 73ms ok
+2026-01-07T17:51:46.955+05:30 info risk-engine served GET /api status=200 in 63ms trace=83aacf24
+2026-01-07T17:51:52.080+05:30 info risk-engine event loop lag 26ms ok
+2026-01-07T17:52:04.715+05:30 info risk-engine event loop lag 34ms ok
+2026-01-07T17:52:17.636+05:30 info risk-engine served GET /api status=200 in 89ms trace=c411331b
+2026-01-07T17:52:30.119+05:30 info risk-engine event loop lag 34ms ok
+2026-01-07T17:52:37.913+05:30 info risk-engine served GET /api status=200 in 62ms trace=008a8a05
+2026-01-07T17:52:44.962+05:30 info risk-engine event loop lag 24ms ok

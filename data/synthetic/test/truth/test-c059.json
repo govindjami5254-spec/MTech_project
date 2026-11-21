@@ -1,0 +1,36 @@
+{
+  "schema_version": "1",
+  "case_id": "test-c059",
+  "split": "test",
+  "family_id": "tf02",
+  "stratum": "easy",
+  "root_causes": [
+    "booking-svc"
+  ],
+  "fault_type": "bad_config",
+  "expected_abstain": false,
+  "key_evidence": [
+    "booking-svc.log:28",
+    "booking-svc.log:30",
+    "booking-svc.log:31"
+  ],
+  "relevant_evidence": [
+    "booking-svc.log:28",
+    "booking-svc.log:30",
+    "booking-svc.log:31",
+    "web-gateway.log:30",
+    "web-gateway.log:31",
+    "web-gateway.log:33",
+    "web-gateway.log:34",
+    "web-gateway.log:36",
+    "web-gateway.log:37",
+    "web-gateway.log:38",
+    "web-gateway.log:40"
+  ],
+  "propagation_path": [
+    "booking-svc",
+    "web-gateway"
+  ],
+  "injection_uids": [],
+  "decoy_component": null
+}

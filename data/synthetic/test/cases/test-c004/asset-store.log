@@ -1,0 +1,65 @@
+2026-02-03T17:47:43.672+05:30 info asset-store served GET /api status=200 in 86ms trace=3c06e9fc
+2026-02-03T17:47:56.020+05:30 info asset-store event loop lag 45ms ok
+2026-02-03T17:48:04.937+05:30 info asset-store served GET /api status=200 in 33ms trace=5da96666
+2026-02-03T17:48:10.099+05:30 info asset-store event loop lag 78ms ok
+2026-02-03T17:48:18.053+05:30 info asset-store event loop lag 39ms ok
+2026-02-03T17:48:26.257+05:30 info asset-store event loop lag 87ms ok
+2026-02-03T17:48:40.498+05:30 info asset-store served GET /api status=200 in 13ms trace=7cb3d101
+2026-02-03T17:48:46.718+05:30 info asset-store event loop lag 72ms ok
+2026-02-03T17:48:57.694+05:30 info asset-store served GET /api status=200 in 95ms trace=028cde43
+2026-02-03T17:49:07.758+05:30 info asset-store event loop lag 54ms ok
+2026-02-03T17:49:19.992+05:30 info asset-store event loop lag 65ms ok
+2026-02-03T17:49:26.261+05:30 info asset-store event loop lag 65ms ok
+2026-02-03T17:49:39.665+05:30 info asset-store event loop lag 24ms ok
+2026-02-03T17:49:49.605+05:30 info asset-store served GET /api status=200 in 14ms trace=c4b8ad60
+2026-02-03T17:49:57.034+05:30 info asset-store served GET /api status=200 in 27ms trace=69a4a462
+2026-02-03T17:50:04.933+05:30 info asset-store event loop lag 33ms ok
+2026-02-03T17:50:12.740+05:30 info asset-store served GET /api status=200 in 86ms trace=292649f9
+2026-02-03T17:50:21.930+05:30 info asset-store event loop lag 76ms ok
+2026-02-03T17:50:27.375+05:30 info asset-store event loop lag 89ms ok
+2026-02-03T17:50:38.486+05:30 info asset-store event loop lag 79ms ok
+2026-02-03T17:50:47.008+05:30 info asset-store served GET /api status=200 in 65ms trace=05b5b29e
+2026-02-03T17:50:57.115+05:30 info asset-store served GET /api status=200 in 45ms trace=2eefae45
+2026-02-03T17:51:04.323+05:30 info asset-store event loop lag 91ms ok
+2026-02-03T17:51:16.506+05:30 info asset-store event loop lag 70ms ok
+2026-02-03T17:51:26.202+05:30 info asset-store event loop lag 15ms ok
+2026-02-03T17:51:32.217+05:30 info asset-store served GET /api status=200 in 66ms trace=d9392cfb
+2026-02-03T17:51:38.850+05:30 info asset-store served GET /api status=200 in 46ms trace=5be16519
+2026-02-03T17:51:49.761+05:30 info asset-store event loop lag 41ms ok
+2026-02-03T17:51:58.251+05:30 info asset-store event loop lag 26ms ok
+2026-02-03T17:52:10.034+05:30 info asset-store event loop lag 94ms ok
+2026-02-03T17:52:22.054+05:30 info asset-store served GET /api status=200 in 86ms trace=fa1bde22
+2026-02-03T17:52:29.160+05:30 info asset-store event loop lag 83ms ok
+2026-02-03T17:52:39.138+05:30 info asset-store served GET /api status=200 in 54ms trace=79c592ac
+2026-02-03T17:52:46.903+05:30 info asset-store event loop lag 90ms ok
+2026-02-03T17:53:00.721+05:30 info asset-store event loop lag 70ms ok
+2026-02-03T17:53:04.609+05:30 error asset-store Error: connect ECONNREFUSED blob-db:27017 trace=c2cf5c3f
+2026-02-03T17:53:06.032+05:30 warn asset-store retry 2/3 for blob-db scheduled in 500ms
+2026-02-03T17:53:09.356+05:30 error asset-store circuit open for blob-db after repeated failures
+2026-02-03T17:53:10.213+05:30 info asset-store served GET /api status=200 in 66ms trace=8af788d0
+2026-02-03T17:53:24.957+05:30 info asset-store served GET /api status=200 in 93ms trace=0978ed5b
+2026-02-03T17:53:36.399+05:30 info asset-store event loop lag 22ms ok
+2026-02-03T17:53:46.421+05:30 info asset-store served GET /api status=200 in 88ms trace=3489ccec
+2026-02-03T17:54:00.960+05:30 info asset-store served GET /api status=200 in 86ms trace=057c2f73
+2026-02-03T17:54:10.757+05:30 info asset-store served GET /api status=200 in 86ms trace=8256d51d
+2026-02-03T17:54:17.817+05:30 info asset-store served GET /api status=200 in 54ms trace=8edc51b5
+2026-02-03T17:54:23.842+05:30 info asset-store event loop lag 13ms ok
+2026-02-03T17:54:32.290+05:30 info asset-store served GET /api status=200 in 45ms trace=b4325a1d
+2026-02-03T17:54:45.051+05:30 info asset-store event loop lag 58ms ok
+2026-02-03T17:54:53.718+05:30 info asset-store served GET /api status=200 in 75ms trace=afacfc9d
+2026-02-03T17:55:03.939+05:30 info asset-store served GET /api status=200 in 76ms trace=31637944
+2026-02-03T17:55:17.875+05:30 info asset-store served GET /api status=200 in 29ms trace=d048df9c
+2026-02-03T17:55:31.618+05:30 info asset-store served GET /api status=200 in 22ms trace=13bfc773
+2026-02-03T17:55:44.986+05:30 info asset-store served GET /api status=200 in 76ms trace=4bbe06b3
+2026-02-03T17:55:52.595+05:30 info asset-store event loop lag 90ms ok
+2026-02-03T17:56:04.376+05:30 info asset-store served GET /api status=200 in 19ms trace=e5f37e26
+2026-02-03T17:56:13.800+05:30 info asset-store event loop lag 10ms ok
+2026-02-03T17:56:20.412+05:30 info asset-store event loop lag 93ms ok
+2026-02-03T17:56:30.395+05:30 info asset-store served GET /api status=200 in 20ms trace=362bd5be
+2026-02-03T17:56:36.531+05:30 info asset-store event loop lag 42ms ok
+2026-02-03T17:56:43.162+05:30 info asset-store served GET /api status=200 in 27ms trace=7bb6b36e
+2026-02-03T17:56:51.904+05:30 info asset-store event loop lag 12ms ok
+2026-02-03T17:56:57.405+05:30 info asset-store event loop lag 50ms ok
+2026-02-03T17:57:03.044+05:30 info asset-store served GET /api status=200 in 30ms trace=0575fc4c
+2026-02-03T17:57:16.456+05:30 info asset-store served GET /api status=200 in 58ms trace=61ee1f17
+2026-02-03T17:57:29.167+05:30 info asset-store served GET /api status=200 in 37ms trace=2e82685e

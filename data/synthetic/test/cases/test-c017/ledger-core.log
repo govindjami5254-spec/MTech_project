@@ -1,0 +1,57 @@
+2026-01-24T13:10:44Z INFO ledger-core tick ok elapsed_ms=55
+2026-01-24T13:10:57Z INFO ledger-core http request method=GET status=200 latency_ms=53 span=5869c442
+2026-01-24T13:11:08Z INFO ledger-core tick ok elapsed_ms=79
+2026-01-24T13:11:18Z INFO ledger-core http request method=GET status=200 latency_ms=82 span=154afa31
+2026-01-24T13:11:30Z INFO ledger-core http request method=GET status=200 latency_ms=16 span=e679fa19
+2026-01-24T13:11:43Z INFO ledger-core tick ok elapsed_ms=32
+2026-01-24T13:11:55Z INFO ledger-core tick ok elapsed_ms=46
+2026-01-24T13:12:01Z INFO ledger-core tick ok elapsed_ms=81
+2026-01-24T13:12:15Z INFO ledger-core tick ok elapsed_ms=34
+2026-01-24T13:12:29Z INFO ledger-core tick ok elapsed_ms=54
+2026-01-24T13:12:39Z INFO ledger-core http request method=GET status=200 latency_ms=39 span=dd34a108
+2026-01-24T13:12:46Z INFO ledger-core http request method=GET status=200 latency_ms=86 span=08b95a95
+2026-01-24T13:12:58Z INFO ledger-core http request method=GET status=200 latency_ms=16 span=194e9b6c
+2026-01-24T13:13:11Z INFO ledger-core tick ok elapsed_ms=47
+2026-01-24T13:13:21Z INFO ledger-core tick ok elapsed_ms=16
+2026-01-24T13:13:28Z INFO ledger-core tick ok elapsed_ms=9
+2026-01-24T13:13:34Z INFO ledger-core tick ok elapsed_ms=50
+2026-01-24T13:13:42Z INFO ledger-core tick ok elapsed_ms=32
+2026-01-24T13:13:55Z INFO ledger-core tick ok elapsed_ms=72
+2026-01-24T13:14:04Z INFO ledger-core tick ok elapsed_ms=61
+2026-01-24T13:14:14Z INFO ledger-core tick ok elapsed_ms=40
+2026-01-24T13:14:20Z INFO ledger-core tick ok elapsed_ms=56
+2026-01-24T13:14:34Z INFO ledger-core http request method=GET status=200 latency_ms=85 span=1b3c37fc
+2026-01-24T13:14:43Z INFO ledger-core http request method=GET status=200 latency_ms=27 span=b230b288
+2026-01-24T13:14:50Z INFO ledger-core tick ok elapsed_ms=30
+2026-01-24T13:15:01Z INFO ledger-core http request method=GET status=200 latency_ms=93 span=8cd3b56c
+2026-01-24T13:15:08Z INFO ledger-core tick ok elapsed_ms=23
+2026-01-24T13:15:15Z INFO ledger-core tick ok elapsed_ms=35
+2026-01-24T13:15:22Z INFO ledger-core tick ok elapsed_ms=83
+2026-01-24T13:15:35Z INFO ledger-core http request method=GET status=200 latency_ms=87 span=d10583bd
+2026-01-24T13:15:48Z INFO ledger-core http request method=GET status=200 latency_ms=16 span=ed403217
+2026-01-24T13:16:02Z INFO ledger-core http request method=GET status=200 latency_ms=29 span=a211a8d0
+2026-01-24T13:16:16Z INFO ledger-core http request method=GET status=200 latency_ms=75 span=dbf7a0cc
+2026-01-24T13:16:23Z INFO ledger-core tick ok elapsed_ms=23
+2026-01-24T13:16:34Z INFO ledger-core http request method=GET status=200 latency_ms=14 span=4a562d5b
+2026-01-24T13:16:43Z INFO ledger-core tick ok elapsed_ms=36
+2026-01-24T13:16:57Z INFO ledger-core tick ok elapsed_ms=30
+2026-01-24T13:17:06Z INFO ledger-core tick ok elapsed_ms=33
+2026-01-24T13:17:17Z INFO ledger-core tick ok elapsed_ms=14
+2026-01-24T13:17:29Z INFO ledger-core tick ok elapsed_ms=35
+2026-01-24T13:17:42Z INFO ledger-core http request method=GET status=200 latency_ms=74 span=f0ef83cb
+2026-01-24T13:17:48Z INFO ledger-core http request method=GET status=200 latency_ms=91 span=28f6fce6
+2026-01-24T13:17:54Z INFO ledger-core tick ok elapsed_ms=69
+2026-01-24T13:18:05Z INFO ledger-core tick ok elapsed_ms=34
+2026-01-24T13:18:19Z INFO ledger-core http request method=GET status=200 latency_ms=91 span=fae4223b
+2026-01-24T13:18:28Z INFO ledger-core http request method=GET status=200 latency_ms=15 span=9c830c8e
+2026-01-24T13:18:42Z INFO ledger-core tick ok elapsed_ms=37
+2026-01-24T13:18:53Z INFO ledger-core http request method=GET status=200 latency_ms=68 span=11c3ebde
+2026-01-24T13:19:02Z INFO ledger-core tick ok elapsed_ms=74
+2026-01-24T13:19:14Z INFO ledger-core tick ok elapsed_ms=54
+2026-01-24T13:19:28Z INFO ledger-core tick ok elapsed_ms=26
+2026-01-24T13:19:41Z INFO ledger-core http request method=GET status=200 latency_ms=65 span=fcf716eb
+2026-01-24T13:19:48Z INFO ledger-core http request method=GET status=200 latency_ms=59 span=61fe79bd
+2026-01-24T13:20:01Z INFO ledger-core http request method=GET status=200 latency_ms=90 span=0248621a
+2026-01-24T13:20:15Z INFO ledger-core http request method=GET status=200 latency_ms=16 span=69f489f1
+2026-01-24T13:20:22Z INFO ledger-core tick ok elapsed_ms=22
+2026-01-24T13:20:34Z INFO ledger-core tick ok elapsed_ms=77

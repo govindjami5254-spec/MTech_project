@@ -1,0 +1,66 @@
+2026-01-07 09:51:29,099 INFO storefront handled request rid=69ea6821 status=200 dur=37ms
+2026-01-07 09:51:43,879 INFO storefront ping ok latency=49ms
+2026-01-07 09:51:56,728 INFO storefront ping ok latency=46ms
+2026-01-07 09:52:05,432 INFO storefront handled request rid=49c58f69 status=200 dur=64ms
+2026-01-07 09:52:13,952 INFO storefront ping ok latency=21ms
+2026-01-07 09:52:22,717 INFO storefront handled request rid=8e160541 status=200 dur=27ms
+2026-01-07 09:52:32,619 INFO storefront ping ok latency=48ms
+2026-01-07 09:52:44,567 INFO storefront handled request rid=b3e16b56 status=200 dur=14ms
+2026-01-07 09:52:51,782 INFO storefront ping ok latency=19ms
+2026-01-07 09:53:03,268 INFO storefront handled request rid=c47d1ee0 status=200 dur=42ms
+2026-01-07 09:53:13,512 INFO storefront handled request rid=b955deaa status=200 dur=16ms
+2026-01-07 09:53:20,416 INFO storefront ping ok latency=53ms
+2026-01-07 09:53:31,498 INFO storefront handled request rid=50d406da status=200 dur=9ms
+2026-01-07 09:53:45,553 INFO storefront handled request rid=bb741d5d status=200 dur=56ms
+2026-01-07 09:53:57,215 INFO storefront handled request rid=a5af095c status=200 dur=87ms
+2026-01-07 09:54:11,003 INFO storefront handled request rid=db7f8c45 status=200 dur=10ms
+2026-01-07 09:54:18,364 INFO storefront ping ok latency=56ms
+2026-01-07 09:54:24,415 INFO storefront ping ok latency=88ms
+2026-01-07 09:54:30,913 INFO storefront ping ok latency=22ms
+2026-01-07 09:54:44,835 INFO storefront ping ok latency=60ms
+2026-01-07 09:54:57,578 INFO storefront handled request rid=aec7cdb1 status=200 dur=82ms
+2026-01-07 09:55:11,431 INFO storefront ping ok latency=37ms
+2026-01-07 09:55:25,523 INFO storefront handled request rid=b552993e status=200 dur=79ms
+2026-01-07 09:55:32,603 INFO storefront handled request rid=ad69c0fe status=200 dur=23ms
+2026-01-07 09:55:41,806 INFO storefront ping ok latency=14ms
+2026-01-07 09:55:49,943 INFO storefront handled request rid=1b703415 status=200 dur=92ms
+2026-01-07 09:55:58,935 INFO storefront handled request rid=a3b4e205 status=200 dur=46ms
+2026-01-07 09:56:04,203 INFO storefront ping ok latency=65ms
+2026-01-07 09:56:17,415 INFO storefront ping ok latency=43ms
+2026-01-07 09:56:23,954 ERROR storefront responding 503: upstream cart-svc error rid=bf377a25
+2026-01-07 09:56:26,675 ERROR storefront responding 503: upstream cart-svc error rid=9634fb3b
+2026-01-07 09:56:28,219 INFO storefront ping ok latency=31ms
+2026-01-07 09:56:29,037 ERROR storefront upstream cart-svc returned 500 rid=07ed83df
+2026-01-07 09:56:32,974 ERROR storefront responding 503: upstream cart-svc error rid=eaa26011
+2026-01-07 09:56:35,259 ERROR storefront upstream cart-svc returned 500 rid=6f66a875
+2026-01-07 09:56:35,777 INFO storefront handled request rid=f2e8f686 status=200 dur=42ms
+2026-01-07 09:56:38,226 ERROR storefront responding 503: upstream cart-svc error rid=6d68eb8c
+2026-01-07 09:56:49,165 INFO storefront handled request rid=e4aa9481 status=200 dur=32ms
+2026-01-07 09:57:01,417 INFO storefront handled request rid=087c95a6 status=200 dur=52ms
+2026-01-07 09:57:12,157 INFO storefront ping ok latency=33ms
+2026-01-07 09:57:13,000 WARNING storefront retry budget low on client pool
+2026-01-07 09:57:23,523 INFO storefront handled request rid=9b6603ba status=200 dur=32ms
+2026-01-07 09:57:36,365 INFO storefront handled request rid=6f6005fc status=200 dur=77ms
+2026-01-07 09:57:47,798 INFO storefront handled request rid=99d4e8ca status=200 dur=54ms
+2026-01-07 09:58:01,186 INFO storefront handled request rid=dc3b5b58 status=200 dur=93ms
+2026-01-07 09:58:08,256 INFO storefront ping ok latency=61ms
+2026-01-07 09:58:16,404 INFO storefront ping ok latency=70ms
+2026-01-07 09:58:27,398 INFO storefront ping ok latency=68ms
+2026-01-07 09:58:41,430 INFO storefront ping ok latency=21ms
+2026-01-07 09:58:47,107 INFO storefront handled request rid=61bae603 status=200 dur=94ms
+2026-01-07 09:58:56,703 INFO storefront handled request rid=3b1fe013 status=200 dur=92ms
+2026-01-07 09:59:04,166 INFO storefront handled request rid=64b121e0 status=200 dur=22ms
+2026-01-07 09:59:16,861 INFO storefront ping ok latency=35ms
+2026-01-07 09:59:22,178 INFO storefront handled request rid=17130fec status=200 dur=30ms
+2026-01-07 09:59:36,480 INFO storefront handled request rid=26ba5c43 status=200 dur=40ms
+2026-01-07 09:59:50,078 INFO storefront ping ok latency=50ms
+2026-01-07 09:59:58,741 INFO storefront ping ok latency=77ms
+2026-01-07 10:00:08,910 INFO storefront ping ok latency=8ms
+2026-01-07 10:00:14,361 INFO storefront handled request rid=8c2e5b53 status=200 dur=93ms
+2026-01-07 10:00:22,532 INFO storefront handled request rid=055556dc status=200 dur=90ms
+2026-01-07 10:00:32,093 INFO storefront handled request rid=3d0845a4 status=200 dur=76ms
+2026-01-07 10:00:43,038 INFO storefront ping ok latency=45ms
+2026-01-07 10:00:57,012 INFO storefront ping ok latency=9ms
+2026-01-07 10:01:05,781 INFO storefront ping ok latency=90ms
+2026-01-07 10:01:15,410 INFO storefront ping ok latency=66ms
+2026-01-07 10:01:23,818 INFO storefront handled request rid=5ef799c3 status=200 dur=57ms

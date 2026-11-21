@@ -1,0 +1,62 @@
+2026-02-02T13:56:33Z INFO catalog-api tick ok elapsed_ms=95
+2026-02-02T13:56:44Z INFO catalog-api http request method=GET status=200 latency_ms=75 span=fda5c323
+2026-02-02T13:56:52Z INFO catalog-api http request method=GET status=200 latency_ms=33 span=ad40d9a0
+2026-02-02T13:57:04Z INFO catalog-api http request method=GET status=200 latency_ms=56 span=5f9c2cc9
+2026-02-02T13:57:05Z WARN catalog-api slow poll elapsed_ms=770
+2026-02-02T13:57:10Z INFO catalog-api tick ok elapsed_ms=51
+2026-02-02T13:57:24Z INFO catalog-api tick ok elapsed_ms=61
+2026-02-02T13:57:38Z INFO catalog-api tick ok elapsed_ms=42
+2026-02-02T13:57:48Z INFO catalog-api http request method=GET status=200 latency_ms=78 span=9da88ea3
+2026-02-02T13:58:01Z INFO catalog-api http request method=GET status=200 latency_ms=88 span=e0857a23
+2026-02-02T13:58:10Z INFO catalog-api tick ok elapsed_ms=27
+2026-02-02T13:58:18Z INFO catalog-api http request method=GET status=200 latency_ms=34 span=67a7c073
+2026-02-02T13:58:31Z INFO catalog-api http request method=GET status=200 latency_ms=91 span=24edbaf2
+2026-02-02T13:58:41Z INFO catalog-api http request method=GET status=200 latency_ms=88 span=3b2cbde2
+2026-02-02T13:58:50Z INFO catalog-api http request method=GET status=200 latency_ms=41 span=99805675
+2026-02-02T13:58:57Z INFO catalog-api tick ok elapsed_ms=21
+2026-02-02T13:59:09Z INFO catalog-api http request method=GET status=200 latency_ms=92 span=10a8a8f0
+2026-02-02T13:59:15Z INFO catalog-api http request method=GET status=200 latency_ms=58 span=9945d7d8
+2026-02-02T13:59:21Z INFO catalog-api tick ok elapsed_ms=37
+2026-02-02T13:59:28Z INFO catalog-api http request method=GET status=200 latency_ms=15 span=39cca016
+2026-02-02T13:59:41Z INFO catalog-api http request method=GET status=200 latency_ms=13 span=23c3222a
+2026-02-02T13:59:52Z INFO catalog-api http request method=GET status=200 latency_ms=60 span=92f9edb1
+2026-02-02T14:00:03Z INFO catalog-api tick ok elapsed_ms=67
+2026-02-02T14:00:09Z INFO catalog-api tick ok elapsed_ms=26
+2026-02-02T14:00:19Z INFO catalog-api http request method=GET status=200 latency_ms=81 span=331d1df3
+2026-02-02T14:00:26Z INFO catalog-api http request method=GET status=200 latency_ms=83 span=1d591517
+2026-02-02T14:00:35Z INFO catalog-api http request method=GET status=200 latency_ms=94 span=3e17f9ad
+2026-02-02T14:00:49Z INFO catalog-api tick ok elapsed_ms=56
+2026-02-02T14:00:56Z INFO catalog-api tick ok elapsed_ms=94
+2026-02-02T14:01:09Z INFO catalog-api tick ok elapsed_ms=72
+2026-02-02T14:01:18Z INFO catalog-api http request method=GET status=200 latency_ms=21 span=fed5c3ef
+2026-02-02T14:01:30Z INFO catalog-api tick ok elapsed_ms=90
+2026-02-02T14:01:39Z ERR catalog-api deadline elapsed waiting on asset-store span=78ade905
+2026-02-02T14:01:41Z WARN catalog-api tower retry: attempt 2 for asset-store
+2026-02-02T14:01:42Z INFO catalog-api tick ok elapsed_ms=16
+2026-02-02T14:01:44Z ERR catalog-api request to asset-store exhausted retry budget
+2026-02-02T14:01:55Z INFO catalog-api http request method=GET status=200 latency_ms=61 span=6d2b8af2
+2026-02-02T14:02:07Z INFO catalog-api http request method=GET status=200 latency_ms=43 span=91532119
+2026-02-02T14:02:18Z INFO catalog-api tick ok elapsed_ms=86
+2026-02-02T14:02:25Z INFO catalog-api http request method=GET status=200 latency_ms=12 span=ba992743
+2026-02-02T14:02:35Z INFO catalog-api http request method=GET status=200 latency_ms=31 span=5d8b3664
+2026-02-02T14:02:45Z INFO catalog-api tick ok elapsed_ms=40
+2026-02-02T14:02:58Z INFO catalog-api tick ok elapsed_ms=30
+2026-02-02T14:03:08Z INFO catalog-api tick ok elapsed_ms=49
+2026-02-02T14:03:14Z INFO catalog-api tick ok elapsed_ms=87
+2026-02-02T14:03:23Z INFO catalog-api tick ok elapsed_ms=37
+2026-02-02T14:03:33Z INFO catalog-api http request method=GET status=200 latency_ms=59 span=9b4b01cc
+2026-02-02T14:03:39Z INFO catalog-api http request method=GET status=200 latency_ms=32 span=1ce30b98
+2026-02-02T14:03:53Z INFO catalog-api http request method=GET status=200 latency_ms=37 span=20780e40
+2026-02-02T14:03:59Z INFO catalog-api tick ok elapsed_ms=53
+2026-02-02T14:04:06Z INFO catalog-api http request method=GET status=200 latency_ms=23 span=8c27f075
+2026-02-02T14:04:19Z INFO catalog-api tick ok elapsed_ms=53
+2026-02-02T14:04:31Z INFO catalog-api http request method=GET status=200 latency_ms=93 span=3eee2e0d
+2026-02-02T14:04:42Z INFO catalog-api tick ok elapsed_ms=15
+2026-02-02T14:04:56Z INFO catalog-api tick ok elapsed_ms=49
+2026-02-02T14:05:10Z INFO catalog-api http request method=GET status=200 latency_ms=74 span=2ee55b44
+2026-02-02T14:05:23Z INFO catalog-api tick ok elapsed_ms=68
+2026-02-02T14:05:33Z INFO catalog-api tick ok elapsed_ms=83
+2026-02-02T14:05:46Z INFO catalog-api http request method=GET status=200 latency_ms=88 span=ff6a356b
+2026-02-02T14:05:58Z INFO catalog-api http request method=GET status=200 latency_ms=20 span=17867e8c
+2026-02-02T14:06:10Z INFO catalog-api http request method=GET status=200 latency_ms=35 span=5f38edd2
+2026-02-02T14:06:19Z INFO catalog-api http request method=GET status=200 latency_ms=85 span=8aa4ea3c

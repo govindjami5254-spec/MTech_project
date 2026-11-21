@@ -1,0 +1,69 @@
+2026-02-03T17:47:37.520+05:30 info edge-proxy served GET /api status=200 in 88ms trace=320ad27b
+2026-02-03T17:47:48.797+05:30 info edge-proxy event loop lag 31ms ok
+2026-02-03T17:48:02.580+05:30 info edge-proxy event loop lag 8ms ok
+2026-02-03T17:48:15.449+05:30 info edge-proxy event loop lag 44ms ok
+2026-02-03T17:48:25.587+05:30 info edge-proxy served GET /api status=200 in 43ms trace=1605d29a
+2026-02-03T17:48:36.714+05:30 info edge-proxy event loop lag 33ms ok
+2026-02-03T17:48:44.349+05:30 info edge-proxy served GET /api status=200 in 91ms trace=6e8755d8
+2026-02-03T17:48:51.580+05:30 info edge-proxy event loop lag 36ms ok
+2026-02-03T17:49:05.984+05:30 info edge-proxy event loop lag 92ms ok
+2026-02-03T17:49:17.863+05:30 info edge-proxy event loop lag 36ms ok
+2026-02-03T17:49:23.718+05:30 info edge-proxy event loop lag 70ms ok
+2026-02-03T17:49:34.470+05:30 info edge-proxy event loop lag 17ms ok
+2026-02-03T17:49:43.859+05:30 info edge-proxy served GET /api status=200 in 66ms trace=a0b81899
+2026-02-03T17:49:49.405+05:30 info edge-proxy served GET /api status=200 in 33ms trace=637ddd86
+2026-02-03T17:50:00.492+05:30 info edge-proxy event loop lag 38ms ok
+2026-02-03T17:50:07.964+05:30 info edge-proxy event loop lag 26ms ok
+2026-02-03T17:50:14.835+05:30 info edge-proxy event loop lag 30ms ok
+2026-02-03T17:50:27.481+05:30 info edge-proxy event loop lag 39ms ok
+2026-02-03T17:50:40.476+05:30 info edge-proxy served GET /api status=200 in 19ms trace=8435dbf8
+2026-02-03T17:50:49.036+05:30 info edge-proxy event loop lag 65ms ok
+2026-02-03T17:50:56.226+05:30 info edge-proxy served GET /api status=200 in 63ms trace=18e0ced6
+2026-02-03T17:51:03.958+05:30 info edge-proxy served GET /api status=200 in 56ms trace=d3dee153
+2026-02-03T17:51:16.536+05:30 info edge-proxy event loop lag 21ms ok
+2026-02-03T17:51:24.486+05:30 info edge-proxy event loop lag 21ms ok
+2026-02-03T17:51:35.355+05:30 info edge-proxy event loop lag 85ms ok
+2026-02-03T17:51:42.209+05:30 info edge-proxy served GET /api status=200 in 48ms trace=db9e8d0b
+2026-02-03T17:51:55.142+05:30 info edge-proxy event loop lag 70ms ok
+2026-02-03T17:52:09.286+05:30 info edge-proxy served GET /api status=200 in 54ms trace=43d5e503
+2026-02-03T17:52:18.115+05:30 info edge-proxy served GET /api status=200 in 80ms trace=c6d4ca01
+2026-02-03T17:52:25.793+05:30 info edge-proxy event loop lag 20ms ok
+2026-02-03T17:52:37.551+05:30 info edge-proxy event loop lag 51ms ok
+2026-02-03T17:52:43.286+05:30 info edge-proxy served GET /api status=200 in 93ms trace=5c7c1dc7
+2026-02-03T17:52:52.049+05:30 info edge-proxy event loop lag 44ms ok
+2026-02-03T17:53:04.653+05:30 info edge-proxy event loop lag 35ms ok
+2026-02-03T17:53:14.824+05:30 info edge-proxy served GET /api status=200 in 54ms trace=f8dc80e1
+2026-02-03T17:53:15.372+05:30 error edge-proxy proxy error contacting catalog-api; responded 502 trace=7402fbc3
+2026-02-03T17:53:18.192+05:30 error edge-proxy proxy error contacting catalog-api; responded 502 trace=caf049fd
+2026-02-03T17:53:21.975+05:30 error edge-proxy proxy error contacting catalog-api; responded 502 trace=62fcac8b
+2026-02-03T17:53:24.387+05:30 error edge-proxy 503 Service Unavailable returned (catalog-api down) trace=bd47a786
+2026-02-03T17:53:27.433+05:30 error edge-proxy 503 Service Unavailable returned (catalog-api down) trace=21a43831
+2026-02-03T17:53:28.991+05:30 info edge-proxy event loop lag 26ms ok
+2026-02-03T17:53:30.812+05:30 error edge-proxy 503 Service Unavailable returned (catalog-api down) trace=3ff1822e
+2026-02-03T17:53:33.822+05:30 error edge-proxy 503 Service Unavailable returned (catalog-api down) trace=60900561
+2026-02-03T17:53:38.339+05:30 info edge-proxy served GET /api status=200 in 10ms trace=b23feb8e
+2026-02-03T17:53:47.897+05:30 info edge-proxy served GET /api status=200 in 19ms trace=ece16911
+2026-02-03T17:53:57.666+05:30 info edge-proxy event loop lag 41ms ok
+2026-02-03T17:54:03.876+05:30 info edge-proxy event loop lag 21ms ok
+2026-02-03T17:54:10.922+05:30 info edge-proxy served GET /api status=200 in 36ms trace=0ae101ef
+2026-02-03T17:54:18.857+05:30 info edge-proxy served GET /api status=200 in 75ms trace=2371a4d6
+2026-02-03T17:54:24.184+05:30 info edge-proxy served GET /api status=200 in 55ms trace=c149db3e
+2026-02-03T17:54:34.774+05:30 info edge-proxy served GET /api status=200 in 82ms trace=acfa7b12
+2026-02-03T17:54:45.087+05:30 info edge-proxy event loop lag 37ms ok
+2026-02-03T17:54:56.703+05:30 info edge-proxy event loop lag 95ms ok
+2026-02-03T17:55:04.748+05:30 info edge-proxy served GET /api status=200 in 32ms trace=4abe5d46
+2026-02-03T17:55:14.836+05:30 info edge-proxy event loop lag 34ms ok
+2026-02-03T17:55:26.260+05:30 info edge-proxy event loop lag 61ms ok
+2026-02-03T17:55:38.287+05:30 info edge-proxy served GET /api status=200 in 27ms trace=318abd88
+2026-02-03T17:55:48.729+05:30 info edge-proxy served GET /api status=200 in 55ms trace=7520f4a1
+2026-02-03T17:55:59.860+05:30 info edge-proxy event loop lag 24ms ok
+2026-02-03T17:56:07.427+05:30 info edge-proxy event loop lag 27ms ok
+2026-02-03T17:56:08.000+05:30 warn edge-proxy unhandled header x-legacy ignored trace=0910a7c3
+2026-02-03T17:56:14.889+05:30 info edge-proxy event loop lag 50ms ok
+2026-02-03T17:56:21.344+05:30 info edge-proxy served GET /api status=200 in 61ms trace=697a9be5
+2026-02-03T17:56:33.654+05:30 info edge-proxy event loop lag 58ms ok
+2026-02-03T17:56:47.122+05:30 info edge-proxy served GET /api status=200 in 84ms trace=ad817d40
+2026-02-03T17:56:58.036+05:30 info edge-proxy served GET /api status=200 in 64ms trace=a32599e0
+2026-02-03T17:57:09.588+05:30 info edge-proxy served GET /api status=200 in 52ms trace=f055dca1
+2026-02-03T17:57:20.354+05:30 info edge-proxy event loop lag 88ms ok
+2026-02-03T17:57:30.836+05:30 info edge-proxy served GET /api status=200 in 51ms trace=9c913578

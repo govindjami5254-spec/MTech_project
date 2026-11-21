@@ -1,0 +1,62 @@
+2026-02-12T14:47:48Z INFO risk-engine tick ok elapsed_ms=13
+2026-02-12T14:47:57Z INFO risk-engine http request method=GET status=200 latency_ms=64 span=3cc914cd
+2026-02-12T14:48:07Z INFO risk-engine http request method=GET status=200 latency_ms=64 span=3ff90dac
+2026-02-12T14:48:17Z INFO risk-engine http request method=GET status=200 latency_ms=18 span=b8fa0357
+2026-02-12T14:48:25Z INFO risk-engine http request method=GET status=200 latency_ms=31 span=574bb24b
+2026-02-12T14:48:38Z INFO risk-engine http request method=GET status=200 latency_ms=73 span=8c4db520
+2026-02-12T14:48:49Z INFO risk-engine http request method=GET status=200 latency_ms=15 span=92c165fe
+2026-02-12T14:48:56Z INFO risk-engine tick ok elapsed_ms=66
+2026-02-12T14:49:05Z INFO risk-engine tick ok elapsed_ms=48
+2026-02-12T14:49:16Z INFO risk-engine http request method=GET status=200 latency_ms=54 span=42abc834
+2026-02-12T14:49:25Z INFO risk-engine tick ok elapsed_ms=90
+2026-02-12T14:49:31Z INFO risk-engine tick ok elapsed_ms=21
+2026-02-12T14:49:41Z INFO risk-engine tick ok elapsed_ms=89
+2026-02-12T14:49:52Z INFO risk-engine http request method=GET status=200 latency_ms=86 span=46173444
+2026-02-12T14:50:03Z INFO risk-engine tick ok elapsed_ms=93
+2026-02-12T14:50:16Z INFO risk-engine http request method=GET status=200 latency_ms=81 span=3ec05be1
+2026-02-12T14:50:30Z INFO risk-engine http request method=GET status=200 latency_ms=83 span=fb5edb17
+2026-02-12T14:50:42Z INFO risk-engine http request method=GET status=200 latency_ms=85 span=de2ddf9c
+2026-02-12T14:50:54Z INFO risk-engine tick ok elapsed_ms=19
+2026-02-12T14:51:01Z INFO risk-engine http request method=GET status=200 latency_ms=34 span=4d67e4bf
+2026-02-12T14:51:12Z INFO risk-engine http request method=GET status=200 latency_ms=43 span=f795b74a
+2026-02-12T14:51:19Z INFO risk-engine tick ok elapsed_ms=50
+2026-02-12T14:51:26Z INFO risk-engine http request method=GET status=200 latency_ms=34 span=a9f2eb84
+2026-02-12T14:51:36Z INFO risk-engine http request method=GET status=200 latency_ms=61 span=08c46b76
+2026-02-12T14:51:50Z INFO risk-engine http request method=GET status=200 latency_ms=76 span=ad0bba6b
+2026-02-12T14:52:03Z INFO risk-engine tick ok elapsed_ms=49
+2026-02-12T14:52:13Z INFO risk-engine tick ok elapsed_ms=44
+2026-02-12T14:52:24Z INFO risk-engine http request method=GET status=200 latency_ms=13 span=08ebf9fb
+2026-02-12T14:52:35Z INFO risk-engine http request method=GET status=200 latency_ms=50 span=b6efa644
+2026-02-12T14:52:41Z INFO risk-engine http request method=GET status=200 latency_ms=92 span=3275a97d
+2026-02-12T14:52:47Z INFO risk-engine tick ok elapsed_ms=52
+2026-02-12T14:52:57Z INFO risk-engine http request method=GET status=200 latency_ms=12 span=bd13c47f
+2026-02-12T14:53:11Z INFO risk-engine tick ok elapsed_ms=44
+2026-02-12T14:53:24Z INFO risk-engine tick ok elapsed_ms=23
+2026-02-12T14:53:30Z INFO risk-engine http request method=GET status=200 latency_ms=48 span=094cbb1d
+2026-02-12T14:53:43Z INFO risk-engine tick ok elapsed_ms=66
+2026-02-12T14:53:54Z INFO risk-engine http request method=GET status=200 latency_ms=14 span=5cfa5510
+2026-02-12T14:54:01Z INFO risk-engine tick ok elapsed_ms=85
+2026-02-12T14:54:11Z INFO risk-engine http request method=GET status=200 latency_ms=13 span=81c74619
+2026-02-12T14:54:18Z INFO risk-engine tick ok elapsed_ms=23
+2026-02-12T14:54:26Z INFO risk-engine http request method=GET status=200 latency_ms=94 span=97a9367f
+2026-02-12T14:54:35Z INFO risk-engine http request method=GET status=200 latency_ms=27 span=5b54aa0c
+2026-02-12T14:54:42Z INFO risk-engine tick ok elapsed_ms=89
+2026-02-12T14:54:53Z INFO risk-engine http request method=GET status=200 latency_ms=36 span=7e122e5a
+2026-02-12T14:55:00Z INFO risk-engine http request method=GET status=200 latency_ms=58 span=3d5c495f
+2026-02-12T14:55:14Z INFO risk-engine tick ok elapsed_ms=70
+2026-02-12T14:55:25Z INFO risk-engine tick ok elapsed_ms=17
+2026-02-12T14:55:34Z INFO risk-engine tick ok elapsed_ms=37
+2026-02-12T14:55:40Z INFO risk-engine http request method=GET status=200 latency_ms=36 span=f7740a55
+2026-02-12T14:55:46Z INFO risk-engine tick ok elapsed_ms=56
+2026-02-12T14:55:58Z INFO risk-engine http request method=GET status=200 latency_ms=77 span=f6614870
+2026-02-12T14:56:05Z INFO risk-engine tick ok elapsed_ms=88
+2026-02-12T14:56:11Z INFO risk-engine http request method=GET status=200 latency_ms=52 span=35a1768a
+2026-02-12T14:56:22Z INFO risk-engine tick ok elapsed_ms=93
+2026-02-12T14:56:35Z INFO risk-engine http request method=GET status=200 latency_ms=65 span=f5af86dc
+2026-02-12T14:56:46Z INFO risk-engine http request method=GET status=200 latency_ms=28 span=aa282bfe
+2026-02-12T14:57:00Z INFO risk-engine tick ok elapsed_ms=72
+2026-02-12T14:57:12Z INFO risk-engine tick ok elapsed_ms=89
+2026-02-12T14:57:20Z INFO risk-engine tick ok elapsed_ms=90
+2026-02-12T14:57:21Z WARN risk-engine client sent oversized header, truncated span=3801f6d3
+2026-02-12T14:57:32Z INFO risk-engine tick ok elapsed_ms=10
+2026-02-12T14:57:38Z INFO risk-engine tick ok elapsed_ms=57

@@ -1,0 +1,215 @@
+2026-02-02T14:18:10Z INFO ledger-core tick ok elapsed_ms=21
+2026-02-02T14:18:23Z INFO ledger-core http request method=GET status=200 latency_ms=63 span=74d026c5
+2026-02-02T14:18:30Z INFO ledger-core http request method=GET status=200 latency_ms=88 span=c3f26dc2
+2026-02-02T14:18:36Z INFO ledger-core tick ok elapsed_ms=48
+2026-02-02T14:18:44Z INFO ledger-core tick ok elapsed_ms=28
+2026-02-02T14:18:52Z INFO ledger-core http request method=GET status=200 latency_ms=29 span=9c0eeba1
+2026-02-02T14:19:06Z INFO ledger-core tick ok elapsed_ms=75
+2026-02-02T14:19:14Z INFO ledger-core http request method=GET status=200 latency_ms=83 span=05f01388
+2026-02-02T14:19:21Z INFO ledger-core tick ok elapsed_ms=14
+2026-02-02T14:19:28Z INFO ledger-core tick ok elapsed_ms=71
+2026-02-02T14:19:38Z INFO ledger-core tick ok elapsed_ms=22
+2026-02-02T14:19:45Z INFO ledger-core http request method=GET status=200 latency_ms=74 span=d506b862
+2026-02-02T14:19:59Z INFO ledger-core tick ok elapsed_ms=71
+2026-02-02T14:20:10Z INFO ledger-core tick ok elapsed_ms=21
+2026-02-02T14:20:24Z INFO ledger-core tick ok elapsed_ms=35
+2026-02-02T14:20:38Z INFO ledger-core http request method=GET status=200 latency_ms=14 span=5916254f
+2026-02-02T14:20:52Z INFO ledger-core http request method=GET status=200 latency_ms=39 span=9a0e10bb
+2026-02-02T14:21:01Z INFO ledger-core http request method=GET status=200 latency_ms=69 span=7d916401
+2026-02-02T14:21:15Z INFO ledger-core http request method=GET status=200 latency_ms=14 span=ed664e91
+2026-02-02T14:21:21Z INFO ledger-core tick ok elapsed_ms=36
+2026-02-02T14:21:30Z INFO ledger-core tick ok elapsed_ms=38
+2026-02-02T14:21:42Z INFO ledger-core http request method=GET status=200 latency_ms=79 span=9c84154c
+2026-02-02T14:21:48Z INFO ledger-core tick ok elapsed_ms=43
+2026-02-02T14:21:56Z INFO ledger-core http request method=GET status=200 latency_ms=68 span=08e36694
+2026-02-02T14:22:09Z INFO ledger-core http request method=GET status=200 latency_ms=37 span=02a527d7
+2026-02-02T14:22:17Z INFO ledger-core http request method=GET status=200 latency_ms=59 span=00228bbb
+2026-02-02T14:22:23Z INFO ledger-core http request method=GET status=200 latency_ms=42 span=cf211c28
+2026-02-02T14:22:34Z INFO ledger-core tick ok elapsed_ms=64
+2026-02-02T14:22:42Z INFO ledger-core tick ok elapsed_ms=27
+2026-02-02T14:22:52Z INFO ledger-core tick ok elapsed_ms=93
+2026-02-02T14:22:59Z INFO ledger-core tick ok elapsed_ms=8
+2026-02-02T14:23:05Z INFO ledger-core tick ok elapsed_ms=61
+2026-02-02T14:23:17Z INFO ledger-core tick ok elapsed_ms=11
+2026-02-02T14:23:27Z INFO ledger-core http request method=GET status=200 latency_ms=68 span=f45b4ed6
+2026-02-02T14:23:41Z INFO ledger-core tick ok elapsed_ms=65
+2026-02-02T14:23:43Z ERR ledger-core upstream core-db status=503 span=92eb2717
+2026-02-02T14:23:45Z WARN ledger-core tower retry: attempt 2 for core-db
+2026-02-02T14:23:48Z ERR ledger-core request to core-db exhausted retry budget
+2026-02-02T14:23:49Z ERR ledger-core hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to core-db:1522 span=b370fb31
+2026-02-02T14:23:50Z ERR ledger-core hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to core-db:1522 span=0454029a
+2026-02-02T14:23:52Z ERR ledger-core hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to core-db:1522 span=19c9b9f8
+2026-02-02T14:23:53Z ERR ledger-core hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to core-db:1522 span=b5b34e8f
+2026-02-02T14:23:54Z INFO ledger-core tick ok elapsed_ms=84
+2026-02-02T14:23:55Z ERR ledger-core hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to core-db:1522 span=205e14e5
+2026-02-02T14:23:56Z ERR ledger-core upstream core-db status=503 span=2a2ee21c
+2026-02-02T14:23:58Z ERR ledger-core upstream core-db status=503 span=51870110
+2026-02-02T14:24:00Z ERR ledger-core hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to core-db:1522 span=a5e8fc63
+2026-02-02T14:24:01Z ERR ledger-core upstream core-db status=503 span=7bfa3c31
+2026-02-02T14:24:02Z INFO ledger-core tick ok elapsed_ms=9
+2026-02-02T14:24:03Z ERR ledger-core upstream core-db status=503 span=356ad3aa
+2026-02-02T14:24:06Z ERR ledger-core hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to core-db:1522 span=4bbe8afb
+2026-02-02T14:24:07Z ERR ledger-core hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to core-db:1522 span=81493e1a
+2026-02-02T14:24:09Z INFO ledger-core http request method=GET status=200 latency_ms=58 span=7a46fbac
+2026-02-02T14:24:09Z ERR ledger-core upstream core-db status=503 span=ff5a5233
+2026-02-02T14:24:12Z ERR ledger-core hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to core-db:1522 span=a171961f
+2026-02-02T14:24:13Z ERR ledger-core hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to core-db:1522 span=e639c427
+2026-02-02T14:24:15Z INFO ledger-core tick ok elapsed_ms=21
+2026-02-02T14:24:15Z ERR ledger-core hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to core-db:1522 span=8490ff52
+2026-02-02T14:24:17Z ERR ledger-core upstream core-db status=503 span=56c92648
+2026-02-02T14:24:18Z ERR ledger-core upstream core-db status=503 span=afb130c2
+2026-02-02T14:24:20Z ERR ledger-core hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to core-db:1522 span=46eddfdb
+2026-02-02T14:24:22Z INFO ledger-core http request method=GET status=200 latency_ms=68 span=fd935457
+2026-02-02T14:24:22Z ERR ledger-core upstream core-db status=503 span=b56cb485
+2026-02-02T14:24:24Z ERR ledger-core upstream core-db status=503 span=5c2f4d5b
+2026-02-02T14:24:25Z ERR ledger-core upstream core-db status=503 span=18374944
+2026-02-02T14:24:27Z ERR ledger-core hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to core-db:1522 span=f08fdac5
+2026-02-02T14:24:28Z ERR ledger-core upstream core-db status=503 span=32b62b8e
+2026-02-02T14:24:29Z ERR ledger-core upstream core-db status=503 span=dd0b8eaf
+2026-02-02T14:24:31Z ERR ledger-core upstream core-db status=503 span=2b3a16da
+2026-02-02T14:24:33Z INFO ledger-core http request method=GET status=200 latency_ms=82 span=b1e649eb
+2026-02-02T14:24:33Z ERR ledger-core upstream core-db status=503 span=853b0abb
+2026-02-02T14:24:36Z ERR ledger-core upstream core-db status=503 span=3ab20e04
+2026-02-02T14:24:38Z ERR ledger-core hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to core-db:1522 span=90e8af97
+2026-02-02T14:24:39Z INFO ledger-core http request method=GET status=200 latency_ms=63 span=f3f93196
+2026-02-02T14:24:39Z ERR ledger-core hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to core-db:1522 span=17d684b7
+2026-02-02T14:24:40Z ERR ledger-core upstream core-db status=503 span=b202b4f5
+2026-02-02T14:24:43Z ERR ledger-core hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to core-db:1522 span=5174c70b
+2026-02-02T14:24:45Z ERR ledger-core hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to core-db:1522 span=c8bda4f1
+2026-02-02T14:24:47Z ERR ledger-core hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to core-db:1522 span=cbcad903
+2026-02-02T14:24:48Z INFO ledger-core tick ok elapsed_ms=67
+2026-02-02T14:24:48Z ERR ledger-core hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to core-db:1522 span=a9598072
+2026-02-02T14:24:50Z ERR ledger-core upstream core-db status=503 span=e3eae346
+2026-02-02T14:24:51Z ERR ledger-core hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to core-db:1522 span=3cb4c33f
+2026-02-02T14:24:53Z ERR ledger-core hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to core-db:1522 span=c5020bfb
+2026-02-02T14:24:54Z ERR ledger-core upstream core-db status=503 span=3beeae06
+2026-02-02T14:24:55Z ERR ledger-core hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to core-db:1522 span=abec5320
+2026-02-02T14:24:58Z ERR ledger-core upstream core-db status=503 span=2d047237
+2026-02-02T14:24:59Z ERR ledger-core hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to core-db:1522 span=5895dbf3
+2026-02-02T14:25:00Z INFO ledger-core http request method=GET status=200 latency_ms=74 span=658e614d
+2026-02-02T14:25:01Z ERR ledger-core upstream core-db status=503 span=fce65b54
+2026-02-02T14:25:02Z ERR ledger-core hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to core-db:1522 span=f41b5050
+2026-02-02T14:25:04Z ERR ledger-core upstream core-db status=503 span=0b50c33e
+2026-02-02T14:25:07Z ERR ledger-core upstream core-db status=503 span=8d28d0c9
+2026-02-02T14:25:09Z ERR ledger-core hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to core-db:1522 span=42b4b933
+2026-02-02T14:25:11Z ERR ledger-core hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to core-db:1522 span=e4a76262
+2026-02-02T14:25:12Z ERR ledger-core upstream core-db status=503 span=1cc39209
+2026-02-02T14:25:14Z INFO ledger-core http request method=GET status=200 latency_ms=15 span=72e02747
+2026-02-02T14:25:15Z ERR ledger-core upstream core-db status=503 span=960aa12a
+2026-02-02T14:25:16Z ERR ledger-core upstream core-db status=503 span=3e234f8c
+2026-02-02T14:25:17Z ERR ledger-core hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to core-db:1522 span=376d2e2c
+2026-02-02T14:25:18Z ERR ledger-core hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to core-db:1522 span=437daab2
+2026-02-02T14:25:20Z ERR ledger-core hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to core-db:1522 span=1b057f42
+2026-02-02T14:25:22Z ERR ledger-core upstream core-db status=503 span=c6238c16
+2026-02-02T14:25:24Z INFO ledger-core tick ok elapsed_ms=80
+2026-02-02T14:25:24Z ERR ledger-core hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to core-db:1522 span=d56a8465
+2026-02-02T14:25:26Z ERR ledger-core hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to core-db:1522 span=88758f83
+2026-02-02T14:25:28Z ERR ledger-core upstream core-db status=503 span=f775ff17
+2026-02-02T14:25:29Z ERR ledger-core upstream core-db status=503 span=c28b3005
+2026-02-02T14:25:31Z ERR ledger-core upstream core-db status=503 span=a6d9fc15
+2026-02-02T14:25:32Z INFO ledger-core http request method=GET status=200 latency_ms=64 span=3ebb5328
+2026-02-02T14:25:33Z ERR ledger-core upstream core-db status=503 span=66671580
+2026-02-02T14:25:34Z ERR ledger-core upstream core-db status=503 span=f25f99e0
+2026-02-02T14:25:35Z ERR ledger-core hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to core-db:1522 span=3d3078ba
+2026-02-02T14:25:38Z ERR ledger-core hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to core-db:1522 span=181b4a8d
+2026-02-02T14:25:40Z ERR ledger-core hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to core-db:1522 span=601e4a12
+2026-02-02T14:25:41Z INFO ledger-core http request method=GET status=200 latency_ms=17 span=a73a2cc9
+2026-02-02T14:25:41Z ERR ledger-core upstream core-db status=503 span=82711ce3
+2026-02-02T14:25:43Z ERR ledger-core upstream core-db status=503 span=69093277
+2026-02-02T14:25:44Z ERR ledger-core upstream core-db status=503 span=0f8b39e4
+2026-02-02T14:25:46Z ERR ledger-core hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to core-db:1522 span=16191c08
+2026-02-02T14:25:48Z ERR ledger-core hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to core-db:1522 span=75e55f6b
+2026-02-02T14:25:49Z ERR ledger-core hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to core-db:1522 span=810399bb
+2026-02-02T14:25:51Z ERR ledger-core upstream core-db status=503 span=e2dbc181
+2026-02-02T14:25:53Z ERR ledger-core hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to core-db:1522 span=e6c5d8b8
+2026-02-02T14:25:54Z INFO ledger-core http request method=GET status=200 latency_ms=95 span=f9887686
+2026-02-02T14:25:55Z ERR ledger-core upstream core-db status=503 span=13d32830
+2026-02-02T14:25:58Z ERR ledger-core upstream core-db status=503 span=290e4396
+2026-02-02T14:26:00Z ERR ledger-core upstream core-db status=503 span=e7c412bd
+2026-02-02T14:26:02Z ERR ledger-core upstream core-db status=503 span=6108fc6e
+2026-02-02T14:26:04Z ERR ledger-core upstream core-db status=503 span=dda0acd3
+2026-02-02T14:26:06Z INFO ledger-core http request method=GET status=200 latency_ms=48 span=89c13f52
+2026-02-02T14:26:06Z ERR ledger-core upstream core-db status=503 span=75de1b1f
+2026-02-02T14:26:08Z ERR ledger-core hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to core-db:1522 span=d26ec2d3
+2026-02-02T14:26:10Z ERR ledger-core upstream core-db status=503 span=fad65e20
+2026-02-02T14:26:12Z ERR ledger-core upstream core-db status=503 span=df22cd3d
+2026-02-02T14:26:13Z ERR ledger-core upstream core-db status=503 span=0c4eaebf
+2026-02-02T14:26:15Z ERR ledger-core upstream core-db status=503 span=d88d3ce8
+2026-02-02T14:26:17Z ERR ledger-core hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to core-db:1522 span=386fc292
+2026-02-02T14:26:19Z INFO ledger-core tick ok elapsed_ms=52
+2026-02-02T14:26:19Z ERR ledger-core upstream core-db status=503 span=59c56f59
+2026-02-02T14:26:20Z ERR ledger-core upstream core-db status=503 span=7b62354f
+2026-02-02T14:26:22Z ERR ledger-core hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to core-db:1522 span=d5106d58
+2026-02-02T14:26:23Z ERR ledger-core hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to core-db:1522 span=5210b0dc
+2026-02-02T14:26:25Z ERR ledger-core hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to core-db:1522 span=adf71386
+2026-02-02T14:26:28Z INFO ledger-core tick ok elapsed_ms=59
+2026-02-02T14:26:28Z ERR ledger-core upstream core-db status=503 span=289bdb2c
+2026-02-02T14:26:30Z ERR ledger-core hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to core-db:1522 span=05cca14c
+2026-02-02T14:26:31Z ERR ledger-core upstream core-db status=503 span=ecd5e0eb
+2026-02-02T14:26:33Z ERR ledger-core upstream core-db status=503 span=cd45b392
+2026-02-02T14:26:34Z ERR ledger-core upstream core-db status=503 span=702c0dcd
+2026-02-02T14:26:37Z ERR ledger-core upstream core-db status=503 span=932e1234
+2026-02-02T14:26:38Z ERR ledger-core upstream core-db status=503 span=148af3d0
+2026-02-02T14:26:40Z INFO ledger-core http request method=GET status=200 latency_ms=32 span=36c655ed
+2026-02-02T14:26:40Z ERR ledger-core hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to core-db:1522 span=e27ef08e
+2026-02-02T14:26:42Z ERR ledger-core hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to core-db:1522 span=866840d7
+2026-02-02T14:26:43Z ERR ledger-core upstream core-db status=503 span=286241bb
+2026-02-02T14:26:46Z INFO ledger-core tick ok elapsed_ms=12
+2026-02-02T14:26:46Z ERR ledger-core upstream core-db status=503 span=158980a4
+2026-02-02T14:26:47Z ERR ledger-core upstream core-db status=503 span=138c8ba7
+2026-02-02T14:26:49Z ERR ledger-core hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to core-db:1522 span=7749608e
+2026-02-02T14:26:50Z ERR ledger-core hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to core-db:1522 span=dabf29fd
+2026-02-02T14:26:52Z ERR ledger-core upstream core-db status=503 span=d8135106
+2026-02-02T14:26:53Z INFO ledger-core tick ok elapsed_ms=36
+2026-02-02T14:26:53Z ERR ledger-core hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to core-db:1522 span=f9d3e5c3
+2026-02-02T14:26:55Z ERR ledger-core upstream core-db status=503 span=cf8dfec0
+2026-02-02T14:26:57Z ERR ledger-core hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to core-db:1522 span=012e878f
+2026-02-02T14:26:59Z ERR ledger-core hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to core-db:1522 span=3d751d15
+2026-02-02T14:27:01Z ERR ledger-core upstream core-db status=503 span=8c92790d
+2026-02-02T14:27:03Z ERR ledger-core hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to core-db:1522 span=2c0e8495
+2026-02-02T14:27:04Z INFO ledger-core tick ok elapsed_ms=94
+2026-02-02T14:27:05Z ERR ledger-core hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to core-db:1522 span=36a03a41
+2026-02-02T14:27:08Z ERR ledger-core hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to core-db:1522 span=bcbe1c7a
+2026-02-02T14:27:09Z ERR ledger-core hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to core-db:1522 span=00d4acc8
+2026-02-02T14:27:10Z ERR ledger-core upstream core-db status=503 span=fce439e3
+2026-02-02T14:27:12Z ERR ledger-core hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to core-db:1522 span=cb7b3295
+2026-02-02T14:27:14Z ERR ledger-core hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to core-db:1522 span=2669206e
+2026-02-02T14:27:16Z INFO ledger-core http request method=GET status=200 latency_ms=54 span=5d9d35fb
+2026-02-02T14:27:16Z ERR ledger-core hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to core-db:1522 span=fcfc5c8a
+2026-02-02T14:27:17Z ERR ledger-core upstream core-db status=503 span=2d6aa87e
+2026-02-02T14:27:19Z ERR ledger-core hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to core-db:1522 span=bf7ef173
+2026-02-02T14:27:21Z ERR ledger-core hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to core-db:1522 span=d6509de2
+2026-02-02T14:27:23Z ERR ledger-core upstream core-db status=503 span=076d23a5
+2026-02-02T14:27:24Z INFO ledger-core tick ok elapsed_ms=84
+2026-02-02T14:27:25Z ERR ledger-core upstream core-db status=503 span=291a3ba2
+2026-02-02T14:27:27Z ERR ledger-core upstream core-db status=503 span=9ce2c070
+2026-02-02T14:27:29Z ERR ledger-core hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to core-db:1522 span=7a9f8287
+2026-02-02T14:27:31Z INFO ledger-core http request method=GET status=200 latency_ms=39 span=06e7a00f
+2026-02-02T14:27:31Z ERR ledger-core upstream core-db status=503 span=ee9fff11
+2026-02-02T14:27:33Z ERR ledger-core hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to core-db:1522 span=92d90ebd
+2026-02-02T14:27:35Z ERR ledger-core hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to core-db:1522 span=ebb3220b
+2026-02-02T14:27:37Z ERR ledger-core hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to core-db:1522 span=48df36b4
+2026-02-02T14:27:38Z ERR ledger-core hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to core-db:1522 span=5343dff5
+2026-02-02T14:27:40Z ERR ledger-core upstream core-db status=503 span=dd1bc915
+2026-02-02T14:27:41Z ERR ledger-core upstream core-db status=503 span=27753848
+2026-02-02T14:27:43Z ERR ledger-core upstream core-db status=503 span=945c3172
+2026-02-02T14:27:45Z INFO ledger-core http request method=GET status=200 latency_ms=48 span=42300e21
+2026-02-02T14:27:45Z ERR ledger-core upstream core-db status=503 span=3e9c348b
+2026-02-02T14:27:47Z ERR ledger-core upstream core-db status=503 span=97169e26
+2026-02-02T14:27:48Z ERR ledger-core upstream core-db status=503 span=0143201e
+2026-02-02T14:27:49Z ERR ledger-core upstream core-db status=503 span=b0dcd948
+2026-02-02T14:27:51Z INFO ledger-core tick ok elapsed_ms=70
+2026-02-02T14:27:51Z ERR ledger-core upstream core-db status=503 span=bb3de30e
+2026-02-02T14:27:53Z ERR ledger-core upstream core-db status=503 span=1ab47d98
+2026-02-02T14:27:55Z ERR ledger-core upstream core-db status=503 span=02cc743c
+2026-02-02T14:27:57Z ERR ledger-core upstream core-db status=503 span=3d68c465
+2026-02-02T14:27:58Z INFO ledger-core http request method=GET status=200 latency_ms=25 span=15fe0dcd
+2026-02-02T14:27:59Z ERR ledger-core hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to core-db:1522 span=73ce9e42
+2026-02-02T14:28:00Z ERR ledger-core hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to core-db:1522 span=c9c3c602
+2026-02-02T14:28:01Z ERR ledger-core hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to core-db:1522 span=ef75f4a4
+2026-02-02T14:28:03Z ERR ledger-core hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to core-db:1522 span=125c3e2f
+2026-02-02T14:28:05Z ERR ledger-core upstream core-db status=503 span=c535fb6e
+2026-02-02T14:28:06Z ERR ledger-core upstream core-db status=503 span=603de0e1
+2026-02-02T14:28:07Z ERR ledger-core hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to core-db:1522 span=dc5ccd6e
+2026-02-02T14:28:08Z INFO ledger-core tick ok elapsed_ms=80
+2026-02-02T14:28:09Z ERR ledger-core upstream core-db status=503 span=8709acbd

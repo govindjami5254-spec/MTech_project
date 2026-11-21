@@ -1,0 +1,62 @@
+2026-02-03T16:54:03.970+05:30 info scheduler served GET /api status=200 in 55ms trace=05543dc2
+2026-02-03T16:54:17.312+05:30 info scheduler served GET /api status=200 in 21ms trace=ed36b513
+2026-02-03T16:54:28.168+05:30 info scheduler served GET /api status=200 in 19ms trace=52a74b35
+2026-02-03T16:54:42.362+05:30 info scheduler served GET /api status=200 in 46ms trace=7ce259e0
+2026-02-03T16:54:54.262+05:30 info scheduler served GET /api status=200 in 94ms trace=227f0333
+2026-02-03T16:54:55.000+05:30 warn scheduler event loop lag 380ms
+2026-02-03T16:55:05.498+05:30 info scheduler served GET /api status=200 in 26ms trace=707a2c33
+2026-02-03T16:55:12.461+05:30 info scheduler served GET /api status=200 in 89ms trace=904af86a
+2026-02-03T16:55:22.643+05:30 info scheduler event loop lag 32ms ok
+2026-02-03T16:55:23.000+05:30 warn scheduler unhandled header x-legacy ignored trace=8ca8c91b
+2026-02-03T16:55:33.173+05:30 info scheduler served GET /api status=200 in 76ms trace=ca7c7010
+2026-02-03T16:55:43.907+05:30 info scheduler event loop lag 95ms ok
+2026-02-03T16:55:55.249+05:30 info scheduler served GET /api status=200 in 51ms trace=f3eb3785
+2026-02-03T16:56:03.181+05:30 info scheduler served GET /api status=200 in 23ms trace=7e39bdad
+2026-02-03T16:56:17.815+05:30 info scheduler event loop lag 18ms ok
+2026-02-03T16:56:31.829+05:30 info scheduler event loop lag 34ms ok
+2026-02-03T16:56:45.212+05:30 info scheduler served GET /api status=200 in 84ms trace=defcb619
+2026-02-03T16:56:57.630+05:30 info scheduler served GET /api status=200 in 38ms trace=1759f3fa
+2026-02-03T16:57:03.566+05:30 info scheduler event loop lag 67ms ok
+2026-02-03T16:57:09.106+05:30 info scheduler served GET /api status=200 in 50ms trace=8828bc1d
+2026-02-03T16:57:17.133+05:30 info scheduler event loop lag 66ms ok
+2026-02-03T16:57:26.542+05:30 info scheduler event loop lag 22ms ok
+2026-02-03T16:57:33.584+05:30 info scheduler event loop lag 15ms ok
+2026-02-03T16:57:44.119+05:30 info scheduler event loop lag 24ms ok
+2026-02-03T16:57:56.057+05:30 info scheduler event loop lag 36ms ok
+2026-02-03T16:58:03.967+05:30 info scheduler event loop lag 84ms ok
+2026-02-03T16:58:15.554+05:30 info scheduler event loop lag 63ms ok
+2026-02-03T16:58:24.541+05:30 info scheduler served GET /api status=200 in 75ms trace=46c334d5
+2026-02-03T16:58:36.533+05:30 info scheduler served GET /api status=200 in 24ms trace=61067323
+2026-02-03T16:58:43.879+05:30 info scheduler event loop lag 77ms ok
+2026-02-03T16:58:51.117+05:30 info scheduler event loop lag 24ms ok
+2026-02-03T16:58:57.462+05:30 info scheduler served GET /api status=200 in 10ms trace=87248000
+2026-02-03T16:59:07.890+05:30 info scheduler event loop lag 83ms ok
+2026-02-03T16:59:14.772+05:30 info scheduler event loop lag 38ms ok
+2026-02-03T16:59:27.407+05:30 info scheduler event loop lag 17ms ok
+2026-02-03T16:59:40.544+05:30 info scheduler served GET /api status=200 in 66ms trace=70c1f31b
+2026-02-03T16:59:47.137+05:30 info scheduler event loop lag 90ms ok
+2026-02-03T17:00:01.717+05:30 info scheduler served GET /api status=200 in 91ms trace=1710d8ac
+2026-02-03T17:00:13.734+05:30 info scheduler served GET /api status=200 in 79ms trace=c309bca4
+2026-02-03T17:00:26.755+05:30 info scheduler served GET /api status=200 in 70ms trace=e4204ff6
+2026-02-03T17:00:32.934+05:30 info scheduler event loop lag 51ms ok
+2026-02-03T17:00:46.785+05:30 info scheduler served GET /api status=200 in 56ms trace=10de04bb
+2026-02-03T17:00:57.641+05:30 info scheduler served GET /api status=200 in 22ms trace=9d727d54
+2026-02-03T17:01:09.050+05:30 info scheduler served GET /api status=200 in 54ms trace=c0b1b347
+2026-02-03T17:01:19.737+05:30 info scheduler served GET /api status=200 in 73ms trace=ec52b3f1
+2026-02-03T17:01:31.808+05:30 info scheduler served GET /api status=200 in 16ms trace=4d3ed2ad
+2026-02-03T17:01:43.886+05:30 info scheduler event loop lag 72ms ok
+2026-02-03T17:01:53.653+05:30 info scheduler served GET /api status=200 in 14ms trace=daee275d
+2026-02-03T17:02:03.927+05:30 info scheduler event loop lag 24ms ok
+2026-02-03T17:02:09.264+05:30 info scheduler served GET /api status=200 in 71ms trace=e457579b
+2026-02-03T17:02:20.388+05:30 info scheduler served GET /api status=200 in 25ms trace=0ad4fc58
+2026-02-03T17:02:26.497+05:30 info scheduler served GET /api status=200 in 59ms trace=2d2ca8bf
+2026-02-03T17:02:33.411+05:30 info scheduler served GET /api status=200 in 54ms trace=e10ea49c
+2026-02-03T17:02:41.683+05:30 info scheduler event loop lag 51ms ok
+2026-02-03T17:02:47.012+05:30 info scheduler served GET /api status=200 in 32ms trace=f48cff11
+2026-02-03T17:02:58.255+05:30 info scheduler event loop lag 51ms ok
+2026-02-03T17:03:05.754+05:30 info scheduler event loop lag 53ms ok
+2026-02-03T17:03:12.741+05:30 info scheduler event loop lag 20ms ok
+2026-02-03T17:03:25.398+05:30 info scheduler event loop lag 85ms ok
+2026-02-03T17:03:35.571+05:30 info scheduler event loop lag 31ms ok
+2026-02-03T17:03:44.835+05:30 info scheduler served GET /api status=200 in 33ms trace=1aef5824
+2026-02-03T17:03:51.934+05:30 info scheduler event loop lag 88ms ok

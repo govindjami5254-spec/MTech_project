@@ -1,0 +1,64 @@
+2026-01-30 09:12:03,312 INFO thumbnailer GET /v1/items 200 42ms req_id=d3448547
+2026-01-30 09:12:15,538 INFO thumbnailer GET /v1/items 200 83ms req_id=ed9360ec
+2026-01-30 09:12:25,343 INFO thumbnailer worker heartbeat ok (93ms)
+2026-01-30 09:12:33,475 INFO thumbnailer worker heartbeat ok (95ms)
+2026-01-30 09:12:40,323 INFO thumbnailer worker heartbeat ok (47ms)
+2026-01-30 09:12:48,825 INFO thumbnailer GET /v1/items 200 10ms req_id=f64e5fb1
+2026-01-30 09:13:02,531 INFO thumbnailer GET /v1/items 200 54ms req_id=76fbaffc
+2026-01-30 09:13:16,896 INFO thumbnailer GET /v1/items 200 83ms req_id=1daabdf4
+2026-01-30 09:13:26,617 INFO thumbnailer worker heartbeat ok (19ms)
+2026-01-30 09:13:34,624 INFO thumbnailer worker heartbeat ok (27ms)
+2026-01-30 09:13:46,404 INFO thumbnailer GET /v1/items 200 69ms req_id=724cbac4
+2026-01-30 09:13:55,811 INFO thumbnailer worker heartbeat ok (34ms)
+2026-01-30 09:14:04,228 INFO thumbnailer worker heartbeat ok (32ms)
+2026-01-30 09:14:05,000 WARNING thumbnailer deprecated parameter 'page' used by client
+2026-01-30 09:14:18,854 INFO thumbnailer GET /v1/items 200 16ms req_id=37d0e534
+2026-01-30 09:14:32,532 INFO thumbnailer worker heartbeat ok (65ms)
+2026-01-30 09:14:40,370 INFO thumbnailer GET /v1/items 200 39ms req_id=9758831e
+2026-01-30 09:14:54,058 INFO thumbnailer GET /v1/items 200 84ms req_id=f7732f0e
+2026-01-30 09:15:04,731 INFO thumbnailer worker heartbeat ok (49ms)
+2026-01-30 09:15:14,059 INFO thumbnailer GET /v1/items 200 46ms req_id=da7ff280
+2026-01-30 09:15:15,000 WARNING thumbnailer slow query took 840ms req_id=1ebbff68
+2026-01-30 09:15:23,883 INFO thumbnailer worker heartbeat ok (71ms)
+2026-01-30 09:15:31,462 INFO thumbnailer worker heartbeat ok (79ms)
+2026-01-30 09:15:39,300 INFO thumbnailer worker heartbeat ok (86ms)
+2026-01-30 09:15:48,453 INFO thumbnailer worker heartbeat ok (33ms)
+2026-01-30 09:15:57,829 INFO thumbnailer GET /v1/items 200 95ms req_id=2139862d
+2026-01-30 09:16:11,103 INFO thumbnailer GET /v1/items 200 65ms req_id=4a06ac39
+2026-01-30 09:16:21,650 INFO thumbnailer GET /v1/items 200 10ms req_id=6a13fb81
+2026-01-30 09:16:34,465 INFO thumbnailer GET /v1/items 200 35ms req_id=516fd465
+2026-01-30 09:16:45,826 INFO thumbnailer GET /v1/items 200 25ms req_id=949adfb3
+2026-01-30 09:16:53,316 INFO thumbnailer worker heartbeat ok (77ms)
+2026-01-30 09:17:01,337 INFO thumbnailer worker heartbeat ok (29ms)
+2026-01-30 09:17:07,289 INFO thumbnailer GET /v1/items 200 73ms req_id=00ee1330
+2026-01-30 09:17:16,201 INFO thumbnailer GET /v1/items 200 89ms req_id=724fa806
+2026-01-30 09:17:25,320 INFO thumbnailer GET /v1/items 200 86ms req_id=b75a15b1
+2026-01-30 09:17:37,742 INFO thumbnailer worker heartbeat ok (57ms)
+2026-01-30 09:17:51,799 INFO thumbnailer GET /v1/items 200 9ms req_id=385749f0
+2026-01-30 09:18:04,938 INFO thumbnailer GET /v1/items 200 39ms req_id=fc42a9eb
+2026-01-30 09:18:15,676 INFO thumbnailer GET /v1/items 200 35ms req_id=6339e9b8
+2026-01-30 09:18:26,589 INFO thumbnailer GET /v1/items 200 9ms req_id=2b2ca221
+2026-01-30 09:18:32,881 INFO thumbnailer GET /v1/items 200 12ms req_id=7e4ee501
+2026-01-30 09:18:39,386 INFO thumbnailer worker heartbeat ok (46ms)
+2026-01-30 09:18:46,233 INFO thumbnailer GET /v1/items 200 11ms req_id=124f5e57
+2026-01-30 09:18:53,756 INFO thumbnailer worker heartbeat ok (37ms)
+2026-01-30 09:19:04,264 INFO thumbnailer worker heartbeat ok (17ms)
+2026-01-30 09:19:11,798 INFO thumbnailer GET /v1/items 200 81ms req_id=3582ec53
+2026-01-30 09:19:25,454 INFO thumbnailer GET /v1/items 200 95ms req_id=7d14cf0b
+2026-01-30 09:19:37,963 INFO thumbnailer worker heartbeat ok (54ms)
+2026-01-30 09:19:38,000 WARNING thumbnailer slow query took 410ms req_id=39553cd9
+2026-01-30 09:19:47,854 INFO thumbnailer GET /v1/items 200 44ms req_id=fa391d11
+2026-01-30 09:19:58,351 INFO thumbnailer GET /v1/items 200 57ms req_id=49948e5e
+2026-01-30 09:20:09,225 INFO thumbnailer GET /v1/items 200 38ms req_id=1318fb15
+2026-01-30 09:20:20,096 INFO thumbnailer GET /v1/items 200 23ms req_id=e837dbb5
+2026-01-30 09:20:31,805 INFO thumbnailer worker heartbeat ok (8ms)
+2026-01-30 09:20:45,491 INFO thumbnailer GET /v1/items 200 91ms req_id=005f6af5
+2026-01-30 09:20:58,839 INFO thumbnailer GET /v1/items 200 18ms req_id=9720de3b
+2026-01-30 09:21:05,441 INFO thumbnailer worker heartbeat ok (37ms)
+2026-01-30 09:21:13,712 INFO thumbnailer worker heartbeat ok (17ms)
+2026-01-30 09:21:14,000 WARNING thumbnailer deprecated parameter 'page' used by client
+2026-01-30 09:21:23,959 INFO thumbnailer GET /v1/items 200 69ms req_id=71a39989
+2026-01-30 09:21:32,473 INFO thumbnailer GET /v1/items 200 62ms req_id=14fdd4b5
+2026-01-30 09:21:44,008 INFO thumbnailer GET /v1/items 200 80ms req_id=10acbe68
+2026-01-30 09:21:51,573 INFO thumbnailer worker heartbeat ok (66ms)
+2026-01-30 09:21:57,210 INFO thumbnailer worker heartbeat ok (89ms)

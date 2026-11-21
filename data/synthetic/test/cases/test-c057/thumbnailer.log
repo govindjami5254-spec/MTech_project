@@ -1,0 +1,293 @@
+2026-01-05 09:51:52,499 INFO thumbnailer GET /v1/items 200 26ms req_id=222d3a81
+2026-01-05 09:52:02,183 WARNING thumbnailer thumbnail queue backlog 0 items
+2026-01-05 09:52:03,456 INFO thumbnailer GET /v1/items 200 9ms req_id=05279af5
+2026-01-05 09:52:04,448 WARNING thumbnailer thumbnail queue backlog 0 items
+2026-01-05 09:52:06,893 WARNING thumbnailer thumbnail queue backlog 0 items
+2026-01-05 09:52:10,205 WARNING thumbnailer thumbnail queue backlog 0 items
+2026-01-05 09:52:12,633 WARNING thumbnailer log shipping lag 250ms
+2026-01-05 09:52:14,998 WARNING thumbnailer log shipping lag 350ms
+2026-01-05 09:52:15,572 INFO thumbnailer GET /v1/items 200 90ms req_id=c1d735a1
+2026-01-05 09:52:18,707 WARNING thumbnailer log shipping lag 280ms
+2026-01-05 09:52:20,003 WARNING thumbnailer log shipping lag 350ms
+2026-01-05 09:52:21,639 INFO thumbnailer worker heartbeat ok (44ms)
+2026-01-05 09:52:23,040 WARNING thumbnailer log shipping lag 680ms
+2026-01-05 09:52:25,777 WARNING thumbnailer log shipping lag 710ms
+2026-01-05 09:52:27,276 WARNING thumbnailer thumbnail queue backlog 0 items
+2026-01-05 09:52:30,533 WARNING thumbnailer log shipping lag 230ms
+2026-01-05 09:52:33,858 WARNING thumbnailer log shipping lag 720ms
+2026-01-05 09:52:35,872 INFO thumbnailer worker heartbeat ok (88ms)
+2026-01-05 09:52:35,921 WARNING thumbnailer log shipping lag 80ms
+2026-01-05 09:52:37,528 WARNING thumbnailer thumbnail queue backlog 0 items
+2026-01-05 09:52:40,115 WARNING thumbnailer log shipping lag 310ms
+2026-01-05 09:52:43,448 WARNING thumbnailer log shipping lag 550ms
+2026-01-05 09:52:45,533 WARNING thumbnailer thumbnail queue backlog 0 items
+2026-01-05 09:52:48,898 WARNING thumbnailer log shipping lag 370ms
+2026-01-05 09:52:49,661 INFO thumbnailer worker heartbeat ok (77ms)
+2026-01-05 09:52:52,809 WARNING thumbnailer log shipping lag 420ms
+2026-01-05 09:52:55,704 WARNING thumbnailer thumbnail queue backlog 0 items
+2026-01-05 09:52:57,145 WARNING thumbnailer thumbnail queue backlog 0 items
+2026-01-05 09:53:00,035 WARNING thumbnailer thumbnail queue backlog 0 items
+2026-01-05 09:53:01,473 INFO thumbnailer GET /v1/items 200 26ms req_id=a833ae91
+2026-01-05 09:53:01,926 WARNING thumbnailer log shipping lag 780ms
+2026-01-05 09:53:04,136 WARNING thumbnailer thumbnail queue backlog 0 items
+2026-01-05 09:53:07,895 WARNING thumbnailer log shipping lag 830ms
+2026-01-05 09:53:09,509 INFO thumbnailer worker heartbeat ok (12ms)
+2026-01-05 09:53:10,826 WARNING thumbnailer log shipping lag 700ms
+2026-01-05 09:53:13,608 WARNING thumbnailer thumbnail queue backlog 0 items
+2026-01-05 09:53:14,937 WARNING thumbnailer log shipping lag 330ms
+2026-01-05 09:53:17,462 WARNING thumbnailer thumbnail queue backlog 0 items
+2026-01-05 09:53:18,460 INFO thumbnailer worker heartbeat ok (59ms)
+2026-01-05 09:53:20,881 WARNING thumbnailer thumbnail queue backlog 0 items
+2026-01-05 09:53:23,063 WARNING thumbnailer thumbnail queue backlog 0 items
+2026-01-05 09:53:24,595 WARNING thumbnailer log shipping lag 780ms
+2026-01-05 09:53:27,497 WARNING thumbnailer thumbnail queue backlog 0 items
+2026-01-05 09:53:28,296 INFO thumbnailer worker heartbeat ok (89ms)
+2026-01-05 09:53:29,000 WARNING thumbnailer slow query took 340ms req_id=4883f56f
+2026-01-05 09:53:29,963 WARNING thumbnailer thumbnail queue backlog 0 items
+2026-01-05 09:53:31,337 WARNING thumbnailer log shipping lag 210ms
+2026-01-05 09:53:34,263 WARNING thumbnailer thumbnail queue backlog 0 items
+2026-01-05 09:53:36,740 WARNING thumbnailer log shipping lag 270ms
+2026-01-05 09:53:38,954 INFO thumbnailer worker heartbeat ok (54ms)
+2026-01-05 09:53:40,069 WARNING thumbnailer thumbnail queue backlog 0 items
+2026-01-05 09:53:41,443 WARNING thumbnailer log shipping lag 660ms
+2026-01-05 09:53:43,806 WARNING thumbnailer thumbnail queue backlog 0 items
+2026-01-05 09:53:45,419 WARNING thumbnailer log shipping lag 790ms
+2026-01-05 09:53:47,666 WARNING thumbnailer log shipping lag 910ms
+2026-01-05 09:53:49,789 WARNING thumbnailer log shipping lag 750ms
+2026-01-05 09:53:51,855 WARNING thumbnailer log shipping lag 460ms
+2026-01-05 09:53:52,981 INFO thumbnailer GET /v1/items 200 15ms req_id=57f616fd
+2026-01-05 09:53:53,853 WARNING thumbnailer log shipping lag 310ms
+2026-01-05 09:53:55,782 WARNING thumbnailer log shipping lag 370ms
+2026-01-05 09:53:58,962 WARNING thumbnailer thumbnail queue backlog 0 items
+2026-01-05 09:54:01,080 WARNING thumbnailer log shipping lag 650ms
+2026-01-05 09:54:04,540 WARNING thumbnailer thumbnail queue backlog 0 items
+2026-01-05 09:54:06,719 INFO thumbnailer worker heartbeat ok (33ms)
+2026-01-05 09:54:07,487 WARNING thumbnailer log shipping lag 470ms
+2026-01-05 09:54:09,892 WARNING thumbnailer log shipping lag 670ms
+2026-01-05 09:54:12,680 INFO thumbnailer worker heartbeat ok (62ms)
+2026-01-05 09:54:12,918 WARNING thumbnailer thumbnail queue backlog 0 items
+2026-01-05 09:54:14,898 WARNING thumbnailer log shipping lag 420ms
+2026-01-05 09:54:16,906 WARNING thumbnailer log shipping lag 870ms
+2026-01-05 09:54:19,665 WARNING thumbnailer thumbnail queue backlog 0 items
+2026-01-05 09:54:21,777 WARNING thumbnailer log shipping lag 490ms
+2026-01-05 09:54:23,307 INFO thumbnailer worker heartbeat ok (78ms)
+2026-01-05 09:54:24,855 WARNING thumbnailer thumbnail queue backlog 0 items
+2026-01-05 09:54:26,483 WARNING thumbnailer log shipping lag 390ms
+2026-01-05 09:54:29,233 WARNING thumbnailer log shipping lag 450ms
+2026-01-05 09:54:31,847 WARNING thumbnailer thumbnail queue backlog 0 items
+2026-01-05 09:54:33,223 WARNING thumbnailer thumbnail queue backlog 0 items
+2026-01-05 09:54:36,301 INFO thumbnailer worker heartbeat ok (39ms)
+2026-01-05 09:54:36,647 WARNING thumbnailer thumbnail queue backlog 0 items
+2026-01-05 09:54:38,357 WARNING thumbnailer thumbnail queue backlog 0 items
+2026-01-05 09:54:40,332 WARNING thumbnailer thumbnail queue backlog 0 items
+2026-01-05 09:54:43,561 WARNING thumbnailer log shipping lag 690ms
+2026-01-05 09:54:44,984 WARNING thumbnailer log shipping lag 720ms
+2026-01-05 09:54:47,536 INFO thumbnailer GET /v1/items 200 84ms req_id=3e5fc860
+2026-01-05 09:54:48,000 WARNING thumbnailer deprecated parameter 'page' used by client
+2026-01-05 09:54:48,717 WARNING thumbnailer log shipping lag 550ms
+2026-01-05 09:54:50,448 WARNING thumbnailer thumbnail queue backlog 0 items
+2026-01-05 09:54:52,998 WARNING thumbnailer log shipping lag 290ms
+2026-01-05 09:54:56,660 WARNING thumbnailer log shipping lag 930ms
+2026-01-05 09:54:57,102 INFO thumbnailer worker heartbeat ok (79ms)
+2026-01-05 09:54:59,662 WARNING thumbnailer log shipping lag 480ms
+2026-01-05 09:55:01,292 WARNING thumbnailer log shipping lag 590ms
+2026-01-05 09:55:03,926 WARNING thumbnailer log shipping lag 730ms
+2026-01-05 09:55:05,987 WARNING thumbnailer thumbnail queue backlog 0 items
+2026-01-05 09:55:08,791 WARNING thumbnailer thumbnail queue backlog 0 items
+2026-01-05 09:55:10,215 INFO thumbnailer worker heartbeat ok (38ms)
+2026-01-05 09:55:11,884 WARNING thumbnailer thumbnail queue backlog 0 items
+2026-01-05 09:55:12,826 WARNING thumbnailer log shipping lag 190ms
+2026-01-05 09:55:16,704 WARNING thumbnailer log shipping lag 440ms
+2026-01-05 09:55:18,626 WARNING thumbnailer thumbnail queue backlog 0 items
+2026-01-05 09:55:19,484 WARNING thumbnailer thumbnail queue backlog 0 items
+2026-01-05 09:55:20,281 INFO thumbnailer worker heartbeat ok (39ms)
+2026-01-05 09:55:22,153 WARNING thumbnailer thumbnail queue backlog 0 items
+2026-01-05 09:55:24,300 WARNING thumbnailer thumbnail queue backlog 0 items
+2026-01-05 09:55:26,655 WARNING thumbnailer thumbnail queue backlog 0 items
+2026-01-05 09:55:29,125 WARNING thumbnailer thumbnail queue backlog 0 items
+2026-01-05 09:55:30,512 WARNING thumbnailer log shipping lag 470ms
+2026-01-05 09:55:32,699 WARNING thumbnailer log shipping lag 340ms
+2026-01-05 09:55:33,764 INFO thumbnailer worker heartbeat ok (67ms)
+2026-01-05 09:55:35,015 WARNING thumbnailer thumbnail queue backlog 0 items
+2026-01-05 09:55:37,676 WARNING thumbnailer thumbnail queue backlog 0 items
+2026-01-05 09:55:40,713 WARNING thumbnailer log shipping lag 130ms
+2026-01-05 09:55:43,915 INFO thumbnailer worker heartbeat ok (20ms)
+2026-01-05 09:55:44,508 WARNING thumbnailer thumbnail queue backlog 0 items
+2026-01-05 09:55:46,374 WARNING thumbnailer thumbnail queue backlog 0 items
+2026-01-05 09:55:49,423 WARNING thumbnailer thumbnail queue backlog 0 items
+2026-01-05 09:55:51,951 WARNING thumbnailer thumbnail queue backlog 0 items
+2026-01-05 09:55:54,790 WARNING thumbnailer thumbnail queue backlog 0 items
+2026-01-05 09:55:56,644 WARNING thumbnailer log shipping lag 470ms
+2026-01-05 09:55:57,881 INFO thumbnailer worker heartbeat ok (67ms)
+2026-01-05 09:55:59,655 WARNING thumbnailer thumbnail queue backlog 0 items
+2026-01-05 09:56:02,112 WARNING thumbnailer thumbnail queue backlog 0 items
+2026-01-05 09:56:04,086 WARNING thumbnailer thumbnail queue backlog 0 items
+2026-01-05 09:56:06,711 WARNING thumbnailer thumbnail queue backlog 0 items
+2026-01-05 09:56:08,754 WARNING thumbnailer log shipping lag 420ms
+2026-01-05 09:56:09,407 INFO thumbnailer worker heartbeat ok (57ms)
+2026-01-05 09:56:10,823 WARNING thumbnailer thumbnail queue backlog 0 items
+2026-01-05 09:56:12,610 WARNING thumbnailer thumbnail queue backlog 0 items
+2026-01-05 09:56:14,901 WARNING thumbnailer log shipping lag 320ms
+2026-01-05 09:56:18,381 WARNING thumbnailer log shipping lag 290ms
+2026-01-05 09:56:19,592 WARNING thumbnailer thumbnail queue backlog 0 items
+2026-01-05 09:56:21,975 WARNING thumbnailer log shipping lag 720ms
+2026-01-05 09:56:23,158 INFO thumbnailer worker heartbeat ok (85ms)
+2026-01-05 09:56:24,925 WARNING thumbnailer thumbnail queue backlog 0 items
+2026-01-05 09:56:26,760 WARNING thumbnailer log shipping lag 320ms
+2026-01-05 09:56:29,391 WARNING thumbnailer log shipping lag 490ms
+2026-01-05 09:56:31,292 WARNING thumbnailer log shipping lag 180ms
+2026-01-05 09:56:33,448 INFO thumbnailer worker heartbeat ok (57ms)
+2026-01-05 09:56:34,210 WARNING thumbnailer log shipping lag 560ms
+2026-01-05 09:56:37,427 WARNING thumbnailer thumbnail queue backlog 0 items
+2026-01-05 09:56:40,146 WARNING thumbnailer thumbnail queue backlog 0 items
+2026-01-05 09:56:42,918 WARNING thumbnailer thumbnail queue backlog 0 items
+2026-01-05 09:56:44,906 INFO thumbnailer worker heartbeat ok (46ms)
+2026-01-05 09:56:45,007 WARNING thumbnailer thumbnail queue backlog 0 items
+2026-01-05 09:56:48,479 WARNING thumbnailer thumbnail queue backlog 0 items
+2026-01-05 09:56:51,302 WARNING thumbnailer log shipping lag 730ms
+2026-01-05 09:56:53,716 INFO thumbnailer GET /v1/items 200 48ms req_id=216bca84
+2026-01-05 09:56:54,098 WARNING thumbnailer log shipping lag 640ms
+2026-01-05 09:56:57,542 WARNING thumbnailer log shipping lag 890ms
+2026-01-05 09:57:00,680 WARNING thumbnailer log shipping lag 190ms
+2026-01-05 09:57:03,107 WARNING thumbnailer thumbnail queue backlog 0 items
+2026-01-05 09:57:06,091 INFO thumbnailer worker heartbeat ok (86ms)
+2026-01-05 09:57:06,331 WARNING thumbnailer log shipping lag 280ms
+2026-01-05 09:57:08,510 WARNING thumbnailer log shipping lag 560ms
+2026-01-05 09:57:12,102 WARNING thumbnailer thumbnail queue backlog 0 items
+2026-01-05 09:57:14,863 WARNING thumbnailer thumbnail queue backlog 0 items
+2026-01-05 09:57:16,562 WARNING thumbnailer log shipping lag 870ms
+2026-01-05 09:57:17,337 INFO thumbnailer GET /v1/items 200 67ms req_id=b5866e9d
+2026-01-05 09:57:19,306 WARNING thumbnailer log shipping lag 180ms
+2026-01-05 09:57:21,240 WARNING thumbnailer log shipping lag 230ms
+2026-01-05 09:57:23,341 INFO thumbnailer GET /v1/items 200 80ms req_id=c574b917
+2026-01-05 09:57:24,051 WARNING thumbnailer log shipping lag 940ms
+2026-01-05 09:57:25,591 WARNING thumbnailer thumbnail queue backlog 0 items
+2026-01-05 09:57:27,932 WARNING thumbnailer thumbnail queue backlog 0 items
+2026-01-05 09:57:30,989 WARNING thumbnailer log shipping lag 160ms
+2026-01-05 09:57:33,632 INFO thumbnailer GET /v1/items 200 37ms req_id=91c224fc
+2026-01-05 09:57:33,656 WARNING thumbnailer thumbnail queue backlog 0 items
+2026-01-05 09:57:37,441 WARNING thumbnailer thumbnail queue backlog 0 items
+2026-01-05 09:57:39,951 WARNING thumbnailer log shipping lag 410ms
+2026-01-05 09:57:42,348 WARNING thumbnailer thumbnail queue backlog 0 items
+2026-01-05 09:57:43,843 INFO thumbnailer GET /v1/items 200 77ms req_id=92d9e815
+2026-01-05 09:57:44,749 WARNING thumbnailer thumbnail queue backlog 0 items
+2026-01-05 09:57:47,091 WARNING thumbnailer thumbnail queue backlog 0 items
+2026-01-05 09:57:49,593 WARNING thumbnailer thumbnail queue backlog 0 items
+2026-01-05 09:57:53,068 WARNING thumbnailer thumbnail queue backlog 0 items
+2026-01-05 09:57:55,206 WARNING thumbnailer thumbnail queue backlog 0 items
+2026-01-05 09:57:56,639 INFO thumbnailer GET /v1/items 200 91ms req_id=b9d01088
+2026-01-05 09:57:58,046 WARNING thumbnailer thumbnail queue backlog 0 items
+2026-01-05 09:58:01,304 WARNING thumbnailer thumbnail queue backlog 0 items
+2026-01-05 09:58:02,288 INFO thumbnailer GET /v1/items 200 10ms req_id=62701d0b
+2026-01-05 09:58:03,105 WARNING thumbnailer thumbnail queue backlog 0 items
+2026-01-05 09:58:05,761 WARNING thumbnailer log shipping lag 840ms
+2026-01-05 09:58:07,023 WARNING thumbnailer thumbnail queue backlog 0 items
+2026-01-05 09:58:10,692 WARNING thumbnailer thumbnail queue backlog 0 items
+2026-01-05 09:58:11,984 INFO thumbnailer GET /v1/items 200 18ms req_id=95c9c5f4
+2026-01-05 09:58:13,419 WARNING thumbnailer thumbnail queue backlog 0 items
+2026-01-05 09:58:14,800 WARNING thumbnailer log shipping lag 740ms
+2026-01-05 09:58:18,207 INFO thumbnailer worker heartbeat ok (80ms)
+2026-01-05 09:58:19,178 WARNING thumbnailer thumbnail queue backlog 0 items
+2026-01-05 09:58:20,719 WARNING thumbnailer log shipping lag 550ms
+2026-01-05 09:58:22,831 WARNING thumbnailer thumbnail queue backlog 0 items
+2026-01-05 09:58:24,705 WARNING thumbnailer thumbnail queue backlog 0 items
+2026-01-05 09:58:24,997 INFO thumbnailer worker heartbeat ok (30ms)
+2026-01-05 09:58:27,566 WARNING thumbnailer thumbnail queue backlog 0 items
+2026-01-05 09:58:30,630 WARNING thumbnailer thumbnail queue backlog 0 items
+2026-01-05 09:58:32,938 WARNING thumbnailer log shipping lag 810ms
+2026-01-05 09:58:35,873 WARNING thumbnailer thumbnail queue backlog 0 items
+2026-01-05 09:58:37,307 INFO thumbnailer worker heartbeat ok (47ms)
+2026-01-05 09:58:38,354 WARNING thumbnailer log shipping lag 930ms
+2026-01-05 09:58:41,217 WARNING thumbnailer log shipping lag 730ms
+2026-01-05 09:58:42,819 WARNING thumbnailer thumbnail queue backlog 0 items
+2026-01-05 09:58:46,137 WARNING thumbnailer log shipping lag 360ms
+2026-01-05 09:58:49,791 WARNING thumbnailer log shipping lag 900ms
+2026-01-05 09:58:49,982 INFO thumbnailer GET /v1/items 200 78ms req_id=8a4201ae
+2026-01-05 09:58:51,717 WARNING thumbnailer log shipping lag 470ms
+2026-01-05 09:58:53,044 WARNING thumbnailer log shipping lag 550ms
+2026-01-05 09:58:56,924 WARNING thumbnailer log shipping lag 530ms
+2026-01-05 09:58:59,321 WARNING thumbnailer log shipping lag 440ms
+2026-01-05 09:59:01,016 INFO thumbnailer worker heartbeat ok (57ms)
+2026-01-05 09:59:01,561 WARNING thumbnailer log shipping lag 320ms
+2026-01-05 09:59:04,515 WARNING thumbnailer log shipping lag 780ms
+2026-01-05 09:59:07,694 WARNING thumbnailer thumbnail queue backlog 0 items
+2026-01-05 09:59:10,106 WARNING thumbnailer thumbnail queue backlog 0 items
+2026-01-05 09:59:12,140 INFO thumbnailer worker heartbeat ok (31ms)
+2026-01-05 09:59:12,406 WARNING thumbnailer thumbnail queue backlog 0 items
+2026-01-05 09:59:13,450 WARNING thumbnailer log shipping lag 530ms
+2026-01-05 09:59:15,233 WARNING thumbnailer thumbnail queue backlog 0 items
+2026-01-05 09:59:19,577 WARNING thumbnailer thumbnail queue backlog 0 items
+2026-01-05 09:59:20,489 INFO thumbnailer GET /v1/items 200 62ms req_id=85cddcb4
+2026-01-05 09:59:20,658 WARNING thumbnailer thumbnail queue backlog 0 items
+2026-01-05 09:59:22,769 WARNING thumbnailer thumbnail queue backlog 0 items
+2026-01-05 09:59:24,845 WARNING thumbnailer log shipping lag 330ms
+2026-01-05 09:59:26,836 INFO thumbnailer GET /v1/items 200 16ms req_id=95121daf
+2026-01-05 09:59:27,499 WARNING thumbnailer thumbnail queue backlog 0 items
+2026-01-05 09:59:29,428 WARNING thumbnailer thumbnail queue backlog 0 items
+2026-01-05 09:59:32,039 WARNING thumbnailer log shipping lag 670ms
+2026-01-05 09:59:34,301 INFO thumbnailer worker heartbeat ok (58ms)
+2026-01-05 09:59:34,884 WARNING thumbnailer log shipping lag 550ms
+2026-01-05 09:59:36,718 WARNING thumbnailer log shipping lag 350ms
+2026-01-05 09:59:38,994 WARNING thumbnailer log shipping lag 490ms
+2026-01-05 09:59:41,476 WARNING thumbnailer log shipping lag 730ms
+2026-01-05 09:59:43,360 WARNING thumbnailer thumbnail queue backlog 0 items
+2026-01-05 09:59:46,143 INFO thumbnailer GET /v1/items 200 43ms req_id=6597be45
+2026-01-05 09:59:46,454 WARNING thumbnailer thumbnail queue backlog 0 items
+2026-01-05 09:59:49,486 WARNING thumbnailer thumbnail queue backlog 0 items
+2026-01-05 09:59:53,297 WARNING thumbnailer thumbnail queue backlog 0 items
+2026-01-05 09:59:53,990 INFO thumbnailer GET /v1/items 200 14ms req_id=be1851f7
+2026-01-05 09:59:55,909 WARNING thumbnailer thumbnail queue backlog 0 items
+2026-01-05 09:59:58,343 WARNING thumbnailer log shipping lag 510ms
+2026-01-05 10:00:00,966 WARNING thumbnailer log shipping lag 320ms
+2026-01-05 10:00:02,774 WARNING thumbnailer log shipping lag 630ms
+2026-01-05 10:00:05,400 INFO thumbnailer worker heartbeat ok (45ms)
+2026-01-05 10:00:06,000 WARNING thumbnailer deprecated parameter 'page' used by client
+2026-01-05 10:00:06,305 WARNING thumbnailer log shipping lag 830ms
+2026-01-05 10:00:07,773 WARNING thumbnailer thumbnail queue backlog 0 items
+2026-01-05 10:00:09,656 WARNING thumbnailer log shipping lag 760ms
+2026-01-05 10:00:11,332 WARNING thumbnailer thumbnail queue backlog 0 items
+2026-01-05 10:00:12,938 INFO thumbnailer GET /v1/items 200 64ms req_id=f3bf0543
+2026-01-05 10:00:14,881 WARNING thumbnailer log shipping lag 160ms
+2026-01-05 10:00:16,698 WARNING thumbnailer log shipping lag 800ms
+2026-01-05 10:00:19,613 WARNING thumbnailer thumbnail queue backlog 0 items
+2026-01-05 10:00:22,174 WARNING thumbnailer log shipping lag 470ms
+2026-01-05 10:00:24,214 WARNING thumbnailer thumbnail queue backlog 0 items
+2026-01-05 10:00:24,636 INFO thumbnailer worker heartbeat ok (63ms)
+2026-01-05 10:00:26,090 WARNING thumbnailer log shipping lag 150ms
+2026-01-05 10:00:28,618 WARNING thumbnailer thumbnail queue backlog 0 items
+2026-01-05 10:00:31,871 WARNING thumbnailer thumbnail queue backlog 0 items
+2026-01-05 10:00:34,818 WARNING thumbnailer log shipping lag 200ms
+2026-01-05 10:00:36,505 INFO thumbnailer worker heartbeat ok (94ms)
+2026-01-05 10:00:38,000 WARNING thumbnailer thumbnail queue backlog 0 items
+2026-01-05 10:00:39,551 WARNING thumbnailer log shipping lag 390ms
+2026-01-05 10:00:42,566 WARNING thumbnailer log shipping lag 820ms
+2026-01-05 10:00:45,376 WARNING thumbnailer thumbnail queue backlog 0 items
+2026-01-05 10:00:46,230 INFO thumbnailer GET /v1/items 200 35ms req_id=e8b9a4e6
+2026-01-05 10:00:48,105 WARNING thumbnailer thumbnail queue backlog 0 items
+2026-01-05 10:00:50,090 WARNING thumbnailer log shipping lag 630ms
+2026-01-05 10:00:51,918 WARNING thumbnailer log shipping lag 450ms
+2026-01-05 10:00:54,697 WARNING thumbnailer log shipping lag 170ms
+2026-01-05 10:00:56,874 WARNING thumbnailer log shipping lag 300ms
+2026-01-05 10:00:57,209 INFO thumbnailer GET /v1/items 200 25ms req_id=23d29a91
+2026-01-05 10:00:59,456 WARNING thumbnailer thumbnail queue backlog 0 items
+2026-01-05 10:01:02,059 WARNING thumbnailer log shipping lag 760ms
+2026-01-05 10:01:03,656 WARNING thumbnailer thumbnail queue backlog 0 items
+2026-01-05 10:01:05,093 INFO thumbnailer GET /v1/items 200 45ms req_id=15010036
+2026-01-05 10:01:07,147 WARNING thumbnailer log shipping lag 200ms
+2026-01-05 10:01:09,568 WARNING thumbnailer thumbnail queue backlog 0 items
+2026-01-05 10:01:11,878 WARNING thumbnailer thumbnail queue backlog 0 items
+2026-01-05 10:01:15,145 WARNING thumbnailer thumbnail queue backlog 0 items
+2026-01-05 10:01:16,969 WARNING thumbnailer log shipping lag 790ms
+2026-01-05 10:01:17,444 INFO thumbnailer worker heartbeat ok (14ms)
+2026-01-05 10:01:19,589 WARNING thumbnailer thumbnail queue backlog 0 items
+2026-01-05 10:01:22,740 WARNING thumbnailer log shipping lag 80ms
+2026-01-05 10:01:23,402 INFO thumbnailer GET /v1/items 200 42ms req_id=6b4f4a06
+2026-01-05 10:01:25,501 WARNING thumbnailer thumbnail queue backlog 0 items
+2026-01-05 10:01:27,422 WARNING thumbnailer log shipping lag 820ms
+2026-01-05 10:01:29,524 INFO thumbnailer worker heartbeat ok (94ms)
+2026-01-05 10:01:31,215 WARNING thumbnailer thumbnail queue backlog 0 items
+2026-01-05 10:01:32,680 WARNING thumbnailer thumbnail queue backlog 0 items
+2026-01-05 10:01:35,629 WARNING thumbnailer thumbnail queue backlog 0 items
+2026-01-05 10:01:38,969 WARNING thumbnailer thumbnail queue backlog 0 items
+2026-01-05 10:01:40,613 INFO thumbnailer worker heartbeat ok (44ms)
+2026-01-05 10:01:41,710 WARNING thumbnailer log shipping lag 850ms

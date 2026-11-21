@@ -1,0 +1,66 @@
+2026-01-09T09:56:33Z INFO pricing-svc request completed in 62ms status=200 rid=3bdc984e
+2026-01-09T09:56:45Z INFO pricing-svc request completed in 76ms status=200 rid=490e7d57
+2026-01-09T09:56:54Z INFO pricing-svc health check passed in 58ms
+2026-01-09T09:57:02Z INFO pricing-svc request completed in 85ms status=200 rid=7356e87c
+2026-01-09T09:57:10Z INFO pricing-svc request completed in 59ms status=200 rid=9b175dd9
+2026-01-09T09:57:21Z INFO pricing-svc health check passed in 50ms
+2026-01-09T09:57:32Z INFO pricing-svc health check passed in 35ms
+2026-01-09T09:57:45Z INFO pricing-svc request completed in 79ms status=200 rid=797bf927
+2026-01-09T09:57:53Z INFO pricing-svc health check passed in 80ms
+2026-01-09T09:58:07Z INFO pricing-svc health check passed in 75ms
+2026-01-09T09:58:15Z INFO pricing-svc request completed in 59ms status=200 rid=5b819155
+2026-01-09T09:58:22Z INFO pricing-svc health check passed in 19ms
+2026-01-09T09:58:35Z INFO pricing-svc request completed in 31ms status=200 rid=0a7047cb
+2026-01-09T09:58:43Z INFO pricing-svc health check passed in 65ms
+2026-01-09T09:58:50Z INFO pricing-svc health check passed in 55ms
+2026-01-09T09:58:59Z INFO pricing-svc request completed in 90ms status=200 rid=e7e7b57e
+2026-01-09T09:59:11Z INFO pricing-svc request completed in 28ms status=200 rid=6bea5cae
+2026-01-09T09:59:22Z INFO pricing-svc request completed in 9ms status=200 rid=aa327858
+2026-01-09T09:59:32Z INFO pricing-svc request completed in 94ms status=200 rid=214625c8
+2026-01-09T09:59:38Z INFO pricing-svc health check passed in 69ms
+2026-01-09T09:59:44Z INFO pricing-svc request completed in 84ms status=200 rid=3a6aace5
+2026-01-09T09:59:56Z INFO pricing-svc request completed in 22ms status=200 rid=4d5a1e30
+2026-01-09T10:00:04Z INFO pricing-svc request completed in 90ms status=200 rid=24c774e0
+2026-01-09T10:00:13Z INFO pricing-svc request completed in 28ms status=200 rid=2835c886
+2026-01-09T10:00:22Z INFO pricing-svc health check passed in 60ms
+2026-01-09T10:00:31Z INFO pricing-svc health check passed in 84ms
+2026-01-09T10:00:43Z INFO pricing-svc request completed in 65ms status=200 rid=5d2f9358
+2026-01-09T10:00:49Z INFO pricing-svc health check passed in 62ms
+2026-01-09T10:00:58Z INFO pricing-svc request completed in 43ms status=200 rid=6f8b6a3a
+2026-01-09T10:01:10Z INFO pricing-svc health check passed in 43ms
+2026-01-09T10:01:18Z ERROR pricing-svc call to inventory-db failed: HTTP 503 rid=b094f189
+2026-01-09T10:01:19Z INFO pricing-svc request completed in 49ms status=200 rid=0ba3998f
+2026-01-09T10:01:20Z WARN pricing-svc retrying call to inventory-db (attempt 2/3)
+2026-01-09T10:01:23Z ERROR pricing-svc giving up on inventory-db after 3 attempts
+2026-01-09T10:01:32Z INFO pricing-svc request completed in 35ms status=200 rid=1f5ef582
+2026-01-09T10:01:44Z INFO pricing-svc health check passed in 83ms
+2026-01-09T10:01:56Z INFO pricing-svc health check passed in 16ms
+2026-01-09T10:02:06Z INFO pricing-svc health check passed in 68ms
+2026-01-09T10:02:14Z INFO pricing-svc health check passed in 58ms
+2026-01-09T10:02:23Z INFO pricing-svc request completed in 76ms status=200 rid=c55e4613
+2026-01-09T10:02:37Z INFO pricing-svc health check passed in 55ms
+2026-01-09T10:02:47Z INFO pricing-svc request completed in 95ms status=200 rid=5cde8cfc
+2026-01-09T10:02:59Z INFO pricing-svc health check passed in 16ms
+2026-01-09T10:03:00Z WARN pricing-svc slow request 920ms rid=bdc857f3
+2026-01-09T10:03:12Z INFO pricing-svc health check passed in 65ms
+2026-01-09T10:03:19Z INFO pricing-svc request completed in 56ms status=200 rid=3b14668b
+2026-01-09T10:03:31Z INFO pricing-svc request completed in 16ms status=200 rid=9920796f
+2026-01-09T10:03:40Z INFO pricing-svc health check passed in 37ms
+2026-01-09T10:03:52Z INFO pricing-svc request completed in 32ms status=200 rid=a3457b2b
+2026-01-09T10:03:58Z INFO pricing-svc health check passed in 21ms
+2026-01-09T10:04:06Z INFO pricing-svc request completed in 72ms status=200 rid=6cf55f6f
+2026-01-09T10:04:16Z INFO pricing-svc health check passed in 35ms
+2026-01-09T10:04:26Z INFO pricing-svc health check passed in 63ms
+2026-01-09T10:04:37Z INFO pricing-svc request completed in 27ms status=200 rid=e5a00cff
+2026-01-09T10:04:51Z INFO pricing-svc request completed in 34ms status=200 rid=7d8aef73
+2026-01-09T10:04:59Z INFO pricing-svc health check passed in 84ms
+2026-01-09T10:05:12Z INFO pricing-svc request completed in 64ms status=200 rid=35b36c0d
+2026-01-09T10:05:13Z WARN pricing-svc slow request 700ms rid=b0e7dfed
+2026-01-09T10:05:18Z INFO pricing-svc request completed in 29ms status=200 rid=7a6f2bab
+2026-01-09T10:05:24Z INFO pricing-svc health check passed in 50ms
+2026-01-09T10:05:30Z INFO pricing-svc health check passed in 13ms
+2026-01-09T10:05:44Z INFO pricing-svc request completed in 78ms status=200 rid=c444de77
+2026-01-09T10:05:52Z INFO pricing-svc request completed in 50ms status=200 rid=8e7a03fa
+2026-01-09T10:06:00Z INFO pricing-svc request completed in 77ms status=200 rid=40e446fa
+2026-01-09T10:06:13Z INFO pricing-svc health check passed in 35ms
+2026-01-09T10:06:25Z INFO pricing-svc request completed in 94ms status=200 rid=f2826c6d

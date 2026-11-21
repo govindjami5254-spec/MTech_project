@@ -1,0 +1,69 @@
+2026-02-10T09:02:35Z INFO thumbnailer http request method=GET status=200 latency_ms=60 span=1006a8b3
+2026-02-10T09:02:47Z INFO thumbnailer http request method=GET status=200 latency_ms=16 span=acebb03c
+2026-02-10T09:02:56Z INFO thumbnailer http request method=GET status=200 latency_ms=79 span=329439ec
+2026-02-10T09:03:08Z INFO thumbnailer tick ok elapsed_ms=27
+2026-02-10T09:03:15Z INFO thumbnailer http request method=GET status=200 latency_ms=81 span=2818e3ca
+2026-02-10T09:03:16Z WARN thumbnailer client sent oversized header, truncated span=b36edbed
+2026-02-10T09:03:25Z INFO thumbnailer tick ok elapsed_ms=35
+2026-02-10T09:03:32Z INFO thumbnailer tick ok elapsed_ms=83
+2026-02-10T09:03:42Z INFO thumbnailer http request method=GET status=200 latency_ms=94 span=c6ee0640
+2026-02-10T09:03:56Z INFO thumbnailer tick ok elapsed_ms=84
+2026-02-10T09:04:05Z INFO thumbnailer http request method=GET status=200 latency_ms=48 span=7dfbd768
+2026-02-10T09:04:06Z WARN thumbnailer slow poll elapsed_ms=870
+2026-02-10T09:04:17Z INFO thumbnailer http request method=GET status=200 latency_ms=72 span=650e5dc6
+2026-02-10T09:04:26Z INFO thumbnailer http request method=GET status=200 latency_ms=85 span=b73e0842
+2026-02-10T09:04:36Z INFO thumbnailer tick ok elapsed_ms=28
+2026-02-10T09:04:49Z INFO thumbnailer http request method=GET status=200 latency_ms=67 span=74f4f5bb
+2026-02-10T09:04:57Z ERR thumbnailer background compaction of audit store failed: io error (will retry)
+2026-02-10T09:05:02Z INFO thumbnailer tick ok elapsed_ms=50
+2026-02-10T09:05:08Z ERR thumbnailer background compaction of audit store failed: io error (will retry)
+2026-02-10T09:05:12Z INFO thumbnailer http request method=GET status=200 latency_ms=48 span=208db017
+2026-02-10T09:05:20Z INFO thumbnailer tick ok elapsed_ms=90
+2026-02-10T09:05:27Z INFO thumbnailer http request method=GET status=200 latency_ms=23 span=223301bc
+2026-02-10T09:05:37Z INFO thumbnailer tick ok elapsed_ms=47
+2026-02-10T09:05:44Z INFO thumbnailer tick ok elapsed_ms=18
+2026-02-10T09:05:54Z INFO thumbnailer http request method=GET status=200 latency_ms=50 span=dcf8d997
+2026-02-10T09:06:04Z INFO thumbnailer tick ok elapsed_ms=26
+2026-02-10T09:06:05Z WARN thumbnailer client sent oversized header, truncated span=41baf68a
+2026-02-10T09:06:14Z INFO thumbnailer http request method=GET status=200 latency_ms=54 span=d6bf4b41
+2026-02-10T09:06:22Z INFO thumbnailer tick ok elapsed_ms=12
+2026-02-10T09:06:23Z WARN thumbnailer client sent oversized header, truncated span=63ce0787
+2026-02-10T09:06:32Z INFO thumbnailer http request method=GET status=200 latency_ms=45 span=758e8a3d
+2026-02-10T09:06:40Z INFO thumbnailer http request method=GET status=200 latency_ms=72 span=37039f25
+2026-02-10T09:06:54Z INFO thumbnailer http request method=GET status=200 latency_ms=12 span=2668efb7
+2026-02-10T09:07:07Z INFO thumbnailer http request method=GET status=200 latency_ms=31 span=a159ad6a
+2026-02-10T09:07:17Z INFO thumbnailer tick ok elapsed_ms=71
+2026-02-10T09:07:25Z INFO thumbnailer tick ok elapsed_ms=23
+2026-02-10T09:07:37Z INFO thumbnailer tick ok elapsed_ms=63
+2026-02-10T09:07:48Z INFO thumbnailer tick ok elapsed_ms=55
+2026-02-10T09:08:02Z INFO thumbnailer http request method=GET status=200 latency_ms=31 span=595e664f
+2026-02-10T09:08:15Z INFO thumbnailer tick ok elapsed_ms=46
+2026-02-10T09:08:27Z INFO thumbnailer tick ok elapsed_ms=61
+2026-02-10T09:08:41Z INFO thumbnailer tick ok elapsed_ms=36
+2026-02-10T09:08:48Z INFO thumbnailer http request method=GET status=200 latency_ms=87 span=e69da05e
+2026-02-10T09:09:01Z INFO thumbnailer http request method=GET status=200 latency_ms=35 span=f6cd2b8d
+2026-02-10T09:09:02Z WARN thumbnailer client sent oversized header, truncated span=c5fe012a
+2026-02-10T09:09:10Z INFO thumbnailer tick ok elapsed_ms=60
+2026-02-10T09:09:18Z INFO thumbnailer http request method=GET status=200 latency_ms=9 span=0ae1b3b3
+2026-02-10T09:09:24Z INFO thumbnailer tick ok elapsed_ms=63
+2026-02-10T09:09:32Z INFO thumbnailer tick ok elapsed_ms=37
+2026-02-10T09:09:38Z INFO thumbnailer http request method=GET status=200 latency_ms=89 span=3d0915bb
+2026-02-10T09:09:49Z INFO thumbnailer http request method=GET status=200 latency_ms=31 span=5d55f217
+2026-02-10T09:09:56Z INFO thumbnailer tick ok elapsed_ms=83
+2026-02-10T09:10:06Z INFO thumbnailer http request method=GET status=200 latency_ms=48 span=a0300d8a
+2026-02-10T09:10:20Z INFO thumbnailer http request method=GET status=200 latency_ms=63 span=13d70326
+2026-02-10T09:10:30Z INFO thumbnailer http request method=GET status=200 latency_ms=94 span=00ac7b13
+2026-02-10T09:10:40Z INFO thumbnailer http request method=GET status=200 latency_ms=31 span=806092d9
+2026-02-10T09:10:49Z INFO thumbnailer http request method=GET status=200 latency_ms=57 span=c351dfd1
+2026-02-10T09:10:50Z WARN thumbnailer slow poll elapsed_ms=870
+2026-02-10T09:10:55Z INFO thumbnailer tick ok elapsed_ms=59
+2026-02-10T09:11:05Z INFO thumbnailer tick ok elapsed_ms=67
+2026-02-10T09:11:17Z INFO thumbnailer tick ok elapsed_ms=28
+2026-02-10T09:11:24Z INFO thumbnailer http request method=GET status=200 latency_ms=21 span=45f4efef
+2026-02-10T09:11:33Z INFO thumbnailer http request method=GET status=200 latency_ms=27 span=2993faf7
+2026-02-10T09:11:44Z INFO thumbnailer tick ok elapsed_ms=44
+2026-02-10T09:11:53Z INFO thumbnailer tick ok elapsed_ms=36
+2026-02-10T09:12:02Z INFO thumbnailer tick ok elapsed_ms=71
+2026-02-10T09:12:08Z INFO thumbnailer http request method=GET status=200 latency_ms=16 span=3640d540
+2026-02-10T09:12:19Z INFO thumbnailer tick ok elapsed_ms=47
+2026-02-10T09:12:28Z INFO thumbnailer tick ok elapsed_ms=40

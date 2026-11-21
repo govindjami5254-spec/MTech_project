@@ -1,0 +1,59 @@
+2026-02-01 12:42:08,967 INFO fare-cache worker heartbeat ok (67ms)
+2026-02-01 12:42:15,146 INFO fare-cache worker heartbeat ok (61ms)
+2026-02-01 12:42:29,461 INFO fare-cache GET /v1/items 200 48ms req_id=402cf82b
+2026-02-01 12:42:35,801 INFO fare-cache GET /v1/items 200 61ms req_id=c677f2c1
+2026-02-01 12:42:46,006 INFO fare-cache GET /v1/items 200 26ms req_id=8cbac90d
+2026-02-01 12:42:59,013 INFO fare-cache GET /v1/items 200 53ms req_id=b2df5de1
+2026-02-01 12:43:05,776 INFO fare-cache worker heartbeat ok (47ms)
+2026-02-01 12:43:12,586 INFO fare-cache GET /v1/items 200 37ms req_id=1ca4dec3
+2026-02-01 12:43:23,823 INFO fare-cache worker heartbeat ok (79ms)
+2026-02-01 12:43:37,704 INFO fare-cache worker heartbeat ok (84ms)
+2026-02-01 12:43:45,029 INFO fare-cache GET /v1/items 200 38ms req_id=d8a53375
+2026-02-01 12:43:58,056 INFO fare-cache worker heartbeat ok (58ms)
+2026-02-01 12:44:06,119 INFO fare-cache worker heartbeat ok (9ms)
+2026-02-01 12:44:19,142 INFO fare-cache GET /v1/items 200 71ms req_id=9be6ced4
+2026-02-01 12:44:30,943 INFO fare-cache worker heartbeat ok (49ms)
+2026-02-01 12:44:41,461 INFO fare-cache GET /v1/items 200 59ms req_id=e889e3da
+2026-02-01 12:44:47,874 INFO fare-cache GET /v1/items 200 46ms req_id=10232df6
+2026-02-01 12:44:58,607 INFO fare-cache worker heartbeat ok (62ms)
+2026-02-01 12:45:10,397 INFO fare-cache worker heartbeat ok (39ms)
+2026-02-01 12:45:17,985 INFO fare-cache worker heartbeat ok (43ms)
+2026-02-01 12:45:26,567 INFO fare-cache worker heartbeat ok (88ms)
+2026-02-01 12:45:40,550 INFO fare-cache GET /v1/items 200 44ms req_id=7ab14498
+2026-02-01 12:45:47,622 INFO fare-cache worker heartbeat ok (68ms)
+2026-02-01 12:45:57,137 INFO fare-cache GET /v1/items 200 36ms req_id=2cc07f56
+2026-02-01 12:46:06,737 INFO fare-cache worker heartbeat ok (68ms)
+2026-02-01 12:46:20,398 INFO fare-cache worker heartbeat ok (18ms)
+2026-02-01 12:46:27,711 INFO fare-cache GET /v1/items 200 85ms req_id=614c6a22
+2026-02-01 12:46:40,131 INFO fare-cache GET /v1/items 200 33ms req_id=07e819b6
+2026-02-01 12:46:53,636 INFO fare-cache GET /v1/items 200 90ms req_id=da7e2057
+2026-02-01 12:47:06,884 INFO fare-cache GET /v1/items 200 42ms req_id=932f6bc7
+2026-02-01 12:47:18,093 INFO fare-cache worker heartbeat ok (13ms)
+2026-02-01 12:47:29,360 INFO fare-cache GET /v1/items 200 14ms req_id=04ae6146
+2026-02-01 12:47:38,561 INFO fare-cache GET /v1/items 200 90ms req_id=68098af4
+2026-02-01 12:47:46,578 INFO fare-cache worker heartbeat ok (85ms)
+2026-02-01 12:47:55,066 INFO fare-cache GET /v1/items 200 83ms req_id=e148ca75
+2026-02-01 12:48:01,298 INFO fare-cache GET /v1/items 200 95ms req_id=29615418
+2026-02-01 12:48:07,388 INFO fare-cache GET /v1/items 200 45ms req_id=c0b0de3f
+2026-02-01 12:48:14,554 INFO fare-cache worker heartbeat ok (90ms)
+2026-02-01 12:48:20,445 INFO fare-cache GET /v1/items 200 25ms req_id=2e2c368c
+2026-02-01 12:48:30,774 INFO fare-cache worker heartbeat ok (94ms)
+2026-02-01 12:48:36,044 INFO fare-cache worker heartbeat ok (64ms)
+2026-02-01 12:48:49,983 INFO fare-cache GET /v1/items 200 92ms req_id=e56cff66
+2026-02-01 12:49:01,326 INFO fare-cache worker heartbeat ok (44ms)
+2026-02-01 12:49:13,534 INFO fare-cache worker heartbeat ok (10ms)
+2026-02-01 12:49:24,584 INFO fare-cache GET /v1/items 200 39ms req_id=c7869a2e
+2026-02-01 12:49:35,581 INFO fare-cache worker heartbeat ok (46ms)
+2026-02-01 12:49:43,825 INFO fare-cache worker heartbeat ok (25ms)
+2026-02-01 12:49:53,325 INFO fare-cache GET /v1/items 200 45ms req_id=8e326736
+2026-02-01 12:50:06,959 INFO fare-cache worker heartbeat ok (37ms)
+2026-02-01 12:50:13,175 INFO fare-cache worker heartbeat ok (70ms)
+2026-02-01 12:50:25,013 INFO fare-cache worker heartbeat ok (22ms)
+2026-02-01 12:50:36,125 INFO fare-cache GET /v1/items 200 67ms req_id=4b6947d5
+2026-02-01 12:50:42,680 INFO fare-cache GET /v1/items 200 87ms req_id=043c11c8
+2026-02-01 12:50:53,883 INFO fare-cache GET /v1/items 200 69ms req_id=68c1fb4d
+2026-02-01 12:51:06,820 INFO fare-cache worker heartbeat ok (30ms)
+2026-02-01 12:51:15,760 INFO fare-cache worker heartbeat ok (20ms)
+2026-02-01 12:51:28,525 INFO fare-cache worker heartbeat ok (92ms)
+2026-02-01 12:51:39,965 INFO fare-cache worker heartbeat ok (59ms)
+2026-02-01 12:51:48,132 INFO fare-cache GET /v1/items 200 46ms req_id=218b81c9

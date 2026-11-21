@@ -1,0 +1,60 @@
+2026-01-30 10:39:21,868 INFO core-db GET /v1/items 200 60ms req_id=081b317d
+2026-01-30 10:39:35,346 INFO core-db worker heartbeat ok (49ms)
+2026-01-30 10:39:45,302 INFO core-db worker heartbeat ok (35ms)
+2026-01-30 10:39:53,194 INFO core-db worker heartbeat ok (28ms)
+2026-01-30 10:40:02,892 INFO core-db GET /v1/items 200 16ms req_id=fd0f5a77
+2026-01-30 10:40:11,740 INFO core-db worker heartbeat ok (75ms)
+2026-01-30 10:40:19,952 INFO core-db worker heartbeat ok (38ms)
+2026-01-30 10:40:26,629 INFO core-db GET /v1/items 200 10ms req_id=5f6720c0
+2026-01-30 10:40:32,590 INFO core-db GET /v1/items 200 90ms req_id=5ac72423
+2026-01-30 10:40:41,672 INFO core-db GET /v1/items 200 9ms req_id=21bfefd0
+2026-01-30 10:40:55,642 INFO core-db GET /v1/items 200 20ms req_id=19f03270
+2026-01-30 10:41:07,115 INFO core-db GET /v1/items 200 36ms req_id=6e8b131d
+2026-01-30 10:41:14,794 INFO core-db worker heartbeat ok (19ms)
+2026-01-30 10:41:21,725 INFO core-db GET /v1/items 200 71ms req_id=d86ea12b
+2026-01-30 10:41:33,388 INFO core-db GET /v1/items 200 50ms req_id=d9508a22
+2026-01-30 10:41:41,826 INFO core-db worker heartbeat ok (8ms)
+2026-01-30 10:41:53,553 INFO core-db GET /v1/items 200 15ms req_id=eabef59d
+2026-01-30 10:41:59,037 INFO core-db worker heartbeat ok (37ms)
+2026-01-30 10:42:09,666 INFO core-db GET /v1/items 200 69ms req_id=6b992e05
+2026-01-30 10:42:17,428 INFO core-db worker heartbeat ok (20ms)
+2026-01-30 10:42:24,972 INFO core-db GET /v1/items 200 53ms req_id=717b8560
+2026-01-30 10:42:36,522 INFO core-db GET /v1/items 200 16ms req_id=aa806e6f
+2026-01-30 10:42:45,497 INFO core-db GET /v1/items 200 45ms req_id=8443ec6f
+2026-01-30 10:42:54,311 INFO core-db worker heartbeat ok (90ms)
+2026-01-30 10:43:08,991 INFO core-db GET /v1/items 200 39ms req_id=a5307214
+2026-01-30 10:43:17,260 INFO core-db worker heartbeat ok (69ms)
+2026-01-30 10:43:25,342 INFO core-db GET /v1/items 200 36ms req_id=e2c38360
+2026-01-30 10:43:35,013 INFO core-db worker heartbeat ok (70ms)
+2026-01-30 10:43:43,421 INFO core-db GET /v1/items 200 62ms req_id=cb08b263
+2026-01-30 10:43:57,695 INFO core-db worker heartbeat ok (45ms)
+2026-01-30 10:44:08,358 INFO core-db worker heartbeat ok (59ms)
+2026-01-30 10:44:21,339 INFO core-db GET /v1/items 200 66ms req_id=ab183323
+2026-01-30 10:44:35,173 INFO core-db GET /v1/items 200 36ms req_id=a6d7dbcd
+2026-01-30 10:44:42,054 INFO core-db worker heartbeat ok (80ms)
+2026-01-30 10:44:53,369 INFO core-db GET /v1/items 200 72ms req_id=94f755cb
+2026-01-30 10:45:06,841 INFO core-db GET /v1/items 200 87ms req_id=bd54c29d
+2026-01-30 10:45:18,484 INFO core-db worker heartbeat ok (13ms)
+2026-01-30 10:45:31,134 INFO core-db worker heartbeat ok (11ms)
+2026-01-30 10:45:45,903 INFO core-db worker heartbeat ok (34ms)
+2026-01-30 10:45:59,227 INFO core-db worker heartbeat ok (9ms)
+2026-01-30 10:46:12,010 INFO core-db worker heartbeat ok (24ms)
+2026-01-30 10:46:25,835 INFO core-db worker heartbeat ok (45ms)
+2026-01-30 10:46:39,353 INFO core-db GET /v1/items 200 25ms req_id=49df8540
+2026-01-30 10:46:50,123 INFO core-db GET /v1/items 200 80ms req_id=4f11aa1b
+2026-01-30 10:47:02,219 INFO core-db worker heartbeat ok (80ms)
+2026-01-30 10:47:08,003 INFO core-db worker heartbeat ok (18ms)
+2026-01-30 10:47:20,790 INFO core-db GET /v1/items 200 85ms req_id=13c99199
+2026-01-30 10:47:34,237 INFO core-db GET /v1/items 200 63ms req_id=80531e66
+2026-01-30 10:47:47,629 INFO core-db worker heartbeat ok (18ms)
+2026-01-30 10:47:55,512 INFO core-db worker heartbeat ok (52ms)
+2026-01-30 10:48:01,167 INFO core-db worker heartbeat ok (57ms)
+2026-01-30 10:48:11,991 INFO core-db GET /v1/items 200 20ms req_id=4363d7ed
+2026-01-30 10:48:20,763 INFO core-db GET /v1/items 200 57ms req_id=0e7d7b0d
+2026-01-30 10:48:31,708 INFO core-db GET /v1/items 200 81ms req_id=caf665c3
+2026-01-30 10:48:39,898 INFO core-db GET /v1/items 200 8ms req_id=0ab7b50d
+2026-01-30 10:48:40,000 WARNING core-db slow query took 440ms req_id=fa232a2f
+2026-01-30 10:48:50,132 INFO core-db GET /v1/items 200 73ms req_id=a1ed012e
+2026-01-30 10:49:04,142 INFO core-db worker heartbeat ok (55ms)
+2026-01-30 10:49:10,021 INFO core-db GET /v1/items 200 42ms req_id=459d5166
+2026-01-30 10:49:17,498 INFO core-db GET /v1/items 200 48ms req_id=9162d229

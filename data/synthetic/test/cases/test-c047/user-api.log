@@ -1,0 +1,62 @@
+2026-01-05 14:44:07,016 INFO user-api GET /v1/items 200 28ms req_id=8e2537e1
+2026-01-05 14:44:21,334 INFO user-api worker heartbeat ok (38ms)
+2026-01-05 14:44:29,659 INFO user-api GET /v1/items 200 59ms req_id=442c0e36
+2026-01-05 14:44:36,912 INFO user-api GET /v1/items 200 23ms req_id=c7613b73
+2026-01-05 14:44:42,301 INFO user-api worker heartbeat ok (28ms)
+2026-01-05 14:44:51,563 INFO user-api GET /v1/items 200 23ms req_id=31903ae8
+2026-01-05 14:45:01,125 INFO user-api worker heartbeat ok (30ms)
+2026-01-05 14:45:14,546 INFO user-api worker heartbeat ok (45ms)
+2026-01-05 14:45:23,253 INFO user-api worker heartbeat ok (63ms)
+2026-01-05 14:45:33,679 INFO user-api worker heartbeat ok (69ms)
+2026-01-05 14:45:42,886 INFO user-api worker heartbeat ok (47ms)
+2026-01-05 14:45:52,438 INFO user-api worker heartbeat ok (26ms)
+2026-01-05 14:46:05,990 INFO user-api GET /v1/items 200 13ms req_id=c5c8b250
+2026-01-05 14:46:15,384 INFO user-api worker heartbeat ok (21ms)
+2026-01-05 14:46:23,194 INFO user-api GET /v1/items 200 28ms req_id=feddc3dd
+2026-01-05 14:46:29,791 INFO user-api worker heartbeat ok (49ms)
+2026-01-05 14:46:40,163 INFO user-api GET /v1/items 200 44ms req_id=339389e7
+2026-01-05 14:46:47,138 INFO user-api worker heartbeat ok (45ms)
+2026-01-05 14:47:01,941 INFO user-api GET /v1/items 200 70ms req_id=bfb17e7f
+2026-01-05 14:47:13,841 INFO user-api worker heartbeat ok (46ms)
+2026-01-05 14:47:19,392 INFO user-api worker heartbeat ok (79ms)
+2026-01-05 14:47:33,686 INFO user-api GET /v1/items 200 61ms req_id=ce68ab6d
+2026-01-05 14:47:47,801 INFO user-api GET /v1/items 200 29ms req_id=e7e3e501
+2026-01-05 14:47:57,400 INFO user-api worker heartbeat ok (14ms)
+2026-01-05 14:48:06,350 INFO user-api GET /v1/items 200 41ms req_id=47b8171e
+2026-01-05 14:48:19,290 INFO user-api worker heartbeat ok (61ms)
+2026-01-05 14:48:31,970 INFO user-api GET /v1/items 200 85ms req_id=16820633
+2026-01-05 14:48:44,164 INFO user-api worker heartbeat ok (75ms)
+2026-01-05 14:48:54,721 INFO user-api worker heartbeat ok (55ms)
+2026-01-05 14:49:07,289 INFO user-api GET /v1/items 200 20ms req_id=bea70234
+2026-01-05 14:49:14,433 INFO user-api worker heartbeat ok (82ms)
+2026-01-05 14:49:22,823 INFO user-api GET /v1/items 200 59ms req_id=b30ae43b
+2026-01-05 14:49:31,284 INFO user-api GET /v1/items 200 14ms req_id=0d3ce63c
+2026-01-05 14:49:42,463 INFO user-api worker heartbeat ok (9ms)
+2026-01-05 14:49:53,963 INFO user-api GET /v1/items 200 81ms req_id=b713c5b7
+2026-01-05 14:50:05,214 INFO user-api worker heartbeat ok (74ms)
+2026-01-05 14:50:13,884 INFO user-api GET /v1/items 200 44ms req_id=c057b51a
+2026-01-05 14:50:27,913 INFO user-api worker heartbeat ok (82ms)
+2026-01-05 14:50:37,789 INFO user-api GET /v1/items 200 31ms req_id=01b31878
+2026-01-05 14:50:44,395 INFO user-api GET /v1/items 200 37ms req_id=ce11cd69
+2026-01-05 14:50:58,928 INFO user-api GET /v1/items 200 95ms req_id=3a481ddd
+2026-01-05 14:51:06,159 INFO user-api GET /v1/items 200 63ms req_id=4a264b0b
+2026-01-05 14:51:18,474 INFO user-api worker heartbeat ok (67ms)
+2026-01-05 14:51:28,763 INFO user-api worker heartbeat ok (82ms)
+2026-01-05 14:51:39,407 INFO user-api worker heartbeat ok (8ms)
+2026-01-05 14:51:48,217 INFO user-api worker heartbeat ok (89ms)
+2026-01-05 14:51:56,724 INFO user-api GET /v1/items 200 39ms req_id=72208818
+2026-01-05 14:52:03,554 INFO user-api GET /v1/items 200 31ms req_id=99abd42b
+2026-01-05 14:52:10,592 INFO user-api worker heartbeat ok (61ms)
+2026-01-05 14:52:19,914 INFO user-api worker heartbeat ok (60ms)
+2026-01-05 14:52:25,378 INFO user-api GET /v1/items 200 32ms req_id=509f9315
+2026-01-05 14:52:33,562 INFO user-api GET /v1/items 200 51ms req_id=64296e13
+2026-01-05 14:52:39,968 INFO user-api worker heartbeat ok (77ms)
+2026-01-05 14:52:51,421 INFO user-api worker heartbeat ok (36ms)
+2026-01-05 14:52:58,849 INFO user-api GET /v1/items 200 24ms req_id=8c4a8280
+2026-01-05 14:53:04,203 INFO user-api GET /v1/items 200 10ms req_id=b165baa0
+2026-01-05 14:53:15,490 INFO user-api GET /v1/items 200 62ms req_id=dd1e08aa
+2026-01-05 14:53:28,847 INFO user-api GET /v1/items 200 13ms req_id=e1813f50
+2026-01-05 14:53:34,857 INFO user-api GET /v1/items 200 81ms req_id=8a920020
+2026-01-05 14:53:48,111 INFO user-api worker heartbeat ok (60ms)
+2026-01-05 14:53:58,418 INFO user-api worker heartbeat ok (62ms)
+2026-01-05 14:53:59,000 WARNING user-api deprecated parameter 'page' used by client

@@ -1,0 +1,302 @@
+2026-01-19T15:05:43.611+05:30 info batch-exporter served GET /api status=200 in 43ms trace=25ec225a
+2026-01-19T15:05:43.990+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:05:46.606+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:05:49.986+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:05:51.564+05:30 info batch-exporter served GET /api status=200 in 76ms trace=c969342f
+2026-01-19T15:05:52.721+05:30 warn batch-exporter export job lag 0 rows behind
+2026-01-19T15:05:54.448+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:05:58.134+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:06:00.549+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:06:03.372+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:06:04.680+05:30 info batch-exporter served GET /api status=200 in 81ms trace=5ce78bcf
+2026-01-19T15:06:05.563+05:30 warn batch-exporter export job lag 0 rows behind
+2026-01-19T15:06:08.953+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:06:10.594+05:30 warn batch-exporter export job lag 0 rows behind
+2026-01-19T15:06:12.773+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:06:14.370+05:30 info batch-exporter served GET /api status=200 in 57ms trace=fbd6da5b
+2026-01-19T15:06:14.399+05:30 warn batch-exporter export job lag 0 rows behind
+2026-01-19T15:06:17.503+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:06:18.903+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:06:21.570+05:30 warn batch-exporter export job lag 0 rows behind
+2026-01-19T15:06:23.957+05:30 warn batch-exporter export job lag 0 rows behind
+2026-01-19T15:06:24.208+05:30 info batch-exporter event loop lag 23ms ok
+2026-01-19T15:06:26.852+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:06:28.566+05:30 warn batch-exporter export job lag 0 rows behind
+2026-01-19T15:06:30.759+05:30 warn batch-exporter export job lag 0 rows behind
+2026-01-19T15:06:33.401+05:30 warn batch-exporter export job lag 0 rows behind
+2026-01-19T15:06:36.864+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:06:37.130+05:30 info batch-exporter served GET /api status=200 in 80ms trace=7285cb91
+2026-01-19T15:06:39.290+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:06:41.790+05:30 warn batch-exporter export job lag 0 rows behind
+2026-01-19T15:06:43.755+05:30 info batch-exporter served GET /api status=200 in 25ms trace=dfe8b591
+2026-01-19T15:06:45.043+05:30 warn batch-exporter export job lag 0 rows behind
+2026-01-19T15:06:45.724+05:30 warn batch-exporter export job lag 0 rows behind
+2026-01-19T15:06:49.221+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:06:50.578+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:06:53.966+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:06:54.444+05:30 info batch-exporter event loop lag 67ms ok
+2026-01-19T15:06:56.759+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:06:59.062+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:06:59.907+05:30 warn batch-exporter export job lag 0 rows behind
+2026-01-19T15:07:02.331+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:07:04.399+05:30 info batch-exporter served GET /api status=200 in 90ms trace=836250e8
+2026-01-19T15:07:04.838+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:07:06.667+05:30 warn batch-exporter export job lag 0 rows behind
+2026-01-19T15:07:08.758+05:30 warn batch-exporter export job lag 0 rows behind
+2026-01-19T15:07:11.365+05:30 warn batch-exporter export job lag 0 rows behind
+2026-01-19T15:07:14.117+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:07:14.881+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:07:18.036+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:07:18.887+05:30 info batch-exporter served GET /api status=200 in 27ms trace=17902429
+2026-01-19T15:07:19.046+05:30 warn batch-exporter export job lag 0 rows behind
+2026-01-19T15:07:21.885+05:30 warn batch-exporter export job lag 0 rows behind
+2026-01-19T15:07:23.272+05:30 warn batch-exporter export job lag 0 rows behind
+2026-01-19T15:07:25.349+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:07:26.369+05:30 warn batch-exporter export job lag 0 rows behind
+2026-01-19T15:07:26.670+05:30 info batch-exporter event loop lag 46ms ok
+2026-01-19T15:07:28.140+05:30 warn batch-exporter export job lag 0 rows behind
+2026-01-19T15:07:31.502+05:30 warn batch-exporter export job lag 0 rows behind
+2026-01-19T15:07:34.786+05:30 warn batch-exporter export job lag 0 rows behind
+2026-01-19T15:07:37.480+05:30 warn batch-exporter export job lag 0 rows behind
+2026-01-19T15:07:40.764+05:30 info batch-exporter event loop lag 31ms ok
+2026-01-19T15:07:41.097+05:30 warn batch-exporter export job lag 0 rows behind
+2026-01-19T15:07:42.692+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:07:45.949+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:07:47.468+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:07:49.856+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:07:51.707+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:07:53.897+05:30 warn batch-exporter export job lag 0 rows behind
+2026-01-19T15:07:54.004+05:30 info batch-exporter event loop lag 32ms ok
+2026-01-19T15:07:56.284+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:07:58.605+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:08:00.977+05:30 info batch-exporter served GET /api status=200 in 11ms trace=724ea2b7
+2026-01-19T15:08:02.010+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:08:04.669+05:30 warn batch-exporter export job lag 0 rows behind
+2026-01-19T15:08:06.338+05:30 info batch-exporter event loop lag 53ms ok
+2026-01-19T15:08:07.645+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:08:09.517+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:08:13.331+05:30 warn batch-exporter export job lag 0 rows behind
+2026-01-19T15:08:14.508+05:30 warn batch-exporter export job lag 0 rows behind
+2026-01-19T15:08:14.998+05:30 info batch-exporter served GET /api status=200 in 36ms trace=7fada2a3
+2026-01-19T15:08:16.910+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:08:19.064+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:08:22.331+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:08:23.758+05:30 info batch-exporter served GET /api status=200 in 47ms trace=5957c1c1
+2026-01-19T15:08:25.706+05:30 warn batch-exporter export job lag 0 rows behind
+2026-01-19T15:08:26.801+05:30 warn batch-exporter export job lag 0 rows behind
+2026-01-19T15:08:29.201+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:08:31.721+05:30 warn batch-exporter export job lag 0 rows behind
+2026-01-19T15:08:33.385+05:30 info batch-exporter served GET /api status=200 in 24ms trace=7f1bc921
+2026-01-19T15:08:34.784+05:30 warn batch-exporter export job lag 0 rows behind
+2026-01-19T15:08:38.012+05:30 warn batch-exporter export job lag 0 rows behind
+2026-01-19T15:08:40.200+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:08:41.425+05:30 info batch-exporter event loop lag 39ms ok
+2026-01-19T15:08:41.965+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:08:44.083+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:08:47.639+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:08:49.671+05:30 warn batch-exporter export job lag 0 rows behind
+2026-01-19T15:08:51.814+05:30 info batch-exporter event loop lag 41ms ok
+2026-01-19T15:08:51.934+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:08:53.929+05:30 warn batch-exporter export job lag 0 rows behind
+2026-01-19T15:08:57.245+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:08:59.321+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:08:59.513+05:30 info batch-exporter served GET /api status=200 in 37ms trace=5289a4c3
+2026-01-19T15:09:01.159+05:30 warn batch-exporter export job lag 0 rows behind
+2026-01-19T15:09:04.350+05:30 warn batch-exporter export job lag 0 rows behind
+2026-01-19T15:09:06.383+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:09:08.338+05:30 info batch-exporter served GET /api status=200 in 25ms trace=eba79424
+2026-01-19T15:09:08.864+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:09:11.746+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:09:13.984+05:30 warn batch-exporter export job lag 0 rows behind
+2026-01-19T15:09:15.915+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:09:18.366+05:30 warn batch-exporter export job lag 0 rows behind
+2026-01-19T15:09:19.804+05:30 info batch-exporter event loop lag 36ms ok
+2026-01-19T15:09:21.823+05:30 warn batch-exporter export job lag 0 rows behind
+2026-01-19T15:09:24.041+05:30 warn batch-exporter export job lag 0 rows behind
+2026-01-19T15:09:27.810+05:30 warn batch-exporter export job lag 0 rows behind
+2026-01-19T15:09:30.050+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:09:30.388+05:30 info batch-exporter event loop lag 51ms ok
+2026-01-19T15:09:33.100+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:09:35.716+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:09:38.703+05:30 warn batch-exporter export job lag 0 rows behind
+2026-01-19T15:09:40.447+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:09:41.485+05:30 info batch-exporter served GET /api status=200 in 85ms trace=a8aa307e
+2026-01-19T15:09:42.063+05:30 warn batch-exporter export job lag 0 rows behind
+2026-01-19T15:09:45.036+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:09:46.377+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:09:48.075+05:30 info batch-exporter served GET /api status=200 in 92ms trace=6826d97b
+2026-01-19T15:09:49.172+05:30 warn batch-exporter export job lag 0 rows behind
+2026-01-19T15:09:52.362+05:30 warn batch-exporter export job lag 0 rows behind
+2026-01-19T15:09:54.996+05:30 warn batch-exporter export job lag 0 rows behind
+2026-01-19T15:09:58.280+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:09:59.722+05:30 warn batch-exporter export job lag 0 rows behind
+2026-01-19T15:10:02.245+05:30 warn batch-exporter export job lag 0 rows behind
+2026-01-19T15:10:02.858+05:30 info batch-exporter event loop lag 12ms ok
+2026-01-19T15:10:03.661+05:30 warn batch-exporter export job lag 0 rows behind
+2026-01-19T15:10:06.750+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:10:10.051+05:30 warn batch-exporter export job lag 0 rows behind
+2026-01-19T15:10:12.985+05:30 warn batch-exporter export job lag 0 rows behind
+2026-01-19T15:10:13.243+05:30 info batch-exporter event loop lag 35ms ok
+2026-01-19T15:10:16.114+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:10:18.221+05:30 warn batch-exporter export job lag 0 rows behind
+2026-01-19T15:10:19.556+05:30 info batch-exporter event loop lag 57ms ok
+2026-01-19T15:10:21.425+05:30 warn batch-exporter export job lag 0 rows behind
+2026-01-19T15:10:24.241+05:30 warn batch-exporter export job lag 0 rows behind
+2026-01-19T15:10:26.026+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:10:27.761+05:30 info batch-exporter served GET /api status=200 in 33ms trace=6a584f71
+2026-01-19T15:10:28.389+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:10:31.601+05:30 warn batch-exporter export job lag 0 rows behind
+2026-01-19T15:10:33.813+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:10:34.267+05:30 info batch-exporter event loop lag 21ms ok
+2026-01-19T15:10:35.000+05:30 warn batch-exporter unhandled header x-legacy ignored trace=2a2dff2c
+2026-01-19T15:10:35.410+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:10:37.725+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:10:38.599+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:10:42.232+05:30 warn batch-exporter export job lag 0 rows behind
+2026-01-19T15:10:44.191+05:30 warn batch-exporter export job lag 0 rows behind
+2026-01-19T15:10:46.867+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:10:47.976+05:30 info batch-exporter event loop lag 68ms ok
+2026-01-19T15:10:49.636+05:30 warn batch-exporter export job lag 0 rows behind
+2026-01-19T15:10:51.297+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:10:54.718+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:10:57.203+05:30 warn batch-exporter export job lag 0 rows behind
+2026-01-19T15:11:00.509+05:30 warn batch-exporter export job lag 0 rows behind
+2026-01-19T15:11:01.596+05:30 info batch-exporter served GET /api status=200 in 76ms trace=8d38f0c2
+2026-01-19T15:11:03.232+05:30 warn batch-exporter export job lag 0 rows behind
+2026-01-19T15:11:05.332+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:11:06.672+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:11:09.245+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:11:12.274+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:11:14.023+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:11:15.380+05:30 info batch-exporter served GET /api status=200 in 69ms trace=ca880bd2
+2026-01-19T15:11:16.410+05:30 warn batch-exporter export job lag 0 rows behind
+2026-01-19T15:11:17.636+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:11:20.167+05:30 warn batch-exporter export job lag 0 rows behind
+2026-01-19T15:11:23.600+05:30 warn batch-exporter export job lag 0 rows behind
+2026-01-19T15:11:24.618+05:30 info batch-exporter served GET /api status=200 in 61ms trace=c8f35ab5
+2026-01-19T15:11:26.904+05:30 warn batch-exporter export job lag 0 rows behind
+2026-01-19T15:11:29.128+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:11:31.261+05:30 warn batch-exporter export job lag 0 rows behind
+2026-01-19T15:11:32.892+05:30 warn batch-exporter export job lag 0 rows behind
+2026-01-19T15:11:34.934+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:11:36.774+05:30 warn batch-exporter export job lag 0 rows behind
+2026-01-19T15:11:37.211+05:30 info batch-exporter served GET /api status=200 in 30ms trace=548d24f4
+2026-01-19T15:11:39.411+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:11:41.360+05:30 warn batch-exporter export job lag 0 rows behind
+2026-01-19T15:11:44.346+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:11:45.460+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:11:48.299+05:30 warn batch-exporter export job lag 0 rows behind
+2026-01-19T15:11:50.706+05:30 warn batch-exporter export job lag 0 rows behind
+2026-01-19T15:11:51.016+05:30 info batch-exporter served GET /api status=200 in 53ms trace=6726b12e
+2026-01-19T15:11:51.987+05:30 warn batch-exporter export job lag 0 rows behind
+2026-01-19T15:11:54.768+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:11:56.966+05:30 warn batch-exporter export job lag 0 rows behind
+2026-01-19T15:11:59.690+05:30 warn batch-exporter export job lag 0 rows behind
+2026-01-19T15:12:02.983+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:12:04.946+05:30 info batch-exporter served GET /api status=200 in 63ms trace=9511c6e6
+2026-01-19T15:12:05.444+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:12:08.739+05:30 warn batch-exporter export job lag 0 rows behind
+2026-01-19T15:12:12.218+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:12:13.872+05:30 warn batch-exporter export job lag 0 rows behind
+2026-01-19T15:12:15.754+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:12:16.935+05:30 warn batch-exporter export job lag 0 rows behind
+2026-01-19T15:12:18.827+05:30 info batch-exporter event loop lag 45ms ok
+2026-01-19T15:12:20.461+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:12:22.594+05:30 warn batch-exporter export job lag 0 rows behind
+2026-01-19T15:12:24.303+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:12:26.930+05:30 info batch-exporter event loop lag 39ms ok
+2026-01-19T15:12:26.961+05:30 warn batch-exporter export job lag 0 rows behind
+2026-01-19T15:12:29.593+05:30 warn batch-exporter export job lag 0 rows behind
+2026-01-19T15:12:31.131+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:12:34.060+05:30 warn batch-exporter export job lag 0 rows behind
+2026-01-19T15:12:36.351+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:12:36.854+05:30 info batch-exporter served GET /api status=200 in 42ms trace=4b30cd54
+2026-01-19T15:12:38.907+05:30 warn batch-exporter export job lag 0 rows behind
+2026-01-19T15:12:41.529+05:30 warn batch-exporter export job lag 0 rows behind
+2026-01-19T15:12:45.025+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:12:47.543+05:30 info batch-exporter event loop lag 18ms ok
+2026-01-19T15:12:48.475+05:30 warn batch-exporter export job lag 0 rows behind
+2026-01-19T15:12:51.266+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:12:52.465+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:12:54.850+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:12:57.667+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:12:58.706+05:30 warn batch-exporter export job lag 0 rows behind
+2026-01-19T15:13:00.014+05:30 info batch-exporter served GET /api status=200 in 71ms trace=81354156
+2026-01-19T15:13:01.848+05:30 warn batch-exporter export job lag 0 rows behind
+2026-01-19T15:13:05.387+05:30 warn batch-exporter export job lag 0 rows behind
+2026-01-19T15:13:07.622+05:30 warn batch-exporter export job lag 0 rows behind
+2026-01-19T15:13:08.980+05:30 info batch-exporter served GET /api status=200 in 45ms trace=6430cf55
+2026-01-19T15:13:09.000+05:30 warn batch-exporter event loop lag 860ms
+2026-01-19T15:13:11.628+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:13:13.437+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:13:16.086+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:13:19.103+05:30 warn batch-exporter export job lag 0 rows behind
+2026-01-19T15:13:22.562+05:30 info batch-exporter served GET /api status=200 in 23ms trace=e24dce7c
+2026-01-19T15:13:22.641+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:13:26.423+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:13:28.000+05:30 info batch-exporter served GET /api status=200 in 83ms trace=281f222e
+2026-01-19T15:13:29.275+05:30 warn batch-exporter export job lag 0 rows behind
+2026-01-19T15:13:32.960+05:30 warn batch-exporter export job lag 0 rows behind
+2026-01-19T15:13:35.411+05:30 warn batch-exporter export job lag 0 rows behind
+2026-01-19T15:13:36.646+05:30 info batch-exporter event loop lag 8ms ok
+2026-01-19T15:13:38.582+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:13:40.576+05:30 warn batch-exporter export job lag 0 rows behind
+2026-01-19T15:13:42.679+05:30 warn batch-exporter export job lag 0 rows behind
+2026-01-19T15:13:43.898+05:30 warn batch-exporter export job lag 0 rows behind
+2026-01-19T15:13:46.707+05:30 warn batch-exporter export job lag 0 rows behind
+2026-01-19T15:13:46.912+05:30 info batch-exporter served GET /api status=200 in 9ms trace=2ec6850d
+2026-01-19T15:13:48.568+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:13:51.323+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:13:53.963+05:30 warn batch-exporter export job lag 0 rows behind
+2026-01-19T15:13:56.514+05:30 info batch-exporter event loop lag 93ms ok
+2026-01-19T15:13:57.355+05:30 warn batch-exporter export job lag 0 rows behind
+2026-01-19T15:13:58.904+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:14:00.346+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:14:03.696+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:14:05.035+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:14:05.872+05:30 info batch-exporter event loop lag 73ms ok
+2026-01-19T15:14:08.436+05:30 warn batch-exporter export job lag 0 rows behind
+2026-01-19T15:14:10.027+05:30 warn batch-exporter export job lag 0 rows behind
+2026-01-19T15:14:12.140+05:30 warn batch-exporter export job lag 0 rows behind
+2026-01-19T15:14:12.155+05:30 info batch-exporter served GET /api status=200 in 44ms trace=e7140cc0
+2026-01-19T15:14:15.155+05:30 warn batch-exporter export job lag 0 rows behind
+2026-01-19T15:14:17.574+05:30 warn batch-exporter export job lag 0 rows behind
+2026-01-19T15:14:19.396+05:30 warn batch-exporter export job lag 0 rows behind
+2026-01-19T15:14:21.993+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:14:23.555+05:30 info batch-exporter event loop lag 54ms ok
+2026-01-19T15:14:25.870+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:14:26.873+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:14:30.116+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:14:31.362+05:30 info batch-exporter event loop lag 14ms ok
+2026-01-19T15:14:31.437+05:30 warn batch-exporter export job lag 0 rows behind
+2026-01-19T15:14:33.800+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:14:36.113+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:14:38.981+05:30 warn batch-exporter export job lag 0 rows behind
+2026-01-19T15:14:41.690+05:30 info batch-exporter served GET /api status=200 in 82ms trace=d35307c3
+2026-01-19T15:14:42.887+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:14:45.755+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:14:47.120+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:14:50.336+05:30 warn batch-exporter export job lag 0 rows behind
+2026-01-19T15:14:50.453+05:30 info batch-exporter event loop lag 11ms ok
+2026-01-19T15:14:52.627+05:30 warn batch-exporter export job lag 0 rows behind
+2026-01-19T15:14:55.718+05:30 warn batch-exporter export job lag 0 rows behind
+2026-01-19T15:14:56.439+05:30 info batch-exporter event loop lag 40ms ok
+2026-01-19T15:14:57.806+05:30 warn batch-exporter export job lag 0 rows behind
+2026-01-19T15:15:00.682+05:30 warn batch-exporter export job lag 0 rows behind
+2026-01-19T15:15:02.353+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:15:04.176+05:30 info batch-exporter served GET /api status=200 in 85ms trace=10e33e78
+2026-01-19T15:15:06.270+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:15:08.998+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:15:10.793+05:30 warn batch-exporter export job lag 0 rows behind
+2026-01-19T15:15:13.477+05:30 warn batch-exporter export job lag 0 rows behind
+2026-01-19T15:15:16.791+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:15:17.145+05:30 info batch-exporter event loop lag 88ms ok
+2026-01-19T15:15:19.020+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:15:20.505+05:30 warn batch-exporter export job lag 0 rows behind
+2026-01-19T15:15:22.106+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:15:23.942+05:30 warn batch-exporter export job lag 0 rows behind
+2026-01-19T15:15:27.377+05:30 warn batch-exporter export job lag 0 rows behind
+2026-01-19T15:15:29.193+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:15:29.417+05:30 info batch-exporter event loop lag 75ms ok
+2026-01-19T15:15:32.197+05:30 warn batch-exporter webhook delivery retries pending 0
+2026-01-19T15:15:34.264+05:30 warn batch-exporter export job lag 0 rows behind

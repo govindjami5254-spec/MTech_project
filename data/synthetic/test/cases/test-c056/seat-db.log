@@ -1,0 +1,62 @@
+2026-01-28 14:03:23,914 INFO seat-db GET /v1/items 200 46ms req_id=ebc62ad0
+2026-01-28 14:03:29,025 INFO seat-db worker heartbeat ok (12ms)
+2026-01-28 14:03:38,219 INFO seat-db GET /v1/items 200 68ms req_id=07c4a48a
+2026-01-28 14:03:49,063 INFO seat-db worker heartbeat ok (32ms)
+2026-01-28 14:03:58,892 INFO seat-db GET /v1/items 200 84ms req_id=cee6054a
+2026-01-28 14:04:05,260 INFO seat-db GET /v1/items 200 26ms req_id=177f476c
+2026-01-28 14:04:11,916 INFO seat-db GET /v1/items 200 74ms req_id=e40cacf9
+2026-01-28 14:04:24,752 INFO seat-db worker heartbeat ok (90ms)
+2026-01-28 14:04:33,806 INFO seat-db GET /v1/items 200 95ms req_id=cb0ca64c
+2026-01-28 14:04:34,000 WARNING seat-db deprecated parameter 'page' used by client
+2026-01-28 14:04:40,884 INFO seat-db worker heartbeat ok (16ms)
+2026-01-28 14:04:50,169 INFO seat-db GET /v1/items 200 17ms req_id=b4871be2
+2026-01-28 14:04:57,872 INFO seat-db GET /v1/items 200 21ms req_id=95e2aa27
+2026-01-28 14:05:08,413 INFO seat-db worker heartbeat ok (50ms)
+2026-01-28 14:05:19,061 INFO seat-db worker heartbeat ok (59ms)
+2026-01-28 14:05:27,647 INFO seat-db worker heartbeat ok (38ms)
+2026-01-28 14:05:41,964 INFO seat-db worker heartbeat ok (78ms)
+2026-01-28 14:05:52,966 INFO seat-db worker heartbeat ok (83ms)
+2026-01-28 14:05:58,532 INFO seat-db worker heartbeat ok (95ms)
+2026-01-28 14:06:08,116 INFO seat-db GET /v1/items 200 26ms req_id=d397f8af
+2026-01-28 14:06:15,850 INFO seat-db GET /v1/items 200 14ms req_id=f01d45f3
+2026-01-28 14:06:22,431 INFO seat-db GET /v1/items 200 23ms req_id=2a1103c9
+2026-01-28 14:06:35,859 INFO seat-db worker heartbeat ok (66ms)
+2026-01-28 14:06:49,705 INFO seat-db worker heartbeat ok (13ms)
+2026-01-28 14:07:00,236 INFO seat-db worker heartbeat ok (27ms)
+2026-01-28 14:07:10,721 INFO seat-db worker heartbeat ok (38ms)
+2026-01-28 14:07:24,369 INFO seat-db GET /v1/items 200 48ms req_id=218443f6
+2026-01-28 14:07:34,338 INFO seat-db worker heartbeat ok (30ms)
+2026-01-28 14:07:45,338 INFO seat-db GET /v1/items 200 93ms req_id=c51b875d
+2026-01-28 14:07:56,626 INFO seat-db worker heartbeat ok (78ms)
+2026-01-28 14:08:09,329 INFO seat-db worker heartbeat ok (88ms)
+2026-01-28 14:08:18,500 INFO seat-db worker heartbeat ok (10ms)
+2026-01-28 14:08:29,326 INFO seat-db worker heartbeat ok (62ms)
+2026-01-28 14:08:40,044 INFO seat-db GET /v1/items 200 83ms req_id=12724956
+2026-01-28 14:08:48,706 INFO seat-db worker heartbeat ok (35ms)
+2026-01-28 14:08:57,150 INFO seat-db worker heartbeat ok (18ms)
+2026-01-28 14:09:09,845 INFO seat-db worker heartbeat ok (75ms)
+2026-01-28 14:09:17,707 INFO seat-db GET /v1/items 200 54ms req_id=d333fe24
+2026-01-28 14:09:27,702 INFO seat-db GET /v1/items 200 8ms req_id=6613fc31
+2026-01-28 14:09:37,760 INFO seat-db worker heartbeat ok (52ms)
+2026-01-28 14:09:45,239 INFO seat-db GET /v1/items 200 85ms req_id=7b7c111c
+2026-01-28 14:09:46,000 WARNING seat-db slow query took 220ms req_id=118e6b3c
+2026-01-28 14:09:59,624 INFO seat-db GET /v1/items 200 37ms req_id=c5ba0ca2
+2026-01-28 14:10:06,239 INFO seat-db worker heartbeat ok (17ms)
+2026-01-28 14:10:16,874 INFO seat-db worker heartbeat ok (60ms)
+2026-01-28 14:10:30,168 INFO seat-db worker heartbeat ok (73ms)
+2026-01-28 14:10:40,589 INFO seat-db worker heartbeat ok (62ms)
+2026-01-28 14:10:49,237 INFO seat-db GET /v1/items 200 48ms req_id=26b78a9f
+2026-01-28 14:11:03,009 INFO seat-db GET /v1/items 200 48ms req_id=e20b23d8
+2026-01-28 14:11:17,504 INFO seat-db worker heartbeat ok (63ms)
+2026-01-28 14:11:31,593 INFO seat-db GET /v1/items 200 80ms req_id=87f8ce99
+2026-01-28 14:11:37,105 INFO seat-db worker heartbeat ok (62ms)
+2026-01-28 14:11:43,048 INFO seat-db GET /v1/items 200 35ms req_id=6465312f
+2026-01-28 14:11:51,152 INFO seat-db worker heartbeat ok (10ms)
+2026-01-28 14:12:02,323 INFO seat-db GET /v1/items 200 85ms req_id=8299cd72
+2026-01-28 14:12:14,799 INFO seat-db GET /v1/items 200 10ms req_id=eb529e1f
+2026-01-28 14:12:26,413 INFO seat-db worker heartbeat ok (20ms)
+2026-01-28 14:12:38,158 INFO seat-db GET /v1/items 200 18ms req_id=4499d64f
+2026-01-28 14:12:50,290 INFO seat-db worker heartbeat ok (33ms)
+2026-01-28 14:12:59,048 INFO seat-db worker heartbeat ok (14ms)
+2026-01-28 14:13:06,410 INFO seat-db worker heartbeat ok (69ms)
+2026-01-28 14:13:12,337 INFO seat-db GET /v1/items 200 16ms req_id=fd9e894d

@@ -1,0 +1,64 @@
+2026-01-14 11:21:36,484 INFO scheduler worker heartbeat ok (50ms)
+2026-01-14 11:21:48,534 INFO scheduler worker heartbeat ok (77ms)
+2026-01-14 11:22:01,220 INFO scheduler GET /v1/items 200 26ms req_id=b4d78859
+2026-01-14 11:22:12,999 INFO scheduler GET /v1/items 200 78ms req_id=d1cca3c0
+2026-01-14 11:22:26,170 INFO scheduler worker heartbeat ok (24ms)
+2026-01-14 11:22:37,232 INFO scheduler worker heartbeat ok (82ms)
+2026-01-14 11:22:50,102 INFO scheduler GET /v1/items 200 73ms req_id=742678cc
+2026-01-14 11:22:57,104 INFO scheduler worker heartbeat ok (86ms)
+2026-01-14 11:23:05,146 INFO scheduler worker heartbeat ok (65ms)
+2026-01-14 11:23:13,579 INFO scheduler GET /v1/items 200 63ms req_id=2dc1ee0a
+2026-01-14 11:23:14,000 WARNING scheduler slow query took 270ms req_id=d1ff9400
+2026-01-14 11:23:23,660 INFO scheduler worker heartbeat ok (41ms)
+2026-01-14 11:23:32,650 INFO scheduler GET /v1/items 200 51ms req_id=3f58547b
+2026-01-14 11:23:42,687 INFO scheduler worker heartbeat ok (17ms)
+2026-01-14 11:23:54,723 INFO scheduler worker heartbeat ok (53ms)
+2026-01-14 11:24:03,599 INFO scheduler GET /v1/items 200 26ms req_id=3738f9d4
+2026-01-14 11:24:17,012 INFO scheduler worker heartbeat ok (19ms)
+2026-01-14 11:24:24,763 INFO scheduler GET /v1/items 200 11ms req_id=d31fc3bd
+2026-01-14 11:24:30,400 INFO scheduler GET /v1/items 200 91ms req_id=a4405e37
+2026-01-14 11:24:31,000 WARNING scheduler deprecated parameter 'page' used by client
+2026-01-14 11:24:44,457 INFO scheduler GET /v1/items 200 69ms req_id=c07e2711
+2026-01-14 11:24:52,553 INFO scheduler GET /v1/items 200 81ms req_id=68843e19
+2026-01-14 11:25:04,053 INFO scheduler GET /v1/items 200 45ms req_id=e71d5940
+2026-01-14 11:25:14,275 INFO scheduler worker heartbeat ok (26ms)
+2026-01-14 11:25:26,928 INFO scheduler worker heartbeat ok (69ms)
+2026-01-14 11:25:37,990 INFO scheduler GET /v1/items 200 52ms req_id=9a265379
+2026-01-14 11:25:50,019 INFO scheduler worker heartbeat ok (75ms)
+2026-01-14 11:25:56,028 INFO scheduler worker heartbeat ok (68ms)
+2026-01-14 11:26:05,650 INFO scheduler worker heartbeat ok (47ms)
+2026-01-14 11:26:13,849 INFO scheduler worker heartbeat ok (92ms)
+2026-01-14 11:26:23,889 INFO scheduler GET /v1/items 200 38ms req_id=5b4096d9
+2026-01-14 11:26:31,983 INFO scheduler worker heartbeat ok (14ms)
+2026-01-14 11:26:44,458 INFO scheduler worker heartbeat ok (62ms)
+2026-01-14 11:26:56,836 INFO scheduler GET /v1/items 200 17ms req_id=fe1c79a0
+2026-01-14 11:27:03,217 INFO scheduler worker heartbeat ok (28ms)
+2026-01-14 11:27:10,949 INFO scheduler worker heartbeat ok (63ms)
+2026-01-14 11:27:11,000 WARNING scheduler slow query took 160ms req_id=181ad520
+2026-01-14 11:27:16,148 INFO scheduler GET /v1/items 200 17ms req_id=af672a97
+2026-01-14 11:27:24,212 INFO scheduler GET /v1/items 200 46ms req_id=504c3b79
+2026-01-14 11:27:31,106 INFO scheduler GET /v1/items 200 88ms req_id=571ffbf2
+2026-01-14 11:27:42,838 INFO scheduler GET /v1/items 200 73ms req_id=5cfb3473
+2026-01-14 11:27:54,230 INFO scheduler GET /v1/items 200 80ms req_id=e259f857
+2026-01-14 11:28:01,053 INFO scheduler worker heartbeat ok (83ms)
+2026-01-14 11:28:15,147 INFO scheduler GET /v1/items 200 59ms req_id=280aac16
+2026-01-14 11:28:25,602 INFO scheduler GET /v1/items 200 72ms req_id=861489f8
+2026-01-14 11:28:33,295 INFO scheduler GET /v1/items 200 76ms req_id=c84fbade
+2026-01-14 11:28:41,043 INFO scheduler worker heartbeat ok (54ms)
+2026-01-14 11:28:53,994 INFO scheduler worker heartbeat ok (45ms)
+2026-01-14 11:29:04,434 INFO scheduler GET /v1/items 200 73ms req_id=5bf3ab0a
+2026-01-14 11:29:16,354 INFO scheduler worker heartbeat ok (44ms)
+2026-01-14 11:29:27,321 INFO scheduler GET /v1/items 200 47ms req_id=136c3871
+2026-01-14 11:29:37,080 INFO scheduler worker heartbeat ok (53ms)
+2026-01-14 11:29:48,639 INFO scheduler worker heartbeat ok (43ms)
+2026-01-14 11:29:55,660 INFO scheduler GET /v1/items 200 61ms req_id=436396e8
+2026-01-14 11:30:03,135 INFO scheduler GET /v1/items 200 9ms req_id=003c78db
+2026-01-14 11:30:11,845 INFO scheduler GET /v1/items 200 51ms req_id=72906b7d
+2026-01-14 11:30:23,935 INFO scheduler GET /v1/items 200 80ms req_id=4a9afdd5
+2026-01-14 11:30:31,116 INFO scheduler worker heartbeat ok (56ms)
+2026-01-14 11:30:39,573 INFO scheduler GET /v1/items 200 87ms req_id=a7384957
+2026-01-14 11:30:48,794 INFO scheduler worker heartbeat ok (17ms)
+2026-01-14 11:31:01,345 INFO scheduler worker heartbeat ok (90ms)
+2026-01-14 11:31:14,377 INFO scheduler GET /v1/items 200 87ms req_id=be64c7a0
+2026-01-14 11:31:20,967 INFO scheduler GET /v1/items 200 64ms req_id=0613b15f
+2026-01-14 11:31:33,791 INFO scheduler worker heartbeat ok (46ms)

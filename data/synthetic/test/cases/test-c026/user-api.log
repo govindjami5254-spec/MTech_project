@@ -1,0 +1,66 @@
+2026-02-02T13:56:35Z INFO user-api tick ok elapsed_ms=46
+2026-02-02T13:56:36Z WARN user-api slow poll elapsed_ms=430
+2026-02-02T13:56:46Z INFO user-api http request method=GET status=200 latency_ms=18 span=1f88e622
+2026-02-02T13:56:54Z INFO user-api tick ok elapsed_ms=12
+2026-02-02T13:57:01Z INFO user-api http request method=GET status=200 latency_ms=57 span=d9cdac70
+2026-02-02T13:57:08Z INFO user-api tick ok elapsed_ms=39
+2026-02-02T13:57:19Z INFO user-api tick ok elapsed_ms=80
+2026-02-02T13:57:29Z INFO user-api tick ok elapsed_ms=87
+2026-02-02T13:57:43Z INFO user-api http request method=GET status=200 latency_ms=37 span=962ea6cf
+2026-02-02T13:57:55Z INFO user-api tick ok elapsed_ms=71
+2026-02-02T13:57:56Z WARN user-api client sent oversized header, truncated span=fcabe27d
+2026-02-02T13:58:02Z INFO user-api tick ok elapsed_ms=89
+2026-02-02T13:58:13Z INFO user-api tick ok elapsed_ms=23
+2026-02-02T13:58:20Z INFO user-api http request method=GET status=200 latency_ms=65 span=11c8d44d
+2026-02-02T13:58:28Z INFO user-api tick ok elapsed_ms=32
+2026-02-02T13:58:37Z INFO user-api http request method=GET status=200 latency_ms=63 span=63b1c0a4
+2026-02-02T13:58:48Z INFO user-api tick ok elapsed_ms=39
+2026-02-02T13:58:54Z INFO user-api tick ok elapsed_ms=44
+2026-02-02T13:59:01Z INFO user-api http request method=GET status=200 latency_ms=67 span=6dbb2626
+2026-02-02T13:59:12Z INFO user-api http request method=GET status=200 latency_ms=49 span=28b9a491
+2026-02-02T13:59:18Z INFO user-api tick ok elapsed_ms=94
+2026-02-02T13:59:19Z WARN user-api client sent oversized header, truncated span=b77472a0
+2026-02-02T13:59:31Z INFO user-api http request method=GET status=200 latency_ms=72 span=d966f579
+2026-02-02T13:59:41Z INFO user-api tick ok elapsed_ms=38
+2026-02-02T13:59:47Z INFO user-api tick ok elapsed_ms=72
+2026-02-02T13:59:54Z INFO user-api tick ok elapsed_ms=22
+2026-02-02T14:00:01Z INFO user-api http request method=GET status=200 latency_ms=73 span=73b955bc
+2026-02-02T14:00:02Z WARN user-api slow poll elapsed_ms=790
+2026-02-02T14:00:09Z INFO user-api http request method=GET status=200 latency_ms=25 span=1841b76f
+2026-02-02T14:00:16Z INFO user-api http request method=GET status=200 latency_ms=77 span=907ab84f
+2026-02-02T14:00:28Z INFO user-api tick ok elapsed_ms=47
+2026-02-02T14:00:36Z INFO user-api http request method=GET status=200 latency_ms=70 span=77d94ee6
+2026-02-02T14:00:47Z INFO user-api http request method=GET status=200 latency_ms=76 span=07e9f186
+2026-02-02T14:00:53Z INFO user-api tick ok elapsed_ms=59
+2026-02-02T14:01:07Z INFO user-api http request method=GET status=200 latency_ms=21 span=3ec66ef7
+2026-02-02T14:01:14Z INFO user-api http request method=GET status=200 latency_ms=32 span=bf94ed17
+2026-02-02T14:01:21Z INFO user-api tick ok elapsed_ms=33
+2026-02-02T14:01:33Z INFO user-api tick ok elapsed_ms=22
+2026-02-02T14:01:45Z INFO user-api http request method=GET status=200 latency_ms=59 span=7145ce22
+2026-02-02T14:01:55Z INFO user-api http request method=GET status=200 latency_ms=13 span=e52502a7
+2026-02-02T14:02:07Z INFO user-api tick ok elapsed_ms=77
+2026-02-02T14:02:15Z INFO user-api tick ok elapsed_ms=72
+2026-02-02T14:02:27Z INFO user-api http request method=GET status=200 latency_ms=58 span=634b8464
+2026-02-02T14:02:39Z INFO user-api tick ok elapsed_ms=79
+2026-02-02T14:02:52Z INFO user-api tick ok elapsed_ms=35
+2026-02-02T14:03:03Z INFO user-api tick ok elapsed_ms=69
+2026-02-02T14:03:16Z INFO user-api tick ok elapsed_ms=40
+2026-02-02T14:03:24Z INFO user-api http request method=GET status=200 latency_ms=88 span=b03f3494
+2026-02-02T14:03:35Z INFO user-api tick ok elapsed_ms=40
+2026-02-02T14:03:36Z WARN user-api slow poll elapsed_ms=910
+2026-02-02T14:03:43Z INFO user-api tick ok elapsed_ms=53
+2026-02-02T14:03:57Z INFO user-api http request method=GET status=200 latency_ms=27 span=290aa616
+2026-02-02T14:04:06Z INFO user-api tick ok elapsed_ms=58
+2026-02-02T14:04:20Z INFO user-api tick ok elapsed_ms=90
+2026-02-02T14:04:26Z INFO user-api tick ok elapsed_ms=82
+2026-02-02T14:04:40Z INFO user-api tick ok elapsed_ms=75
+2026-02-02T14:04:48Z INFO user-api http request method=GET status=200 latency_ms=18 span=5b43dccb
+2026-02-02T14:05:00Z INFO user-api tick ok elapsed_ms=43
+2026-02-02T14:05:08Z INFO user-api tick ok elapsed_ms=76
+2026-02-02T14:05:18Z INFO user-api tick ok elapsed_ms=91
+2026-02-02T14:05:28Z INFO user-api tick ok elapsed_ms=29
+2026-02-02T14:05:38Z INFO user-api tick ok elapsed_ms=52
+2026-02-02T14:05:49Z INFO user-api http request method=GET status=200 latency_ms=23 span=bd4ffcd7
+2026-02-02T14:05:59Z INFO user-api tick ok elapsed_ms=58
+2026-02-02T14:06:08Z INFO user-api http request method=GET status=200 latency_ms=39 span=6a52326d
+2026-02-02T14:06:16Z INFO user-api tick ok elapsed_ms=33

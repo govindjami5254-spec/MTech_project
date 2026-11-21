@@ -1,0 +1,65 @@
+2026-01-14 14:20:46,474 INFO edge-proxy worker heartbeat ok (13ms)
+2026-01-14 14:20:55,822 INFO edge-proxy GET /v1/items 200 57ms req_id=9ac55f34
+2026-01-14 14:21:04,339 INFO edge-proxy GET /v1/items 200 74ms req_id=e8f4833e
+2026-01-14 14:21:18,085 INFO edge-proxy worker heartbeat ok (53ms)
+2026-01-14 14:21:28,599 INFO edge-proxy GET /v1/items 200 11ms req_id=a7fdc087
+2026-01-14 14:21:38,114 INFO edge-proxy GET /v1/items 200 29ms req_id=ae2f0fe3
+2026-01-14 14:21:52,591 INFO edge-proxy GET /v1/items 200 59ms req_id=e91c88b4
+2026-01-14 14:22:01,262 INFO edge-proxy worker heartbeat ok (64ms)
+2026-01-14 14:22:15,269 INFO edge-proxy GET /v1/items 200 52ms req_id=84dab388
+2026-01-14 14:22:25,150 INFO edge-proxy GET /v1/items 200 49ms req_id=79725ca5
+2026-01-14 14:22:39,776 INFO edge-proxy GET /v1/items 200 44ms req_id=20d95f9a
+2026-01-14 14:22:47,860 INFO edge-proxy worker heartbeat ok (88ms)
+2026-01-14 14:22:57,924 INFO edge-proxy GET /v1/items 200 62ms req_id=ee49fc55
+2026-01-14 14:23:07,264 INFO edge-proxy worker heartbeat ok (72ms)
+2026-01-14 14:23:20,804 INFO edge-proxy GET /v1/items 200 79ms req_id=3a2e2c61
+2026-01-14 14:23:30,416 INFO edge-proxy worker heartbeat ok (71ms)
+2026-01-14 14:23:43,692 INFO edge-proxy worker heartbeat ok (49ms)
+2026-01-14 14:23:57,151 INFO edge-proxy GET /v1/items 200 75ms req_id=680a6f51
+2026-01-14 14:24:08,106 INFO edge-proxy worker heartbeat ok (64ms)
+2026-01-14 14:24:18,977 INFO edge-proxy GET /v1/items 200 72ms req_id=1a53c685
+2026-01-14 14:24:25,732 INFO edge-proxy GET /v1/items 200 65ms req_id=f787cd65
+2026-01-14 14:24:39,235 INFO edge-proxy worker heartbeat ok (49ms)
+2026-01-14 14:24:48,341 INFO edge-proxy worker heartbeat ok (49ms)
+2026-01-14 14:25:02,263 INFO edge-proxy GET /v1/items 200 35ms req_id=79eb9e33
+2026-01-14 14:25:09,574 INFO edge-proxy worker heartbeat ok (79ms)
+2026-01-14 14:25:16,529 INFO edge-proxy GET /v1/items 200 57ms req_id=da1d821f
+2026-01-14 14:25:28,088 INFO edge-proxy worker heartbeat ok (23ms)
+2026-01-14 14:25:36,393 INFO edge-proxy worker heartbeat ok (80ms)
+2026-01-14 14:25:45,567 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=1ee08498
+2026-01-14 14:25:47,109 INFO edge-proxy GET /v1/items 200 78ms req_id=024d735f
+2026-01-14 14:25:48,898 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=21a54506
+2026-01-14 14:25:51,762 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=59afe6e6
+2026-01-14 14:25:54,993 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=ed50c3d0
+2026-01-14 14:25:57,155 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=6aed5e1e
+2026-01-14 14:25:57,891 INFO edge-proxy worker heartbeat ok (68ms)
+2026-01-14 14:26:00,623 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=a8e2dced
+2026-01-14 14:26:03,356 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=34c0e12b
+2026-01-14 14:26:03,857 INFO edge-proxy worker heartbeat ok (73ms)
+2026-01-14 14:26:13,653 INFO edge-proxy worker heartbeat ok (52ms)
+2026-01-14 14:26:24,278 INFO edge-proxy worker heartbeat ok (75ms)
+2026-01-14 14:26:31,468 INFO edge-proxy worker heartbeat ok (45ms)
+2026-01-14 14:26:45,719 INFO edge-proxy GET /v1/items 200 95ms req_id=151f0a9d
+2026-01-14 14:26:53,966 INFO edge-proxy worker heartbeat ok (77ms)
+2026-01-14 14:27:02,724 INFO edge-proxy GET /v1/items 200 30ms req_id=75aa5a07
+2026-01-14 14:27:08,289 INFO edge-proxy GET /v1/items 200 67ms req_id=68e3367e
+2026-01-14 14:27:20,184 INFO edge-proxy worker heartbeat ok (48ms)
+2026-01-14 14:27:33,959 INFO edge-proxy GET /v1/items 200 50ms req_id=6f310036
+2026-01-14 14:27:47,731 INFO edge-proxy worker heartbeat ok (55ms)
+2026-01-14 14:27:54,297 INFO edge-proxy GET /v1/items 200 37ms req_id=3c1020a5
+2026-01-14 14:28:08,837 INFO edge-proxy worker heartbeat ok (65ms)
+2026-01-14 14:28:21,846 INFO edge-proxy worker heartbeat ok (34ms)
+2026-01-14 14:28:30,800 INFO edge-proxy GET /v1/items 200 52ms req_id=5864be5f
+2026-01-14 14:28:42,221 INFO edge-proxy GET /v1/items 200 17ms req_id=21def072
+2026-01-14 14:28:50,718 INFO edge-proxy worker heartbeat ok (34ms)
+2026-01-14 14:29:01,560 INFO edge-proxy worker heartbeat ok (92ms)
+2026-01-14 14:29:07,042 INFO edge-proxy GET /v1/items 200 17ms req_id=1b5c9b5d
+2026-01-14 14:29:21,328 INFO edge-proxy worker heartbeat ok (46ms)
+2026-01-14 14:29:29,156 INFO edge-proxy worker heartbeat ok (37ms)
+2026-01-14 14:29:39,843 INFO edge-proxy worker heartbeat ok (94ms)
+2026-01-14 14:29:51,454 INFO edge-proxy worker heartbeat ok (76ms)
+2026-01-14 14:30:02,915 INFO edge-proxy worker heartbeat ok (29ms)
+2026-01-14 14:30:03,000 WARNING edge-proxy slow query took 370ms req_id=66d8859c
+2026-01-14 14:30:09,574 INFO edge-proxy GET /v1/items 200 16ms req_id=293eb04d
+2026-01-14 14:30:23,568 INFO edge-proxy worker heartbeat ok (35ms)
+2026-01-14 14:30:36,666 INFO edge-proxy GET /v1/items 200 19ms req_id=ff491a67

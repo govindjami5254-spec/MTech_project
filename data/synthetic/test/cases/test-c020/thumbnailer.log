@@ -1,0 +1,62 @@
+2026-02-10T18:01:29.998+05:30 info thumbnailer served GET /api status=200 in 16ms trace=21dccf26
+2026-02-10T18:01:36.259+05:30 info thumbnailer event loop lag 80ms ok
+2026-02-10T18:01:43.575+05:30 info thumbnailer event loop lag 62ms ok
+2026-02-10T18:01:54.407+05:30 info thumbnailer served GET /api status=200 in 55ms trace=8b3b3ce6
+2026-02-10T18:02:04.248+05:30 info thumbnailer event loop lag 79ms ok
+2026-02-10T18:02:17.980+05:30 info thumbnailer served GET /api status=200 in 42ms trace=816c830f
+2026-02-10T18:02:23.235+05:30 info thumbnailer event loop lag 47ms ok
+2026-02-10T18:02:37.791+05:30 info thumbnailer event loop lag 74ms ok
+2026-02-10T18:02:48.590+05:30 info thumbnailer served GET /api status=200 in 36ms trace=19b7175e
+2026-02-10T18:03:00.790+05:30 info thumbnailer served GET /api status=200 in 73ms trace=e417ed49
+2026-02-10T18:03:08.868+05:30 info thumbnailer event loop lag 78ms ok
+2026-02-10T18:03:20.415+05:30 info thumbnailer event loop lag 29ms ok
+2026-02-10T18:03:29.648+05:30 info thumbnailer served GET /api status=200 in 14ms trace=9210d66c
+2026-02-10T18:03:43.299+05:30 info thumbnailer event loop lag 62ms ok
+2026-02-10T18:03:51.684+05:30 info thumbnailer served GET /api status=200 in 25ms trace=614514b8
+2026-02-10T18:03:57.546+05:30 info thumbnailer served GET /api status=200 in 20ms trace=b143843b
+2026-02-10T18:04:07.959+05:30 info thumbnailer served GET /api status=200 in 73ms trace=b2562387
+2026-02-10T18:04:14.409+05:30 info thumbnailer served GET /api status=200 in 91ms trace=c35b28a5
+2026-02-10T18:04:24.897+05:30 info thumbnailer event loop lag 49ms ok
+2026-02-10T18:04:33.953+05:30 info thumbnailer event loop lag 67ms ok
+2026-02-10T18:04:42.539+05:30 info thumbnailer served GET /api status=200 in 72ms trace=4dc645b0
+2026-02-10T18:04:49.122+05:30 info thumbnailer event loop lag 59ms ok
+2026-02-10T18:04:57.210+05:30 info thumbnailer event loop lag 24ms ok
+2026-02-10T18:05:11.936+05:30 info thumbnailer served GET /api status=200 in 90ms trace=5364b3bf
+2026-02-10T18:05:23.278+05:30 info thumbnailer served GET /api status=200 in 52ms trace=7b42c465
+2026-02-10T18:05:29.313+05:30 info thumbnailer event loop lag 64ms ok
+2026-02-10T18:05:30.000+05:30 warn thumbnailer unhandled header x-legacy ignored trace=abe9b6ad
+2026-02-10T18:05:43.483+05:30 info thumbnailer served GET /api status=200 in 23ms trace=44cc1a7c
+2026-02-10T18:05:55.198+05:30 info thumbnailer served GET /api status=200 in 38ms trace=2707066e
+2026-02-10T18:06:02.369+05:30 info thumbnailer event loop lag 76ms ok
+2026-02-10T18:06:14.737+05:30 info thumbnailer served GET /api status=200 in 48ms trace=5db212b2
+2026-02-10T18:06:21.729+05:30 info thumbnailer served GET /api status=200 in 26ms trace=7f645d64
+2026-02-10T18:06:28.322+05:30 info thumbnailer event loop lag 61ms ok
+2026-02-10T18:06:37.504+05:30 info thumbnailer served GET /api status=200 in 88ms trace=d2e01be5
+2026-02-10T18:06:43.149+05:30 info thumbnailer served GET /api status=200 in 41ms trace=2caaf115
+2026-02-10T18:06:49.121+05:30 info thumbnailer served GET /api status=200 in 36ms trace=cac50e9d
+2026-02-10T18:07:02.602+05:30 info thumbnailer served GET /api status=200 in 83ms trace=246e6d8e
+2026-02-10T18:07:09.031+05:30 info thumbnailer served GET /api status=200 in 57ms trace=851be253
+2026-02-10T18:07:15.020+05:30 info thumbnailer event loop lag 70ms ok
+2026-02-10T18:07:26.923+05:30 info thumbnailer served GET /api status=200 in 28ms trace=02cfa853
+2026-02-10T18:07:35.826+05:30 info thumbnailer event loop lag 66ms ok
+2026-02-10T18:07:48.394+05:30 info thumbnailer served GET /api status=200 in 51ms trace=bd8f83a9
+2026-02-10T18:08:00.273+05:30 info thumbnailer event loop lag 89ms ok
+2026-02-10T18:08:09.259+05:30 info thumbnailer event loop lag 93ms ok
+2026-02-10T18:08:23.092+05:30 info thumbnailer served GET /api status=200 in 57ms trace=b5dc1508
+2026-02-10T18:08:32.043+05:30 info thumbnailer event loop lag 60ms ok
+2026-02-10T18:08:45.587+05:30 info thumbnailer event loop lag 25ms ok
+2026-02-10T18:08:55.131+05:30 info thumbnailer event loop lag 17ms ok
+2026-02-10T18:09:09.277+05:30 info thumbnailer event loop lag 65ms ok
+2026-02-10T18:09:18.722+05:30 info thumbnailer event loop lag 45ms ok
+2026-02-10T18:09:24.090+05:30 info thumbnailer event loop lag 9ms ok
+2026-02-10T18:09:30.974+05:30 info thumbnailer served GET /api status=200 in 50ms trace=565a4c30
+2026-02-10T18:09:40.012+05:30 info thumbnailer served GET /api status=200 in 36ms trace=77757328
+2026-02-10T18:09:50.105+05:30 info thumbnailer served GET /api status=200 in 39ms trace=1c6069c8
+2026-02-10T18:10:03.360+05:30 info thumbnailer served GET /api status=200 in 65ms trace=1330b2a6
+2026-02-10T18:10:11.717+05:30 info thumbnailer event loop lag 64ms ok
+2026-02-10T18:10:20.821+05:30 info thumbnailer event loop lag 94ms ok
+2026-02-10T18:10:32.927+05:30 info thumbnailer served GET /api status=200 in 38ms trace=baa70c29
+2026-02-10T18:10:44.898+05:30 info thumbnailer served GET /api status=200 in 18ms trace=585b2b4a
+2026-02-10T18:10:56.978+05:30 info thumbnailer event loop lag 51ms ok
+2026-02-10T18:11:06.922+05:30 info thumbnailer served GET /api status=200 in 12ms trace=19cf02a2
+2026-02-10T18:11:18.876+05:30 info thumbnailer served GET /api status=200 in 30ms trace=a05da8dc

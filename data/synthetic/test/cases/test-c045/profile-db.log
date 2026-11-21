@@ -1,0 +1,62 @@
+2026-01-29T12:11:38Z INFO profile-db tick ok elapsed_ms=12
+2026-01-29T12:11:47Z INFO profile-db tick ok elapsed_ms=93
+2026-01-29T12:11:57Z INFO profile-db http request method=GET status=200 latency_ms=46 span=f8c39fdf
+2026-01-29T12:12:10Z INFO profile-db http request method=GET status=200 latency_ms=46 span=512a07f3
+2026-01-29T12:12:24Z INFO profile-db http request method=GET status=200 latency_ms=84 span=61521cb9
+2026-01-29T12:12:38Z INFO profile-db tick ok elapsed_ms=29
+2026-01-29T12:12:45Z INFO profile-db tick ok elapsed_ms=60
+2026-01-29T12:12:46Z WARN profile-db slow poll elapsed_ms=710
+2026-01-29T12:12:51Z INFO profile-db http request method=GET status=200 latency_ms=72 span=7abd0de0
+2026-01-29T12:12:59Z INFO profile-db http request method=GET status=200 latency_ms=15 span=02384194
+2026-01-29T12:13:11Z INFO profile-db http request method=GET status=200 latency_ms=42 span=f5d56b41
+2026-01-29T12:13:18Z INFO profile-db tick ok elapsed_ms=60
+2026-01-29T12:13:27Z INFO profile-db tick ok elapsed_ms=39
+2026-01-29T12:13:35Z INFO profile-db tick ok elapsed_ms=82
+2026-01-29T12:13:42Z INFO profile-db tick ok elapsed_ms=28
+2026-01-29T12:13:56Z INFO profile-db http request method=GET status=200 latency_ms=45 span=d536c568
+2026-01-29T12:14:05Z INFO profile-db tick ok elapsed_ms=82
+2026-01-29T12:14:12Z INFO profile-db tick ok elapsed_ms=58
+2026-01-29T12:14:21Z INFO profile-db http request method=GET status=200 latency_ms=51 span=68160c8a
+2026-01-29T12:14:35Z INFO profile-db tick ok elapsed_ms=53
+2026-01-29T12:14:41Z INFO profile-db tick ok elapsed_ms=84
+2026-01-29T12:14:52Z INFO profile-db http request method=GET status=200 latency_ms=76 span=626981a6
+2026-01-29T12:15:04Z INFO profile-db http request method=GET status=200 latency_ms=21 span=7290cb7e
+2026-01-29T12:15:10Z INFO profile-db http request method=GET status=200 latency_ms=70 span=ed523092
+2026-01-29T12:15:22Z INFO profile-db http request method=GET status=200 latency_ms=68 span=4dc53e19
+2026-01-29T12:15:31Z INFO profile-db http request method=GET status=200 latency_ms=10 span=eac81e00
+2026-01-29T12:15:38Z INFO profile-db http request method=GET status=200 latency_ms=86 span=7fc3765b
+2026-01-29T12:15:51Z INFO profile-db tick ok elapsed_ms=78
+2026-01-29T12:15:52Z WARN profile-db slow poll elapsed_ms=880
+2026-01-29T12:15:57Z INFO profile-db http request method=GET status=200 latency_ms=27 span=2560044c
+2026-01-29T12:16:05Z INFO profile-db tick ok elapsed_ms=23
+2026-01-29T12:16:16Z INFO profile-db tick ok elapsed_ms=76
+2026-01-29T12:16:29Z INFO profile-db tick ok elapsed_ms=39
+2026-01-29T12:16:37Z INFO profile-db http request method=GET status=200 latency_ms=84 span=a1c88710
+2026-01-29T12:16:38Z WARN profile-db slow poll elapsed_ms=540
+2026-01-29T12:16:49Z INFO profile-db tick ok elapsed_ms=83
+2026-01-29T12:17:01Z INFO profile-db http request method=GET status=200 latency_ms=68 span=f1e89512
+2026-01-29T12:17:15Z INFO profile-db tick ok elapsed_ms=33
+2026-01-29T12:17:24Z INFO profile-db tick ok elapsed_ms=87
+2026-01-29T12:17:32Z INFO profile-db http request method=GET status=200 latency_ms=11 span=62564ea9
+2026-01-29T12:17:43Z INFO profile-db tick ok elapsed_ms=18
+2026-01-29T12:17:53Z INFO profile-db http request method=GET status=200 latency_ms=34 span=bcd7dcd4
+2026-01-29T12:18:06Z INFO profile-db http request method=GET status=200 latency_ms=77 span=d3e4fc86
+2026-01-29T12:18:13Z INFO profile-db tick ok elapsed_ms=44
+2026-01-29T12:18:27Z INFO profile-db tick ok elapsed_ms=28
+2026-01-29T12:18:34Z INFO profile-db http request method=GET status=200 latency_ms=8 span=90267dfe
+2026-01-29T12:18:48Z INFO profile-db tick ok elapsed_ms=70
+2026-01-29T12:18:57Z INFO profile-db http request method=GET status=200 latency_ms=53 span=17689873
+2026-01-29T12:19:07Z INFO profile-db tick ok elapsed_ms=77
+2026-01-29T12:19:21Z INFO profile-db tick ok elapsed_ms=30
+2026-01-29T12:19:27Z INFO profile-db tick ok elapsed_ms=73
+2026-01-29T12:19:38Z INFO profile-db tick ok elapsed_ms=21
+2026-01-29T12:19:51Z INFO profile-db tick ok elapsed_ms=36
+2026-01-29T12:20:04Z INFO profile-db http request method=GET status=200 latency_ms=53 span=9d197781
+2026-01-29T12:20:12Z INFO profile-db tick ok elapsed_ms=55
+2026-01-29T12:20:24Z INFO profile-db http request method=GET status=200 latency_ms=43 span=348ff40f
+2026-01-29T12:20:38Z INFO profile-db tick ok elapsed_ms=76
+2026-01-29T12:20:47Z INFO profile-db tick ok elapsed_ms=91
+2026-01-29T12:20:55Z INFO profile-db http request method=GET status=200 latency_ms=20 span=167adf52
+2026-01-29T12:21:08Z INFO profile-db tick ok elapsed_ms=15
+2026-01-29T12:21:15Z INFO profile-db http request method=GET status=200 latency_ms=61 span=ec99b48b
+2026-01-29T12:21:23Z INFO profile-db http request method=GET status=200 latency_ms=28 span=2979e04a

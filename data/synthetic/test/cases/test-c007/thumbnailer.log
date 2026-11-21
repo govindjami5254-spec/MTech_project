@@ -1,0 +1,61 @@
+2026-02-12T09:32:47Z INFO thumbnailer tick ok elapsed_ms=22
+2026-02-12T09:32:58Z INFO thumbnailer tick ok elapsed_ms=89
+2026-02-12T09:33:05Z INFO thumbnailer http request method=GET status=200 latency_ms=87 span=10391e03
+2026-02-12T09:33:12Z INFO thumbnailer http request method=GET status=200 latency_ms=41 span=dd0edff6
+2026-02-12T09:33:21Z INFO thumbnailer tick ok elapsed_ms=18
+2026-02-12T09:33:34Z INFO thumbnailer http request method=GET status=200 latency_ms=28 span=804794bf
+2026-02-12T09:33:46Z INFO thumbnailer tick ok elapsed_ms=11
+2026-02-12T09:33:53Z INFO thumbnailer tick ok elapsed_ms=92
+2026-02-12T09:34:01Z INFO thumbnailer http request method=GET status=200 latency_ms=90 span=5522f02b
+2026-02-12T09:34:12Z INFO thumbnailer tick ok elapsed_ms=78
+2026-02-12T09:34:23Z INFO thumbnailer http request method=GET status=200 latency_ms=42 span=80f84c39
+2026-02-12T09:34:36Z INFO thumbnailer http request method=GET status=200 latency_ms=8 span=46e692da
+2026-02-12T09:34:42Z INFO thumbnailer http request method=GET status=200 latency_ms=24 span=42234656
+2026-02-12T09:34:48Z INFO thumbnailer http request method=GET status=200 latency_ms=57 span=cdefea20
+2026-02-12T09:34:56Z INFO thumbnailer http request method=GET status=200 latency_ms=71 span=511f6596
+2026-02-12T09:35:09Z INFO thumbnailer http request method=GET status=200 latency_ms=35 span=393425dc
+2026-02-12T09:35:21Z INFO thumbnailer http request method=GET status=200 latency_ms=84 span=89d6b7d1
+2026-02-12T09:35:34Z INFO thumbnailer http request method=GET status=200 latency_ms=76 span=8e44acf5
+2026-02-12T09:35:42Z INFO thumbnailer tick ok elapsed_ms=66
+2026-02-12T09:35:56Z INFO thumbnailer tick ok elapsed_ms=52
+2026-02-12T09:36:05Z INFO thumbnailer tick ok elapsed_ms=31
+2026-02-12T09:36:18Z INFO thumbnailer http request method=GET status=200 latency_ms=87 span=f5c5df17
+2026-02-12T09:36:30Z INFO thumbnailer http request method=GET status=200 latency_ms=77 span=3afa0004
+2026-02-12T09:36:39Z INFO thumbnailer http request method=GET status=200 latency_ms=93 span=021f4a78
+2026-02-12T09:36:48Z INFO thumbnailer tick ok elapsed_ms=88
+2026-02-12T09:36:54Z INFO thumbnailer tick ok elapsed_ms=95
+2026-02-12T09:37:02Z INFO thumbnailer tick ok elapsed_ms=8
+2026-02-12T09:37:08Z INFO thumbnailer tick ok elapsed_ms=76
+2026-02-12T09:37:22Z INFO thumbnailer tick ok elapsed_ms=26
+2026-02-12T09:37:31Z INFO thumbnailer http request method=GET status=200 latency_ms=8 span=6fb0779d
+2026-02-12T09:37:41Z INFO thumbnailer http request method=GET status=200 latency_ms=80 span=0fc9edcf
+2026-02-12T09:37:55Z INFO thumbnailer tick ok elapsed_ms=50
+2026-02-12T09:38:09Z INFO thumbnailer tick ok elapsed_ms=82
+2026-02-12T09:38:15Z INFO thumbnailer tick ok elapsed_ms=56
+2026-02-12T09:38:16Z WARN thumbnailer client sent oversized header, truncated span=b6229e15
+2026-02-12T09:38:25Z INFO thumbnailer tick ok elapsed_ms=31
+2026-02-12T09:38:39Z INFO thumbnailer http request method=GET status=200 latency_ms=84 span=c35e9105
+2026-02-12T09:38:45Z INFO thumbnailer http request method=GET status=200 latency_ms=29 span=92c710c7
+2026-02-12T09:38:59Z INFO thumbnailer tick ok elapsed_ms=9
+2026-02-12T09:39:10Z INFO thumbnailer tick ok elapsed_ms=33
+2026-02-12T09:39:23Z INFO thumbnailer tick ok elapsed_ms=76
+2026-02-12T09:39:30Z INFO thumbnailer http request method=GET status=200 latency_ms=55 span=24241e05
+2026-02-12T09:39:40Z INFO thumbnailer http request method=GET status=200 latency_ms=44 span=fd174288
+2026-02-12T09:39:51Z INFO thumbnailer tick ok elapsed_ms=23
+2026-02-12T09:39:58Z INFO thumbnailer http request method=GET status=200 latency_ms=81 span=b382ef72
+2026-02-12T09:40:06Z INFO thumbnailer http request method=GET status=200 latency_ms=58 span=c6955560
+2026-02-12T09:40:16Z INFO thumbnailer http request method=GET status=200 latency_ms=8 span=cc3667c6
+2026-02-12T09:40:22Z INFO thumbnailer tick ok elapsed_ms=9
+2026-02-12T09:40:36Z INFO thumbnailer http request method=GET status=200 latency_ms=24 span=bf1988db
+2026-02-12T09:40:42Z INFO thumbnailer tick ok elapsed_ms=68
+2026-02-12T09:40:55Z INFO thumbnailer tick ok elapsed_ms=53
+2026-02-12T09:41:03Z INFO thumbnailer tick ok elapsed_ms=81
+2026-02-12T09:41:11Z INFO thumbnailer tick ok elapsed_ms=55
+2026-02-12T09:41:19Z INFO thumbnailer tick ok elapsed_ms=58
+2026-02-12T09:41:27Z INFO thumbnailer http request method=GET status=200 latency_ms=49 span=1a933d1d
+2026-02-12T09:41:37Z INFO thumbnailer http request method=GET status=200 latency_ms=15 span=70455984
+2026-02-12T09:41:50Z INFO thumbnailer http request method=GET status=200 latency_ms=86 span=a7d6f468
+2026-02-12T09:42:01Z INFO thumbnailer http request method=GET status=200 latency_ms=19 span=e7e40e91
+2026-02-12T09:42:07Z INFO thumbnailer http request method=GET status=200 latency_ms=87 span=fe4dc670
+2026-02-12T09:42:19Z INFO thumbnailer http request method=GET status=200 latency_ms=19 span=e6f9e09d
+2026-02-12T09:42:26Z INFO thumbnailer http request method=GET status=200 latency_ms=37 span=c7315aa4

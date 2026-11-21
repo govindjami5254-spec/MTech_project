@@ -1,0 +1,64 @@
+2026-01-23 12:35:34,917 INFO scheduler GET /v1/items 200 19ms req_id=bfa936d0
+2026-01-23 12:35:41,784 INFO scheduler GET /v1/items 200 44ms req_id=5b701d0f
+2026-01-23 12:35:49,106 INFO scheduler worker heartbeat ok (54ms)
+2026-01-23 12:36:00,615 INFO scheduler worker heartbeat ok (20ms)
+2026-01-23 12:36:08,959 INFO scheduler GET /v1/items 200 79ms req_id=537e0107
+2026-01-23 12:36:17,825 INFO scheduler worker heartbeat ok (69ms)
+2026-01-23 12:36:28,256 INFO scheduler worker heartbeat ok (19ms)
+2026-01-23 12:36:34,991 INFO scheduler GET /v1/items 200 35ms req_id=d4d57cac
+2026-01-23 12:36:43,261 INFO scheduler worker heartbeat ok (80ms)
+2026-01-23 12:36:44,000 WARNING scheduler deprecated parameter 'page' used by client
+2026-01-23 12:36:51,872 INFO scheduler worker heartbeat ok (57ms)
+2026-01-23 12:37:03,743 INFO scheduler GET /v1/items 200 75ms req_id=c455c166
+2026-01-23 12:37:10,331 INFO scheduler worker heartbeat ok (30ms)
+2026-01-23 12:37:11,000 WARNING scheduler deprecated parameter 'page' used by client
+2026-01-23 12:37:19,526 INFO scheduler worker heartbeat ok (21ms)
+2026-01-23 12:37:28,860 INFO scheduler worker heartbeat ok (87ms)
+2026-01-23 12:37:39,841 INFO scheduler worker heartbeat ok (12ms)
+2026-01-23 12:37:49,925 INFO scheduler GET /v1/items 200 84ms req_id=2cf9a32b
+2026-01-23 12:38:01,126 INFO scheduler worker heartbeat ok (54ms)
+2026-01-23 12:38:07,186 INFO scheduler GET /v1/items 200 89ms req_id=e3d285cb
+2026-01-23 12:38:19,441 INFO scheduler worker heartbeat ok (88ms)
+2026-01-23 12:38:32,762 INFO scheduler GET /v1/items 200 60ms req_id=018d5a37
+2026-01-23 12:38:44,255 INFO scheduler GET /v1/items 200 91ms req_id=2d790bce
+2026-01-23 12:38:53,665 INFO scheduler GET /v1/items 200 85ms req_id=d02aceed
+2026-01-23 12:39:04,873 INFO scheduler GET /v1/items 200 89ms req_id=4c9dfe1e
+2026-01-23 12:39:14,094 INFO scheduler GET /v1/items 200 66ms req_id=dcc2c1b1
+2026-01-23 12:39:27,822 INFO scheduler GET /v1/items 200 71ms req_id=d3d5b32c
+2026-01-23 12:39:36,426 INFO scheduler GET /v1/items 200 34ms req_id=fa0c30dc
+2026-01-23 12:39:49,771 INFO scheduler worker heartbeat ok (80ms)
+2026-01-23 12:40:00,876 INFO scheduler worker heartbeat ok (51ms)
+2026-01-23 12:40:06,024 INFO scheduler worker heartbeat ok (25ms)
+2026-01-23 12:40:17,107 INFO scheduler worker heartbeat ok (31ms)
+2026-01-23 12:40:28,897 INFO scheduler GET /v1/items 200 29ms req_id=f39589fa
+2026-01-23 12:40:37,476 INFO scheduler worker heartbeat ok (86ms)
+2026-01-23 12:40:43,750 INFO scheduler worker heartbeat ok (34ms)
+2026-01-23 12:40:57,742 INFO scheduler GET /v1/items 200 68ms req_id=16d120bf
+2026-01-23 12:41:11,538 INFO scheduler GET /v1/items 200 81ms req_id=7f41a17b
+2026-01-23 12:41:20,442 INFO scheduler worker heartbeat ok (65ms)
+2026-01-23 12:41:31,680 INFO scheduler GET /v1/items 200 72ms req_id=683cd957
+2026-01-23 12:41:37,077 INFO scheduler worker heartbeat ok (8ms)
+2026-01-23 12:41:47,781 INFO scheduler GET /v1/items 200 74ms req_id=981a10e0
+2026-01-23 12:41:55,023 INFO scheduler GET /v1/items 200 64ms req_id=6bf71f43
+2026-01-23 12:42:09,104 INFO scheduler worker heartbeat ok (46ms)
+2026-01-23 12:42:21,937 INFO scheduler worker heartbeat ok (36ms)
+2026-01-23 12:42:34,635 INFO scheduler worker heartbeat ok (84ms)
+2026-01-23 12:42:48,800 INFO scheduler worker heartbeat ok (38ms)
+2026-01-23 12:42:49,000 WARNING scheduler deprecated parameter 'page' used by client
+2026-01-23 12:42:58,456 INFO scheduler GET /v1/items 200 30ms req_id=c7e31c3d
+2026-01-23 12:43:06,370 INFO scheduler GET /v1/items 200 8ms req_id=876047f0
+2026-01-23 12:43:13,505 INFO scheduler worker heartbeat ok (40ms)
+2026-01-23 12:43:25,504 INFO scheduler worker heartbeat ok (53ms)
+2026-01-23 12:43:33,175 INFO scheduler GET /v1/items 200 60ms req_id=1315f376
+2026-01-23 12:43:42,012 INFO scheduler worker heartbeat ok (81ms)
+2026-01-23 12:43:52,126 INFO scheduler worker heartbeat ok (26ms)
+2026-01-23 12:44:05,760 INFO scheduler worker heartbeat ok (56ms)
+2026-01-23 12:44:12,669 INFO scheduler worker heartbeat ok (71ms)
+2026-01-23 12:44:21,444 INFO scheduler GET /v1/items 200 78ms req_id=c7fd0259
+2026-01-23 12:44:27,288 INFO scheduler worker heartbeat ok (34ms)
+2026-01-23 12:44:39,697 INFO scheduler GET /v1/items 200 58ms req_id=6c685264
+2026-01-23 12:44:49,464 INFO scheduler worker heartbeat ok (58ms)
+2026-01-23 12:44:57,989 INFO scheduler GET /v1/items 200 59ms req_id=ff1e67e8
+2026-01-23 12:45:10,856 INFO scheduler GET /v1/items 200 68ms req_id=7a1849cb
+2026-01-23 12:45:18,529 INFO scheduler worker heartbeat ok (82ms)
+2026-01-23 12:45:19,000 WARNING scheduler deprecated parameter 'page' used by client

@@ -1,0 +1,68 @@
+2026-02-14T13:07:05Z INFO web-gateway http request method=GET status=200 latency_ms=35 span=c2722731
+2026-02-14T13:07:15Z INFO web-gateway tick ok elapsed_ms=74
+2026-02-14T13:07:24Z INFO web-gateway http request method=GET status=200 latency_ms=53 span=3bd18d74
+2026-02-14T13:07:33Z INFO web-gateway tick ok elapsed_ms=68
+2026-02-14T13:07:42Z INFO web-gateway http request method=GET status=200 latency_ms=75 span=9d5f6dd5
+2026-02-14T13:07:56Z INFO web-gateway tick ok elapsed_ms=74
+2026-02-14T13:08:06Z INFO web-gateway tick ok elapsed_ms=92
+2026-02-14T13:08:15Z INFO web-gateway http request method=GET status=200 latency_ms=81 span=43066d5f
+2026-02-14T13:08:29Z INFO web-gateway http request method=GET status=200 latency_ms=89 span=15bd82da
+2026-02-14T13:08:36Z INFO web-gateway tick ok elapsed_ms=8
+2026-02-14T13:08:46Z INFO web-gateway http request method=GET status=200 latency_ms=92 span=f4f477a9
+2026-02-14T13:08:59Z INFO web-gateway tick ok elapsed_ms=39
+2026-02-14T13:09:05Z INFO web-gateway http request method=GET status=200 latency_ms=75 span=9856b45f
+2026-02-14T13:09:13Z INFO web-gateway http request method=GET status=200 latency_ms=61 span=3dec784e
+2026-02-14T13:09:27Z INFO web-gateway tick ok elapsed_ms=42
+2026-02-14T13:09:34Z INFO web-gateway http request method=GET status=200 latency_ms=61 span=ea50d926
+2026-02-14T13:09:42Z INFO web-gateway tick ok elapsed_ms=45
+2026-02-14T13:09:48Z INFO web-gateway tick ok elapsed_ms=41
+2026-02-14T13:09:54Z INFO web-gateway tick ok elapsed_ms=87
+2026-02-14T13:10:02Z INFO web-gateway tick ok elapsed_ms=85
+2026-02-14T13:10:16Z INFO web-gateway http request method=GET status=200 latency_ms=85 span=25128b0c
+2026-02-14T13:10:22Z INFO web-gateway http request method=GET status=200 latency_ms=41 span=fe9cea08
+2026-02-14T13:10:32Z INFO web-gateway http request method=GET status=200 latency_ms=37 span=6be51e91
+2026-02-14T13:10:33Z WARN web-gateway slow poll elapsed_ms=380
+2026-02-14T13:10:46Z INFO web-gateway http request method=GET status=200 latency_ms=26 span=75a40831
+2026-02-14T13:10:58Z INFO web-gateway http request method=GET status=200 latency_ms=37 span=191acd07
+2026-02-14T13:11:07Z INFO web-gateway tick ok elapsed_ms=91
+2026-02-14T13:11:20Z INFO web-gateway http request method=GET status=200 latency_ms=94 span=a4981dad
+2026-02-14T13:11:29Z INFO web-gateway http request method=GET status=200 latency_ms=89 span=05f7bd1d
+2026-02-14T13:11:40Z INFO web-gateway tick ok elapsed_ms=23
+2026-02-14T13:11:48Z INFO web-gateway tick ok elapsed_ms=43
+2026-02-14T13:12:01Z INFO web-gateway http request method=GET status=200 latency_ms=78 span=21ba5ae2
+2026-02-14T13:12:12Z INFO web-gateway tick ok elapsed_ms=23
+2026-02-14T13:12:16Z ERR web-gateway bad gateway: booking-svc failed span=297ce8b9 status=502
+2026-02-14T13:12:19Z ERR web-gateway service unavailable: booking-svc span=3993dae1 status=503
+2026-02-14T13:12:20Z INFO web-gateway http request method=GET status=200 latency_ms=52 span=25f56791
+2026-02-14T13:12:22Z ERR web-gateway bad gateway: booking-svc failed span=661623ba status=502
+2026-02-14T13:12:25Z ERR web-gateway bad gateway: booking-svc failed span=a09b48eb status=502
+2026-02-14T13:12:28Z ERR web-gateway service unavailable: booking-svc span=9b34073c status=503
+2026-02-14T13:12:31Z ERR web-gateway bad gateway: booking-svc failed span=88bbca81 status=502
+2026-02-14T13:12:32Z INFO web-gateway tick ok elapsed_ms=39
+2026-02-14T13:12:34Z ERR web-gateway service unavailable: booking-svc span=b7a943c3 status=503
+2026-02-14T13:12:44Z INFO web-gateway http request method=GET status=200 latency_ms=63 span=0b60d4eb
+2026-02-14T13:12:53Z INFO web-gateway tick ok elapsed_ms=18
+2026-02-14T13:13:05Z INFO web-gateway http request method=GET status=200 latency_ms=60 span=2d45b237
+2026-02-14T13:13:11Z INFO web-gateway tick ok elapsed_ms=79
+2026-02-14T13:13:21Z INFO web-gateway tick ok elapsed_ms=23
+2026-02-14T13:13:35Z INFO web-gateway tick ok elapsed_ms=80
+2026-02-14T13:13:46Z INFO web-gateway tick ok elapsed_ms=71
+2026-02-14T13:13:56Z INFO web-gateway tick ok elapsed_ms=48
+2026-02-14T13:14:04Z INFO web-gateway tick ok elapsed_ms=95
+2026-02-14T13:14:15Z INFO web-gateway http request method=GET status=200 latency_ms=21 span=a99b3ae4
+2026-02-14T13:14:27Z INFO web-gateway tick ok elapsed_ms=94
+2026-02-14T13:14:34Z INFO web-gateway tick ok elapsed_ms=94
+2026-02-14T13:14:41Z INFO web-gateway tick ok elapsed_ms=95
+2026-02-14T13:14:53Z INFO web-gateway tick ok elapsed_ms=64
+2026-02-14T13:15:05Z INFO web-gateway http request method=GET status=200 latency_ms=41 span=a7b59e23
+2026-02-14T13:15:19Z INFO web-gateway http request method=GET status=200 latency_ms=80 span=71b9fa7d
+2026-02-14T13:15:30Z INFO web-gateway http request method=GET status=200 latency_ms=58 span=62a066a4
+2026-02-14T13:15:40Z INFO web-gateway tick ok elapsed_ms=59
+2026-02-14T13:15:49Z INFO web-gateway http request method=GET status=200 latency_ms=80 span=339644bb
+2026-02-14T13:15:55Z INFO web-gateway tick ok elapsed_ms=36
+2026-02-14T13:16:08Z INFO web-gateway http request method=GET status=200 latency_ms=85 span=c40b4a4c
+2026-02-14T13:16:19Z INFO web-gateway tick ok elapsed_ms=34
+2026-02-14T13:16:20Z WARN web-gateway slow poll elapsed_ms=640
+2026-02-14T13:16:30Z INFO web-gateway tick ok elapsed_ms=86
+2026-02-14T13:16:40Z INFO web-gateway http request method=GET status=200 latency_ms=27 span=9e72c48f
+2026-02-14T13:16:52Z INFO web-gateway tick ok elapsed_ms=69

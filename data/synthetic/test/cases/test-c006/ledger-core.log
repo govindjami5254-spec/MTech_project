@@ -1,0 +1,60 @@
+2026-01-30 10:39:19,404 INFO ledger-core GET /v1/items 200 82ms req_id=921ede3e
+2026-01-30 10:39:28,235 INFO ledger-core worker heartbeat ok (76ms)
+2026-01-30 10:39:35,035 INFO ledger-core GET /v1/items 200 55ms req_id=aa1f9bc3
+2026-01-30 10:39:44,702 INFO ledger-core GET /v1/items 200 16ms req_id=61b416d8
+2026-01-30 10:39:53,198 INFO ledger-core worker heartbeat ok (46ms)
+2026-01-30 10:40:07,068 INFO ledger-core GET /v1/items 200 48ms req_id=85379f51
+2026-01-30 10:40:21,488 INFO ledger-core worker heartbeat ok (87ms)
+2026-01-30 10:40:34,261 INFO ledger-core GET /v1/items 200 41ms req_id=465a2bcc
+2026-01-30 10:40:40,917 INFO ledger-core worker heartbeat ok (44ms)
+2026-01-30 10:40:46,199 INFO ledger-core worker heartbeat ok (33ms)
+2026-01-30 10:40:54,364 INFO ledger-core worker heartbeat ok (82ms)
+2026-01-30 10:41:05,155 INFO ledger-core worker heartbeat ok (65ms)
+2026-01-30 10:41:12,311 INFO ledger-core worker heartbeat ok (9ms)
+2026-01-30 10:41:13,000 WARNING ledger-core deprecated parameter 'page' used by client
+2026-01-30 10:41:24,545 INFO ledger-core worker heartbeat ok (43ms)
+2026-01-30 10:41:34,677 INFO ledger-core GET /v1/items 200 88ms req_id=025c1d1e
+2026-01-30 10:41:44,073 INFO ledger-core worker heartbeat ok (67ms)
+2026-01-30 10:41:55,401 INFO ledger-core GET /v1/items 200 25ms req_id=a7c24dd6
+2026-01-30 10:42:01,998 INFO ledger-core worker heartbeat ok (27ms)
+2026-01-30 10:42:12,661 INFO ledger-core worker heartbeat ok (82ms)
+2026-01-30 10:42:18,251 INFO ledger-core GET /v1/items 200 18ms req_id=6a620bba
+2026-01-30 10:42:30,957 INFO ledger-core worker heartbeat ok (81ms)
+2026-01-30 10:42:42,462 INFO ledger-core worker heartbeat ok (89ms)
+2026-01-30 10:42:48,007 INFO ledger-core GET /v1/items 200 84ms req_id=2d8b8aa2
+2026-01-30 10:43:01,962 INFO ledger-core GET /v1/items 200 42ms req_id=19a0534b
+2026-01-30 10:43:13,824 INFO ledger-core worker heartbeat ok (55ms)
+2026-01-30 10:43:27,033 INFO ledger-core worker heartbeat ok (79ms)
+2026-01-30 10:43:36,570 INFO ledger-core GET /v1/items 200 38ms req_id=c8100967
+2026-01-30 10:43:47,696 INFO ledger-core worker heartbeat ok (79ms)
+2026-01-30 10:44:00,905 INFO ledger-core GET /v1/items 200 38ms req_id=132152a0
+2026-01-30 10:44:08,832 INFO ledger-core worker heartbeat ok (42ms)
+2026-01-30 10:44:22,108 INFO ledger-core worker heartbeat ok (67ms)
+2026-01-30 10:44:32,071 INFO ledger-core GET /v1/items 200 92ms req_id=fa79e6c9
+2026-01-30 10:44:38,169 INFO ledger-core GET /v1/items 200 63ms req_id=44a2c676
+2026-01-30 10:44:48,911 INFO ledger-core GET /v1/items 200 74ms req_id=cd45ffd5
+2026-01-30 10:45:02,088 INFO ledger-core GET /v1/items 200 71ms req_id=8abb0567
+2026-01-30 10:45:09,669 INFO ledger-core GET /v1/items 200 24ms req_id=a71d081d
+2026-01-30 10:45:15,764 INFO ledger-core worker heartbeat ok (33ms)
+2026-01-30 10:45:27,935 INFO ledger-core GET /v1/items 200 89ms req_id=f57a8d03
+2026-01-30 10:45:39,738 INFO ledger-core worker heartbeat ok (15ms)
+2026-01-30 10:45:47,371 INFO ledger-core worker heartbeat ok (60ms)
+2026-01-30 10:46:01,237 INFO ledger-core worker heartbeat ok (27ms)
+2026-01-30 10:46:09,225 INFO ledger-core GET /v1/items 200 88ms req_id=d68a7798
+2026-01-30 10:46:19,332 INFO ledger-core worker heartbeat ok (9ms)
+2026-01-30 10:46:31,874 INFO ledger-core GET /v1/items 200 19ms req_id=aaf24357
+2026-01-30 10:46:41,927 INFO ledger-core GET /v1/items 200 80ms req_id=b02f67c5
+2026-01-30 10:46:55,623 INFO ledger-core worker heartbeat ok (9ms)
+2026-01-30 10:47:07,059 INFO ledger-core GET /v1/items 200 43ms req_id=1d4d6b26
+2026-01-30 10:47:21,093 INFO ledger-core GET /v1/items 200 20ms req_id=9e3d92ca
+2026-01-30 10:47:31,755 INFO ledger-core worker heartbeat ok (23ms)
+2026-01-30 10:47:39,455 INFO ledger-core worker heartbeat ok (65ms)
+2026-01-30 10:47:50,054 INFO ledger-core GET /v1/items 200 88ms req_id=95808ef0
+2026-01-30 10:48:02,622 INFO ledger-core GET /v1/items 200 14ms req_id=3459f84c
+2026-01-30 10:48:16,054 INFO ledger-core worker heartbeat ok (31ms)
+2026-01-30 10:48:24,602 INFO ledger-core worker heartbeat ok (55ms)
+2026-01-30 10:48:33,172 INFO ledger-core worker heartbeat ok (28ms)
+2026-01-30 10:48:40,769 INFO ledger-core worker heartbeat ok (27ms)
+2026-01-30 10:48:52,133 INFO ledger-core worker heartbeat ok (31ms)
+2026-01-30 10:48:59,149 INFO ledger-core worker heartbeat ok (71ms)
+2026-01-30 10:49:12,703 INFO ledger-core GET /v1/items 200 14ms req_id=4c5d37d2

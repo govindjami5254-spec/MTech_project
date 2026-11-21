@@ -1,0 +1,59 @@
+2026-01-24T13:10:48Z INFO report-batch http request method=GET status=200 latency_ms=36 span=dc60a03c
+2026-01-24T13:11:02Z INFO report-batch tick ok elapsed_ms=26
+2026-01-24T13:11:16Z INFO report-batch http request method=GET status=200 latency_ms=85 span=c39805aa
+2026-01-24T13:11:26Z INFO report-batch http request method=GET status=200 latency_ms=77 span=5ebe49e8
+2026-01-24T13:11:39Z INFO report-batch http request method=GET status=200 latency_ms=49 span=e9232db2
+2026-01-24T13:11:51Z INFO report-batch http request method=GET status=200 latency_ms=78 span=cddc937b
+2026-01-24T13:12:03Z INFO report-batch http request method=GET status=200 latency_ms=77 span=85a94fb3
+2026-01-24T13:12:16Z INFO report-batch tick ok elapsed_ms=55
+2026-01-24T13:12:23Z INFO report-batch http request method=GET status=200 latency_ms=51 span=1daee733
+2026-01-24T13:12:30Z INFO report-batch tick ok elapsed_ms=57
+2026-01-24T13:12:39Z INFO report-batch tick ok elapsed_ms=89
+2026-01-24T13:12:48Z INFO report-batch tick ok elapsed_ms=79
+2026-01-24T13:13:00Z INFO report-batch tick ok elapsed_ms=64
+2026-01-24T13:13:10Z INFO report-batch http request method=GET status=200 latency_ms=83 span=dfbcfaaf
+2026-01-24T13:13:23Z INFO report-batch http request method=GET status=200 latency_ms=65 span=66eb077c
+2026-01-24T13:13:36Z INFO report-batch http request method=GET status=200 latency_ms=72 span=bf8c85a5
+2026-01-24T13:13:48Z INFO report-batch tick ok elapsed_ms=79
+2026-01-24T13:13:59Z INFO report-batch http request method=GET status=200 latency_ms=17 span=a51d7210
+2026-01-24T13:14:06Z INFO report-batch tick ok elapsed_ms=57
+2026-01-24T13:14:15Z INFO report-batch tick ok elapsed_ms=79
+2026-01-24T13:14:26Z INFO report-batch http request method=GET status=200 latency_ms=10 span=04c4a4ed
+2026-01-24T13:14:35Z INFO report-batch http request method=GET status=200 latency_ms=27 span=a0de80d1
+2026-01-24T13:14:46Z INFO report-batch http request method=GET status=200 latency_ms=40 span=ca42a557
+2026-01-24T13:14:53Z INFO report-batch http request method=GET status=200 latency_ms=39 span=c7262b9a
+2026-01-24T13:14:59Z INFO report-batch http request method=GET status=200 latency_ms=89 span=c0e1af4a
+2026-01-24T13:15:12Z INFO report-batch http request method=GET status=200 latency_ms=25 span=c2c911c3
+2026-01-24T13:15:20Z INFO report-batch tick ok elapsed_ms=74
+2026-01-24T13:15:33Z INFO report-batch http request method=GET status=200 latency_ms=22 span=5543a05d
+2026-01-24T13:15:47Z INFO report-batch http request method=GET status=200 latency_ms=54 span=8c81c952
+2026-01-24T13:15:55Z INFO report-batch tick ok elapsed_ms=55
+2026-01-24T13:16:09Z INFO report-batch http request method=GET status=200 latency_ms=17 span=0842af36
+2026-01-24T13:16:22Z INFO report-batch http request method=GET status=200 latency_ms=39 span=a159c5f3
+2026-01-24T13:16:33Z INFO report-batch http request method=GET status=200 latency_ms=57 span=0e7af8e2
+2026-01-24T13:16:45Z INFO report-batch http request method=GET status=200 latency_ms=72 span=540f3461
+2026-01-24T13:16:54Z INFO report-batch tick ok elapsed_ms=91
+2026-01-24T13:17:00Z INFO report-batch tick ok elapsed_ms=70
+2026-01-24T13:17:11Z INFO report-batch tick ok elapsed_ms=85
+2026-01-24T13:17:18Z INFO report-batch http request method=GET status=200 latency_ms=40 span=e5923d49
+2026-01-24T13:17:27Z INFO report-batch http request method=GET status=200 latency_ms=53 span=faa0a5c5
+2026-01-24T13:17:38Z INFO report-batch http request method=GET status=200 latency_ms=35 span=4cd0015b
+2026-01-24T13:17:52Z INFO report-batch tick ok elapsed_ms=34
+2026-01-24T13:17:59Z INFO report-batch http request method=GET status=200 latency_ms=83 span=58bd3911
+2026-01-24T13:18:06Z INFO report-batch http request method=GET status=200 latency_ms=35 span=317a54ac
+2026-01-24T13:18:15Z INFO report-batch http request method=GET status=200 latency_ms=11 span=aa19dc83
+2026-01-24T13:18:21Z INFO report-batch tick ok elapsed_ms=53
+2026-01-24T13:18:28Z INFO report-batch tick ok elapsed_ms=91
+2026-01-24T13:18:37Z INFO report-batch http request method=GET status=200 latency_ms=88 span=0a203bef
+2026-01-24T13:18:43Z INFO report-batch http request method=GET status=200 latency_ms=16 span=5ddbfa44
+2026-01-24T13:18:56Z INFO report-batch tick ok elapsed_ms=88
+2026-01-24T13:19:02Z INFO report-batch tick ok elapsed_ms=12
+2026-01-24T13:19:11Z INFO report-batch http request method=GET status=200 latency_ms=80 span=8dde47d0
+2026-01-24T13:19:25Z INFO report-batch http request method=GET status=200 latency_ms=93 span=f63e0889
+2026-01-24T13:19:34Z INFO report-batch tick ok elapsed_ms=93
+2026-01-24T13:19:41Z INFO report-batch tick ok elapsed_ms=84
+2026-01-24T13:19:54Z INFO report-batch tick ok elapsed_ms=25
+2026-01-24T13:20:07Z INFO report-batch tick ok elapsed_ms=57
+2026-01-24T13:20:18Z INFO report-batch tick ok elapsed_ms=42
+2026-01-24T13:20:25Z INFO report-batch http request method=GET status=200 latency_ms=85 span=ad03699e
+2026-01-24T13:20:38Z INFO report-batch tick ok elapsed_ms=62

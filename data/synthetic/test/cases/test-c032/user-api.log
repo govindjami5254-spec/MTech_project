@@ -1,0 +1,67 @@
+2026-01-26T12:10:21Z INFO user-api tick ok elapsed_ms=10
+2026-01-26T12:10:28Z INFO user-api http request method=GET status=200 latency_ms=94 span=7646b6bb
+2026-01-26T12:10:37Z INFO user-api http request method=GET status=200 latency_ms=31 span=6296953d
+2026-01-26T12:10:48Z INFO user-api tick ok elapsed_ms=85
+2026-01-26T12:11:00Z INFO user-api http request method=GET status=200 latency_ms=16 span=a9014dc1
+2026-01-26T12:11:09Z INFO user-api tick ok elapsed_ms=70
+2026-01-26T12:11:19Z INFO user-api tick ok elapsed_ms=61
+2026-01-26T12:11:30Z INFO user-api http request method=GET status=200 latency_ms=33 span=4765545c
+2026-01-26T12:11:42Z INFO user-api tick ok elapsed_ms=15
+2026-01-26T12:11:54Z INFO user-api tick ok elapsed_ms=47
+2026-01-26T12:12:08Z INFO user-api http request method=GET status=200 latency_ms=87 span=863b2e4c
+2026-01-26T12:12:19Z INFO user-api http request method=GET status=200 latency_ms=85 span=45b5cb8e
+2026-01-26T12:12:28Z INFO user-api tick ok elapsed_ms=29
+2026-01-26T12:12:36Z INFO user-api http request method=GET status=200 latency_ms=21 span=af2d43b7
+2026-01-26T12:12:42Z INFO user-api http request method=GET status=200 latency_ms=58 span=357fc4f6
+2026-01-26T12:12:52Z INFO user-api http request method=GET status=200 latency_ms=34 span=2bdf46dc
+2026-01-26T12:13:04Z INFO user-api http request method=GET status=200 latency_ms=81 span=389396a3
+2026-01-26T12:13:10Z INFO user-api tick ok elapsed_ms=50
+2026-01-26T12:13:17Z INFO user-api tick ok elapsed_ms=83
+2026-01-26T12:13:27Z INFO user-api http request method=GET status=200 latency_ms=89 span=7016dc22
+2026-01-26T12:13:38Z INFO user-api tick ok elapsed_ms=39
+2026-01-26T12:13:38Z ERR user-api background compaction of audit store failed: io error (will retry)
+2026-01-26T12:13:49Z ERR user-api background compaction of audit store failed: io error (will retry)
+2026-01-26T12:13:51Z INFO user-api tick ok elapsed_ms=74
+2026-01-26T12:14:00Z INFO user-api http request method=GET status=200 latency_ms=72 span=a6dccedb
+2026-01-26T12:14:00Z ERR user-api background compaction of audit store failed: io error (will retry)
+2026-01-26T12:14:11Z INFO user-api tick ok elapsed_ms=19
+2026-01-26T12:14:11Z ERR user-api background compaction of audit store failed: io error (will retry)
+2026-01-26T12:14:23Z INFO user-api tick ok elapsed_ms=33
+2026-01-26T12:14:31Z INFO user-api http request method=GET status=200 latency_ms=64 span=4fcec711
+2026-01-26T12:14:39Z INFO user-api http request method=GET status=200 latency_ms=47 span=d249cb5f
+2026-01-26T12:14:45Z INFO user-api http request method=GET status=200 latency_ms=17 span=b9c308b0
+2026-01-26T12:14:46Z WARN user-api client sent oversized header, truncated span=0d700202
+2026-01-26T12:14:52Z INFO user-api http request method=GET status=200 latency_ms=36 span=d14410ef
+2026-01-26T12:15:04Z INFO user-api http request method=GET status=200 latency_ms=73 span=f00e2fab
+2026-01-26T12:15:05Z WARN user-api client sent oversized header, truncated span=bccc547a
+2026-01-26T12:15:18Z INFO user-api tick ok elapsed_ms=84
+2026-01-26T12:15:32Z INFO user-api tick ok elapsed_ms=65
+2026-01-26T12:15:45Z INFO user-api tick ok elapsed_ms=27
+2026-01-26T12:15:53Z INFO user-api tick ok elapsed_ms=34
+2026-01-26T12:16:03Z INFO user-api tick ok elapsed_ms=69
+2026-01-26T12:16:16Z INFO user-api http request method=GET status=200 latency_ms=46 span=234e14ff
+2026-01-26T12:16:26Z INFO user-api http request method=GET status=200 latency_ms=11 span=00715209
+2026-01-26T12:16:40Z INFO user-api http request method=GET status=200 latency_ms=33 span=092392c3
+2026-01-26T12:16:48Z INFO user-api tick ok elapsed_ms=74
+2026-01-26T12:17:02Z INFO user-api http request method=GET status=200 latency_ms=44 span=bd067e04
+2026-01-26T12:17:15Z INFO user-api tick ok elapsed_ms=36
+2026-01-26T12:17:25Z INFO user-api tick ok elapsed_ms=31
+2026-01-26T12:17:38Z INFO user-api tick ok elapsed_ms=20
+2026-01-26T12:17:48Z INFO user-api tick ok elapsed_ms=15
+2026-01-26T12:18:01Z INFO user-api tick ok elapsed_ms=56
+2026-01-26T12:18:07Z INFO user-api tick ok elapsed_ms=48
+2026-01-26T12:18:21Z INFO user-api http request method=GET status=200 latency_ms=67 span=f0fa9a52
+2026-01-26T12:18:27Z INFO user-api http request method=GET status=200 latency_ms=49 span=60fe72f6
+2026-01-26T12:18:41Z INFO user-api http request method=GET status=200 latency_ms=92 span=4f08463b
+2026-01-26T12:18:55Z INFO user-api http request method=GET status=200 latency_ms=35 span=6625b9d5
+2026-01-26T12:19:02Z INFO user-api http request method=GET status=200 latency_ms=12 span=220cba34
+2026-01-26T12:19:16Z INFO user-api http request method=GET status=200 latency_ms=28 span=1794358f
+2026-01-26T12:19:30Z INFO user-api http request method=GET status=200 latency_ms=8 span=1072fa28
+2026-01-26T12:19:31Z WARN user-api slow poll elapsed_ms=780
+2026-01-26T12:19:36Z INFO user-api http request method=GET status=200 latency_ms=31 span=414a2594
+2026-01-26T12:19:42Z INFO user-api tick ok elapsed_ms=49
+2026-01-26T12:19:48Z INFO user-api tick ok elapsed_ms=13
+2026-01-26T12:19:54Z INFO user-api http request method=GET status=200 latency_ms=52 span=e41d59db
+2026-01-26T12:20:04Z INFO user-api http request method=GET status=200 latency_ms=21 span=420c53ac
+2026-01-26T12:20:18Z INFO user-api http request method=GET status=200 latency_ms=27 span=f8b5a196
+2026-01-26T12:20:19Z WARN user-api client sent oversized header, truncated span=d5c7ab56

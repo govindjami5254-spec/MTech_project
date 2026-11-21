@@ -1,0 +1,67 @@
+2026-02-06 12:47:29,722 INFO risk-db worker heartbeat ok (25ms)
+2026-02-06 12:47:41,643 INFO risk-db worker heartbeat ok (70ms)
+2026-02-06 12:47:55,069 INFO risk-db GET /v1/items 200 44ms req_id=03ab5f72
+2026-02-06 12:48:03,543 INFO risk-db worker heartbeat ok (41ms)
+2026-02-06 12:48:11,645 INFO risk-db worker heartbeat ok (91ms)
+2026-02-06 12:48:22,579 INFO risk-db worker heartbeat ok (77ms)
+2026-02-06 12:48:29,997 INFO risk-db worker heartbeat ok (61ms)
+2026-02-06 12:48:41,960 INFO risk-db worker heartbeat ok (44ms)
+2026-02-06 12:48:52,145 INFO risk-db worker heartbeat ok (26ms)
+2026-02-06 12:49:05,820 INFO risk-db GET /v1/items 200 49ms req_id=c8ab0450
+2026-02-06 12:49:14,389 INFO risk-db worker heartbeat ok (91ms)
+2026-02-06 12:49:25,104 INFO risk-db GET /v1/items 200 45ms req_id=3c87115b
+2026-02-06 12:49:36,562 INFO risk-db GET /v1/items 200 14ms req_id=aae9f019
+2026-02-06 12:49:46,755 INFO risk-db GET /v1/items 200 61ms req_id=68902952
+2026-02-06 12:49:56,743 INFO risk-db GET /v1/items 200 24ms req_id=2190b4c7
+2026-02-06 12:50:04,085 INFO risk-db GET /v1/items 200 73ms req_id=33fb514b
+2026-02-06 12:50:11,708 INFO risk-db GET /v1/items 200 31ms req_id=63d07c94
+2026-02-06 12:50:18,735 INFO risk-db worker heartbeat ok (84ms)
+2026-02-06 12:50:29,604 INFO risk-db worker heartbeat ok (74ms)
+2026-02-06 12:50:36,835 INFO risk-db GET /v1/items 200 28ms req_id=70747786
+2026-02-06 12:50:42,839 INFO risk-db GET /v1/items 200 9ms req_id=48e1a9b7
+2026-02-06 12:50:55,535 INFO risk-db GET /v1/items 200 40ms req_id=5cb10b99
+2026-02-06 12:51:05,870 INFO risk-db GET /v1/items 200 32ms req_id=c95c8142
+2026-02-06 12:51:13,129 INFO risk-db GET /v1/items 200 59ms req_id=a4c0299c
+2026-02-06 12:51:25,868 INFO risk-db worker heartbeat ok (85ms)
+2026-02-06 12:51:31,899 INFO risk-db worker heartbeat ok (57ms)
+2026-02-06 12:51:33,848 WARNING risk-db disk /var/lib/db at 98% capacity
+2026-02-06 12:51:39,433 INFO risk-db worker heartbeat ok (75ms)
+2026-02-06 12:51:50,835 INFO risk-db worker heartbeat ok (77ms)
+2026-02-06 12:52:00,229 INFO risk-db worker heartbeat ok (42ms)
+2026-02-06 12:52:01,000 WARNING risk-db deprecated parameter 'page' used by client
+2026-02-06 12:52:09,586 INFO risk-db worker heartbeat ok (73ms)
+2026-02-06 12:52:16,954 INFO risk-db worker heartbeat ok (69ms)
+2026-02-06 12:52:26,254 INFO risk-db worker heartbeat ok (13ms)
+2026-02-06 12:52:28,505 ERROR risk-db OSError: [Errno 28] No space left on device
+2026-02-06 12:52:31,385 CRITICAL risk-db database refusing writes: disk full
+2026-02-06 12:52:35,713 INFO risk-db GET /v1/items 200 84ms req_id=e7187db0
+2026-02-06 12:52:44,829 INFO risk-db worker heartbeat ok (12ms)
+2026-02-06 12:52:56,697 INFO risk-db worker heartbeat ok (46ms)
+2026-02-06 12:53:02,418 INFO risk-db worker heartbeat ok (37ms)
+2026-02-06 12:53:16,790 INFO risk-db worker heartbeat ok (78ms)
+2026-02-06 12:53:22,611 INFO risk-db worker heartbeat ok (76ms)
+2026-02-06 12:53:36,576 INFO risk-db GET /v1/items 200 52ms req_id=1cacfa0b
+2026-02-06 12:53:47,508 INFO risk-db worker heartbeat ok (79ms)
+2026-02-06 12:53:56,562 INFO risk-db worker heartbeat ok (94ms)
+2026-02-06 12:54:07,316 INFO risk-db GET /v1/items 200 55ms req_id=2b64404f
+2026-02-06 12:54:21,813 INFO risk-db worker heartbeat ok (77ms)
+2026-02-06 12:54:22,000 WARNING risk-db deprecated parameter 'page' used by client
+2026-02-06 12:54:31,215 INFO risk-db GET /v1/items 200 87ms req_id=2a65ed01
+2026-02-06 12:54:45,400 INFO risk-db GET /v1/items 200 95ms req_id=9575ac78
+2026-02-06 12:54:59,600 INFO risk-db worker heartbeat ok (22ms)
+2026-02-06 12:55:05,285 INFO risk-db GET /v1/items 200 71ms req_id=6010dace
+2026-02-06 12:55:11,779 INFO risk-db worker heartbeat ok (34ms)
+2026-02-06 12:55:18,152 INFO risk-db worker heartbeat ok (27ms)
+2026-02-06 12:55:32,420 INFO risk-db worker heartbeat ok (94ms)
+2026-02-06 12:55:39,961 INFO risk-db GET /v1/items 200 38ms req_id=d19bf3f7
+2026-02-06 12:55:49,686 INFO risk-db GET /v1/items 200 34ms req_id=889ff737
+2026-02-06 12:56:00,801 INFO risk-db worker heartbeat ok (56ms)
+2026-02-06 12:56:07,085 INFO risk-db worker heartbeat ok (50ms)
+2026-02-06 12:56:14,650 INFO risk-db GET /v1/items 200 74ms req_id=aa96c6b7
+2026-02-06 12:56:26,249 INFO risk-db worker heartbeat ok (75ms)
+2026-02-06 12:56:34,666 INFO risk-db worker heartbeat ok (14ms)
+2026-02-06 12:56:45,432 INFO risk-db GET /v1/items 200 41ms req_id=68ce0659
+2026-02-06 12:56:57,357 INFO risk-db GET /v1/items 200 53ms req_id=c0ab4f9e
+2026-02-06 12:57:05,990 INFO risk-db worker heartbeat ok (48ms)
+2026-02-06 12:57:12,891 INFO risk-db GET /v1/items 200 66ms req_id=272f2156
+2026-02-06 12:57:18,186 INFO risk-db worker heartbeat ok (68ms)

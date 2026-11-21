@@ -1,0 +1,61 @@
+2026-01-12T13:36:33Z INFO fx-feed http request method=GET status=200 latency_ms=59 span=0b24298a
+2026-01-12T13:36:41Z INFO fx-feed tick ok elapsed_ms=80
+2026-01-12T13:36:53Z INFO fx-feed tick ok elapsed_ms=44
+2026-01-12T13:37:06Z INFO fx-feed http request method=GET status=200 latency_ms=70 span=e934efda
+2026-01-12T13:37:16Z INFO fx-feed tick ok elapsed_ms=93
+2026-01-12T13:37:23Z INFO fx-feed http request method=GET status=200 latency_ms=46 span=ebf1491b
+2026-01-12T13:37:29Z INFO fx-feed tick ok elapsed_ms=23
+2026-01-12T13:37:43Z INFO fx-feed http request method=GET status=200 latency_ms=40 span=8a9f2a76
+2026-01-12T13:37:57Z INFO fx-feed http request method=GET status=200 latency_ms=34 span=cabd6f39
+2026-01-12T13:38:08Z INFO fx-feed http request method=GET status=200 latency_ms=62 span=332a0a2a
+2026-01-12T13:38:20Z INFO fx-feed tick ok elapsed_ms=70
+2026-01-12T13:38:28Z INFO fx-feed tick ok elapsed_ms=77
+2026-01-12T13:38:35Z INFO fx-feed tick ok elapsed_ms=83
+2026-01-12T13:38:49Z INFO fx-feed http request method=GET status=200 latency_ms=65 span=b35525aa
+2026-01-12T13:39:03Z INFO fx-feed tick ok elapsed_ms=92
+2026-01-12T13:39:16Z INFO fx-feed http request method=GET status=200 latency_ms=90 span=6f9d30b6
+2026-01-12T13:39:22Z INFO fx-feed http request method=GET status=200 latency_ms=36 span=247611a9
+2026-01-12T13:39:23Z WARN fx-feed client sent oversized header, truncated span=e68a22a2
+2026-01-12T13:39:31Z INFO fx-feed http request method=GET status=200 latency_ms=44 span=81b555a7
+2026-01-12T13:39:39Z INFO fx-feed http request method=GET status=200 latency_ms=17 span=f8f53f67
+2026-01-12T13:39:50Z INFO fx-feed tick ok elapsed_ms=75
+2026-01-12T13:40:04Z INFO fx-feed http request method=GET status=200 latency_ms=15 span=6e4fa8e5
+2026-01-12T13:40:10Z INFO fx-feed tick ok elapsed_ms=42
+2026-01-12T13:40:21Z INFO fx-feed http request method=GET status=200 latency_ms=26 span=9f53e52c
+2026-01-12T13:40:30Z INFO fx-feed tick ok elapsed_ms=60
+2026-01-12T13:40:41Z INFO fx-feed tick ok elapsed_ms=18
+2026-01-12T13:40:50Z INFO fx-feed tick ok elapsed_ms=35
+2026-01-12T13:41:00Z INFO fx-feed tick ok elapsed_ms=73
+2026-01-12T13:41:13Z INFO fx-feed tick ok elapsed_ms=24
+2026-01-12T13:41:19Z INFO fx-feed tick ok elapsed_ms=74
+2026-01-12T13:41:30Z INFO fx-feed tick ok elapsed_ms=48
+2026-01-12T13:41:41Z INFO fx-feed http request method=GET status=200 latency_ms=32 span=445a2f66
+2026-01-12T13:41:50Z INFO fx-feed tick ok elapsed_ms=80
+2026-01-12T13:42:03Z INFO fx-feed http request method=GET status=200 latency_ms=80 span=710b6567
+2026-01-12T13:42:10Z INFO fx-feed http request method=GET status=200 latency_ms=65 span=6a88c008
+2026-01-12T13:42:24Z INFO fx-feed tick ok elapsed_ms=13
+2026-01-12T13:42:36Z INFO fx-feed tick ok elapsed_ms=29
+2026-01-12T13:42:49Z INFO fx-feed tick ok elapsed_ms=8
+2026-01-12T13:43:02Z INFO fx-feed http request method=GET status=200 latency_ms=18 span=979c1b5f
+2026-01-12T13:43:10Z INFO fx-feed tick ok elapsed_ms=25
+2026-01-12T13:43:23Z INFO fx-feed tick ok elapsed_ms=60
+2026-01-12T13:43:32Z INFO fx-feed http request method=GET status=200 latency_ms=52 span=92b1529c
+2026-01-12T13:43:45Z INFO fx-feed http request method=GET status=200 latency_ms=76 span=dd2020ec
+2026-01-12T13:43:53Z INFO fx-feed tick ok elapsed_ms=36
+2026-01-12T13:44:07Z INFO fx-feed tick ok elapsed_ms=68
+2026-01-12T13:44:20Z INFO fx-feed tick ok elapsed_ms=45
+2026-01-12T13:44:34Z INFO fx-feed tick ok elapsed_ms=10
+2026-01-12T13:44:47Z INFO fx-feed tick ok elapsed_ms=62
+2026-01-12T13:44:58Z INFO fx-feed tick ok elapsed_ms=58
+2026-01-12T13:45:11Z INFO fx-feed http request method=GET status=200 latency_ms=33 span=8ffe1e5e
+2026-01-12T13:45:18Z INFO fx-feed tick ok elapsed_ms=37
+2026-01-12T13:45:24Z INFO fx-feed http request method=GET status=200 latency_ms=51 span=d6705c7d
+2026-01-12T13:45:34Z INFO fx-feed tick ok elapsed_ms=90
+2026-01-12T13:45:44Z INFO fx-feed http request method=GET status=200 latency_ms=78 span=52fced5e
+2026-01-12T13:45:53Z INFO fx-feed http request method=GET status=200 latency_ms=38 span=6a153b46
+2026-01-12T13:46:01Z INFO fx-feed tick ok elapsed_ms=21
+2026-01-12T13:46:02Z WARN fx-feed client sent oversized header, truncated span=1c1d6561
+2026-01-12T13:46:10Z INFO fx-feed http request method=GET status=200 latency_ms=40 span=f76b5481
+2026-01-12T13:46:11Z WARN fx-feed client sent oversized header, truncated span=17667960
+2026-01-12T13:46:21Z INFO fx-feed http request method=GET status=200 latency_ms=64 span=2e910101
+2026-01-12T13:46:28Z INFO fx-feed http request method=GET status=200 latency_ms=9 span=d7012151

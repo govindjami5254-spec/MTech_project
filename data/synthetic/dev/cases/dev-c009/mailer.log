@@ -1,0 +1,60 @@
+2026-01-07 09:51:34,218 INFO mailer handled request rid=ce0277a4 status=200 dur=30ms
+2026-01-07 09:51:48,039 INFO mailer handled request rid=4bcf6f0c status=200 dur=49ms
+2026-01-07 09:51:55,863 INFO mailer ping ok latency=69ms
+2026-01-07 09:52:03,960 INFO mailer ping ok latency=62ms
+2026-01-07 09:52:11,682 INFO mailer handled request rid=20799d9b status=200 dur=75ms
+2026-01-07 09:52:22,729 INFO mailer handled request rid=bd7b972b status=200 dur=81ms
+2026-01-07 09:52:23,000 WARNING mailer slow handler rid=4f530cb4 dur=130ms
+2026-01-07 09:52:29,178 INFO mailer handled request rid=b934b130 status=200 dur=63ms
+2026-01-07 09:52:37,044 INFO mailer ping ok latency=9ms
+2026-01-07 09:52:44,136 INFO mailer handled request rid=9e646fd5 status=200 dur=78ms
+2026-01-07 09:52:51,824 INFO mailer ping ok latency=72ms
+2026-01-07 09:53:01,938 INFO mailer ping ok latency=79ms
+2026-01-07 09:53:15,517 INFO mailer handled request rid=a51b2ba6 status=200 dur=66ms
+2026-01-07 09:53:21,868 INFO mailer handled request rid=288c39e7 status=200 dur=81ms
+2026-01-07 09:53:30,472 INFO mailer ping ok latency=29ms
+2026-01-07 09:53:43,183 INFO mailer handled request rid=602bf359 status=200 dur=79ms
+2026-01-07 09:53:49,917 INFO mailer handled request rid=384d5e8e status=200 dur=65ms
+2026-01-07 09:53:59,139 INFO mailer ping ok latency=73ms
+2026-01-07 09:54:05,164 INFO mailer ping ok latency=65ms
+2026-01-07 09:54:19,392 INFO mailer ping ok latency=66ms
+2026-01-07 09:54:25,092 INFO mailer ping ok latency=58ms
+2026-01-07 09:54:34,248 INFO mailer ping ok latency=80ms
+2026-01-07 09:54:45,226 INFO mailer handled request rid=4fabe909 status=200 dur=51ms
+2026-01-07 09:54:59,400 INFO mailer handled request rid=5ca63be9 status=200 dur=42ms
+2026-01-07 09:55:09,048 INFO mailer ping ok latency=22ms
+2026-01-07 09:55:18,305 INFO mailer ping ok latency=94ms
+2026-01-07 09:55:30,592 INFO mailer ping ok latency=50ms
+2026-01-07 09:55:43,736 INFO mailer ping ok latency=40ms
+2026-01-07 09:55:57,361 INFO mailer ping ok latency=60ms
+2026-01-07 09:56:10,013 INFO mailer handled request rid=40de5ee1 status=200 dur=14ms
+2026-01-07 09:56:24,543 INFO mailer handled request rid=b2e67d93 status=200 dur=44ms
+2026-01-07 09:56:32,846 INFO mailer ping ok latency=39ms
+2026-01-07 09:56:43,940 INFO mailer ping ok latency=80ms
+2026-01-07 09:56:56,061 INFO mailer ping ok latency=74ms
+2026-01-07 09:57:04,325 INFO mailer ping ok latency=61ms
+2026-01-07 09:57:18,193 INFO mailer handled request rid=06a05a62 status=200 dur=25ms
+2026-01-07 09:57:29,174 INFO mailer handled request rid=36e7b058 status=200 dur=19ms
+2026-01-07 09:57:40,080 INFO mailer handled request rid=d13eaa86 status=200 dur=91ms
+2026-01-07 09:57:51,345 INFO mailer handled request rid=d6067e88 status=200 dur=63ms
+2026-01-07 09:58:01,220 INFO mailer ping ok latency=49ms
+2026-01-07 09:58:07,682 INFO mailer ping ok latency=62ms
+2026-01-07 09:58:19,378 INFO mailer handled request rid=6ca13a4f status=200 dur=73ms
+2026-01-07 09:58:27,096 INFO mailer ping ok latency=53ms
+2026-01-07 09:58:36,455 INFO mailer ping ok latency=33ms
+2026-01-07 09:58:45,546 INFO mailer ping ok latency=48ms
+2026-01-07 09:58:56,406 INFO mailer handled request rid=31440829 status=200 dur=46ms
+2026-01-07 09:59:08,986 INFO mailer handled request rid=c554abbf status=200 dur=60ms
+2026-01-07 09:59:16,472 INFO mailer ping ok latency=23ms
+2026-01-07 09:59:27,211 INFO mailer handled request rid=408d58ce status=200 dur=59ms
+2026-01-07 09:59:41,731 INFO mailer ping ok latency=49ms
+2026-01-07 09:59:53,221 INFO mailer handled request rid=19c408fe status=200 dur=46ms
+2026-01-07 10:00:00,570 INFO mailer handled request rid=bcd14333 status=200 dur=76ms
+2026-01-07 10:00:06,834 INFO mailer ping ok latency=24ms
+2026-01-07 10:00:19,357 INFO mailer handled request rid=91674fa8 status=200 dur=52ms
+2026-01-07 10:00:31,523 INFO mailer ping ok latency=33ms
+2026-01-07 10:00:44,577 INFO mailer ping ok latency=32ms
+2026-01-07 10:00:55,986 INFO mailer handled request rid=79d26800 status=200 dur=46ms
+2026-01-07 10:01:07,154 INFO mailer handled request rid=985c19d8 status=200 dur=68ms
+2026-01-07 10:01:14,104 INFO mailer ping ok latency=87ms
+2026-01-07 10:01:22,957 INFO mailer handled request rid=bec06a72 status=200 dur=63ms

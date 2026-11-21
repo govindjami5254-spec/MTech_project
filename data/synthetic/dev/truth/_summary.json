@@ -1,0 +1,171 @@
+{
+  "generator_version": "2.0.0",
+  "split": "dev",
+  "cases": 18,
+  "families": 6,
+  "cases_per_family": 3,
+  "per_case": [
+    {
+      "case_id": "dev-c001",
+      "family_id": "df02",
+      "stratum": "multi_hop",
+      "hops": 3,
+      "events": 509,
+      "warn_plus": 31,
+      "components": 8
+    },
+    {
+      "case_id": "dev-c002",
+      "family_id": "df02",
+      "stratum": "multi_hop",
+      "hops": 3,
+      "events": 519,
+      "warn_plus": 30,
+      "components": 8
+    },
+    {
+      "case_id": "dev-c003",
+      "family_id": "df03",
+      "stratum": "distractor",
+      "hops": 2,
+      "events": 510,
+      "warn_plus": 29,
+      "components": 8
+    },
+    {
+      "case_id": "dev-c004",
+      "family_id": "df01",
+      "stratum": "easy",
+      "hops": 1,
+      "events": 499,
+      "warn_plus": 20,
+      "components": 8
+    },
+    {
+      "case_id": "dev-c005",
+      "family_id": "df05",
+      "stratum": "concurrent",
+      "hops": 3,
+      "events": 532,
+      "warn_plus": 46,
+      "components": 8
+    },
+    {
+      "case_id": "dev-c006",
+      "family_id": "df04",
+      "stratum": "over_budget",
+      "hops": 2,
+      "events": 1431,
+      "warn_plus": 958,
+      "components": 8
+    },
+    {
+      "case_id": "dev-c007",
+      "family_id": "df01",
+      "stratum": "easy",
+      "hops": 1,
+      "events": 502,
+      "warn_plus": 24,
+      "components": 8
+    },
+    {
+      "case_id": "dev-c008",
+      "family_id": "df04",
+      "stratum": "over_budget",
+      "hops": 2,
+      "events": 1376,
+      "warn_plus": 894,
+      "components": 8
+    },
+    {
+      "case_id": "dev-c009",
+      "family_id": "df03",
+      "stratum": "distractor",
+      "hops": 2,
+      "events": 510,
+      "warn_plus": 28,
+      "components": 8
+    },
+    {
+      "case_id": "dev-c010",
+      "family_id": "df06",
+      "stratum": "insufficient",
+      "hops": 2,
+      "events": 504,
+      "warn_plus": 26,
+      "components": 8
+    },
+    {
+      "case_id": "dev-c011",
+      "family_id": "df01",
+      "stratum": "easy",
+      "hops": 1,
+      "events": 499,
+      "warn_plus": 22,
+      "components": 8
+    },
+    {
+      "case_id": "dev-c012",
+      "family_id": "df02",
+      "stratum": "multi_hop",
+      "hops": 3,
+      "events": 497,
+      "warn_plus": 28,
+      "components": 8
+    },
+    {
+      "case_id": "dev-c013",
+      "family_id": "df04",
+      "stratum": "over_budget",
+      "hops": 2,
+      "events": 1403,
+      "warn_plus": 929,
+      "components": 8
+    },
+    {
+      "case_id": "dev-c014",
+      "family_id": "df05",
+      "stratum": "concurrent",
+      "hops": 3,
+      "events": 535,
+      "warn_plus": 46,
+      "components": 8
+    },
+    {
+      "case_id": "dev-c015",
+      "family_id": "df03",
+      "stratum": "distractor",
+      "hops": 2,
+      "events": 516,
+      "warn_plus": 32,
+      "components": 8
+    },
+    {
+      "case_id": "dev-c016",
+      "family_id": "df06",
+      "stratum": "insufficient",
+      "hops": 2,
+      "events": 518,
+      "warn_plus": 29,
+      "components": 8
+    },
+    {
+      "case_id": "dev-c017",
+      "family_id": "df06",
+      "stratum": "insufficient",
+      "hops": 2,
+      "events": 515,
+      "warn_plus": 25,
+      "components": 8
+    },
+    {
+      "case_id": "dev-c018",
+      "family_id": "df05",
+      "stratum": "concurrent",
+      "hops": 3,
+      "events": 524,
+      "warn_plus": 49,
+      "components": 8
+    }
+  ]
+}

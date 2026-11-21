@@ -1,0 +1,61 @@
+2026-01-07T17:42:49.346+05:30 info core-db event loop lag 43ms ok
+2026-01-07T17:43:01.556+05:30 info core-db event loop lag 92ms ok
+2026-01-07T17:43:11.812+05:30 info core-db event loop lag 68ms ok
+2026-01-07T17:43:17.442+05:30 info core-db event loop lag 29ms ok
+2026-01-07T17:43:31.261+05:30 info core-db event loop lag 11ms ok
+2026-01-07T17:43:45.008+05:30 info core-db served GET /api status=200 in 36ms trace=d416200d
+2026-01-07T17:43:59.898+05:30 info core-db event loop lag 95ms ok
+2026-01-07T17:44:12.778+05:30 info core-db event loop lag 15ms ok
+2026-01-07T17:44:20.003+05:30 info core-db event loop lag 65ms ok
+2026-01-07T17:44:32.542+05:30 info core-db event loop lag 13ms ok
+2026-01-07T17:44:44.600+05:30 info core-db event loop lag 49ms ok
+2026-01-07T17:44:53.894+05:30 info core-db event loop lag 11ms ok
+2026-01-07T17:45:06.021+05:30 info core-db served GET /api status=200 in 85ms trace=c6a2fedf
+2026-01-07T17:45:17.462+05:30 info core-db event loop lag 58ms ok
+2026-01-07T17:45:27.184+05:30 info core-db served GET /api status=200 in 28ms trace=d27f51d4
+2026-01-07T17:45:36.226+05:30 info core-db served GET /api status=200 in 20ms trace=393c86bf
+2026-01-07T17:45:44.795+05:30 info core-db event loop lag 8ms ok
+2026-01-07T17:45:53.865+05:30 info core-db event loop lag 77ms ok
+2026-01-07T17:46:03.308+05:30 info core-db served GET /api status=200 in 94ms trace=53d5128d
+2026-01-07T17:46:16.560+05:30 info core-db served GET /api status=200 in 32ms trace=4330c825
+2026-01-07T17:46:27.747+05:30 info core-db event loop lag 73ms ok
+2026-01-07T17:46:33.383+05:30 info core-db served GET /api status=200 in 8ms trace=875996a2
+2026-01-07T17:46:34.000+05:30 warn core-db event loop lag 940ms
+2026-01-07T17:46:45.184+05:30 info core-db event loop lag 33ms ok
+2026-01-07T17:46:59.706+05:30 info core-db event loop lag 9ms ok
+2026-01-07T17:47:07.849+05:30 info core-db event loop lag 95ms ok
+2026-01-07T17:47:19.975+05:30 info core-db event loop lag 44ms ok
+2026-01-07T17:47:25.604+05:30 info core-db served GET /api status=200 in 90ms trace=dee84d78
+2026-01-07T17:47:34.225+05:30 info core-db served GET /api status=200 in 89ms trace=1c3cbe41
+2026-01-07T17:47:45.833+05:30 info core-db served GET /api status=200 in 64ms trace=bf705017
+2026-01-07T17:47:51.473+05:30 info core-db served GET /api status=200 in 19ms trace=c96996fb
+2026-01-07T17:47:58.681+05:30 info core-db event loop lag 51ms ok
+2026-01-07T17:48:10.529+05:30 info core-db served GET /api status=200 in 31ms trace=f3bec532
+2026-01-07T17:48:18.573+05:30 info core-db event loop lag 78ms ok
+2026-01-07T17:48:28.068+05:30 info core-db event loop lag 24ms ok
+2026-01-07T17:48:34.216+05:30 info core-db served GET /api status=200 in 40ms trace=d85b4c7d
+2026-01-07T17:48:45.902+05:30 info core-db served GET /api status=200 in 24ms trace=1782218d
+2026-01-07T17:48:57.695+05:30 info core-db event loop lag 42ms ok
+2026-01-07T17:49:06.394+05:30 info core-db event loop lag 63ms ok
+2026-01-07T17:49:18.523+05:30 info core-db served GET /api status=200 in 10ms trace=216c0100
+2026-01-07T17:49:28.973+05:30 info core-db event loop lag 93ms ok
+2026-01-07T17:49:42.641+05:30 info core-db served GET /api status=200 in 77ms trace=9aa4b93f
+2026-01-07T17:49:51.121+05:30 info core-db served GET /api status=200 in 69ms trace=8f9c8d7c
+2026-01-07T17:49:58.937+05:30 info core-db served GET /api status=200 in 61ms trace=345e1444
+2026-01-07T17:50:05.581+05:30 info core-db served GET /api status=200 in 11ms trace=3aecbcb8
+2026-01-07T17:50:14.277+05:30 info core-db served GET /api status=200 in 65ms trace=ad14fa08
+2026-01-07T17:50:25.623+05:30 info core-db served GET /api status=200 in 31ms trace=043b1e2f
+2026-01-07T17:50:39.362+05:30 info core-db event loop lag 72ms ok
+2026-01-07T17:50:46.857+05:30 info core-db served GET /api status=200 in 86ms trace=c0f941ae
+2026-01-07T17:50:54.651+05:30 info core-db served GET /api status=200 in 22ms trace=0aa00e95
+2026-01-07T17:51:07.443+05:30 info core-db served GET /api status=200 in 64ms trace=eb5c2b01
+2026-01-07T17:51:14.196+05:30 info core-db event loop lag 48ms ok
+2026-01-07T17:51:22.170+05:30 info core-db event loop lag 35ms ok
+2026-01-07T17:51:28.627+05:30 info core-db event loop lag 33ms ok
+2026-01-07T17:51:37.491+05:30 info core-db served GET /api status=200 in 92ms trace=9ba78c3b
+2026-01-07T17:51:50.249+05:30 info core-db event loop lag 51ms ok
+2026-01-07T17:51:56.049+05:30 info core-db served GET /api status=200 in 30ms trace=3daed40b
+2026-01-07T17:52:06.978+05:30 info core-db event loop lag 69ms ok
+2026-01-07T17:52:13.474+05:30 info core-db served GET /api status=200 in 33ms trace=1a7b2631
+2026-01-07T17:52:25.287+05:30 info core-db served GET /api status=200 in 83ms trace=c0f5e248
+2026-01-07T17:52:37.783+05:30 info core-db event loop lag 26ms ok

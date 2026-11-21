@@ -1,0 +1,62 @@
+2026-01-05 10:51:52,240 INFO audit-shipper handled request rid=5e009d49 status=200 dur=32ms
+2026-01-05 10:51:53,000 WARNING audit-shipper slow handler rid=cfb3ccf1 dur=440ms
+2026-01-05 10:52:01,739 INFO audit-shipper ping ok latency=46ms
+2026-01-05 10:52:09,187 INFO audit-shipper ping ok latency=16ms
+2026-01-05 10:52:22,242 INFO audit-shipper ping ok latency=58ms
+2026-01-05 10:52:34,213 INFO audit-shipper handled request rid=5412c2d2 status=200 dur=95ms
+2026-01-05 10:52:40,204 INFO audit-shipper ping ok latency=50ms
+2026-01-05 10:52:47,415 INFO audit-shipper ping ok latency=35ms
+2026-01-05 10:52:54,016 INFO audit-shipper handled request rid=520e8b6e status=200 dur=46ms
+2026-01-05 10:53:06,211 INFO audit-shipper handled request rid=a6534fea status=200 dur=41ms
+2026-01-05 10:53:13,926 INFO audit-shipper handled request rid=587c647f status=200 dur=73ms
+2026-01-05 10:53:27,334 INFO audit-shipper ping ok latency=27ms
+2026-01-05 10:53:36,439 INFO audit-shipper ping ok latency=41ms
+2026-01-05 10:53:43,416 INFO audit-shipper ping ok latency=93ms
+2026-01-05 10:53:55,184 INFO audit-shipper handled request rid=c08ed940 status=200 dur=46ms
+2026-01-05 10:54:08,019 INFO audit-shipper handled request rid=7cecf860 status=200 dur=9ms
+2026-01-05 10:54:14,013 INFO audit-shipper handled request rid=a7ad16cb status=200 dur=63ms
+2026-01-05 10:54:21,145 INFO audit-shipper handled request rid=c5c3aa77 status=200 dur=11ms
+2026-01-05 10:54:28,390 INFO audit-shipper handled request rid=dc23ecc3 status=200 dur=74ms
+2026-01-05 10:54:34,107 INFO audit-shipper ping ok latency=71ms
+2026-01-05 10:54:42,027 INFO audit-shipper ping ok latency=38ms
+2026-01-05 10:54:48,804 INFO audit-shipper handled request rid=110d8bde status=200 dur=87ms
+2026-01-05 10:54:55,930 INFO audit-shipper handled request rid=38980b47 status=200 dur=22ms
+2026-01-05 10:55:09,129 INFO audit-shipper ping ok latency=26ms
+2026-01-05 10:55:15,665 INFO audit-shipper ping ok latency=50ms
+2026-01-05 10:55:25,628 INFO audit-shipper handled request rid=1c6773a9 status=200 dur=79ms
+2026-01-05 10:55:39,099 INFO audit-shipper ping ok latency=82ms
+2026-01-05 10:55:50,743 INFO audit-shipper handled request rid=b75b276c status=200 dur=40ms
+2026-01-05 10:56:01,008 INFO audit-shipper ping ok latency=82ms
+2026-01-05 10:56:09,399 INFO audit-shipper ping ok latency=9ms
+2026-01-05 10:56:23,714 INFO audit-shipper ping ok latency=94ms
+2026-01-05 10:56:33,032 INFO audit-shipper handled request rid=4ab9f1a3 status=200 dur=88ms
+2026-01-05 10:56:45,547 INFO audit-shipper ping ok latency=81ms
+2026-01-05 10:56:52,706 INFO audit-shipper handled request rid=54b0b31a status=200 dur=77ms
+2026-01-05 10:56:58,455 INFO audit-shipper ping ok latency=81ms
+2026-01-05 10:57:12,874 INFO audit-shipper ping ok latency=8ms
+2026-01-05 10:57:19,846 INFO audit-shipper handled request rid=d9a7bc23 status=200 dur=37ms
+2026-01-05 10:57:20,000 WARNING audit-shipper retry budget low on client pool
+2026-01-05 10:57:30,958 INFO audit-shipper handled request rid=6e48f8ba status=200 dur=52ms
+2026-01-05 10:57:40,076 INFO audit-shipper handled request rid=d42ae4a6 status=200 dur=37ms
+2026-01-05 10:57:54,712 INFO audit-shipper handled request rid=7fc8991f status=200 dur=69ms
+2026-01-05 10:58:07,239 INFO audit-shipper ping ok latency=73ms
+2026-01-05 10:58:14,867 INFO audit-shipper ping ok latency=85ms
+2026-01-05 10:58:23,853 INFO audit-shipper ping ok latency=53ms
+2026-01-05 10:58:36,077 INFO audit-shipper handled request rid=261b6435 status=200 dur=42ms
+2026-01-05 10:58:45,117 INFO audit-shipper ping ok latency=14ms
+2026-01-05 10:58:55,988 INFO audit-shipper handled request rid=38717ffa status=200 dur=52ms
+2026-01-05 10:59:04,268 INFO audit-shipper handled request rid=6469d3b2 status=200 dur=9ms
+2026-01-05 10:59:15,458 INFO audit-shipper ping ok latency=9ms
+2026-01-05 10:59:26,827 INFO audit-shipper handled request rid=a74cfd4d status=200 dur=53ms
+2026-01-05 10:59:39,854 INFO audit-shipper ping ok latency=65ms
+2026-01-05 10:59:47,264 INFO audit-shipper ping ok latency=74ms
+2026-01-05 10:59:57,832 INFO audit-shipper handled request rid=04f8552c status=200 dur=41ms
+2026-01-05 11:00:11,882 INFO audit-shipper ping ok latency=66ms
+2026-01-05 11:00:18,300 INFO audit-shipper ping ok latency=25ms
+2026-01-05 11:00:26,640 INFO audit-shipper handled request rid=f580062d status=200 dur=64ms
+2026-01-05 11:00:38,061 INFO audit-shipper handled request rid=88b3aada status=200 dur=61ms
+2026-01-05 11:00:46,274 INFO audit-shipper handled request rid=3678669f status=200 dur=60ms
+2026-01-05 11:00:57,841 INFO audit-shipper ping ok latency=71ms
+2026-01-05 11:01:11,803 INFO audit-shipper ping ok latency=31ms
+2026-01-05 11:01:24,533 INFO audit-shipper handled request rid=cd157fe8 status=200 dur=76ms
+2026-01-05 11:01:31,974 INFO audit-shipper ping ok latency=19ms

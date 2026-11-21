@@ -1,0 +1,72 @@
+2026-01-11 14:10:34,709 INFO web-gateway worker heartbeat ok (24ms)
+2026-01-11 14:10:44,267 INFO web-gateway worker heartbeat ok (43ms)
+2026-01-11 14:10:58,435 INFO web-gateway GET /v1/items 200 88ms req_id=dfb8e90a
+2026-01-11 14:11:11,833 INFO web-gateway GET /v1/items 200 75ms req_id=1cc929e9
+2026-01-11 14:11:19,334 INFO web-gateway GET /v1/items 200 76ms req_id=f2d5874d
+2026-01-11 14:11:31,306 INFO web-gateway worker heartbeat ok (31ms)
+2026-01-11 14:11:37,830 INFO web-gateway GET /v1/items 200 56ms req_id=c30aa10a
+2026-01-11 14:11:43,338 INFO web-gateway GET /v1/items 200 35ms req_id=636d7525
+2026-01-11 14:11:49,675 INFO web-gateway worker heartbeat ok (85ms)
+2026-01-11 14:11:55,308 INFO web-gateway worker heartbeat ok (75ms)
+2026-01-11 14:12:03,685 INFO web-gateway worker heartbeat ok (78ms)
+2026-01-11 14:12:09,335 INFO web-gateway worker heartbeat ok (42ms)
+2026-01-11 14:12:23,894 INFO web-gateway worker heartbeat ok (53ms)
+2026-01-11 14:12:31,318 INFO web-gateway GET /v1/items 200 44ms req_id=c6979e66
+2026-01-11 14:12:45,838 INFO web-gateway worker heartbeat ok (72ms)
+2026-01-11 14:12:52,777 INFO web-gateway worker heartbeat ok (54ms)
+2026-01-11 14:12:59,049 INFO web-gateway GET /v1/items 200 20ms req_id=567d20fe
+2026-01-11 14:13:06,095 INFO web-gateway GET /v1/items 200 43ms req_id=2dead33e
+2026-01-11 14:13:18,620 INFO web-gateway GET /v1/items 200 92ms req_id=9bf3b5ae
+2026-01-11 14:13:30,340 INFO web-gateway worker heartbeat ok (77ms)
+2026-01-11 14:13:43,617 INFO web-gateway GET /v1/items 200 18ms req_id=9b167791
+2026-01-11 14:13:57,601 INFO web-gateway GET /v1/items 200 49ms req_id=f0281193
+2026-01-11 14:14:05,743 INFO web-gateway worker heartbeat ok (33ms)
+2026-01-11 14:14:12,465 INFO web-gateway worker heartbeat ok (15ms)
+2026-01-11 14:14:23,142 INFO web-gateway GET /v1/items 200 8ms req_id=a0f71fb1
+2026-01-11 14:14:37,667 INFO web-gateway GET /v1/items 200 46ms req_id=88e40b9e
+2026-01-11 14:14:44,114 INFO web-gateway GET /v1/items 200 91ms req_id=d8b107dd
+2026-01-11 14:14:51,183 INFO web-gateway GET /v1/items 200 85ms req_id=f88affc3
+2026-01-11 14:15:03,480 INFO web-gateway GET /v1/items 200 31ms req_id=46c3e98c
+2026-01-11 14:15:10,548 INFO web-gateway GET /v1/items 200 64ms req_id=c05c264c
+2026-01-11 14:15:23,682 INFO web-gateway worker heartbeat ok (19ms)
+2026-01-11 14:15:25,009 ERROR web-gateway upstream error from booking-svc; sent 502 to client req_id=a512b1dc
+2026-01-11 14:15:28,409 ERROR web-gateway upstream error from booking-svc; sent 502 to client req_id=0d88474a
+2026-01-11 14:15:31,742 ERROR web-gateway upstream error from booking-svc; sent 502 to client req_id=e58868f2
+2026-01-11 14:15:34,855 ERROR web-gateway upstream error from booking-svc; sent 502 to client req_id=623a39e9
+2026-01-11 14:15:37,351 ERROR web-gateway upstream error from booking-svc; sent 502 to client req_id=6560ea6c
+2026-01-11 14:15:37,532 INFO web-gateway worker heartbeat ok (50ms)
+2026-01-11 14:15:40,916 ERROR web-gateway upstream error from booking-svc; sent 502 to client req_id=e846b81d
+2026-01-11 14:15:43,104 INFO web-gateway worker heartbeat ok (60ms)
+2026-01-11 14:15:43,787 ERROR web-gateway sent 503 to client, booking-svc unhealthy req_id=4c9427b3
+2026-01-11 14:15:46,967 ERROR web-gateway upstream error from booking-svc; sent 502 to client req_id=5a47d7dd
+2026-01-11 14:15:50,185 INFO web-gateway worker heartbeat ok (92ms)
+2026-01-11 14:16:01,172 INFO web-gateway worker heartbeat ok (46ms)
+2026-01-11 14:16:11,051 INFO web-gateway GET /v1/items 200 58ms req_id=61d5ccdc
+2026-01-11 14:16:17,527 INFO web-gateway worker heartbeat ok (16ms)
+2026-01-11 14:16:27,549 INFO web-gateway GET /v1/items 200 46ms req_id=0fff2a3b
+2026-01-11 14:16:39,812 INFO web-gateway worker heartbeat ok (91ms)
+2026-01-11 14:16:50,668 INFO web-gateway GET /v1/items 200 83ms req_id=6f6325a1
+2026-01-11 14:17:01,799 INFO web-gateway GET /v1/items 200 30ms req_id=bac6caf6
+2026-01-11 14:17:11,522 INFO web-gateway worker heartbeat ok (76ms)
+2026-01-11 14:17:19,964 INFO web-gateway worker heartbeat ok (55ms)
+2026-01-11 14:17:27,119 INFO web-gateway GET /v1/items 200 86ms req_id=a6082196
+2026-01-11 14:17:39,091 INFO web-gateway GET /v1/items 200 67ms req_id=4b208743
+2026-01-11 14:17:50,010 INFO web-gateway worker heartbeat ok (26ms)
+2026-01-11 14:17:58,592 INFO web-gateway GET /v1/items 200 32ms req_id=b497e6b6
+2026-01-11 14:18:10,376 INFO web-gateway worker heartbeat ok (95ms)
+2026-01-11 14:18:23,204 INFO web-gateway worker heartbeat ok (21ms)
+2026-01-11 14:18:37,245 INFO web-gateway GET /v1/items 200 27ms req_id=cb7bc751
+2026-01-11 14:18:45,327 INFO web-gateway GET /v1/items 200 49ms req_id=4a111606
+2026-01-11 14:18:54,257 INFO web-gateway GET /v1/items 200 55ms req_id=c007c0f7
+2026-01-11 14:19:06,723 INFO web-gateway worker heartbeat ok (18ms)
+2026-01-11 14:19:12,629 INFO web-gateway GET /v1/items 200 68ms req_id=f2c8be1d
+2026-01-11 14:19:19,653 INFO web-gateway GET /v1/items 200 39ms req_id=f1dac0fe
+2026-01-11 14:19:31,469 INFO web-gateway GET /v1/items 200 32ms req_id=cccc8f46
+2026-01-11 14:19:37,410 INFO web-gateway worker heartbeat ok (9ms)
+2026-01-11 14:19:46,356 INFO web-gateway worker heartbeat ok (66ms)
+2026-01-11 14:19:47,000 WARNING web-gateway slow query took 770ms req_id=968e6d53
+2026-01-11 14:19:52,269 INFO web-gateway GET /v1/items 200 17ms req_id=705fdb00
+2026-01-11 14:19:59,562 INFO web-gateway GET /v1/items 200 66ms req_id=047c8964
+2026-01-11 14:20:11,453 INFO web-gateway worker heartbeat ok (56ms)
+2026-01-11 14:20:25,004 INFO web-gateway GET /v1/items 200 52ms req_id=733c6543
+2026-01-11 14:20:32,697 INFO web-gateway GET /v1/items 200 74ms req_id=59d7cd95

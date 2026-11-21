@@ -1,0 +1,43 @@
+{
+  "schema_version": "1",
+  "case_id": "test-c036",
+  "split": "test",
+  "family_id": "tf05",
+  "stratum": "multi_hop",
+  "root_causes": [
+    "seat-db"
+  ],
+  "fault_type": "conn_pool_exhausted",
+  "expected_abstain": false,
+  "key_evidence": [
+    "seat-db.log:30",
+    "seat-db.log:33",
+    "seat-db.log:35"
+  ],
+  "relevant_evidence": [
+    "booking-svc.log:33",
+    "booking-svc.log:35",
+    "booking-svc.log:36",
+    "seat-db.log:30",
+    "seat-db.log:33",
+    "seat-db.log:35",
+    "seat-svc.log:31",
+    "seat-svc.log:33",
+    "seat-svc.log:34",
+    "web-gateway.log:34",
+    "web-gateway.log:35",
+    "web-gateway.log:37",
+    "web-gateway.log:38",
+    "web-gateway.log:39",
+    "web-gateway.log:40",
+    "web-gateway.log:42"
+  ],
+  "propagation_path": [
+    "seat-db",
+    "seat-svc",
+    "booking-svc",
+    "web-gateway"
+  ],
+  "injection_uids": [],
+  "decoy_component": null
+}

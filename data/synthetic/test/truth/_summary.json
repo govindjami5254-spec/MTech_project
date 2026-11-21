@@ -1,0 +1,549 @@
+{
+  "generator_version": "2.0.0",
+  "split": "test",
+  "cases": 60,
+  "families": 20,
+  "cases_per_family": 3,
+  "per_case": [
+    {
+      "case_id": "test-c001",
+      "family_id": "tf02",
+      "stratum": "easy",
+      "hops": 1,
+      "events": 571,
+      "warn_plus": 22,
+      "components": 9
+    },
+    {
+      "case_id": "test-c002",
+      "family_id": "tf16",
+      "stratum": "concurrent",
+      "hops": 3,
+      "events": 587,
+      "warn_plus": 43,
+      "components": 9
+    },
+    {
+      "case_id": "test-c003",
+      "family_id": "tf14",
+      "stratum": "over_budget",
+      "hops": 3,
+      "events": 1603,
+      "warn_plus": 1066,
+      "components": 9
+    },
+    {
+      "case_id": "test-c004",
+      "family_id": "tf04",
+      "stratum": "multi_hop",
+      "hops": 3,
+      "events": 562,
+      "warn_plus": 24,
+      "components": 9
+    },
+    {
+      "case_id": "test-c005",
+      "family_id": "tf01",
+      "stratum": "easy",
+      "hops": 1,
+      "events": 575,
+      "warn_plus": 33,
+      "components": 9
+    },
+    {
+      "case_id": "test-c006",
+      "family_id": "tf07",
+      "stratum": "multi_hop",
+      "hops": 3,
+      "events": 573,
+      "warn_plus": 37,
+      "components": 9
+    },
+    {
+      "case_id": "test-c007",
+      "family_id": "tf18",
+      "stratum": "insufficient",
+      "hops": 2,
+      "events": 572,
+      "warn_plus": 30,
+      "components": 9
+    },
+    {
+      "case_id": "test-c008",
+      "family_id": "tf08",
+      "stratum": "distractor",
+      "hops": 2,
+      "events": 507,
+      "warn_plus": 29,
+      "components": 8
+    },
+    {
+      "case_id": "test-c009",
+      "family_id": "tf06",
+      "stratum": "multi_hop",
+      "hops": 3,
+      "events": 521,
+      "warn_plus": 39,
+      "components": 8
+    },
+    {
+      "case_id": "test-c010",
+      "family_id": "tf12",
+      "stratum": "over_budget",
+      "hops": 2,
+      "events": 1355,
+      "warn_plus": 873,
+      "components": 8
+    },
+    {
+      "case_id": "test-c011",
+      "family_id": "tf20",
+      "stratum": "insufficient",
+      "hops": 2,
+      "events": 502,
+      "warn_plus": 25,
+      "components": 8
+    },
+    {
+      "case_id": "test-c012",
+      "family_id": "tf16",
+      "stratum": "concurrent",
+      "hops": 3,
+      "events": 577,
+      "warn_plus": 44,
+      "components": 9
+    },
+    {
+      "case_id": "test-c013",
+      "family_id": "tf14",
+      "stratum": "over_budget",
+      "hops": 3,
+      "events": 1607,
+      "warn_plus": 1065,
+      "components": 9
+    },
+    {
+      "case_id": "test-c014",
+      "family_id": "tf15",
+      "stratum": "over_budget",
+      "hops": 3,
+      "events": 1652,
+      "warn_plus": 1125,
+      "components": 9
+    },
+    {
+      "case_id": "test-c015",
+      "family_id": "tf20",
+      "stratum": "insufficient",
+      "hops": 2,
+      "events": 499,
+      "warn_plus": 21,
+      "components": 8
+    },
+    {
+      "case_id": "test-c016",
+      "family_id": "tf07",
+      "stratum": "multi_hop",
+      "hops": 3,
+      "events": 575,
+      "warn_plus": 34,
+      "components": 9
+    },
+    {
+      "case_id": "test-c017",
+      "family_id": "tf03",
+      "stratum": "easy",
+      "hops": 1,
+      "events": 561,
+      "warn_plus": 20,
+      "components": 9
+    },
+    {
+      "case_id": "test-c018",
+      "family_id": "tf09",
+      "stratum": "distractor",
+      "hops": 2,
+      "events": 582,
+      "warn_plus": 35,
+      "components": 9
+    },
+    {
+      "case_id": "test-c019",
+      "family_id": "tf03",
+      "stratum": "easy",
+      "hops": 1,
+      "events": 562,
+      "warn_plus": 23,
+      "components": 9
+    },
+    {
+      "case_id": "test-c020",
+      "family_id": "tf04",
+      "stratum": "multi_hop",
+      "hops": 3,
+      "events": 587,
+      "warn_plus": 40,
+      "components": 9
+    },
+    {
+      "case_id": "test-c021",
+      "family_id": "tf10",
+      "stratum": "distractor",
+      "hops": 2,
+      "events": 582,
+      "warn_plus": 35,
+      "components": 9
+    },
+    {
+      "case_id": "test-c022",
+      "family_id": "tf13",
+      "stratum": "over_budget",
+      "hops": 2,
+      "events": 1474,
+      "warn_plus": 939,
+      "components": 9
+    },
+    {
+      "case_id": "test-c023",
+      "family_id": "tf06",
+      "stratum": "multi_hop",
+      "hops": 3,
+      "events": 506,
+      "warn_plus": 26,
+      "components": 8
+    },
+    {
+      "case_id": "test-c024",
+      "family_id": "tf16",
+      "stratum": "concurrent",
+      "hops": 3,
+      "events": 594,
+      "warn_plus": 42,
+      "components": 9
+    },
+    {
+      "case_id": "test-c025",
+      "family_id": "tf06",
+      "stratum": "multi_hop",
+      "hops": 3,
+      "events": 510,
+      "warn_plus": 32,
+      "components": 8
+    },
+    {
+      "case_id": "test-c026",
+      "family_id": "tf18",
+      "stratum": "insufficient",
+      "hops": 2,
+      "events": 577,
+      "warn_plus": 33,
+      "components": 9
+    },
+    {
+      "case_id": "test-c027",
+      "family_id": "tf13",
+      "stratum": "over_budget",
+      "hops": 2,
+      "events": 1476,
+      "warn_plus": 929,
+      "components": 9
+    },
+    {
+      "case_id": "test-c028",
+      "family_id": "tf11",
+      "stratum": "distractor",
+      "hops": 2,
+      "events": 569,
+      "warn_plus": 36,
+      "components": 9
+    },
+    {
+      "case_id": "test-c029",
+      "family_id": "tf19",
+      "stratum": "insufficient",
+      "hops": 2,
+      "events": 568,
+      "warn_plus": 22,
+      "components": 9
+    },
+    {
+      "case_id": "test-c030",
+      "family_id": "tf05",
+      "stratum": "multi_hop",
+      "hops": 3,
+      "events": 567,
+      "warn_plus": 33,
+      "components": 9
+    },
+    {
+      "case_id": "test-c031",
+      "family_id": "tf17",
+      "stratum": "concurrent",
+      "hops": 3,
+      "events": 533,
+      "warn_plus": 45,
+      "components": 8
+    },
+    {
+      "case_id": "test-c032",
+      "family_id": "tf10",
+      "stratum": "distractor",
+      "hops": 2,
+      "events": 594,
+      "warn_plus": 45,
+      "components": 9
+    },
+    {
+      "case_id": "test-c033",
+      "family_id": "tf15",
+      "stratum": "over_budget",
+      "hops": 3,
+      "events": 1641,
+      "warn_plus": 1110,
+      "components": 9
+    },
+    {
+      "case_id": "test-c034",
+      "family_id": "tf04",
+      "stratum": "multi_hop",
+      "hops": 3,
+      "events": 579,
+      "warn_plus": 32,
+      "components": 9
+    },
+    {
+      "case_id": "test-c035",
+      "family_id": "tf15",
+      "stratum": "over_budget",
+      "hops": 3,
+      "events": 1568,
+      "warn_plus": 1021,
+      "components": 9
+    },
+    {
+      "case_id": "test-c036",
+      "family_id": "tf05",
+      "stratum": "multi_hop",
+      "hops": 3,
+      "events": 564,
+      "warn_plus": 29,
+      "components": 9
+    },
+    {
+      "case_id": "test-c037",
+      "family_id": "tf17",
+      "stratum": "concurrent",
+      "hops": 3,
+      "events": 521,
+      "warn_plus": 50,
+      "components": 8
+    },
+    {
+      "case_id": "test-c038",
+      "family_id": "tf12",
+      "stratum": "over_budget",
+      "hops": 2,
+      "events": 1442,
+      "warn_plus": 955,
+      "components": 8
+    },
+    {
+      "case_id": "test-c039",
+      "family_id": "tf08",
+      "stratum": "distractor",
+      "hops": 2,
+      "events": 509,
+      "warn_plus": 25,
+      "components": 8
+    },
+    {
+      "case_id": "test-c040",
+      "family_id": "tf11",
+      "stratum": "distractor",
+      "hops": 2,
+      "events": 571,
+      "warn_plus": 33,
+      "components": 9
+    },
+    {
+      "case_id": "test-c041",
+      "family_id": "tf18",
+      "stratum": "insufficient",
+      "hops": 2,
+      "events": 563,
+      "warn_plus": 23,
+      "components": 9
+    },
+    {
+      "case_id": "test-c042",
+      "family_id": "tf17",
+      "stratum": "concurrent",
+      "hops": 3,
+      "events": 528,
+      "warn_plus": 44,
+      "components": 8
+    },
+    {
+      "case_id": "test-c043",
+      "family_id": "tf05",
+      "stratum": "multi_hop",
+      "hops": 3,
+      "events": 565,
+      "warn_plus": 24,
+      "components": 9
+    },
+    {
+      "case_id": "test-c044",
+      "family_id": "tf14",
+      "stratum": "over_budget",
+      "hops": 3,
+      "events": 1558,
+      "warn_plus": 1021,
+      "components": 9
+    },
+    {
+      "case_id": "test-c045",
+      "family_id": "tf10",
+      "stratum": "distractor",
+      "hops": 2,
+      "events": 578,
+      "warn_plus": 36,
+      "components": 9
+    },
+    {
+      "case_id": "test-c046",
+      "family_id": "tf03",
+      "stratum": "easy",
+      "hops": 1,
+      "events": 568,
+      "warn_plus": 27,
+      "components": 9
+    },
+    {
+      "case_id": "test-c047",
+      "family_id": "tf01",
+      "stratum": "easy",
+      "hops": 1,
+      "events": 557,
+      "warn_plus": 22,
+      "components": 9
+    },
+    {
+      "case_id": "test-c048",
+      "family_id": "tf01",
+      "stratum": "easy",
+      "hops": 1,
+      "events": 555,
+      "warn_plus": 22,
+      "components": 9
+    },
+    {
+      "case_id": "test-c049",
+      "family_id": "tf09",
+      "stratum": "distractor",
+      "hops": 2,
+      "events": 578,
+      "warn_plus": 31,
+      "components": 9
+    },
+    {
+      "case_id": "test-c050",
+      "family_id": "tf09",
+      "stratum": "distractor",
+      "hops": 2,
+      "events": 589,
+      "warn_plus": 31,
+      "components": 9
+    },
+    {
+      "case_id": "test-c051",
+      "family_id": "tf20",
+      "stratum": "insufficient",
+      "hops": 2,
+      "events": 502,
+      "warn_plus": 26,
+      "components": 8
+    },
+    {
+      "case_id": "test-c052",
+      "family_id": "tf11",
+      "stratum": "distractor",
+      "hops": 2,
+      "events": 550,
+      "warn_plus": 23,
+      "components": 9
+    },
+    {
+      "case_id": "test-c053",
+      "family_id": "tf02",
+      "stratum": "easy",
+      "hops": 1,
+      "events": 557,
+      "warn_plus": 21,
+      "components": 9
+    },
+    {
+      "case_id": "test-c054",
+      "family_id": "tf07",
+      "stratum": "multi_hop",
+      "hops": 3,
+      "events": 583,
+      "warn_plus": 34,
+      "components": 9
+    },
+    {
+      "case_id": "test-c055",
+      "family_id": "tf19",
+      "stratum": "insufficient",
+      "hops": 2,
+      "events": 558,
+      "warn_plus": 27,
+      "components": 9
+    },
+    {
+      "case_id": "test-c056",
+      "family_id": "tf19",
+      "stratum": "insufficient",
+      "hops": 2,
+      "events": 557,
+      "warn_plus": 23,
+      "components": 9
+    },
+    {
+      "case_id": "test-c057",
+      "family_id": "tf13",
+      "stratum": "over_budget",
+      "hops": 2,
+      "events": 1423,
+      "warn_plus": 888,
+      "components": 9
+    },
+    {
+      "case_id": "test-c058",
+      "family_id": "tf08",
+      "stratum": "distractor",
+      "hops": 2,
+      "events": 507,
+      "warn_plus": 23,
+      "components": 8
+    },
+    {
+      "case_id": "test-c059",
+      "family_id": "tf02",
+      "stratum": "easy",
+      "hops": 1,
+      "events": 557,
+      "warn_plus": 19,
+      "components": 9
+    },
+    {
+      "case_id": "test-c060",
+      "family_id": "tf12",
+      "stratum": "over_budget",
+      "hops": 2,
+      "events": 1382,
+      "warn_plus": 914,
+      "components": 8
+    }
+  ]
+}

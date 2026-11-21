@@ -1,0 +1,216 @@
+2026-01-05 09:51:47,158 INFO catalog-api worker heartbeat ok (61ms)
+2026-01-05 09:51:53,253 INFO catalog-api worker heartbeat ok (73ms)
+2026-01-05 09:51:59,924 INFO catalog-api worker heartbeat ok (78ms)
+2026-01-05 09:52:13,432 INFO catalog-api GET /v1/items 200 55ms req_id=293fbba2
+2026-01-05 09:52:26,970 INFO catalog-api worker heartbeat ok (72ms)
+2026-01-05 09:52:38,108 INFO catalog-api worker heartbeat ok (63ms)
+2026-01-05 09:52:48,509 INFO catalog-api worker heartbeat ok (66ms)
+2026-01-05 09:53:01,310 INFO catalog-api worker heartbeat ok (66ms)
+2026-01-05 09:53:13,762 INFO catalog-api worker heartbeat ok (78ms)
+2026-01-05 09:53:22,254 INFO catalog-api GET /v1/items 200 70ms req_id=eca0965d
+2026-01-05 09:53:28,417 INFO catalog-api worker heartbeat ok (72ms)
+2026-01-05 09:53:34,624 INFO catalog-api worker heartbeat ok (62ms)
+2026-01-05 09:53:43,390 INFO catalog-api worker heartbeat ok (33ms)
+2026-01-05 09:53:56,490 INFO catalog-api GET /v1/items 200 48ms req_id=52b677bd
+2026-01-05 09:54:10,536 INFO catalog-api GET /v1/items 200 48ms req_id=e9351eb7
+2026-01-05 09:54:24,661 INFO catalog-api worker heartbeat ok (10ms)
+2026-01-05 09:54:30,014 INFO catalog-api GET /v1/items 200 88ms req_id=ad10af45
+2026-01-05 09:54:42,563 INFO catalog-api GET /v1/items 200 72ms req_id=d74f5935
+2026-01-05 09:54:51,572 INFO catalog-api worker heartbeat ok (88ms)
+2026-01-05 09:55:02,626 INFO catalog-api GET /v1/items 200 11ms req_id=2dac648c
+2026-01-05 09:55:15,116 INFO catalog-api worker heartbeat ok (38ms)
+2026-01-05 09:55:26,169 INFO catalog-api worker heartbeat ok (89ms)
+2026-01-05 09:55:39,221 INFO catalog-api GET /v1/items 200 11ms req_id=0c47dcbc
+2026-01-05 09:55:46,256 INFO catalog-api worker heartbeat ok (63ms)
+2026-01-05 09:55:57,536 INFO catalog-api GET /v1/items 200 79ms req_id=3e1291e7
+2026-01-05 09:56:07,761 INFO catalog-api worker heartbeat ok (90ms)
+2026-01-05 09:56:17,314 INFO catalog-api worker heartbeat ok (61ms)
+2026-01-05 09:56:31,583 INFO catalog-api GET /v1/items 200 31ms req_id=b49a7bda
+2026-01-05 09:56:41,119 INFO catalog-api GET /v1/items 200 94ms req_id=313fad3c
+2026-01-05 09:56:49,782 INFO catalog-api GET /v1/items 200 33ms req_id=9522a029
+2026-01-05 09:57:02,259 INFO catalog-api GET /v1/items 200 89ms req_id=09f58179
+2026-01-05 09:57:04,954 ERROR catalog-api upstream search-index replied 503 Service Unavailable req_id=bbe4aff4
+2026-01-05 09:57:06,857 WARNING catalog-api urllib3 retrying (search-index) after connection broken
+2026-01-05 09:57:09,087 ERROR catalog-api aborting request: search-index unreachable after retries
+2026-01-05 09:57:10,465 ERROR catalog-api requests.exceptions.ConnectionError: HTTPConnectionPool(host='search-index', port=9200): Max retries exceeded req_id=feabee6b
+2026-01-05 09:57:12,004 ERROR catalog-api upstream search-index replied 503 Service Unavailable req_id=a674a3b4
+2026-01-05 09:57:13,656 INFO catalog-api worker heartbeat ok (39ms)
+2026-01-05 09:57:13,762 ERROR catalog-api requests.exceptions.ConnectionError: HTTPConnectionPool(host='search-index', port=9200): Max retries exceeded req_id=c78c27ca
+2026-01-05 09:57:15,555 ERROR catalog-api upstream search-index replied 503 Service Unavailable req_id=3e64c6b5
+2026-01-05 09:57:18,067 ERROR catalog-api requests.exceptions.ConnectionError: HTTPConnectionPool(host='search-index', port=9200): Max retries exceeded req_id=89dc0800
+2026-01-05 09:57:19,422 INFO catalog-api worker heartbeat ok (17ms)
+2026-01-05 09:57:19,566 ERROR catalog-api requests.exceptions.ConnectionError: HTTPConnectionPool(host='search-index', port=9200): Max retries exceeded req_id=cca76151
+2026-01-05 09:57:21,911 ERROR catalog-api upstream search-index replied 503 Service Unavailable req_id=c4247a50
+2026-01-05 09:57:23,225 ERROR catalog-api requests.exceptions.ConnectionError: HTTPConnectionPool(host='search-index', port=9200): Max retries exceeded req_id=64511ee0
+2026-01-05 09:57:24,632 ERROR catalog-api requests.exceptions.ConnectionError: HTTPConnectionPool(host='search-index', port=9200): Max retries exceeded req_id=e8902851
+2026-01-05 09:57:27,487 ERROR catalog-api upstream search-index replied 503 Service Unavailable req_id=c18a9df2
+2026-01-05 09:57:28,257 ERROR catalog-api upstream search-index replied 503 Service Unavailable req_id=2ffe07c8
+2026-01-05 09:57:30,666 ERROR catalog-api upstream search-index replied 503 Service Unavailable req_id=bd3437dc
+2026-01-05 09:57:31,783 ERROR catalog-api requests.exceptions.ConnectionError: HTTPConnectionPool(host='search-index', port=9200): Max retries exceeded req_id=033a9620
+2026-01-05 09:57:32,148 INFO catalog-api GET /v1/items 200 40ms req_id=82af5b32
+2026-01-05 09:57:34,447 ERROR catalog-api upstream search-index replied 503 Service Unavailable req_id=d7876919
+2026-01-05 09:57:37,103 ERROR catalog-api requests.exceptions.ConnectionError: HTTPConnectionPool(host='search-index', port=9200): Max retries exceeded req_id=7c965894
+2026-01-05 09:57:38,848 ERROR catalog-api requests.exceptions.ConnectionError: HTTPConnectionPool(host='search-index', port=9200): Max retries exceeded req_id=fe9a656f
+2026-01-05 09:57:41,668 ERROR catalog-api upstream search-index replied 503 Service Unavailable req_id=c8883bfc
+2026-01-05 09:57:42,530 ERROR catalog-api upstream search-index replied 503 Service Unavailable req_id=d8b4cfa5
+2026-01-05 09:57:42,752 INFO catalog-api worker heartbeat ok (30ms)
+2026-01-05 09:57:43,998 ERROR catalog-api requests.exceptions.ConnectionError: HTTPConnectionPool(host='search-index', port=9200): Max retries exceeded req_id=92816621
+2026-01-05 09:57:46,527 ERROR catalog-api requests.exceptions.ConnectionError: HTTPConnectionPool(host='search-index', port=9200): Max retries exceeded req_id=612a2836
+2026-01-05 09:57:48,023 INFO catalog-api worker heartbeat ok (23ms)
+2026-01-05 09:57:48,058 ERROR catalog-api upstream search-index replied 503 Service Unavailable req_id=ff2e174b
+2026-01-05 09:57:49,702 ERROR catalog-api upstream search-index replied 503 Service Unavailable req_id=d613d921
+2026-01-05 09:57:49,900 ERROR catalog-api upstream search-index replied 503 Service Unavailable req_id=571c9379
+2026-01-05 09:57:52,739 ERROR catalog-api upstream search-index replied 503 Service Unavailable req_id=79ad79a0
+2026-01-05 09:57:53,945 ERROR catalog-api upstream search-index replied 503 Service Unavailable req_id=59512b29
+2026-01-05 09:57:56,095 ERROR catalog-api requests.exceptions.ConnectionError: HTTPConnectionPool(host='search-index', port=9200): Max retries exceeded req_id=1a5f66a1
+2026-01-05 09:57:57,484 INFO catalog-api GET /v1/items 200 60ms req_id=eeba96dc
+2026-01-05 09:57:57,496 ERROR catalog-api upstream search-index replied 503 Service Unavailable req_id=73335da3
+2026-01-05 09:57:59,032 ERROR catalog-api upstream search-index replied 503 Service Unavailable req_id=1e510888
+2026-01-05 09:58:01,294 ERROR catalog-api upstream search-index replied 503 Service Unavailable req_id=16d33f3c
+2026-01-05 09:58:02,790 ERROR catalog-api requests.exceptions.ConnectionError: HTTPConnectionPool(host='search-index', port=9200): Max retries exceeded req_id=611f467f
+2026-01-05 09:58:05,035 ERROR catalog-api upstream search-index replied 503 Service Unavailable req_id=8e1ddaf6
+2026-01-05 09:58:06,558 ERROR catalog-api requests.exceptions.ConnectionError: HTTPConnectionPool(host='search-index', port=9200): Max retries exceeded req_id=e2a108f7
+2026-01-05 09:58:07,386 ERROR catalog-api requests.exceptions.ConnectionError: HTTPConnectionPool(host='search-index', port=9200): Max retries exceeded req_id=f065f6e4
+2026-01-05 09:58:08,245 INFO catalog-api GET /v1/items 200 95ms req_id=8a508ce8
+2026-01-05 09:58:10,100 ERROR catalog-api requests.exceptions.ConnectionError: HTTPConnectionPool(host='search-index', port=9200): Max retries exceeded req_id=aba41013
+2026-01-05 09:58:11,936 ERROR catalog-api requests.exceptions.ConnectionError: HTTPConnectionPool(host='search-index', port=9200): Max retries exceeded req_id=5cbfca6e
+2026-01-05 09:58:13,700 ERROR catalog-api upstream search-index replied 503 Service Unavailable req_id=a9541b70
+2026-01-05 09:58:15,043 ERROR catalog-api upstream search-index replied 503 Service Unavailable req_id=e5e039df
+2026-01-05 09:58:17,146 ERROR catalog-api requests.exceptions.ConnectionError: HTTPConnectionPool(host='search-index', port=9200): Max retries exceeded req_id=3dc7311e
+2026-01-05 09:58:17,954 INFO catalog-api GET /v1/items 200 74ms req_id=36bec00d
+2026-01-05 09:58:18,857 ERROR catalog-api upstream search-index replied 503 Service Unavailable req_id=a3bfa8ca
+2026-01-05 09:58:19,762 ERROR catalog-api requests.exceptions.ConnectionError: HTTPConnectionPool(host='search-index', port=9200): Max retries exceeded req_id=4761c5ff
+2026-01-05 09:58:21,608 ERROR catalog-api upstream search-index replied 503 Service Unavailable req_id=85faa9dc
+2026-01-05 09:58:24,773 ERROR catalog-api upstream search-index replied 503 Service Unavailable req_id=88fb93e4
+2026-01-05 09:58:26,572 ERROR catalog-api upstream search-index replied 503 Service Unavailable req_id=fc347aa0
+2026-01-05 09:58:28,665 ERROR catalog-api requests.exceptions.ConnectionError: HTTPConnectionPool(host='search-index', port=9200): Max retries exceeded req_id=0f67c0a3
+2026-01-05 09:58:29,175 INFO catalog-api GET /v1/items 200 74ms req_id=5e872239
+2026-01-05 09:58:30,416 ERROR catalog-api requests.exceptions.ConnectionError: HTTPConnectionPool(host='search-index', port=9200): Max retries exceeded req_id=656d5e02
+2026-01-05 09:58:33,474 ERROR catalog-api requests.exceptions.ConnectionError: HTTPConnectionPool(host='search-index', port=9200): Max retries exceeded req_id=8ce84575
+2026-01-05 09:58:35,535 ERROR catalog-api upstream search-index replied 503 Service Unavailable req_id=2d810168
+2026-01-05 09:58:37,695 ERROR catalog-api requests.exceptions.ConnectionError: HTTPConnectionPool(host='search-index', port=9200): Max retries exceeded req_id=1af1d124
+2026-01-05 09:58:39,028 ERROR catalog-api requests.exceptions.ConnectionError: HTTPConnectionPool(host='search-index', port=9200): Max retries exceeded req_id=ce7cf4d1
+2026-01-05 09:58:40,355 INFO catalog-api GET /v1/items 200 69ms req_id=f2f4ca78
+2026-01-05 09:58:41,323 ERROR catalog-api upstream search-index replied 503 Service Unavailable req_id=91e7a716
+2026-01-05 09:58:42,693 ERROR catalog-api upstream search-index replied 503 Service Unavailable req_id=f9802403
+2026-01-05 09:58:44,908 ERROR catalog-api requests.exceptions.ConnectionError: HTTPConnectionPool(host='search-index', port=9200): Max retries exceeded req_id=bc65868a
+2026-01-05 09:58:47,694 ERROR catalog-api requests.exceptions.ConnectionError: HTTPConnectionPool(host='search-index', port=9200): Max retries exceeded req_id=b79847fb
+2026-01-05 09:58:47,948 ERROR catalog-api requests.exceptions.ConnectionError: HTTPConnectionPool(host='search-index', port=9200): Max retries exceeded req_id=d1e483e4
+2026-01-05 09:58:50,352 INFO catalog-api GET /v1/items 200 65ms req_id=831b4666
+2026-01-05 09:58:50,673 ERROR catalog-api upstream search-index replied 503 Service Unavailable req_id=21cf9088
+2026-01-05 09:58:53,050 ERROR catalog-api requests.exceptions.ConnectionError: HTTPConnectionPool(host='search-index', port=9200): Max retries exceeded req_id=d621acfb
+2026-01-05 09:58:54,925 ERROR catalog-api requests.exceptions.ConnectionError: HTTPConnectionPool(host='search-index', port=9200): Max retries exceeded req_id=fbdc3f66
+2026-01-05 09:58:55,977 ERROR catalog-api upstream search-index replied 503 Service Unavailable req_id=cc915b7f
+2026-01-05 09:58:57,813 ERROR catalog-api requests.exceptions.ConnectionError: HTTPConnectionPool(host='search-index', port=9200): Max retries exceeded req_id=2913438f
+2026-01-05 09:58:58,171 INFO catalog-api GET /v1/items 200 66ms req_id=28e66a9b
+2026-01-05 09:58:59,607 ERROR catalog-api upstream search-index replied 503 Service Unavailable req_id=b51c7d95
+2026-01-05 09:59:01,241 ERROR catalog-api requests.exceptions.ConnectionError: HTTPConnectionPool(host='search-index', port=9200): Max retries exceeded req_id=2ebcadc8
+2026-01-05 09:59:04,267 ERROR catalog-api requests.exceptions.ConnectionError: HTTPConnectionPool(host='search-index', port=9200): Max retries exceeded req_id=f8de7c7b
+2026-01-05 09:59:05,629 ERROR catalog-api upstream search-index replied 503 Service Unavailable req_id=743fcd6a
+2026-01-05 09:59:06,109 ERROR catalog-api upstream search-index replied 503 Service Unavailable req_id=f8c9b556
+2026-01-05 09:59:08,205 ERROR catalog-api requests.exceptions.ConnectionError: HTTPConnectionPool(host='search-index', port=9200): Max retries exceeded req_id=74cdb3eb
+2026-01-05 09:59:08,617 INFO catalog-api GET /v1/items 200 51ms req_id=dca4afa7
+2026-01-05 09:59:09,142 ERROR catalog-api requests.exceptions.ConnectionError: HTTPConnectionPool(host='search-index', port=9200): Max retries exceeded req_id=7942ba0f
+2026-01-05 09:59:10,430 ERROR catalog-api upstream search-index replied 503 Service Unavailable req_id=0dc4984f
+2026-01-05 09:59:12,098 ERROR catalog-api upstream search-index replied 503 Service Unavailable req_id=264131eb
+2026-01-05 09:59:14,540 ERROR catalog-api upstream search-index replied 503 Service Unavailable req_id=b707b60e
+2026-01-05 09:59:15,489 ERROR catalog-api upstream search-index replied 503 Service Unavailable req_id=e8a5b825
+2026-01-05 09:59:17,559 ERROR catalog-api requests.exceptions.ConnectionError: HTTPConnectionPool(host='search-index', port=9200): Max retries exceeded req_id=7f7d2e17
+2026-01-05 09:59:20,017 INFO catalog-api worker heartbeat ok (52ms)
+2026-01-05 09:59:20,173 ERROR catalog-api upstream search-index replied 503 Service Unavailable req_id=11902bbb
+2026-01-05 09:59:22,256 ERROR catalog-api upstream search-index replied 503 Service Unavailable req_id=d68c0ba3
+2026-01-05 09:59:23,971 ERROR catalog-api upstream search-index replied 503 Service Unavailable req_id=15490ee8
+2026-01-05 09:59:24,744 ERROR catalog-api requests.exceptions.ConnectionError: HTTPConnectionPool(host='search-index', port=9200): Max retries exceeded req_id=78a17a0f
+2026-01-05 09:59:27,187 INFO catalog-api GET /v1/items 200 48ms req_id=2ef62cc2
+2026-01-05 09:59:27,666 ERROR catalog-api requests.exceptions.ConnectionError: HTTPConnectionPool(host='search-index', port=9200): Max retries exceeded req_id=921655e6
+2026-01-05 09:59:28,564 ERROR catalog-api upstream search-index replied 503 Service Unavailable req_id=55c4d01e
+2026-01-05 09:59:30,599 ERROR catalog-api requests.exceptions.ConnectionError: HTTPConnectionPool(host='search-index', port=9200): Max retries exceeded req_id=332d86e4
+2026-01-05 09:59:32,553 ERROR catalog-api upstream search-index replied 503 Service Unavailable req_id=eb7b1432
+2026-01-05 09:59:33,711 INFO catalog-api worker heartbeat ok (45ms)
+2026-01-05 09:59:34,603 ERROR catalog-api requests.exceptions.ConnectionError: HTTPConnectionPool(host='search-index', port=9200): Max retries exceeded req_id=c51e8df3
+2026-01-05 09:59:36,845 ERROR catalog-api requests.exceptions.ConnectionError: HTTPConnectionPool(host='search-index', port=9200): Max retries exceeded req_id=76a045ac
+2026-01-05 09:59:37,484 ERROR catalog-api upstream search-index replied 503 Service Unavailable req_id=4d130f52
+2026-01-05 09:59:38,981 ERROR catalog-api upstream search-index replied 503 Service Unavailable req_id=5394b9eb
+2026-01-05 09:59:41,451 ERROR catalog-api upstream search-index replied 503 Service Unavailable req_id=4aa55329
+2026-01-05 09:59:42,080 ERROR catalog-api requests.exceptions.ConnectionError: HTTPConnectionPool(host='search-index', port=9200): Max retries exceeded req_id=3ffcbd8f
+2026-01-05 09:59:44,443 ERROR catalog-api upstream search-index replied 503 Service Unavailable req_id=f1545398
+2026-01-05 09:59:46,260 ERROR catalog-api requests.exceptions.ConnectionError: HTTPConnectionPool(host='search-index', port=9200): Max retries exceeded req_id=62a81b6f
+2026-01-05 09:59:46,959 INFO catalog-api worker heartbeat ok (74ms)
+2026-01-05 09:59:48,504 ERROR catalog-api upstream search-index replied 503 Service Unavailable req_id=9af68f4a
+2026-01-05 09:59:49,692 ERROR catalog-api requests.exceptions.ConnectionError: HTTPConnectionPool(host='search-index', port=9200): Max retries exceeded req_id=b285cf95
+2026-01-05 09:59:51,870 ERROR catalog-api requests.exceptions.ConnectionError: HTTPConnectionPool(host='search-index', port=9200): Max retries exceeded req_id=51e3ef7d
+2026-01-05 09:59:53,747 ERROR catalog-api requests.exceptions.ConnectionError: HTTPConnectionPool(host='search-index', port=9200): Max retries exceeded req_id=87ae5bda
+2026-01-05 09:59:54,460 INFO catalog-api GET /v1/items 200 48ms req_id=a3966a3f
+2026-01-05 09:59:55,147 ERROR catalog-api requests.exceptions.ConnectionError: HTTPConnectionPool(host='search-index', port=9200): Max retries exceeded req_id=eb8e45bb
+2026-01-05 09:59:57,575 ERROR catalog-api upstream search-index replied 503 Service Unavailable req_id=f0015c62
+2026-01-05 09:59:59,583 ERROR catalog-api upstream search-index replied 503 Service Unavailable req_id=3c62c323
+2026-01-05 10:00:01,309 INFO catalog-api GET /v1/items 200 37ms req_id=2883eae2
+2026-01-05 10:00:01,311 ERROR catalog-api upstream search-index replied 503 Service Unavailable req_id=67cc5cf8
+2026-01-05 10:00:04,122 ERROR catalog-api requests.exceptions.ConnectionError: HTTPConnectionPool(host='search-index', port=9200): Max retries exceeded req_id=e3eb2352
+2026-01-05 10:00:05,578 ERROR catalog-api upstream search-index replied 503 Service Unavailable req_id=1e221e1c
+2026-01-05 10:00:06,543 ERROR catalog-api upstream search-index replied 503 Service Unavailable req_id=235d0f8f
+2026-01-05 10:00:08,544 ERROR catalog-api upstream search-index replied 503 Service Unavailable req_id=2276a7c4
+2026-01-05 10:00:09,894 ERROR catalog-api upstream search-index replied 503 Service Unavailable req_id=007c8dc9
+2026-01-05 10:00:11,106 INFO catalog-api worker heartbeat ok (12ms)
+2026-01-05 10:00:11,491 ERROR catalog-api requests.exceptions.ConnectionError: HTTPConnectionPool(host='search-index', port=9200): Max retries exceeded req_id=e7f9845e
+2026-01-05 10:00:13,753 ERROR catalog-api upstream search-index replied 503 Service Unavailable req_id=3eb49a2d
+2026-01-05 10:00:16,037 ERROR catalog-api requests.exceptions.ConnectionError: HTTPConnectionPool(host='search-index', port=9200): Max retries exceeded req_id=4ca991fe
+2026-01-05 10:00:18,359 ERROR catalog-api upstream search-index replied 503 Service Unavailable req_id=51ab33cd
+2026-01-05 10:00:19,534 ERROR catalog-api requests.exceptions.ConnectionError: HTTPConnectionPool(host='search-index', port=9200): Max retries exceeded req_id=954eff14
+2026-01-05 10:00:20,580 ERROR catalog-api upstream search-index replied 503 Service Unavailable req_id=970100b3
+2026-01-05 10:00:20,738 INFO catalog-api worker heartbeat ok (49ms)
+2026-01-05 10:00:22,852 ERROR catalog-api requests.exceptions.ConnectionError: HTTPConnectionPool(host='search-index', port=9200): Max retries exceeded req_id=0cd31e10
+2026-01-05 10:00:24,796 ERROR catalog-api upstream search-index replied 503 Service Unavailable req_id=893f2e9a
+2026-01-05 10:00:26,842 ERROR catalog-api requests.exceptions.ConnectionError: HTTPConnectionPool(host='search-index', port=9200): Max retries exceeded req_id=b3e33023
+2026-01-05 10:00:27,074 ERROR catalog-api upstream search-index replied 503 Service Unavailable req_id=0491ce1c
+2026-01-05 10:00:29,550 ERROR catalog-api requests.exceptions.ConnectionError: HTTPConnectionPool(host='search-index', port=9200): Max retries exceeded req_id=3b2dc6be
+2026-01-05 10:00:30,568 ERROR catalog-api requests.exceptions.ConnectionError: HTTPConnectionPool(host='search-index', port=9200): Max retries exceeded req_id=55862c40
+2026-01-05 10:00:32,108 ERROR catalog-api upstream search-index replied 503 Service Unavailable req_id=bc1bbc33
+2026-01-05 10:00:34,350 ERROR catalog-api requests.exceptions.ConnectionError: HTTPConnectionPool(host='search-index', port=9200): Max retries exceeded req_id=b2411644
+2026-01-05 10:00:34,555 INFO catalog-api GET /v1/items 200 19ms req_id=245d5ac0
+2026-01-05 10:00:36,235 ERROR catalog-api requests.exceptions.ConnectionError: HTTPConnectionPool(host='search-index', port=9200): Max retries exceeded req_id=a4703bca
+2026-01-05 10:00:37,506 ERROR catalog-api requests.exceptions.ConnectionError: HTTPConnectionPool(host='search-index', port=9200): Max retries exceeded req_id=8b7632f4
+2026-01-05 10:00:38,700 ERROR catalog-api upstream search-index replied 503 Service Unavailable req_id=f402883d
+2026-01-05 10:00:39,810 ERROR catalog-api upstream search-index replied 503 Service Unavailable req_id=6872e8c1
+2026-01-05 10:00:41,129 ERROR catalog-api requests.exceptions.ConnectionError: HTTPConnectionPool(host='search-index', port=9200): Max retries exceeded req_id=84ca6101
+2026-01-05 10:00:41,504 INFO catalog-api worker heartbeat ok (51ms)
+2026-01-05 10:00:42,154 ERROR catalog-api requests.exceptions.ConnectionError: HTTPConnectionPool(host='search-index', port=9200): Max retries exceeded req_id=d57bcb24
+2026-01-05 10:00:45,019 ERROR catalog-api requests.exceptions.ConnectionError: HTTPConnectionPool(host='search-index', port=9200): Max retries exceeded req_id=ee2f64f2
+2026-01-05 10:00:46,636 ERROR catalog-api upstream search-index replied 503 Service Unavailable req_id=5b988c69
+2026-01-05 10:00:48,437 ERROR catalog-api requests.exceptions.ConnectionError: HTTPConnectionPool(host='search-index', port=9200): Max retries exceeded req_id=043b4747
+2026-01-05 10:00:49,988 INFO catalog-api GET /v1/items 200 13ms req_id=489e5f73
+2026-01-05 10:00:50,873 ERROR catalog-api requests.exceptions.ConnectionError: HTTPConnectionPool(host='search-index', port=9200): Max retries exceeded req_id=c4ecfb3a
+2026-01-05 10:00:52,636 ERROR catalog-api requests.exceptions.ConnectionError: HTTPConnectionPool(host='search-index', port=9200): Max retries exceeded req_id=2d8f32d1
+2026-01-05 10:00:54,233 ERROR catalog-api requests.exceptions.ConnectionError: HTTPConnectionPool(host='search-index', port=9200): Max retries exceeded req_id=a58c8b83
+2026-01-05 10:00:56,673 ERROR catalog-api requests.exceptions.ConnectionError: HTTPConnectionPool(host='search-index', port=9200): Max retries exceeded req_id=7d7d51ab
+2026-01-05 10:00:58,854 ERROR catalog-api upstream search-index replied 503 Service Unavailable req_id=fbc04ece
+2026-01-05 10:00:58,963 INFO catalog-api worker heartbeat ok (76ms)
+2026-01-05 10:01:00,682 ERROR catalog-api upstream search-index replied 503 Service Unavailable req_id=0fe0b01b
+2026-01-05 10:01:02,646 ERROR catalog-api requests.exceptions.ConnectionError: HTTPConnectionPool(host='search-index', port=9200): Max retries exceeded req_id=7a92d4bd
+2026-01-05 10:01:04,135 ERROR catalog-api requests.exceptions.ConnectionError: HTTPConnectionPool(host='search-index', port=9200): Max retries exceeded req_id=4a9a6178
+2026-01-05 10:01:06,042 ERROR catalog-api requests.exceptions.ConnectionError: HTTPConnectionPool(host='search-index', port=9200): Max retries exceeded req_id=3df15da0
+2026-01-05 10:01:06,997 ERROR catalog-api upstream search-index replied 503 Service Unavailable req_id=e7f74721
+2026-01-05 10:01:07,052 INFO catalog-api GET /v1/items 200 82ms req_id=3348b846
+2026-01-05 10:01:09,031 ERROR catalog-api requests.exceptions.ConnectionError: HTTPConnectionPool(host='search-index', port=9200): Max retries exceeded req_id=47afcf23
+2026-01-05 10:01:10,999 ERROR catalog-api upstream search-index replied 503 Service Unavailable req_id=ca8266ce
+2026-01-05 10:01:13,567 ERROR catalog-api requests.exceptions.ConnectionError: HTTPConnectionPool(host='search-index', port=9200): Max retries exceeded req_id=d277b6cc
+2026-01-05 10:01:15,924 ERROR catalog-api upstream search-index replied 503 Service Unavailable req_id=ad414c24
+2026-01-05 10:01:16,858 INFO catalog-api GET /v1/items 200 32ms req_id=8daa9d50
+2026-01-05 10:01:17,365 ERROR catalog-api requests.exceptions.ConnectionError: HTTPConnectionPool(host='search-index', port=9200): Max retries exceeded req_id=67767cc1
+2026-01-05 10:01:18,915 ERROR catalog-api upstream search-index replied 503 Service Unavailable req_id=ea885de6
+2026-01-05 10:01:20,637 ERROR catalog-api upstream search-index replied 503 Service Unavailable req_id=f141f742
+2026-01-05 10:01:23,409 ERROR catalog-api requests.exceptions.ConnectionError: HTTPConnectionPool(host='search-index', port=9200): Max retries exceeded req_id=890cbd18
+2026-01-05 10:01:25,322 ERROR catalog-api upstream search-index replied 503 Service Unavailable req_id=05d5b531
+2026-01-05 10:01:26,762 INFO catalog-api worker heartbeat ok (83ms)
+2026-01-05 10:01:27,876 ERROR catalog-api requests.exceptions.ConnectionError: HTTPConnectionPool(host='search-index', port=9200): Max retries exceeded req_id=1e60d770
+2026-01-05 10:01:29,413 ERROR catalog-api requests.exceptions.ConnectionError: HTTPConnectionPool(host='search-index', port=9200): Max retries exceeded req_id=de5dc066
+2026-01-05 10:01:30,371 ERROR catalog-api requests.exceptions.ConnectionError: HTTPConnectionPool(host='search-index', port=9200): Max retries exceeded req_id=3ff3d72d
+2026-01-05 10:01:31,835 ERROR catalog-api upstream search-index replied 503 Service Unavailable req_id=c607eb89
+2026-01-05 10:01:34,385 ERROR catalog-api requests.exceptions.ConnectionError: HTTPConnectionPool(host='search-index', port=9200): Max retries exceeded req_id=177e003d
+2026-01-05 10:01:34,623 INFO catalog-api GET /v1/items 200 83ms req_id=01547307
+2026-01-05 10:01:36,035 ERROR catalog-api requests.exceptions.ConnectionError: HTTPConnectionPool(host='search-index', port=9200): Max retries exceeded req_id=68e692f0
+2026-01-05 10:01:37,138 ERROR catalog-api requests.exceptions.ConnectionError: HTTPConnectionPool(host='search-index', port=9200): Max retries exceeded req_id=d339ff1e
+2026-01-05 10:01:39,544 ERROR catalog-api upstream search-index replied 503 Service Unavailable req_id=ee3b602e
+2026-01-05 10:01:40,463 ERROR catalog-api upstream search-index replied 503 Service Unavailable req_id=33367c85
+2026-01-05 10:01:42,223 ERROR catalog-api requests.exceptions.ConnectionError: HTTPConnectionPool(host='search-index', port=9200): Max retries exceeded req_id=9e062c46
+2026-01-05 10:01:42,300 INFO catalog-api GET /v1/items 200 72ms req_id=d94534f3

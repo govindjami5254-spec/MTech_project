@@ -1,0 +1,65 @@
+2026-02-12T09:44:53Z INFO risk-db tick ok elapsed_ms=13
+2026-02-12T09:45:03Z INFO risk-db tick ok elapsed_ms=62
+2026-02-12T09:45:09Z INFO risk-db tick ok elapsed_ms=47
+2026-02-12T09:45:15Z INFO risk-db tick ok elapsed_ms=31
+2026-02-12T09:45:26Z INFO risk-db http request method=GET status=200 latency_ms=72 span=2727bb5c
+2026-02-12T09:45:38Z INFO risk-db tick ok elapsed_ms=54
+2026-02-12T09:45:48Z INFO risk-db tick ok elapsed_ms=41
+2026-02-12T09:46:02Z INFO risk-db http request method=GET status=200 latency_ms=13 span=b80aed52
+2026-02-12T09:46:08Z INFO risk-db http request method=GET status=200 latency_ms=45 span=0f597242
+2026-02-12T09:46:15Z INFO risk-db tick ok elapsed_ms=51
+2026-02-12T09:46:25Z INFO risk-db tick ok elapsed_ms=16
+2026-02-12T09:46:37Z INFO risk-db http request method=GET status=200 latency_ms=82 span=e8f79ba6
+2026-02-12T09:46:43Z INFO risk-db tick ok elapsed_ms=48
+2026-02-12T09:46:54Z INFO risk-db tick ok elapsed_ms=71
+2026-02-12T09:47:02Z INFO risk-db http request method=GET status=200 latency_ms=66 span=2fa194c0
+2026-02-12T09:47:15Z INFO risk-db http request method=GET status=200 latency_ms=90 span=fbce1e1c
+2026-02-12T09:47:27Z INFO risk-db tick ok elapsed_ms=48
+2026-02-12T09:47:41Z INFO risk-db http request method=GET status=200 latency_ms=67 span=13158a81
+2026-02-12T09:47:50Z INFO risk-db http request method=GET status=200 latency_ms=45 span=c34fe46e
+2026-02-12T09:48:02Z INFO risk-db http request method=GET status=200 latency_ms=61 span=0c8192ff
+2026-02-12T09:48:12Z INFO risk-db tick ok elapsed_ms=53
+2026-02-12T09:48:13Z WARN risk-db client sent oversized header, truncated span=8095d054
+2026-02-12T09:48:19Z INFO risk-db tick ok elapsed_ms=87
+2026-02-12T09:48:30Z INFO risk-db tick ok elapsed_ms=94
+2026-02-12T09:48:36Z INFO risk-db http request method=GET status=200 latency_ms=38 span=a6c86e78
+2026-02-12T09:48:44Z INFO risk-db tick ok elapsed_ms=79
+2026-02-12T09:48:52Z INFO risk-db http request method=GET status=200 latency_ms=32 span=5cec6a9b
+2026-02-12T09:49:00Z INFO risk-db http request method=GET status=200 latency_ms=38 span=e8b517d4
+2026-02-12T09:49:09Z INFO risk-db tick ok elapsed_ms=63
+2026-02-12T09:49:16Z INFO risk-db http request method=GET status=200 latency_ms=51 span=85506b5e
+2026-02-12T09:49:22Z INFO risk-db tick ok elapsed_ms=65
+2026-02-12T09:49:31Z INFO risk-db tick ok elapsed_ms=66
+2026-02-12T09:49:42Z INFO risk-db tick ok elapsed_ms=52
+2026-02-12T09:49:56Z INFO risk-db tick ok elapsed_ms=65
+2026-02-12T09:50:02Z INFO risk-db tick ok elapsed_ms=46
+2026-02-12T09:50:12Z INFO risk-db http request method=GET status=200 latency_ms=19 span=6d27fb0b
+2026-02-12T09:50:26Z INFO risk-db http request method=GET status=200 latency_ms=43 span=6dc7b823
+2026-02-12T09:50:32Z INFO risk-db http request method=GET status=200 latency_ms=27 span=7664461f
+2026-02-12T09:50:45Z INFO risk-db http request method=GET status=200 latency_ms=78 span=1a58ea85
+2026-02-12T09:50:55Z INFO risk-db tick ok elapsed_ms=78
+2026-02-12T09:51:02Z INFO risk-db tick ok elapsed_ms=62
+2026-02-12T09:51:11Z INFO risk-db tick ok elapsed_ms=49
+2026-02-12T09:51:21Z INFO risk-db http request method=GET status=200 latency_ms=8 span=f9df3fe7
+2026-02-12T09:51:31Z INFO risk-db tick ok elapsed_ms=29
+2026-02-12T09:51:40Z INFO risk-db tick ok elapsed_ms=57
+2026-02-12T09:51:48Z INFO risk-db http request method=GET status=200 latency_ms=75 span=841081ca
+2026-02-12T09:51:58Z INFO risk-db tick ok elapsed_ms=93
+2026-02-12T09:52:09Z INFO risk-db http request method=GET status=200 latency_ms=77 span=7eb0db9a
+2026-02-12T09:52:20Z INFO risk-db http request method=GET status=200 latency_ms=69 span=5f15acd9
+2026-02-12T09:52:30Z INFO risk-db tick ok elapsed_ms=36
+2026-02-12T09:52:31Z WARN risk-db slow poll elapsed_ms=720
+2026-02-12T09:52:40Z INFO risk-db tick ok elapsed_ms=47
+2026-02-12T09:52:52Z INFO risk-db tick ok elapsed_ms=27
+2026-02-12T09:53:01Z INFO risk-db tick ok elapsed_ms=62
+2026-02-12T09:53:10Z INFO risk-db http request method=GET status=200 latency_ms=67 span=909464ea
+2026-02-12T09:53:22Z INFO risk-db http request method=GET status=200 latency_ms=46 span=600117fa
+2026-02-12T09:53:32Z INFO risk-db http request method=GET status=200 latency_ms=65 span=bb1455a8
+2026-02-12T09:53:43Z INFO risk-db tick ok elapsed_ms=13
+2026-02-12T09:53:52Z INFO risk-db http request method=GET status=200 latency_ms=29 span=7f1e3bdd
+2026-02-12T09:54:00Z INFO risk-db http request method=GET status=200 latency_ms=94 span=a314e955
+2026-02-12T09:54:10Z INFO risk-db tick ok elapsed_ms=23
+2026-02-12T09:54:16Z INFO risk-db http request method=GET status=200 latency_ms=58 span=37ef3eb2
+2026-02-12T09:54:24Z INFO risk-db http request method=GET status=200 latency_ms=42 span=3f0d30d8
+2026-02-12T09:54:37Z INFO risk-db tick ok elapsed_ms=70
+2026-02-12T09:54:43Z INFO risk-db http request method=GET status=200 latency_ms=61 span=b2fc381d

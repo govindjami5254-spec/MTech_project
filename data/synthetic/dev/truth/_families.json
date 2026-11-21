@@ -1,0 +1,92 @@
+{
+  "generator_version": "2.0.0",
+  "split": "dev",
+  "cases": 18,
+  "families": {
+    "df02": {
+      "topology": "dev-ledger",
+      "vocab": "dv-go",
+      "stratum": "multi_hop",
+      "fault_type": "disk_full",
+      "target": "journal-db",
+      "second_fault": null,
+      "second_target": null,
+      "cases": [
+        "dev-c001",
+        "dev-c002",
+        "dev-c012"
+      ]
+    },
+    "df03": {
+      "topology": "dev-shop",
+      "vocab": "dv-go",
+      "stratum": "distractor",
+      "fault_type": "bad_config",
+      "target": "pricing-svc",
+      "second_fault": null,
+      "second_target": null,
+      "cases": [
+        "dev-c003",
+        "dev-c009",
+        "dev-c015"
+      ]
+    },
+    "df01": {
+      "topology": "dev-shop",
+      "vocab": "dv-java",
+      "stratum": "easy",
+      "fault_type": "oom",
+      "target": "cart-svc",
+      "second_fault": null,
+      "second_target": null,
+      "cases": [
+        "dev-c004",
+        "dev-c007",
+        "dev-c011"
+      ]
+    },
+    "df05": {
+      "topology": "dev-shop",
+      "vocab": "dv-java",
+      "stratum": "concurrent",
+      "fault_type": "disk_full",
+      "target": "inventory-db",
+      "second_fault": "oom",
+      "second_target": "session-cache",
+      "cases": [
+        "dev-c005",
+        "dev-c014",
+        "dev-c018"
+      ]
+    },
+    "df04": {
+      "topology": "dev-ledger",
+      "vocab": "dv-java",
+      "stratum": "over_budget",
+      "fault_type": "conn_pool_exhausted",
+      "target": "posting-svc",
+      "second_fault": null,
+      "second_target": null,
+      "cases": [
+        "dev-c006",
+        "dev-c008",
+        "dev-c013"
+      ]
+    },
+    "df06": {
+      "topology": "dev-ledger",
+      "vocab": "dv-go",
+      "stratum": "insufficient",
+      "fault_type": "silent_partition",
+      "target": "posting-svc",
+      "second_fault": null,
+      "second_target": null,
+      "cases": [
+        "dev-c010",
+        "dev-c016",
+        "dev-c017"
+      ]
+    }
+  },
+  "cases_per_family": 3
+}

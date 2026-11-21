@@ -1,0 +1,59 @@
+2026-02-14 12:16:23,309 INFO notifier worker heartbeat ok (20ms)
+2026-02-14 12:16:24,000 WARNING notifier slow query took 490ms req_id=d0a5b010
+2026-02-14 12:16:34,014 INFO notifier GET /v1/items 200 10ms req_id=c7cca9ed
+2026-02-14 12:16:48,967 INFO notifier worker heartbeat ok (32ms)
+2026-02-14 12:16:55,269 INFO notifier worker heartbeat ok (59ms)
+2026-02-14 12:17:07,651 INFO notifier worker heartbeat ok (75ms)
+2026-02-14 12:17:21,920 INFO notifier GET /v1/items 200 65ms req_id=a2fabbe0
+2026-02-14 12:17:28,224 INFO notifier worker heartbeat ok (68ms)
+2026-02-14 12:17:42,981 INFO notifier worker heartbeat ok (20ms)
+2026-02-14 12:17:51,136 INFO notifier GET /v1/items 200 69ms req_id=b22b6a27
+2026-02-14 12:18:02,171 INFO notifier GET /v1/items 200 84ms req_id=523c244d
+2026-02-14 12:18:14,401 INFO notifier GET /v1/items 200 34ms req_id=b6cbdc2e
+2026-02-14 12:18:25,602 INFO notifier worker heartbeat ok (43ms)
+2026-02-14 12:18:35,401 INFO notifier GET /v1/items 200 76ms req_id=50b38cde
+2026-02-14 12:18:41,312 INFO notifier GET /v1/items 200 10ms req_id=ba52e2b2
+2026-02-14 12:18:49,754 INFO notifier worker heartbeat ok (47ms)
+2026-02-14 12:18:57,941 INFO notifier GET /v1/items 200 89ms req_id=f0790a8b
+2026-02-14 12:19:05,933 INFO notifier worker heartbeat ok (12ms)
+2026-02-14 12:19:12,708 INFO notifier GET /v1/items 200 34ms req_id=f4ef202d
+2026-02-14 12:19:23,462 INFO notifier GET /v1/items 200 69ms req_id=c4aadd40
+2026-02-14 12:19:32,175 INFO notifier worker heartbeat ok (38ms)
+2026-02-14 12:19:43,574 INFO notifier worker heartbeat ok (86ms)
+2026-02-14 12:19:54,578 INFO notifier worker heartbeat ok (14ms)
+2026-02-14 12:20:02,450 INFO notifier worker heartbeat ok (36ms)
+2026-02-14 12:20:03,000 WARNING notifier slow query took 480ms req_id=d6c62bd3
+2026-02-14 12:20:11,806 INFO notifier worker heartbeat ok (13ms)
+2026-02-14 12:20:25,505 INFO notifier worker heartbeat ok (17ms)
+2026-02-14 12:20:35,611 INFO notifier GET /v1/items 200 92ms req_id=ab114cd5
+2026-02-14 12:20:45,525 INFO notifier worker heartbeat ok (69ms)
+2026-02-14 12:20:55,355 INFO notifier GET /v1/items 200 77ms req_id=9d1be335
+2026-02-14 12:21:08,892 INFO notifier GET /v1/items 200 49ms req_id=23acd252
+2026-02-14 12:21:21,953 INFO notifier GET /v1/items 200 55ms req_id=52dee90d
+2026-02-14 12:21:32,062 INFO notifier GET /v1/items 200 46ms req_id=5b739d64
+2026-02-14 12:21:44,697 INFO notifier GET /v1/items 200 64ms req_id=70d5e76b
+2026-02-14 12:21:51,013 INFO notifier worker heartbeat ok (15ms)
+2026-02-14 12:22:01,880 INFO notifier worker heartbeat ok (16ms)
+2026-02-14 12:22:15,223 INFO notifier GET /v1/items 200 23ms req_id=d176dea2
+2026-02-14 12:22:24,538 INFO notifier worker heartbeat ok (49ms)
+2026-02-14 12:22:30,153 INFO notifier GET /v1/items 200 65ms req_id=2e38f7b5
+2026-02-14 12:22:40,060 INFO notifier worker heartbeat ok (8ms)
+2026-02-14 12:22:47,100 INFO notifier worker heartbeat ok (35ms)
+2026-02-14 12:22:55,997 INFO notifier worker heartbeat ok (68ms)
+2026-02-14 12:23:03,662 INFO notifier GET /v1/items 200 61ms req_id=6dd5c985
+2026-02-14 12:23:17,380 INFO notifier worker heartbeat ok (77ms)
+2026-02-14 12:23:31,242 INFO notifier GET /v1/items 200 28ms req_id=b2662603
+2026-02-14 12:23:40,549 INFO notifier GET /v1/items 200 56ms req_id=4a66b3bd
+2026-02-14 12:23:48,519 INFO notifier worker heartbeat ok (47ms)
+2026-02-14 12:24:02,284 INFO notifier worker heartbeat ok (79ms)
+2026-02-14 12:24:10,064 INFO notifier GET /v1/items 200 43ms req_id=f2570425
+2026-02-14 12:24:24,848 INFO notifier GET /v1/items 200 60ms req_id=176952e0
+2026-02-14 12:24:32,123 INFO notifier GET /v1/items 200 19ms req_id=c4ed8840
+2026-02-14 12:24:46,557 INFO notifier GET /v1/items 200 20ms req_id=db160aaf
+2026-02-14 12:24:59,842 INFO notifier worker heartbeat ok (13ms)
+2026-02-14 12:25:11,009 INFO notifier GET /v1/items 200 28ms req_id=67b3b4d7
+2026-02-14 12:25:22,945 INFO notifier GET /v1/items 200 52ms req_id=024bc511
+2026-02-14 12:25:32,340 INFO notifier worker heartbeat ok (65ms)
+2026-02-14 12:25:38,062 INFO notifier worker heartbeat ok (76ms)
+2026-02-14 12:25:51,249 INFO notifier GET /v1/items 200 20ms req_id=c5868ad6
+2026-02-14 12:26:04,347 INFO notifier GET /v1/items 200 43ms req_id=0b903cfa

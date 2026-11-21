@@ -1,0 +1,65 @@
+2026-02-01T17:29:09.413+05:30 info registry-db served GET /api status=200 in 28ms trace=3a653eb0
+2026-02-01T17:29:20.099+05:30 info registry-db served GET /api status=200 in 69ms trace=7be791ff
+2026-02-01T17:29:31.605+05:30 info registry-db served GET /api status=200 in 27ms trace=9e398f28
+2026-02-01T17:29:39.816+05:30 info registry-db served GET /api status=200 in 87ms trace=09ea8294
+2026-02-01T17:29:45.716+05:30 info registry-db event loop lag 66ms ok
+2026-02-01T17:29:54.603+05:30 info registry-db served GET /api status=200 in 18ms trace=2b73cb64
+2026-02-01T17:30:05.013+05:30 info registry-db event loop lag 90ms ok
+2026-02-01T17:30:14.827+05:30 info registry-db served GET /api status=200 in 22ms trace=e151a24e
+2026-02-01T17:30:28.047+05:30 info registry-db event loop lag 20ms ok
+2026-02-01T17:30:36.292+05:30 info registry-db served GET /api status=200 in 21ms trace=6a844c5a
+2026-02-01T17:30:47.940+05:30 info registry-db event loop lag 94ms ok
+2026-02-01T17:30:55.411+05:30 info registry-db event loop lag 42ms ok
+2026-02-01T17:31:01.252+05:30 info registry-db served GET /api status=200 in 90ms trace=3d721a93
+2026-02-01T17:31:08.664+05:30 info registry-db event loop lag 37ms ok
+2026-02-01T17:31:18.532+05:30 info registry-db served GET /api status=200 in 47ms trace=8b018b1f
+2026-02-01T17:31:31.780+05:30 info registry-db served GET /api status=200 in 66ms trace=c39d62f5
+2026-02-01T17:31:45.413+05:30 info registry-db served GET /api status=200 in 11ms trace=6de64b3d
+2026-02-01T17:31:57.128+05:30 info registry-db event loop lag 74ms ok
+2026-02-01T17:32:04.482+05:30 info registry-db served GET /api status=200 in 32ms trace=becd2c0a
+2026-02-01T17:32:13.800+05:30 info registry-db served GET /api status=200 in 39ms trace=2228e29a
+2026-02-01T17:32:25.031+05:30 info registry-db served GET /api status=200 in 26ms trace=edc59190
+2026-02-01T17:32:31.412+05:30 info registry-db event loop lag 45ms ok
+2026-02-01T17:32:45.165+05:30 info registry-db served GET /api status=200 in 25ms trace=04229e0d
+2026-02-01T17:32:56.483+05:30 info registry-db event loop lag 44ms ok
+2026-02-01T17:33:04.337+05:30 info registry-db served GET /api status=200 in 35ms trace=3893dc88
+2026-02-01T17:33:06.319+05:30 warn registry-db dns lookup slow 370ms
+2026-02-01T17:33:17.597+05:30 info registry-db event loop lag 36ms ok
+2026-02-01T17:33:18.000+05:30 warn registry-db event loop lag 260ms
+2026-02-01T17:33:18.061+05:30 error registry-db Error: getaddrinfo EAI_AGAIN for upstream host
+2026-02-01T17:33:22.414+05:30 error registry-db all upstream hostnames unresolvable
+2026-02-01T17:33:25.724+05:30 info registry-db event loop lag 79ms ok
+2026-02-01T17:33:36.700+05:30 info registry-db event loop lag 85ms ok
+2026-02-01T17:33:45.865+05:30 info registry-db event loop lag 20ms ok
+2026-02-01T17:33:54.612+05:30 info registry-db event loop lag 89ms ok
+2026-02-01T17:34:06.848+05:30 info registry-db served GET /api status=200 in 10ms trace=c63684ee
+2026-02-01T17:34:12.241+05:30 info registry-db served GET /api status=200 in 87ms trace=6f1d28c1
+2026-02-01T17:34:24.952+05:30 info registry-db event loop lag 90ms ok
+2026-02-01T17:34:36.424+05:30 info registry-db event loop lag 69ms ok
+2026-02-01T17:34:44.250+05:30 info registry-db event loop lag 15ms ok
+2026-02-01T17:34:52.759+05:30 info registry-db event loop lag 75ms ok
+2026-02-01T17:34:58.444+05:30 info registry-db event loop lag 40ms ok
+2026-02-01T17:35:12.710+05:30 info registry-db event loop lag 75ms ok
+2026-02-01T17:35:19.641+05:30 info registry-db event loop lag 65ms ok
+2026-02-01T17:35:31.545+05:30 info registry-db served GET /api status=200 in 41ms trace=669dfc28
+2026-02-01T17:35:44.183+05:30 info registry-db served GET /api status=200 in 92ms trace=ae188b30
+2026-02-01T17:35:57.805+05:30 info registry-db served GET /api status=200 in 15ms trace=8223b017
+2026-02-01T17:36:09.010+05:30 info registry-db served GET /api status=200 in 42ms trace=1e515365
+2026-02-01T17:36:19.094+05:30 info registry-db event loop lag 80ms ok
+2026-02-01T17:36:29.116+05:30 info registry-db served GET /api status=200 in 34ms trace=17a1ee8e
+2026-02-01T17:36:35.593+05:30 info registry-db event loop lag 18ms ok
+2026-02-01T17:36:42.831+05:30 info registry-db served GET /api status=200 in 53ms trace=2af42bdd
+2026-02-01T17:36:56.442+05:30 info registry-db event loop lag 30ms ok
+2026-02-01T17:37:06.546+05:30 info registry-db served GET /api status=200 in 18ms trace=4c5078d8
+2026-02-01T17:37:17.681+05:30 info registry-db event loop lag 54ms ok
+2026-02-01T17:37:29.108+05:30 info registry-db served GET /api status=200 in 58ms trace=c9059d5a
+2026-02-01T17:37:37.335+05:30 info registry-db served GET /api status=200 in 86ms trace=72adae99
+2026-02-01T17:37:49.216+05:30 info registry-db served GET /api status=200 in 94ms trace=811700da
+2026-02-01T17:38:03.927+05:30 info registry-db served GET /api status=200 in 25ms trace=393cc55e
+2026-02-01T17:38:14.816+05:30 info registry-db served GET /api status=200 in 36ms trace=33dec41f
+2026-02-01T17:38:24.039+05:30 info registry-db event loop lag 17ms ok
+2026-02-01T17:38:25.000+05:30 warn registry-db unhandled header x-legacy ignored trace=f5c57792
+2026-02-01T17:38:31.372+05:30 info registry-db event loop lag 11ms ok
+2026-02-01T17:38:45.725+05:30 info registry-db event loop lag 37ms ok
+2026-02-01T17:38:52.862+05:30 info registry-db event loop lag 18ms ok
+2026-02-01T17:38:59.611+05:30 info registry-db event loop lag 27ms ok

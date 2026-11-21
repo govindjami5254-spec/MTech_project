@@ -1,0 +1,61 @@
+2026-01-30 09:12:06,642 INFO user-api worker heartbeat ok (28ms)
+2026-01-30 09:12:13,245 INFO user-api worker heartbeat ok (13ms)
+2026-01-30 09:12:27,100 INFO user-api GET /v1/items 200 81ms req_id=977503ed
+2026-01-30 09:12:35,280 INFO user-api GET /v1/items 200 11ms req_id=a2a2101c
+2026-01-30 09:12:49,128 INFO user-api worker heartbeat ok (48ms)
+2026-01-30 09:12:57,362 INFO user-api worker heartbeat ok (14ms)
+2026-01-30 09:13:06,825 INFO user-api worker heartbeat ok (36ms)
+2026-01-30 09:13:17,701 INFO user-api GET /v1/items 200 89ms req_id=d70fa844
+2026-01-30 09:13:24,315 INFO user-api GET /v1/items 200 80ms req_id=01d42db8
+2026-01-30 09:13:36,147 INFO user-api GET /v1/items 200 25ms req_id=b06ddba2
+2026-01-30 09:13:43,818 INFO user-api GET /v1/items 200 58ms req_id=48d5c485
+2026-01-30 09:13:52,434 INFO user-api worker heartbeat ok (10ms)
+2026-01-30 09:14:04,500 INFO user-api GET /v1/items 200 58ms req_id=a42acb35
+2026-01-30 09:14:13,977 INFO user-api GET /v1/items 200 69ms req_id=c8cd6e0c
+2026-01-30 09:14:26,557 INFO user-api GET /v1/items 200 83ms req_id=cb825052
+2026-01-30 09:14:37,847 INFO user-api worker heartbeat ok (51ms)
+2026-01-30 09:14:47,349 INFO user-api worker heartbeat ok (44ms)
+2026-01-30 09:14:48,000 WARNING user-api slow query took 940ms req_id=5aea2b1e
+2026-01-30 09:15:00,047 INFO user-api worker heartbeat ok (87ms)
+2026-01-30 09:15:14,177 INFO user-api worker heartbeat ok (44ms)
+2026-01-30 09:15:22,690 INFO user-api GET /v1/items 200 91ms req_id=c7a37a3b
+2026-01-30 09:15:36,652 INFO user-api GET /v1/items 200 27ms req_id=2d5532f9
+2026-01-30 09:15:43,759 INFO user-api GET /v1/items 200 12ms req_id=a9af3248
+2026-01-30 09:15:51,781 INFO user-api worker heartbeat ok (36ms)
+2026-01-30 09:16:03,752 INFO user-api GET /v1/items 200 54ms req_id=46d1aeea
+2026-01-30 09:16:10,639 INFO user-api worker heartbeat ok (71ms)
+2026-01-30 09:16:18,511 INFO user-api GET /v1/items 200 55ms req_id=252b6f2c
+2026-01-30 09:16:26,948 INFO user-api worker heartbeat ok (79ms)
+2026-01-30 09:16:38,190 INFO user-api GET /v1/items 200 31ms req_id=1238b7dc
+2026-01-30 09:16:46,223 INFO user-api GET /v1/items 200 9ms req_id=b7744c37
+2026-01-30 09:16:53,784 INFO user-api worker heartbeat ok (77ms)
+2026-01-30 09:17:00,298 INFO user-api worker heartbeat ok (85ms)
+2026-01-30 09:17:09,616 INFO user-api worker heartbeat ok (48ms)
+2026-01-30 09:17:21,838 INFO user-api worker heartbeat ok (62ms)
+2026-01-30 09:17:31,819 INFO user-api worker heartbeat ok (28ms)
+2026-01-30 09:17:44,201 INFO user-api worker heartbeat ok (47ms)
+2026-01-30 09:17:45,000 WARNING user-api deprecated parameter 'page' used by client
+2026-01-30 09:17:52,673 INFO user-api GET /v1/items 200 76ms req_id=1973f036
+2026-01-30 09:18:02,495 INFO user-api worker heartbeat ok (57ms)
+2026-01-30 09:18:16,007 INFO user-api GET /v1/items 200 65ms req_id=633e43ca
+2026-01-30 09:18:27,416 INFO user-api worker heartbeat ok (81ms)
+2026-01-30 09:18:33,657 INFO user-api GET /v1/items 200 27ms req_id=b96353de
+2026-01-30 09:18:42,496 INFO user-api GET /v1/items 200 59ms req_id=41437a2f
+2026-01-30 09:18:56,716 INFO user-api GET /v1/items 200 21ms req_id=c3024cf9
+2026-01-30 09:19:09,553 INFO user-api worker heartbeat ok (92ms)
+2026-01-30 09:19:18,206 INFO user-api GET /v1/items 200 39ms req_id=db1fd82d
+2026-01-30 09:19:32,574 INFO user-api GET /v1/items 200 37ms req_id=abc291eb
+2026-01-30 09:19:42,527 INFO user-api worker heartbeat ok (86ms)
+2026-01-30 09:19:52,205 INFO user-api GET /v1/items 200 85ms req_id=18de8dd7
+2026-01-30 09:19:58,655 INFO user-api worker heartbeat ok (25ms)
+2026-01-30 09:20:12,278 INFO user-api worker heartbeat ok (71ms)
+2026-01-30 09:20:24,801 INFO user-api GET /v1/items 200 71ms req_id=d741bf93
+2026-01-30 09:20:38,929 INFO user-api worker heartbeat ok (74ms)
+2026-01-30 09:20:44,829 INFO user-api worker heartbeat ok (16ms)
+2026-01-30 09:20:56,165 INFO user-api GET /v1/items 200 12ms req_id=6ba4f46a
+2026-01-30 09:21:07,449 INFO user-api worker heartbeat ok (28ms)
+2026-01-30 09:21:18,516 INFO user-api GET /v1/items 200 59ms req_id=798e0614
+2026-01-30 09:21:24,389 INFO user-api GET /v1/items 200 90ms req_id=03a834c4
+2026-01-30 09:21:25,000 WARNING user-api slow query took 910ms req_id=e9b8f3f4
+2026-01-30 09:21:35,882 INFO user-api worker heartbeat ok (58ms)
+2026-01-30 09:21:47,675 INFO user-api worker heartbeat ok (55ms)

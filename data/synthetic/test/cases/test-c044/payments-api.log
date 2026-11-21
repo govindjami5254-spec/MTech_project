@@ -1,0 +1,212 @@
+2026-02-02T14:18:17Z INFO payments-api tick ok elapsed_ms=35
+2026-02-02T14:18:27Z INFO payments-api tick ok elapsed_ms=50
+2026-02-02T14:18:37Z INFO payments-api http request method=GET status=200 latency_ms=17 span=1f7c7ec0
+2026-02-02T14:18:51Z INFO payments-api http request method=GET status=200 latency_ms=46 span=cf5cadba
+2026-02-02T14:19:04Z INFO payments-api tick ok elapsed_ms=17
+2026-02-02T14:19:11Z INFO payments-api http request method=GET status=200 latency_ms=36 span=4d144bf5
+2026-02-02T14:19:19Z INFO payments-api tick ok elapsed_ms=81
+2026-02-02T14:19:29Z INFO payments-api tick ok elapsed_ms=85
+2026-02-02T14:19:36Z INFO payments-api tick ok elapsed_ms=52
+2026-02-02T14:19:43Z INFO payments-api tick ok elapsed_ms=68
+2026-02-02T14:19:51Z INFO payments-api tick ok elapsed_ms=75
+2026-02-02T14:20:05Z INFO payments-api http request method=GET status=200 latency_ms=43 span=fff243c9
+2026-02-02T14:20:17Z INFO payments-api tick ok elapsed_ms=94
+2026-02-02T14:20:30Z INFO payments-api http request method=GET status=200 latency_ms=87 span=30c325f0
+2026-02-02T14:20:37Z INFO payments-api tick ok elapsed_ms=21
+2026-02-02T14:20:46Z INFO payments-api http request method=GET status=200 latency_ms=68 span=fd2cec2d
+2026-02-02T14:20:55Z INFO payments-api tick ok elapsed_ms=89
+2026-02-02T14:21:07Z INFO payments-api http request method=GET status=200 latency_ms=67 span=6ffbc781
+2026-02-02T14:21:21Z INFO payments-api http request method=GET status=200 latency_ms=45 span=73eff9e0
+2026-02-02T14:21:28Z INFO payments-api http request method=GET status=200 latency_ms=79 span=dbd3c5f6
+2026-02-02T14:21:29Z WARN payments-api client sent oversized header, truncated span=87a8d1c9
+2026-02-02T14:21:38Z INFO payments-api tick ok elapsed_ms=17
+2026-02-02T14:21:50Z INFO payments-api http request method=GET status=200 latency_ms=33 span=cfe8cfb3
+2026-02-02T14:21:51Z WARN payments-api slow poll elapsed_ms=120
+2026-02-02T14:21:57Z INFO payments-api tick ok elapsed_ms=93
+2026-02-02T14:22:04Z INFO payments-api tick ok elapsed_ms=47
+2026-02-02T14:22:14Z INFO payments-api http request method=GET status=200 latency_ms=58 span=58a2de4d
+2026-02-02T14:22:25Z INFO payments-api tick ok elapsed_ms=15
+2026-02-02T14:22:33Z INFO payments-api tick ok elapsed_ms=11
+2026-02-02T14:22:46Z INFO payments-api tick ok elapsed_ms=57
+2026-02-02T14:22:55Z INFO payments-api http request method=GET status=200 latency_ms=80 span=305c2f7a
+2026-02-02T14:23:02Z INFO payments-api http request method=GET status=200 latency_ms=75 span=6a71b9e6
+2026-02-02T14:23:15Z INFO payments-api http request method=GET status=200 latency_ms=17 span=34764fa5
+2026-02-02T14:23:28Z INFO payments-api tick ok elapsed_ms=82
+2026-02-02T14:23:42Z INFO payments-api http request method=GET status=200 latency_ms=84 span=3d974188
+2026-02-02T14:23:51Z INFO payments-api http request method=GET status=200 latency_ms=40 span=0024ce83
+2026-02-02T14:23:51Z ERR payments-api upstream ledger-core status=503 span=b2a8ea7c
+2026-02-02T14:23:53Z WARN payments-api tower retry: attempt 2 for ledger-core
+2026-02-02T14:23:56Z ERR payments-api request to ledger-core exhausted retry budget
+2026-02-02T14:23:57Z INFO payments-api http request method=GET status=200 latency_ms=46 span=e988cdd1
+2026-02-02T14:23:57Z ERR payments-api upstream ledger-core status=503 span=639d7a85
+2026-02-02T14:23:58Z ERR payments-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to ledger-core:8446 span=bf893223
+2026-02-02T14:23:59Z ERR payments-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to ledger-core:8446 span=ea35270b
+2026-02-02T14:24:01Z ERR payments-api upstream ledger-core status=503 span=36e7a4e9
+2026-02-02T14:24:03Z ERR payments-api upstream ledger-core status=503 span=2d7c2fbc
+2026-02-02T14:24:05Z ERR payments-api upstream ledger-core status=503 span=b136bd78
+2026-02-02T14:24:06Z ERR payments-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to ledger-core:8446 span=9cecd795
+2026-02-02T14:24:07Z ERR payments-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to ledger-core:8446 span=f283407f
+2026-02-02T14:24:08Z INFO payments-api tick ok elapsed_ms=57
+2026-02-02T14:24:10Z ERR payments-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to ledger-core:8446 span=537ab475
+2026-02-02T14:24:11Z ERR payments-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to ledger-core:8446 span=b4fe5898
+2026-02-02T14:24:13Z ERR payments-api upstream ledger-core status=503 span=dfcb5b03
+2026-02-02T14:24:16Z ERR payments-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to ledger-core:8446 span=dac8a7e4
+2026-02-02T14:24:17Z ERR payments-api upstream ledger-core status=503 span=25135a0c
+2026-02-02T14:24:18Z ERR payments-api upstream ledger-core status=503 span=affe438d
+2026-02-02T14:24:20Z ERR payments-api upstream ledger-core status=503 span=d79e5f73
+2026-02-02T14:24:22Z INFO payments-api http request method=GET status=200 latency_ms=50 span=c9e23d1f
+2026-02-02T14:24:22Z ERR payments-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to ledger-core:8446 span=31e1fec7
+2026-02-02T14:24:25Z ERR payments-api upstream ledger-core status=503 span=6d38cda5
+2026-02-02T14:24:26Z ERR payments-api upstream ledger-core status=503 span=c6184b25
+2026-02-02T14:24:28Z ERR payments-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to ledger-core:8446 span=409873c6
+2026-02-02T14:24:29Z ERR payments-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to ledger-core:8446 span=ffbb5169
+2026-02-02T14:24:31Z ERR payments-api upstream ledger-core status=503 span=719808db
+2026-02-02T14:24:33Z ERR payments-api upstream ledger-core status=503 span=d2fbac9c
+2026-02-02T14:24:34Z ERR payments-api upstream ledger-core status=503 span=e3790919
+2026-02-02T14:24:36Z INFO payments-api tick ok elapsed_ms=68
+2026-02-02T14:24:36Z ERR payments-api upstream ledger-core status=503 span=550f4797
+2026-02-02T14:24:38Z ERR payments-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to ledger-core:8446 span=c755f7bd
+2026-02-02T14:24:39Z ERR payments-api upstream ledger-core status=503 span=417478a0
+2026-02-02T14:24:41Z ERR payments-api upstream ledger-core status=503 span=9227d7a8
+2026-02-02T14:24:43Z ERR payments-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to ledger-core:8446 span=1d41362f
+2026-02-02T14:24:45Z ERR payments-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to ledger-core:8446 span=9f85afa6
+2026-02-02T14:24:47Z ERR payments-api upstream ledger-core status=503 span=12dab20d
+2026-02-02T14:24:48Z INFO payments-api tick ok elapsed_ms=25
+2026-02-02T14:24:49Z ERR payments-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to ledger-core:8446 span=a112b545
+2026-02-02T14:24:51Z ERR payments-api upstream ledger-core status=503 span=a3001af6
+2026-02-02T14:24:53Z ERR payments-api upstream ledger-core status=503 span=51e7aeec
+2026-02-02T14:24:55Z ERR payments-api upstream ledger-core status=503 span=163e2e67
+2026-02-02T14:24:57Z ERR payments-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to ledger-core:8446 span=e86207d6
+2026-02-02T14:24:58Z INFO payments-api http request method=GET status=200 latency_ms=82 span=5993f00f
+2026-02-02T14:24:59Z ERR payments-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to ledger-core:8446 span=6923a7db
+2026-02-02T14:25:01Z ERR payments-api upstream ledger-core status=503 span=33d6897d
+2026-02-02T14:25:02Z ERR payments-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to ledger-core:8446 span=6bea86cc
+2026-02-02T14:25:04Z ERR payments-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to ledger-core:8446 span=f5750d09
+2026-02-02T14:25:07Z ERR payments-api upstream ledger-core status=503 span=389103dc
+2026-02-02T14:25:08Z ERR payments-api upstream ledger-core status=503 span=7e2b9d6a
+2026-02-02T14:25:09Z ERR payments-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to ledger-core:8446 span=0eabd43c
+2026-02-02T14:25:10Z INFO payments-api tick ok elapsed_ms=44
+2026-02-02T14:25:11Z ERR payments-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to ledger-core:8446 span=d7f7232a
+2026-02-02T14:25:12Z ERR payments-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to ledger-core:8446 span=481a5a44
+2026-02-02T14:25:13Z ERR payments-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to ledger-core:8446 span=bb8aad2b
+2026-02-02T14:25:16Z ERR payments-api upstream ledger-core status=503 span=20c6be34
+2026-02-02T14:25:18Z ERR payments-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to ledger-core:8446 span=e3b06b32
+2026-02-02T14:25:19Z ERR payments-api upstream ledger-core status=503 span=42f1907a
+2026-02-02T14:25:20Z INFO payments-api tick ok elapsed_ms=15
+2026-02-02T14:25:21Z ERR payments-api upstream ledger-core status=503 span=a16810b8
+2026-02-02T14:25:23Z ERR payments-api upstream ledger-core status=503 span=d8991af9
+2026-02-02T14:25:25Z ERR payments-api upstream ledger-core status=503 span=4e4bbfb3
+2026-02-02T14:25:27Z INFO payments-api http request method=GET status=200 latency_ms=30 span=a7af1a28
+2026-02-02T14:25:27Z ERR payments-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to ledger-core:8446 span=2e4bae12
+2026-02-02T14:25:28Z ERR payments-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to ledger-core:8446 span=dfecb15b
+2026-02-02T14:25:29Z ERR payments-api upstream ledger-core status=503 span=3aa5881c
+2026-02-02T14:25:32Z ERR payments-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to ledger-core:8446 span=20b1640a
+2026-02-02T14:25:33Z INFO payments-api tick ok elapsed_ms=65
+2026-02-02T14:25:33Z ERR payments-api upstream ledger-core status=503 span=622919ce
+2026-02-02T14:25:34Z ERR payments-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to ledger-core:8446 span=4584fdde
+2026-02-02T14:25:36Z ERR payments-api upstream ledger-core status=503 span=05efa3d7
+2026-02-02T14:25:38Z ERR payments-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to ledger-core:8446 span=70516331
+2026-02-02T14:25:39Z ERR payments-api upstream ledger-core status=503 span=78620e99
+2026-02-02T14:25:41Z ERR payments-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to ledger-core:8446 span=1af86a6c
+2026-02-02T14:25:43Z ERR payments-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to ledger-core:8446 span=a515b2f8
+2026-02-02T14:25:44Z ERR payments-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to ledger-core:8446 span=6032517f
+2026-02-02T14:25:46Z ERR payments-api upstream ledger-core status=503 span=c58c8abd
+2026-02-02T14:25:47Z INFO payments-api http request method=GET status=200 latency_ms=85 span=f7b583cd
+2026-02-02T14:25:49Z ERR payments-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to ledger-core:8446 span=07d75e7a
+2026-02-02T14:25:51Z ERR payments-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to ledger-core:8446 span=9e3933d4
+2026-02-02T14:25:53Z INFO payments-api tick ok elapsed_ms=22
+2026-02-02T14:25:53Z ERR payments-api upstream ledger-core status=503 span=c22fc273
+2026-02-02T14:25:54Z ERR payments-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to ledger-core:8446 span=b746bc53
+2026-02-02T14:25:56Z ERR payments-api upstream ledger-core status=503 span=659ce10f
+2026-02-02T14:25:59Z ERR payments-api upstream ledger-core status=503 span=87c4d311
+2026-02-02T14:26:01Z ERR payments-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to ledger-core:8446 span=b806fc3f
+2026-02-02T14:26:02Z INFO payments-api http request method=GET status=200 latency_ms=49 span=e5b44705
+2026-02-02T14:26:03Z ERR payments-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to ledger-core:8446 span=8c1dc2c1
+2026-02-02T14:26:04Z ERR payments-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to ledger-core:8446 span=fa31f3ef
+2026-02-02T14:26:05Z ERR payments-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to ledger-core:8446 span=70a1a23a
+2026-02-02T14:26:07Z ERR payments-api upstream ledger-core status=503 span=c9466f21
+2026-02-02T14:26:09Z INFO payments-api http request method=GET status=200 latency_ms=49 span=92e8c844
+2026-02-02T14:26:10Z ERR payments-api upstream ledger-core status=503 span=6a6d4287
+2026-02-02T14:26:11Z ERR payments-api upstream ledger-core status=503 span=598227d3
+2026-02-02T14:26:14Z ERR payments-api upstream ledger-core status=503 span=5496bd70
+2026-02-02T14:26:16Z INFO payments-api http request method=GET status=200 latency_ms=69 span=80116669
+2026-02-02T14:26:16Z ERR payments-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to ledger-core:8446 span=f1241fce
+2026-02-02T14:26:18Z ERR payments-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to ledger-core:8446 span=66034eea
+2026-02-02T14:26:19Z ERR payments-api upstream ledger-core status=503 span=1bdab90a
+2026-02-02T14:26:20Z ERR payments-api upstream ledger-core status=503 span=5781c2c0
+2026-02-02T14:26:23Z ERR payments-api upstream ledger-core status=503 span=f268a00c
+2026-02-02T14:26:25Z ERR payments-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to ledger-core:8446 span=b4c921d1
+2026-02-02T14:26:27Z ERR payments-api upstream ledger-core status=503 span=baf079f3
+2026-02-02T14:26:29Z INFO payments-api http request method=GET status=200 latency_ms=50 span=8f56c8a1
+2026-02-02T14:26:29Z ERR payments-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to ledger-core:8446 span=77b40bbe
+2026-02-02T14:26:30Z ERR payments-api upstream ledger-core status=503 span=a6f258d6
+2026-02-02T14:26:32Z ERR payments-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to ledger-core:8446 span=8f1dd441
+2026-02-02T14:26:33Z ERR payments-api upstream ledger-core status=503 span=90adf705
+2026-02-02T14:26:35Z ERR payments-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to ledger-core:8446 span=1e5b433f
+2026-02-02T14:26:37Z ERR payments-api upstream ledger-core status=503 span=3f2fffa1
+2026-02-02T14:26:38Z ERR payments-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to ledger-core:8446 span=abf449c1
+2026-02-02T14:26:40Z ERR payments-api upstream ledger-core status=503 span=80758bc8
+2026-02-02T14:26:41Z INFO payments-api http request method=GET status=200 latency_ms=17 span=9552d0ff
+2026-02-02T14:26:41Z ERR payments-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to ledger-core:8446 span=a31483d2
+2026-02-02T14:26:44Z ERR payments-api upstream ledger-core status=503 span=0c5bb252
+2026-02-02T14:26:45Z ERR payments-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to ledger-core:8446 span=00c689ec
+2026-02-02T14:26:47Z ERR payments-api upstream ledger-core status=503 span=45e06a2e
+2026-02-02T14:26:48Z INFO payments-api http request method=GET status=200 latency_ms=17 span=932e0bc8
+2026-02-02T14:26:48Z ERR payments-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to ledger-core:8446 span=28feb56c
+2026-02-02T14:26:50Z ERR payments-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to ledger-core:8446 span=13adf4e7
+2026-02-02T14:26:52Z ERR payments-api upstream ledger-core status=503 span=efdb850b
+2026-02-02T14:26:54Z INFO payments-api tick ok elapsed_ms=35
+2026-02-02T14:26:54Z ERR payments-api upstream ledger-core status=503 span=e3228c64
+2026-02-02T14:26:56Z ERR payments-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to ledger-core:8446 span=dfde0856
+2026-02-02T14:26:57Z ERR payments-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to ledger-core:8446 span=b2cdecfe
+2026-02-02T14:26:59Z ERR payments-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to ledger-core:8446 span=eed00aaf
+2026-02-02T14:27:00Z ERR payments-api upstream ledger-core status=503 span=3e4274cd
+2026-02-02T14:27:01Z ERR payments-api upstream ledger-core status=503 span=33a610d0
+2026-02-02T14:27:02Z INFO payments-api tick ok elapsed_ms=17
+2026-02-02T14:27:03Z ERR payments-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to ledger-core:8446 span=9614c6d7
+2026-02-02T14:27:05Z ERR payments-api upstream ledger-core status=503 span=1afa2205
+2026-02-02T14:27:06Z ERR payments-api upstream ledger-core status=503 span=e24682c7
+2026-02-02T14:27:07Z ERR payments-api upstream ledger-core status=503 span=b784a467
+2026-02-02T14:27:08Z ERR payments-api upstream ledger-core status=503 span=83c180cc
+2026-02-02T14:27:10Z ERR payments-api upstream ledger-core status=503 span=918a4eb6
+2026-02-02T14:27:11Z ERR payments-api upstream ledger-core status=503 span=37b8725d
+2026-02-02T14:27:13Z ERR payments-api upstream ledger-core status=503 span=d5901448
+2026-02-02T14:27:15Z INFO payments-api http request method=GET status=200 latency_ms=39 span=3f8bee55
+2026-02-02T14:27:15Z ERR payments-api upstream ledger-core status=503 span=568f6964
+2026-02-02T14:27:17Z ERR payments-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to ledger-core:8446 span=0b2aa53e
+2026-02-02T14:27:18Z ERR payments-api upstream ledger-core status=503 span=274e7caa
+2026-02-02T14:27:19Z ERR payments-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to ledger-core:8446 span=dbd414ef
+2026-02-02T14:27:21Z ERR payments-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to ledger-core:8446 span=d29a5827
+2026-02-02T14:27:22Z INFO payments-api http request method=GET status=200 latency_ms=85 span=0e889137
+2026-02-02T14:27:23Z ERR payments-api upstream ledger-core status=503 span=b4ad006d
+2026-02-02T14:27:25Z ERR payments-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to ledger-core:8446 span=170c8469
+2026-02-02T14:27:27Z ERR payments-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to ledger-core:8446 span=6aea7705
+2026-02-02T14:27:29Z INFO payments-api tick ok elapsed_ms=8
+2026-02-02T14:27:29Z ERR payments-api upstream ledger-core status=503 span=ca19c747
+2026-02-02T14:27:30Z ERR payments-api upstream ledger-core status=503 span=bbdf7b13
+2026-02-02T14:27:32Z ERR payments-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to ledger-core:8446 span=f9b802d4
+2026-02-02T14:27:34Z ERR payments-api upstream ledger-core status=503 span=ec91ba38
+2026-02-02T14:27:36Z ERR payments-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to ledger-core:8446 span=66627177
+2026-02-02T14:27:38Z ERR payments-api upstream ledger-core status=503 span=31d47e2a
+2026-02-02T14:27:39Z INFO payments-api http request method=GET status=200 latency_ms=80 span=72ae5706
+2026-02-02T14:27:40Z ERR payments-api upstream ledger-core status=503 span=714bea01
+2026-02-02T14:27:42Z ERR payments-api upstream ledger-core status=503 span=7853bfd4
+2026-02-02T14:27:44Z ERR payments-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to ledger-core:8446 span=d80c5e2c
+2026-02-02T14:27:45Z ERR payments-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to ledger-core:8446 span=4de669dd
+2026-02-02T14:27:47Z ERR payments-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to ledger-core:8446 span=b3282398
+2026-02-02T14:27:49Z ERR payments-api upstream ledger-core status=503 span=dbbdfcaf
+2026-02-02T14:27:50Z INFO payments-api http request method=GET status=200 latency_ms=90 span=40041e88
+2026-02-02T14:27:51Z ERR payments-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to ledger-core:8446 span=ba11cee7
+2026-02-02T14:27:52Z ERR payments-api upstream ledger-core status=503 span=ab0cc7c2
+2026-02-02T14:27:54Z ERR payments-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to ledger-core:8446 span=136bf29e
+2026-02-02T14:27:56Z ERR payments-api upstream ledger-core status=503 span=c155fa2f
+2026-02-02T14:27:58Z ERR payments-api upstream ledger-core status=503 span=a58a28b5
+2026-02-02T14:28:00Z ERR payments-api upstream ledger-core status=503 span=1453832c
+2026-02-02T14:28:01Z INFO payments-api http request method=GET status=200 latency_ms=17 span=247c1aad
+2026-02-02T14:28:01Z ERR payments-api upstream ledger-core status=503 span=1547e703
+2026-02-02T14:28:02Z ERR payments-api upstream ledger-core status=503 span=e5c460d4
+2026-02-02T14:28:04Z ERR payments-api upstream ledger-core status=503 span=bf0b66c8
+2026-02-02T14:28:07Z INFO payments-api tick ok elapsed_ms=94
+2026-02-02T14:28:07Z ERR payments-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to ledger-core:8446 span=bcb7dfbd
+2026-02-02T14:28:08Z ERR payments-api upstream ledger-core status=503 span=5dce8e63
+2026-02-02T14:28:09Z ERR payments-api upstream ledger-core status=503 span=4437e2cc

@@ -1,0 +1,66 @@
+2026-01-09T09:56:37Z INFO session-cache request completed in 44ms status=200 rid=57ea45ea
+2026-01-09T09:56:46Z INFO session-cache health check passed in 62ms
+2026-01-09T09:56:57Z INFO session-cache health check passed in 81ms
+2026-01-09T09:57:11Z INFO session-cache request completed in 13ms status=200 rid=a542c11d
+2026-01-09T09:57:17Z INFO session-cache health check passed in 81ms
+2026-01-09T09:57:31Z INFO session-cache health check passed in 83ms
+2026-01-09T09:57:45Z INFO session-cache request completed in 26ms status=200 rid=3340279d
+2026-01-09T09:57:55Z INFO session-cache health check passed in 71ms
+2026-01-09T09:58:04Z INFO session-cache request completed in 47ms status=200 rid=000ad7b8
+2026-01-09T09:58:14Z INFO session-cache health check passed in 68ms
+2026-01-09T09:58:21Z INFO session-cache request completed in 19ms status=200 rid=60dc697b
+2026-01-09T09:58:31Z INFO session-cache health check passed in 27ms
+2026-01-09T09:58:38Z INFO session-cache health check passed in 30ms
+2026-01-09T09:58:45Z INFO session-cache health check passed in 28ms
+2026-01-09T09:58:59Z INFO session-cache request completed in 26ms status=200 rid=f22db256
+2026-01-09T09:59:05Z INFO session-cache health check passed in 95ms
+2026-01-09T09:59:19Z INFO session-cache health check passed in 55ms
+2026-01-09T09:59:33Z INFO session-cache health check passed in 85ms
+2026-01-09T09:59:40Z INFO session-cache health check passed in 94ms
+2026-01-09T09:59:50Z INFO session-cache health check passed in 31ms
+2026-01-09T09:59:57Z INFO session-cache health check passed in 11ms
+2026-01-09T10:00:11Z INFO session-cache request completed in 10ms status=200 rid=1b400046
+2026-01-09T10:00:22Z INFO session-cache health check passed in 27ms
+2026-01-09T10:00:29Z INFO session-cache request completed in 20ms status=200 rid=ff5b46ad
+2026-01-09T10:00:38Z INFO session-cache health check passed in 81ms
+2026-01-09T10:00:47Z INFO session-cache health check passed in 14ms
+2026-01-09T10:00:54Z INFO session-cache request completed in 62ms status=200 rid=6a5e2085
+2026-01-09T10:00:55Z WARN session-cache GC pause 26ms (young gen)
+2026-01-09T10:01:04Z INFO session-cache health check passed in 9ms
+2026-01-09T10:01:04Z WARN session-cache heap usage 96% after full GC
+2026-01-09T10:01:16Z INFO session-cache health check passed in 92ms
+2026-01-09T10:01:26Z INFO session-cache request completed in 47ms status=200 rid=d1164b05
+2026-01-09T10:01:40Z INFO session-cache health check passed in 85ms
+2026-01-09T10:01:44Z ERROR session-cache java.lang.OutOfMemoryError: Java heap space
+2026-01-09T10:01:46Z FATAL session-cache JVM terminated by OOM killer
+2026-01-09T10:01:49Z INFO session-cache request completed in 66ms status=200 rid=58a60dd7
+2026-01-09T10:02:03Z INFO session-cache health check passed in 91ms
+2026-01-09T10:02:16Z INFO session-cache health check passed in 63ms
+2026-01-09T10:02:25Z INFO session-cache health check passed in 64ms
+2026-01-09T10:02:34Z INFO session-cache health check passed in 41ms
+2026-01-09T10:02:41Z INFO session-cache request completed in 82ms status=200 rid=88712218
+2026-01-09T10:02:51Z INFO session-cache request completed in 38ms status=200 rid=7514d857
+2026-01-09T10:02:58Z INFO session-cache health check passed in 16ms
+2026-01-09T10:03:07Z INFO session-cache request completed in 59ms status=200 rid=112939b7
+2026-01-09T10:03:16Z INFO session-cache request completed in 64ms status=200 rid=4cc2d909
+2026-01-09T10:03:22Z INFO session-cache request completed in 27ms status=200 rid=7829bc34
+2026-01-09T10:03:23Z WARN session-cache GC pause 56ms (young gen)
+2026-01-09T10:03:31Z INFO session-cache request completed in 50ms status=200 rid=9aa5a76e
+2026-01-09T10:03:39Z INFO session-cache request completed in 50ms status=200 rid=fc33a589
+2026-01-09T10:03:53Z INFO session-cache health check passed in 40ms
+2026-01-09T10:04:00Z INFO session-cache request completed in 20ms status=200 rid=14df06f1
+2026-01-09T10:04:09Z INFO session-cache health check passed in 89ms
+2026-01-09T10:04:21Z INFO session-cache health check passed in 15ms
+2026-01-09T10:04:28Z INFO session-cache request completed in 24ms status=200 rid=f605aa9d
+2026-01-09T10:04:35Z INFO session-cache health check passed in 46ms
+2026-01-09T10:04:41Z INFO session-cache health check passed in 63ms
+2026-01-09T10:04:50Z INFO session-cache health check passed in 56ms
+2026-01-09T10:05:04Z INFO session-cache health check passed in 12ms
+2026-01-09T10:05:11Z INFO session-cache request completed in 91ms status=200 rid=9edd421f
+2026-01-09T10:05:17Z INFO session-cache health check passed in 56ms
+2026-01-09T10:05:28Z INFO session-cache health check passed in 48ms
+2026-01-09T10:05:37Z INFO session-cache request completed in 10ms status=200 rid=5177a05d
+2026-01-09T10:05:48Z INFO session-cache request completed in 66ms status=200 rid=6ae6f5ba
+2026-01-09T10:05:59Z INFO session-cache health check passed in 73ms
+2026-01-09T10:06:13Z INFO session-cache request completed in 53ms status=200 rid=3e55d6a0
+2026-01-09T10:06:26Z INFO session-cache health check passed in 47ms

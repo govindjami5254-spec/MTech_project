@@ -1,0 +1,63 @@
+2026-02-07T15:48:15.671+05:30 info fx-feed event loop lag 35ms ok
+2026-02-07T15:48:22.229+05:30 info fx-feed event loop lag 52ms ok
+2026-02-07T15:48:35.616+05:30 info fx-feed event loop lag 39ms ok
+2026-02-07T15:48:44.242+05:30 info fx-feed event loop lag 22ms ok
+2026-02-07T15:48:54.907+05:30 info fx-feed served GET /api status=200 in 67ms trace=14f6a2e0
+2026-02-07T15:49:05.206+05:30 info fx-feed event loop lag 31ms ok
+2026-02-07T15:49:12.674+05:30 info fx-feed served GET /api status=200 in 37ms trace=8d4dda77
+2026-02-07T15:49:18.315+05:30 info fx-feed served GET /api status=200 in 85ms trace=7ab567db
+2026-02-07T15:49:26.276+05:30 info fx-feed served GET /api status=200 in 47ms trace=c06e9c1f
+2026-02-07T15:49:32.800+05:30 info fx-feed served GET /api status=200 in 59ms trace=f9fddffd
+2026-02-07T15:49:45.605+05:30 info fx-feed served GET /api status=200 in 62ms trace=5f62d17e
+2026-02-07T15:49:51.167+05:30 info fx-feed served GET /api status=200 in 9ms trace=c21af47d
+2026-02-07T15:50:03.398+05:30 info fx-feed served GET /api status=200 in 88ms trace=819b9596
+2026-02-07T15:50:12.721+05:30 info fx-feed served GET /api status=200 in 69ms trace=3bed2547
+2026-02-07T15:50:23.823+05:30 info fx-feed served GET /api status=200 in 54ms trace=20b33e21
+2026-02-07T15:50:37.790+05:30 info fx-feed served GET /api status=200 in 13ms trace=7ba4a08d
+2026-02-07T15:50:44.494+05:30 info fx-feed served GET /api status=200 in 43ms trace=9051ecbe
+2026-02-07T15:50:52.320+05:30 info fx-feed served GET /api status=200 in 94ms trace=96d11c86
+2026-02-07T15:51:00.853+05:30 info fx-feed served GET /api status=200 in 69ms trace=01091ac5
+2026-02-07T15:51:09.687+05:30 info fx-feed served GET /api status=200 in 49ms trace=00b3a3ca
+2026-02-07T15:51:21.254+05:30 info fx-feed served GET /api status=200 in 79ms trace=67bcda23
+2026-02-07T15:51:33.874+05:30 info fx-feed served GET /api status=200 in 28ms trace=d0a782ac
+2026-02-07T15:51:43.530+05:30 info fx-feed served GET /api status=200 in 16ms trace=9f03ff85
+2026-02-07T15:51:54.131+05:30 info fx-feed served GET /api status=200 in 64ms trace=2e0fd6cc
+2026-02-07T15:52:04.878+05:30 info fx-feed served GET /api status=200 in 41ms trace=8ac1324d
+2026-02-07T15:52:16.777+05:30 info fx-feed served GET /api status=200 in 82ms trace=6b648143
+2026-02-07T15:52:23.228+05:30 info fx-feed served GET /api status=200 in 88ms trace=c52880f3
+2026-02-07T15:52:37.266+05:30 info fx-feed event loop lag 67ms ok
+2026-02-07T15:52:43.989+05:30 info fx-feed served GET /api status=200 in 22ms trace=96b7238b
+2026-02-07T15:52:53.454+05:30 info fx-feed event loop lag 52ms ok
+2026-02-07T15:53:01.663+05:30 info fx-feed served GET /api status=200 in 49ms trace=a7e311a7
+2026-02-07T15:53:10.323+05:30 info fx-feed served GET /api status=200 in 36ms trace=e375c764
+2026-02-07T15:53:22.459+05:30 info fx-feed event loop lag 92ms ok
+2026-02-07T15:53:30.317+05:30 info fx-feed event loop lag 27ms ok
+2026-02-07T15:53:36.441+05:30 info fx-feed event loop lag 58ms ok
+2026-02-07T15:53:48.294+05:30 info fx-feed served GET /api status=200 in 11ms trace=7129336e
+2026-02-07T15:53:49.000+05:30 warn fx-feed event loop lag 680ms
+2026-02-07T15:53:55.215+05:30 info fx-feed served GET /api status=200 in 35ms trace=4b2021a2
+2026-02-07T15:54:02.996+05:30 info fx-feed served GET /api status=200 in 35ms trace=448d6772
+2026-02-07T15:54:11.498+05:30 info fx-feed event loop lag 11ms ok
+2026-02-07T15:54:25.743+05:30 info fx-feed event loop lag 50ms ok
+2026-02-07T15:54:37.082+05:30 info fx-feed event loop lag 74ms ok
+2026-02-07T15:54:47.824+05:30 info fx-feed event loop lag 71ms ok
+2026-02-07T15:54:59.242+05:30 info fx-feed served GET /api status=200 in 30ms trace=7391225f
+2026-02-07T15:55:06.045+05:30 info fx-feed event loop lag 60ms ok
+2026-02-07T15:55:19.280+05:30 info fx-feed served GET /api status=200 in 58ms trace=c4d73006
+2026-02-07T15:55:29.923+05:30 info fx-feed served GET /api status=200 in 11ms trace=1b0e3446
+2026-02-07T15:55:41.661+05:30 info fx-feed event loop lag 68ms ok
+2026-02-07T15:55:51.793+05:30 info fx-feed served GET /api status=200 in 47ms trace=417e1068
+2026-02-07T15:56:01.511+05:30 info fx-feed served GET /api status=200 in 94ms trace=8f0ddf7f
+2026-02-07T15:56:10.813+05:30 info fx-feed served GET /api status=200 in 89ms trace=76c4962c
+2026-02-07T15:56:20.328+05:30 info fx-feed served GET /api status=200 in 27ms trace=67984430
+2026-02-07T15:56:27.437+05:30 info fx-feed event loop lag 69ms ok
+2026-02-07T15:56:39.497+05:30 info fx-feed event loop lag 55ms ok
+2026-02-07T15:56:51.848+05:30 info fx-feed served GET /api status=200 in 60ms trace=4696d608
+2026-02-07T15:57:05.458+05:30 info fx-feed served GET /api status=200 in 81ms trace=a290bfdb
+2026-02-07T15:57:12.864+05:30 info fx-feed event loop lag 14ms ok
+2026-02-07T15:57:19.997+05:30 info fx-feed served GET /api status=200 in 89ms trace=937f7fee
+2026-02-07T15:57:29.018+05:30 info fx-feed served GET /api status=200 in 59ms trace=b3016d99
+2026-02-07T15:57:35.784+05:30 info fx-feed event loop lag 42ms ok
+2026-02-07T15:57:48.746+05:30 info fx-feed event loop lag 72ms ok
+2026-02-07T15:57:56.613+05:30 info fx-feed served GET /api status=200 in 25ms trace=589865b5
+2026-02-07T15:58:07.909+05:30 info fx-feed served GET /api status=200 in 19ms trace=41c642d3

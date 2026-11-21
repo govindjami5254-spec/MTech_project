@@ -1,0 +1,64 @@
+2026-01-28 14:37:38,331 INFO fare-svc GET /v1/items 200 62ms req_id=b3c92c51
+2026-01-28 14:37:47,242 INFO fare-svc GET /v1/items 200 39ms req_id=358f1053
+2026-01-28 14:37:57,874 INFO fare-svc worker heartbeat ok (75ms)
+2026-01-28 14:38:06,324 INFO fare-svc worker heartbeat ok (64ms)
+2026-01-28 14:38:20,521 INFO fare-svc GET /v1/items 200 19ms req_id=b0211cec
+2026-01-28 14:38:33,642 INFO fare-svc GET /v1/items 200 48ms req_id=2ec82e29
+2026-01-28 14:38:46,569 INFO fare-svc GET /v1/items 200 81ms req_id=5058ca34
+2026-01-28 14:38:53,335 INFO fare-svc GET /v1/items 200 45ms req_id=1e848c84
+2026-01-28 14:39:03,959 INFO fare-svc GET /v1/items 200 50ms req_id=c2feb71d
+2026-01-28 14:39:16,616 INFO fare-svc GET /v1/items 200 19ms req_id=28d6f835
+2026-01-28 14:39:23,225 INFO fare-svc GET /v1/items 200 9ms req_id=1740993d
+2026-01-28 14:39:37,009 INFO fare-svc worker heartbeat ok (88ms)
+2026-01-28 14:39:45,842 INFO fare-svc worker heartbeat ok (63ms)
+2026-01-28 14:39:59,703 INFO fare-svc GET /v1/items 200 58ms req_id=afdf604a
+2026-01-28 14:40:12,778 INFO fare-svc GET /v1/items 200 40ms req_id=1a42e60d
+2026-01-28 14:40:19,687 INFO fare-svc worker heartbeat ok (95ms)
+2026-01-28 14:40:33,351 INFO fare-svc worker heartbeat ok (73ms)
+2026-01-28 14:40:41,935 INFO fare-svc GET /v1/items 200 87ms req_id=694def2a
+2026-01-28 14:40:48,736 INFO fare-svc worker heartbeat ok (91ms)
+2026-01-28 14:40:58,918 INFO fare-svc GET /v1/items 200 90ms req_id=63dc2651
+2026-01-28 14:41:11,830 INFO fare-svc GET /v1/items 200 57ms req_id=60357aaa
+2026-01-28 14:41:24,894 INFO fare-svc GET /v1/items 200 13ms req_id=27f64a72
+2026-01-28 14:41:34,989 INFO fare-svc GET /v1/items 200 69ms req_id=ca871ccf
+2026-01-28 14:41:41,991 INFO fare-svc GET /v1/items 200 48ms req_id=b434b2d5
+2026-01-28 14:41:47,135 INFO fare-svc GET /v1/items 200 37ms req_id=5561727c
+2026-01-28 14:42:00,456 INFO fare-svc GET /v1/items 200 60ms req_id=0896ce66
+2026-01-28 14:42:07,990 INFO fare-svc worker heartbeat ok (15ms)
+2026-01-28 14:42:14,155 WARNING fare-svc RSS 96% of container memory limit
+2026-01-28 14:42:19,896 INFO fare-svc GET /v1/items 200 39ms req_id=36202171
+2026-01-28 14:42:29,426 INFO fare-svc worker heartbeat ok (45ms)
+2026-01-28 14:42:35,540 INFO fare-svc worker heartbeat ok (54ms)
+2026-01-28 14:42:42,343 INFO fare-svc worker heartbeat ok (14ms)
+2026-01-28 14:42:49,348 INFO fare-svc GET /v1/items 200 70ms req_id=870035b2
+2026-01-28 14:42:54,316 ERROR fare-svc MemoryError while building response payload
+2026-01-28 14:42:56,125 CRITICAL fare-svc worker killed: OOMKilled (exit code 137)
+2026-01-28 14:42:59,996 INFO fare-svc GET /v1/items 200 92ms req_id=1ec5b338
+2026-01-28 14:43:12,300 INFO fare-svc worker heartbeat ok (94ms)
+2026-01-28 14:43:22,344 INFO fare-svc GET /v1/items 200 65ms req_id=2feb0832
+2026-01-28 14:43:34,925 INFO fare-svc GET /v1/items 200 62ms req_id=fd429203
+2026-01-28 14:43:40,836 INFO fare-svc worker heartbeat ok (39ms)
+2026-01-28 14:43:51,111 INFO fare-svc worker heartbeat ok (58ms)
+2026-01-28 14:43:59,020 INFO fare-svc GET /v1/items 200 29ms req_id=652f09c4
+2026-01-28 14:44:11,749 INFO fare-svc GET /v1/items 200 70ms req_id=01fc1ae4
+2026-01-28 14:44:20,031 INFO fare-svc worker heartbeat ok (80ms)
+2026-01-28 14:44:21,000 WARNING fare-svc deprecated parameter 'page' used by client
+2026-01-28 14:44:34,833 INFO fare-svc GET /v1/items 200 38ms req_id=79ed6d95
+2026-01-28 14:44:43,077 INFO fare-svc GET /v1/items 200 40ms req_id=7d429d7a
+2026-01-28 14:44:55,683 INFO fare-svc GET /v1/items 200 8ms req_id=7106eddf
+2026-01-28 14:45:08,389 INFO fare-svc GET /v1/items 200 55ms req_id=96cef4cf
+2026-01-28 14:45:14,658 INFO fare-svc GET /v1/items 200 12ms req_id=3717d358
+2026-01-28 14:45:27,704 INFO fare-svc worker heartbeat ok (45ms)
+2026-01-28 14:45:37,837 INFO fare-svc worker heartbeat ok (17ms)
+2026-01-28 14:45:44,601 INFO fare-svc worker heartbeat ok (13ms)
+2026-01-28 14:45:52,479 INFO fare-svc worker heartbeat ok (10ms)
+2026-01-28 14:46:06,317 INFO fare-svc GET /v1/items 200 88ms req_id=e14c4b2f
+2026-01-28 14:46:14,190 INFO fare-svc worker heartbeat ok (48ms)
+2026-01-28 14:46:22,414 INFO fare-svc GET /v1/items 200 57ms req_id=69522be3
+2026-01-28 14:46:30,587 INFO fare-svc worker heartbeat ok (9ms)
+2026-01-28 14:46:43,396 INFO fare-svc worker heartbeat ok (10ms)
+2026-01-28 14:46:55,035 INFO fare-svc GET /v1/items 200 92ms req_id=e488a6aa
+2026-01-28 14:47:07,908 INFO fare-svc worker heartbeat ok (37ms)
+2026-01-28 14:47:18,950 INFO fare-svc worker heartbeat ok (58ms)
+2026-01-28 14:47:27,204 INFO fare-svc GET /v1/items 200 55ms req_id=659707c2
+2026-01-28 14:47:33,606 INFO fare-svc GET /v1/items 200 56ms req_id=38471e07

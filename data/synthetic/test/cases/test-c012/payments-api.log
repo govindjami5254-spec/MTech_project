@@ -1,0 +1,67 @@
+2026-02-04 11:54:50,495 INFO payments-api worker heartbeat ok (35ms)
+2026-02-04 11:55:04,376 INFO payments-api worker heartbeat ok (53ms)
+2026-02-04 11:55:16,434 INFO payments-api GET /v1/items 200 67ms req_id=9f20d5ed
+2026-02-04 11:55:27,490 INFO payments-api GET /v1/items 200 69ms req_id=a349b8ce
+2026-02-04 11:55:39,024 INFO payments-api GET /v1/items 200 36ms req_id=60d342b5
+2026-02-04 11:55:47,738 INFO payments-api GET /v1/items 200 75ms req_id=5820ec63
+2026-02-04 11:55:53,799 INFO payments-api GET /v1/items 200 80ms req_id=681dc80a
+2026-02-04 11:55:59,953 INFO payments-api GET /v1/items 200 93ms req_id=01d6a6fc
+2026-02-04 11:56:10,470 INFO payments-api GET /v1/items 200 30ms req_id=86aeafcc
+2026-02-04 11:56:18,716 INFO payments-api GET /v1/items 200 18ms req_id=a071f8df
+2026-02-04 11:56:27,236 INFO payments-api GET /v1/items 200 95ms req_id=203a9731
+2026-02-04 11:56:34,608 INFO payments-api worker heartbeat ok (32ms)
+2026-02-04 11:56:40,058 INFO payments-api GET /v1/items 200 33ms req_id=8e555f10
+2026-02-04 11:56:50,580 INFO payments-api worker heartbeat ok (20ms)
+2026-02-04 11:57:00,029 INFO payments-api worker heartbeat ok (18ms)
+2026-02-04 11:57:14,082 INFO payments-api GET /v1/items 200 47ms req_id=d9c08e0b
+2026-02-04 11:57:25,120 INFO payments-api GET /v1/items 200 56ms req_id=c26473bf
+2026-02-04 11:57:34,403 INFO payments-api GET /v1/items 200 64ms req_id=fffe84b3
+2026-02-04 11:57:44,425 INFO payments-api worker heartbeat ok (63ms)
+2026-02-04 11:57:55,726 INFO payments-api GET /v1/items 200 54ms req_id=adf073c8
+2026-02-04 11:58:06,527 INFO payments-api GET /v1/items 200 18ms req_id=dc8d67e6
+2026-02-04 11:58:19,555 INFO payments-api GET /v1/items 200 35ms req_id=73e20326
+2026-02-04 11:58:33,006 INFO payments-api worker heartbeat ok (70ms)
+2026-02-04 11:58:39,665 INFO payments-api worker heartbeat ok (79ms)
+2026-02-04 11:58:51,960 INFO payments-api GET /v1/items 200 11ms req_id=0d33e98b
+2026-02-04 11:59:05,073 INFO payments-api GET /v1/items 200 87ms req_id=110f7e9c
+2026-02-04 11:59:12,822 INFO payments-api worker heartbeat ok (71ms)
+2026-02-04 11:59:20,011 ERROR payments-api upstream ledger-core replied 503 Service Unavailable req_id=0d69f85c
+2026-02-04 11:59:22,358 WARNING payments-api urllib3 retrying (ledger-core) after connection broken
+2026-02-04 11:59:23,806 INFO payments-api worker heartbeat ok (40ms)
+2026-02-04 11:59:25,926 ERROR payments-api aborting request: ledger-core unreachable after retries
+2026-02-04 11:59:29,637 INFO payments-api GET /v1/items 200 17ms req_id=1d542e26
+2026-02-04 11:59:35,746 ERROR payments-api requests.exceptions.ConnectionError: HTTPConnectionPool(host='risk-engine', port=8445): Max retries exceeded req_id=59bc2f92
+2026-02-04 11:59:37,000 WARNING payments-api urllib3 retrying (risk-engine) after connection broken
+2026-02-04 11:59:38,969 INFO payments-api worker heartbeat ok (60ms)
+2026-02-04 11:59:40,730 ERROR payments-api aborting request: risk-engine unreachable after retries
+2026-02-04 11:59:45,851 INFO payments-api worker heartbeat ok (23ms)
+2026-02-04 11:59:55,946 INFO payments-api worker heartbeat ok (20ms)
+2026-02-04 12:00:03,071 INFO payments-api GET /v1/items 200 77ms req_id=d3227ea1
+2026-02-04 12:00:13,516 INFO payments-api worker heartbeat ok (31ms)
+2026-02-04 12:00:20,606 INFO payments-api worker heartbeat ok (34ms)
+2026-02-04 12:00:26,603 INFO payments-api worker heartbeat ok (71ms)
+2026-02-04 12:00:35,788 INFO payments-api GET /v1/items 200 61ms req_id=2c211ff0
+2026-02-04 12:00:44,393 INFO payments-api worker heartbeat ok (44ms)
+2026-02-04 12:00:52,096 INFO payments-api worker heartbeat ok (23ms)
+2026-02-04 12:00:58,975 INFO payments-api GET /v1/items 200 78ms req_id=d37eaf38
+2026-02-04 12:01:06,048 INFO payments-api GET /v1/items 200 55ms req_id=63a52ebc
+2026-02-04 12:01:12,691 INFO payments-api GET /v1/items 200 18ms req_id=85a900e5
+2026-02-04 12:01:20,233 INFO payments-api worker heartbeat ok (36ms)
+2026-02-04 12:01:33,649 INFO payments-api worker heartbeat ok (25ms)
+2026-02-04 12:01:42,323 INFO payments-api worker heartbeat ok (20ms)
+2026-02-04 12:01:54,603 INFO payments-api GET /v1/items 200 88ms req_id=76d1471c
+2026-02-04 12:02:07,434 INFO payments-api worker heartbeat ok (48ms)
+2026-02-04 12:02:17,601 INFO payments-api worker heartbeat ok (36ms)
+2026-02-04 12:02:30,681 INFO payments-api worker heartbeat ok (53ms)
+2026-02-04 12:02:39,999 INFO payments-api GET /v1/items 200 70ms req_id=da98c0cf
+2026-02-04 12:02:51,260 INFO payments-api GET /v1/items 200 79ms req_id=6eb6270b
+2026-02-04 12:03:02,497 INFO payments-api worker heartbeat ok (53ms)
+2026-02-04 12:03:09,959 INFO payments-api GET /v1/items 200 35ms req_id=277f4397
+2026-02-04 12:03:22,176 INFO payments-api worker heartbeat ok (71ms)
+2026-02-04 12:03:34,947 INFO payments-api worker heartbeat ok (92ms)
+2026-02-04 12:03:48,252 INFO payments-api worker heartbeat ok (58ms)
+2026-02-04 12:03:55,568 INFO payments-api worker heartbeat ok (12ms)
+2026-02-04 12:04:02,848 INFO payments-api GET /v1/items 200 84ms req_id=56836b4e
+2026-02-04 12:04:09,855 INFO payments-api GET /v1/items 200 65ms req_id=d6e955d0
+2026-02-04 12:04:22,824 INFO payments-api GET /v1/items 200 18ms req_id=c8f9a495
+2026-02-04 12:04:36,828 INFO payments-api worker heartbeat ok (58ms)

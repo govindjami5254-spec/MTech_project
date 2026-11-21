@@ -1,0 +1,62 @@
+2026-02-01 12:41:59,763 INFO login-svc GET /v1/items 200 32ms req_id=8b15faf3
+2026-02-01 12:42:09,847 INFO login-svc GET /v1/items 200 94ms req_id=40d7a3a7
+2026-02-01 12:42:17,688 INFO login-svc GET /v1/items 200 74ms req_id=b4dfb28e
+2026-02-01 12:42:27,449 INFO login-svc worker heartbeat ok (77ms)
+2026-02-01 12:42:38,873 INFO login-svc worker heartbeat ok (9ms)
+2026-02-01 12:42:52,393 INFO login-svc worker heartbeat ok (10ms)
+2026-02-01 12:43:05,164 INFO login-svc worker heartbeat ok (46ms)
+2026-02-01 12:43:14,093 INFO login-svc worker heartbeat ok (89ms)
+2026-02-01 12:43:26,309 INFO login-svc worker heartbeat ok (30ms)
+2026-02-01 12:43:34,939 INFO login-svc worker heartbeat ok (60ms)
+2026-02-01 12:43:47,554 INFO login-svc worker heartbeat ok (33ms)
+2026-02-01 12:44:00,691 INFO login-svc GET /v1/items 200 68ms req_id=9c3cd919
+2026-02-01 12:44:06,284 INFO login-svc worker heartbeat ok (29ms)
+2026-02-01 12:44:12,243 INFO login-svc worker heartbeat ok (45ms)
+2026-02-01 12:44:24,287 INFO login-svc worker heartbeat ok (48ms)
+2026-02-01 12:44:38,268 INFO login-svc GET /v1/items 200 94ms req_id=4b64641f
+2026-02-01 12:44:44,632 INFO login-svc worker heartbeat ok (29ms)
+2026-02-01 12:44:45,970 WARNING login-svc cache hit ratio dropped to 61% on hot keys
+2026-02-01 12:44:56,639 WARNING login-svc cache hit ratio dropped to 61% on hot keys
+2026-02-01 12:44:57,958 INFO login-svc GET /v1/items 200 22ms req_id=42f47299
+2026-02-01 12:45:07,142 WARNING login-svc cache hit ratio dropped to 61% on hot keys
+2026-02-01 12:45:11,888 INFO login-svc GET /v1/items 200 33ms req_id=b6f15687
+2026-02-01 12:45:25,478 INFO login-svc GET /v1/items 200 41ms req_id=70ddf46f
+2026-02-01 12:45:38,658 INFO login-svc worker heartbeat ok (29ms)
+2026-02-01 12:45:46,239 INFO login-svc worker heartbeat ok (80ms)
+2026-02-01 12:46:00,144 INFO login-svc GET /v1/items 200 86ms req_id=42374e06
+2026-02-01 12:46:06,923 INFO login-svc GET /v1/items 200 14ms req_id=54c6cf3e
+2026-02-01 12:46:19,978 INFO login-svc worker heartbeat ok (10ms)
+2026-02-01 12:46:32,749 INFO login-svc worker heartbeat ok (57ms)
+2026-02-01 12:46:43,381 INFO login-svc worker heartbeat ok (33ms)
+2026-02-01 12:46:51,132 INFO login-svc worker heartbeat ok (95ms)
+2026-02-01 12:47:03,578 INFO login-svc worker heartbeat ok (11ms)
+2026-02-01 12:47:15,862 INFO login-svc GET /v1/items 200 11ms req_id=9d922362
+2026-02-01 12:47:27,242 INFO login-svc worker heartbeat ok (85ms)
+2026-02-01 12:47:33,054 INFO login-svc GET /v1/items 200 60ms req_id=50b038b6
+2026-02-01 12:47:40,765 INFO login-svc GET /v1/items 200 62ms req_id=26285670
+2026-02-01 12:47:49,315 INFO login-svc worker heartbeat ok (83ms)
+2026-02-01 12:47:55,974 INFO login-svc GET /v1/items 200 35ms req_id=90d0bc83
+2026-02-01 12:48:09,084 INFO login-svc GET /v1/items 200 94ms req_id=1305f3fe
+2026-02-01 12:48:19,689 INFO login-svc worker heartbeat ok (21ms)
+2026-02-01 12:48:33,456 INFO login-svc worker heartbeat ok (9ms)
+2026-02-01 12:48:39,990 INFO login-svc worker heartbeat ok (40ms)
+2026-02-01 12:48:51,548 INFO login-svc worker heartbeat ok (8ms)
+2026-02-01 12:48:59,692 INFO login-svc GET /v1/items 200 91ms req_id=488d3e08
+2026-02-01 12:49:10,168 INFO login-svc GET /v1/items 200 52ms req_id=6f0b41c5
+2026-02-01 12:49:18,560 INFO login-svc GET /v1/items 200 69ms req_id=a99261d0
+2026-02-01 12:49:30,071 INFO login-svc GET /v1/items 200 74ms req_id=2a49f3e9
+2026-02-01 12:49:38,508 INFO login-svc worker heartbeat ok (30ms)
+2026-02-01 12:49:47,444 INFO login-svc GET /v1/items 200 91ms req_id=41633941
+2026-02-01 12:49:55,800 INFO login-svc worker heartbeat ok (35ms)
+2026-02-01 12:50:02,871 INFO login-svc worker heartbeat ok (27ms)
+2026-02-01 12:50:11,782 INFO login-svc worker heartbeat ok (93ms)
+2026-02-01 12:50:18,817 INFO login-svc GET /v1/items 200 38ms req_id=fdd07583
+2026-02-01 12:50:31,057 INFO login-svc worker heartbeat ok (27ms)
+2026-02-01 12:50:45,322 INFO login-svc worker heartbeat ok (92ms)
+2026-02-01 12:50:58,664 INFO login-svc GET /v1/items 200 68ms req_id=c5439e52
+2026-02-01 12:51:04,964 INFO login-svc GET /v1/items 200 33ms req_id=abfd537d
+2026-02-01 12:51:15,145 INFO login-svc GET /v1/items 200 9ms req_id=09baa8b0
+2026-02-01 12:51:22,149 INFO login-svc worker heartbeat ok (89ms)
+2026-02-01 12:51:34,811 INFO login-svc GET /v1/items 200 17ms req_id=5f589d02
+2026-02-01 12:51:40,371 INFO login-svc worker heartbeat ok (70ms)
+2026-02-01 12:51:50,091 INFO login-svc worker heartbeat ok (81ms)

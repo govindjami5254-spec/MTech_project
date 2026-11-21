@@ -1,0 +1,64 @@
+2026-01-21 13:10:00,404 INFO telemetry-api GET /v1/items 200 27ms req_id=e77f5057
+2026-01-21 13:10:06,576 INFO telemetry-api worker heartbeat ok (42ms)
+2026-01-21 13:10:18,798 INFO telemetry-api worker heartbeat ok (71ms)
+2026-01-21 13:10:24,593 INFO telemetry-api GET /v1/items 200 58ms req_id=085f6c38
+2026-01-21 13:10:37,701 INFO telemetry-api GET /v1/items 200 22ms req_id=af54ed03
+2026-01-21 13:10:46,144 INFO telemetry-api GET /v1/items 200 71ms req_id=36c2fa40
+2026-01-21 13:10:55,412 INFO telemetry-api worker heartbeat ok (72ms)
+2026-01-21 13:11:09,164 INFO telemetry-api GET /v1/items 200 23ms req_id=039c9c6c
+2026-01-21 13:11:15,212 INFO telemetry-api GET /v1/items 200 82ms req_id=80bbc5c8
+2026-01-21 13:11:26,306 INFO telemetry-api GET /v1/items 200 13ms req_id=524faf20
+2026-01-21 13:11:35,467 INFO telemetry-api worker heartbeat ok (17ms)
+2026-01-21 13:11:46,306 INFO telemetry-api worker heartbeat ok (91ms)
+2026-01-21 13:11:53,875 INFO telemetry-api GET /v1/items 200 27ms req_id=fc736931
+2026-01-21 13:12:05,627 INFO telemetry-api worker heartbeat ok (84ms)
+2026-01-21 13:12:13,385 INFO telemetry-api worker heartbeat ok (21ms)
+2026-01-21 13:12:27,842 INFO telemetry-api worker heartbeat ok (58ms)
+2026-01-21 13:12:37,628 INFO telemetry-api worker heartbeat ok (49ms)
+2026-01-21 13:12:45,448 INFO telemetry-api worker heartbeat ok (25ms)
+2026-01-21 13:12:51,508 INFO telemetry-api GET /v1/items 200 10ms req_id=4ee437d6
+2026-01-21 13:13:02,330 INFO telemetry-api worker heartbeat ok (90ms)
+2026-01-21 13:13:14,065 INFO telemetry-api worker heartbeat ok (42ms)
+2026-01-21 13:13:20,804 INFO telemetry-api worker heartbeat ok (82ms)
+2026-01-21 13:13:29,575 INFO telemetry-api GET /v1/items 200 30ms req_id=1ee7a8b1
+2026-01-21 13:13:41,568 INFO telemetry-api worker heartbeat ok (89ms)
+2026-01-21 13:13:55,195 INFO telemetry-api worker heartbeat ok (12ms)
+2026-01-21 13:14:04,877 INFO telemetry-api worker heartbeat ok (31ms)
+2026-01-21 13:14:15,118 INFO telemetry-api worker heartbeat ok (27ms)
+2026-01-21 13:14:25,595 INFO telemetry-api GET /v1/items 200 56ms req_id=5315237a
+2026-01-21 13:14:33,275 INFO telemetry-api worker heartbeat ok (15ms)
+2026-01-21 13:14:40,633 INFO telemetry-api worker heartbeat ok (58ms)
+2026-01-21 13:14:52,536 INFO telemetry-api GET /v1/items 200 18ms req_id=0262c335
+2026-01-21 13:14:57,933 ERROR telemetry-api ReadTimeout: device-registry did not respond within 5.0s req_id=5f413e14
+2026-01-21 13:14:59,918 WARNING telemetry-api urllib3 retrying (device-registry) after connection broken
+2026-01-21 13:15:02,850 ERROR telemetry-api aborting request: device-registry unreachable after retries
+2026-01-21 13:15:05,183 INFO telemetry-api worker heartbeat ok (67ms)
+2026-01-21 13:15:11,669 INFO telemetry-api GET /v1/items 200 67ms req_id=ad58744d
+2026-01-21 13:15:20,665 INFO telemetry-api worker heartbeat ok (37ms)
+2026-01-21 13:15:28,997 INFO telemetry-api worker heartbeat ok (81ms)
+2026-01-21 13:15:29,000 WARNING telemetry-api deprecated parameter 'page' used by client
+2026-01-21 13:15:42,645 INFO telemetry-api GET /v1/items 200 95ms req_id=9e3d1828
+2026-01-21 13:15:49,846 INFO telemetry-api GET /v1/items 200 82ms req_id=1b02bfb0
+2026-01-21 13:15:59,096 INFO telemetry-api worker heartbeat ok (63ms)
+2026-01-21 13:16:13,525 INFO telemetry-api worker heartbeat ok (16ms)
+2026-01-21 13:16:20,527 INFO telemetry-api GET /v1/items 200 22ms req_id=5fc71f93
+2026-01-21 13:16:27,206 INFO telemetry-api GET /v1/items 200 78ms req_id=966cc5ab
+2026-01-21 13:16:39,774 INFO telemetry-api worker heartbeat ok (31ms)
+2026-01-21 13:16:52,218 INFO telemetry-api worker heartbeat ok (69ms)
+2026-01-21 13:17:05,930 INFO telemetry-api worker heartbeat ok (72ms)
+2026-01-21 13:17:18,628 INFO telemetry-api GET /v1/items 200 45ms req_id=c7c217d6
+2026-01-21 13:17:30,967 INFO telemetry-api worker heartbeat ok (28ms)
+2026-01-21 13:17:38,692 INFO telemetry-api worker heartbeat ok (84ms)
+2026-01-21 13:17:51,714 INFO telemetry-api GET /v1/items 200 70ms req_id=9d152425
+2026-01-21 13:17:57,019 INFO telemetry-api worker heartbeat ok (37ms)
+2026-01-21 13:18:05,366 INFO telemetry-api worker heartbeat ok (25ms)
+2026-01-21 13:18:17,863 INFO telemetry-api worker heartbeat ok (23ms)
+2026-01-21 13:18:26,067 INFO telemetry-api GET /v1/items 200 30ms req_id=8ae60735
+2026-01-21 13:18:35,396 INFO telemetry-api worker heartbeat ok (28ms)
+2026-01-21 13:18:43,537 INFO telemetry-api GET /v1/items 200 27ms req_id=fbd357d5
+2026-01-21 13:18:49,146 INFO telemetry-api worker heartbeat ok (38ms)
+2026-01-21 13:19:00,071 INFO telemetry-api GET /v1/items 200 17ms req_id=bbe50e78
+2026-01-21 13:19:07,220 INFO telemetry-api worker heartbeat ok (61ms)
+2026-01-21 13:19:20,965 INFO telemetry-api worker heartbeat ok (60ms)
+2026-01-21 13:19:29,358 INFO telemetry-api worker heartbeat ok (85ms)
+2026-01-21 13:19:43,178 INFO telemetry-api worker heartbeat ok (41ms)

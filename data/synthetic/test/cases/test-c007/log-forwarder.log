@@ -1,0 +1,64 @@
+2026-02-12T09:32:46Z INFO log-forwarder tick ok elapsed_ms=43
+2026-02-12T09:32:52Z INFO log-forwarder http request method=GET status=200 latency_ms=12 span=e90eaa92
+2026-02-12T09:32:59Z INFO log-forwarder http request method=GET status=200 latency_ms=58 span=7aa15e81
+2026-02-12T09:33:12Z INFO log-forwarder tick ok elapsed_ms=84
+2026-02-12T09:33:20Z INFO log-forwarder http request method=GET status=200 latency_ms=44 span=5997377c
+2026-02-12T09:33:26Z INFO log-forwarder http request method=GET status=200 latency_ms=81 span=3e71721a
+2026-02-12T09:33:40Z INFO log-forwarder http request method=GET status=200 latency_ms=47 span=4a44cef5
+2026-02-12T09:33:48Z INFO log-forwarder tick ok elapsed_ms=74
+2026-02-12T09:33:58Z INFO log-forwarder tick ok elapsed_ms=41
+2026-02-12T09:34:08Z INFO log-forwarder tick ok elapsed_ms=83
+2026-02-12T09:34:18Z INFO log-forwarder tick ok elapsed_ms=72
+2026-02-12T09:34:25Z INFO log-forwarder tick ok elapsed_ms=42
+2026-02-12T09:34:35Z INFO log-forwarder http request method=GET status=200 latency_ms=57 span=7ec9dc86
+2026-02-12T09:34:49Z INFO log-forwarder tick ok elapsed_ms=17
+2026-02-12T09:34:57Z INFO log-forwarder http request method=GET status=200 latency_ms=19 span=9a4fda33
+2026-02-12T09:35:05Z INFO log-forwarder http request method=GET status=200 latency_ms=47 span=bb2737a1
+2026-02-12T09:35:19Z INFO log-forwarder http request method=GET status=200 latency_ms=85 span=93614598
+2026-02-12T09:35:29Z INFO log-forwarder http request method=GET status=200 latency_ms=82 span=714d5f86
+2026-02-12T09:35:41Z INFO log-forwarder tick ok elapsed_ms=66
+2026-02-12T09:35:53Z INFO log-forwarder tick ok elapsed_ms=58
+2026-02-12T09:35:59Z INFO log-forwarder http request method=GET status=200 latency_ms=83 span=54c10323
+2026-02-12T09:36:07Z INFO log-forwarder http request method=GET status=200 latency_ms=59 span=050a6ad6
+2026-02-12T09:36:15Z INFO log-forwarder http request method=GET status=200 latency_ms=69 span=197cabf2
+2026-02-12T09:36:23Z INFO log-forwarder tick ok elapsed_ms=16
+2026-02-12T09:36:34Z INFO log-forwarder tick ok elapsed_ms=61
+2026-02-12T09:36:46Z INFO log-forwarder tick ok elapsed_ms=87
+2026-02-12T09:36:57Z INFO log-forwarder http request method=GET status=200 latency_ms=8 span=c1883ac8
+2026-02-12T09:37:03Z INFO log-forwarder http request method=GET status=200 latency_ms=58 span=93fd466e
+2026-02-12T09:37:04Z WARN log-forwarder slow poll elapsed_ms=580
+2026-02-12T09:37:11Z INFO log-forwarder tick ok elapsed_ms=89
+2026-02-12T09:37:19Z INFO log-forwarder http request method=GET status=200 latency_ms=69 span=f25a47e3
+2026-02-12T09:37:29Z INFO log-forwarder tick ok elapsed_ms=78
+2026-02-12T09:37:38Z INFO log-forwarder http request method=GET status=200 latency_ms=21 span=a49a1dbc
+2026-02-12T09:37:46Z INFO log-forwarder tick ok elapsed_ms=91
+2026-02-12T09:37:54Z INFO log-forwarder tick ok elapsed_ms=95
+2026-02-12T09:38:01Z INFO log-forwarder tick ok elapsed_ms=18
+2026-02-12T09:38:02Z WARN log-forwarder client sent oversized header, truncated span=b5ecbe91
+2026-02-12T09:38:10Z INFO log-forwarder tick ok elapsed_ms=54
+2026-02-12T09:38:22Z INFO log-forwarder http request method=GET status=200 latency_ms=9 span=5e37531d
+2026-02-12T09:38:28Z INFO log-forwarder http request method=GET status=200 latency_ms=65 span=e508a181
+2026-02-12T09:38:36Z INFO log-forwarder http request method=GET status=200 latency_ms=38 span=f5debbbb
+2026-02-12T09:38:44Z INFO log-forwarder http request method=GET status=200 latency_ms=58 span=1057af82
+2026-02-12T09:38:53Z INFO log-forwarder http request method=GET status=200 latency_ms=10 span=8e727eea
+2026-02-12T09:39:02Z INFO log-forwarder http request method=GET status=200 latency_ms=81 span=1b567b7e
+2026-02-12T09:39:10Z INFO log-forwarder tick ok elapsed_ms=80
+2026-02-12T09:39:23Z INFO log-forwarder tick ok elapsed_ms=59
+2026-02-12T09:39:36Z INFO log-forwarder tick ok elapsed_ms=73
+2026-02-12T09:39:42Z INFO log-forwarder http request method=GET status=200 latency_ms=59 span=75624eba
+2026-02-12T09:39:54Z INFO log-forwarder http request method=GET status=200 latency_ms=91 span=cd49e4ec
+2026-02-12T09:40:04Z INFO log-forwarder tick ok elapsed_ms=51
+2026-02-12T09:40:18Z INFO log-forwarder tick ok elapsed_ms=45
+2026-02-12T09:40:31Z INFO log-forwarder tick ok elapsed_ms=41
+2026-02-12T09:40:39Z INFO log-forwarder http request method=GET status=200 latency_ms=93 span=60da80f5
+2026-02-12T09:40:48Z INFO log-forwarder http request method=GET status=200 latency_ms=50 span=2987ce03
+2026-02-12T09:41:02Z INFO log-forwarder http request method=GET status=200 latency_ms=69 span=ecea4842
+2026-02-12T09:41:12Z INFO log-forwarder http request method=GET status=200 latency_ms=33 span=27f406e2
+2026-02-12T09:41:20Z INFO log-forwarder http request method=GET status=200 latency_ms=27 span=66630046
+2026-02-12T09:41:27Z INFO log-forwarder tick ok elapsed_ms=59
+2026-02-12T09:41:39Z INFO log-forwarder tick ok elapsed_ms=26
+2026-02-12T09:41:50Z INFO log-forwarder http request method=GET status=200 latency_ms=8 span=25ac768f
+2026-02-12T09:42:02Z INFO log-forwarder tick ok elapsed_ms=82
+2026-02-12T09:42:12Z INFO log-forwarder http request method=GET status=200 latency_ms=71 span=0715f9eb
+2026-02-12T09:42:25Z INFO log-forwarder http request method=GET status=200 latency_ms=83 span=8029503e
+2026-02-12T09:42:32Z INFO log-forwarder tick ok elapsed_ms=63

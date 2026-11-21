@@ -1,0 +1,70 @@
+2026-01-18T09:32:12Z INFO storefront health check passed in 80ms
+2026-01-18T09:32:25Z INFO storefront request completed in 89ms status=200 rid=1688f583
+2026-01-18T09:32:39Z INFO storefront health check passed in 71ms
+2026-01-18T09:32:46Z INFO storefront request completed in 95ms status=200 rid=848df512
+2026-01-18T09:32:53Z INFO storefront health check passed in 39ms
+2026-01-18T09:33:03Z INFO storefront health check passed in 91ms
+2026-01-18T09:33:10Z INFO storefront health check passed in 92ms
+2026-01-18T09:33:18Z INFO storefront health check passed in 47ms
+2026-01-18T09:33:29Z INFO storefront request completed in 55ms status=200 rid=14f05e52
+2026-01-18T09:33:40Z INFO storefront health check passed in 58ms
+2026-01-18T09:33:53Z INFO storefront request completed in 82ms status=200 rid=a5ba2248
+2026-01-18T09:34:04Z INFO storefront request completed in 22ms status=200 rid=40e32e85
+2026-01-18T09:34:12Z INFO storefront health check passed in 50ms
+2026-01-18T09:34:18Z INFO storefront health check passed in 74ms
+2026-01-18T09:34:31Z INFO storefront health check passed in 50ms
+2026-01-18T09:34:37Z INFO storefront request completed in 20ms status=200 rid=2fbfb48e
+2026-01-18T09:34:48Z INFO storefront request completed in 81ms status=200 rid=46e812c0
+2026-01-18T09:34:58Z INFO storefront request completed in 78ms status=200 rid=d0e7f9e2
+2026-01-18T09:35:08Z INFO storefront request completed in 91ms status=200 rid=43be82cb
+2026-01-18T09:35:17Z INFO storefront health check passed in 47ms
+2026-01-18T09:35:24Z INFO storefront request completed in 73ms status=200 rid=e98244d9
+2026-01-18T09:35:33Z INFO storefront health check passed in 15ms
+2026-01-18T09:35:44Z INFO storefront request completed in 66ms status=200 rid=35eb2a0c
+2026-01-18T09:35:45Z WARN storefront slow request 920ms rid=554cdc29
+2026-01-18T09:35:53Z INFO storefront request completed in 48ms status=200 rid=e31d9f17
+2026-01-18T09:36:05Z INFO storefront health check passed in 56ms
+2026-01-18T09:36:18Z INFO storefront request completed in 22ms status=200 rid=9dec940d
+2026-01-18T09:36:28Z INFO storefront health check passed in 87ms
+2026-01-18T09:36:41Z INFO storefront request completed in 48ms status=200 rid=30db3053
+2026-01-18T09:36:53Z INFO storefront health check passed in 68ms
+2026-01-18T09:37:03Z INFO storefront health check passed in 26ms
+2026-01-18T09:37:10Z INFO storefront health check passed in 59ms
+2026-01-18T09:37:22Z ERROR storefront returned 503 to client: dependency cart-svc failed rid=88c3d1d6
+2026-01-18T09:37:23Z INFO storefront health check passed in 31ms
+2026-01-18T09:37:25Z ERROR storefront HTTP 502 Bad Gateway from cart-svc rid=2822b6e9
+2026-01-18T09:37:28Z ERROR storefront returned 503 to client: dependency cart-svc failed rid=733f5662
+2026-01-18T09:37:30Z INFO storefront health check passed in 10ms
+2026-01-18T09:37:31Z ERROR storefront returned 503 to client: dependency cart-svc failed rid=6ff79324
+2026-01-18T09:37:34Z ERROR storefront HTTP 502 Bad Gateway from cart-svc rid=a8a3c094
+2026-01-18T09:37:37Z INFO storefront request completed in 67ms status=200 rid=59bb0904
+2026-01-18T09:37:37Z ERROR storefront returned 503 to client: dependency cart-svc failed rid=0f41920d
+2026-01-18T09:37:48Z INFO storefront request completed in 51ms status=200 rid=c5862873
+2026-01-18T09:37:54Z INFO storefront health check passed in 79ms
+2026-01-18T09:38:08Z INFO storefront health check passed in 47ms
+2026-01-18T09:38:16Z INFO storefront request completed in 15ms status=200 rid=8a352df6
+2026-01-18T09:38:23Z INFO storefront request completed in 41ms status=200 rid=dcd7fb6b
+2026-01-18T09:38:35Z INFO storefront health check passed in 56ms
+2026-01-18T09:38:41Z INFO storefront request completed in 80ms status=200 rid=0b2def93
+2026-01-18T09:38:54Z INFO storefront health check passed in 12ms
+2026-01-18T09:39:05Z INFO storefront health check passed in 11ms
+2026-01-18T09:39:13Z INFO storefront request completed in 23ms status=200 rid=96eeee53
+2026-01-18T09:39:27Z INFO storefront request completed in 33ms status=200 rid=b9e19ede
+2026-01-18T09:39:33Z INFO storefront request completed in 85ms status=200 rid=82aa7534
+2026-01-18T09:39:41Z INFO storefront health check passed in 36ms
+2026-01-18T09:39:53Z INFO storefront health check passed in 62ms
+2026-01-18T09:39:59Z INFO storefront request completed in 13ms status=200 rid=4ebd1051
+2026-01-18T09:40:05Z INFO storefront health check passed in 15ms
+2026-01-18T09:40:19Z INFO storefront request completed in 92ms status=200 rid=989f0c64
+2026-01-18T09:40:30Z INFO storefront health check passed in 59ms
+2026-01-18T09:40:39Z INFO storefront health check passed in 71ms
+2026-01-18T09:40:50Z INFO storefront request completed in 81ms status=200 rid=341d06ab
+2026-01-18T09:40:51Z WARN storefront GC pause 25ms (young gen)
+2026-01-18T09:40:58Z INFO storefront request completed in 22ms status=200 rid=b757b8bf
+2026-01-18T09:41:10Z INFO storefront health check passed in 49ms
+2026-01-18T09:41:16Z INFO storefront health check passed in 29ms
+2026-01-18T09:41:28Z INFO storefront health check passed in 58ms
+2026-01-18T09:41:34Z INFO storefront health check passed in 49ms
+2026-01-18T09:41:43Z INFO storefront request completed in 52ms status=200 rid=2e084513
+2026-01-18T09:41:54Z INFO storefront request completed in 86ms status=200 rid=439c9c95
+2026-01-18T09:42:01Z INFO storefront request completed in 8ms status=200 rid=ffd75aa1

@@ -1,0 +1,331 @@
+2026-01-18T12:22:58Z INFO api-edge health check passed in 73ms
+2026-01-18T12:23:06Z INFO api-edge request completed in 13ms status=200 rid=2d0cdf46
+2026-01-18T12:23:16Z INFO api-edge request completed in 87ms status=200 rid=a59318f1
+2026-01-18T12:23:28Z INFO api-edge request completed in 43ms status=200 rid=c61827f2
+2026-01-18T12:23:39Z INFO api-edge health check passed in 47ms
+2026-01-18T12:23:46Z INFO api-edge health check passed in 31ms
+2026-01-18T12:24:00Z INFO api-edge request completed in 24ms status=200 rid=02f1ea46
+2026-01-18T12:24:06Z INFO api-edge request completed in 71ms status=200 rid=a32c0fb4
+2026-01-18T12:24:12Z INFO api-edge request completed in 58ms status=200 rid=37d15858
+2026-01-18T12:24:26Z INFO api-edge request completed in 16ms status=200 rid=2a9f85a7
+2026-01-18T12:24:40Z INFO api-edge health check passed in 36ms
+2026-01-18T12:24:53Z INFO api-edge request completed in 40ms status=200 rid=42ac16a6
+2026-01-18T12:25:00Z INFO api-edge health check passed in 59ms
+2026-01-18T12:25:08Z INFO api-edge request completed in 82ms status=200 rid=df8229a8
+2026-01-18T12:25:18Z INFO api-edge health check passed in 47ms
+2026-01-18T12:25:19Z WARN api-edge slow request 790ms rid=27e68534
+2026-01-18T12:25:28Z INFO api-edge health check passed in 51ms
+2026-01-18T12:25:35Z INFO api-edge request completed in 29ms status=200 rid=4ae97ad5
+2026-01-18T12:25:48Z INFO api-edge health check passed in 94ms
+2026-01-18T12:25:59Z INFO api-edge health check passed in 95ms
+2026-01-18T12:26:11Z INFO api-edge health check passed in 52ms
+2026-01-18T12:26:23Z INFO api-edge health check passed in 37ms
+2026-01-18T12:26:24Z WARN api-edge GC pause 88ms (young gen)
+2026-01-18T12:26:37Z INFO api-edge health check passed in 57ms
+2026-01-18T12:26:46Z INFO api-edge health check passed in 38ms
+2026-01-18T12:26:55Z INFO api-edge health check passed in 79ms
+2026-01-18T12:27:08Z INFO api-edge request completed in 56ms status=200 rid=e8814781
+2026-01-18T12:27:16Z INFO api-edge health check passed in 79ms
+2026-01-18T12:27:29Z INFO api-edge request completed in 27ms status=200 rid=7ea152a2
+2026-01-18T12:27:41Z INFO api-edge request completed in 31ms status=200 rid=da4a4e97
+2026-01-18T12:27:47Z INFO api-edge request completed in 91ms status=200 rid=01b3ad3e
+2026-01-18T12:27:58Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=9da5f5a4
+2026-01-18T12:27:58Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=8e3e097d
+2026-01-18T12:27:59Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=522cbaab
+2026-01-18T12:28:00Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=f291e2c2
+2026-01-18T12:28:01Z INFO api-edge health check passed in 53ms
+2026-01-18T12:28:01Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=5e9aafbb
+2026-01-18T12:28:02Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=bba64517
+2026-01-18T12:28:03Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=383e7737
+2026-01-18T12:28:04Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=9075a70b
+2026-01-18T12:28:05Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=c399f845
+2026-01-18T12:28:06Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=e2381e1c
+2026-01-18T12:28:07Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=52c8c18b
+2026-01-18T12:28:08Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=17541a76
+2026-01-18T12:28:08Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=6afa6221
+2026-01-18T12:28:10Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=780563e9
+2026-01-18T12:28:11Z INFO api-edge health check passed in 35ms
+2026-01-18T12:28:11Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=bc156424
+2026-01-18T12:28:12Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=9c46a582
+2026-01-18T12:28:13Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=7ccc7cb5
+2026-01-18T12:28:14Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=2fff94c6
+2026-01-18T12:28:15Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=5425af7a
+2026-01-18T12:28:16Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=58e2cf93
+2026-01-18T12:28:17Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=40193b44
+2026-01-18T12:28:18Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=d5ac91b8
+2026-01-18T12:28:19Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=b835a7ae
+2026-01-18T12:28:20Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=bb5d3824
+2026-01-18T12:28:21Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=0bc85e7a
+2026-01-18T12:28:22Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=0b097d0d
+2026-01-18T12:28:23Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=dca09e40
+2026-01-18T12:28:24Z INFO api-edge request completed in 19ms status=200 rid=770d3eed
+2026-01-18T12:28:24Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=c5d1f451
+2026-01-18T12:28:25Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=5cc342ad
+2026-01-18T12:28:26Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=ed10043e
+2026-01-18T12:28:28Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=f7617286
+2026-01-18T12:28:29Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=c42464ee
+2026-01-18T12:28:30Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=3476c8b2
+2026-01-18T12:28:31Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=a4015bbd
+2026-01-18T12:28:32Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=d78a295c
+2026-01-18T12:28:33Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=11ae3334
+2026-01-18T12:28:34Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=06b221a9
+2026-01-18T12:28:35Z INFO api-edge health check passed in 12ms
+2026-01-18T12:28:35Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=449fb00b
+2026-01-18T12:28:36Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=6d6fae7a
+2026-01-18T12:28:36Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=eac5189f
+2026-01-18T12:28:37Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=bf68d929
+2026-01-18T12:28:38Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=7be7c498
+2026-01-18T12:28:39Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=39b595ae
+2026-01-18T12:28:39Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=1846a10b
+2026-01-18T12:28:40Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=8affc788
+2026-01-18T12:28:42Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=c77d0046
+2026-01-18T12:28:43Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=efd7de8c
+2026-01-18T12:28:44Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=c9678a79
+2026-01-18T12:28:45Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=1d46fb7e
+2026-01-18T12:28:46Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=2bc55167
+2026-01-18T12:28:47Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=e3487710
+2026-01-18T12:28:48Z INFO api-edge request completed in 50ms status=200 rid=eb9359a8
+2026-01-18T12:28:48Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=00da599d
+2026-01-18T12:28:49Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=e06b6847
+2026-01-18T12:28:50Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=ab97f4a2
+2026-01-18T12:28:51Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=ba5b8a12
+2026-01-18T12:28:52Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=5560449e
+2026-01-18T12:28:53Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=1818fb0c
+2026-01-18T12:28:55Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=9bb8e0dd
+2026-01-18T12:28:55Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=a11a017d
+2026-01-18T12:28:56Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=d8e0120a
+2026-01-18T12:28:57Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=39357b1d
+2026-01-18T12:28:58Z INFO api-edge request completed in 60ms status=200 rid=77b27069
+2026-01-18T12:28:58Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=4ba22eac
+2026-01-18T12:28:59Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=e5874918
+2026-01-18T12:29:00Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=6e86957a
+2026-01-18T12:29:01Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=2f71132f
+2026-01-18T12:29:02Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=5f671e7f
+2026-01-18T12:29:03Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=298b1186
+2026-01-18T12:29:04Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=5da6fa0a
+2026-01-18T12:29:05Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=1fb3d85d
+2026-01-18T12:29:06Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=62ee1b61
+2026-01-18T12:29:07Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=fd64c2a3
+2026-01-18T12:29:08Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=bf4423aa
+2026-01-18T12:29:09Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=7120a29d
+2026-01-18T12:29:10Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=45c49b53
+2026-01-18T12:29:11Z INFO api-edge health check passed in 65ms
+2026-01-18T12:29:11Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=221681bb
+2026-01-18T12:29:12Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=71dbf9f1
+2026-01-18T12:29:13Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=c583d0ad
+2026-01-18T12:29:14Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=db5763d2
+2026-01-18T12:29:15Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=f95b2c83
+2026-01-18T12:29:16Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=ad7db51b
+2026-01-18T12:29:17Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=e3fef16a
+2026-01-18T12:29:18Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=b799d015
+2026-01-18T12:29:19Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=b23ce28a
+2026-01-18T12:29:20Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=e7bf9867
+2026-01-18T12:29:21Z INFO api-edge request completed in 68ms status=200 rid=814694ae
+2026-01-18T12:29:21Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=2ddd2db7
+2026-01-18T12:29:22Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=31ffdd89
+2026-01-18T12:29:22Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=3ec29f18
+2026-01-18T12:29:23Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=d1ae4635
+2026-01-18T12:29:25Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=4722fede
+2026-01-18T12:29:26Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=0f269e05
+2026-01-18T12:29:27Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=560411e2
+2026-01-18T12:29:28Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=6a9a44b4
+2026-01-18T12:29:29Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=d8ed2e41
+2026-01-18T12:29:30Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=5d2bd161
+2026-01-18T12:29:32Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=cc72093b
+2026-01-18T12:29:33Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=049b17a9
+2026-01-18T12:29:34Z INFO api-edge request completed in 39ms status=200 rid=7279a424
+2026-01-18T12:29:34Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=8eb61a98
+2026-01-18T12:29:36Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=4e7f036a
+2026-01-18T12:29:37Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=5155074e
+2026-01-18T12:29:38Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=b97c0064
+2026-01-18T12:29:38Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=5a7506fc
+2026-01-18T12:29:39Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=bd4501ad
+2026-01-18T12:29:40Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=7f7a3a7e
+2026-01-18T12:29:42Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=14562762
+2026-01-18T12:29:43Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=5ec17125
+2026-01-18T12:29:44Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=def88ac5
+2026-01-18T12:29:46Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=0358eef1
+2026-01-18T12:29:47Z INFO api-edge request completed in 73ms status=200 rid=98b714fe
+2026-01-18T12:29:47Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=b6b3d1da
+2026-01-18T12:29:48Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=84460651
+2026-01-18T12:29:49Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=96f5f504
+2026-01-18T12:29:50Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=b9efd296
+2026-01-18T12:29:51Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=b820d6f2
+2026-01-18T12:29:53Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=3f234d51
+2026-01-18T12:29:53Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=c062c425
+2026-01-18T12:29:55Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=a48d2be4
+2026-01-18T12:29:56Z INFO api-edge health check passed in 58ms
+2026-01-18T12:29:56Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=9e5973e6
+2026-01-18T12:29:57Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=1879230d
+2026-01-18T12:29:58Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=f268aeba
+2026-01-18T12:29:59Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=a0ff6369
+2026-01-18T12:30:00Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=d01e3cf7
+2026-01-18T12:30:02Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=adee897f
+2026-01-18T12:30:03Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=bb7109cf
+2026-01-18T12:30:04Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=a456f685
+2026-01-18T12:30:05Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=cbc2c998
+2026-01-18T12:30:06Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=a4d0a8b8
+2026-01-18T12:30:07Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=f7cec20d
+2026-01-18T12:30:08Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=b36e96ee
+2026-01-18T12:30:09Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=842f6c78
+2026-01-18T12:30:10Z INFO api-edge health check passed in 22ms
+2026-01-18T12:30:10Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=3839db52
+2026-01-18T12:30:11Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=13eaccf9
+2026-01-18T12:30:13Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=1746f1cf
+2026-01-18T12:30:14Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=4ff07640
+2026-01-18T12:30:16Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=07df4cff
+2026-01-18T12:30:17Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=9342803b
+2026-01-18T12:30:18Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=90e587bd
+2026-01-18T12:30:19Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=5ef5089d
+2026-01-18T12:30:20Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=d86e339a
+2026-01-18T12:30:22Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=f7ab8a80
+2026-01-18T12:30:22Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=138932fc
+2026-01-18T12:30:24Z INFO api-edge request completed in 65ms status=200 rid=e10a1671
+2026-01-18T12:30:24Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=ff90c58b
+2026-01-18T12:30:24Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=a6fc78c3
+2026-01-18T12:30:26Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=091ad126
+2026-01-18T12:30:27Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=9f5f8198
+2026-01-18T12:30:28Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=0825b579
+2026-01-18T12:30:29Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=0f853392
+2026-01-18T12:30:30Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=cd34a2f5
+2026-01-18T12:30:31Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=9487c880
+2026-01-18T12:30:32Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=43839b70
+2026-01-18T12:30:33Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=fc5a520d
+2026-01-18T12:30:34Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=3692f480
+2026-01-18T12:30:35Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=036c5a3b
+2026-01-18T12:30:36Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=9f984fbd
+2026-01-18T12:30:37Z INFO api-edge request completed in 50ms status=200 rid=0da06a7b
+2026-01-18T12:30:38Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=a1e1e166
+2026-01-18T12:30:39Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=10f39661
+2026-01-18T12:30:40Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=f2efa678
+2026-01-18T12:30:42Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=71aed7ba
+2026-01-18T12:30:43Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=633f3298
+2026-01-18T12:30:44Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=2526b638
+2026-01-18T12:30:44Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=02ca5b30
+2026-01-18T12:30:46Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=938b5391
+2026-01-18T12:30:47Z INFO api-edge health check passed in 63ms
+2026-01-18T12:30:47Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=02a6a894
+2026-01-18T12:30:48Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=46ebc3c6
+2026-01-18T12:30:49Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=37af6fb0
+2026-01-18T12:30:50Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=642dc9b6
+2026-01-18T12:30:51Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=56badf99
+2026-01-18T12:30:52Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=66abcc82
+2026-01-18T12:30:53Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=409fd856
+2026-01-18T12:30:55Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=add773df
+2026-01-18T12:30:56Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=a3ce1fe3
+2026-01-18T12:30:57Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=8bddbfb4
+2026-01-18T12:30:57Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=0c3beacd
+2026-01-18T12:30:59Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=9b5307d1
+2026-01-18T12:31:00Z INFO api-edge request completed in 25ms status=200 rid=476c7515
+2026-01-18T12:31:00Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=7d0d0927
+2026-01-18T12:31:01Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=18bd1f14
+2026-01-18T12:31:02Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=612ac857
+2026-01-18T12:31:03Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=70c429c3
+2026-01-18T12:31:05Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=018a3059
+2026-01-18T12:31:06Z INFO api-edge health check passed in 79ms
+2026-01-18T12:31:06Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=35940e0e
+2026-01-18T12:31:07Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=d96086e3
+2026-01-18T12:31:08Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=e10db714
+2026-01-18T12:31:09Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=55475a38
+2026-01-18T12:31:10Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=642a7bfc
+2026-01-18T12:31:11Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=1bb2ad0f
+2026-01-18T12:31:13Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=1cdf1b30
+2026-01-18T12:31:14Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=1b581bab
+2026-01-18T12:31:14Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=25c85867
+2026-01-18T12:31:16Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=04adb9ee
+2026-01-18T12:31:17Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=43fec2dc
+2026-01-18T12:31:18Z INFO api-edge request completed in 79ms status=200 rid=58d9f0b5
+2026-01-18T12:31:18Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=2ef27ef5
+2026-01-18T12:31:19Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=d62a9d98
+2026-01-18T12:31:20Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=fb6d11f2
+2026-01-18T12:31:21Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=73f5439c
+2026-01-18T12:31:23Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=632b7151
+2026-01-18T12:31:24Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=5a4e3106
+2026-01-18T12:31:25Z INFO api-edge health check passed in 67ms
+2026-01-18T12:31:25Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=deb02b3c
+2026-01-18T12:31:26Z WARN api-edge slow request 240ms rid=36bee6c4
+2026-01-18T12:31:27Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=fa9a16ad
+2026-01-18T12:31:28Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=8a500179
+2026-01-18T12:31:29Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=11328b11
+2026-01-18T12:31:30Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=8d588524
+2026-01-18T12:31:31Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=adfc9be2
+2026-01-18T12:31:32Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=946df173
+2026-01-18T12:31:33Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=fc0d2494
+2026-01-18T12:31:34Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=0a6f3c0f
+2026-01-18T12:31:36Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=bae3f448
+2026-01-18T12:31:37Z INFO api-edge health check passed in 44ms
+2026-01-18T12:31:37Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=5a7822fc
+2026-01-18T12:31:39Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=e06a9ef5
+2026-01-18T12:31:40Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=01476fa8
+2026-01-18T12:31:41Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=9e05a13f
+2026-01-18T12:31:42Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=c23e8a0d
+2026-01-18T12:31:43Z INFO api-edge health check passed in 78ms
+2026-01-18T12:31:44Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=0afa1617
+2026-01-18T12:31:45Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=582e7433
+2026-01-18T12:31:46Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=eb953b0e
+2026-01-18T12:31:47Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=f200ff21
+2026-01-18T12:31:48Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=cc700a21
+2026-01-18T12:31:49Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=8349dd44
+2026-01-18T12:31:51Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=11657d47
+2026-01-18T12:31:52Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=5fc5d05a
+2026-01-18T12:31:53Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=3d3c15ed
+2026-01-18T12:31:54Z INFO api-edge request completed in 63ms status=200 rid=9ca72794
+2026-01-18T12:31:54Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=5e643669
+2026-01-18T12:31:55Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=0646264a
+2026-01-18T12:31:56Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=8cf25666
+2026-01-18T12:31:57Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=ec4c9be9
+2026-01-18T12:31:58Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=fc0a1be6
+2026-01-18T12:32:00Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=c34da961
+2026-01-18T12:32:01Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=e0652a92
+2026-01-18T12:32:02Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=13c4ffd3
+2026-01-18T12:32:03Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=91bfc390
+2026-01-18T12:32:04Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=a3030d7e
+2026-01-18T12:32:05Z INFO api-edge health check passed in 18ms
+2026-01-18T12:32:05Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=71bb0205
+2026-01-18T12:32:07Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=dc655bd6
+2026-01-18T12:32:08Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=eab2216a
+2026-01-18T12:32:09Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=38afcb68
+2026-01-18T12:32:10Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=48330dee
+2026-01-18T12:32:11Z INFO api-edge health check passed in 87ms
+2026-01-18T12:32:11Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=37fda581
+2026-01-18T12:32:12Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=0b4bf1f3
+2026-01-18T12:32:13Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=f52d3b2a
+2026-01-18T12:32:14Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=1012837a
+2026-01-18T12:32:15Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=fbd12daa
+2026-01-18T12:32:17Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=4a511802
+2026-01-18T12:32:18Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=0fc6f261
+2026-01-18T12:32:19Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=ba4b12e4
+2026-01-18T12:32:20Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=2ef8dc36
+2026-01-18T12:32:21Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=9d685413
+2026-01-18T12:32:23Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=f8951b95
+2026-01-18T12:32:24Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=e0b43c17
+2026-01-18T12:32:25Z INFO api-edge request completed in 28ms status=200 rid=1b65a959
+2026-01-18T12:32:25Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=29f99161
+2026-01-18T12:32:26Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=41503e04
+2026-01-18T12:32:26Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=3057ae6a
+2026-01-18T12:32:28Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=f57a7245
+2026-01-18T12:32:28Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=a5af39bc
+2026-01-18T12:32:29Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=35794b34
+2026-01-18T12:32:30Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=58e58303
+2026-01-18T12:32:31Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=ba955cc3
+2026-01-18T12:32:32Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=cab8f80f
+2026-01-18T12:32:33Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=c8c4795a
+2026-01-18T12:32:34Z INFO api-edge request completed in 44ms status=200 rid=8d260c85
+2026-01-18T12:32:34Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=4977dd34
+2026-01-18T12:32:35Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=ba39d277
+2026-01-18T12:32:36Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=73839583
+2026-01-18T12:32:36Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=698d6165
+2026-01-18T12:32:38Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=33e7e9a9
+2026-01-18T12:32:39Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=be27e0d2
+2026-01-18T12:32:40Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=ee1b132a
+2026-01-18T12:32:41Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=8d989cef
+2026-01-18T12:32:42Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=ed1694ab
+2026-01-18T12:32:44Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=b58061bf
+2026-01-18T12:32:45Z INFO api-edge health check passed in 49ms
+2026-01-18T12:32:45Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=464b7892
+2026-01-18T12:32:46Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=48f40780
+2026-01-18T12:32:47Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=5f535f08
+2026-01-18T12:32:48Z ERROR api-edge returned 503 to client: dependency ledger-svc failed rid=e13b373b
+2026-01-18T12:32:49Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=c666ef13
+2026-01-18T12:32:51Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=813d533a
+2026-01-18T12:32:52Z ERROR api-edge HTTP 502 Bad Gateway from ledger-svc rid=5e88dbd3

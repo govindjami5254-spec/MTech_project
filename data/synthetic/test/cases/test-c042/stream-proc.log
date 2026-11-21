@@ -1,0 +1,62 @@
+2026-02-01T17:29:14.824+05:30 info stream-proc served GET /api status=200 in 35ms trace=3b02f8ab
+2026-02-01T17:29:22.727+05:30 info stream-proc served GET /api status=200 in 39ms trace=b427d096
+2026-02-01T17:29:33.513+05:30 info stream-proc served GET /api status=200 in 37ms trace=77bf4b1b
+2026-02-01T17:29:39.165+05:30 info stream-proc event loop lag 77ms ok
+2026-02-01T17:29:45.229+05:30 info stream-proc served GET /api status=200 in 40ms trace=08e12323
+2026-02-01T17:29:54.393+05:30 info stream-proc served GET /api status=200 in 19ms trace=57c148de
+2026-02-01T17:30:07.117+05:30 info stream-proc served GET /api status=200 in 24ms trace=e8cbb3bb
+2026-02-01T17:30:19.001+05:30 info stream-proc event loop lag 9ms ok
+2026-02-01T17:30:32.645+05:30 info stream-proc event loop lag 24ms ok
+2026-02-01T17:30:42.700+05:30 info stream-proc event loop lag 36ms ok
+2026-02-01T17:30:51.242+05:30 info stream-proc served GET /api status=200 in 82ms trace=8e012bfe
+2026-02-01T17:31:03.587+05:30 info stream-proc event loop lag 58ms ok
+2026-02-01T17:31:12.788+05:30 info stream-proc served GET /api status=200 in 89ms trace=c8e5354b
+2026-02-01T17:31:24.170+05:30 info stream-proc event loop lag 93ms ok
+2026-02-01T17:31:30.466+05:30 info stream-proc event loop lag 41ms ok
+2026-02-01T17:31:37.583+05:30 info stream-proc served GET /api status=200 in 88ms trace=30297b1e
+2026-02-01T17:31:43.769+05:30 info stream-proc event loop lag 42ms ok
+2026-02-01T17:31:51.860+05:30 info stream-proc event loop lag 26ms ok
+2026-02-01T17:32:05.184+05:30 info stream-proc served GET /api status=200 in 19ms trace=e13e593a
+2026-02-01T17:32:14.672+05:30 info stream-proc served GET /api status=200 in 60ms trace=6fa8de67
+2026-02-01T17:32:22.474+05:30 info stream-proc served GET /api status=200 in 91ms trace=b36a8418
+2026-02-01T17:32:34.707+05:30 info stream-proc event loop lag 64ms ok
+2026-02-01T17:32:42.916+05:30 info stream-proc served GET /api status=200 in 65ms trace=514bc6c6
+2026-02-01T17:32:53.108+05:30 info stream-proc served GET /api status=200 in 51ms trace=cac22ef1
+2026-02-01T17:32:59.079+05:30 info stream-proc served GET /api status=200 in 94ms trace=952f5aea
+2026-02-01T17:33:12.823+05:30 info stream-proc served GET /api status=200 in 38ms trace=eae84a3b
+2026-02-01T17:33:24.509+05:30 info stream-proc served GET /api status=200 in 67ms trace=83afe7fa
+2026-02-01T17:33:36.963+05:30 info stream-proc event loop lag 40ms ok
+2026-02-01T17:33:45.120+05:30 info stream-proc event loop lag 47ms ok
+2026-02-01T17:33:49.011+05:30 error stream-proc FetchError: request to http://tsdb:8086 failed, reason: socket hang up trace=7e44a294
+2026-02-01T17:33:51.328+05:30 info stream-proc event loop lag 27ms ok
+2026-02-01T17:33:51.569+05:30 warn stream-proc retry 2/3 for tsdb scheduled in 500ms
+2026-02-01T17:33:54.428+05:30 error stream-proc circuit open for tsdb after repeated failures
+2026-02-01T17:34:04.273+05:30 info stream-proc served GET /api status=200 in 50ms trace=7770f83b
+2026-02-01T17:34:10.359+05:30 info stream-proc served GET /api status=200 in 39ms trace=1f169fa4
+2026-02-01T17:34:22.559+05:30 info stream-proc served GET /api status=200 in 26ms trace=faf4bd8e
+2026-02-01T17:34:36.000+05:30 info stream-proc event loop lag 29ms ok
+2026-02-01T17:34:44.338+05:30 info stream-proc event loop lag 81ms ok
+2026-02-01T17:34:53.377+05:30 info stream-proc served GET /api status=200 in 14ms trace=83efc819
+2026-02-01T17:35:07.359+05:30 info stream-proc served GET /api status=200 in 46ms trace=f82f619f
+2026-02-01T17:35:15.768+05:30 info stream-proc event loop lag 91ms ok
+2026-02-01T17:35:25.215+05:30 info stream-proc served GET /api status=200 in 72ms trace=aaba0088
+2026-02-01T17:35:35.714+05:30 info stream-proc event loop lag 22ms ok
+2026-02-01T17:35:42.319+05:30 info stream-proc served GET /api status=200 in 26ms trace=7eb236eb
+2026-02-01T17:35:55.762+05:30 info stream-proc served GET /api status=200 in 66ms trace=592e44c7
+2026-02-01T17:36:02.047+05:30 info stream-proc event loop lag 13ms ok
+2026-02-01T17:36:11.889+05:30 info stream-proc served GET /api status=200 in 92ms trace=59855466
+2026-02-01T17:36:18.338+05:30 info stream-proc event loop lag 20ms ok
+2026-02-01T17:36:29.825+05:30 info stream-proc event loop lag 86ms ok
+2026-02-01T17:36:43.445+05:30 info stream-proc event loop lag 82ms ok
+2026-02-01T17:36:52.912+05:30 info stream-proc event loop lag 74ms ok
+2026-02-01T17:37:06.957+05:30 info stream-proc event loop lag 27ms ok
+2026-02-01T17:37:19.424+05:30 info stream-proc event loop lag 12ms ok
+2026-02-01T17:37:29.046+05:30 info stream-proc event loop lag 79ms ok
+2026-02-01T17:37:42.277+05:30 info stream-proc served GET /api status=200 in 72ms trace=d943330c
+2026-02-01T17:37:56.442+05:30 info stream-proc event loop lag 93ms ok
+2026-02-01T17:38:07.231+05:30 info stream-proc served GET /api status=200 in 90ms trace=94582a2e
+2026-02-01T17:38:19.764+05:30 info stream-proc served GET /api status=200 in 12ms trace=a49a11b2
+2026-02-01T17:38:30.172+05:30 info stream-proc event loop lag 48ms ok
+2026-02-01T17:38:39.958+05:30 info stream-proc event loop lag 20ms ok
+2026-02-01T17:38:46.866+05:30 info stream-proc served GET /api status=200 in 79ms trace=a25741aa
+2026-02-01T17:39:00.455+05:30 info stream-proc served GET /api status=200 in 86ms trace=53ecbfad

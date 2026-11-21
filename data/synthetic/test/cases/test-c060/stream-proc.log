@@ -1,0 +1,62 @@
+2026-02-06T14:30:21Z INFO stream-proc tick ok elapsed_ms=31
+2026-02-06T14:30:29Z INFO stream-proc http request method=GET status=200 latency_ms=94 span=dd70df6e
+2026-02-06T14:30:39Z INFO stream-proc tick ok elapsed_ms=56
+2026-02-06T14:30:53Z INFO stream-proc tick ok elapsed_ms=69
+2026-02-06T14:31:02Z INFO stream-proc http request method=GET status=200 latency_ms=12 span=313cb67f
+2026-02-06T14:31:13Z INFO stream-proc tick ok elapsed_ms=60
+2026-02-06T14:31:27Z INFO stream-proc http request method=GET status=200 latency_ms=69 span=f52699d8
+2026-02-06T14:31:41Z INFO stream-proc http request method=GET status=200 latency_ms=11 span=038084ef
+2026-02-06T14:31:53Z INFO stream-proc tick ok elapsed_ms=64
+2026-02-06T14:32:04Z INFO stream-proc tick ok elapsed_ms=27
+2026-02-06T14:32:05Z WARN stream-proc client sent oversized header, truncated span=e016125b
+2026-02-06T14:32:10Z INFO stream-proc tick ok elapsed_ms=28
+2026-02-06T14:32:22Z INFO stream-proc tick ok elapsed_ms=27
+2026-02-06T14:32:23Z WARN stream-proc slow poll elapsed_ms=100
+2026-02-06T14:32:28Z INFO stream-proc http request method=GET status=200 latency_ms=90 span=cb929156
+2026-02-06T14:32:40Z INFO stream-proc http request method=GET status=200 latency_ms=67 span=1c54e01c
+2026-02-06T14:32:46Z INFO stream-proc tick ok elapsed_ms=23
+2026-02-06T14:32:54Z INFO stream-proc tick ok elapsed_ms=32
+2026-02-06T14:33:02Z INFO stream-proc http request method=GET status=200 latency_ms=72 span=c6796a3f
+2026-02-06T14:33:08Z INFO stream-proc http request method=GET status=200 latency_ms=46 span=d416c402
+2026-02-06T14:33:21Z INFO stream-proc http request method=GET status=200 latency_ms=73 span=3754924c
+2026-02-06T14:33:33Z INFO stream-proc tick ok elapsed_ms=68
+2026-02-06T14:33:40Z INFO stream-proc http request method=GET status=200 latency_ms=19 span=c6b4a881
+2026-02-06T14:33:51Z INFO stream-proc tick ok elapsed_ms=8
+2026-02-06T14:34:05Z INFO stream-proc tick ok elapsed_ms=77
+2026-02-06T14:34:11Z INFO stream-proc tick ok elapsed_ms=85
+2026-02-06T14:34:21Z INFO stream-proc tick ok elapsed_ms=62
+2026-02-06T14:34:32Z INFO stream-proc http request method=GET status=200 latency_ms=45 span=d6a8cb72
+2026-02-06T14:34:45Z INFO stream-proc http request method=GET status=200 latency_ms=44 span=052bebd6
+2026-02-06T14:34:57Z INFO stream-proc tick ok elapsed_ms=24
+2026-02-06T14:35:04Z INFO stream-proc http request method=GET status=200 latency_ms=30 span=862131de
+2026-02-06T14:35:11Z INFO stream-proc http request method=GET status=200 latency_ms=63 span=c04beec3
+2026-02-06T14:35:22Z INFO stream-proc tick ok elapsed_ms=92
+2026-02-06T14:35:34Z INFO stream-proc tick ok elapsed_ms=67
+2026-02-06T14:35:44Z INFO stream-proc http request method=GET status=200 latency_ms=31 span=567dedd4
+2026-02-06T14:35:53Z INFO stream-proc http request method=GET status=200 latency_ms=30 span=eb688363
+2026-02-06T14:35:59Z INFO stream-proc tick ok elapsed_ms=27
+2026-02-06T14:36:09Z INFO stream-proc http request method=GET status=200 latency_ms=29 span=5f3c339b
+2026-02-06T14:36:21Z INFO stream-proc http request method=GET status=200 latency_ms=46 span=38b7d6d1
+2026-02-06T14:36:34Z INFO stream-proc http request method=GET status=200 latency_ms=72 span=884f3c25
+2026-02-06T14:36:47Z INFO stream-proc tick ok elapsed_ms=20
+2026-02-06T14:36:59Z INFO stream-proc tick ok elapsed_ms=41
+2026-02-06T14:37:05Z INFO stream-proc http request method=GET status=200 latency_ms=13 span=7a4e2c22
+2026-02-06T14:37:11Z INFO stream-proc tick ok elapsed_ms=46
+2026-02-06T14:37:19Z INFO stream-proc http request method=GET status=200 latency_ms=12 span=2b084320
+2026-02-06T14:37:32Z INFO stream-proc tick ok elapsed_ms=55
+2026-02-06T14:37:45Z INFO stream-proc tick ok elapsed_ms=60
+2026-02-06T14:37:53Z INFO stream-proc http request method=GET status=200 latency_ms=53 span=f4c6339e
+2026-02-06T14:38:00Z INFO stream-proc tick ok elapsed_ms=19
+2026-02-06T14:38:10Z INFO stream-proc http request method=GET status=200 latency_ms=38 span=c5d8488c
+2026-02-06T14:38:20Z INFO stream-proc tick ok elapsed_ms=61
+2026-02-06T14:38:30Z INFO stream-proc tick ok elapsed_ms=31
+2026-02-06T14:38:37Z INFO stream-proc http request method=GET status=200 latency_ms=51 span=7c2d03f4
+2026-02-06T14:38:44Z INFO stream-proc http request method=GET status=200 latency_ms=17 span=fe6ee40d
+2026-02-06T14:38:54Z INFO stream-proc http request method=GET status=200 latency_ms=51 span=f5e3f490
+2026-02-06T14:39:08Z INFO stream-proc http request method=GET status=200 latency_ms=76 span=33b126e2
+2026-02-06T14:39:19Z INFO stream-proc http request method=GET status=200 latency_ms=37 span=9e001b7d
+2026-02-06T14:39:27Z INFO stream-proc tick ok elapsed_ms=86
+2026-02-06T14:39:34Z INFO stream-proc http request method=GET status=200 latency_ms=43 span=912526df
+2026-02-06T14:39:46Z INFO stream-proc tick ok elapsed_ms=68
+2026-02-06T14:39:59Z INFO stream-proc tick ok elapsed_ms=22
+2026-02-06T14:40:06Z INFO stream-proc http request method=GET status=200 latency_ms=78 span=3de5dde5

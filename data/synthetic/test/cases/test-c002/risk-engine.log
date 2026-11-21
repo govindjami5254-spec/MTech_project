@@ -1,0 +1,60 @@
+2026-02-06 12:47:27,256 INFO risk-engine worker heartbeat ok (78ms)
+2026-02-06 12:47:36,827 INFO risk-engine worker heartbeat ok (56ms)
+2026-02-06 12:47:43,269 INFO risk-engine worker heartbeat ok (48ms)
+2026-02-06 12:47:53,118 INFO risk-engine GET /v1/items 200 66ms req_id=179eb68e
+2026-02-06 12:48:05,105 INFO risk-engine GET /v1/items 200 71ms req_id=775a5f99
+2026-02-06 12:48:15,562 INFO risk-engine GET /v1/items 200 13ms req_id=3c9f9f16
+2026-02-06 12:48:27,087 INFO risk-engine worker heartbeat ok (51ms)
+2026-02-06 12:48:34,981 INFO risk-engine worker heartbeat ok (19ms)
+2026-02-06 12:48:48,789 INFO risk-engine worker heartbeat ok (39ms)
+2026-02-06 12:48:58,659 INFO risk-engine worker heartbeat ok (84ms)
+2026-02-06 12:49:05,112 INFO risk-engine worker heartbeat ok (29ms)
+2026-02-06 12:49:11,470 INFO risk-engine GET /v1/items 200 48ms req_id=aa721aa9
+2026-02-06 12:49:25,621 INFO risk-engine worker heartbeat ok (76ms)
+2026-02-06 12:49:39,106 INFO risk-engine worker heartbeat ok (80ms)
+2026-02-06 12:49:48,477 INFO risk-engine worker heartbeat ok (86ms)
+2026-02-06 12:50:01,758 INFO risk-engine GET /v1/items 200 13ms req_id=9e970269
+2026-02-06 12:50:15,333 INFO risk-engine worker heartbeat ok (19ms)
+2026-02-06 12:50:28,268 INFO risk-engine worker heartbeat ok (93ms)
+2026-02-06 12:50:42,906 INFO risk-engine worker heartbeat ok (9ms)
+2026-02-06 12:50:54,598 INFO risk-engine GET /v1/items 200 32ms req_id=f352c7f6
+2026-02-06 12:51:08,986 INFO risk-engine worker heartbeat ok (67ms)
+2026-02-06 12:51:16,095 INFO risk-engine worker heartbeat ok (46ms)
+2026-02-06 12:51:25,318 INFO risk-engine GET /v1/items 200 14ms req_id=fd52179f
+2026-02-06 12:51:35,517 INFO risk-engine worker heartbeat ok (53ms)
+2026-02-06 12:51:43,964 INFO risk-engine GET /v1/items 200 93ms req_id=336c3675
+2026-02-06 12:51:53,309 INFO risk-engine worker heartbeat ok (90ms)
+2026-02-06 12:52:05,640 INFO risk-engine worker heartbeat ok (33ms)
+2026-02-06 12:52:19,037 INFO risk-engine worker heartbeat ok (13ms)
+2026-02-06 12:52:26,093 INFO risk-engine GET /v1/items 200 83ms req_id=da3a926a
+2026-02-06 12:52:33,616 ERROR risk-engine requests.exceptions.ConnectionError: HTTPConnectionPool(host='risk-db', port=1521): Max retries exceeded req_id=3c707615
+2026-02-06 12:52:33,920 INFO risk-engine GET /v1/items 200 92ms req_id=296781ef
+2026-02-06 12:52:35,639 WARNING risk-engine urllib3 retrying (risk-db) after connection broken
+2026-02-06 12:52:38,994 ERROR risk-engine aborting request: risk-db unreachable after retries
+2026-02-06 12:52:41,722 INFO risk-engine GET /v1/items 200 11ms req_id=285c9216
+2026-02-06 12:52:54,084 INFO risk-engine GET /v1/items 200 44ms req_id=7e2a460e
+2026-02-06 12:53:07,628 INFO risk-engine worker heartbeat ok (22ms)
+2026-02-06 12:53:15,012 INFO risk-engine GET /v1/items 200 19ms req_id=448aff31
+2026-02-06 12:53:27,583 INFO risk-engine worker heartbeat ok (45ms)
+2026-02-06 12:53:33,738 INFO risk-engine GET /v1/items 200 64ms req_id=94f07a51
+2026-02-06 12:53:41,084 INFO risk-engine GET /v1/items 200 91ms req_id=65d99561
+2026-02-06 12:53:48,549 INFO risk-engine GET /v1/items 200 22ms req_id=40afb3cb
+2026-02-06 12:54:02,673 INFO risk-engine worker heartbeat ok (27ms)
+2026-02-06 12:54:14,609 INFO risk-engine GET /v1/items 200 17ms req_id=6ab7337d
+2026-02-06 12:54:21,952 INFO risk-engine GET /v1/items 200 13ms req_id=d6c7fb29
+2026-02-06 12:54:28,614 INFO risk-engine worker heartbeat ok (89ms)
+2026-02-06 12:54:39,989 INFO risk-engine GET /v1/items 200 84ms req_id=e143baaf
+2026-02-06 12:54:49,934 INFO risk-engine GET /v1/items 200 82ms req_id=9630a2e5
+2026-02-06 12:55:02,794 INFO risk-engine worker heartbeat ok (29ms)
+2026-02-06 12:55:14,727 INFO risk-engine GET /v1/items 200 14ms req_id=255f0a7b
+2026-02-06 12:55:27,242 INFO risk-engine worker heartbeat ok (81ms)
+2026-02-06 12:55:37,547 INFO risk-engine GET /v1/items 200 32ms req_id=a7a109ad
+2026-02-06 12:55:45,059 INFO risk-engine GET /v1/items 200 93ms req_id=020ccc0e
+2026-02-06 12:55:54,868 INFO risk-engine worker heartbeat ok (50ms)
+2026-02-06 12:56:05,964 INFO risk-engine GET /v1/items 200 89ms req_id=a7bbc58b
+2026-02-06 12:56:19,881 INFO risk-engine worker heartbeat ok (45ms)
+2026-02-06 12:56:28,298 INFO risk-engine worker heartbeat ok (41ms)
+2026-02-06 12:56:35,402 INFO risk-engine worker heartbeat ok (23ms)
+2026-02-06 12:56:48,033 INFO risk-engine GET /v1/items 200 67ms req_id=07a0c30f
+2026-02-06 12:57:01,084 INFO risk-engine worker heartbeat ok (16ms)
+2026-02-06 12:57:12,770 INFO risk-engine worker heartbeat ok (57ms)

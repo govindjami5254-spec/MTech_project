@@ -1,0 +1,62 @@
+2026-02-06T17:30:31.067+05:30 info tsdb served GET /api status=200 in 10ms trace=e40cc89c
+2026-02-06T17:30:41.190+05:30 info tsdb event loop lag 85ms ok
+2026-02-06T17:30:47.731+05:30 info tsdb served GET /api status=200 in 31ms trace=0d66a419
+2026-02-06T17:30:59.813+05:30 info tsdb event loop lag 44ms ok
+2026-02-06T17:31:06.910+05:30 info tsdb event loop lag 57ms ok
+2026-02-06T17:31:20.035+05:30 info tsdb event loop lag 17ms ok
+2026-02-06T17:31:31.156+05:30 info tsdb served GET /api status=200 in 9ms trace=a9055cb2
+2026-02-06T17:31:40.076+05:30 info tsdb served GET /api status=200 in 43ms trace=536acba6
+2026-02-06T17:31:53.329+05:30 info tsdb served GET /api status=200 in 61ms trace=996287dd
+2026-02-06T17:32:05.402+05:30 info tsdb event loop lag 94ms ok
+2026-02-06T17:32:17.824+05:30 info tsdb served GET /api status=200 in 23ms trace=79d81e7b
+2026-02-06T17:32:25.266+05:30 info tsdb served GET /api status=200 in 29ms trace=633d05a0
+2026-02-06T17:32:36.729+05:30 info tsdb event loop lag 42ms ok
+2026-02-06T17:32:42.875+05:30 info tsdb event loop lag 82ms ok
+2026-02-06T17:32:55.032+05:30 info tsdb served GET /api status=200 in 76ms trace=fed2d152
+2026-02-06T17:33:04.496+05:30 info tsdb served GET /api status=200 in 23ms trace=c6daadc6
+2026-02-06T17:33:14.270+05:30 info tsdb event loop lag 48ms ok
+2026-02-06T17:33:22.278+05:30 info tsdb served GET /api status=200 in 67ms trace=afc1e3e0
+2026-02-06T17:33:31.940+05:30 info tsdb event loop lag 37ms ok
+2026-02-06T17:33:38.888+05:30 info tsdb served GET /api status=200 in 39ms trace=d113a03b
+2026-02-06T17:33:46.779+05:30 info tsdb served GET /api status=200 in 15ms trace=8c9dd55e
+2026-02-06T17:33:58.907+05:30 info tsdb served GET /api status=200 in 44ms trace=5c4d6ba1
+2026-02-06T17:34:06.390+05:30 info tsdb served GET /api status=200 in 84ms trace=5daa92d2
+2026-02-06T17:34:14.747+05:30 info tsdb served GET /api status=200 in 46ms trace=6e87a9d9
+2026-02-06T17:34:25.952+05:30 info tsdb event loop lag 75ms ok
+2026-02-06T17:34:39.782+05:30 info tsdb event loop lag 21ms ok
+2026-02-06T17:34:51.414+05:30 info tsdb served GET /api status=200 in 87ms trace=4a211080
+2026-02-06T17:35:00.711+05:30 info tsdb event loop lag 75ms ok
+2026-02-06T17:35:09.614+05:30 info tsdb event loop lag 25ms ok
+2026-02-06T17:35:10.000+05:30 warn tsdb event loop lag 290ms
+2026-02-06T17:35:23.006+05:30 info tsdb served GET /api status=200 in 67ms trace=756d1bbd
+2026-02-06T17:35:29.034+05:30 info tsdb served GET /api status=200 in 12ms trace=6b0ecb74
+2026-02-06T17:35:42.730+05:30 info tsdb event loop lag 79ms ok
+2026-02-06T17:35:53.313+05:30 info tsdb event loop lag 64ms ok
+2026-02-06T17:36:06.362+05:30 info tsdb event loop lag 42ms ok
+2026-02-06T17:36:15.776+05:30 info tsdb served GET /api status=200 in 60ms trace=84c69bd1
+2026-02-06T17:36:21.379+05:30 info tsdb served GET /api status=200 in 66ms trace=7a8a7a14
+2026-02-06T17:36:35.664+05:30 info tsdb served GET /api status=200 in 92ms trace=5484322a
+2026-02-06T17:36:48.363+05:30 info tsdb served GET /api status=200 in 14ms trace=408971fd
+2026-02-06T17:37:02.059+05:30 info tsdb event loop lag 63ms ok
+2026-02-06T17:37:10.166+05:30 info tsdb event loop lag 49ms ok
+2026-02-06T17:37:11.000+05:30 warn tsdb unhandled header x-legacy ignored trace=81601397
+2026-02-06T17:37:21.465+05:30 info tsdb event loop lag 22ms ok
+2026-02-06T17:37:29.386+05:30 info tsdb event loop lag 8ms ok
+2026-02-06T17:37:35.594+05:30 info tsdb event loop lag 73ms ok
+2026-02-06T17:37:46.562+05:30 info tsdb event loop lag 77ms ok
+2026-02-06T17:37:54.342+05:30 info tsdb served GET /api status=200 in 79ms trace=4f0224e1
+2026-02-06T17:38:00.934+05:30 info tsdb event loop lag 38ms ok
+2026-02-06T17:38:10.416+05:30 info tsdb served GET /api status=200 in 42ms trace=af814f79
+2026-02-06T17:38:20.506+05:30 info tsdb served GET /api status=200 in 68ms trace=1853f4fa
+2026-02-06T17:38:28.452+05:30 info tsdb event loop lag 20ms ok
+2026-02-06T17:38:39.902+05:30 info tsdb served GET /api status=200 in 53ms trace=7f5fc072
+2026-02-06T17:38:53.602+05:30 info tsdb event loop lag 49ms ok
+2026-02-06T17:39:04.500+05:30 info tsdb served GET /api status=200 in 28ms trace=a2be30dd
+2026-02-06T17:39:16.987+05:30 info tsdb event loop lag 46ms ok
+2026-02-06T17:39:22.060+05:30 info tsdb event loop lag 78ms ok
+2026-02-06T17:39:30.564+05:30 info tsdb served GET /api status=200 in 60ms trace=631e81fe
+2026-02-06T17:39:41.287+05:30 info tsdb served GET /api status=200 in 78ms trace=967efdd8
+2026-02-06T17:39:47.465+05:30 info tsdb event loop lag 28ms ok
+2026-02-06T17:39:55.716+05:30 info tsdb event loop lag 33ms ok
+2026-02-06T17:40:07.935+05:30 info tsdb served GET /api status=200 in 71ms trace=8d6ea2c6
+2026-02-06T17:40:21.720+05:30 info tsdb served GET /api status=200 in 9ms trace=c1cdccbf

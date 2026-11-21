@@ -1,0 +1,57 @@
+2026-02-11T14:46:56.944+05:30 info login-svc served GET /api status=200 in 12ms trace=174adbc5
+2026-02-11T14:47:10.882+05:30 info login-svc served GET /api status=200 in 72ms trace=1856bf3e
+2026-02-11T14:47:19.865+05:30 info login-svc served GET /api status=200 in 10ms trace=04f9121f
+2026-02-11T14:47:33.560+05:30 info login-svc event loop lag 44ms ok
+2026-02-11T14:47:46.019+05:30 info login-svc event loop lag 69ms ok
+2026-02-11T14:47:52.596+05:30 info login-svc served GET /api status=200 in 87ms trace=17f4d119
+2026-02-11T14:47:58.512+05:30 info login-svc event loop lag 21ms ok
+2026-02-11T14:48:05.887+05:30 info login-svc event loop lag 67ms ok
+2026-02-11T14:48:17.378+05:30 info login-svc served GET /api status=200 in 48ms trace=eebb5b2a
+2026-02-11T14:48:27.733+05:30 info login-svc event loop lag 69ms ok
+2026-02-11T14:48:36.930+05:30 info login-svc event loop lag 71ms ok
+2026-02-11T14:48:47.987+05:30 info login-svc served GET /api status=200 in 11ms trace=628b257d
+2026-02-11T14:48:53.569+05:30 info login-svc served GET /api status=200 in 42ms trace=144ee42f
+2026-02-11T14:49:01.913+05:30 info login-svc event loop lag 17ms ok
+2026-02-11T14:49:14.719+05:30 info login-svc served GET /api status=200 in 78ms trace=3c156042
+2026-02-11T14:49:25.992+05:30 info login-svc event loop lag 53ms ok
+2026-02-11T14:49:37.236+05:30 info login-svc event loop lag 88ms ok
+2026-02-11T14:49:51.368+05:30 info login-svc served GET /api status=200 in 57ms trace=7c064921
+2026-02-11T14:50:04.938+05:30 info login-svc served GET /api status=200 in 89ms trace=f9023dc2
+2026-02-11T14:50:16.007+05:30 info login-svc served GET /api status=200 in 31ms trace=ea47e52b
+2026-02-11T14:50:30.320+05:30 info login-svc event loop lag 80ms ok
+2026-02-11T14:50:44.574+05:30 info login-svc served GET /api status=200 in 47ms trace=295f505c
+2026-02-11T14:50:58.831+05:30 info login-svc event loop lag 13ms ok
+2026-02-11T14:51:07.142+05:30 info login-svc event loop lag 10ms ok
+2026-02-11T14:51:13.246+05:30 info login-svc event loop lag 11ms ok
+2026-02-11T14:51:20.229+05:30 info login-svc event loop lag 19ms ok
+2026-02-11T14:51:29.380+05:30 info login-svc served GET /api status=200 in 65ms trace=b7949166
+2026-02-11T14:51:40.523+05:30 info login-svc served GET /api status=200 in 70ms trace=310eb16b
+2026-02-11T14:51:50.349+05:30 info login-svc event loop lag 67ms ok
+2026-02-11T14:52:00.514+05:30 info login-svc event loop lag 19ms ok
+2026-02-11T14:52:11.997+05:30 info login-svc event loop lag 87ms ok
+2026-02-11T14:52:22.290+05:30 info login-svc served GET /api status=200 in 88ms trace=ddab134e
+2026-02-11T14:52:29.664+05:30 info login-svc event loop lag 13ms ok
+2026-02-11T14:52:36.242+05:30 info login-svc event loop lag 88ms ok
+2026-02-11T14:52:48.337+05:30 info login-svc event loop lag 10ms ok
+2026-02-11T14:52:58.893+05:30 info login-svc event loop lag 24ms ok
+2026-02-11T14:53:07.929+05:30 info login-svc event loop lag 60ms ok
+2026-02-11T14:53:19.041+05:30 info login-svc event loop lag 24ms ok
+2026-02-11T14:53:33.274+05:30 info login-svc served GET /api status=200 in 59ms trace=f81813e9
+2026-02-11T14:53:40.016+05:30 info login-svc event loop lag 34ms ok
+2026-02-11T14:53:51.588+05:30 info login-svc event loop lag 88ms ok
+2026-02-11T14:54:05.887+05:30 info login-svc event loop lag 16ms ok
+2026-02-11T14:54:11.536+05:30 info login-svc event loop lag 77ms ok
+2026-02-11T14:54:21.702+05:30 info login-svc served GET /api status=200 in 87ms trace=23e28b32
+2026-02-11T14:54:33.342+05:30 info login-svc served GET /api status=200 in 43ms trace=6d4648c8
+2026-02-11T14:54:45.813+05:30 info login-svc event loop lag 31ms ok
+2026-02-11T14:54:56.319+05:30 info login-svc event loop lag 53ms ok
+2026-02-11T14:55:08.769+05:30 info login-svc event loop lag 41ms ok
+2026-02-11T14:55:16.566+05:30 info login-svc served GET /api status=200 in 83ms trace=f1d69860
+2026-02-11T14:55:17.000+05:30 warn login-svc event loop lag 250ms
+2026-02-11T14:55:29.043+05:30 info login-svc served GET /api status=200 in 64ms trace=0b3af73d
+2026-02-11T14:55:42.759+05:30 info login-svc served GET /api status=200 in 11ms trace=3bfd63d9
+2026-02-11T14:55:53.595+05:30 info login-svc event loop lag 78ms ok
+2026-02-11T14:56:03.749+05:30 info login-svc event loop lag 72ms ok
+2026-02-11T14:56:14.428+05:30 info login-svc event loop lag 33ms ok
+2026-02-11T14:56:23.280+05:30 info login-svc event loop lag 37ms ok
+2026-02-11T14:56:36.066+05:30 info login-svc served GET /api status=200 in 94ms trace=de4b9f54

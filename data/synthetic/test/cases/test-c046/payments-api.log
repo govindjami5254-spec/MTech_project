@@ -1,0 +1,62 @@
+2026-01-12T13:36:38Z INFO payments-api tick ok elapsed_ms=19
+2026-01-12T13:36:50Z INFO payments-api tick ok elapsed_ms=26
+2026-01-12T13:36:56Z INFO payments-api http request method=GET status=200 latency_ms=93 span=f5305726
+2026-01-12T13:37:08Z INFO payments-api http request method=GET status=200 latency_ms=84 span=6fe27ae9
+2026-01-12T13:37:19Z INFO payments-api http request method=GET status=200 latency_ms=41 span=7e5a2495
+2026-01-12T13:37:26Z INFO payments-api http request method=GET status=200 latency_ms=29 span=b304854b
+2026-01-12T13:37:39Z INFO payments-api tick ok elapsed_ms=30
+2026-01-12T13:37:51Z INFO payments-api http request method=GET status=200 latency_ms=88 span=e61d8f76
+2026-01-12T13:37:57Z INFO payments-api http request method=GET status=200 latency_ms=41 span=bd54b76a
+2026-01-12T13:38:04Z INFO payments-api tick ok elapsed_ms=41
+2026-01-12T13:38:12Z INFO payments-api http request method=GET status=200 latency_ms=52 span=f4aa1eac
+2026-01-12T13:38:19Z INFO payments-api tick ok elapsed_ms=26
+2026-01-12T13:38:28Z INFO payments-api tick ok elapsed_ms=73
+2026-01-12T13:38:34Z INFO payments-api tick ok elapsed_ms=91
+2026-01-12T13:38:43Z INFO payments-api http request method=GET status=200 latency_ms=21 span=b2656029
+2026-01-12T13:38:57Z INFO payments-api http request method=GET status=200 latency_ms=10 span=5d318440
+2026-01-12T13:39:11Z INFO payments-api http request method=GET status=200 latency_ms=80 span=5b21a93f
+2026-01-12T13:39:18Z INFO payments-api http request method=GET status=200 latency_ms=31 span=c260adc2
+2026-01-12T13:39:31Z INFO payments-api http request method=GET status=200 latency_ms=53 span=e0c56f18
+2026-01-12T13:39:42Z INFO payments-api tick ok elapsed_ms=52
+2026-01-12T13:39:51Z INFO payments-api http request method=GET status=200 latency_ms=93 span=455ea979
+2026-01-12T13:39:57Z INFO payments-api tick ok elapsed_ms=48
+2026-01-12T13:40:10Z INFO payments-api http request method=GET status=200 latency_ms=91 span=11bf4664
+2026-01-12T13:40:17Z INFO payments-api tick ok elapsed_ms=43
+2026-01-12T13:40:27Z INFO payments-api http request method=GET status=200 latency_ms=25 span=42858226
+2026-01-12T13:40:40Z INFO payments-api tick ok elapsed_ms=48
+2026-01-12T13:40:52Z INFO payments-api tick ok elapsed_ms=18
+2026-01-12T13:40:59Z INFO payments-api http request method=GET status=200 latency_ms=26 span=5f0c0131
+2026-01-12T13:41:11Z INFO payments-api tick ok elapsed_ms=10
+2026-01-12T13:41:20Z INFO payments-api tick ok elapsed_ms=36
+2026-01-12T13:41:31Z INFO payments-api http request method=GET status=200 latency_ms=84 span=3734b971
+2026-01-12T13:41:42Z INFO payments-api tick ok elapsed_ms=43
+2026-01-12T13:41:48Z INFO payments-api http request method=GET status=200 latency_ms=32 span=eb6397d8
+2026-01-12T13:41:59Z INFO payments-api tick ok elapsed_ms=34
+2026-01-12T13:42:09Z INFO payments-api tick ok elapsed_ms=71
+2026-01-12T13:42:19Z INFO payments-api http request method=GET status=200 latency_ms=48 span=a9d165c2
+2026-01-12T13:42:31Z INFO payments-api tick ok elapsed_ms=24
+2026-01-12T13:42:39Z INFO payments-api http request method=GET status=200 latency_ms=65 span=e08c7015
+2026-01-12T13:42:47Z INFO payments-api tick ok elapsed_ms=45
+2026-01-12T13:42:56Z INFO payments-api http request method=GET status=200 latency_ms=25 span=41fc7399
+2026-01-12T13:43:06Z INFO payments-api tick ok elapsed_ms=11
+2026-01-12T13:43:15Z INFO payments-api http request method=GET status=200 latency_ms=93 span=a0a8c20a
+2026-01-12T13:43:23Z INFO payments-api http request method=GET status=200 latency_ms=45 span=92158f7b
+2026-01-12T13:43:29Z INFO payments-api tick ok elapsed_ms=10
+2026-01-12T13:43:35Z INFO payments-api http request method=GET status=200 latency_ms=32 span=c5bafa24
+2026-01-12T13:43:48Z INFO payments-api tick ok elapsed_ms=78
+2026-01-12T13:43:58Z INFO payments-api http request method=GET status=200 latency_ms=31 span=52bbc9ab
+2026-01-12T13:44:04Z INFO payments-api tick ok elapsed_ms=11
+2026-01-12T13:44:05Z WARN payments-api client sent oversized header, truncated span=34173074
+2026-01-12T13:44:14Z INFO payments-api tick ok elapsed_ms=16
+2026-01-12T13:44:26Z INFO payments-api tick ok elapsed_ms=19
+2026-01-12T13:44:37Z INFO payments-api tick ok elapsed_ms=82
+2026-01-12T13:44:47Z INFO payments-api tick ok elapsed_ms=29
+2026-01-12T13:44:55Z INFO payments-api tick ok elapsed_ms=85
+2026-01-12T13:45:03Z INFO payments-api http request method=GET status=200 latency_ms=23 span=66ab97d1
+2026-01-12T13:45:15Z INFO payments-api tick ok elapsed_ms=67
+2026-01-12T13:45:21Z INFO payments-api tick ok elapsed_ms=22
+2026-01-12T13:45:33Z INFO payments-api tick ok elapsed_ms=29
+2026-01-12T13:45:47Z INFO payments-api http request method=GET status=200 latency_ms=21 span=8371400c
+2026-01-12T13:45:57Z INFO payments-api http request method=GET status=200 latency_ms=90 span=983e0e47
+2026-01-12T13:46:11Z INFO payments-api tick ok elapsed_ms=75
+2026-01-12T13:46:23Z INFO payments-api http request method=GET status=200 latency_ms=82 span=ddc0bc96

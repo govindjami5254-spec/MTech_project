@@ -1,0 +1,58 @@
+2026-02-13T11:04:24Z INFO fare-cache http request method=GET status=200 latency_ms=63 span=d7783ac6
+2026-02-13T11:04:38Z INFO fare-cache http request method=GET status=200 latency_ms=65 span=a1e2e76c
+2026-02-13T11:04:46Z INFO fare-cache http request method=GET status=200 latency_ms=49 span=0c3a1e62
+2026-02-13T11:04:52Z INFO fare-cache tick ok elapsed_ms=46
+2026-02-13T11:05:01Z INFO fare-cache http request method=GET status=200 latency_ms=19 span=e329ca2d
+2026-02-13T11:05:13Z INFO fare-cache tick ok elapsed_ms=77
+2026-02-13T11:05:27Z INFO fare-cache tick ok elapsed_ms=92
+2026-02-13T11:05:36Z INFO fare-cache http request method=GET status=200 latency_ms=65 span=a06845c3
+2026-02-13T11:05:46Z INFO fare-cache tick ok elapsed_ms=58
+2026-02-13T11:05:56Z INFO fare-cache http request method=GET status=200 latency_ms=44 span=3b1ab0e3
+2026-02-13T11:06:09Z INFO fare-cache tick ok elapsed_ms=14
+2026-02-13T11:06:23Z INFO fare-cache http request method=GET status=200 latency_ms=31 span=5b8134e1
+2026-02-13T11:06:30Z INFO fare-cache http request method=GET status=200 latency_ms=33 span=dea83eae
+2026-02-13T11:06:41Z INFO fare-cache http request method=GET status=200 latency_ms=51 span=2fe2f6e1
+2026-02-13T11:06:50Z INFO fare-cache http request method=GET status=200 latency_ms=14 span=729df492
+2026-02-13T11:07:02Z INFO fare-cache tick ok elapsed_ms=55
+2026-02-13T11:07:10Z INFO fare-cache http request method=GET status=200 latency_ms=73 span=d5587960
+2026-02-13T11:07:22Z INFO fare-cache http request method=GET status=200 latency_ms=83 span=dea20f01
+2026-02-13T11:07:29Z INFO fare-cache tick ok elapsed_ms=71
+2026-02-13T11:07:42Z INFO fare-cache http request method=GET status=200 latency_ms=44 span=dda6e053
+2026-02-13T11:07:53Z INFO fare-cache tick ok elapsed_ms=29
+2026-02-13T11:08:07Z INFO fare-cache tick ok elapsed_ms=20
+2026-02-13T11:08:13Z INFO fare-cache http request method=GET status=200 latency_ms=51 span=e60060dc
+2026-02-13T11:08:19Z INFO fare-cache http request method=GET status=200 latency_ms=41 span=2282227c
+2026-02-13T11:08:30Z INFO fare-cache http request method=GET status=200 latency_ms=66 span=abaaed6d
+2026-02-13T11:08:40Z INFO fare-cache tick ok elapsed_ms=46
+2026-02-13T11:08:50Z INFO fare-cache tick ok elapsed_ms=62
+2026-02-13T11:08:59Z INFO fare-cache tick ok elapsed_ms=74
+2026-02-13T11:09:09Z INFO fare-cache http request method=GET status=200 latency_ms=43 span=592ed153
+2026-02-13T11:09:18Z INFO fare-cache http request method=GET status=200 latency_ms=49 span=318d0b8c
+2026-02-13T11:09:28Z INFO fare-cache tick ok elapsed_ms=83
+2026-02-13T11:09:39Z INFO fare-cache tick ok elapsed_ms=83
+2026-02-13T11:09:52Z INFO fare-cache http request method=GET status=200 latency_ms=88 span=72d1fa3e
+2026-02-13T11:10:02Z INFO fare-cache http request method=GET status=200 latency_ms=78 span=c5e6b6f2
+2026-02-13T11:10:14Z INFO fare-cache http request method=GET status=200 latency_ms=63 span=fa410f5f
+2026-02-13T11:10:22Z INFO fare-cache http request method=GET status=200 latency_ms=67 span=aa46542f
+2026-02-13T11:10:35Z INFO fare-cache http request method=GET status=200 latency_ms=13 span=13a9de6a
+2026-02-13T11:10:48Z INFO fare-cache tick ok elapsed_ms=80
+2026-02-13T11:10:58Z INFO fare-cache tick ok elapsed_ms=18
+2026-02-13T11:11:11Z INFO fare-cache tick ok elapsed_ms=24
+2026-02-13T11:11:23Z INFO fare-cache http request method=GET status=200 latency_ms=25 span=bab6ee67
+2026-02-13T11:11:33Z INFO fare-cache http request method=GET status=200 latency_ms=50 span=80d8a39f
+2026-02-13T11:11:40Z INFO fare-cache http request method=GET status=200 latency_ms=38 span=7fcd79ee
+2026-02-13T11:11:53Z INFO fare-cache tick ok elapsed_ms=29
+2026-02-13T11:12:04Z INFO fare-cache http request method=GET status=200 latency_ms=31 span=d66afa44
+2026-02-13T11:12:16Z INFO fare-cache http request method=GET status=200 latency_ms=17 span=2c4d0823
+2026-02-13T11:12:27Z INFO fare-cache tick ok elapsed_ms=10
+2026-02-13T11:12:40Z INFO fare-cache http request method=GET status=200 latency_ms=20 span=e708e149
+2026-02-13T11:12:46Z INFO fare-cache tick ok elapsed_ms=19
+2026-02-13T11:12:59Z INFO fare-cache tick ok elapsed_ms=25
+2026-02-13T11:13:06Z INFO fare-cache tick ok elapsed_ms=28
+2026-02-13T11:13:12Z INFO fare-cache tick ok elapsed_ms=69
+2026-02-13T11:13:20Z INFO fare-cache tick ok elapsed_ms=82
+2026-02-13T11:13:28Z INFO fare-cache http request method=GET status=200 latency_ms=93 span=cfe341ae
+2026-02-13T11:13:42Z INFO fare-cache tick ok elapsed_ms=14
+2026-02-13T11:13:50Z INFO fare-cache http request method=GET status=200 latency_ms=50 span=63e1a6e7
+2026-02-13T11:13:58Z INFO fare-cache http request method=GET status=200 latency_ms=84 span=b7aa1652
+2026-02-13T11:14:12Z INFO fare-cache tick ok elapsed_ms=85

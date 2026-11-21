@@ -1,0 +1,65 @@
+2026-01-14 11:21:37,747 INFO stream-proc GET /v1/items 200 52ms req_id=1864f247
+2026-01-14 11:21:50,741 INFO stream-proc GET /v1/items 200 60ms req_id=728afb6a
+2026-01-14 11:22:02,972 INFO stream-proc worker heartbeat ok (58ms)
+2026-01-14 11:22:14,448 INFO stream-proc worker heartbeat ok (24ms)
+2026-01-14 11:22:24,527 INFO stream-proc GET /v1/items 200 36ms req_id=ad6e1653
+2026-01-14 11:22:31,205 INFO stream-proc GET /v1/items 200 79ms req_id=604ec962
+2026-01-14 11:22:42,963 INFO stream-proc GET /v1/items 200 74ms req_id=2b7df1c9
+2026-01-14 11:22:51,985 INFO stream-proc GET /v1/items 200 89ms req_id=5dd73443
+2026-01-14 11:22:58,368 INFO stream-proc GET /v1/items 200 19ms req_id=801754dc
+2026-01-14 11:23:10,001 INFO stream-proc worker heartbeat ok (66ms)
+2026-01-14 11:23:18,638 INFO stream-proc worker heartbeat ok (10ms)
+2026-01-14 11:23:32,404 INFO stream-proc worker heartbeat ok (78ms)
+2026-01-14 11:23:46,302 INFO stream-proc worker heartbeat ok (77ms)
+2026-01-14 11:23:59,774 INFO stream-proc GET /v1/items 200 40ms req_id=6ba57f16
+2026-01-14 11:24:09,788 INFO stream-proc worker heartbeat ok (65ms)
+2026-01-14 11:24:23,792 INFO stream-proc worker heartbeat ok (84ms)
+2026-01-14 11:24:32,390 INFO stream-proc worker heartbeat ok (89ms)
+2026-01-14 11:24:38,594 INFO stream-proc GET /v1/items 200 30ms req_id=378d30c6
+2026-01-14 11:24:52,070 INFO stream-proc worker heartbeat ok (31ms)
+2026-01-14 11:25:01,250 INFO stream-proc GET /v1/items 200 52ms req_id=35433d17
+2026-01-14 11:25:08,098 INFO stream-proc GET /v1/items 200 26ms req_id=baaa3b99
+2026-01-14 11:25:21,388 INFO stream-proc worker heartbeat ok (38ms)
+2026-01-14 11:25:32,650 INFO stream-proc worker heartbeat ok (55ms)
+2026-01-14 11:25:41,675 INFO stream-proc worker heartbeat ok (51ms)
+2026-01-14 11:25:52,024 INFO stream-proc GET /v1/items 200 91ms req_id=08ba7d99
+2026-01-14 11:25:58,649 INFO stream-proc worker heartbeat ok (10ms)
+2026-01-14 11:26:12,707 INFO stream-proc GET /v1/items 200 17ms req_id=70f1a40a
+2026-01-14 11:26:19,478 INFO stream-proc GET /v1/items 200 25ms req_id=553a9bd7
+2026-01-14 11:26:26,629 INFO stream-proc worker heartbeat ok (54ms)
+2026-01-14 11:26:28,321 ERROR stream-proc upstream tsdb replied 503 Service Unavailable req_id=d177f4b4
+2026-01-14 11:26:30,713 WARNING stream-proc urllib3 retrying (tsdb) after connection broken
+2026-01-14 11:26:33,960 ERROR stream-proc aborting request: tsdb unreachable after retries
+2026-01-14 11:26:38,319 INFO stream-proc worker heartbeat ok (30ms)
+2026-01-14 11:26:45,077 INFO stream-proc worker heartbeat ok (60ms)
+2026-01-14 11:26:53,381 INFO stream-proc worker heartbeat ok (52ms)
+2026-01-14 11:27:01,475 INFO stream-proc GET /v1/items 200 29ms req_id=ad2f5e58
+2026-01-14 11:27:09,447 INFO stream-proc GET /v1/items 200 67ms req_id=5e595d9b
+2026-01-14 11:27:21,050 INFO stream-proc GET /v1/items 200 54ms req_id=0266c990
+2026-01-14 11:27:31,989 INFO stream-proc worker heartbeat ok (39ms)
+2026-01-14 11:27:39,432 INFO stream-proc GET /v1/items 200 26ms req_id=f4ed122b
+2026-01-14 11:27:45,480 INFO stream-proc worker heartbeat ok (91ms)
+2026-01-14 11:27:57,903 INFO stream-proc GET /v1/items 200 22ms req_id=bb3f1c44
+2026-01-14 11:28:11,092 INFO stream-proc worker heartbeat ok (15ms)
+2026-01-14 11:28:20,392 INFO stream-proc GET /v1/items 200 41ms req_id=c512d315
+2026-01-14 11:28:28,172 INFO stream-proc GET /v1/items 200 27ms req_id=2b52c07c
+2026-01-14 11:28:38,522 INFO stream-proc worker heartbeat ok (88ms)
+2026-01-14 11:28:44,467 INFO stream-proc worker heartbeat ok (34ms)
+2026-01-14 11:28:56,551 INFO stream-proc worker heartbeat ok (82ms)
+2026-01-14 11:29:04,840 INFO stream-proc GET /v1/items 200 10ms req_id=b381d601
+2026-01-14 11:29:12,235 INFO stream-proc GET /v1/items 200 79ms req_id=aed0b0fb
+2026-01-14 11:29:23,648 INFO stream-proc GET /v1/items 200 88ms req_id=a2b3e5c3
+2026-01-14 11:29:31,646 INFO stream-proc worker heartbeat ok (86ms)
+2026-01-14 11:29:38,253 INFO stream-proc worker heartbeat ok (11ms)
+2026-01-14 11:29:49,713 INFO stream-proc worker heartbeat ok (37ms)
+2026-01-14 11:30:00,181 INFO stream-proc GET /v1/items 200 54ms req_id=49ac99f3
+2026-01-14 11:30:11,575 INFO stream-proc GET /v1/items 200 29ms req_id=7be63a0c
+2026-01-14 11:30:17,005 INFO stream-proc GET /v1/items 200 95ms req_id=4dc51407
+2026-01-14 11:30:30,913 INFO stream-proc GET /v1/items 200 57ms req_id=d9178868
+2026-01-14 11:30:43,242 INFO stream-proc worker heartbeat ok (84ms)
+2026-01-14 11:30:52,230 INFO stream-proc GET /v1/items 200 15ms req_id=bf26ce0e
+2026-01-14 11:30:59,438 INFO stream-proc GET /v1/items 200 19ms req_id=6177a3c9
+2026-01-14 11:31:11,056 INFO stream-proc GET /v1/items 200 83ms req_id=5cc9a0b9
+2026-01-14 11:31:17,844 INFO stream-proc GET /v1/items 200 69ms req_id=224d8ed2
+2026-01-14 11:31:25,262 INFO stream-proc GET /v1/items 200 43ms req_id=521103b0
+2026-01-14 11:31:31,233 INFO stream-proc GET /v1/items 200 88ms req_id=6451b1ef

@@ -1,0 +1,63 @@
+2026-02-10T18:01:29.837+05:30 info search-index event loop lag 19ms ok
+2026-02-10T18:01:36.338+05:30 info search-index served GET /api status=200 in 51ms trace=2910c74b
+2026-02-10T18:01:50.553+05:30 info search-index event loop lag 44ms ok
+2026-02-10T18:01:56.482+05:30 info search-index event loop lag 11ms ok
+2026-02-10T18:02:05.544+05:30 info search-index event loop lag 87ms ok
+2026-02-10T18:02:15.791+05:30 info search-index event loop lag 67ms ok
+2026-02-10T18:02:22.869+05:30 info search-index served GET /api status=200 in 14ms trace=bc274617
+2026-02-10T18:02:30.630+05:30 info search-index event loop lag 44ms ok
+2026-02-10T18:02:38.276+05:30 info search-index event loop lag 27ms ok
+2026-02-10T18:02:46.700+05:30 info search-index event loop lag 56ms ok
+2026-02-10T18:02:59.747+05:30 info search-index served GET /api status=200 in 22ms trace=c5160d61
+2026-02-10T18:03:12.875+05:30 info search-index event loop lag 89ms ok
+2026-02-10T18:03:25.094+05:30 info search-index event loop lag 73ms ok
+2026-02-10T18:03:33.363+05:30 info search-index served GET /api status=200 in 43ms trace=2b309c23
+2026-02-10T18:03:40.428+05:30 info search-index event loop lag 49ms ok
+2026-02-10T18:03:54.315+05:30 info search-index event loop lag 40ms ok
+2026-02-10T18:04:05.908+05:30 info search-index event loop lag 70ms ok
+2026-02-10T18:04:14.143+05:30 info search-index event loop lag 52ms ok
+2026-02-10T18:04:28.802+05:30 info search-index served GET /api status=200 in 76ms trace=ee4817ea
+2026-02-10T18:04:35.865+05:30 info search-index event loop lag 14ms ok
+2026-02-10T18:04:36.000+05:30 warn search-index event loop lag 260ms
+2026-02-10T18:04:44.762+05:30 info search-index served GET /api status=200 in 17ms trace=6b39c550
+2026-02-10T18:04:52.204+05:30 info search-index served GET /api status=200 in 34ms trace=e807f645
+2026-02-10T18:05:03.518+05:30 info search-index event loop lag 90ms ok
+2026-02-10T18:05:15.638+05:30 info search-index event loop lag 58ms ok
+2026-02-10T18:05:23.119+05:30 info search-index served GET /api status=200 in 41ms trace=2571c885
+2026-02-10T18:05:37.819+05:30 info search-index event loop lag 82ms ok
+2026-02-10T18:05:47.059+05:30 info search-index served GET /api status=200 in 68ms trace=de125fdb
+2026-02-10T18:05:54.250+05:30 info search-index served GET /api status=200 in 64ms trace=9ed6a5d7
+2026-02-10T18:06:08.830+05:30 info search-index event loop lag 47ms ok
+2026-02-10T18:06:20.466+05:30 info search-index event loop lag 60ms ok
+2026-02-10T18:06:31.582+05:30 info search-index event loop lag 17ms ok
+2026-02-10T18:06:38.167+05:30 info search-index event loop lag 85ms ok
+2026-02-10T18:06:52.983+05:30 info search-index event loop lag 36ms ok
+2026-02-10T18:06:53.000+05:30 warn search-index unhandled header x-legacy ignored trace=4401a9ae
+2026-02-10T18:07:02.737+05:30 info search-index served GET /api status=200 in 67ms trace=7eca1d87
+2026-02-10T18:07:12.501+05:30 info search-index event loop lag 74ms ok
+2026-02-10T18:07:20.454+05:30 info search-index event loop lag 81ms ok
+2026-02-10T18:07:32.575+05:30 info search-index event loop lag 82ms ok
+2026-02-10T18:07:40.466+05:30 info search-index served GET /api status=200 in 64ms trace=ccb04952
+2026-02-10T18:07:54.522+05:30 info search-index event loop lag 93ms ok
+2026-02-10T18:08:03.159+05:30 info search-index event loop lag 26ms ok
+2026-02-10T18:08:09.842+05:30 info search-index served GET /api status=200 in 50ms trace=74d7e220
+2026-02-10T18:08:19.128+05:30 info search-index event loop lag 73ms ok
+2026-02-10T18:08:25.297+05:30 info search-index served GET /api status=200 in 69ms trace=5c4968cb
+2026-02-10T18:08:32.489+05:30 info search-index served GET /api status=200 in 73ms trace=090ad035
+2026-02-10T18:08:44.873+05:30 info search-index served GET /api status=200 in 51ms trace=4fffe855
+2026-02-10T18:08:53.947+05:30 info search-index event loop lag 17ms ok
+2026-02-10T18:09:03.777+05:30 info search-index event loop lag 81ms ok
+2026-02-10T18:09:13.255+05:30 info search-index event loop lag 87ms ok
+2026-02-10T18:09:24.813+05:30 info search-index event loop lag 24ms ok
+2026-02-10T18:09:37.008+05:30 info search-index event loop lag 16ms ok
+2026-02-10T18:09:43.031+05:30 info search-index served GET /api status=200 in 29ms trace=d3ff013a
+2026-02-10T18:09:50.631+05:30 info search-index served GET /api status=200 in 36ms trace=b61f12a3
+2026-02-10T18:10:03.441+05:30 info search-index event loop lag 45ms ok
+2026-02-10T18:10:17.239+05:30 info search-index event loop lag 83ms ok
+2026-02-10T18:10:24.619+05:30 info search-index served GET /api status=200 in 83ms trace=502bf29e
+2026-02-10T18:10:30.733+05:30 info search-index event loop lag 45ms ok
+2026-02-10T18:10:40.022+05:30 info search-index served GET /api status=200 in 69ms trace=be04efa0
+2026-02-10T18:10:46.115+05:30 info search-index event loop lag 55ms ok
+2026-02-10T18:10:54.282+05:30 info search-index served GET /api status=200 in 34ms trace=53998af4
+2026-02-10T18:11:04.448+05:30 info search-index served GET /api status=200 in 39ms trace=d6bde889
+2026-02-10T18:11:12.715+05:30 info search-index served GET /api status=200 in 56ms trace=31bc9615

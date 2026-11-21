@@ -1,0 +1,24 @@
+{
+  "schema_version": "1",
+  "case_id": "test-c030",
+  "split": "test",
+  "incident": {
+    "id": "INC-001",
+    "rule_id": "entry-5xx",
+    "description": "Entry service returned 5xx errors to clients",
+    "ts": "2026-01-22T12:31:06Z",
+    "trigger_uid": "web-gateway.log:37",
+    "trigger_component": "web-gateway"
+  },
+  "log_files": [
+    "batch-exporter.log",
+    "booking-svc.log",
+    "fare-cache.log",
+    "fare-svc.log",
+    "login-svc.log",
+    "notifier.log",
+    "seat-db.log",
+    "seat-svc.log",
+    "web-gateway.log"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "schema_version": "1",
+  "case_id": "dev-c004",
+  "split": "dev",
+  "family_id": "df01",
+  "stratum": "easy",
+  "root_causes": [
+    "cart-svc"
+  ],
+  "fault_type": "oom",
+  "expected_abstain": false,
+  "key_evidence": [
+    "cart-svc.log:30",
+    "cart-svc.log:35",
+    "cart-svc.log:36"
+  ],
+  "relevant_evidence": [
+    "cart-svc.log:30",
+    "cart-svc.log:35",
+    "cart-svc.log:36",
+    "storefront.log:33",
+    "storefront.log:35",
+    "storefront.log:36",
+    "storefront.log:38",
+    "storefront.log:39",
+    "storefront.log:41"
+  ],
+  "propagation_path": [
+    "cart-svc",
+    "storefront"
+  ],
+  "injection_uids": [],
+  "decoy_component": null
+}

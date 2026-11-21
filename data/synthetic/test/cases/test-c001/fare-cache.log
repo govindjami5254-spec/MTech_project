@@ -1,0 +1,66 @@
+2026-01-17T18:28:07.421+05:30 info fare-cache served GET /api status=200 in 30ms trace=229a8ed0
+2026-01-17T18:28:20.275+05:30 info fare-cache served GET /api status=200 in 84ms trace=03d5acda
+2026-01-17T18:28:30.781+05:30 info fare-cache event loop lag 95ms ok
+2026-01-17T18:28:31.000+05:30 warn fare-cache event loop lag 400ms
+2026-01-17T18:28:36.046+05:30 info fare-cache served GET /api status=200 in 86ms trace=bb762212
+2026-01-17T18:28:49.557+05:30 info fare-cache served GET /api status=200 in 93ms trace=c8a2f3f7
+2026-01-17T18:28:57.040+05:30 info fare-cache event loop lag 43ms ok
+2026-01-17T18:29:05.319+05:30 info fare-cache event loop lag 71ms ok
+2026-01-17T18:29:17.627+05:30 info fare-cache served GET /api status=200 in 22ms trace=6f0ad474
+2026-01-17T18:29:27.796+05:30 info fare-cache served GET /api status=200 in 54ms trace=556f7923
+2026-01-17T18:29:37.253+05:30 info fare-cache served GET /api status=200 in 13ms trace=53ef06b7
+2026-01-17T18:29:47.292+05:30 info fare-cache served GET /api status=200 in 50ms trace=8cac98f0
+2026-01-17T18:29:53.445+05:30 info fare-cache served GET /api status=200 in 8ms trace=994f8b9c
+2026-01-17T18:30:02.480+05:30 info fare-cache event loop lag 93ms ok
+2026-01-17T18:30:09.695+05:30 info fare-cache event loop lag 83ms ok
+2026-01-17T18:30:10.000+05:30 warn fare-cache unhandled header x-legacy ignored trace=9bfcf875
+2026-01-17T18:30:16.593+05:30 info fare-cache served GET /api status=200 in 75ms trace=4213608c
+2026-01-17T18:30:22.816+05:30 info fare-cache event loop lag 41ms ok
+2026-01-17T18:30:31.676+05:30 info fare-cache event loop lag 32ms ok
+2026-01-17T18:30:42.020+05:30 info fare-cache served GET /api status=200 in 41ms trace=0555c575
+2026-01-17T18:30:55.316+05:30 info fare-cache served GET /api status=200 in 79ms trace=1430516f
+2026-01-17T18:31:07.960+05:30 info fare-cache served GET /api status=200 in 19ms trace=7f23dcda
+2026-01-17T18:31:18.605+05:30 info fare-cache event loop lag 51ms ok
+2026-01-17T18:31:28.158+05:30 info fare-cache event loop lag 89ms ok
+2026-01-17T18:31:34.042+05:30 info fare-cache event loop lag 77ms ok
+2026-01-17T18:31:41.446+05:30 info fare-cache event loop lag 56ms ok
+2026-01-17T18:31:53.252+05:30 info fare-cache event loop lag 10ms ok
+2026-01-17T18:31:59.314+05:30 info fare-cache event loop lag 21ms ok
+2026-01-17T18:32:11.547+05:30 info fare-cache event loop lag 16ms ok
+2026-01-17T18:32:21.393+05:30 info fare-cache event loop lag 17ms ok
+2026-01-17T18:32:27.318+05:30 info fare-cache served GET /api status=200 in 34ms trace=b02287ce
+2026-01-17T18:32:40.308+05:30 info fare-cache event loop lag 66ms ok
+2026-01-17T18:32:46.658+05:30 info fare-cache event loop lag 48ms ok
+2026-01-17T18:32:52.091+05:30 info fare-cache served GET /api status=200 in 9ms trace=21ddef78
+2026-01-17T18:33:05.845+05:30 info fare-cache served GET /api status=200 in 61ms trace=306c6475
+2026-01-17T18:33:15.194+05:30 info fare-cache event loop lag 30ms ok
+2026-01-17T18:33:25.668+05:30 info fare-cache served GET /api status=200 in 63ms trace=1447473b
+2026-01-17T18:33:35.887+05:30 info fare-cache served GET /api status=200 in 14ms trace=795bbae6
+2026-01-17T18:33:43.420+05:30 info fare-cache served GET /api status=200 in 13ms trace=cc55f8d2
+2026-01-17T18:33:55.377+05:30 info fare-cache event loop lag 25ms ok
+2026-01-17T18:34:03.708+05:30 info fare-cache event loop lag 40ms ok
+2026-01-17T18:34:09.282+05:30 info fare-cache served GET /api status=200 in 37ms trace=34dc7eab
+2026-01-17T18:34:19.485+05:30 info fare-cache event loop lag 50ms ok
+2026-01-17T18:34:30.105+05:30 info fare-cache event loop lag 60ms ok
+2026-01-17T18:34:36.495+05:30 info fare-cache event loop lag 13ms ok
+2026-01-17T18:34:49.074+05:30 info fare-cache event loop lag 56ms ok
+2026-01-17T18:34:55.360+05:30 info fare-cache served GET /api status=200 in 57ms trace=c621319d
+2026-01-17T18:35:06.796+05:30 info fare-cache event loop lag 12ms ok
+2026-01-17T18:35:14.510+05:30 info fare-cache served GET /api status=200 in 24ms trace=c13cfc40
+2026-01-17T18:35:25.709+05:30 info fare-cache event loop lag 22ms ok
+2026-01-17T18:35:32.681+05:30 info fare-cache event loop lag 63ms ok
+2026-01-17T18:35:46.796+05:30 info fare-cache served GET /api status=200 in 25ms trace=7ee4293b
+2026-01-17T18:35:59.574+05:30 info fare-cache event loop lag 36ms ok
+2026-01-17T18:36:08.677+05:30 info fare-cache event loop lag 19ms ok
+2026-01-17T18:36:18.408+05:30 info fare-cache served GET /api status=200 in 57ms trace=bd6192dd
+2026-01-17T18:36:27.642+05:30 info fare-cache event loop lag 9ms ok
+2026-01-17T18:36:39.676+05:30 info fare-cache served GET /api status=200 in 20ms trace=409b4d44
+2026-01-17T18:36:47.381+05:30 info fare-cache served GET /api status=200 in 40ms trace=9e8e7633
+2026-01-17T18:37:00.349+05:30 info fare-cache event loop lag 42ms ok
+2026-01-17T18:37:11.774+05:30 info fare-cache served GET /api status=200 in 29ms trace=c70988c1
+2026-01-17T18:37:25.006+05:30 info fare-cache event loop lag 20ms ok
+2026-01-17T18:37:31.111+05:30 info fare-cache event loop lag 43ms ok
+2026-01-17T18:37:43.615+05:30 info fare-cache event loop lag 35ms ok
+2026-01-17T18:37:51.811+05:30 info fare-cache served GET /api status=200 in 95ms trace=b0976192
+2026-01-17T18:37:59.493+05:30 info fare-cache event loop lag 15ms ok
+2026-01-17T18:38:05.669+05:30 info fare-cache event loop lag 27ms ok

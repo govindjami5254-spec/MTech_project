@@ -1,0 +1,62 @@
+2026-01-28T09:34:33Z INFO tsdb http request method=GET status=200 latency_ms=85 span=f186a242
+2026-01-28T09:34:43Z INFO tsdb tick ok elapsed_ms=40
+2026-01-28T09:34:51Z INFO tsdb tick ok elapsed_ms=25
+2026-01-28T09:35:04Z INFO tsdb http request method=GET status=200 latency_ms=45 span=7d681311
+2026-01-28T09:35:13Z INFO tsdb tick ok elapsed_ms=83
+2026-01-28T09:35:14Z WARN tsdb slow poll elapsed_ms=840
+2026-01-28T09:35:21Z INFO tsdb http request method=GET status=200 latency_ms=18 span=6baf8c75
+2026-01-28T09:35:30Z INFO tsdb http request method=GET status=200 latency_ms=73 span=2cdb6448
+2026-01-28T09:35:42Z INFO tsdb http request method=GET status=200 latency_ms=19 span=70ed1ea9
+2026-01-28T09:35:50Z INFO tsdb http request method=GET status=200 latency_ms=81 span=d3f4fdcf
+2026-01-28T09:35:58Z INFO tsdb tick ok elapsed_ms=88
+2026-01-28T09:36:06Z INFO tsdb http request method=GET status=200 latency_ms=45 span=1be79c0a
+2026-01-28T09:36:17Z INFO tsdb http request method=GET status=200 latency_ms=47 span=c2a3b827
+2026-01-28T09:36:28Z INFO tsdb http request method=GET status=200 latency_ms=55 span=14ace045
+2026-01-28T09:36:36Z INFO tsdb tick ok elapsed_ms=84
+2026-01-28T09:36:48Z INFO tsdb tick ok elapsed_ms=79
+2026-01-28T09:37:02Z INFO tsdb http request method=GET status=200 latency_ms=64 span=7ca4562b
+2026-01-28T09:37:13Z INFO tsdb http request method=GET status=200 latency_ms=93 span=a96eba1d
+2026-01-28T09:37:20Z INFO tsdb tick ok elapsed_ms=65
+2026-01-28T09:37:28Z INFO tsdb tick ok elapsed_ms=88
+2026-01-28T09:37:29Z WARN tsdb client sent oversized header, truncated span=b71108e7
+2026-01-28T09:37:42Z INFO tsdb http request method=GET status=200 latency_ms=72 span=06fca9ca
+2026-01-28T09:37:55Z INFO tsdb http request method=GET status=200 latency_ms=33 span=d7629bff
+2026-01-28T09:38:01Z INFO tsdb http request method=GET status=200 latency_ms=38 span=0a60b5eb
+2026-01-28T09:38:10Z INFO tsdb http request method=GET status=200 latency_ms=27 span=e4ee32f2
+2026-01-28T09:38:23Z INFO tsdb http request method=GET status=200 latency_ms=77 span=002bb3c9
+2026-01-28T09:38:34Z INFO tsdb tick ok elapsed_ms=54
+2026-01-28T09:38:35Z WARN tsdb slow poll elapsed_ms=440
+2026-01-28T09:38:47Z INFO tsdb tick ok elapsed_ms=34
+2026-01-28T09:38:58Z INFO tsdb http request method=GET status=200 latency_ms=39 span=fbd47e95
+2026-01-28T09:39:07Z INFO tsdb http request method=GET status=200 latency_ms=9 span=0172f9e1
+2026-01-28T09:39:18Z INFO tsdb http request method=GET status=200 latency_ms=46 span=2ddb5ac9
+2026-01-28T09:39:32Z INFO tsdb http request method=GET status=200 latency_ms=44 span=e0ae1ca1
+2026-01-28T09:39:43Z INFO tsdb tick ok elapsed_ms=82
+2026-01-28T09:39:56Z INFO tsdb tick ok elapsed_ms=13
+2026-01-28T09:39:57Z WARN tsdb client sent oversized header, truncated span=970a6a4e
+2026-01-28T09:40:10Z INFO tsdb http request method=GET status=200 latency_ms=62 span=4e516b74
+2026-01-28T09:40:23Z INFO tsdb http request method=GET status=200 latency_ms=54 span=f4886535
+2026-01-28T09:40:36Z INFO tsdb tick ok elapsed_ms=10
+2026-01-28T09:40:48Z INFO tsdb tick ok elapsed_ms=18
+2026-01-28T09:41:00Z INFO tsdb tick ok elapsed_ms=63
+2026-01-28T09:41:11Z INFO tsdb tick ok elapsed_ms=66
+2026-01-28T09:41:19Z INFO tsdb http request method=GET status=200 latency_ms=13 span=40b8c2f6
+2026-01-28T09:41:26Z INFO tsdb tick ok elapsed_ms=43
+2026-01-28T09:41:39Z INFO tsdb tick ok elapsed_ms=22
+2026-01-28T09:41:49Z INFO tsdb tick ok elapsed_ms=64
+2026-01-28T09:42:01Z INFO tsdb tick ok elapsed_ms=63
+2026-01-28T09:42:10Z INFO tsdb tick ok elapsed_ms=45
+2026-01-28T09:42:20Z INFO tsdb http request method=GET status=200 latency_ms=89 span=eae87c2c
+2026-01-28T09:42:34Z INFO tsdb tick ok elapsed_ms=72
+2026-01-28T09:42:45Z INFO tsdb tick ok elapsed_ms=47
+2026-01-28T09:42:51Z INFO tsdb tick ok elapsed_ms=55
+2026-01-28T09:43:05Z INFO tsdb tick ok elapsed_ms=77
+2026-01-28T09:43:15Z INFO tsdb http request method=GET status=200 latency_ms=52 span=7aa2303c
+2026-01-28T09:43:21Z INFO tsdb http request method=GET status=200 latency_ms=95 span=e6894fb3
+2026-01-28T09:43:27Z INFO tsdb tick ok elapsed_ms=13
+2026-01-28T09:43:38Z INFO tsdb http request method=GET status=200 latency_ms=68 span=c2e94b97
+2026-01-28T09:43:51Z INFO tsdb tick ok elapsed_ms=17
+2026-01-28T09:44:02Z INFO tsdb tick ok elapsed_ms=92
+2026-01-28T09:44:10Z INFO tsdb http request method=GET status=200 latency_ms=71 span=baed926b
+2026-01-28T09:44:18Z INFO tsdb http request method=GET status=200 latency_ms=85 span=b1d767d5
+2026-01-28T09:44:26Z INFO tsdb tick ok elapsed_ms=93

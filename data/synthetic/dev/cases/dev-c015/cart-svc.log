@@ -1,0 +1,63 @@
+2026-01-21 14:17:18,499 INFO cart-svc ping ok latency=65ms
+2026-01-21 14:17:32,192 INFO cart-svc handled request rid=90f2def3 status=200 dur=19ms
+2026-01-21 14:17:43,211 INFO cart-svc ping ok latency=55ms
+2026-01-21 14:17:53,471 INFO cart-svc ping ok latency=8ms
+2026-01-21 14:18:01,766 INFO cart-svc handled request rid=5f291ab6 status=200 dur=38ms
+2026-01-21 14:18:10,876 INFO cart-svc ping ok latency=25ms
+2026-01-21 14:18:19,070 INFO cart-svc ping ok latency=44ms
+2026-01-21 14:18:33,503 INFO cart-svc ping ok latency=51ms
+2026-01-21 14:18:47,371 INFO cart-svc handled request rid=833b99ce status=200 dur=12ms
+2026-01-21 14:18:54,616 INFO cart-svc ping ok latency=51ms
+2026-01-21 14:19:07,224 INFO cart-svc handled request rid=a5d28ef7 status=200 dur=78ms
+2026-01-21 14:19:14,285 INFO cart-svc ping ok latency=59ms
+2026-01-21 14:19:20,206 INFO cart-svc handled request rid=d0534403 status=200 dur=46ms
+2026-01-21 14:19:31,799 INFO cart-svc ping ok latency=48ms
+2026-01-21 14:19:37,123 INFO cart-svc handled request rid=284bf589 status=200 dur=88ms
+2026-01-21 14:19:46,592 INFO cart-svc handled request rid=a30ab318 status=200 dur=23ms
+2026-01-21 14:19:54,421 INFO cart-svc handled request rid=0d44992e status=200 dur=26ms
+2026-01-21 14:20:00,289 INFO cart-svc handled request rid=46a6da9e status=200 dur=49ms
+2026-01-21 14:20:12,888 INFO cart-svc handled request rid=7e0be27f status=200 dur=40ms
+2026-01-21 14:20:25,921 INFO cart-svc ping ok latency=26ms
+2026-01-21 14:20:33,957 INFO cart-svc ping ok latency=93ms
+2026-01-21 14:20:44,476 INFO cart-svc handled request rid=baf520d1 status=200 dur=45ms
+2026-01-21 14:20:51,847 INFO cart-svc ping ok latency=15ms
+2026-01-21 14:21:00,682 INFO cart-svc ping ok latency=69ms
+2026-01-21 14:21:07,951 INFO cart-svc ping ok latency=41ms
+2026-01-21 14:21:18,215 INFO cart-svc ping ok latency=23ms
+2026-01-21 14:21:32,943 INFO cart-svc ping ok latency=92ms
+2026-01-21 14:21:45,691 INFO cart-svc ping ok latency=67ms
+2026-01-21 14:21:59,067 INFO cart-svc ping ok latency=22ms
+2026-01-21 14:22:07,109 INFO cart-svc handled request rid=345803db status=200 dur=29ms
+2026-01-21 14:22:20,904 INFO cart-svc handled request rid=2f8355b3 status=200 dur=64ms
+2026-01-21 14:22:22,134 ERROR cart-svc dial tcp pricing-svc:8103: connect: connection refused rid=2afcb31b
+2026-01-21 14:22:24,932 WARNING cart-svc backoff before retrying pricing-svc (2/3)
+2026-01-21 14:22:27,799 ERROR cart-svc request to pricing-svc failed permanently after retries
+2026-01-21 14:22:28,226 INFO cart-svc handled request rid=cabd0f77 status=200 dur=60ms
+2026-01-21 14:22:39,499 INFO cart-svc ping ok latency=15ms
+2026-01-21 14:22:49,871 INFO cart-svc ping ok latency=52ms
+2026-01-21 14:22:55,038 INFO cart-svc handled request rid=b7ef553c status=200 dur=88ms
+2026-01-21 14:23:02,051 INFO cart-svc ping ok latency=45ms
+2026-01-21 14:23:09,197 INFO cart-svc handled request rid=fe257918 status=200 dur=57ms
+2026-01-21 14:23:23,444 INFO cart-svc handled request rid=e5b60ef5 status=200 dur=22ms
+2026-01-21 14:23:29,015 INFO cart-svc handled request rid=49010766 status=200 dur=20ms
+2026-01-21 14:23:35,050 INFO cart-svc handled request rid=317b06b5 status=200 dur=53ms
+2026-01-21 14:23:43,904 INFO cart-svc ping ok latency=78ms
+2026-01-21 14:23:49,529 INFO cart-svc ping ok latency=38ms
+2026-01-21 14:24:03,305 INFO cart-svc ping ok latency=57ms
+2026-01-21 14:24:11,045 INFO cart-svc ping ok latency=51ms
+2026-01-21 14:24:18,821 INFO cart-svc handled request rid=714c5ac4 status=200 dur=11ms
+2026-01-21 14:24:32,809 INFO cart-svc handled request rid=1d7131e3 status=200 dur=10ms
+2026-01-21 14:24:38,988 INFO cart-svc ping ok latency=45ms
+2026-01-21 14:24:48,467 INFO cart-svc ping ok latency=26ms
+2026-01-21 14:25:00,717 INFO cart-svc handled request rid=ad0e9fb5 status=200 dur=16ms
+2026-01-21 14:25:12,791 INFO cart-svc handled request rid=c0445eee status=200 dur=11ms
+2026-01-21 14:25:21,768 INFO cart-svc handled request rid=b01e045d status=200 dur=88ms
+2026-01-21 14:25:29,616 INFO cart-svc handled request rid=c3afd2f5 status=200 dur=47ms
+2026-01-21 14:25:39,565 INFO cart-svc handled request rid=83c81ad9 status=200 dur=88ms
+2026-01-21 14:25:50,160 INFO cart-svc handled request rid=93d07382 status=200 dur=21ms
+2026-01-21 14:26:01,503 INFO cart-svc ping ok latency=31ms
+2026-01-21 14:26:11,978 INFO cart-svc handled request rid=f2944f0c status=200 dur=8ms
+2026-01-21 14:26:22,181 INFO cart-svc handled request rid=35313d76 status=200 dur=81ms
+2026-01-21 14:26:36,520 INFO cart-svc ping ok latency=19ms
+2026-01-21 14:26:46,144 INFO cart-svc handled request rid=6f5a37e3 status=200 dur=57ms
+2026-01-21 14:27:00,346 INFO cart-svc handled request rid=ce2e5b86 status=200 dur=32ms

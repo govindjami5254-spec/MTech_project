@@ -1,0 +1,62 @@
+2026-01-05 14:44:08,464 INFO log-forwarder GET /v1/items 200 89ms req_id=99867a22
+2026-01-05 14:44:18,850 INFO log-forwarder worker heartbeat ok (72ms)
+2026-01-05 14:44:24,266 INFO log-forwarder worker heartbeat ok (35ms)
+2026-01-05 14:44:25,000 WARNING log-forwarder slow query took 310ms req_id=8606e3d5
+2026-01-05 14:44:38,562 INFO log-forwarder GET /v1/items 200 88ms req_id=6a317e87
+2026-01-05 14:44:45,155 INFO log-forwarder worker heartbeat ok (35ms)
+2026-01-05 14:44:58,549 INFO log-forwarder GET /v1/items 200 31ms req_id=8526e9cd
+2026-01-05 14:45:07,403 INFO log-forwarder worker heartbeat ok (48ms)
+2026-01-05 14:45:21,460 INFO log-forwarder GET /v1/items 200 28ms req_id=c1cd2c72
+2026-01-05 14:45:32,085 INFO log-forwarder GET /v1/items 200 57ms req_id=e7fd53f9
+2026-01-05 14:45:40,087 INFO log-forwarder worker heartbeat ok (69ms)
+2026-01-05 14:45:50,402 INFO log-forwarder GET /v1/items 200 10ms req_id=acee798b
+2026-01-05 14:45:59,105 INFO log-forwarder GET /v1/items 200 64ms req_id=ce271704
+2026-01-05 14:46:10,335 INFO log-forwarder GET /v1/items 200 16ms req_id=fd42251e
+2026-01-05 14:46:16,752 INFO log-forwarder GET /v1/items 200 13ms req_id=77831770
+2026-01-05 14:46:29,560 INFO log-forwarder worker heartbeat ok (18ms)
+2026-01-05 14:46:41,504 INFO log-forwarder worker heartbeat ok (17ms)
+2026-01-05 14:46:54,975 INFO log-forwarder worker heartbeat ok (58ms)
+2026-01-05 14:47:08,722 INFO log-forwarder worker heartbeat ok (26ms)
+2026-01-05 14:47:14,202 INFO log-forwarder worker heartbeat ok (92ms)
+2026-01-05 14:47:20,020 INFO log-forwarder GET /v1/items 200 43ms req_id=36c76654
+2026-01-05 14:47:27,894 INFO log-forwarder GET /v1/items 200 90ms req_id=7bb10591
+2026-01-05 14:47:28,000 WARNING log-forwarder deprecated parameter 'page' used by client
+2026-01-05 14:47:39,301 INFO log-forwarder worker heartbeat ok (30ms)
+2026-01-05 14:47:49,942 INFO log-forwarder worker heartbeat ok (81ms)
+2026-01-05 14:47:59,948 INFO log-forwarder worker heartbeat ok (9ms)
+2026-01-05 14:48:05,678 INFO log-forwarder GET /v1/items 200 53ms req_id=3b973835
+2026-01-05 14:48:11,503 INFO log-forwarder GET /v1/items 200 32ms req_id=93564562
+2026-01-05 14:48:20,808 INFO log-forwarder GET /v1/items 200 78ms req_id=6a80e1fd
+2026-01-05 14:48:21,000 WARNING log-forwarder slow query took 240ms req_id=f312d17b
+2026-01-05 14:48:33,669 INFO log-forwarder worker heartbeat ok (82ms)
+2026-01-05 14:48:42,230 INFO log-forwarder GET /v1/items 200 52ms req_id=5520998d
+2026-01-05 14:48:54,239 INFO log-forwarder GET /v1/items 200 15ms req_id=d2959240
+2026-01-05 14:49:07,524 INFO log-forwarder GET /v1/items 200 21ms req_id=c813d58c
+2026-01-05 14:49:18,657 INFO log-forwarder GET /v1/items 200 88ms req_id=774bb0e3
+2026-01-05 14:49:31,887 INFO log-forwarder GET /v1/items 200 19ms req_id=21eb6862
+2026-01-05 14:49:45,349 INFO log-forwarder worker heartbeat ok (9ms)
+2026-01-05 14:49:53,646 INFO log-forwarder worker heartbeat ok (89ms)
+2026-01-05 14:50:07,948 INFO log-forwarder GET /v1/items 200 18ms req_id=86668f4f
+2026-01-05 14:50:13,288 INFO log-forwarder worker heartbeat ok (93ms)
+2026-01-05 14:50:20,126 INFO log-forwarder GET /v1/items 200 76ms req_id=dc2dbbcb
+2026-01-05 14:50:33,659 INFO log-forwarder worker heartbeat ok (47ms)
+2026-01-05 14:50:43,635 INFO log-forwarder GET /v1/items 200 86ms req_id=9011f33d
+2026-01-05 14:50:57,658 INFO log-forwarder GET /v1/items 200 27ms req_id=1a8a53ef
+2026-01-05 14:51:03,807 INFO log-forwarder GET /v1/items 200 73ms req_id=525ad470
+2026-01-05 14:51:13,174 INFO log-forwarder worker heartbeat ok (33ms)
+2026-01-05 14:51:25,682 INFO log-forwarder GET /v1/items 200 44ms req_id=424d2b45
+2026-01-05 14:51:36,856 INFO log-forwarder GET /v1/items 200 42ms req_id=94513c6c
+2026-01-05 14:51:37,000 WARNING log-forwarder deprecated parameter 'page' used by client
+2026-01-05 14:51:44,650 INFO log-forwarder worker heartbeat ok (93ms)
+2026-01-05 14:51:57,854 INFO log-forwarder GET /v1/items 200 44ms req_id=4efa4386
+2026-01-05 14:52:03,899 INFO log-forwarder worker heartbeat ok (55ms)
+2026-01-05 14:52:14,323 INFO log-forwarder worker heartbeat ok (86ms)
+2026-01-05 14:52:27,063 INFO log-forwarder GET /v1/items 200 66ms req_id=e01c0fe0
+2026-01-05 14:52:38,949 INFO log-forwarder GET /v1/items 200 59ms req_id=37e961f3
+2026-01-05 14:52:48,813 INFO log-forwarder GET /v1/items 200 42ms req_id=2f68fb58
+2026-01-05 14:53:01,373 INFO log-forwarder GET /v1/items 200 58ms req_id=361cec79
+2026-01-05 14:53:08,283 INFO log-forwarder GET /v1/items 200 29ms req_id=9de1976a
+2026-01-05 14:53:22,490 INFO log-forwarder GET /v1/items 200 26ms req_id=55d2c2f2
+2026-01-05 14:53:35,886 INFO log-forwarder worker heartbeat ok (69ms)
+2026-01-05 14:53:43,376 INFO log-forwarder GET /v1/items 200 71ms req_id=87ab38bf
+2026-01-05 14:53:55,204 INFO log-forwarder worker heartbeat ok (42ms)

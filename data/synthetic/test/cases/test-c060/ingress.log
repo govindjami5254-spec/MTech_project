@@ -1,0 +1,327 @@
+2026-02-06T14:30:18Z INFO ingress http request method=GET status=200 latency_ms=11 span=dc845bdb
+2026-02-06T14:30:27Z INFO ingress tick ok elapsed_ms=11
+2026-02-06T14:30:35Z INFO ingress http request method=GET status=200 latency_ms=89 span=19256d8a
+2026-02-06T14:30:45Z INFO ingress http request method=GET status=200 latency_ms=50 span=dfdfba96
+2026-02-06T14:30:58Z INFO ingress http request method=GET status=200 latency_ms=33 span=1f6daf0e
+2026-02-06T14:31:12Z INFO ingress http request method=GET status=200 latency_ms=69 span=ed35e1d2
+2026-02-06T14:31:19Z INFO ingress http request method=GET status=200 latency_ms=16 span=f80e5ec8
+2026-02-06T14:31:30Z INFO ingress tick ok elapsed_ms=8
+2026-02-06T14:31:40Z INFO ingress http request method=GET status=200 latency_ms=57 span=169c0b35
+2026-02-06T14:31:48Z INFO ingress tick ok elapsed_ms=44
+2026-02-06T14:31:54Z INFO ingress tick ok elapsed_ms=93
+2026-02-06T14:32:04Z INFO ingress http request method=GET status=200 latency_ms=94 span=1133a7e7
+2026-02-06T14:32:14Z INFO ingress http request method=GET status=200 latency_ms=84 span=2774878d
+2026-02-06T14:32:26Z INFO ingress tick ok elapsed_ms=80
+2026-02-06T14:32:35Z INFO ingress http request method=GET status=200 latency_ms=14 span=7f0d3147
+2026-02-06T14:32:47Z INFO ingress tick ok elapsed_ms=82
+2026-02-06T14:32:56Z INFO ingress http request method=GET status=200 latency_ms=20 span=7b5db34c
+2026-02-06T14:33:10Z INFO ingress http request method=GET status=200 latency_ms=18 span=89c7eeee
+2026-02-06T14:33:17Z INFO ingress tick ok elapsed_ms=75
+2026-02-06T14:33:30Z INFO ingress http request method=GET status=200 latency_ms=70 span=6138eb01
+2026-02-06T14:33:43Z INFO ingress http request method=GET status=200 latency_ms=70 span=36bd845b
+2026-02-06T14:33:51Z INFO ingress http request method=GET status=200 latency_ms=62 span=3ea22120
+2026-02-06T14:33:59Z INFO ingress tick ok elapsed_ms=75
+2026-02-06T14:34:09Z INFO ingress tick ok elapsed_ms=29
+2026-02-06T14:34:16Z INFO ingress tick ok elapsed_ms=30
+2026-02-06T14:34:29Z INFO ingress tick ok elapsed_ms=91
+2026-02-06T14:34:43Z INFO ingress http request method=GET status=200 latency_ms=8 span=804e7674
+2026-02-06T14:34:55Z INFO ingress tick ok elapsed_ms=58
+2026-02-06T14:35:07Z INFO ingress tick ok elapsed_ms=23
+2026-02-06T14:35:20Z INFO ingress http request method=GET status=200 latency_ms=20 span=1df7ec8b
+2026-02-06T14:35:28Z ERR ingress bad gateway: telemetry-api failed span=b8f58fd7 status=502
+2026-02-06T14:35:28Z ERR ingress bad gateway: telemetry-api failed span=1f5520d5 status=502
+2026-02-06T14:35:30Z ERR ingress service unavailable: telemetry-api span=5fb8d271 status=503
+2026-02-06T14:35:30Z ERR ingress bad gateway: telemetry-api failed span=1c1f54de status=502
+2026-02-06T14:35:31Z ERR ingress service unavailable: telemetry-api span=c9ce8405 status=503
+2026-02-06T14:35:32Z ERR ingress service unavailable: telemetry-api span=1c468c19 status=503
+2026-02-06T14:35:33Z ERR ingress service unavailable: telemetry-api span=f1963013 status=503
+2026-02-06T14:35:34Z INFO ingress tick ok elapsed_ms=38
+2026-02-06T14:35:34Z ERR ingress service unavailable: telemetry-api span=70cd5b38 status=503
+2026-02-06T14:35:35Z ERR ingress bad gateway: telemetry-api failed span=49d51579 status=502
+2026-02-06T14:35:36Z ERR ingress service unavailable: telemetry-api span=e6e1f473 status=503
+2026-02-06T14:35:37Z ERR ingress bad gateway: telemetry-api failed span=64593129 status=502
+2026-02-06T14:35:38Z ERR ingress service unavailable: telemetry-api span=f0dc0af7 status=503
+2026-02-06T14:35:39Z ERR ingress bad gateway: telemetry-api failed span=a90e8c8c status=502
+2026-02-06T14:35:41Z ERR ingress service unavailable: telemetry-api span=81159990 status=503
+2026-02-06T14:35:42Z ERR ingress service unavailable: telemetry-api span=7a4d06cd status=503
+2026-02-06T14:35:43Z ERR ingress bad gateway: telemetry-api failed span=a1a6da87 status=502
+2026-02-06T14:35:44Z ERR ingress service unavailable: telemetry-api span=9a4c2443 status=503
+2026-02-06T14:35:45Z INFO ingress http request method=GET status=200 latency_ms=18 span=c91f5a66
+2026-02-06T14:35:45Z ERR ingress bad gateway: telemetry-api failed span=b19466d3 status=502
+2026-02-06T14:35:46Z ERR ingress bad gateway: telemetry-api failed span=876eda0a status=502
+2026-02-06T14:35:47Z ERR ingress bad gateway: telemetry-api failed span=25592ef8 status=502
+2026-02-06T14:35:47Z ERR ingress service unavailable: telemetry-api span=d150fb33 status=503
+2026-02-06T14:35:49Z ERR ingress bad gateway: telemetry-api failed span=8c26011a status=502
+2026-02-06T14:35:50Z ERR ingress bad gateway: telemetry-api failed span=95d557e5 status=502
+2026-02-06T14:35:50Z ERR ingress service unavailable: telemetry-api span=d20d05cc status=503
+2026-02-06T14:35:51Z ERR ingress service unavailable: telemetry-api span=07800a72 status=503
+2026-02-06T14:35:53Z ERR ingress bad gateway: telemetry-api failed span=921bb1d1 status=502
+2026-02-06T14:35:54Z ERR ingress service unavailable: telemetry-api span=b8191cd8 status=503
+2026-02-06T14:35:55Z ERR ingress bad gateway: telemetry-api failed span=081caaee status=502
+2026-02-06T14:35:56Z ERR ingress service unavailable: telemetry-api span=494025e3 status=503
+2026-02-06T14:35:57Z ERR ingress service unavailable: telemetry-api span=a5ca43df status=503
+2026-02-06T14:35:58Z INFO ingress tick ok elapsed_ms=83
+2026-02-06T14:35:58Z ERR ingress bad gateway: telemetry-api failed span=d3df2863 status=502
+2026-02-06T14:35:59Z ERR ingress service unavailable: telemetry-api span=2330a86a status=503
+2026-02-06T14:36:01Z ERR ingress service unavailable: telemetry-api span=f396fdd4 status=503
+2026-02-06T14:36:02Z ERR ingress bad gateway: telemetry-api failed span=67795bad status=502
+2026-02-06T14:36:02Z ERR ingress bad gateway: telemetry-api failed span=8f2159c4 status=502
+2026-02-06T14:36:03Z ERR ingress service unavailable: telemetry-api span=9ae7e288 status=503
+2026-02-06T14:36:04Z ERR ingress service unavailable: telemetry-api span=1cf06a27 status=503
+2026-02-06T14:36:05Z ERR ingress service unavailable: telemetry-api span=4643887a status=503
+2026-02-06T14:36:06Z ERR ingress bad gateway: telemetry-api failed span=1c93bb76 status=502
+2026-02-06T14:36:07Z INFO ingress tick ok elapsed_ms=95
+2026-02-06T14:36:07Z ERR ingress bad gateway: telemetry-api failed span=b0ec5b4c status=502
+2026-02-06T14:36:08Z ERR ingress service unavailable: telemetry-api span=49b6893e status=503
+2026-02-06T14:36:09Z ERR ingress bad gateway: telemetry-api failed span=98f1a8e8 status=502
+2026-02-06T14:36:10Z ERR ingress bad gateway: telemetry-api failed span=011d8f17 status=502
+2026-02-06T14:36:11Z ERR ingress bad gateway: telemetry-api failed span=08772032 status=502
+2026-02-06T14:36:12Z ERR ingress service unavailable: telemetry-api span=d4a24cf3 status=503
+2026-02-06T14:36:13Z ERR ingress bad gateway: telemetry-api failed span=d734d432 status=502
+2026-02-06T14:36:15Z ERR ingress bad gateway: telemetry-api failed span=40a3fe10 status=502
+2026-02-06T14:36:16Z ERR ingress bad gateway: telemetry-api failed span=55477e5b status=502
+2026-02-06T14:36:17Z ERR ingress service unavailable: telemetry-api span=f286caac status=503
+2026-02-06T14:36:18Z ERR ingress bad gateway: telemetry-api failed span=2c912524 status=502
+2026-02-06T14:36:19Z ERR ingress service unavailable: telemetry-api span=b4314753 status=503
+2026-02-06T14:36:20Z INFO ingress http request method=GET status=200 latency_ms=49 span=4e81d151
+2026-02-06T14:36:20Z ERR ingress service unavailable: telemetry-api span=1629fc93 status=503
+2026-02-06T14:36:21Z ERR ingress bad gateway: telemetry-api failed span=d539122f status=502
+2026-02-06T14:36:22Z ERR ingress bad gateway: telemetry-api failed span=11346383 status=502
+2026-02-06T14:36:22Z ERR ingress bad gateway: telemetry-api failed span=1f24e2b1 status=502
+2026-02-06T14:36:24Z ERR ingress service unavailable: telemetry-api span=5490edd2 status=503
+2026-02-06T14:36:24Z ERR ingress bad gateway: telemetry-api failed span=5f36b7cd status=502
+2026-02-06T14:36:25Z ERR ingress bad gateway: telemetry-api failed span=eea3b920 status=502
+2026-02-06T14:36:26Z ERR ingress bad gateway: telemetry-api failed span=a21c4403 status=502
+2026-02-06T14:36:27Z ERR ingress service unavailable: telemetry-api span=5649cb1e status=503
+2026-02-06T14:36:27Z ERR ingress bad gateway: telemetry-api failed span=79c6ff09 status=502
+2026-02-06T14:36:29Z ERR ingress service unavailable: telemetry-api span=c8f5a082 status=503
+2026-02-06T14:36:29Z ERR ingress bad gateway: telemetry-api failed span=73bd33ca status=502
+2026-02-06T14:36:31Z INFO ingress http request method=GET status=200 latency_ms=39 span=423dc18c
+2026-02-06T14:36:31Z ERR ingress service unavailable: telemetry-api span=7e035f89 status=503
+2026-02-06T14:36:32Z ERR ingress bad gateway: telemetry-api failed span=0d814e03 status=502
+2026-02-06T14:36:33Z ERR ingress service unavailable: telemetry-api span=aa7fbeab status=503
+2026-02-06T14:36:34Z ERR ingress service unavailable: telemetry-api span=659f9254 status=503
+2026-02-06T14:36:35Z ERR ingress bad gateway: telemetry-api failed span=d1a642a6 status=502
+2026-02-06T14:36:35Z ERR ingress service unavailable: telemetry-api span=214d0928 status=503
+2026-02-06T14:36:37Z ERR ingress service unavailable: telemetry-api span=d49b2853 status=503
+2026-02-06T14:36:38Z ERR ingress bad gateway: telemetry-api failed span=a273bd9c status=502
+2026-02-06T14:36:39Z INFO ingress tick ok elapsed_ms=41
+2026-02-06T14:36:39Z ERR ingress bad gateway: telemetry-api failed span=614fd27b status=502
+2026-02-06T14:36:40Z ERR ingress bad gateway: telemetry-api failed span=d053604f status=502
+2026-02-06T14:36:42Z ERR ingress bad gateway: telemetry-api failed span=a257eb36 status=502
+2026-02-06T14:36:43Z ERR ingress service unavailable: telemetry-api span=91077ac2 status=503
+2026-02-06T14:36:44Z ERR ingress bad gateway: telemetry-api failed span=319ff613 status=502
+2026-02-06T14:36:45Z INFO ingress tick ok elapsed_ms=16
+2026-02-06T14:36:45Z ERR ingress bad gateway: telemetry-api failed span=1f9d16ff status=502
+2026-02-06T14:36:46Z ERR ingress bad gateway: telemetry-api failed span=06cbfddf status=502
+2026-02-06T14:36:47Z ERR ingress bad gateway: telemetry-api failed span=a1071812 status=502
+2026-02-06T14:36:48Z ERR ingress service unavailable: telemetry-api span=1f7226ec status=503
+2026-02-06T14:36:49Z ERR ingress bad gateway: telemetry-api failed span=6dacd85a status=502
+2026-02-06T14:36:50Z ERR ingress bad gateway: telemetry-api failed span=1aa0da0b status=502
+2026-02-06T14:36:51Z ERR ingress bad gateway: telemetry-api failed span=c03610ea status=502
+2026-02-06T14:36:52Z ERR ingress service unavailable: telemetry-api span=b89e4cb7 status=503
+2026-02-06T14:36:53Z ERR ingress bad gateway: telemetry-api failed span=f540b79d status=502
+2026-02-06T14:36:54Z ERR ingress bad gateway: telemetry-api failed span=e6d8284b status=502
+2026-02-06T14:36:55Z ERR ingress bad gateway: telemetry-api failed span=4bf68ad6 status=502
+2026-02-06T14:36:56Z ERR ingress bad gateway: telemetry-api failed span=56f3b903 status=502
+2026-02-06T14:36:57Z ERR ingress service unavailable: telemetry-api span=63c6a0d0 status=503
+2026-02-06T14:36:58Z ERR ingress service unavailable: telemetry-api span=92941e65 status=503
+2026-02-06T14:36:58Z ERR ingress service unavailable: telemetry-api span=a6630f32 status=503
+2026-02-06T14:36:59Z INFO ingress tick ok elapsed_ms=56
+2026-02-06T14:37:00Z ERR ingress bad gateway: telemetry-api failed span=f31a6018 status=502
+2026-02-06T14:37:00Z ERR ingress service unavailable: telemetry-api span=521b6092 status=503
+2026-02-06T14:37:01Z ERR ingress service unavailable: telemetry-api span=ed90ff99 status=503
+2026-02-06T14:37:02Z ERR ingress bad gateway: telemetry-api failed span=ef9a7c08 status=502
+2026-02-06T14:37:03Z ERR ingress bad gateway: telemetry-api failed span=fb437cb6 status=502
+2026-02-06T14:37:04Z ERR ingress service unavailable: telemetry-api span=072f4265 status=503
+2026-02-06T14:37:05Z ERR ingress service unavailable: telemetry-api span=69088d29 status=503
+2026-02-06T14:37:06Z ERR ingress bad gateway: telemetry-api failed span=23db026c status=502
+2026-02-06T14:37:07Z ERR ingress bad gateway: telemetry-api failed span=0fb90492 status=502
+2026-02-06T14:37:09Z ERR ingress service unavailable: telemetry-api span=10c461d6 status=503
+2026-02-06T14:37:10Z INFO ingress tick ok elapsed_ms=37
+2026-02-06T14:37:10Z ERR ingress bad gateway: telemetry-api failed span=21b86ea6 status=502
+2026-02-06T14:37:11Z ERR ingress bad gateway: telemetry-api failed span=17667652 status=502
+2026-02-06T14:37:12Z ERR ingress bad gateway: telemetry-api failed span=4ce8211e status=502
+2026-02-06T14:37:13Z ERR ingress service unavailable: telemetry-api span=d52c6187 status=503
+2026-02-06T14:37:14Z ERR ingress service unavailable: telemetry-api span=345f6535 status=503
+2026-02-06T14:37:16Z ERR ingress service unavailable: telemetry-api span=05c2a65b status=503
+2026-02-06T14:37:17Z INFO ingress http request method=GET status=200 latency_ms=28 span=4d27555b
+2026-02-06T14:37:17Z ERR ingress service unavailable: telemetry-api span=9bc38a65 status=503
+2026-02-06T14:37:18Z ERR ingress bad gateway: telemetry-api failed span=1eafdddc status=502
+2026-02-06T14:37:19Z ERR ingress bad gateway: telemetry-api failed span=e30a55c3 status=502
+2026-02-06T14:37:20Z ERR ingress service unavailable: telemetry-api span=8421a3e2 status=503
+2026-02-06T14:37:21Z ERR ingress bad gateway: telemetry-api failed span=378d9352 status=502
+2026-02-06T14:37:23Z ERR ingress service unavailable: telemetry-api span=0b986330 status=503
+2026-02-06T14:37:24Z ERR ingress service unavailable: telemetry-api span=cc7e10f2 status=503
+2026-02-06T14:37:25Z ERR ingress bad gateway: telemetry-api failed span=cf965387 status=502
+2026-02-06T14:37:26Z ERR ingress service unavailable: telemetry-api span=27f732de status=503
+2026-02-06T14:37:27Z ERR ingress bad gateway: telemetry-api failed span=d6fe2ac5 status=502
+2026-02-06T14:37:28Z ERR ingress service unavailable: telemetry-api span=a7184b0a status=503
+2026-02-06T14:37:29Z ERR ingress bad gateway: telemetry-api failed span=169af1a7 status=502
+2026-02-06T14:37:30Z INFO ingress tick ok elapsed_ms=24
+2026-02-06T14:37:30Z ERR ingress bad gateway: telemetry-api failed span=aaf1b235 status=502
+2026-02-06T14:37:31Z ERR ingress bad gateway: telemetry-api failed span=40d6728e status=502
+2026-02-06T14:37:32Z ERR ingress bad gateway: telemetry-api failed span=4edfcb34 status=502
+2026-02-06T14:37:33Z ERR ingress service unavailable: telemetry-api span=bac4c398 status=503
+2026-02-06T14:37:34Z ERR ingress service unavailable: telemetry-api span=c9311666 status=503
+2026-02-06T14:37:36Z ERR ingress service unavailable: telemetry-api span=a3752cbf status=503
+2026-02-06T14:37:37Z ERR ingress service unavailable: telemetry-api span=b3cf38c1 status=503
+2026-02-06T14:37:38Z ERR ingress bad gateway: telemetry-api failed span=1467f816 status=502
+2026-02-06T14:37:39Z ERR ingress service unavailable: telemetry-api span=b37332ac status=503
+2026-02-06T14:37:40Z ERR ingress service unavailable: telemetry-api span=bf97e06a status=503
+2026-02-06T14:37:42Z ERR ingress service unavailable: telemetry-api span=7e169c55 status=503
+2026-02-06T14:37:42Z ERR ingress bad gateway: telemetry-api failed span=2427ab06 status=502
+2026-02-06T14:37:43Z INFO ingress tick ok elapsed_ms=40
+2026-02-06T14:37:44Z ERR ingress bad gateway: telemetry-api failed span=8ac36e94 status=502
+2026-02-06T14:37:44Z ERR ingress service unavailable: telemetry-api span=edaa96bb status=503
+2026-02-06T14:37:45Z ERR ingress bad gateway: telemetry-api failed span=d007ea23 status=502
+2026-02-06T14:37:47Z ERR ingress service unavailable: telemetry-api span=36df73c0 status=503
+2026-02-06T14:37:48Z ERR ingress bad gateway: telemetry-api failed span=0ab53bac status=502
+2026-02-06T14:37:49Z ERR ingress bad gateway: telemetry-api failed span=621d4e58 status=502
+2026-02-06T14:37:49Z ERR ingress bad gateway: telemetry-api failed span=818a2c45 status=502
+2026-02-06T14:37:51Z ERR ingress service unavailable: telemetry-api span=cd5788aa status=503
+2026-02-06T14:37:52Z ERR ingress bad gateway: telemetry-api failed span=20926317 status=502
+2026-02-06T14:37:53Z INFO ingress http request method=GET status=200 latency_ms=58 span=ae371f4e
+2026-02-06T14:37:53Z ERR ingress bad gateway: telemetry-api failed span=172b9c53 status=502
+2026-02-06T14:37:54Z ERR ingress bad gateway: telemetry-api failed span=a85fda1a status=502
+2026-02-06T14:37:56Z ERR ingress service unavailable: telemetry-api span=3fec6afb status=503
+2026-02-06T14:37:56Z ERR ingress service unavailable: telemetry-api span=60b8a642 status=503
+2026-02-06T14:37:57Z ERR ingress service unavailable: telemetry-api span=bddcae86 status=503
+2026-02-06T14:37:58Z ERR ingress service unavailable: telemetry-api span=94c0a6be status=503
+2026-02-06T14:38:00Z INFO ingress http request method=GET status=200 latency_ms=24 span=bf7e0df2
+2026-02-06T14:38:00Z ERR ingress bad gateway: telemetry-api failed span=eb10a404 status=502
+2026-02-06T14:38:00Z ERR ingress bad gateway: telemetry-api failed span=32cb34d1 status=502
+2026-02-06T14:38:01Z ERR ingress bad gateway: telemetry-api failed span=aef83a00 status=502
+2026-02-06T14:38:03Z ERR ingress service unavailable: telemetry-api span=0d7a0d52 status=503
+2026-02-06T14:38:03Z ERR ingress bad gateway: telemetry-api failed span=7976c38d status=502
+2026-02-06T14:38:04Z ERR ingress service unavailable: telemetry-api span=961cf675 status=503
+2026-02-06T14:38:05Z ERR ingress bad gateway: telemetry-api failed span=5c25422f status=502
+2026-02-06T14:38:06Z ERR ingress service unavailable: telemetry-api span=e9580b90 status=503
+2026-02-06T14:38:07Z ERR ingress bad gateway: telemetry-api failed span=41267e20 status=502
+2026-02-06T14:38:08Z ERR ingress service unavailable: telemetry-api span=e85a0160 status=503
+2026-02-06T14:38:09Z ERR ingress bad gateway: telemetry-api failed span=714a2ebf status=502
+2026-02-06T14:38:10Z INFO ingress tick ok elapsed_ms=11
+2026-02-06T14:38:11Z ERR ingress bad gateway: telemetry-api failed span=14071dc7 status=502
+2026-02-06T14:38:13Z ERR ingress service unavailable: telemetry-api span=1d88fa39 status=503
+2026-02-06T14:38:13Z ERR ingress service unavailable: telemetry-api span=a1013f55 status=503
+2026-02-06T14:38:15Z ERR ingress bad gateway: telemetry-api failed span=e795202f status=502
+2026-02-06T14:38:16Z ERR ingress bad gateway: telemetry-api failed span=7bfc79df status=502
+2026-02-06T14:38:17Z ERR ingress service unavailable: telemetry-api span=164c27d2 status=503
+2026-02-06T14:38:18Z ERR ingress bad gateway: telemetry-api failed span=0a8acd97 status=502
+2026-02-06T14:38:19Z ERR ingress bad gateway: telemetry-api failed span=e8875c89 status=502
+2026-02-06T14:38:20Z ERR ingress service unavailable: telemetry-api span=e3a8478c status=503
+2026-02-06T14:38:21Z ERR ingress service unavailable: telemetry-api span=26dc04f3 status=503
+2026-02-06T14:38:22Z INFO ingress http request method=GET status=200 latency_ms=73 span=e7893017
+2026-02-06T14:38:23Z ERR ingress bad gateway: telemetry-api failed span=2bd941e9 status=502
+2026-02-06T14:38:24Z ERR ingress bad gateway: telemetry-api failed span=934a175f status=502
+2026-02-06T14:38:25Z ERR ingress service unavailable: telemetry-api span=937b3d34 status=503
+2026-02-06T14:38:26Z ERR ingress service unavailable: telemetry-api span=d92fc39f status=503
+2026-02-06T14:38:26Z ERR ingress service unavailable: telemetry-api span=8c99751a status=503
+2026-02-06T14:38:27Z ERR ingress service unavailable: telemetry-api span=aece2933 status=503
+2026-02-06T14:38:29Z ERR ingress bad gateway: telemetry-api failed span=457748f7 status=502
+2026-02-06T14:38:30Z INFO ingress tick ok elapsed_ms=87
+2026-02-06T14:38:30Z ERR ingress bad gateway: telemetry-api failed span=7f2a46f8 status=502
+2026-02-06T14:38:31Z ERR ingress bad gateway: telemetry-api failed span=7e6fefb7 status=502
+2026-02-06T14:38:32Z ERR ingress bad gateway: telemetry-api failed span=71794057 status=502
+2026-02-06T14:38:33Z ERR ingress service unavailable: telemetry-api span=32dc9e45 status=503
+2026-02-06T14:38:34Z ERR ingress bad gateway: telemetry-api failed span=a04bd186 status=502
+2026-02-06T14:38:36Z ERR ingress service unavailable: telemetry-api span=584d1e5e status=503
+2026-02-06T14:38:37Z ERR ingress service unavailable: telemetry-api span=a5e58a46 status=503
+2026-02-06T14:38:38Z ERR ingress bad gateway: telemetry-api failed span=a0da4cde status=502
+2026-02-06T14:38:40Z ERR ingress bad gateway: telemetry-api failed span=69d774c9 status=502
+2026-02-06T14:38:40Z ERR ingress service unavailable: telemetry-api span=ac705aea status=503
+2026-02-06T14:38:41Z ERR ingress service unavailable: telemetry-api span=944cc35f status=503
+2026-02-06T14:38:42Z INFO ingress http request method=GET status=200 latency_ms=90 span=636d85be
+2026-02-06T14:38:42Z ERR ingress service unavailable: telemetry-api span=43c905c8 status=503
+2026-02-06T14:38:44Z ERR ingress service unavailable: telemetry-api span=9be5547c status=503
+2026-02-06T14:38:45Z ERR ingress service unavailable: telemetry-api span=f1c3ff51 status=503
+2026-02-06T14:38:46Z ERR ingress bad gateway: telemetry-api failed span=11ef4552 status=502
+2026-02-06T14:38:47Z ERR ingress bad gateway: telemetry-api failed span=6af493ec status=502
+2026-02-06T14:38:48Z ERR ingress service unavailable: telemetry-api span=2697e07b status=503
+2026-02-06T14:38:49Z ERR ingress bad gateway: telemetry-api failed span=b5860bfa status=502
+2026-02-06T14:38:50Z ERR ingress service unavailable: telemetry-api span=0ed4176a status=503
+2026-02-06T14:38:51Z ERR ingress service unavailable: telemetry-api span=3b40f417 status=503
+2026-02-06T14:38:52Z ERR ingress bad gateway: telemetry-api failed span=8cd0013b status=502
+2026-02-06T14:38:53Z ERR ingress bad gateway: telemetry-api failed span=2512c0ad status=502
+2026-02-06T14:38:54Z ERR ingress service unavailable: telemetry-api span=766801ab status=503
+2026-02-06T14:38:55Z INFO ingress tick ok elapsed_ms=31
+2026-02-06T14:38:56Z ERR ingress bad gateway: telemetry-api failed span=30809809 status=502
+2026-02-06T14:38:56Z ERR ingress bad gateway: telemetry-api failed span=b24fb19d status=502
+2026-02-06T14:38:58Z ERR ingress service unavailable: telemetry-api span=d69f7382 status=503
+2026-02-06T14:38:59Z ERR ingress service unavailable: telemetry-api span=b301c561 status=503
+2026-02-06T14:39:00Z ERR ingress service unavailable: telemetry-api span=20b19c2c status=503
+2026-02-06T14:39:01Z ERR ingress service unavailable: telemetry-api span=6f90f980 status=503
+2026-02-06T14:39:03Z ERR ingress service unavailable: telemetry-api span=517f0392 status=503
+2026-02-06T14:39:04Z ERR ingress service unavailable: telemetry-api span=0030cd0b status=503
+2026-02-06T14:39:05Z ERR ingress bad gateway: telemetry-api failed span=9344e543 status=502
+2026-02-06T14:39:06Z ERR ingress bad gateway: telemetry-api failed span=fcd93d43 status=502
+2026-02-06T14:39:07Z ERR ingress service unavailable: telemetry-api span=07b878d7 status=503
+2026-02-06T14:39:08Z INFO ingress http request method=GET status=200 latency_ms=17 span=616f1107
+2026-02-06T14:39:08Z ERR ingress service unavailable: telemetry-api span=41ccce58 status=503
+2026-02-06T14:39:09Z ERR ingress bad gateway: telemetry-api failed span=5e75c411 status=502
+2026-02-06T14:39:10Z ERR ingress service unavailable: telemetry-api span=cc70f5cf status=503
+2026-02-06T14:39:12Z ERR ingress service unavailable: telemetry-api span=742f406a status=503
+2026-02-06T14:39:12Z ERR ingress service unavailable: telemetry-api span=c1544dc6 status=503
+2026-02-06T14:39:14Z ERR ingress bad gateway: telemetry-api failed span=0b2e8ed4 status=502
+2026-02-06T14:39:15Z ERR ingress service unavailable: telemetry-api span=0987256c status=503
+2026-02-06T14:39:16Z ERR ingress bad gateway: telemetry-api failed span=f67a71d8 status=502
+2026-02-06T14:39:18Z ERR ingress bad gateway: telemetry-api failed span=fc486542 status=502
+2026-02-06T14:39:19Z ERR ingress bad gateway: telemetry-api failed span=fc431103 status=502
+2026-02-06T14:39:20Z INFO ingress tick ok elapsed_ms=57
+2026-02-06T14:39:20Z ERR ingress bad gateway: telemetry-api failed span=a52b0b65 status=502
+2026-02-06T14:39:21Z ERR ingress bad gateway: telemetry-api failed span=4b90a8c1 status=502
+2026-02-06T14:39:22Z ERR ingress bad gateway: telemetry-api failed span=3fbf8a37 status=502
+2026-02-06T14:39:24Z ERR ingress service unavailable: telemetry-api span=260c628a status=503
+2026-02-06T14:39:25Z ERR ingress service unavailable: telemetry-api span=fa66e28e status=503
+2026-02-06T14:39:26Z ERR ingress bad gateway: telemetry-api failed span=c36f54d4 status=502
+2026-02-06T14:39:27Z ERR ingress bad gateway: telemetry-api failed span=74d474bc status=502
+2026-02-06T14:39:28Z ERR ingress bad gateway: telemetry-api failed span=88a5d6c0 status=502
+2026-02-06T14:39:29Z ERR ingress service unavailable: telemetry-api span=0ae3ff44 status=503
+2026-02-06T14:39:30Z INFO ingress http request method=GET status=200 latency_ms=47 span=76f868fe
+2026-02-06T14:39:30Z ERR ingress bad gateway: telemetry-api failed span=c861882a status=502
+2026-02-06T14:39:31Z ERR ingress service unavailable: telemetry-api span=0310016a status=503
+2026-02-06T14:39:32Z ERR ingress service unavailable: telemetry-api span=7d6e2aa7 status=503
+2026-02-06T14:39:33Z ERR ingress service unavailable: telemetry-api span=51ba016e status=503
+2026-02-06T14:39:33Z ERR ingress service unavailable: telemetry-api span=71cc0c98 status=503
+2026-02-06T14:39:34Z ERR ingress service unavailable: telemetry-api span=11f06477 status=503
+2026-02-06T14:39:35Z ERR ingress bad gateway: telemetry-api failed span=084b48f7 status=502
+2026-02-06T14:39:37Z ERR ingress bad gateway: telemetry-api failed span=8cdaca86 status=502
+2026-02-06T14:39:38Z ERR ingress bad gateway: telemetry-api failed span=c87ca585 status=502
+2026-02-06T14:39:39Z ERR ingress service unavailable: telemetry-api span=a565ffe7 status=503
+2026-02-06T14:39:40Z ERR ingress service unavailable: telemetry-api span=8382d1b2 status=503
+2026-02-06T14:39:41Z INFO ingress tick ok elapsed_ms=77
+2026-02-06T14:39:41Z ERR ingress bad gateway: telemetry-api failed span=95098e38 status=502
+2026-02-06T14:39:43Z ERR ingress service unavailable: telemetry-api span=496fb8a0 status=503
+2026-02-06T14:39:44Z ERR ingress bad gateway: telemetry-api failed span=0b979fc5 status=502
+2026-02-06T14:39:45Z ERR ingress bad gateway: telemetry-api failed span=0aa8163c status=502
+2026-02-06T14:39:46Z ERR ingress service unavailable: telemetry-api span=620534f6 status=503
+2026-02-06T14:39:47Z ERR ingress bad gateway: telemetry-api failed span=db962825 status=502
+2026-02-06T14:39:48Z ERR ingress service unavailable: telemetry-api span=b95e5a4d status=503
+2026-02-06T14:39:49Z ERR ingress bad gateway: telemetry-api failed span=92de67b6 status=502
+2026-02-06T14:39:50Z ERR ingress service unavailable: telemetry-api span=24ac4608 status=503
+2026-02-06T14:39:51Z ERR ingress bad gateway: telemetry-api failed span=15fd40bf status=502
+2026-02-06T14:39:52Z ERR ingress bad gateway: telemetry-api failed span=28037791 status=502
+2026-02-06T14:39:53Z ERR ingress service unavailable: telemetry-api span=e5f54e23 status=503
+2026-02-06T14:39:54Z INFO ingress tick ok elapsed_ms=60
+2026-02-06T14:39:54Z ERR ingress bad gateway: telemetry-api failed span=1e1e86d7 status=502
+2026-02-06T14:39:55Z ERR ingress bad gateway: telemetry-api failed span=ca1beaff status=502
+2026-02-06T14:39:56Z ERR ingress service unavailable: telemetry-api span=c7146289 status=503
+2026-02-06T14:39:57Z ERR ingress service unavailable: telemetry-api span=c50e5978 status=503
+2026-02-06T14:39:57Z ERR ingress service unavailable: telemetry-api span=e6f1cecb status=503
+2026-02-06T14:39:59Z ERR ingress bad gateway: telemetry-api failed span=70067191 status=502
+2026-02-06T14:40:00Z ERR ingress bad gateway: telemetry-api failed span=29d69675 status=502
+2026-02-06T14:40:01Z ERR ingress bad gateway: telemetry-api failed span=1964e656 status=502
+2026-02-06T14:40:02Z ERR ingress service unavailable: telemetry-api span=b54fc4f7 status=503
+2026-02-06T14:40:04Z ERR ingress service unavailable: telemetry-api span=19e40cfe status=503
+2026-02-06T14:40:05Z ERR ingress service unavailable: telemetry-api span=c0077a99 status=503
+2026-02-06T14:40:06Z INFO ingress tick ok elapsed_ms=8
+2026-02-06T14:40:06Z ERR ingress bad gateway: telemetry-api failed span=3323abd9 status=502
+2026-02-06T14:40:07Z ERR ingress service unavailable: telemetry-api span=353347e7 status=503
+2026-02-06T14:40:08Z ERR ingress bad gateway: telemetry-api failed span=905a0acf status=502
+2026-02-06T14:40:09Z ERR ingress service unavailable: telemetry-api span=7268d17b status=503
+2026-02-06T14:40:10Z ERR ingress bad gateway: telemetry-api failed span=a923c35b status=502
+2026-02-06T14:40:11Z ERR ingress service unavailable: telemetry-api span=2d76a25a status=503
+2026-02-06T14:40:12Z ERR ingress service unavailable: telemetry-api span=7214786f status=503
+2026-02-06T14:40:13Z ERR ingress service unavailable: telemetry-api span=18d37061 status=503
+2026-02-06T14:40:14Z ERR ingress service unavailable: telemetry-api span=66f46e0f status=503
+2026-02-06T14:40:16Z ERR ingress service unavailable: telemetry-api span=98fa1b59 status=503

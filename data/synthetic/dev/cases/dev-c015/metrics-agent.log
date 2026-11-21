@@ -1,0 +1,67 @@
+2026-01-21 14:17:17,975 INFO metrics-agent ping ok latency=49ms
+2026-01-21 14:17:30,738 INFO metrics-agent handled request rid=18e193e1 status=200 dur=46ms
+2026-01-21 14:17:43,554 INFO metrics-agent handled request rid=8a19f97a status=200 dur=95ms
+2026-01-21 14:17:50,071 INFO metrics-agent handled request rid=941d213c status=200 dur=43ms
+2026-01-21 14:18:03,482 INFO metrics-agent ping ok latency=21ms
+2026-01-21 14:18:16,519 INFO metrics-agent ping ok latency=23ms
+2026-01-21 14:18:29,153 INFO metrics-agent handled request rid=f567fded status=200 dur=45ms
+2026-01-21 14:18:35,467 INFO metrics-agent handled request rid=5904feb4 status=200 dur=18ms
+2026-01-21 14:18:42,771 INFO metrics-agent ping ok latency=64ms
+2026-01-21 14:18:54,641 INFO metrics-agent ping ok latency=57ms
+2026-01-21 14:19:01,655 INFO metrics-agent handled request rid=76d2c9af status=200 dur=30ms
+2026-01-21 14:19:08,409 INFO metrics-agent ping ok latency=12ms
+2026-01-21 14:19:18,421 INFO metrics-agent ping ok latency=62ms
+2026-01-21 14:19:19,863 ERROR metrics-agent leader election lost for cron lock, re-electing
+2026-01-21 14:19:30,644 ERROR metrics-agent leader election lost for cron lock, re-electing
+2026-01-21 14:19:31,395 INFO metrics-agent ping ok latency=8ms
+2026-01-21 14:19:32,000 WARNING metrics-agent retry budget low on client pool
+2026-01-21 14:19:41,792 ERROR metrics-agent leader election lost for cron lock, re-electing
+2026-01-21 14:19:43,049 INFO metrics-agent handled request rid=c400752f status=200 dur=22ms
+2026-01-21 14:19:55,499 INFO metrics-agent ping ok latency=17ms
+2026-01-21 14:20:04,369 INFO metrics-agent ping ok latency=74ms
+2026-01-21 14:20:18,184 INFO metrics-agent handled request rid=5dcec671 status=200 dur=45ms
+2026-01-21 14:20:25,869 INFO metrics-agent handled request rid=dace8d45 status=200 dur=16ms
+2026-01-21 14:20:38,375 INFO metrics-agent handled request rid=253137c0 status=200 dur=95ms
+2026-01-21 14:20:49,966 INFO metrics-agent handled request rid=dbc5049e status=200 dur=74ms
+2026-01-21 14:20:56,448 INFO metrics-agent ping ok latency=18ms
+2026-01-21 14:21:09,054 INFO metrics-agent handled request rid=71f81512 status=200 dur=47ms
+2026-01-21 14:21:22,559 INFO metrics-agent ping ok latency=68ms
+2026-01-21 14:21:33,696 INFO metrics-agent handled request rid=aedbc95c status=200 dur=59ms
+2026-01-21 14:21:40,482 INFO metrics-agent handled request rid=80f751a1 status=200 dur=92ms
+2026-01-21 14:21:46,516 INFO metrics-agent handled request rid=a810a7c3 status=200 dur=32ms
+2026-01-21 14:21:52,535 INFO metrics-agent ping ok latency=57ms
+2026-01-21 14:21:53,000 WARNING metrics-agent slow handler rid=375fe52e dur=900ms
+2026-01-21 14:22:04,178 INFO metrics-agent handled request rid=569cf3b1 status=200 dur=29ms
+2026-01-21 14:22:10,778 INFO metrics-agent handled request rid=f2bde10b status=200 dur=54ms
+2026-01-21 14:22:24,877 INFO metrics-agent handled request rid=4379405a status=200 dur=57ms
+2026-01-21 14:22:34,890 INFO metrics-agent ping ok latency=12ms
+2026-01-21 14:22:43,059 INFO metrics-agent ping ok latency=71ms
+2026-01-21 14:22:56,425 INFO metrics-agent handled request rid=07ab85d9 status=200 dur=93ms
+2026-01-21 14:23:02,987 INFO metrics-agent ping ok latency=40ms
+2026-01-21 14:23:11,391 INFO metrics-agent ping ok latency=74ms
+2026-01-21 14:23:17,984 INFO metrics-agent handled request rid=43ca7134 status=200 dur=26ms
+2026-01-21 14:23:26,119 INFO metrics-agent ping ok latency=85ms
+2026-01-21 14:23:32,970 INFO metrics-agent handled request rid=37b7ffae status=200 dur=24ms
+2026-01-21 14:23:39,654 INFO metrics-agent handled request rid=f9295acd status=200 dur=28ms
+2026-01-21 14:23:48,334 INFO metrics-agent handled request rid=f8f3d3be status=200 dur=21ms
+2026-01-21 14:23:54,594 INFO metrics-agent ping ok latency=38ms
+2026-01-21 14:24:02,772 INFO metrics-agent ping ok latency=12ms
+2026-01-21 14:24:16,244 INFO metrics-agent ping ok latency=43ms
+2026-01-21 14:24:26,022 INFO metrics-agent handled request rid=108413b8 status=200 dur=76ms
+2026-01-21 14:24:33,478 INFO metrics-agent handled request rid=f5f4be58 status=200 dur=52ms
+2026-01-21 14:24:46,055 INFO metrics-agent handled request rid=6b29afb7 status=200 dur=86ms
+2026-01-21 14:24:57,134 INFO metrics-agent handled request rid=cb60bbef status=200 dur=38ms
+2026-01-21 14:25:03,161 INFO metrics-agent ping ok latency=30ms
+2026-01-21 14:25:16,776 INFO metrics-agent handled request rid=92a51a50 status=200 dur=54ms
+2026-01-21 14:25:23,279 INFO metrics-agent ping ok latency=37ms
+2026-01-21 14:25:29,540 INFO metrics-agent ping ok latency=70ms
+2026-01-21 14:25:36,882 INFO metrics-agent handled request rid=009380e4 status=200 dur=30ms
+2026-01-21 14:25:42,678 INFO metrics-agent handled request rid=f3a374df status=200 dur=82ms
+2026-01-21 14:25:53,843 INFO metrics-agent ping ok latency=89ms
+2026-01-21 14:25:59,134 INFO metrics-agent handled request rid=32cbbab8 status=200 dur=20ms
+2026-01-21 14:26:09,699 INFO metrics-agent ping ok latency=66ms
+2026-01-21 14:26:19,365 INFO metrics-agent handled request rid=8904f6ba status=200 dur=41ms
+2026-01-21 14:26:32,600 INFO metrics-agent handled request rid=5635de0e status=200 dur=80ms
+2026-01-21 14:26:42,776 INFO metrics-agent handled request rid=1acb92dc status=200 dur=73ms
+2026-01-21 14:26:53,894 INFO metrics-agent ping ok latency=79ms
+2026-01-21 14:27:05,463 INFO metrics-agent handled request rid=0c3b4904 status=200 dur=93ms

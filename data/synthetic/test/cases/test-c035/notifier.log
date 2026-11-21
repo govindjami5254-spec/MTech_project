@@ -1,0 +1,293 @@
+2026-01-17T16:29:36.799+05:30 info notifier served GET /api status=200 in 79ms trace=cf07ce0d
+2026-01-17T16:29:39.723+05:30 warn notifier export job lag 0 rows behind
+2026-01-17T16:29:43.190+05:30 warn notifier webhook delivery retries pending 0
+2026-01-17T16:29:43.683+05:30 info notifier event loop lag 11ms ok
+2026-01-17T16:29:45.409+05:30 warn notifier export job lag 0 rows behind
+2026-01-17T16:29:46.569+05:30 warn notifier export job lag 0 rows behind
+2026-01-17T16:29:49.197+05:30 warn notifier webhook delivery retries pending 0
+2026-01-17T16:29:49.388+05:30 info notifier event loop lag 63ms ok
+2026-01-17T16:29:52.229+05:30 warn notifier webhook delivery retries pending 0
+2026-01-17T16:29:54.860+05:30 warn notifier webhook delivery retries pending 0
+2026-01-17T16:29:57.996+05:30 warn notifier webhook delivery retries pending 0
+2026-01-17T16:30:01.125+05:30 warn notifier webhook delivery retries pending 0
+2026-01-17T16:30:01.198+05:30 info notifier event loop lag 82ms ok
+2026-01-17T16:30:03.312+05:30 warn notifier export job lag 0 rows behind
+2026-01-17T16:30:05.160+05:30 warn notifier export job lag 0 rows behind
+2026-01-17T16:30:08.406+05:30 warn notifier webhook delivery retries pending 0
+2026-01-17T16:30:11.314+05:30 warn notifier export job lag 0 rows behind
+2026-01-17T16:30:14.227+05:30 warn notifier export job lag 0 rows behind
+2026-01-17T16:30:15.623+05:30 info notifier event loop lag 81ms ok
+2026-01-17T16:30:16.679+05:30 warn notifier webhook delivery retries pending 0
+2026-01-17T16:30:18.358+05:30 warn notifier export job lag 0 rows behind
+2026-01-17T16:30:20.571+05:30 warn notifier export job lag 0 rows behind
+2026-01-17T16:30:23.278+05:30 info notifier served GET /api status=200 in 85ms trace=fe94a921
+2026-01-17T16:30:24.194+05:30 warn notifier export job lag 0 rows behind
+2026-01-17T16:30:26.400+05:30 warn notifier webhook delivery retries pending 0
+2026-01-17T16:30:28.549+05:30 warn notifier webhook delivery retries pending 0
+2026-01-17T16:30:32.241+05:30 warn notifier webhook delivery retries pending 0
+2026-01-17T16:30:34.652+05:30 warn notifier webhook delivery retries pending 0
+2026-01-17T16:30:35.794+05:30 info notifier event loop lag 79ms ok
+2026-01-17T16:30:37.033+05:30 warn notifier export job lag 0 rows behind
+2026-01-17T16:30:39.677+05:30 warn notifier webhook delivery retries pending 0
+2026-01-17T16:30:42.111+05:30 warn notifier export job lag 0 rows behind
+2026-01-17T16:30:44.048+05:30 warn notifier webhook delivery retries pending 0
+2026-01-17T16:30:45.598+05:30 info notifier served GET /api status=200 in 84ms trace=8d20c53c
+2026-01-17T16:30:47.331+05:30 warn notifier webhook delivery retries pending 0
+2026-01-17T16:30:49.100+05:30 warn notifier export job lag 0 rows behind
+2026-01-17T16:30:53.232+05:30 warn notifier webhook delivery retries pending 0
+2026-01-17T16:30:54.723+05:30 warn notifier export job lag 0 rows behind
+2026-01-17T16:30:57.171+05:30 warn notifier webhook delivery retries pending 0
+2026-01-17T16:30:59.531+05:30 warn notifier export job lag 0 rows behind
+2026-01-17T16:30:59.750+05:30 info notifier event loop lag 50ms ok
+2026-01-17T16:31:01.929+05:30 warn notifier webhook delivery retries pending 0
+2026-01-17T16:31:03.735+05:30 warn notifier webhook delivery retries pending 0
+2026-01-17T16:31:05.312+05:30 warn notifier webhook delivery retries pending 0
+2026-01-17T16:31:05.831+05:30 info notifier event loop lag 86ms ok
+2026-01-17T16:31:07.911+05:30 warn notifier export job lag 0 rows behind
+2026-01-17T16:31:10.821+05:30 warn notifier export job lag 0 rows behind
+2026-01-17T16:31:13.642+05:30 warn notifier export job lag 0 rows behind
+2026-01-17T16:31:16.757+05:30 warn notifier webhook delivery retries pending 0
+2026-01-17T16:31:17.521+05:30 info notifier event loop lag 55ms ok
+2026-01-17T16:31:17.840+05:30 warn notifier export job lag 0 rows behind
+2026-01-17T16:31:21.532+05:30 warn notifier export job lag 0 rows behind
+2026-01-17T16:31:25.295+05:30 warn notifier webhook delivery retries pending 0
+2026-01-17T16:31:27.524+05:30 warn notifier webhook delivery retries pending 0
+2026-01-17T16:31:29.160+05:30 info notifier served GET /api status=200 in 22ms trace=daa9fb4a
+2026-01-17T16:31:30.902+05:30 warn notifier webhook delivery retries pending 0
+2026-01-17T16:31:32.607+05:30 warn notifier export job lag 0 rows behind
+2026-01-17T16:31:35.786+05:30 warn notifier webhook delivery retries pending 0
+2026-01-17T16:31:38.102+05:30 info notifier served GET /api status=200 in 57ms trace=b5608a1d
+2026-01-17T16:31:39.487+05:30 warn notifier export job lag 0 rows behind
+2026-01-17T16:31:41.233+05:30 warn notifier webhook delivery retries pending 0
+2026-01-17T16:31:43.340+05:30 warn notifier export job lag 0 rows behind
+2026-01-17T16:31:46.523+05:30 info notifier event loop lag 87ms ok
+2026-01-17T16:31:46.829+05:30 warn notifier export job lag 0 rows behind
+2026-01-17T16:31:50.665+05:30 warn notifier export job lag 0 rows behind
+2026-01-17T16:31:53.329+05:30 warn notifier webhook delivery retries pending 0
+2026-01-17T16:31:56.441+05:30 warn notifier webhook delivery retries pending 0
+2026-01-17T16:31:57.907+05:30 warn notifier webhook delivery retries pending 0
+2026-01-17T16:31:59.090+05:30 info notifier served GET /api status=200 in 48ms trace=50f5404c
+2026-01-17T16:32:01.105+05:30 warn notifier export job lag 0 rows behind
+2026-01-17T16:32:04.606+05:30 warn notifier webhook delivery retries pending 0
+2026-01-17T16:32:06.036+05:30 warn notifier webhook delivery retries pending 0
+2026-01-17T16:32:09.513+05:30 warn notifier webhook delivery retries pending 0
+2026-01-17T16:32:10.806+05:30 info notifier event loop lag 75ms ok
+2026-01-17T16:32:12.552+05:30 warn notifier webhook delivery retries pending 0
+2026-01-17T16:32:15.848+05:30 warn notifier export job lag 0 rows behind
+2026-01-17T16:32:18.892+05:30 warn notifier webhook delivery retries pending 0
+2026-01-17T16:32:20.332+05:30 info notifier served GET /api status=200 in 75ms trace=41b85514
+2026-01-17T16:32:21.115+05:30 warn notifier export job lag 0 rows behind
+2026-01-17T16:32:23.698+05:30 warn notifier export job lag 0 rows behind
+2026-01-17T16:32:27.145+05:30 warn notifier export job lag 0 rows behind
+2026-01-17T16:32:27.638+05:30 info notifier event loop lag 72ms ok
+2026-01-17T16:32:29.418+05:30 warn notifier export job lag 0 rows behind
+2026-01-17T16:32:31.140+05:30 warn notifier export job lag 0 rows behind
+2026-01-17T16:32:33.328+05:30 warn notifier webhook delivery retries pending 0
+2026-01-17T16:32:34.793+05:30 warn notifier export job lag 0 rows behind
+2026-01-17T16:32:37.776+05:30 info notifier event loop lag 81ms ok
+2026-01-17T16:32:38.391+05:30 warn notifier webhook delivery retries pending 0
+2026-01-17T16:32:42.050+05:30 warn notifier export job lag 0 rows behind
+2026-01-17T16:32:44.111+05:30 warn notifier webhook delivery retries pending 0
+2026-01-17T16:32:46.380+05:30 warn notifier webhook delivery retries pending 0
+2026-01-17T16:32:48.494+05:30 warn notifier export job lag 0 rows behind
+2026-01-17T16:32:50.353+05:30 warn notifier webhook delivery retries pending 0
+2026-01-17T16:32:51.888+05:30 info notifier event loop lag 14ms ok
+2026-01-17T16:32:52.850+05:30 warn notifier webhook delivery retries pending 0
+2026-01-17T16:32:55.754+05:30 warn notifier export job lag 0 rows behind
+2026-01-17T16:32:56.792+05:30 warn notifier webhook delivery retries pending 0
+2026-01-17T16:32:57.171+05:30 info notifier event loop lag 83ms ok
+2026-01-17T16:33:00.030+05:30 warn notifier export job lag 0 rows behind
+2026-01-17T16:33:02.144+05:30 warn notifier export job lag 0 rows behind
+2026-01-17T16:33:05.227+05:30 warn notifier export job lag 0 rows behind
+2026-01-17T16:33:08.291+05:30 warn notifier webhook delivery retries pending 0
+2026-01-17T16:33:10.204+05:30 warn notifier webhook delivery retries pending 0
+2026-01-17T16:33:11.298+05:30 info notifier served GET /api status=200 in 52ms trace=8eb26adf
+2026-01-17T16:33:11.777+05:30 warn notifier export job lag 0 rows behind
+2026-01-17T16:33:15.562+05:30 warn notifier export job lag 0 rows behind
+2026-01-17T16:33:17.815+05:30 warn notifier export job lag 0 rows behind
+2026-01-17T16:33:19.230+05:30 warn notifier webhook delivery retries pending 0
+2026-01-17T16:33:21.727+05:30 warn notifier webhook delivery retries pending 0
+2026-01-17T16:33:23.548+05:30 info notifier event loop lag 12ms ok
+2026-01-17T16:33:23.686+05:30 warn notifier export job lag 0 rows behind
+2026-01-17T16:33:25.904+05:30 warn notifier export job lag 0 rows behind
+2026-01-17T16:33:28.558+05:30 warn notifier webhook delivery retries pending 0
+2026-01-17T16:33:31.115+05:30 warn notifier export job lag 0 rows behind
+2026-01-17T16:33:33.408+05:30 warn notifier export job lag 0 rows behind
+2026-01-17T16:33:35.026+05:30 info notifier served GET /api status=200 in 72ms trace=1606bd84
+2026-01-17T16:33:36.417+05:30 warn notifier webhook delivery retries pending 0
+2026-01-17T16:33:40.420+05:30 warn notifier export job lag 0 rows behind
+2026-01-17T16:33:42.215+05:30 warn notifier webhook delivery retries pending 0
+2026-01-17T16:33:44.315+05:30 warn notifier export job lag 0 rows behind
+2026-01-17T16:33:44.691+05:30 info notifier served GET /api status=200 in 18ms trace=486cfac0
+2026-01-17T16:33:45.962+05:30 warn notifier webhook delivery retries pending 0
+2026-01-17T16:33:49.276+05:30 warn notifier webhook delivery retries pending 0
+2026-01-17T16:33:51.259+05:30 warn notifier webhook delivery retries pending 0
+2026-01-17T16:33:53.300+05:30 warn notifier webhook delivery retries pending 0
+2026-01-17T16:33:55.127+05:30 warn notifier webhook delivery retries pending 0
+2026-01-17T16:33:57.382+05:30 warn notifier webhook delivery retries pending 0
+2026-01-17T16:33:58.119+05:30 info notifier event loop lag 81ms ok
+2026-01-17T16:33:59.927+05:30 warn notifier webhook delivery retries pending 0
+2026-01-17T16:34:02.900+05:30 warn notifier export job lag 0 rows behind
+2026-01-17T16:34:05.699+05:30 warn notifier export job lag 0 rows behind
+2026-01-17T16:34:09.597+05:30 warn notifier export job lag 0 rows behind
+2026-01-17T16:34:10.738+05:30 warn notifier export job lag 0 rows behind
+2026-01-17T16:34:11.354+05:30 info notifier served GET /api status=200 in 29ms trace=f0dfc6bc
+2026-01-17T16:34:14.225+05:30 warn notifier export job lag 0 rows behind
+2026-01-17T16:34:15.858+05:30 warn notifier webhook delivery retries pending 0
+2026-01-17T16:34:18.194+05:30 warn notifier webhook delivery retries pending 0
+2026-01-17T16:34:19.076+05:30 info notifier event loop lag 88ms ok
+2026-01-17T16:34:20.689+05:30 warn notifier webhook delivery retries pending 0
+2026-01-17T16:34:23.145+05:30 warn notifier export job lag 0 rows behind
+2026-01-17T16:34:25.943+05:30 warn notifier webhook delivery retries pending 0
+2026-01-17T16:34:26.955+05:30 info notifier served GET /api status=200 in 72ms trace=dc6c3c6e
+2026-01-17T16:34:29.163+05:30 warn notifier export job lag 0 rows behind
+2026-01-17T16:34:32.574+05:30 warn notifier export job lag 0 rows behind
+2026-01-17T16:34:33.539+05:30 info notifier served GET /api status=200 in 79ms trace=8a24ef50
+2026-01-17T16:34:34.353+05:30 warn notifier export job lag 0 rows behind
+2026-01-17T16:34:38.193+05:30 warn notifier export job lag 0 rows behind
+2026-01-17T16:34:40.285+05:30 warn notifier export job lag 0 rows behind
+2026-01-17T16:34:43.994+05:30 warn notifier export job lag 0 rows behind
+2026-01-17T16:34:44.367+05:30 info notifier served GET /api status=200 in 62ms trace=e6d8f8d0
+2026-01-17T16:34:46.571+05:30 warn notifier webhook delivery retries pending 0
+2026-01-17T16:34:48.001+05:30 warn notifier webhook delivery retries pending 0
+2026-01-17T16:34:49.334+05:30 warn notifier export job lag 0 rows behind
+2026-01-17T16:34:52.352+05:30 warn notifier webhook delivery retries pending 0
+2026-01-17T16:34:54.262+05:30 warn notifier export job lag 0 rows behind
+2026-01-17T16:34:54.878+05:30 info notifier served GET /api status=200 in 28ms trace=c8073222
+2026-01-17T16:34:57.399+05:30 warn notifier export job lag 0 rows behind
+2026-01-17T16:34:59.834+05:30 warn notifier export job lag 0 rows behind
+2026-01-17T16:35:02.338+05:30 warn notifier webhook delivery retries pending 0
+2026-01-17T16:35:03.821+05:30 warn notifier webhook delivery retries pending 0
+2026-01-17T16:35:04.334+05:30 info notifier event loop lag 77ms ok
+2026-01-17T16:35:06.600+05:30 warn notifier export job lag 0 rows behind
+2026-01-17T16:35:09.332+05:30 warn notifier export job lag 0 rows behind
+2026-01-17T16:35:11.975+05:30 warn notifier export job lag 0 rows behind
+2026-01-17T16:35:12.606+05:30 info notifier event loop lag 47ms ok
+2026-01-17T16:35:14.158+05:30 warn notifier webhook delivery retries pending 0
+2026-01-17T16:35:17.351+05:30 warn notifier webhook delivery retries pending 0
+2026-01-17T16:35:19.742+05:30 warn notifier export job lag 0 rows behind
+2026-01-17T16:35:20.156+05:30 info notifier event loop lag 47ms ok
+2026-01-17T16:35:23.569+05:30 warn notifier webhook delivery retries pending 0
+2026-01-17T16:35:26.160+05:30 warn notifier webhook delivery retries pending 0
+2026-01-17T16:35:28.280+05:30 warn notifier webhook delivery retries pending 0
+2026-01-17T16:35:32.373+05:30 warn notifier webhook delivery retries pending 0
+2026-01-17T16:35:33.484+05:30 info notifier event loop lag 16ms ok
+2026-01-17T16:35:35.463+05:30 warn notifier export job lag 0 rows behind
+2026-01-17T16:35:38.439+05:30 warn notifier webhook delivery retries pending 0
+2026-01-17T16:35:39.399+05:30 warn notifier webhook delivery retries pending 0
+2026-01-17T16:35:42.326+05:30 info notifier served GET /api status=200 in 51ms trace=b5da6829
+2026-01-17T16:35:42.578+05:30 warn notifier export job lag 0 rows behind
+2026-01-17T16:35:45.332+05:30 warn notifier webhook delivery retries pending 0
+2026-01-17T16:35:47.547+05:30 warn notifier export job lag 0 rows behind
+2026-01-17T16:35:49.726+05:30 info notifier served GET /api status=200 in 62ms trace=29a7c59c
+2026-01-17T16:35:49.980+05:30 warn notifier webhook delivery retries pending 0
+2026-01-17T16:35:52.728+05:30 warn notifier webhook delivery retries pending 0
+2026-01-17T16:35:55.685+05:30 warn notifier webhook delivery retries pending 0
+2026-01-17T16:35:56.635+05:30 info notifier served GET /api status=200 in 60ms trace=dcba9a5e
+2026-01-17T16:35:58.211+05:30 warn notifier webhook delivery retries pending 0
+2026-01-17T16:36:00.024+05:30 warn notifier export job lag 0 rows behind
+2026-01-17T16:36:02.127+05:30 warn notifier export job lag 0 rows behind
+2026-01-17T16:36:04.620+05:30 warn notifier export job lag 0 rows behind
+2026-01-17T16:36:06.224+05:30 warn notifier webhook delivery retries pending 0
+2026-01-17T16:36:09.346+05:30 info notifier served GET /api status=200 in 38ms trace=70e160e4
+2026-01-17T16:36:09.510+05:30 warn notifier export job lag 0 rows behind
+2026-01-17T16:36:12.080+05:30 warn notifier webhook delivery retries pending 0
+2026-01-17T16:36:13.992+05:30 warn notifier webhook delivery retries pending 0
+2026-01-17T16:36:15.946+05:30 warn notifier webhook delivery retries pending 0
+2026-01-17T16:36:17.599+05:30 info notifier event loop lag 42ms ok
+2026-01-17T16:36:18.364+05:30 warn notifier webhook delivery retries pending 0
+2026-01-17T16:36:20.296+05:30 warn notifier webhook delivery retries pending 0
+2026-01-17T16:36:23.150+05:30 warn notifier export job lag 0 rows behind
+2026-01-17T16:36:25.479+05:30 warn notifier export job lag 0 rows behind
+2026-01-17T16:36:28.289+05:30 warn notifier export job lag 0 rows behind
+2026-01-17T16:36:30.170+05:30 warn notifier export job lag 0 rows behind
+2026-01-17T16:36:30.706+05:30 info notifier event loop lag 13ms ok
+2026-01-17T16:36:32.577+05:30 warn notifier export job lag 0 rows behind
+2026-01-17T16:36:35.533+05:30 warn notifier webhook delivery retries pending 0
+2026-01-17T16:36:38.472+05:30 warn notifier export job lag 0 rows behind
+2026-01-17T16:36:42.068+05:30 warn notifier webhook delivery retries pending 0
+2026-01-17T16:36:43.165+05:30 info notifier served GET /api status=200 in 36ms trace=82a431fb
+2026-01-17T16:36:43.552+05:30 warn notifier export job lag 0 rows behind
+2026-01-17T16:36:45.071+05:30 warn notifier export job lag 0 rows behind
+2026-01-17T16:36:49.466+05:30 warn notifier webhook delivery retries pending 0
+2026-01-17T16:36:51.970+05:30 warn notifier webhook delivery retries pending 0
+2026-01-17T16:36:52.717+05:30 info notifier event loop lag 88ms ok
+2026-01-17T16:36:54.117+05:30 warn notifier export job lag 0 rows behind
+2026-01-17T16:36:56.220+05:30 warn notifier webhook delivery retries pending 0
+2026-01-17T16:37:00.367+05:30 warn notifier webhook delivery retries pending 0
+2026-01-17T16:37:02.958+05:30 warn notifier export job lag 0 rows behind
+2026-01-17T16:37:04.365+05:30 info notifier served GET /api status=200 in 46ms trace=a9a29b25
+2026-01-17T16:37:05.843+05:30 warn notifier export job lag 0 rows behind
+2026-01-17T16:37:07.875+05:30 warn notifier webhook delivery retries pending 0
+2026-01-17T16:37:09.674+05:30 warn notifier webhook delivery retries pending 0
+2026-01-17T16:37:12.033+05:30 warn notifier webhook delivery retries pending 0
+2026-01-17T16:37:15.293+05:30 warn notifier export job lag 0 rows behind
+2026-01-17T16:37:15.437+05:30 info notifier served GET /api status=200 in 35ms trace=1ee00a02
+2026-01-17T16:37:17.961+05:30 warn notifier export job lag 0 rows behind
+2026-01-17T16:37:21.031+05:30 warn notifier webhook delivery retries pending 0
+2026-01-17T16:37:23.499+05:30 warn notifier webhook delivery retries pending 0
+2026-01-17T16:37:23.874+05:30 info notifier event loop lag 74ms ok
+2026-01-17T16:37:25.726+05:30 warn notifier webhook delivery retries pending 0
+2026-01-17T16:37:28.482+05:30 warn notifier export job lag 0 rows behind
+2026-01-17T16:37:29.717+05:30 info notifier served GET /api status=200 in 60ms trace=9b76dc67
+2026-01-17T16:37:31.489+05:30 warn notifier export job lag 0 rows behind
+2026-01-17T16:37:34.517+05:30 warn notifier webhook delivery retries pending 0
+2026-01-17T16:37:36.048+05:30 info notifier event loop lag 93ms ok
+2026-01-17T16:37:37.693+05:30 warn notifier webhook delivery retries pending 0
+2026-01-17T16:37:39.229+05:30 warn notifier export job lag 0 rows behind
+2026-01-17T16:37:42.020+05:30 info notifier served GET /api status=200 in 19ms trace=76ffe6ac
+2026-01-17T16:37:42.398+05:30 warn notifier webhook delivery retries pending 0
+2026-01-17T16:37:45.648+05:30 warn notifier webhook delivery retries pending 0
+2026-01-17T16:37:47.027+05:30 warn notifier export job lag 0 rows behind
+2026-01-17T16:37:48.579+05:30 info notifier served GET /api status=200 in 38ms trace=0f757c4a
+2026-01-17T16:37:49.261+05:30 warn notifier export job lag 0 rows behind
+2026-01-17T16:37:52.000+05:30 warn notifier export job lag 0 rows behind
+2026-01-17T16:37:54.088+05:30 warn notifier export job lag 0 rows behind
+2026-01-17T16:37:56.448+05:30 warn notifier export job lag 0 rows behind
+2026-01-17T16:37:59.208+05:30 warn notifier export job lag 0 rows behind
+2026-01-17T16:38:00.722+05:30 info notifier served GET /api status=200 in 17ms trace=1d2300a0
+2026-01-17T16:38:02.657+05:30 warn notifier export job lag 0 rows behind
+2026-01-17T16:38:04.003+05:30 warn notifier webhook delivery retries pending 0
+2026-01-17T16:38:06.968+05:30 warn notifier export job lag 0 rows behind
+2026-01-17T16:38:07.180+05:30 info notifier served GET /api status=200 in 43ms trace=a9501b44
+2026-01-17T16:38:11.119+05:30 warn notifier webhook delivery retries pending 0
+2026-01-17T16:38:12.916+05:30 warn notifier webhook delivery retries pending 0
+2026-01-17T16:38:15.368+05:30 info notifier served GET /api status=200 in 18ms trace=14676f08
+2026-01-17T16:38:16.759+05:30 warn notifier export job lag 0 rows behind
+2026-01-17T16:38:18.785+05:30 warn notifier webhook delivery retries pending 0
+2026-01-17T16:38:21.201+05:30 warn notifier export job lag 0 rows behind
+2026-01-17T16:38:24.280+05:30 warn notifier webhook delivery retries pending 0
+2026-01-17T16:38:26.825+05:30 warn notifier export job lag 0 rows behind
+2026-01-17T16:38:27.567+05:30 info notifier served GET /api status=200 in 58ms trace=5f5a822a
+2026-01-17T16:38:28.423+05:30 warn notifier webhook delivery retries pending 0
+2026-01-17T16:38:31.006+05:30 warn notifier webhook delivery retries pending 0
+2026-01-17T16:38:33.375+05:30 warn notifier export job lag 0 rows behind
+2026-01-17T16:38:34.610+05:30 info notifier served GET /api status=200 in 94ms trace=7fb51109
+2026-01-17T16:38:35.000+05:30 warn notifier unhandled header x-legacy ignored trace=d0061fd7
+2026-01-17T16:38:36.819+05:30 warn notifier export job lag 0 rows behind
+2026-01-17T16:38:40.324+05:30 warn notifier export job lag 0 rows behind
+2026-01-17T16:38:42.693+05:30 info notifier event loop lag 40ms ok
+2026-01-17T16:38:42.937+05:30 warn notifier webhook delivery retries pending 0
+2026-01-17T16:38:44.667+05:30 warn notifier export job lag 0 rows behind
+2026-01-17T16:38:45.906+05:30 warn notifier export job lag 0 rows behind
+2026-01-17T16:38:48.625+05:30 warn notifier webhook delivery retries pending 0
+2026-01-17T16:38:51.380+05:30 warn notifier export job lag 0 rows behind
+2026-01-17T16:38:53.575+05:30 warn notifier export job lag 0 rows behind
+2026-01-17T16:38:54.506+05:30 info notifier served GET /api status=200 in 66ms trace=eef6d814
+2026-01-17T16:38:55.754+05:30 warn notifier webhook delivery retries pending 0
+2026-01-17T16:38:58.383+05:30 warn notifier export job lag 0 rows behind
+2026-01-17T16:39:00.130+05:30 info notifier event loop lag 81ms ok
+2026-01-17T16:39:01.185+05:30 warn notifier webhook delivery retries pending 0
+2026-01-17T16:39:02.896+05:30 warn notifier webhook delivery retries pending 0
+2026-01-17T16:39:06.095+05:30 warn notifier export job lag 0 rows behind
+2026-01-17T16:39:08.273+05:30 warn notifier export job lag 0 rows behind
+2026-01-17T16:39:11.245+05:30 warn notifier export job lag 0 rows behind
+2026-01-17T16:39:13.996+05:30 warn notifier export job lag 0 rows behind
+2026-01-17T16:39:14.599+05:30 info notifier served GET /api status=200 in 28ms trace=bfe361c8
+2026-01-17T16:39:17.068+05:30 warn notifier export job lag 0 rows behind
+2026-01-17T16:39:20.678+05:30 warn notifier export job lag 0 rows behind
+2026-01-17T16:39:21.106+05:30 info notifier served GET /api status=200 in 94ms trace=d6a3a967
+2026-01-17T16:39:23.297+05:30 warn notifier webhook delivery retries pending 0
+2026-01-17T16:39:25.474+05:30 warn notifier webhook delivery retries pending 0
+2026-01-17T16:39:27.082+05:30 warn notifier webhook delivery retries pending 0
+2026-01-17T16:39:28.870+05:30 warn notifier webhook delivery retries pending 0

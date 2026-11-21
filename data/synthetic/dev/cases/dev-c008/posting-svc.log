@@ -1,0 +1,64 @@
+2026-01-16T11:03:19Z INFO posting-svc request completed in 33ms status=200 rid=c7e034c6
+2026-01-16T11:03:31Z INFO posting-svc health check passed in 87ms
+2026-01-16T11:03:42Z INFO posting-svc health check passed in 37ms
+2026-01-16T11:03:55Z INFO posting-svc health check passed in 38ms
+2026-01-16T11:04:01Z INFO posting-svc request completed in 80ms status=200 rid=65c603bb
+2026-01-16T11:04:08Z INFO posting-svc request completed in 52ms status=200 rid=85c4e529
+2026-01-16T11:04:17Z INFO posting-svc health check passed in 33ms
+2026-01-16T11:04:31Z INFO posting-svc request completed in 71ms status=200 rid=2cf9419e
+2026-01-16T11:04:42Z INFO posting-svc request completed in 92ms status=200 rid=9cdf66d0
+2026-01-16T11:04:54Z INFO posting-svc health check passed in 18ms
+2026-01-16T11:05:02Z INFO posting-svc health check passed in 73ms
+2026-01-16T11:05:15Z INFO posting-svc health check passed in 42ms
+2026-01-16T11:05:26Z INFO posting-svc health check passed in 79ms
+2026-01-16T11:05:37Z INFO posting-svc request completed in 47ms status=200 rid=ed2548db
+2026-01-16T11:05:49Z INFO posting-svc request completed in 46ms status=200 rid=19954233
+2026-01-16T11:05:56Z INFO posting-svc request completed in 64ms status=200 rid=4f5b5556
+2026-01-16T11:06:06Z INFO posting-svc health check passed in 38ms
+2026-01-16T11:06:15Z INFO posting-svc request completed in 78ms status=200 rid=c4460904
+2026-01-16T11:06:21Z INFO posting-svc request completed in 88ms status=200 rid=75290766
+2026-01-16T11:06:29Z INFO posting-svc request completed in 81ms status=200 rid=fcecb442
+2026-01-16T11:06:42Z INFO posting-svc health check passed in 91ms
+2026-01-16T11:06:54Z INFO posting-svc health check passed in 32ms
+2026-01-16T11:07:06Z INFO posting-svc request completed in 64ms status=200 rid=b9d24a43
+2026-01-16T11:07:12Z INFO posting-svc health check passed in 50ms
+2026-01-16T11:07:13Z WARN posting-svc slow request 90ms rid=b193d131
+2026-01-16T11:07:18Z INFO posting-svc request completed in 26ms status=200 rid=d9c32870
+2026-01-16T11:07:32Z INFO posting-svc health check passed in 25ms
+2026-01-16T11:07:42Z INFO posting-svc health check passed in 19ms
+2026-01-16T11:07:51Z INFO posting-svc request completed in 13ms status=200 rid=d1b6231a
+2026-01-16T11:08:03Z INFO posting-svc request completed in 35ms status=200 rid=a931a8cb
+2026-01-16T11:08:06Z WARN posting-svc connection pool usage 98% (active=65)
+2026-01-16T11:08:17Z INFO posting-svc health check passed in 76ms
+2026-01-16T11:08:26Z INFO posting-svc request completed in 75ms status=200 rid=08ef8ccd
+2026-01-16T11:08:36Z INFO posting-svc request completed in 48ms status=200 rid=6df24911
+2026-01-16T11:08:36Z ERROR posting-svc HikariPool: connection is not available, request timed out
+2026-01-16T11:08:41Z ERROR posting-svc rejecting requests: connection pool exhausted
+2026-01-16T11:08:42Z INFO posting-svc health check passed in 41ms
+2026-01-16T11:08:51Z INFO posting-svc request completed in 53ms status=200 rid=61314735
+2026-01-16T11:09:01Z INFO posting-svc health check passed in 50ms
+2026-01-16T11:09:08Z INFO posting-svc request completed in 43ms status=200 rid=6d898629
+2026-01-16T11:09:20Z INFO posting-svc request completed in 72ms status=200 rid=30431263
+2026-01-16T11:09:34Z INFO posting-svc request completed in 74ms status=200 rid=14fcfa5d
+2026-01-16T11:09:44Z INFO posting-svc request completed in 16ms status=200 rid=c16f7764
+2026-01-16T11:09:53Z INFO posting-svc health check passed in 39ms
+2026-01-16T11:10:03Z INFO posting-svc request completed in 77ms status=200 rid=66f5df3c
+2026-01-16T11:10:13Z INFO posting-svc health check passed in 90ms
+2026-01-16T11:10:27Z INFO posting-svc health check passed in 77ms
+2026-01-16T11:10:35Z INFO posting-svc health check passed in 30ms
+2026-01-16T11:10:43Z INFO posting-svc health check passed in 68ms
+2026-01-16T11:10:52Z INFO posting-svc request completed in 8ms status=200 rid=6ca7d3d7
+2026-01-16T11:10:58Z INFO posting-svc request completed in 25ms status=200 rid=3f8c4d79
+2026-01-16T11:11:12Z INFO posting-svc health check passed in 60ms
+2026-01-16T11:11:23Z INFO posting-svc health check passed in 28ms
+2026-01-16T11:11:37Z INFO posting-svc request completed in 72ms status=200 rid=a6c07eb3
+2026-01-16T11:11:43Z INFO posting-svc health check passed in 68ms
+2026-01-16T11:11:49Z INFO posting-svc request completed in 72ms status=200 rid=9c70c8af
+2026-01-16T11:12:03Z INFO posting-svc health check passed in 61ms
+2026-01-16T11:12:16Z INFO posting-svc health check passed in 88ms
+2026-01-16T11:12:29Z INFO posting-svc request completed in 58ms status=200 rid=fcd54d4e
+2026-01-16T11:12:35Z INFO posting-svc request completed in 9ms status=200 rid=d124acb5
+2026-01-16T11:12:44Z INFO posting-svc request completed in 30ms status=200 rid=c2644dd4
+2026-01-16T11:12:58Z INFO posting-svc health check passed in 86ms
+2026-01-16T11:13:06Z INFO posting-svc request completed in 83ms status=200 rid=8a5278f7
+2026-01-16T11:13:12Z INFO posting-svc request completed in 16ms status=200 rid=9cefdd60

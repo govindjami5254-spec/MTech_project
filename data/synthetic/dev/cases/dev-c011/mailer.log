@@ -1,0 +1,57 @@
+2026-01-29T11:07:58Z INFO mailer request completed in 28ms status=200 rid=f1e7eadc
+2026-01-29T11:08:04Z INFO mailer health check passed in 61ms
+2026-01-29T11:08:16Z INFO mailer health check passed in 81ms
+2026-01-29T11:08:27Z INFO mailer request completed in 90ms status=200 rid=5c3fa9fc
+2026-01-29T11:08:34Z INFO mailer health check passed in 60ms
+2026-01-29T11:08:48Z INFO mailer health check passed in 23ms
+2026-01-29T11:09:00Z INFO mailer request completed in 59ms status=200 rid=4b076a01
+2026-01-29T11:09:12Z INFO mailer request completed in 13ms status=200 rid=42c254fd
+2026-01-29T11:09:24Z INFO mailer request completed in 36ms status=200 rid=a6b7ae4f
+2026-01-29T11:09:35Z INFO mailer request completed in 58ms status=200 rid=d28f6922
+2026-01-29T11:09:46Z INFO mailer request completed in 49ms status=200 rid=953af417
+2026-01-29T11:09:53Z INFO mailer request completed in 13ms status=200 rid=58825b50
+2026-01-29T11:10:07Z INFO mailer health check passed in 67ms
+2026-01-29T11:10:15Z INFO mailer request completed in 92ms status=200 rid=e2fc607b
+2026-01-29T11:10:27Z INFO mailer health check passed in 52ms
+2026-01-29T11:10:33Z INFO mailer health check passed in 63ms
+2026-01-29T11:10:47Z INFO mailer health check passed in 51ms
+2026-01-29T11:11:00Z INFO mailer request completed in 85ms status=200 rid=e8c44a36
+2026-01-29T11:11:12Z INFO mailer request completed in 77ms status=200 rid=50a3bb0d
+2026-01-29T11:11:23Z INFO mailer health check passed in 62ms
+2026-01-29T11:11:29Z INFO mailer request completed in 9ms status=200 rid=c4d2c3fe
+2026-01-29T11:11:39Z INFO mailer request completed in 77ms status=200 rid=8d2e10ea
+2026-01-29T11:11:45Z INFO mailer request completed in 59ms status=200 rid=61720ff7
+2026-01-29T11:11:52Z INFO mailer request completed in 90ms status=200 rid=9f926a05
+2026-01-29T11:12:02Z INFO mailer request completed in 47ms status=200 rid=052db558
+2026-01-29T11:12:14Z INFO mailer health check passed in 10ms
+2026-01-29T11:12:24Z INFO mailer health check passed in 61ms
+2026-01-29T11:12:32Z INFO mailer request completed in 30ms status=200 rid=634698cd
+2026-01-29T11:12:45Z INFO mailer health check passed in 54ms
+2026-01-29T11:12:59Z INFO mailer health check passed in 20ms
+2026-01-29T11:13:13Z INFO mailer request completed in 47ms status=200 rid=1be40d2e
+2026-01-29T11:13:21Z INFO mailer health check passed in 35ms
+2026-01-29T11:13:34Z INFO mailer request completed in 49ms status=200 rid=439a4c3b
+2026-01-29T11:13:40Z INFO mailer request completed in 67ms status=200 rid=67e84333
+2026-01-29T11:13:50Z INFO mailer health check passed in 14ms
+2026-01-29T11:14:02Z INFO mailer request completed in 50ms status=200 rid=6f6597c6
+2026-01-29T11:14:16Z INFO mailer request completed in 95ms status=200 rid=afdc979c
+2026-01-29T11:14:30Z INFO mailer request completed in 24ms status=200 rid=8662a762
+2026-01-29T11:14:43Z INFO mailer request completed in 22ms status=200 rid=23cc4003
+2026-01-29T11:14:51Z INFO mailer health check passed in 48ms
+2026-01-29T11:15:04Z INFO mailer request completed in 9ms status=200 rid=1148d6cb
+2026-01-29T11:15:13Z INFO mailer health check passed in 39ms
+2026-01-29T11:15:23Z INFO mailer health check passed in 46ms
+2026-01-29T11:15:24Z WARN mailer GC pause 46ms (young gen)
+2026-01-29T11:15:32Z INFO mailer health check passed in 90ms
+2026-01-29T11:15:43Z INFO mailer health check passed in 58ms
+2026-01-29T11:15:54Z INFO mailer request completed in 47ms status=200 rid=953a3121
+2026-01-29T11:16:05Z INFO mailer request completed in 63ms status=200 rid=299ff150
+2026-01-29T11:16:11Z INFO mailer health check passed in 30ms
+2026-01-29T11:16:23Z INFO mailer request completed in 79ms status=200 rid=aeb1dea4
+2026-01-29T11:16:34Z INFO mailer request completed in 84ms status=200 rid=e2683e57
+2026-01-29T11:16:44Z INFO mailer health check passed in 86ms
+2026-01-29T11:16:58Z INFO mailer request completed in 20ms status=200 rid=d3b3964f
+2026-01-29T11:17:11Z INFO mailer request completed in 54ms status=200 rid=48f4885f
+2026-01-29T11:17:25Z INFO mailer request completed in 14ms status=200 rid=7d5289d4
+2026-01-29T11:17:35Z INFO mailer request completed in 27ms status=200 rid=8f93bc1a
+2026-01-29T11:17:48Z INFO mailer request completed in 8ms status=200 rid=170ef4dd

@@ -1,0 +1,27 @@
+{
+  "schema_version": "1",
+  "case_id": "test-c041",
+  "split": "test",
+  "family_id": "tf18",
+  "stratum": "insufficient",
+  "root_causes": [],
+  "fault_type": "silent_partition",
+  "expected_abstain": true,
+  "key_evidence": [],
+  "relevant_evidence": [
+    "catalog-api.log:33",
+    "catalog-api.log:34",
+    "catalog-api.log:35",
+    "edge-proxy.log:29",
+    "edge-proxy.log:31",
+    "edge-proxy.log:32",
+    "edge-proxy.log:33",
+    "edge-proxy.log:35",
+    "edge-proxy.log:36",
+    "edge-proxy.log:37",
+    "edge-proxy.log:38"
+  ],
+  "propagation_path": [],
+  "injection_uids": [],
+  "decoy_component": null
+}

@@ -1,0 +1,65 @@
+2026-02-12T14:47:45Z INFO otp-svc http request method=GET status=200 latency_ms=59 span=de02e06e
+2026-02-12T14:47:52Z INFO otp-svc http request method=GET status=200 latency_ms=95 span=d810d160
+2026-02-12T14:48:03Z INFO otp-svc tick ok elapsed_ms=14
+2026-02-12T14:48:13Z INFO otp-svc tick ok elapsed_ms=83
+2026-02-12T14:48:24Z INFO otp-svc tick ok elapsed_ms=62
+2026-02-12T14:48:34Z INFO otp-svc http request method=GET status=200 latency_ms=67 span=4b1e4c2e
+2026-02-12T14:48:40Z INFO otp-svc tick ok elapsed_ms=10
+2026-02-12T14:48:41Z WARN otp-svc slow poll elapsed_ms=710
+2026-02-12T14:48:52Z INFO otp-svc tick ok elapsed_ms=42
+2026-02-12T14:49:04Z INFO otp-svc tick ok elapsed_ms=47
+2026-02-12T14:49:10Z INFO otp-svc http request method=GET status=200 latency_ms=65 span=5a0da88d
+2026-02-12T14:49:17Z INFO otp-svc http request method=GET status=200 latency_ms=57 span=8a7dd021
+2026-02-12T14:49:29Z INFO otp-svc tick ok elapsed_ms=64
+2026-02-12T14:49:36Z INFO otp-svc http request method=GET status=200 latency_ms=20 span=ce758e65
+2026-02-12T14:49:42Z INFO otp-svc tick ok elapsed_ms=59
+2026-02-12T14:49:54Z INFO otp-svc http request method=GET status=200 latency_ms=79 span=975c8bb5
+2026-02-12T14:50:01Z INFO otp-svc http request method=GET status=200 latency_ms=13 span=0c811798
+2026-02-12T14:50:15Z INFO otp-svc http request method=GET status=200 latency_ms=92 span=0d77f4e1
+2026-02-12T14:50:21Z INFO otp-svc tick ok elapsed_ms=65
+2026-02-12T14:50:32Z INFO otp-svc tick ok elapsed_ms=60
+2026-02-12T14:50:40Z INFO otp-svc http request method=GET status=200 latency_ms=30 span=8830e53c
+2026-02-12T14:50:49Z INFO otp-svc tick ok elapsed_ms=29
+2026-02-12T14:50:56Z INFO otp-svc tick ok elapsed_ms=21
+2026-02-12T14:51:03Z INFO otp-svc http request method=GET status=200 latency_ms=89 span=edb613fd
+2026-02-12T14:51:09Z INFO otp-svc tick ok elapsed_ms=69
+2026-02-12T14:51:15Z INFO otp-svc tick ok elapsed_ms=76
+2026-02-12T14:51:24Z INFO otp-svc http request method=GET status=200 latency_ms=33 span=fdfdbf2b
+2026-02-12T14:51:30Z INFO otp-svc tick ok elapsed_ms=38
+2026-02-12T14:51:37Z INFO otp-svc tick ok elapsed_ms=49
+2026-02-12T14:51:48Z INFO otp-svc tick ok elapsed_ms=38
+2026-02-12T14:52:02Z INFO otp-svc http request method=GET status=200 latency_ms=85 span=81b6cd49
+2026-02-12T14:52:14Z INFO otp-svc http request method=GET status=200 latency_ms=58 span=4f58869e
+2026-02-12T14:52:25Z INFO otp-svc http request method=GET status=200 latency_ms=32 span=4aacf9bb
+2026-02-12T14:52:36Z WARN otp-svc rustls: certificate notAfter is today
+2026-02-12T14:52:39Z INFO otp-svc tick ok elapsed_ms=31
+2026-02-12T14:52:50Z INFO otp-svc tick ok elapsed_ms=58
+2026-02-12T14:52:58Z ERR otp-svc invalid peer certificate: Expired
+2026-02-12T14:53:00Z INFO otp-svc tick ok elapsed_ms=95
+2026-02-12T14:53:01Z ERR otp-svc tls accept failed repeatedly: certificate expired
+2026-02-12T14:53:08Z INFO otp-svc http request method=GET status=200 latency_ms=63 span=9801c829
+2026-02-12T14:53:19Z INFO otp-svc http request method=GET status=200 latency_ms=83 span=e798ba66
+2026-02-12T14:53:29Z INFO otp-svc tick ok elapsed_ms=80
+2026-02-12T14:53:37Z INFO otp-svc http request method=GET status=200 latency_ms=69 span=02626d55
+2026-02-12T14:53:50Z INFO otp-svc http request method=GET status=200 latency_ms=68 span=0503f20b
+2026-02-12T14:53:59Z INFO otp-svc http request method=GET status=200 latency_ms=40 span=671b5a58
+2026-02-12T14:54:13Z INFO otp-svc http request method=GET status=200 latency_ms=24 span=d8f8c56f
+2026-02-12T14:54:22Z INFO otp-svc http request method=GET status=200 latency_ms=94 span=3016e68b
+2026-02-12T14:54:30Z INFO otp-svc tick ok elapsed_ms=89
+2026-02-12T14:54:44Z INFO otp-svc http request method=GET status=200 latency_ms=76 span=90575c0c
+2026-02-12T14:54:56Z INFO otp-svc http request method=GET status=200 latency_ms=47 span=ef832822
+2026-02-12T14:55:07Z INFO otp-svc http request method=GET status=200 latency_ms=57 span=5644be9f
+2026-02-12T14:55:21Z INFO otp-svc http request method=GET status=200 latency_ms=90 span=9ba5c5b4
+2026-02-12T14:55:34Z INFO otp-svc tick ok elapsed_ms=42
+2026-02-12T14:55:46Z INFO otp-svc http request method=GET status=200 latency_ms=54 span=5dfce3c3
+2026-02-12T14:55:55Z INFO otp-svc tick ok elapsed_ms=22
+2026-02-12T14:56:03Z INFO otp-svc tick ok elapsed_ms=27
+2026-02-12T14:56:16Z INFO otp-svc tick ok elapsed_ms=39
+2026-02-12T14:56:24Z INFO otp-svc http request method=GET status=200 latency_ms=77 span=258cc17e
+2026-02-12T14:56:36Z INFO otp-svc tick ok elapsed_ms=91
+2026-02-12T14:56:47Z INFO otp-svc http request method=GET status=200 latency_ms=8 span=3230ad8e
+2026-02-12T14:56:58Z INFO otp-svc http request method=GET status=200 latency_ms=20 span=c97180b4
+2026-02-12T14:57:05Z INFO otp-svc tick ok elapsed_ms=67
+2026-02-12T14:57:19Z INFO otp-svc http request method=GET status=200 latency_ms=55 span=ac0e8ec0
+2026-02-12T14:57:29Z INFO otp-svc http request method=GET status=200 latency_ms=92 span=ef80a3aa
+2026-02-12T14:57:36Z INFO otp-svc tick ok elapsed_ms=92

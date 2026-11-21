@@ -1,0 +1,63 @@
+2026-01-17T16:29:38.112+05:30 info seat-db event loop lag 43ms ok
+2026-01-17T16:29:47.646+05:30 info seat-db event loop lag 66ms ok
+2026-01-17T16:29:58.243+05:30 info seat-db event loop lag 85ms ok
+2026-01-17T16:30:04.630+05:30 info seat-db served GET /api status=200 in 64ms trace=6fdbc659
+2026-01-17T16:30:18.327+05:30 info seat-db event loop lag 22ms ok
+2026-01-17T16:30:27.705+05:30 info seat-db event loop lag 51ms ok
+2026-01-17T16:30:34.979+05:30 info seat-db served GET /api status=200 in 57ms trace=81959c9f
+2026-01-17T16:30:44.777+05:30 info seat-db event loop lag 77ms ok
+2026-01-17T16:30:54.271+05:30 info seat-db event loop lag 45ms ok
+2026-01-17T16:31:05.562+05:30 info seat-db event loop lag 19ms ok
+2026-01-17T16:31:18.015+05:30 info seat-db served GET /api status=200 in 9ms trace=9c4445e0
+2026-01-17T16:31:31.588+05:30 info seat-db event loop lag 46ms ok
+2026-01-17T16:31:45.923+05:30 info seat-db event loop lag 9ms ok
+2026-01-17T16:31:59.051+05:30 info seat-db event loop lag 56ms ok
+2026-01-17T16:32:05.169+05:30 info seat-db event loop lag 17ms ok
+2026-01-17T16:32:12.772+05:30 info seat-db served GET /api status=200 in 73ms trace=ea53e10a
+2026-01-17T16:32:26.617+05:30 info seat-db event loop lag 68ms ok
+2026-01-17T16:32:39.413+05:30 info seat-db served GET /api status=200 in 13ms trace=2914ffda
+2026-01-17T16:32:45.991+05:30 info seat-db served GET /api status=200 in 84ms trace=3ad3d958
+2026-01-17T16:32:46.000+05:30 warn seat-db event loop lag 830ms
+2026-01-17T16:32:56.073+05:30 info seat-db event loop lag 90ms ok
+2026-01-17T16:33:07.576+05:30 info seat-db served GET /api status=200 in 17ms trace=3bed6356
+2026-01-17T16:33:13.920+05:30 info seat-db event loop lag 56ms ok
+2026-01-17T16:33:20.449+05:30 info seat-db served GET /api status=200 in 57ms trace=1b28c465
+2026-01-17T16:33:27.385+05:30 info seat-db served GET /api status=200 in 94ms trace=000fecf3
+2026-01-17T16:33:41.337+05:30 info seat-db served GET /api status=200 in 19ms trace=e8ce691d
+2026-01-17T16:33:55.011+05:30 info seat-db event loop lag 25ms ok
+2026-01-17T16:34:04.661+05:30 info seat-db event loop lag 58ms ok
+2026-01-17T16:34:10.695+05:30 info seat-db event loop lag 56ms ok
+2026-01-17T16:34:22.500+05:30 info seat-db event loop lag 19ms ok
+2026-01-17T16:34:31.061+05:30 info seat-db served GET /api status=200 in 92ms trace=ac518b64
+2026-01-17T16:34:43.225+05:30 info seat-db served GET /api status=200 in 72ms trace=fc861c76
+2026-01-17T16:34:49.470+05:30 info seat-db served GET /api status=200 in 56ms trace=e9d881b7
+2026-01-17T16:35:02.767+05:30 info seat-db served GET /api status=200 in 75ms trace=f9995d35
+2026-01-17T16:35:13.760+05:30 info seat-db event loop lag 71ms ok
+2026-01-17T16:35:23.622+05:30 info seat-db event loop lag 10ms ok
+2026-01-17T16:35:32.030+05:30 info seat-db served GET /api status=200 in 52ms trace=f9116507
+2026-01-17T16:35:39.646+05:30 info seat-db served GET /api status=200 in 93ms trace=aefe6d6b
+2026-01-17T16:35:51.245+05:30 info seat-db event loop lag 89ms ok
+2026-01-17T16:36:04.410+05:30 info seat-db event loop lag 69ms ok
+2026-01-17T16:36:10.070+05:30 info seat-db served GET /api status=200 in 37ms trace=e689f9e5
+2026-01-17T16:36:19.659+05:30 info seat-db event loop lag 24ms ok
+2026-01-17T16:36:27.797+05:30 info seat-db event loop lag 46ms ok
+2026-01-17T16:36:37.666+05:30 info seat-db event loop lag 66ms ok
+2026-01-17T16:36:47.800+05:30 info seat-db served GET /api status=200 in 51ms trace=49ca3a70
+2026-01-17T16:36:58.180+05:30 info seat-db served GET /api status=200 in 67ms trace=15f5a8c3
+2026-01-17T16:37:06.868+05:30 info seat-db served GET /api status=200 in 32ms trace=17813f07
+2026-01-17T16:37:12.469+05:30 info seat-db served GET /api status=200 in 67ms trace=52ac0b26
+2026-01-17T16:37:13.000+05:30 warn seat-db unhandled header x-legacy ignored trace=0df91de3
+2026-01-17T16:37:23.280+05:30 info seat-db served GET /api status=200 in 50ms trace=73a99963
+2026-01-17T16:37:35.658+05:30 info seat-db event loop lag 26ms ok
+2026-01-17T16:37:46.558+05:30 info seat-db event loop lag 32ms ok
+2026-01-17T16:37:58.001+05:30 info seat-db served GET /api status=200 in 12ms trace=f4860a0a
+2026-01-17T16:37:59.000+05:30 warn seat-db event loop lag 750ms
+2026-01-17T16:38:05.587+05:30 info seat-db served GET /api status=200 in 91ms trace=f15bbbf6
+2026-01-17T16:38:12.366+05:30 info seat-db served GET /api status=200 in 17ms trace=056e7eac
+2026-01-17T16:38:21.755+05:30 info seat-db event loop lag 54ms ok
+2026-01-17T16:38:34.327+05:30 info seat-db event loop lag 11ms ok
+2026-01-17T16:38:48.411+05:30 info seat-db event loop lag 72ms ok
+2026-01-17T16:38:56.430+05:30 info seat-db served GET /api status=200 in 43ms trace=f973f8fa
+2026-01-17T16:39:06.695+05:30 info seat-db served GET /api status=200 in 20ms trace=4ec75d21
+2026-01-17T16:39:14.662+05:30 info seat-db event loop lag 29ms ok
+2026-01-17T16:39:26.129+05:30 info seat-db event loop lag 47ms ok

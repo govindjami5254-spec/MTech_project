@@ -1,0 +1,61 @@
+2026-02-04 11:54:42,852 INFO ledger-core worker heartbeat ok (63ms)
+2026-02-04 11:54:48,940 INFO ledger-core worker heartbeat ok (57ms)
+2026-02-04 11:54:56,516 INFO ledger-core worker heartbeat ok (75ms)
+2026-02-04 11:55:10,408 INFO ledger-core worker heartbeat ok (81ms)
+2026-02-04 11:55:22,554 INFO ledger-core GET /v1/items 200 54ms req_id=7e2f5380
+2026-02-04 11:55:36,452 INFO ledger-core GET /v1/items 200 67ms req_id=e5b2b03d
+2026-02-04 11:55:37,000 WARNING ledger-core slow query took 420ms req_id=5e8f3761
+2026-02-04 11:55:46,170 INFO ledger-core worker heartbeat ok (8ms)
+2026-02-04 11:55:58,525 INFO ledger-core GET /v1/items 200 92ms req_id=02f184fc
+2026-02-04 11:56:12,602 INFO ledger-core GET /v1/items 200 78ms req_id=fc2689ef
+2026-02-04 11:56:23,869 INFO ledger-core worker heartbeat ok (89ms)
+2026-02-04 11:56:32,961 INFO ledger-core worker heartbeat ok (71ms)
+2026-02-04 11:56:46,537 INFO ledger-core worker heartbeat ok (27ms)
+2026-02-04 11:56:56,538 INFO ledger-core GET /v1/items 200 47ms req_id=5d901e28
+2026-02-04 11:57:09,652 INFO ledger-core GET /v1/items 200 76ms req_id=7b913622
+2026-02-04 11:57:21,897 INFO ledger-core worker heartbeat ok (35ms)
+2026-02-04 11:57:32,561 INFO ledger-core worker heartbeat ok (63ms)
+2026-02-04 11:57:45,864 INFO ledger-core worker heartbeat ok (15ms)
+2026-02-04 11:57:58,236 INFO ledger-core GET /v1/items 200 54ms req_id=8c58a36a
+2026-02-04 11:58:04,970 INFO ledger-core worker heartbeat ok (28ms)
+2026-02-04 11:58:15,491 INFO ledger-core GET /v1/items 200 29ms req_id=a3f3bfcb
+2026-02-04 11:58:28,350 INFO ledger-core worker heartbeat ok (40ms)
+2026-02-04 11:58:42,971 INFO ledger-core worker heartbeat ok (76ms)
+2026-02-04 11:58:49,729 INFO ledger-core worker heartbeat ok (45ms)
+2026-02-04 11:58:58,187 INFO ledger-core worker heartbeat ok (26ms)
+2026-02-04 11:59:11,413 INFO ledger-core reading settings from /etc/svc/settings.ini
+2026-02-04 11:59:12,748 INFO ledger-core worker heartbeat ok (80ms)
+2026-02-04 11:59:16,136 ERROR ledger-core ValueError: setting WORKERS must be positive, got -2
+2026-02-04 11:59:18,206 CRITICAL ledger-core startup aborted due to configuration error
+2026-02-04 11:59:20,182 INFO ledger-core worker heartbeat ok (38ms)
+2026-02-04 11:59:30,438 INFO ledger-core worker heartbeat ok (33ms)
+2026-02-04 11:59:37,995 INFO ledger-core worker heartbeat ok (67ms)
+2026-02-04 11:59:43,165 INFO ledger-core worker heartbeat ok (14ms)
+2026-02-04 11:59:55,941 INFO ledger-core GET /v1/items 200 73ms req_id=8dae5658
+2026-02-04 12:00:04,168 INFO ledger-core GET /v1/items 200 29ms req_id=0b84fd17
+2026-02-04 12:00:18,729 INFO ledger-core worker heartbeat ok (44ms)
+2026-02-04 12:00:26,760 INFO ledger-core worker heartbeat ok (15ms)
+2026-02-04 12:00:40,033 INFO ledger-core worker heartbeat ok (44ms)
+2026-02-04 12:00:52,848 INFO ledger-core GET /v1/items 200 95ms req_id=39244f8f
+2026-02-04 12:01:01,203 INFO ledger-core GET /v1/items 200 40ms req_id=978e3493
+2026-02-04 12:01:13,020 INFO ledger-core GET /v1/items 200 40ms req_id=1b02bff4
+2026-02-04 12:01:23,572 INFO ledger-core GET /v1/items 200 28ms req_id=426f4383
+2026-02-04 12:01:30,439 INFO ledger-core worker heartbeat ok (51ms)
+2026-02-04 12:01:40,469 INFO ledger-core worker heartbeat ok (76ms)
+2026-02-04 12:01:52,286 INFO ledger-core GET /v1/items 200 65ms req_id=504a424e
+2026-02-04 12:02:02,460 INFO ledger-core worker heartbeat ok (30ms)
+2026-02-04 12:02:14,370 INFO ledger-core GET /v1/items 200 80ms req_id=e5f2285f
+2026-02-04 12:02:28,938 INFO ledger-core GET /v1/items 200 57ms req_id=cb2d2e06
+2026-02-04 12:02:37,207 INFO ledger-core worker heartbeat ok (46ms)
+2026-02-04 12:02:46,112 INFO ledger-core GET /v1/items 200 31ms req_id=30539392
+2026-02-04 12:03:00,611 INFO ledger-core worker heartbeat ok (80ms)
+2026-02-04 12:03:12,128 INFO ledger-core GET /v1/items 200 95ms req_id=a2df6c51
+2026-02-04 12:03:25,316 INFO ledger-core GET /v1/items 200 60ms req_id=189b5a62
+2026-02-04 12:03:38,295 INFO ledger-core GET /v1/items 200 13ms req_id=227d8ab2
+2026-02-04 12:03:39,000 WARNING ledger-core slow query took 810ms req_id=86d47c2b
+2026-02-04 12:03:46,104 INFO ledger-core worker heartbeat ok (54ms)
+2026-02-04 12:03:52,508 INFO ledger-core worker heartbeat ok (19ms)
+2026-02-04 12:04:05,837 INFO ledger-core GET /v1/items 200 59ms req_id=b52a79ad
+2026-02-04 12:04:17,604 INFO ledger-core GET /v1/items 200 81ms req_id=e36592fb
+2026-02-04 12:04:26,741 INFO ledger-core GET /v1/items 200 17ms req_id=7260e93d
+2026-02-04 12:04:40,820 INFO ledger-core GET /v1/items 200 81ms req_id=29fed1c0

@@ -1,0 +1,61 @@
+2026-01-24T16:02:55.925+05:30 info log-forwarder event loop lag 77ms ok
+2026-01-24T16:03:06.154+05:30 info log-forwarder served GET /api status=200 in 82ms trace=ecea219a
+2026-01-24T16:03:17.424+05:30 info log-forwarder served GET /api status=200 in 81ms trace=79182d1d
+2026-01-24T16:03:30.055+05:30 info log-forwarder event loop lag 53ms ok
+2026-01-24T16:03:44.652+05:30 info log-forwarder event loop lag 26ms ok
+2026-01-24T16:03:57.245+05:30 info log-forwarder event loop lag 26ms ok
+2026-01-24T16:04:07.859+05:30 info log-forwarder event loop lag 52ms ok
+2026-01-24T16:04:14.900+05:30 info log-forwarder served GET /api status=200 in 82ms trace=3e7b1dfe
+2026-01-24T16:04:26.353+05:30 info log-forwarder served GET /api status=200 in 15ms trace=61ecef51
+2026-01-24T16:04:36.233+05:30 info log-forwarder served GET /api status=200 in 59ms trace=43d6ac5c
+2026-01-24T16:04:44.027+05:30 info log-forwarder served GET /api status=200 in 66ms trace=9a6476d0
+2026-01-24T16:04:57.163+05:30 info log-forwarder served GET /api status=200 in 58ms trace=37de2d45
+2026-01-24T16:05:07.746+05:30 info log-forwarder served GET /api status=200 in 9ms trace=cc29b057
+2026-01-24T16:05:20.306+05:30 info log-forwarder served GET /api status=200 in 69ms trace=57880e58
+2026-01-24T16:05:27.106+05:30 info log-forwarder served GET /api status=200 in 17ms trace=2581fa4b
+2026-01-24T16:05:38.637+05:30 info log-forwarder event loop lag 24ms ok
+2026-01-24T16:05:52.747+05:30 info log-forwarder served GET /api status=200 in 42ms trace=59efe5a9
+2026-01-24T16:06:03.140+05:30 info log-forwarder served GET /api status=200 in 80ms trace=f737014e
+2026-01-24T16:06:15.401+05:30 info log-forwarder event loop lag 95ms ok
+2026-01-24T16:06:23.589+05:30 info log-forwarder event loop lag 57ms ok
+2026-01-24T16:06:33.890+05:30 info log-forwarder served GET /api status=200 in 77ms trace=2165c2f0
+2026-01-24T16:06:43.665+05:30 info log-forwarder event loop lag 75ms ok
+2026-01-24T16:06:55.716+05:30 info log-forwarder event loop lag 9ms ok
+2026-01-24T16:07:07.317+05:30 info log-forwarder event loop lag 64ms ok
+2026-01-24T16:07:21.102+05:30 info log-forwarder served GET /api status=200 in 23ms trace=734091c4
+2026-01-24T16:07:32.277+05:30 info log-forwarder served GET /api status=200 in 64ms trace=b751e2e8
+2026-01-24T16:07:44.883+05:30 info log-forwarder served GET /api status=200 in 19ms trace=c6f3bb0e
+2026-01-24T16:07:54.162+05:30 info log-forwarder served GET /api status=200 in 16ms trace=5eb66047
+2026-01-24T16:08:08.446+05:30 info log-forwarder served GET /api status=200 in 90ms trace=9baef470
+2026-01-24T16:08:17.554+05:30 info log-forwarder event loop lag 33ms ok
+2026-01-24T16:08:25.564+05:30 info log-forwarder event loop lag 73ms ok
+2026-01-24T16:08:34.160+05:30 info log-forwarder event loop lag 50ms ok
+2026-01-24T16:08:44.962+05:30 info log-forwarder event loop lag 49ms ok
+2026-01-24T16:08:51.762+05:30 info log-forwarder served GET /api status=200 in 71ms trace=6c752544
+2026-01-24T16:08:58.055+05:30 info log-forwarder served GET /api status=200 in 63ms trace=3c652e4c
+2026-01-24T16:09:09.362+05:30 info log-forwarder served GET /api status=200 in 55ms trace=6771b7dd
+2026-01-24T16:09:16.520+05:30 info log-forwarder served GET /api status=200 in 79ms trace=d2da9808
+2026-01-24T16:09:27.229+05:30 info log-forwarder event loop lag 64ms ok
+2026-01-24T16:09:33.414+05:30 info log-forwarder event loop lag 21ms ok
+2026-01-24T16:09:47.068+05:30 info log-forwarder served GET /api status=200 in 24ms trace=35990b25
+2026-01-24T16:09:55.612+05:30 info log-forwarder event loop lag 78ms ok
+2026-01-24T16:10:03.712+05:30 info log-forwarder event loop lag 92ms ok
+2026-01-24T16:10:17.883+05:30 info log-forwarder served GET /api status=200 in 33ms trace=9951a8c7
+2026-01-24T16:10:18.000+05:30 warn log-forwarder unhandled header x-legacy ignored trace=e7621269
+2026-01-24T16:10:25.482+05:30 info log-forwarder event loop lag 69ms ok
+2026-01-24T16:10:26.000+05:30 warn log-forwarder event loop lag 400ms
+2026-01-24T16:10:31.812+05:30 info log-forwarder served GET /api status=200 in 57ms trace=73fc4f07
+2026-01-24T16:10:44.483+05:30 info log-forwarder event loop lag 91ms ok
+2026-01-24T16:10:57.808+05:30 info log-forwarder event loop lag 11ms ok
+2026-01-24T16:11:11.616+05:30 info log-forwarder event loop lag 41ms ok
+2026-01-24T16:11:17.628+05:30 info log-forwarder event loop lag 23ms ok
+2026-01-24T16:11:24.609+05:30 info log-forwarder served GET /api status=200 in 90ms trace=dffba7a0
+2026-01-24T16:11:31.312+05:30 info log-forwarder event loop lag 78ms ok
+2026-01-24T16:11:44.252+05:30 info log-forwarder served GET /api status=200 in 94ms trace=4f49f39a
+2026-01-24T16:11:53.057+05:30 info log-forwarder served GET /api status=200 in 32ms trace=8bef2727
+2026-01-24T16:11:54.000+05:30 warn log-forwarder event loop lag 680ms
+2026-01-24T16:12:06.960+05:30 info log-forwarder event loop lag 22ms ok
+2026-01-24T16:12:18.895+05:30 info log-forwarder event loop lag 16ms ok
+2026-01-24T16:12:25.654+05:30 info log-forwarder event loop lag 53ms ok
+2026-01-24T16:12:34.013+05:30 info log-forwarder event loop lag 81ms ok
+2026-01-24T16:12:47.763+05:30 info log-forwarder served GET /api status=200 in 52ms trace=25e22b3d

@@ -1,0 +1,63 @@
+2026-01-09 12:14:35,986 INFO authz-db ping ok latency=76ms
+2026-01-09 12:14:48,720 INFO authz-db ping ok latency=80ms
+2026-01-09 12:15:02,347 INFO authz-db handled request rid=d6d5d029 status=200 dur=33ms
+2026-01-09 12:15:12,284 INFO authz-db ping ok latency=47ms
+2026-01-09 12:15:18,479 INFO authz-db ping ok latency=18ms
+2026-01-09 12:15:28,624 INFO authz-db ping ok latency=15ms
+2026-01-09 12:15:40,397 INFO authz-db handled request rid=2bc95a28 status=200 dur=82ms
+2026-01-09 12:15:46,042 INFO authz-db ping ok latency=24ms
+2026-01-09 12:15:58,336 INFO authz-db ping ok latency=61ms
+2026-01-09 12:16:04,297 INFO authz-db handled request rid=e848a693 status=200 dur=50ms
+2026-01-09 12:16:12,702 INFO authz-db handled request rid=29f39c9b status=200 dur=44ms
+2026-01-09 12:16:20,373 INFO authz-db handled request rid=e5663390 status=200 dur=14ms
+2026-01-09 12:16:29,660 INFO authz-db ping ok latency=30ms
+2026-01-09 12:16:40,086 INFO authz-db handled request rid=0c498d9e status=200 dur=23ms
+2026-01-09 12:16:47,035 INFO authz-db ping ok latency=30ms
+2026-01-09 12:16:58,583 INFO authz-db handled request rid=775c9602 status=200 dur=63ms
+2026-01-09 12:17:08,542 INFO authz-db handled request rid=ad1fa729 status=200 dur=83ms
+2026-01-09 12:17:16,381 INFO authz-db handled request rid=10e80692 status=200 dur=63ms
+2026-01-09 12:17:23,205 INFO authz-db ping ok latency=94ms
+2026-01-09 12:17:33,736 INFO authz-db ping ok latency=86ms
+2026-01-09 12:17:40,718 INFO authz-db handled request rid=ba55d2e0 status=200 dur=15ms
+2026-01-09 12:17:49,829 INFO authz-db handled request rid=5588db0a status=200 dur=57ms
+2026-01-09 12:17:59,095 INFO authz-db ping ok latency=38ms
+2026-01-09 12:18:12,011 INFO authz-db handled request rid=c5b4ceb2 status=200 dur=40ms
+2026-01-09 12:18:19,892 INFO authz-db ping ok latency=35ms
+2026-01-09 12:18:32,397 INFO authz-db handled request rid=7d6f7c20 status=200 dur=86ms
+2026-01-09 12:18:40,326 INFO authz-db handled request rid=1699418e status=200 dur=34ms
+2026-01-09 12:18:46,606 INFO authz-db ping ok latency=17ms
+2026-01-09 12:18:55,212 INFO authz-db ping ok latency=51ms
+2026-01-09 12:19:03,325 INFO authz-db ping ok latency=80ms
+2026-01-09 12:19:10,772 INFO authz-db handled request rid=aad6c758 status=200 dur=42ms
+2026-01-09 12:19:19,253 INFO authz-db handled request rid=6968936c status=200 dur=87ms
+2026-01-09 12:19:28,459 INFO authz-db ping ok latency=24ms
+2026-01-09 12:19:36,454 INFO authz-db handled request rid=43f001fd status=200 dur=50ms
+2026-01-09 12:19:43,147 INFO authz-db handled request rid=88936b33 status=200 dur=60ms
+2026-01-09 12:19:52,376 INFO authz-db ping ok latency=56ms
+2026-01-09 12:19:58,144 INFO authz-db ping ok latency=84ms
+2026-01-09 12:20:10,651 INFO authz-db handled request rid=6defa7aa status=200 dur=68ms
+2026-01-09 12:20:20,502 INFO authz-db ping ok latency=19ms
+2026-01-09 12:20:34,212 INFO authz-db handled request rid=7d66fce4 status=200 dur=93ms
+2026-01-09 12:20:43,701 INFO authz-db ping ok latency=72ms
+2026-01-09 12:20:57,165 INFO authz-db handled request rid=0126222d status=200 dur=32ms
+2026-01-09 12:21:05,897 INFO authz-db handled request rid=bfea1663 status=200 dur=94ms
+2026-01-09 12:21:17,134 INFO authz-db handled request rid=ff1bb080 status=200 dur=85ms
+2026-01-09 12:21:28,288 INFO authz-db ping ok latency=19ms
+2026-01-09 12:21:37,918 INFO authz-db handled request rid=8af40338 status=200 dur=26ms
+2026-01-09 12:21:44,498 INFO authz-db handled request rid=18ffce69 status=200 dur=19ms
+2026-01-09 12:21:53,571 INFO authz-db handled request rid=a6b861c4 status=200 dur=44ms
+2026-01-09 12:22:00,871 INFO authz-db ping ok latency=74ms
+2026-01-09 12:22:14,614 INFO authz-db handled request rid=645a3941 status=200 dur=78ms
+2026-01-09 12:22:28,562 INFO authz-db ping ok latency=81ms
+2026-01-09 12:22:39,694 INFO authz-db handled request rid=f8f7c060 status=200 dur=48ms
+2026-01-09 12:22:52,990 INFO authz-db handled request rid=2728a997 status=200 dur=86ms
+2026-01-09 12:23:00,394 INFO authz-db ping ok latency=30ms
+2026-01-09 12:23:14,987 INFO authz-db handled request rid=c9d13662 status=200 dur=79ms
+2026-01-09 12:23:21,737 INFO authz-db ping ok latency=70ms
+2026-01-09 12:23:30,308 INFO authz-db ping ok latency=48ms
+2026-01-09 12:23:36,900 INFO authz-db ping ok latency=56ms
+2026-01-09 12:23:37,000 WARNING authz-db slow handler rid=be95dd17 dur=690ms
+2026-01-09 12:23:47,032 INFO authz-db handled request rid=f8402108 status=200 dur=73ms
+2026-01-09 12:23:54,689 INFO authz-db ping ok latency=85ms
+2026-01-09 12:24:05,601 INFO authz-db handled request rid=9a042050 status=200 dur=47ms
+2026-01-09 12:24:17,473 INFO authz-db handled request rid=2315934f status=200 dur=53ms

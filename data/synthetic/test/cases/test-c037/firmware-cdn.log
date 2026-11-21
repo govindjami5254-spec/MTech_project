@@ -1,0 +1,60 @@
+2026-02-03T16:54:04.160+05:30 info firmware-cdn served GET /api status=200 in 66ms trace=eaf04971
+2026-02-03T16:54:11.051+05:30 info firmware-cdn served GET /api status=200 in 29ms trace=daaf0bc1
+2026-02-03T16:54:20.148+05:30 info firmware-cdn event loop lag 31ms ok
+2026-02-03T16:54:30.544+05:30 info firmware-cdn served GET /api status=200 in 39ms trace=f439e394
+2026-02-03T16:54:36.937+05:30 info firmware-cdn event loop lag 13ms ok
+2026-02-03T16:54:49.595+05:30 info firmware-cdn served GET /api status=200 in 30ms trace=14f8cd5d
+2026-02-03T16:55:00.816+05:30 info firmware-cdn event loop lag 35ms ok
+2026-02-03T16:55:14.461+05:30 info firmware-cdn served GET /api status=200 in 16ms trace=0ef94559
+2026-02-03T16:55:25.074+05:30 info firmware-cdn event loop lag 34ms ok
+2026-02-03T16:55:39.406+05:30 info firmware-cdn served GET /api status=200 in 87ms trace=8de22dfd
+2026-02-03T16:55:50.855+05:30 info firmware-cdn event loop lag 56ms ok
+2026-02-03T16:55:56.710+05:30 info firmware-cdn event loop lag 61ms ok
+2026-02-03T16:56:04.594+05:30 info firmware-cdn event loop lag 52ms ok
+2026-02-03T16:56:18.821+05:30 info firmware-cdn event loop lag 61ms ok
+2026-02-03T16:56:32.274+05:30 info firmware-cdn event loop lag 52ms ok
+2026-02-03T16:56:39.010+05:30 info firmware-cdn event loop lag 29ms ok
+2026-02-03T16:56:52.771+05:30 info firmware-cdn served GET /api status=200 in 8ms trace=88b1c781
+2026-02-03T16:57:02.946+05:30 info firmware-cdn served GET /api status=200 in 82ms trace=4d133093
+2026-02-03T16:57:03.000+05:30 warn firmware-cdn unhandled header x-legacy ignored trace=6d2bae90
+2026-02-03T16:57:13.351+05:30 info firmware-cdn served GET /api status=200 in 61ms trace=a6795b2c
+2026-02-03T16:57:21.758+05:30 info firmware-cdn event loop lag 66ms ok
+2026-02-03T16:57:29.264+05:30 info firmware-cdn served GET /api status=200 in 95ms trace=d26c906f
+2026-02-03T16:57:37.114+05:30 info firmware-cdn served GET /api status=200 in 78ms trace=600ece75
+2026-02-03T16:57:51.274+05:30 info firmware-cdn served GET /api status=200 in 46ms trace=7700bd4a
+2026-02-03T16:58:03.017+05:30 info firmware-cdn served GET /api status=200 in 24ms trace=6aa32108
+2026-02-03T16:58:17.358+05:30 info firmware-cdn event loop lag 91ms ok
+2026-02-03T16:58:28.773+05:30 info firmware-cdn event loop lag 47ms ok
+2026-02-03T16:58:39.585+05:30 info firmware-cdn event loop lag 21ms ok
+2026-02-03T16:58:52.882+05:30 info firmware-cdn served GET /api status=200 in 25ms trace=1c13f7db
+2026-02-03T16:59:02.535+05:30 info firmware-cdn served GET /api status=200 in 12ms trace=f5fb0629
+2026-02-03T16:59:08.900+05:30 info firmware-cdn event loop lag 14ms ok
+2026-02-03T16:59:22.652+05:30 info firmware-cdn served GET /api status=200 in 32ms trace=123e21c9
+2026-02-03T16:59:35.043+05:30 info firmware-cdn served GET /api status=200 in 33ms trace=99735e14
+2026-02-03T16:59:44.336+05:30 info firmware-cdn event loop lag 55ms ok
+2026-02-03T16:59:54.522+05:30 info firmware-cdn served GET /api status=200 in 66ms trace=36c0d255
+2026-02-03T17:00:00.859+05:30 info firmware-cdn served GET /api status=200 in 62ms trace=7f08dff6
+2026-02-03T17:00:09.427+05:30 info firmware-cdn event loop lag 29ms ok
+2026-02-03T17:00:16.189+05:30 info firmware-cdn event loop lag 90ms ok
+2026-02-03T17:00:17.000+05:30 warn firmware-cdn unhandled header x-legacy ignored trace=960f0f30
+2026-02-03T17:00:25.852+05:30 info firmware-cdn event loop lag 87ms ok
+2026-02-03T17:00:39.454+05:30 info firmware-cdn event loop lag 70ms ok
+2026-02-03T17:00:51.974+05:30 info firmware-cdn served GET /api status=200 in 34ms trace=7b9ab541
+2026-02-03T17:01:04.258+05:30 info firmware-cdn event loop lag 69ms ok
+2026-02-03T17:01:17.936+05:30 info firmware-cdn served GET /api status=200 in 36ms trace=2d543bcb
+2026-02-03T17:01:30.107+05:30 info firmware-cdn served GET /api status=200 in 68ms trace=2796d4e5
+2026-02-03T17:01:31.000+05:30 warn firmware-cdn event loop lag 80ms
+2026-02-03T17:01:38.089+05:30 info firmware-cdn served GET /api status=200 in 95ms trace=479c8092
+2026-02-03T17:01:49.515+05:30 info firmware-cdn served GET /api status=200 in 32ms trace=a71b74d7
+2026-02-03T17:01:58.478+05:30 info firmware-cdn event loop lag 67ms ok
+2026-02-03T17:02:09.487+05:30 info firmware-cdn served GET /api status=200 in 58ms trace=f30d1d9a
+2026-02-03T17:02:20.070+05:30 info firmware-cdn served GET /api status=200 in 43ms trace=fa9fc2f4
+2026-02-03T17:02:32.196+05:30 info firmware-cdn event loop lag 36ms ok
+2026-02-03T17:02:38.037+05:30 info firmware-cdn event loop lag 82ms ok
+2026-02-03T17:02:50.003+05:30 info firmware-cdn served GET /api status=200 in 36ms trace=4dada572
+2026-02-03T17:03:03.307+05:30 info firmware-cdn served GET /api status=200 in 53ms trace=5f0a3e4a
+2026-02-03T17:03:13.969+05:30 info firmware-cdn event loop lag 35ms ok
+2026-02-03T17:03:21.677+05:30 info firmware-cdn event loop lag 69ms ok
+2026-02-03T17:03:30.358+05:30 info firmware-cdn event loop lag 51ms ok
+2026-02-03T17:03:44.688+05:30 info firmware-cdn served GET /api status=200 in 81ms trace=f456f557
+2026-02-03T17:03:51.598+05:30 info firmware-cdn event loop lag 64ms ok

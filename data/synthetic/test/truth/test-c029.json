@@ -1,0 +1,27 @@
+{
+  "schema_version": "1",
+  "case_id": "test-c029",
+  "split": "test",
+  "family_id": "tf19",
+  "stratum": "insufficient",
+  "root_causes": [],
+  "fault_type": "silent_partition",
+  "expected_abstain": true,
+  "key_evidence": [],
+  "relevant_evidence": [
+    "booking-svc.log:29",
+    "booking-svc.log:30",
+    "booking-svc.log:31",
+    "web-gateway.log:32",
+    "web-gateway.log:33",
+    "web-gateway.log:34",
+    "web-gateway.log:35",
+    "web-gateway.log:36",
+    "web-gateway.log:38",
+    "web-gateway.log:40",
+    "web-gateway.log:41"
+  ],
+  "propagation_path": [],
+  "injection_uids": [],
+  "decoy_component": null
+}

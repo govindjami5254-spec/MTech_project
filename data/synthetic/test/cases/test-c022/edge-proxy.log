@@ -1,0 +1,350 @@
+2026-02-04 10:55:53,828 INFO edge-proxy worker heartbeat ok (86ms)
+2026-02-04 10:55:59,260 INFO edge-proxy worker heartbeat ok (77ms)
+2026-02-04 10:56:07,213 INFO edge-proxy GET /v1/items 200 90ms req_id=8fd85bf9
+2026-02-04 10:56:19,874 INFO edge-proxy worker heartbeat ok (20ms)
+2026-02-04 10:56:30,192 INFO edge-proxy GET /v1/items 200 78ms req_id=09f319b6
+2026-02-04 10:56:44,927 INFO edge-proxy GET /v1/items 200 35ms req_id=c240eec3
+2026-02-04 10:56:51,659 INFO edge-proxy GET /v1/items 200 25ms req_id=3e3668fb
+2026-02-04 10:57:02,011 INFO edge-proxy worker heartbeat ok (65ms)
+2026-02-04 10:57:12,970 INFO edge-proxy worker heartbeat ok (52ms)
+2026-02-04 10:57:20,833 INFO edge-proxy GET /v1/items 200 65ms req_id=da1abbfc
+2026-02-04 10:57:33,878 INFO edge-proxy GET /v1/items 200 14ms req_id=e193d7de
+2026-02-04 10:57:40,790 INFO edge-proxy GET /v1/items 200 43ms req_id=d5d555ed
+2026-02-04 10:57:48,478 INFO edge-proxy worker heartbeat ok (11ms)
+2026-02-04 10:58:01,332 INFO edge-proxy worker heartbeat ok (50ms)
+2026-02-04 10:58:10,450 INFO edge-proxy GET /v1/items 200 78ms req_id=ab70609f
+2026-02-04 10:58:20,588 INFO edge-proxy worker heartbeat ok (16ms)
+2026-02-04 10:58:28,853 INFO edge-proxy GET /v1/items 200 32ms req_id=f271b03b
+2026-02-04 10:58:37,262 INFO edge-proxy GET /v1/items 200 90ms req_id=1104a3a0
+2026-02-04 10:58:43,017 INFO edge-proxy worker heartbeat ok (49ms)
+2026-02-04 10:58:49,025 INFO edge-proxy worker heartbeat ok (24ms)
+2026-02-04 10:59:03,293 INFO edge-proxy GET /v1/items 200 33ms req_id=1844e6de
+2026-02-04 10:59:11,473 INFO edge-proxy GET /v1/items 200 79ms req_id=a5250299
+2026-02-04 10:59:25,804 INFO edge-proxy worker heartbeat ok (57ms)
+2026-02-04 10:59:33,717 INFO edge-proxy worker heartbeat ok (19ms)
+2026-02-04 10:59:41,587 INFO edge-proxy worker heartbeat ok (80ms)
+2026-02-04 10:59:50,301 INFO edge-proxy worker heartbeat ok (31ms)
+2026-02-04 10:59:56,703 INFO edge-proxy worker heartbeat ok (75ms)
+2026-02-04 11:00:05,071 INFO edge-proxy worker heartbeat ok (69ms)
+2026-02-04 11:00:13,240 INFO edge-proxy worker heartbeat ok (70ms)
+2026-02-04 11:00:19,563 INFO edge-proxy worker heartbeat ok (72ms)
+2026-02-04 11:00:27,111 INFO edge-proxy GET /v1/items 200 45ms req_id=1ad5d9ae
+2026-02-04 11:00:37,804 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=0548d366
+2026-02-04 11:00:38,013 INFO edge-proxy worker heartbeat ok (50ms)
+2026-02-04 11:00:38,589 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=55903631
+2026-02-04 11:00:38,611 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=5b15ff45
+2026-02-04 11:00:40,223 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=b0416a0e
+2026-02-04 11:00:40,765 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=4367af51
+2026-02-04 11:00:41,511 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=90f1db6f
+2026-02-04 11:00:42,738 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=9bcecad4
+2026-02-04 11:00:43,949 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=f00a9c12
+2026-02-04 11:00:44,617 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=d78737d8
+2026-02-04 11:00:46,133 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=8a244fc1
+2026-02-04 11:00:46,276 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=c3b02d6c
+2026-02-04 11:00:47,351 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=9c75dc1a
+2026-02-04 11:00:49,060 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=c9289fcb
+2026-02-04 11:00:49,434 INFO edge-proxy worker heartbeat ok (36ms)
+2026-02-04 11:00:49,861 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=948410ed
+2026-02-04 11:00:50,822 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=8ba2c382
+2026-02-04 11:00:52,079 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=b5b1fa88
+2026-02-04 11:00:53,507 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=8b3bd03d
+2026-02-04 11:00:54,557 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=777ba907
+2026-02-04 11:00:54,844 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=d0847fbd
+2026-02-04 11:00:56,427 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=fe9d1458
+2026-02-04 11:00:57,527 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=4b920091
+2026-02-04 11:00:58,120 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=3b1549a2
+2026-02-04 11:00:58,636 INFO edge-proxy worker heartbeat ok (70ms)
+2026-02-04 11:01:00,458 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=fabcb781
+2026-02-04 11:01:01,167 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=9734f09f
+2026-02-04 11:01:01,355 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=0146b2d5
+2026-02-04 11:01:03,013 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=60440a9e
+2026-02-04 11:01:04,322 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=78b347fb
+2026-02-04 11:01:04,662 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=2fe57e5c
+2026-02-04 11:01:05,603 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=8dfc9b3c
+2026-02-04 11:01:06,608 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=5be9ead0
+2026-02-04 11:01:07,202 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=558f29eb
+2026-02-04 11:01:08,017 INFO edge-proxy GET /v1/items 200 29ms req_id=edbfa192
+2026-02-04 11:01:09,004 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=7530f55d
+2026-02-04 11:01:09,756 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=4eea2bcc
+2026-02-04 11:01:11,158 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=7bdf03dc
+2026-02-04 11:01:11,670 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=c7d64778
+2026-02-04 11:01:13,004 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=2504d192
+2026-02-04 11:01:13,976 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=642cf957
+2026-02-04 11:01:15,138 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=2a3063f0
+2026-02-04 11:01:16,574 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=d3de8035
+2026-02-04 11:01:17,203 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=557f0f16
+2026-02-04 11:01:19,289 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=9509761f
+2026-02-04 11:01:20,598 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=2b0f0f97
+2026-02-04 11:01:21,522 INFO edge-proxy worker heartbeat ok (53ms)
+2026-02-04 11:01:22,162 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=b9773d4d
+2026-02-04 11:01:22,564 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=25e018aa
+2026-02-04 11:01:23,507 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=89b9fe2d
+2026-02-04 11:01:25,215 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=89be872e
+2026-02-04 11:01:25,952 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=acfc701e
+2026-02-04 11:01:25,958 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=f83fe9ef
+2026-02-04 11:01:26,687 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=3ae38077
+2026-02-04 11:01:27,723 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=43a1dac6
+2026-02-04 11:01:28,369 INFO edge-proxy GET /v1/items 200 21ms req_id=499173ac
+2026-02-04 11:01:29,270 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=330f914f
+2026-02-04 11:01:29,884 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=1574f502
+2026-02-04 11:01:30,882 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=ce1f480f
+2026-02-04 11:01:31,645 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=42127021
+2026-02-04 11:01:32,359 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=8d306aaf
+2026-02-04 11:01:33,271 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=135c5144
+2026-02-04 11:01:34,349 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=f7f4cddf
+2026-02-04 11:01:34,908 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=bb6a3ec7
+2026-02-04 11:01:36,491 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=74e21180
+2026-02-04 11:01:37,582 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=0d1824d7
+2026-02-04 11:01:38,046 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=0b345245
+2026-02-04 11:01:40,108 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=c852586a
+2026-02-04 11:01:41,412 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=ce6c9855
+2026-02-04 11:01:41,656 INFO edge-proxy worker heartbeat ok (11ms)
+2026-02-04 11:01:41,898 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=308272fd
+2026-02-04 11:01:43,261 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=36004cca
+2026-02-04 11:01:44,241 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=44690d1d
+2026-02-04 11:01:44,837 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=40e6d4b8
+2026-02-04 11:01:45,242 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=60afaa32
+2026-02-04 11:01:47,188 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=b2e03779
+2026-02-04 11:01:48,793 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=8b84606a
+2026-02-04 11:01:49,099 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=363ecd08
+2026-02-04 11:01:49,873 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=96cf06e5
+2026-02-04 11:01:51,404 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=9c91470d
+2026-02-04 11:01:53,345 INFO edge-proxy worker heartbeat ok (89ms)
+2026-02-04 11:01:53,562 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=952ea8c9
+2026-02-04 11:01:54,356 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=2b78a1a3
+2026-02-04 11:01:55,382 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=946934c8
+2026-02-04 11:01:56,657 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=1f1046fb
+2026-02-04 11:01:58,479 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=bc7fa693
+2026-02-04 11:01:59,348 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=408fd43e
+2026-02-04 11:01:59,926 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=0fd2a199
+2026-02-04 11:02:00,735 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=77dd36fe
+2026-02-04 11:02:01,902 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=eea97e9e
+2026-02-04 11:02:02,047 INFO edge-proxy GET /v1/items 200 17ms req_id=b46b8175
+2026-02-04 11:02:02,983 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=f2c56d08
+2026-02-04 11:02:03,891 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=3f63c43f
+2026-02-04 11:02:05,391 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=bf8a1d06
+2026-02-04 11:02:06,545 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=bf38d71d
+2026-02-04 11:02:07,674 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=0be61940
+2026-02-04 11:02:08,255 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=b3ee8607
+2026-02-04 11:02:09,614 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=e51e8056
+2026-02-04 11:02:10,826 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=4a46fb69
+2026-02-04 11:02:11,376 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=3ba1d4d5
+2026-02-04 11:02:12,370 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=6cc71b3b
+2026-02-04 11:02:13,487 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=be42c8e0
+2026-02-04 11:02:14,320 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=497dd631
+2026-02-04 11:02:14,657 INFO edge-proxy GET /v1/items 200 36ms req_id=486e465f
+2026-02-04 11:02:14,879 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=39ee5326
+2026-02-04 11:02:16,533 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=37ac7ba3
+2026-02-04 11:02:17,850 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=f91b7426
+2026-02-04 11:02:18,220 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=c0bfde39
+2026-02-04 11:02:19,751 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=8e25862f
+2026-02-04 11:02:20,756 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=8e591735
+2026-02-04 11:02:22,083 INFO edge-proxy GET /v1/items 200 19ms req_id=79015356
+2026-02-04 11:02:22,110 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=264a23d9
+2026-02-04 11:02:22,217 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=4b9bbb2f
+2026-02-04 11:02:23,858 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=e4c619fa
+2026-02-04 11:02:25,345 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=d202fc5d
+2026-02-04 11:02:25,640 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=9d7c2186
+2026-02-04 11:02:26,941 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=e1e9c8ab
+2026-02-04 11:02:28,351 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=5fc17774
+2026-02-04 11:02:30,298 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=a2cbd0fe
+2026-02-04 11:02:31,176 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=e7d274e7
+2026-02-04 11:02:31,262 INFO edge-proxy worker heartbeat ok (47ms)
+2026-02-04 11:02:32,838 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=be737a06
+2026-02-04 11:02:33,246 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=a6de6c88
+2026-02-04 11:02:34,718 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=91c1bedc
+2026-02-04 11:02:36,021 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=b69df483
+2026-02-04 11:02:36,138 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=a3f6684b
+2026-02-04 11:02:37,450 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=3eaa3e0d
+2026-02-04 11:02:39,123 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=7f816e6c
+2026-02-04 11:02:40,215 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=aff84859
+2026-02-04 11:02:41,184 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=0a19883b
+2026-02-04 11:02:43,078 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=728a916d
+2026-02-04 11:02:43,371 INFO edge-proxy worker heartbeat ok (66ms)
+2026-02-04 11:02:44,208 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=3f1e509f
+2026-02-04 11:02:45,375 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=850341ec
+2026-02-04 11:02:47,019 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=478b94f4
+2026-02-04 11:02:47,676 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=aa526366
+2026-02-04 11:02:49,602 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=9783d045
+2026-02-04 11:02:51,021 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=a2cfa19e
+2026-02-04 11:02:51,740 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=02ef8947
+2026-02-04 11:02:52,327 INFO edge-proxy GET /v1/items 200 29ms req_id=0e453bb9
+2026-02-04 11:02:53,262 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=69f6eb4b
+2026-02-04 11:02:53,881 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=26c41bde
+2026-02-04 11:02:55,401 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=f7f2b8a4
+2026-02-04 11:02:56,710 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=f23cb653
+2026-02-04 11:02:57,034 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=b1977a04
+2026-02-04 11:02:58,685 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=898bf31d
+2026-02-04 11:02:59,199 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=82376d8d
+2026-02-04 11:03:00,199 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=d3535f6a
+2026-02-04 11:03:00,913 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=ed7bf8a3
+2026-02-04 11:03:01,576 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=ce839e80
+2026-02-04 11:03:02,922 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=d31e3a05
+2026-02-04 11:03:04,129 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=229f5dc5
+2026-02-04 11:03:05,048 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=f88e647c
+2026-02-04 11:03:05,225 INFO edge-proxy worker heartbeat ok (14ms)
+2026-02-04 11:03:06,000 WARNING edge-proxy deprecated parameter 'page' used by client
+2026-02-04 11:03:06,743 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=a7800b55
+2026-02-04 11:03:08,122 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=243f7d88
+2026-02-04 11:03:08,337 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=68aff18c
+2026-02-04 11:03:09,488 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=1b6a4cd6
+2026-02-04 11:03:11,076 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=599ee53a
+2026-02-04 11:03:11,700 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=a1d688dc
+2026-02-04 11:03:13,333 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=005980e9
+2026-02-04 11:03:13,402 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=4ff6bd92
+2026-02-04 11:03:14,261 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=6757f141
+2026-02-04 11:03:15,851 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=380ad4cb
+2026-02-04 11:03:16,400 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=b277a03e
+2026-02-04 11:03:17,576 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=51809175
+2026-02-04 11:03:18,296 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=3ce0d2fe
+2026-02-04 11:03:18,897 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=26bbd387
+2026-02-04 11:03:19,814 INFO edge-proxy worker heartbeat ok (9ms)
+2026-02-04 11:03:20,903 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=044ee306
+2026-02-04 11:03:21,832 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=93764d3a
+2026-02-04 11:03:23,379 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=7e385853
+2026-02-04 11:03:24,685 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=26e64c93
+2026-02-04 11:03:25,792 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=fb803fbc
+2026-02-04 11:03:26,952 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=b59e0c6a
+2026-02-04 11:03:28,289 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=656c0683
+2026-02-04 11:03:28,968 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=9d423835
+2026-02-04 11:03:30,157 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=a4e46521
+2026-02-04 11:03:31,279 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=b6036e54
+2026-02-04 11:03:32,129 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=900dde21
+2026-02-04 11:03:32,136 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=e58e3138
+2026-02-04 11:03:33,494 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=4f8937fe
+2026-02-04 11:03:33,935 INFO edge-proxy worker heartbeat ok (48ms)
+2026-02-04 11:03:35,324 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=674c07a7
+2026-02-04 11:03:35,494 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=ab32ee6f
+2026-02-04 11:03:37,403 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=89df38b7
+2026-02-04 11:03:38,042 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=9bb771b2
+2026-02-04 11:03:39,102 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=480399a2
+2026-02-04 11:03:40,116 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=df517caf
+2026-02-04 11:03:40,778 INFO edge-proxy worker heartbeat ok (59ms)
+2026-02-04 11:03:40,859 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=2c1b9560
+2026-02-04 11:03:41,096 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=e1e7a6d9
+2026-02-04 11:03:42,632 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=f5757e09
+2026-02-04 11:03:43,970 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=df0d8f7c
+2026-02-04 11:03:44,946 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=9d8d56a0
+2026-02-04 11:03:46,825 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=54ac02de
+2026-02-04 11:03:47,369 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=6978fb28
+2026-02-04 11:03:49,682 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=6e942324
+2026-02-04 11:03:50,273 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=5588713a
+2026-02-04 11:03:51,255 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=d3ffa568
+2026-02-04 11:03:51,808 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=edffdfa5
+2026-02-04 11:03:52,670 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=17b7a73a
+2026-02-04 11:03:53,609 INFO edge-proxy GET /v1/items 200 53ms req_id=db981b90
+2026-02-04 11:03:54,277 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=7a3cad53
+2026-02-04 11:03:55,622 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=1b218e4a
+2026-02-04 11:03:57,003 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=2ccca996
+2026-02-04 11:03:57,830 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=4c1466ff
+2026-02-04 11:03:59,423 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=5f7f0e4e
+2026-02-04 11:04:00,961 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=2fafc5b2
+2026-02-04 11:04:02,076 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=9203771e
+2026-02-04 11:04:03,422 INFO edge-proxy GET /v1/items 200 40ms req_id=a5c58401
+2026-02-04 11:04:03,615 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=8f8844a7
+2026-02-04 11:04:03,700 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=7a3349c1
+2026-02-04 11:04:04,604 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=fd8090d9
+2026-02-04 11:04:06,032 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=0c7f57c5
+2026-02-04 11:04:06,699 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=374de1c1
+2026-02-04 11:04:08,056 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=98c3e4da
+2026-02-04 11:04:09,302 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=2e065082
+2026-02-04 11:04:10,781 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=ee04ee0f
+2026-02-04 11:04:10,954 INFO edge-proxy GET /v1/items 200 76ms req_id=32bbee76
+2026-02-04 11:04:11,795 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=ab25eb77
+2026-02-04 11:04:12,141 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=29b09741
+2026-02-04 11:04:14,232 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=27e2b34d
+2026-02-04 11:04:14,310 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=02aadd11
+2026-02-04 11:04:15,775 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=43e50401
+2026-02-04 11:04:16,329 INFO edge-proxy GET /v1/items 200 27ms req_id=153a3f45
+2026-02-04 11:04:16,496 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=7b95b14c
+2026-02-04 11:04:16,941 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=f90902f8
+2026-02-04 11:04:18,576 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=b360e2f2
+2026-02-04 11:04:20,340 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=8de4fba9
+2026-02-04 11:04:20,755 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=0d9d4952
+2026-02-04 11:04:22,760 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=6002a092
+2026-02-04 11:04:23,072 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=1f3cfeb6
+2026-02-04 11:04:24,386 INFO edge-proxy worker heartbeat ok (34ms)
+2026-02-04 11:04:24,892 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=3e350a3a
+2026-02-04 11:04:26,066 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=2e788797
+2026-02-04 11:04:26,304 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=4137f463
+2026-02-04 11:04:27,162 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=323aaaf9
+2026-02-04 11:04:28,781 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=661549c5
+2026-02-04 11:04:30,001 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=28a62c8a
+2026-02-04 11:04:30,756 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=4f2b6485
+2026-02-04 11:04:32,387 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=cc1e5565
+2026-02-04 11:04:33,159 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=d0faed5d
+2026-02-04 11:04:34,343 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=0e900787
+2026-02-04 11:04:34,913 INFO edge-proxy worker heartbeat ok (78ms)
+2026-02-04 11:04:35,404 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=c8d15d43
+2026-02-04 11:04:36,347 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=b0d09de0
+2026-02-04 11:04:38,488 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=eb7166b0
+2026-02-04 11:04:39,431 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=1599840e
+2026-02-04 11:04:40,820 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=adc702f3
+2026-02-04 11:04:41,724 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=5cfa19bf
+2026-02-04 11:04:42,275 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=39e56053
+2026-02-04 11:04:44,023 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=ea8f326f
+2026-02-04 11:04:44,857 INFO edge-proxy GET /v1/items 200 18ms req_id=b1c61ee6
+2026-02-04 11:04:45,140 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=1c5e789d
+2026-02-04 11:04:45,960 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=6f3b8b4a
+2026-02-04 11:04:47,594 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=1be0d358
+2026-02-04 11:04:48,771 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=324e10d7
+2026-02-04 11:04:49,386 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=6053533c
+2026-02-04 11:04:51,364 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=37bb28c7
+2026-02-04 11:04:52,345 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=c2925623
+2026-02-04 11:04:52,867 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=df37a605
+2026-02-04 11:04:54,667 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=2dc4730a
+2026-02-04 11:04:56,019 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=4d0b907e
+2026-02-04 11:04:56,146 INFO edge-proxy worker heartbeat ok (92ms)
+2026-02-04 11:04:56,493 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=666c311f
+2026-02-04 11:04:58,485 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=0ee92e1b
+2026-02-04 11:04:59,011 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=a51ef1f7
+2026-02-04 11:05:00,939 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=920b415b
+2026-02-04 11:05:01,769 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=9c0b6901
+2026-02-04 11:05:03,148 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=afd4995d
+2026-02-04 11:05:04,322 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=64806fcc
+2026-02-04 11:05:05,681 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=2e78df4c
+2026-02-04 11:05:05,890 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=df269a52
+2026-02-04 11:05:07,262 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=346cd23d
+2026-02-04 11:05:08,402 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=737c4101
+2026-02-04 11:05:08,527 INFO edge-proxy worker heartbeat ok (70ms)
+2026-02-04 11:05:09,048 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=82f5b77e
+2026-02-04 11:05:10,200 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=47bba21c
+2026-02-04 11:05:11,687 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=3a8d7a1e
+2026-02-04 11:05:12,493 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=672af35e
+2026-02-04 11:05:13,074 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=6e7d184e
+2026-02-04 11:05:15,398 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=78ac5cdf
+2026-02-04 11:05:15,833 INFO edge-proxy GET /v1/items 200 89ms req_id=3963599c
+2026-02-04 11:05:15,851 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=241e7f9e
+2026-02-04 11:05:16,722 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=fb5ae2f2
+2026-02-04 11:05:18,091 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=8ed53f00
+2026-02-04 11:05:19,321 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=e9907f3d
+2026-02-04 11:05:20,079 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=4aefb303
+2026-02-04 11:05:22,133 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=75744e62
+2026-02-04 11:05:23,069 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=e6504935
+2026-02-04 11:05:23,592 INFO edge-proxy worker heartbeat ok (47ms)
+2026-02-04 11:05:23,995 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=3c78315b
+2026-02-04 11:05:25,842 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=c38620c6
+2026-02-04 11:05:26,727 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=bd53e3f4
+2026-02-04 11:05:28,054 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=1319f862
+2026-02-04 11:05:28,941 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=b628cf75
+2026-02-04 11:05:30,025 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=f50a9c07
+2026-02-04 11:05:31,196 INFO edge-proxy GET /v1/items 200 64ms req_id=c9a90bee
+2026-02-04 11:05:31,545 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=703bea5d
+2026-02-04 11:05:32,000 WARNING edge-proxy slow query took 160ms req_id=c850e6f1
+2026-02-04 11:05:32,112 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=6cd66bbe
+2026-02-04 11:05:33,182 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=40f726e1
+2026-02-04 11:05:34,709 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=3832d797
+2026-02-04 11:05:35,175 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=7b2cf69e
+2026-02-04 11:05:36,624 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=7c20b64e
+2026-02-04 11:05:37,457 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=233d7364
+2026-02-04 11:05:39,353 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=ca8f2073
+2026-02-04 11:05:40,075 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=8ad6048f
+2026-02-04 11:05:41,021 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=668cdf52
+2026-02-04 11:05:42,251 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=db47cb1a
+2026-02-04 11:05:43,244 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=3d29b445
+2026-02-04 11:05:43,834 INFO edge-proxy GET /v1/items 200 37ms req_id=5e5349ba
+2026-02-04 11:05:44,027 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=04074437
+2026-02-04 11:05:44,818 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=8f5247ef
+2026-02-04 11:05:45,761 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=536cbc4b
+2026-02-04 11:05:47,729 ERROR edge-proxy sent 503 to client, catalog-api unhealthy req_id=96656922
+2026-02-04 11:05:48,649 ERROR edge-proxy upstream error from catalog-api; sent 502 to client req_id=6904e042

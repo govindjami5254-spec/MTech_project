@@ -1,0 +1,67 @@
+2026-01-21 14:17:14,234 INFO session-svc ping ok latency=47ms
+2026-01-21 14:17:27,776 INFO session-svc ping ok latency=59ms
+2026-01-21 14:17:34,107 INFO session-svc handled request rid=54fd8309 status=200 dur=37ms
+2026-01-21 14:17:42,840 INFO session-svc handled request rid=908864f1 status=200 dur=18ms
+2026-01-21 14:17:51,278 INFO session-svc handled request rid=8819eea6 status=200 dur=30ms
+2026-01-21 14:18:01,461 INFO session-svc handled request rid=9d2ef6d6 status=200 dur=73ms
+2026-01-21 14:18:14,178 INFO session-svc ping ok latency=82ms
+2026-01-21 14:18:27,043 INFO session-svc ping ok latency=52ms
+2026-01-21 14:18:35,353 INFO session-svc ping ok latency=66ms
+2026-01-21 14:18:45,660 INFO session-svc handled request rid=8562509e status=200 dur=77ms
+2026-01-21 14:18:57,717 INFO session-svc handled request rid=4c3485c5 status=200 dur=17ms
+2026-01-21 14:19:04,172 INFO session-svc handled request rid=acdb106c status=200 dur=38ms
+2026-01-21 14:19:11,918 INFO session-svc ping ok latency=89ms
+2026-01-21 14:19:17,379 INFO session-svc handled request rid=ccadac57 status=200 dur=53ms
+2026-01-21 14:19:26,127 INFO session-svc ping ok latency=29ms
+2026-01-21 14:19:40,075 INFO session-svc ping ok latency=13ms
+2026-01-21 14:19:47,081 INFO session-svc handled request rid=fb95aa55 status=200 dur=15ms
+2026-01-21 14:19:58,375 INFO session-svc ping ok latency=37ms
+2026-01-21 14:20:04,057 INFO session-svc ping ok latency=41ms
+2026-01-21 14:20:18,932 INFO session-svc ping ok latency=65ms
+2026-01-21 14:20:24,504 INFO session-svc handled request rid=d196a8a8 status=200 dur=83ms
+2026-01-21 14:20:32,611 INFO session-svc handled request rid=97bf2c6a status=200 dur=81ms
+2026-01-21 14:20:46,627 INFO session-svc ping ok latency=8ms
+2026-01-21 14:20:48,073 WARNING session-svc clock drift 180ms detected vs NTP
+2026-01-21 14:20:53,445 INFO session-svc handled request rid=d15defb5 status=200 dur=33ms
+2026-01-21 14:20:59,688 INFO session-svc ping ok latency=92ms
+2026-01-21 14:20:59,955 WARNING session-svc clock drift 180ms detected vs NTP
+2026-01-21 14:21:10,432 WARNING session-svc clock drift 180ms detected vs NTP
+2026-01-21 14:21:10,814 INFO session-svc handled request rid=d1123b06 status=200 dur=86ms
+2026-01-21 14:21:22,022 INFO session-svc ping ok latency=33ms
+2026-01-21 14:21:35,680 INFO session-svc handled request rid=00faed69 status=200 dur=53ms
+2026-01-21 14:21:42,982 INFO session-svc handled request rid=7e2d4346 status=200 dur=69ms
+2026-01-21 14:21:54,218 INFO session-svc ping ok latency=21ms
+2026-01-21 14:22:07,928 INFO session-svc handled request rid=150932a8 status=200 dur=93ms
+2026-01-21 14:22:15,001 INFO session-svc ping ok latency=30ms
+2026-01-21 14:22:16,000 WARNING session-svc slow handler rid=6662d7c8 dur=500ms
+2026-01-21 14:22:26,771 INFO session-svc handled request rid=9a1a7c25 status=200 dur=69ms
+2026-01-21 14:22:34,150 INFO session-svc ping ok latency=56ms
+2026-01-21 14:22:47,484 INFO session-svc ping ok latency=8ms
+2026-01-21 14:22:53,294 INFO session-svc ping ok latency=93ms
+2026-01-21 14:23:02,073 INFO session-svc ping ok latency=33ms
+2026-01-21 14:23:16,497 INFO session-svc ping ok latency=64ms
+2026-01-21 14:23:29,910 INFO session-svc ping ok latency=17ms
+2026-01-21 14:23:39,436 INFO session-svc ping ok latency=17ms
+2026-01-21 14:23:49,827 INFO session-svc handled request rid=26413b36 status=200 dur=59ms
+2026-01-21 14:24:01,171 INFO session-svc handled request rid=3c6bb3f0 status=200 dur=34ms
+2026-01-21 14:24:07,269 INFO session-svc ping ok latency=83ms
+2026-01-21 14:24:16,218 INFO session-svc handled request rid=cf316bb3 status=200 dur=35ms
+2026-01-21 14:24:25,896 INFO session-svc ping ok latency=10ms
+2026-01-21 14:24:37,156 INFO session-svc ping ok latency=92ms
+2026-01-21 14:24:49,505 INFO session-svc ping ok latency=13ms
+2026-01-21 14:24:56,850 INFO session-svc handled request rid=628f19b4 status=200 dur=25ms
+2026-01-21 14:25:09,817 INFO session-svc handled request rid=1197d030 status=200 dur=70ms
+2026-01-21 14:25:22,338 INFO session-svc ping ok latency=16ms
+2026-01-21 14:25:28,115 INFO session-svc handled request rid=e2004570 status=200 dur=78ms
+2026-01-21 14:25:34,658 INFO session-svc handled request rid=6e3d2708 status=200 dur=43ms
+2026-01-21 14:25:43,100 INFO session-svc handled request rid=3b6f571a status=200 dur=8ms
+2026-01-21 14:25:49,946 INFO session-svc handled request rid=12d96e04 status=200 dur=76ms
+2026-01-21 14:26:02,694 INFO session-svc handled request rid=c1f910ea status=200 dur=48ms
+2026-01-21 14:26:09,383 INFO session-svc ping ok latency=20ms
+2026-01-21 14:26:19,322 INFO session-svc handled request rid=c29188a1 status=200 dur=11ms
+2026-01-21 14:26:20,000 WARNING session-svc slow handler rid=98117977 dur=860ms
+2026-01-21 14:26:30,189 INFO session-svc ping ok latency=91ms
+2026-01-21 14:26:40,845 INFO session-svc ping ok latency=71ms
+2026-01-21 14:26:53,064 INFO session-svc ping ok latency=61ms
+2026-01-21 14:26:59,422 INFO session-svc ping ok latency=64ms
+2026-01-21 14:27:08,377 INFO session-svc ping ok latency=71ms

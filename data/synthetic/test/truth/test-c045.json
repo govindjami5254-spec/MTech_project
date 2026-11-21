@@ -1,0 +1,40 @@
+{
+  "schema_version": "1",
+  "case_id": "test-c045",
+  "split": "test",
+  "family_id": "tf10",
+  "stratum": "distractor",
+  "root_causes": [
+    "asset-store"
+  ],
+  "fault_type": "dns_failure",
+  "expected_abstain": false,
+  "key_evidence": [
+    "asset-store.log:34",
+    "asset-store.log:35",
+    "asset-store.log:37"
+  ],
+  "relevant_evidence": [
+    "asset-store.log:34",
+    "asset-store.log:35",
+    "asset-store.log:37",
+    "catalog-api.log:32",
+    "catalog-api.log:33",
+    "catalog-api.log:34",
+    "edge-proxy.log:34",
+    "edge-proxy.log:35",
+    "edge-proxy.log:36",
+    "edge-proxy.log:38",
+    "edge-proxy.log:39",
+    "edge-proxy.log:40",
+    "edge-proxy.log:42",
+    "edge-proxy.log:43"
+  ],
+  "propagation_path": [
+    "asset-store",
+    "catalog-api",
+    "edge-proxy"
+  ],
+  "injection_uids": [],
+  "decoy_component": null
+}

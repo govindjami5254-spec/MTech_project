@@ -1,0 +1,294 @@
+2026-02-12T09:44:52Z INFO report-batch http request method=GET status=200 latency_ms=63 span=d969cdfe
+2026-02-12T09:44:59Z INFO report-batch http request method=GET status=200 latency_ms=57 span=7282a3f5
+2026-02-12T09:45:04Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:45:05Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:45:07Z WARN report-batch fx rate feed stale by 350ms
+2026-02-12T09:45:08Z INFO report-batch http request method=GET status=200 latency_ms=19 span=27f49b08
+2026-02-12T09:45:09Z WARN report-batch fx rate feed stale by 250ms
+2026-02-12T09:45:12Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:45:14Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:45:17Z WARN report-batch fx rate feed stale by 610ms
+2026-02-12T09:45:19Z WARN report-batch fx rate feed stale by 330ms
+2026-02-12T09:45:21Z WARN report-batch fx rate feed stale by 80ms
+2026-02-12T09:45:22Z INFO report-batch http request method=GET status=200 latency_ms=19 span=e9ba6d0d
+2026-02-12T09:45:24Z WARN report-batch fx rate feed stale by 630ms
+2026-02-12T09:45:26Z WARN report-batch fx rate feed stale by 390ms
+2026-02-12T09:45:27Z WARN report-batch fx rate feed stale by 940ms
+2026-02-12T09:45:30Z INFO report-batch tick ok elapsed_ms=72
+2026-02-12T09:45:30Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:45:32Z WARN report-batch fx rate feed stale by 450ms
+2026-02-12T09:45:35Z WARN report-batch fx rate feed stale by 410ms
+2026-02-12T09:45:38Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:45:41Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:45:43Z INFO report-batch tick ok elapsed_ms=38
+2026-02-12T09:45:44Z WARN report-batch fx rate feed stale by 670ms
+2026-02-12T09:45:47Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:45:49Z WARN report-batch fx rate feed stale by 810ms
+2026-02-12T09:45:52Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:45:53Z INFO report-batch tick ok elapsed_ms=19
+2026-02-12T09:45:56Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:45:58Z WARN report-batch fx rate feed stale by 630ms
+2026-02-12T09:46:00Z WARN report-batch fx rate feed stale by 560ms
+2026-02-12T09:46:03Z INFO report-batch http request method=GET status=200 latency_ms=63 span=3a636a9d
+2026-02-12T09:46:04Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:46:06Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:46:09Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:46:11Z INFO report-batch http request method=GET status=200 latency_ms=83 span=c833de04
+2026-02-12T09:46:11Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:46:13Z WARN report-batch fx rate feed stale by 660ms
+2026-02-12T09:46:15Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:46:17Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:46:20Z INFO report-batch http request method=GET status=200 latency_ms=35 span=e0415f58
+2026-02-12T09:46:20Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:46:23Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:46:26Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:46:28Z WARN report-batch fx rate feed stale by 580ms
+2026-02-12T09:46:29Z INFO report-batch tick ok elapsed_ms=47
+2026-02-12T09:46:30Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:46:32Z WARN report-batch fx rate feed stale by 160ms
+2026-02-12T09:46:35Z WARN report-batch fx rate feed stale by 510ms
+2026-02-12T09:46:37Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:46:39Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:46:41Z INFO report-batch http request method=GET status=200 latency_ms=90 span=561bd871
+2026-02-12T09:46:42Z WARN report-batch fx rate feed stale by 780ms
+2026-02-12T09:46:44Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:46:47Z INFO report-batch tick ok elapsed_ms=68
+2026-02-12T09:46:47Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:46:50Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:46:51Z WARN report-batch fx rate feed stale by 420ms
+2026-02-12T09:46:54Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:46:56Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:46:59Z WARN report-batch fx rate feed stale by 470ms
+2026-02-12T09:47:00Z INFO report-batch tick ok elapsed_ms=62
+2026-02-12T09:47:01Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:47:03Z WARN report-batch fx rate feed stale by 380ms
+2026-02-12T09:47:07Z WARN report-batch fx rate feed stale by 240ms
+2026-02-12T09:47:10Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:47:12Z INFO report-batch tick ok elapsed_ms=26
+2026-02-12T09:47:12Z WARN report-batch fx rate feed stale by 120ms
+2026-02-12T09:47:15Z WARN report-batch fx rate feed stale by 950ms
+2026-02-12T09:47:17Z WARN report-batch fx rate feed stale by 640ms
+2026-02-12T09:47:18Z INFO report-batch http request method=GET status=200 latency_ms=40 span=654ec989
+2026-02-12T09:47:19Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:47:21Z WARN report-batch fx rate feed stale by 140ms
+2026-02-12T09:47:22Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:47:26Z WARN report-batch fx rate feed stale by 150ms
+2026-02-12T09:47:28Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:47:30Z INFO report-batch tick ok elapsed_ms=61
+2026-02-12T09:47:30Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:47:33Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:47:35Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:47:38Z WARN report-batch fx rate feed stale by 680ms
+2026-02-12T09:47:42Z INFO report-batch tick ok elapsed_ms=39
+2026-02-12T09:47:42Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:47:44Z WARN report-batch fx rate feed stale by 730ms
+2026-02-12T09:47:46Z WARN report-batch fx rate feed stale by 150ms
+2026-02-12T09:47:48Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:47:50Z INFO report-batch http request method=GET status=200 latency_ms=13 span=119b48a2
+2026-02-12T09:47:50Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:47:53Z WARN report-batch fx rate feed stale by 480ms
+2026-02-12T09:47:55Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:47:58Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:48:01Z WARN report-batch fx rate feed stale by 710ms
+2026-02-12T09:48:03Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:48:04Z INFO report-batch http request method=GET status=200 latency_ms=94 span=c9eb5c1a
+2026-02-12T09:48:05Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:48:07Z WARN report-batch fx rate feed stale by 370ms
+2026-02-12T09:48:10Z WARN report-batch fx rate feed stale by 460ms
+2026-02-12T09:48:11Z INFO report-batch http request method=GET status=200 latency_ms=88 span=cbb67f6d
+2026-02-12T09:48:12Z WARN report-batch fx rate feed stale by 200ms
+2026-02-12T09:48:14Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:48:17Z WARN report-batch fx rate feed stale by 740ms
+2026-02-12T09:48:19Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:48:21Z INFO report-batch tick ok elapsed_ms=61
+2026-02-12T09:48:21Z WARN report-batch fx rate feed stale by 440ms
+2026-02-12T09:48:24Z WARN report-batch fx rate feed stale by 540ms
+2026-02-12T09:48:26Z WARN report-batch fx rate feed stale by 850ms
+2026-02-12T09:48:27Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:48:28Z INFO report-batch http request method=GET status=200 latency_ms=94 span=318386d1
+2026-02-12T09:48:29Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:48:32Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:48:34Z WARN report-batch fx rate feed stale by 230ms
+2026-02-12T09:48:36Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:48:39Z WARN report-batch fx rate feed stale by 470ms
+2026-02-12T09:48:40Z INFO report-batch http request method=GET status=200 latency_ms=73 span=ce1c6b8f
+2026-02-12T09:48:41Z WARN report-batch fx rate feed stale by 230ms
+2026-02-12T09:48:44Z WARN report-batch fx rate feed stale by 170ms
+2026-02-12T09:48:46Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:48:49Z WARN report-batch fx rate feed stale by 590ms
+2026-02-12T09:48:50Z INFO report-batch http request method=GET status=200 latency_ms=84 span=b2648b94
+2026-02-12T09:48:51Z WARN report-batch fx rate feed stale by 490ms
+2026-02-12T09:48:53Z WARN report-batch fx rate feed stale by 620ms
+2026-02-12T09:48:56Z WARN report-batch fx rate feed stale by 740ms
+2026-02-12T09:48:58Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:48:59Z INFO report-batch tick ok elapsed_ms=88
+2026-02-12T09:49:00Z WARN report-batch fx rate feed stale by 200ms
+2026-02-12T09:49:03Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:49:06Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:49:09Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:49:11Z INFO report-batch tick ok elapsed_ms=44
+2026-02-12T09:49:12Z WARN report-batch fx rate feed stale by 840ms
+2026-02-12T09:49:15Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:49:17Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:49:19Z WARN report-batch fx rate feed stale by 380ms
+2026-02-12T09:49:21Z WARN report-batch fx rate feed stale by 430ms
+2026-02-12T09:49:25Z INFO report-batch http request method=GET status=200 latency_ms=70 span=78e1416e
+2026-02-12T09:49:25Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:49:27Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:49:30Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:49:32Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:49:35Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:49:38Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:49:39Z INFO report-batch tick ok elapsed_ms=22
+2026-02-12T09:49:40Z WARN report-batch fx rate feed stale by 890ms
+2026-02-12T09:49:42Z WARN report-batch fx rate feed stale by 920ms
+2026-02-12T09:49:45Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:49:47Z WARN report-batch fx rate feed stale by 220ms
+2026-02-12T09:49:49Z INFO report-batch tick ok elapsed_ms=87
+2026-02-12T09:49:51Z WARN report-batch fx rate feed stale by 300ms
+2026-02-12T09:49:54Z WARN report-batch fx rate feed stale by 100ms
+2026-02-12T09:49:57Z WARN report-batch fx rate feed stale by 750ms
+2026-02-12T09:49:59Z WARN report-batch fx rate feed stale by 350ms
+2026-02-12T09:50:00Z INFO report-batch tick ok elapsed_ms=53
+2026-02-12T09:50:02Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:50:06Z WARN report-batch fx rate feed stale by 290ms
+2026-02-12T09:50:08Z WARN report-batch fx rate feed stale by 300ms
+2026-02-12T09:50:11Z INFO report-batch tick ok elapsed_ms=9
+2026-02-12T09:50:11Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:50:14Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:50:16Z WARN report-batch fx rate feed stale by 320ms
+2026-02-12T09:50:20Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:50:22Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:50:25Z INFO report-batch tick ok elapsed_ms=50
+2026-02-12T09:50:25Z WARN report-batch fx rate feed stale by 920ms
+2026-02-12T09:50:27Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:50:30Z WARN report-batch fx rate feed stale by 830ms
+2026-02-12T09:50:33Z WARN report-batch fx rate feed stale by 710ms
+2026-02-12T09:50:34Z INFO report-batch http request method=GET status=200 latency_ms=43 span=801bd141
+2026-02-12T09:50:35Z WARN report-batch fx rate feed stale by 940ms
+2026-02-12T09:50:37Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:50:40Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:50:42Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:50:44Z INFO report-batch tick ok elapsed_ms=43
+2026-02-12T09:50:45Z WARN report-batch fx rate feed stale by 640ms
+2026-02-12T09:50:47Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:50:50Z WARN report-batch fx rate feed stale by 950ms
+2026-02-12T09:50:52Z WARN report-batch fx rate feed stale by 380ms
+2026-02-12T09:50:54Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:50:57Z INFO report-batch tick ok elapsed_ms=8
+2026-02-12T09:50:57Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:51:00Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:51:03Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:51:05Z WARN report-batch fx rate feed stale by 950ms
+2026-02-12T09:51:08Z INFO report-batch http request method=GET status=200 latency_ms=23 span=882d2f34
+2026-02-12T09:51:08Z WARN report-batch fx rate feed stale by 280ms
+2026-02-12T09:51:10Z WARN report-batch fx rate feed stale by 430ms
+2026-02-12T09:51:13Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:51:16Z WARN report-batch fx rate feed stale by 410ms
+2026-02-12T09:51:18Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:51:19Z INFO report-batch tick ok elapsed_ms=14
+2026-02-12T09:51:21Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:51:23Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:51:24Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:51:25Z INFO report-batch tick ok elapsed_ms=74
+2026-02-12T09:51:28Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:51:30Z WARN report-batch fx rate feed stale by 480ms
+2026-02-12T09:51:31Z INFO report-batch http request method=GET status=200 latency_ms=68 span=b62e5d2b
+2026-02-12T09:51:32Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:51:34Z WARN report-batch fx rate feed stale by 380ms
+2026-02-12T09:51:36Z WARN report-batch fx rate feed stale by 850ms
+2026-02-12T09:51:39Z WARN report-batch fx rate feed stale by 920ms
+2026-02-12T09:51:41Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:51:42Z INFO report-batch http request method=GET status=200 latency_ms=79 span=e7a74a72
+2026-02-12T09:51:44Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:51:47Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:51:49Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:51:52Z INFO report-batch http request method=GET status=200 latency_ms=82 span=8866bb69
+2026-02-12T09:51:52Z WARN report-batch fx rate feed stale by 140ms
+2026-02-12T09:51:56Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:51:59Z WARN report-batch fx rate feed stale by 280ms
+2026-02-12T09:52:02Z INFO report-batch http request method=GET status=200 latency_ms=53 span=5c2bcd20
+2026-02-12T09:52:02Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:52:04Z WARN report-batch fx rate feed stale by 280ms
+2026-02-12T09:52:06Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:52:08Z INFO report-batch http request method=GET status=200 latency_ms=88 span=43cb4f22
+2026-02-12T09:52:08Z WARN report-batch fx rate feed stale by 680ms
+2026-02-12T09:52:10Z WARN report-batch fx rate feed stale by 840ms
+2026-02-12T09:52:12Z WARN report-batch fx rate feed stale by 840ms
+2026-02-12T09:52:15Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:52:16Z INFO report-batch tick ok elapsed_ms=25
+2026-02-12T09:52:17Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:52:20Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:52:24Z INFO report-batch tick ok elapsed_ms=29
+2026-02-12T09:52:24Z WARN report-batch fx rate feed stale by 600ms
+2026-02-12T09:52:26Z WARN report-batch fx rate feed stale by 650ms
+2026-02-12T09:52:29Z WARN report-batch fx rate feed stale by 180ms
+2026-02-12T09:52:32Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:52:34Z INFO report-batch http request method=GET status=200 latency_ms=44 span=084468a4
+2026-02-12T09:52:35Z WARN report-batch fx rate feed stale by 760ms
+2026-02-12T09:52:36Z WARN report-batch fx rate feed stale by 520ms
+2026-02-12T09:52:39Z WARN report-batch fx rate feed stale by 870ms
+2026-02-12T09:52:41Z INFO report-batch http request method=GET status=200 latency_ms=65 span=359cd0a0
+2026-02-12T09:52:43Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:52:46Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:52:48Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:52:50Z INFO report-batch http request method=GET status=200 latency_ms=72 span=5dcf122d
+2026-02-12T09:52:50Z WARN report-batch fx rate feed stale by 950ms
+2026-02-12T09:52:53Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:52:56Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:52:59Z WARN report-batch fx rate feed stale by 870ms
+2026-02-12T09:53:01Z INFO report-batch tick ok elapsed_ms=21
+2026-02-12T09:53:01Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:53:03Z WARN report-batch fx rate feed stale by 650ms
+2026-02-12T09:53:06Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:53:07Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:53:09Z INFO report-batch http request method=GET status=200 latency_ms=84 span=3b93ee90
+2026-02-12T09:53:09Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:53:12Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:53:14Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:53:17Z WARN report-batch fx rate feed stale by 120ms
+2026-02-12T09:53:19Z WARN report-batch fx rate feed stale by 210ms
+2026-02-12T09:53:21Z WARN report-batch fx rate feed stale by 100ms
+2026-02-12T09:53:22Z INFO report-batch http request method=GET status=200 latency_ms=24 span=1bc9ba99
+2026-02-12T09:53:23Z WARN report-batch slow poll elapsed_ms=670
+2026-02-12T09:53:23Z WARN report-batch fx rate feed stale by 850ms
+2026-02-12T09:53:25Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:53:26Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:53:29Z INFO report-batch tick ok elapsed_ms=16
+2026-02-12T09:53:30Z WARN report-batch fx rate feed stale by 170ms
+2026-02-12T09:53:33Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:53:36Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:53:39Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:53:40Z INFO report-batch tick ok elapsed_ms=36
+2026-02-12T09:53:42Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:53:44Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:53:47Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:53:50Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:53:52Z WARN report-batch fx rate feed stale by 370ms
+2026-02-12T09:53:54Z INFO report-batch http request method=GET status=200 latency_ms=87 span=2ea7e9b6
+2026-02-12T09:53:56Z WARN report-batch fx rate feed stale by 330ms
+2026-02-12T09:53:58Z WARN report-batch fx rate feed stale by 590ms
+2026-02-12T09:54:00Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:54:03Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:54:05Z INFO report-batch http request method=GET status=200 latency_ms=21 span=0c4fa6ff
+2026-02-12T09:54:05Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:54:06Z WARN report-batch fx rate feed stale by 650ms
+2026-02-12T09:54:08Z WARN report-batch fx rate feed stale by 880ms
+2026-02-12T09:54:10Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:54:13Z WARN report-batch fx rate feed stale by 820ms
+2026-02-12T09:54:15Z INFO report-batch http request method=GET status=200 latency_ms=89 span=dc6ad785
+2026-02-12T09:54:16Z WARN report-batch fx rate feed stale by 610ms
+2026-02-12T09:54:19Z WARN report-batch fx rate feed stale by 140ms
+2026-02-12T09:54:22Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:54:24Z WARN report-batch fx rate feed stale by 690ms
+2026-02-12T09:54:26Z INFO report-batch http request method=GET status=200 latency_ms=45 span=07b0f1e1
+2026-02-12T09:54:27Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:54:30Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:54:33Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:54:36Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:54:37Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:54:39Z WARN report-batch fx rate feed stale by 310ms
+2026-02-12T09:54:40Z INFO report-batch tick ok elapsed_ms=22
+2026-02-12T09:54:42Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:54:45Z WARN report-batch report generation behind schedule by 0s
+2026-02-12T09:54:47Z WARN report-batch report generation behind schedule by 0s

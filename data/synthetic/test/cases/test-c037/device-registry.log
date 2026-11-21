@@ -1,0 +1,61 @@
+2026-02-03T16:54:01.600+05:30 info device-registry event loop lag 52ms ok
+2026-02-03T16:54:11.855+05:30 info device-registry served GET /api status=200 in 10ms trace=d7e5bb9d
+2026-02-03T16:54:20.389+05:30 info device-registry served GET /api status=200 in 66ms trace=38db67a4
+2026-02-03T16:54:28.726+05:30 info device-registry served GET /api status=200 in 69ms trace=95ce50b3
+2026-02-03T16:54:38.196+05:30 info device-registry event loop lag 59ms ok
+2026-02-03T16:54:44.571+05:30 info device-registry served GET /api status=200 in 44ms trace=73d2c523
+2026-02-03T16:54:57.306+05:30 info device-registry event loop lag 46ms ok
+2026-02-03T16:55:03.058+05:30 info device-registry event loop lag 42ms ok
+2026-02-03T16:55:15.376+05:30 info device-registry served GET /api status=200 in 40ms trace=bed304f4
+2026-02-03T16:55:21.033+05:30 info device-registry served GET /api status=200 in 36ms trace=a7a6be23
+2026-02-03T16:55:31.897+05:30 info device-registry served GET /api status=200 in 68ms trace=936951e4
+2026-02-03T16:55:37.985+05:30 info device-registry event loop lag 15ms ok
+2026-02-03T16:55:43.071+05:30 info device-registry event loop lag 16ms ok
+2026-02-03T16:55:57.057+05:30 info device-registry served GET /api status=200 in 52ms trace=07fbfb1f
+2026-02-03T16:56:04.276+05:30 info device-registry served GET /api status=200 in 12ms trace=7b5fdf9c
+2026-02-03T16:56:17.749+05:30 info device-registry served GET /api status=200 in 44ms trace=b24cc5a5
+2026-02-03T16:56:29.649+05:30 info device-registry event loop lag 30ms ok
+2026-02-03T16:56:36.219+05:30 info device-registry served GET /api status=200 in 68ms trace=4ab7143c
+2026-02-03T16:56:50.501+05:30 info device-registry event loop lag 68ms ok
+2026-02-03T16:57:03.524+05:30 info device-registry event loop lag 64ms ok
+2026-02-03T16:57:14.718+05:30 info device-registry served GET /api status=200 in 52ms trace=1716d85d
+2026-02-03T16:57:25.212+05:30 info device-registry event loop lag 67ms ok
+2026-02-03T16:57:39.383+05:30 info device-registry event loop lag 51ms ok
+2026-02-03T16:57:49.756+05:30 info device-registry served GET /api status=200 in 65ms trace=cd46e22e
+2026-02-03T16:58:01.552+05:30 info device-registry event loop lag 36ms ok
+2026-02-03T16:58:10.240+05:30 info device-registry event loop lag 39ms ok
+2026-02-03T16:58:24.195+05:30 info device-registry served GET /api status=200 in 45ms trace=6e9a4fcd
+2026-02-03T16:58:33.200+05:30 info device-registry served GET /api status=200 in 81ms trace=7d6c875a
+2026-02-03T16:58:39.679+05:30 info device-registry served GET /api status=200 in 57ms trace=34e62a71
+2026-02-03T16:58:47.700+05:30 info device-registry served GET /api status=200 in 25ms trace=c70e2599
+2026-02-03T16:58:54.043+05:30 info device-registry event loop lag 88ms ok
+2026-02-03T16:59:07.725+05:30 info device-registry served GET /api status=200 in 28ms trace=45444672
+2026-02-03T16:59:20.027+05:30 info device-registry served GET /api status=200 in 48ms trace=6c4651a8
+2026-02-03T16:59:30.006+05:30 error device-registry FetchError: request to http://registry-db:5434 failed, reason: socket hang up trace=3e6c80d6
+2026-02-03T16:59:30.824+05:30 info device-registry served GET /api status=200 in 36ms trace=b9eaff9f
+2026-02-03T16:59:32.785+05:30 warn device-registry retry 2/3 for registry-db scheduled in 500ms
+2026-02-03T16:59:35.801+05:30 error device-registry circuit open for registry-db after repeated failures
+2026-02-03T16:59:39.794+05:30 info device-registry event loop lag 42ms ok
+2026-02-03T16:59:51.449+05:30 info device-registry served GET /api status=200 in 59ms trace=39cce97e
+2026-02-03T17:00:00.794+05:30 info device-registry event loop lag 69ms ok
+2026-02-03T17:00:10.813+05:30 info device-registry served GET /api status=200 in 42ms trace=c1a7cd2f
+2026-02-03T17:00:24.772+05:30 info device-registry event loop lag 34ms ok
+2026-02-03T17:00:33.641+05:30 info device-registry event loop lag 29ms ok
+2026-02-03T17:00:46.845+05:30 info device-registry served GET /api status=200 in 85ms trace=aad06781
+2026-02-03T17:00:57.793+05:30 info device-registry event loop lag 30ms ok
+2026-02-03T17:01:10.291+05:30 info device-registry event loop lag 18ms ok
+2026-02-03T17:01:17.437+05:30 info device-registry event loop lag 78ms ok
+2026-02-03T17:01:29.995+05:30 info device-registry served GET /api status=200 in 21ms trace=856dea4f
+2026-02-03T17:01:41.283+05:30 info device-registry event loop lag 24ms ok
+2026-02-03T17:01:52.051+05:30 info device-registry event loop lag 53ms ok
+2026-02-03T17:02:02.505+05:30 info device-registry served GET /api status=200 in 95ms trace=e2a605c8
+2026-02-03T17:02:13.518+05:30 info device-registry event loop lag 56ms ok
+2026-02-03T17:02:21.609+05:30 info device-registry event loop lag 30ms ok
+2026-02-03T17:02:31.757+05:30 info device-registry served GET /api status=200 in 36ms trace=d9737b0d
+2026-02-03T17:02:45.840+05:30 info device-registry served GET /api status=200 in 78ms trace=4cb871ab
+2026-02-03T17:02:57.819+05:30 info device-registry served GET /api status=200 in 47ms trace=cc3d9b12
+2026-02-03T17:03:04.264+05:30 info device-registry event loop lag 21ms ok
+2026-02-03T17:03:15.999+05:30 info device-registry served GET /api status=200 in 29ms trace=1b6feee0
+2026-02-03T17:03:24.088+05:30 info device-registry served GET /api status=200 in 55ms trace=528aecfc
+2026-02-03T17:03:37.528+05:30 info device-registry event loop lag 54ms ok
+2026-02-03T17:03:51.268+05:30 info device-registry served GET /api status=200 in 92ms trace=8c9f05aa

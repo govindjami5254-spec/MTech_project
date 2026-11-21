@@ -1,0 +1,65 @@
+2026-01-24T20:24:03.442+05:30 info ingress event loop lag 79ms ok
+2026-01-24T20:24:17.132+05:30 info ingress served GET /api status=200 in 12ms trace=0748324b
+2026-01-24T20:24:26.443+05:30 info ingress event loop lag 12ms ok
+2026-01-24T20:24:37.234+05:30 info ingress served GET /api status=200 in 41ms trace=18f46009
+2026-01-24T20:24:47.531+05:30 info ingress served GET /api status=200 in 70ms trace=ca522758
+2026-01-24T20:24:57.108+05:30 info ingress served GET /api status=200 in 32ms trace=749ac570
+2026-01-24T20:25:06.576+05:30 info ingress served GET /api status=200 in 60ms trace=0cae906c
+2026-01-24T20:25:19.916+05:30 info ingress event loop lag 17ms ok
+2026-01-24T20:25:28.217+05:30 info ingress served GET /api status=200 in 75ms trace=c26466d0
+2026-01-24T20:25:38.338+05:30 info ingress served GET /api status=200 in 65ms trace=5b6c7176
+2026-01-24T20:25:47.658+05:30 info ingress served GET /api status=200 in 20ms trace=02a41f15
+2026-01-24T20:25:53.853+05:30 info ingress event loop lag 22ms ok
+2026-01-24T20:26:04.428+05:30 info ingress event loop lag 56ms ok
+2026-01-24T20:26:14.045+05:30 info ingress served GET /api status=200 in 89ms trace=b64e623c
+2026-01-24T20:26:25.331+05:30 info ingress event loop lag 85ms ok
+2026-01-24T20:26:39.170+05:30 info ingress event loop lag 74ms ok
+2026-01-24T20:26:52.098+05:30 info ingress served GET /api status=200 in 81ms trace=1b677463
+2026-01-24T20:27:02.784+05:30 info ingress event loop lag 25ms ok
+2026-01-24T20:27:12.260+05:30 info ingress served GET /api status=200 in 53ms trace=aef4bed5
+2026-01-24T20:27:20.599+05:30 info ingress served GET /api status=200 in 69ms trace=a3bacfbf
+2026-01-24T20:27:27.536+05:30 info ingress event loop lag 75ms ok
+2026-01-24T20:27:36.719+05:30 info ingress event loop lag 51ms ok
+2026-01-24T20:27:45.881+05:30 info ingress event loop lag 20ms ok
+2026-01-24T20:27:58.948+05:30 info ingress served GET /api status=200 in 70ms trace=328ec665
+2026-01-24T20:28:05.149+05:30 info ingress event loop lag 94ms ok
+2026-01-24T20:28:15.380+05:30 info ingress served GET /api status=200 in 87ms trace=73c09845
+2026-01-24T20:28:29.154+05:30 info ingress served GET /api status=200 in 83ms trace=189bf048
+2026-01-24T20:28:39.335+05:30 info ingress event loop lag 47ms ok
+2026-01-24T20:28:39.358+05:30 error ingress proxy error contacting telemetry-api; responded 502 trace=9a768cc2
+2026-01-24T20:28:42.700+05:30 error ingress 503 Service Unavailable returned (telemetry-api down) trace=2714fc47
+2026-01-24T20:28:45.268+05:30 error ingress proxy error contacting telemetry-api; responded 502 trace=1399e1ba
+2026-01-24T20:28:47.159+05:30 info ingress served GET /api status=200 in 8ms trace=a384dc2d
+2026-01-24T20:28:48.955+05:30 error ingress proxy error contacting telemetry-api; responded 502 trace=7361c443
+2026-01-24T20:28:51.224+05:30 error ingress 503 Service Unavailable returned (telemetry-api down) trace=c61645c9
+2026-01-24T20:28:53.385+05:30 info ingress served GET /api status=200 in 27ms trace=57b1be83
+2026-01-24T20:28:54.331+05:30 error ingress 503 Service Unavailable returned (telemetry-api down) trace=6abceff6
+2026-01-24T20:29:04.565+05:30 info ingress served GET /api status=200 in 71ms trace=fccdeec1
+2026-01-24T20:29:17.540+05:30 info ingress event loop lag 27ms ok
+2026-01-24T20:29:24.732+05:30 info ingress served GET /api status=200 in 58ms trace=adaeed50
+2026-01-24T20:29:34.857+05:30 info ingress served GET /api status=200 in 77ms trace=f5be0eea
+2026-01-24T20:29:45.679+05:30 info ingress served GET /api status=200 in 45ms trace=e4ec28af
+2026-01-24T20:29:55.376+05:30 info ingress event loop lag 25ms ok
+2026-01-24T20:30:01.094+05:30 info ingress event loop lag 88ms ok
+2026-01-24T20:30:15.793+05:30 info ingress event loop lag 15ms ok
+2026-01-24T20:30:27.606+05:30 info ingress event loop lag 47ms ok
+2026-01-24T20:30:41.072+05:30 info ingress served GET /api status=200 in 85ms trace=2b7b1368
+2026-01-24T20:30:54.635+05:30 info ingress event loop lag 54ms ok
+2026-01-24T20:31:06.823+05:30 info ingress served GET /api status=200 in 58ms trace=b2114411
+2026-01-24T20:31:15.554+05:30 info ingress event loop lag 67ms ok
+2026-01-24T20:31:21.851+05:30 info ingress served GET /api status=200 in 74ms trace=14e2850f
+2026-01-24T20:31:31.896+05:30 info ingress event loop lag 28ms ok
+2026-01-24T20:31:40.494+05:30 info ingress event loop lag 17ms ok
+2026-01-24T20:31:49.969+05:30 info ingress served GET /api status=200 in 72ms trace=4f8c3726
+2026-01-24T20:32:02.265+05:30 info ingress served GET /api status=200 in 21ms trace=d0a91cb6
+2026-01-24T20:32:09.630+05:30 info ingress served GET /api status=200 in 79ms trace=5b75d23d
+2026-01-24T20:32:19.415+05:30 info ingress event loop lag 95ms ok
+2026-01-24T20:32:32.926+05:30 info ingress served GET /api status=200 in 36ms trace=bf68b3a8
+2026-01-24T20:32:38.838+05:30 info ingress event loop lag 61ms ok
+2026-01-24T20:32:50.035+05:30 info ingress served GET /api status=200 in 41ms trace=502eec71
+2026-01-24T20:33:01.722+05:30 info ingress served GET /api status=200 in 41ms trace=43438ae1
+2026-01-24T20:33:08.620+05:30 info ingress served GET /api status=200 in 61ms trace=f91c7d23
+2026-01-24T20:33:20.305+05:30 info ingress served GET /api status=200 in 70ms trace=0bfbd41d
+2026-01-24T20:33:34.192+05:30 info ingress event loop lag 58ms ok
+2026-01-24T20:33:45.938+05:30 info ingress served GET /api status=200 in 84ms trace=727d7c1a
+2026-01-24T20:33:53.686+05:30 info ingress event loop lag 11ms ok

@@ -1,0 +1,57 @@
+2026-01-14 14:20:48,537 INFO blob-db GET /v1/items 200 90ms req_id=7a5b300e
+2026-01-14 14:20:55,577 INFO blob-db GET /v1/items 200 78ms req_id=4e38a30a
+2026-01-14 14:21:03,995 INFO blob-db worker heartbeat ok (27ms)
+2026-01-14 14:21:13,222 INFO blob-db GET /v1/items 200 16ms req_id=950e4f4b
+2026-01-14 14:21:25,698 INFO blob-db GET /v1/items 200 27ms req_id=372083fc
+2026-01-14 14:21:38,608 INFO blob-db GET /v1/items 200 66ms req_id=18e47ca2
+2026-01-14 14:21:49,046 INFO blob-db GET /v1/items 200 21ms req_id=ad8c0feb
+2026-01-14 14:22:00,825 INFO blob-db GET /v1/items 200 28ms req_id=90adb7d5
+2026-01-14 14:22:07,751 INFO blob-db GET /v1/items 200 30ms req_id=02bb60bb
+2026-01-14 14:22:17,134 INFO blob-db worker heartbeat ok (36ms)
+2026-01-14 14:22:29,905 INFO blob-db worker heartbeat ok (55ms)
+2026-01-14 14:22:38,881 INFO blob-db GET /v1/items 200 11ms req_id=46db365c
+2026-01-14 14:22:48,925 INFO blob-db GET /v1/items 200 28ms req_id=c6587616
+2026-01-14 14:23:01,878 INFO blob-db GET /v1/items 200 61ms req_id=7e1f0a1c
+2026-01-14 14:23:09,482 INFO blob-db worker heartbeat ok (41ms)
+2026-01-14 14:23:15,457 INFO blob-db GET /v1/items 200 16ms req_id=96331d54
+2026-01-14 14:23:27,136 INFO blob-db GET /v1/items 200 32ms req_id=4fb0101f
+2026-01-14 14:23:35,080 INFO blob-db worker heartbeat ok (93ms)
+2026-01-14 14:23:48,671 INFO blob-db GET /v1/items 200 27ms req_id=d1924628
+2026-01-14 14:24:01,053 INFO blob-db GET /v1/items 200 39ms req_id=52dc685e
+2026-01-14 14:24:11,709 INFO blob-db GET /v1/items 200 52ms req_id=0bada687
+2026-01-14 14:24:20,009 INFO blob-db GET /v1/items 200 66ms req_id=fe14eef7
+2026-01-14 14:24:31,840 INFO blob-db worker heartbeat ok (66ms)
+2026-01-14 14:24:44,707 INFO blob-db GET /v1/items 200 24ms req_id=7068862d
+2026-01-14 14:24:45,000 WARNING blob-db deprecated parameter 'page' used by client
+2026-01-14 14:24:56,859 INFO blob-db GET /v1/items 200 8ms req_id=e69e9e71
+2026-01-14 14:25:04,343 INFO blob-db GET /v1/items 200 52ms req_id=7891a9b0
+2026-01-14 14:25:15,149 INFO blob-db GET /v1/items 200 46ms req_id=3aad3068
+2026-01-14 14:25:24,204 INFO blob-db worker heartbeat ok (49ms)
+2026-01-14 14:25:35,095 INFO blob-db GET /v1/items 200 36ms req_id=a2bd9778
+2026-01-14 14:25:43,568 INFO blob-db GET /v1/items 200 58ms req_id=89cda136
+2026-01-14 14:25:54,342 INFO blob-db GET /v1/items 200 38ms req_id=51a9e9b8
+2026-01-14 14:26:02,890 INFO blob-db worker heartbeat ok (10ms)
+2026-01-14 14:26:13,738 INFO blob-db GET /v1/items 200 19ms req_id=d238f74d
+2026-01-14 14:26:21,468 INFO blob-db GET /v1/items 200 51ms req_id=89579aa3
+2026-01-14 14:26:30,737 INFO blob-db GET /v1/items 200 54ms req_id=3f078655
+2026-01-14 14:26:44,239 INFO blob-db GET /v1/items 200 20ms req_id=804b7bd5
+2026-01-14 14:26:57,868 INFO blob-db worker heartbeat ok (65ms)
+2026-01-14 14:27:10,637 INFO blob-db GET /v1/items 200 62ms req_id=44ce90be
+2026-01-14 14:27:20,039 INFO blob-db worker heartbeat ok (24ms)
+2026-01-14 14:27:33,979 INFO blob-db GET /v1/items 200 33ms req_id=78a06618
+2026-01-14 14:27:39,048 INFO blob-db worker heartbeat ok (91ms)
+2026-01-14 14:27:51,041 INFO blob-db GET /v1/items 200 58ms req_id=23b42498
+2026-01-14 14:27:57,933 INFO blob-db worker heartbeat ok (13ms)
+2026-01-14 14:28:11,475 INFO blob-db worker heartbeat ok (55ms)
+2026-01-14 14:28:23,965 INFO blob-db worker heartbeat ok (71ms)
+2026-01-14 14:28:37,581 INFO blob-db GET /v1/items 200 29ms req_id=8f67220f
+2026-01-14 14:28:49,611 INFO blob-db worker heartbeat ok (50ms)
+2026-01-14 14:29:01,927 INFO blob-db worker heartbeat ok (18ms)
+2026-01-14 14:29:14,211 INFO blob-db GET /v1/items 200 90ms req_id=d984a7c7
+2026-01-14 14:29:28,408 INFO blob-db GET /v1/items 200 69ms req_id=65527b4b
+2026-01-14 14:29:37,021 INFO blob-db worker heartbeat ok (70ms)
+2026-01-14 14:29:46,685 INFO blob-db GET /v1/items 200 48ms req_id=bea13062
+2026-01-14 14:29:56,321 INFO blob-db GET /v1/items 200 62ms req_id=c8756617
+2026-01-14 14:30:07,880 INFO blob-db GET /v1/items 200 33ms req_id=be303af0
+2026-01-14 14:30:21,018 INFO blob-db GET /v1/items 200 93ms req_id=0101ccd8
+2026-01-14 14:30:32,308 INFO blob-db GET /v1/items 200 78ms req_id=423fe930

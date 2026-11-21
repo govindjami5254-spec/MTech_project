@@ -1,0 +1,71 @@
+2026-01-07T17:42:50.579+05:30 info front-door served GET /api status=200 in 56ms trace=daf9731b
+2026-01-07T17:43:01.421+05:30 info front-door served GET /api status=200 in 89ms trace=50049f31
+2026-01-07T17:43:10.237+05:30 info front-door event loop lag 80ms ok
+2026-01-07T17:43:19.621+05:30 info front-door event loop lag 73ms ok
+2026-01-07T17:43:29.447+05:30 info front-door event loop lag 74ms ok
+2026-01-07T17:43:40.357+05:30 info front-door event loop lag 30ms ok
+2026-01-07T17:43:49.959+05:30 info front-door event loop lag 74ms ok
+2026-01-07T17:44:03.169+05:30 info front-door served GET /api status=200 in 60ms trace=c610f5f5
+2026-01-07T17:44:13.725+05:30 info front-door served GET /api status=200 in 58ms trace=6deae03d
+2026-01-07T17:44:22.443+05:30 info front-door served GET /api status=200 in 61ms trace=65eec1e9
+2026-01-07T17:44:31.442+05:30 info front-door event loop lag 50ms ok
+2026-01-07T17:44:40.133+05:30 info front-door event loop lag 20ms ok
+2026-01-07T17:44:48.996+05:30 info front-door event loop lag 95ms ok
+2026-01-07T17:44:59.574+05:30 info front-door event loop lag 34ms ok
+2026-01-07T17:45:06.171+05:30 info front-door served GET /api status=200 in 51ms trace=4f0caf71
+2026-01-07T17:45:14.574+05:30 info front-door event loop lag 78ms ok
+2026-01-07T17:45:27.389+05:30 info front-door served GET /api status=200 in 79ms trace=13d450e6
+2026-01-07T17:45:39.234+05:30 info front-door served GET /api status=200 in 18ms trace=788a64a7
+2026-01-07T17:45:49.342+05:30 info front-door event loop lag 64ms ok
+2026-01-07T17:45:55.073+05:30 info front-door event loop lag 50ms ok
+2026-01-07T17:46:03.816+05:30 info front-door event loop lag 94ms ok
+2026-01-07T17:46:16.149+05:30 info front-door event loop lag 16ms ok
+2026-01-07T17:46:23.345+05:30 info front-door event loop lag 10ms ok
+2026-01-07T17:46:31.624+05:30 info front-door event loop lag 57ms ok
+2026-01-07T17:46:38.984+05:30 info front-door event loop lag 93ms ok
+2026-01-07T17:46:44.747+05:30 info front-door served GET /api status=200 in 63ms trace=3da658b7
+2026-01-07T17:46:52.929+05:30 info front-door event loop lag 32ms ok
+2026-01-07T17:47:05.266+05:30 info front-door event loop lag 64ms ok
+2026-01-07T17:47:19.592+05:30 info front-door event loop lag 65ms ok
+2026-01-07T17:47:29.845+05:30 info front-door served GET /api status=200 in 81ms trace=7df293ea
+2026-01-07T17:47:36.955+05:30 info front-door served GET /api status=200 in 90ms trace=1aee062a
+2026-01-07T17:47:39.131+05:30 error front-door proxy error contacting payments-api; responded 502 trace=deafd112
+2026-01-07T17:47:42.817+05:30 error front-door proxy error contacting payments-api; responded 502 trace=f005f47b
+2026-01-07T17:47:45.769+05:30 error front-door proxy error contacting payments-api; responded 502 trace=81cf4836
+2026-01-07T17:47:46.116+05:30 info front-door event loop lag 53ms ok
+2026-01-07T17:47:48.137+05:30 error front-door proxy error contacting payments-api; responded 502 trace=19601c86
+2026-01-07T17:47:51.067+05:30 error front-door 503 Service Unavailable returned (payments-api down) trace=a2480d3b
+2026-01-07T17:47:54.274+05:30 error front-door proxy error contacting payments-api; responded 502 trace=ba495aad
+2026-01-07T17:47:57.791+05:30 error front-door proxy error contacting payments-api; responded 502 trace=476dcae8
+2026-01-07T17:48:00.419+05:30 info front-door event loop lag 73ms ok
+2026-01-07T17:48:00.639+05:30 error front-door 503 Service Unavailable returned (payments-api down) trace=37058a24
+2026-01-07T17:48:07.473+05:30 info front-door served GET /api status=200 in 67ms trace=0dcd43ea
+2026-01-07T17:48:16.226+05:30 info front-door served GET /api status=200 in 57ms trace=45106606
+2026-01-07T17:48:22.282+05:30 info front-door event loop lag 67ms ok
+2026-01-07T17:48:29.261+05:30 info front-door event loop lag 52ms ok
+2026-01-07T17:48:38.977+05:30 info front-door served GET /api status=200 in 78ms trace=edb91079
+2026-01-07T17:48:49.515+05:30 info front-door served GET /api status=200 in 13ms trace=418f773d
+2026-01-07T17:49:03.782+05:30 info front-door event loop lag 33ms ok
+2026-01-07T17:49:12.654+05:30 info front-door event loop lag 38ms ok
+2026-01-07T17:49:20.242+05:30 info front-door event loop lag 21ms ok
+2026-01-07T17:49:32.196+05:30 info front-door served GET /api status=200 in 11ms trace=77bf4794
+2026-01-07T17:49:40.522+05:30 info front-door served GET /api status=200 in 87ms trace=93a45b61
+2026-01-07T17:49:48.110+05:30 info front-door event loop lag 52ms ok
+2026-01-07T17:49:49.000+05:30 warn front-door unhandled header x-legacy ignored trace=0e3cdfc5
+2026-01-07T17:50:02.759+05:30 info front-door served GET /api status=200 in 53ms trace=d00aeb38
+2026-01-07T17:50:15.618+05:30 info front-door event loop lag 58ms ok
+2026-01-07T17:50:21.591+05:30 info front-door event loop lag 19ms ok
+2026-01-07T17:50:29.688+05:30 info front-door event loop lag 8ms ok
+2026-01-07T17:50:36.838+05:30 info front-door event loop lag 64ms ok
+2026-01-07T17:50:50.441+05:30 info front-door event loop lag 90ms ok
+2026-01-07T17:51:01.983+05:30 info front-door event loop lag 10ms ok
+2026-01-07T17:51:13.317+05:30 info front-door event loop lag 9ms ok
+2026-01-07T17:51:22.414+05:30 info front-door served GET /api status=200 in 73ms trace=bbd2ad6e
+2026-01-07T17:51:34.992+05:30 info front-door served GET /api status=200 in 62ms trace=727f01f1
+2026-01-07T17:51:45.011+05:30 info front-door served GET /api status=200 in 66ms trace=c0cdf36e
+2026-01-07T17:51:52.230+05:30 info front-door event loop lag 71ms ok
+2026-01-07T17:51:58.849+05:30 info front-door served GET /api status=200 in 30ms trace=a28ded7c
+2026-01-07T17:52:04.741+05:30 info front-door served GET /api status=200 in 10ms trace=bd4cdf5c
+2026-01-07T17:52:11.301+05:30 info front-door event loop lag 69ms ok
+2026-01-07T17:52:23.300+05:30 info front-door served GET /api status=200 in 8ms trace=6746d81e
+2026-01-07T17:52:34.979+05:30 info front-door event loop lag 33ms ok

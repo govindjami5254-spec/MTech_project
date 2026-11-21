@@ -1,0 +1,58 @@
+2026-02-01 12:42:08,354 INFO batch-exporter worker heartbeat ok (61ms)
+2026-02-01 12:42:18,529 INFO batch-exporter worker heartbeat ok (32ms)
+2026-02-01 12:42:27,468 INFO batch-exporter GET /v1/items 200 34ms req_id=d924830d
+2026-02-01 12:42:37,597 INFO batch-exporter GET /v1/items 200 70ms req_id=c34ddf74
+2026-02-01 12:42:43,642 INFO batch-exporter worker heartbeat ok (16ms)
+2026-02-01 12:42:51,097 INFO batch-exporter worker heartbeat ok (89ms)
+2026-02-01 12:42:58,849 INFO batch-exporter GET /v1/items 200 36ms req_id=0ddd3ed8
+2026-02-01 12:43:06,490 INFO batch-exporter worker heartbeat ok (64ms)
+2026-02-01 12:43:18,822 INFO batch-exporter worker heartbeat ok (33ms)
+2026-02-01 12:43:25,266 INFO batch-exporter worker heartbeat ok (14ms)
+2026-02-01 12:43:34,657 INFO batch-exporter worker heartbeat ok (22ms)
+2026-02-01 12:43:48,866 INFO batch-exporter worker heartbeat ok (18ms)
+2026-02-01 12:43:58,614 INFO batch-exporter GET /v1/items 200 36ms req_id=00b48699
+2026-02-01 12:44:09,638 INFO batch-exporter worker heartbeat ok (55ms)
+2026-02-01 12:44:23,742 INFO batch-exporter GET /v1/items 200 46ms req_id=2ce64913
+2026-02-01 12:44:31,271 INFO batch-exporter worker heartbeat ok (35ms)
+2026-02-01 12:44:39,195 INFO batch-exporter GET /v1/items 200 64ms req_id=2af7ab9b
+2026-02-01 12:44:53,817 INFO batch-exporter GET /v1/items 200 79ms req_id=637a05f0
+2026-02-01 12:45:06,289 INFO batch-exporter worker heartbeat ok (90ms)
+2026-02-01 12:45:14,728 INFO batch-exporter worker heartbeat ok (39ms)
+2026-02-01 12:45:26,023 INFO batch-exporter worker heartbeat ok (74ms)
+2026-02-01 12:45:37,145 INFO batch-exporter worker heartbeat ok (74ms)
+2026-02-01 12:45:49,602 INFO batch-exporter GET /v1/items 200 60ms req_id=d75af865
+2026-02-01 12:46:00,669 INFO batch-exporter GET /v1/items 200 25ms req_id=7dbd5e97
+2026-02-01 12:46:12,136 INFO batch-exporter GET /v1/items 200 42ms req_id=4e0dcd48
+2026-02-01 12:46:18,857 INFO batch-exporter worker heartbeat ok (80ms)
+2026-02-01 12:46:30,383 INFO batch-exporter worker heartbeat ok (34ms)
+2026-02-01 12:46:43,637 INFO batch-exporter worker heartbeat ok (63ms)
+2026-02-01 12:46:57,010 INFO batch-exporter GET /v1/items 200 28ms req_id=a68e8845
+2026-02-01 12:47:05,146 INFO batch-exporter GET /v1/items 200 35ms req_id=2e0d1389
+2026-02-01 12:47:19,031 INFO batch-exporter worker heartbeat ok (34ms)
+2026-02-01 12:47:25,220 INFO batch-exporter worker heartbeat ok (34ms)
+2026-02-01 12:47:39,297 INFO batch-exporter GET /v1/items 200 13ms req_id=4d5ed02d
+2026-02-01 12:47:45,753 INFO batch-exporter GET /v1/items 200 91ms req_id=69254861
+2026-02-01 12:47:52,971 INFO batch-exporter GET /v1/items 200 46ms req_id=a89a26d6
+2026-02-01 12:48:02,036 INFO batch-exporter GET /v1/items 200 32ms req_id=91631465
+2026-02-01 12:48:09,683 INFO batch-exporter worker heartbeat ok (45ms)
+2026-02-01 12:48:19,585 INFO batch-exporter GET /v1/items 200 54ms req_id=28a9ea75
+2026-02-01 12:48:32,644 INFO batch-exporter GET /v1/items 200 87ms req_id=e12e2191
+2026-02-01 12:48:39,916 INFO batch-exporter worker heartbeat ok (48ms)
+2026-02-01 12:48:50,385 INFO batch-exporter worker heartbeat ok (31ms)
+2026-02-01 12:49:01,872 INFO batch-exporter worker heartbeat ok (41ms)
+2026-02-01 12:49:13,967 INFO batch-exporter worker heartbeat ok (95ms)
+2026-02-01 12:49:23,926 INFO batch-exporter GET /v1/items 200 17ms req_id=cd792bc6
+2026-02-01 12:49:30,459 INFO batch-exporter worker heartbeat ok (19ms)
+2026-02-01 12:49:42,430 INFO batch-exporter GET /v1/items 200 22ms req_id=0f02285b
+2026-02-01 12:49:55,381 INFO batch-exporter worker heartbeat ok (63ms)
+2026-02-01 12:50:02,613 INFO batch-exporter worker heartbeat ok (92ms)
+2026-02-01 12:50:11,470 INFO batch-exporter worker heartbeat ok (47ms)
+2026-02-01 12:50:18,031 INFO batch-exporter GET /v1/items 200 50ms req_id=32ffe337
+2026-02-01 12:50:29,162 INFO batch-exporter worker heartbeat ok (93ms)
+2026-02-01 12:50:43,059 INFO batch-exporter GET /v1/items 200 80ms req_id=28c4f5e8
+2026-02-01 12:50:52,777 INFO batch-exporter worker heartbeat ok (46ms)
+2026-02-01 12:51:04,791 INFO batch-exporter worker heartbeat ok (87ms)
+2026-02-01 12:51:17,541 INFO batch-exporter worker heartbeat ok (17ms)
+2026-02-01 12:51:30,077 INFO batch-exporter GET /v1/items 200 65ms req_id=d0d2755b
+2026-02-01 12:51:39,881 INFO batch-exporter worker heartbeat ok (40ms)
+2026-02-01 12:51:51,958 INFO batch-exporter GET /v1/items 200 30ms req_id=e81a13c9

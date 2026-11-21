@@ -1,0 +1,63 @@
+2026-01-21 14:17:12,410 INFO inventory-db ping ok latency=28ms
+2026-01-21 14:17:19,117 INFO inventory-db handled request rid=12fd245f status=200 dur=42ms
+2026-01-21 14:17:32,538 INFO inventory-db handled request rid=ecbeece6 status=200 dur=55ms
+2026-01-21 14:17:39,010 INFO inventory-db handled request rid=e741c0c1 status=200 dur=47ms
+2026-01-21 14:17:48,371 INFO inventory-db handled request rid=2160f159 status=200 dur=53ms
+2026-01-21 14:17:55,097 INFO inventory-db ping ok latency=57ms
+2026-01-21 14:18:08,416 INFO inventory-db ping ok latency=58ms
+2026-01-21 14:18:15,701 INFO inventory-db ping ok latency=47ms
+2026-01-21 14:18:21,049 INFO inventory-db ping ok latency=26ms
+2026-01-21 14:18:31,651 INFO inventory-db handled request rid=0ce731d0 status=200 dur=73ms
+2026-01-21 14:18:45,052 INFO inventory-db handled request rid=37e3285d status=200 dur=42ms
+2026-01-21 14:18:58,767 INFO inventory-db handled request rid=717c2fe4 status=200 dur=86ms
+2026-01-21 14:19:08,019 INFO inventory-db ping ok latency=42ms
+2026-01-21 14:19:09,000 WARNING inventory-db slow handler rid=fc6e3da5 dur=890ms
+2026-01-21 14:19:22,315 INFO inventory-db handled request rid=01ee04f9 status=200 dur=28ms
+2026-01-21 14:19:33,236 INFO inventory-db handled request rid=1fd12b59 status=200 dur=75ms
+2026-01-21 14:19:34,000 WARNING inventory-db slow handler rid=fe9835f0 dur=90ms
+2026-01-21 14:19:39,311 INFO inventory-db ping ok latency=18ms
+2026-01-21 14:19:53,039 INFO inventory-db handled request rid=cf8a0711 status=200 dur=27ms
+2026-01-21 14:20:05,458 INFO inventory-db handled request rid=22f427ea status=200 dur=62ms
+2026-01-21 14:20:19,786 INFO inventory-db handled request rid=10ccb105 status=200 dur=80ms
+2026-01-21 14:20:31,453 INFO inventory-db ping ok latency=64ms
+2026-01-21 14:20:44,881 INFO inventory-db ping ok latency=31ms
+2026-01-21 14:20:53,589 INFO inventory-db handled request rid=c592e7ce status=200 dur=13ms
+2026-01-21 14:21:01,097 INFO inventory-db handled request rid=9305f111 status=200 dur=38ms
+2026-01-21 14:21:12,059 INFO inventory-db ping ok latency=16ms
+2026-01-21 14:21:23,713 INFO inventory-db handled request rid=8a97c91b status=200 dur=44ms
+2026-01-21 14:21:33,443 INFO inventory-db handled request rid=c881ee65 status=200 dur=35ms
+2026-01-21 14:21:47,287 INFO inventory-db ping ok latency=54ms
+2026-01-21 14:21:53,625 INFO inventory-db handled request rid=9f26762c status=200 dur=38ms
+2026-01-21 14:22:03,699 INFO inventory-db ping ok latency=47ms
+2026-01-21 14:22:09,621 INFO inventory-db handled request rid=9044c9ba status=200 dur=39ms
+2026-01-21 14:22:20,005 INFO inventory-db handled request rid=49317fb8 status=200 dur=57ms
+2026-01-21 14:22:28,086 INFO inventory-db ping ok latency=83ms
+2026-01-21 14:22:42,438 INFO inventory-db handled request rid=d3d73993 status=200 dur=44ms
+2026-01-21 14:22:51,807 INFO inventory-db handled request rid=e52639da status=200 dur=36ms
+2026-01-21 14:23:03,704 INFO inventory-db handled request rid=9df420db status=200 dur=45ms
+2026-01-21 14:23:14,287 INFO inventory-db ping ok latency=45ms
+2026-01-21 14:23:27,433 INFO inventory-db handled request rid=d075d0e7 status=200 dur=93ms
+2026-01-21 14:23:28,000 WARNING inventory-db retry budget low on client pool
+2026-01-21 14:23:41,748 INFO inventory-db handled request rid=10fb5e95 status=200 dur=83ms
+2026-01-21 14:23:48,748 INFO inventory-db handled request rid=de7eff43 status=200 dur=85ms
+2026-01-21 14:24:01,976 INFO inventory-db handled request rid=0d9e9871 status=200 dur=54ms
+2026-01-21 14:24:15,295 INFO inventory-db ping ok latency=78ms
+2026-01-21 14:24:21,247 INFO inventory-db handled request rid=be0d0f05 status=200 dur=12ms
+2026-01-21 14:24:27,154 INFO inventory-db ping ok latency=55ms
+2026-01-21 14:24:37,163 INFO inventory-db handled request rid=c3c220db status=200 dur=24ms
+2026-01-21 14:24:46,231 INFO inventory-db handled request rid=b954cd2d status=200 dur=19ms
+2026-01-21 14:24:53,345 INFO inventory-db ping ok latency=47ms
+2026-01-21 14:25:05,030 INFO inventory-db ping ok latency=30ms
+2026-01-21 14:25:11,602 INFO inventory-db handled request rid=8a0deaa9 status=200 dur=74ms
+2026-01-21 14:25:21,001 INFO inventory-db ping ok latency=54ms
+2026-01-21 14:25:34,062 INFO inventory-db handled request rid=b73f96db status=200 dur=56ms
+2026-01-21 14:25:42,779 INFO inventory-db handled request rid=d70bcd5a status=200 dur=77ms
+2026-01-21 14:25:50,696 INFO inventory-db ping ok latency=56ms
+2026-01-21 14:26:03,918 INFO inventory-db ping ok latency=66ms
+2026-01-21 14:26:13,460 INFO inventory-db ping ok latency=43ms
+2026-01-21 14:26:25,470 INFO inventory-db ping ok latency=14ms
+2026-01-21 14:26:32,772 INFO inventory-db handled request rid=2971e54c status=200 dur=66ms
+2026-01-21 14:26:39,210 INFO inventory-db ping ok latency=31ms
+2026-01-21 14:26:47,438 INFO inventory-db ping ok latency=46ms
+2026-01-21 14:26:55,777 INFO inventory-db handled request rid=0cff20af status=200 dur=28ms
+2026-01-21 14:27:04,323 INFO inventory-db handled request rid=330e2711 status=200 dur=40ms

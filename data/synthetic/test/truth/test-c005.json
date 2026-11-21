@@ -1,0 +1,35 @@
+{
+  "schema_version": "1",
+  "case_id": "test-c005",
+  "split": "test",
+  "family_id": "tf01",
+  "stratum": "easy",
+  "root_causes": [
+    "catalog-api"
+  ],
+  "fault_type": "oom",
+  "expected_abstain": false,
+  "key_evidence": [
+    "catalog-api.log:33",
+    "catalog-api.log:38",
+    "catalog-api.log:39"
+  ],
+  "relevant_evidence": [
+    "catalog-api.log:33",
+    "catalog-api.log:38",
+    "catalog-api.log:39",
+    "edge-proxy.log:35",
+    "edge-proxy.log:36",
+    "edge-proxy.log:37",
+    "edge-proxy.log:38",
+    "edge-proxy.log:39",
+    "edge-proxy.log:41",
+    "edge-proxy.log:42"
+  ],
+  "propagation_path": [
+    "catalog-api",
+    "edge-proxy"
+  ],
+  "injection_uids": [],
+  "decoy_component": null
+}

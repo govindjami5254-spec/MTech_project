@@ -1,0 +1,61 @@
+2026-01-22T12:25:23Z INFO fare-svc http request method=GET status=200 latency_ms=29 span=b758ddb8
+2026-01-22T12:25:29Z INFO fare-svc http request method=GET status=200 latency_ms=31 span=fcfa1505
+2026-01-22T12:25:42Z INFO fare-svc tick ok elapsed_ms=52
+2026-01-22T12:25:51Z INFO fare-svc http request method=GET status=200 latency_ms=68 span=a8d2c85e
+2026-01-22T12:26:03Z INFO fare-svc http request method=GET status=200 latency_ms=30 span=b2d14e83
+2026-01-22T12:26:04Z WARN fare-svc slow poll elapsed_ms=360
+2026-01-22T12:26:10Z INFO fare-svc http request method=GET status=200 latency_ms=78 span=3af20b53
+2026-01-22T12:26:16Z INFO fare-svc http request method=GET status=200 latency_ms=34 span=f33c2384
+2026-01-22T12:26:30Z INFO fare-svc http request method=GET status=200 latency_ms=54 span=904d7daa
+2026-01-22T12:26:42Z INFO fare-svc tick ok elapsed_ms=69
+2026-01-22T12:26:48Z INFO fare-svc tick ok elapsed_ms=22
+2026-01-22T12:26:57Z INFO fare-svc http request method=GET status=200 latency_ms=27 span=a4291c98
+2026-01-22T12:27:07Z INFO fare-svc tick ok elapsed_ms=85
+2026-01-22T12:27:14Z INFO fare-svc tick ok elapsed_ms=43
+2026-01-22T12:27:24Z INFO fare-svc http request method=GET status=200 latency_ms=84 span=facd031e
+2026-01-22T12:27:35Z INFO fare-svc tick ok elapsed_ms=25
+2026-01-22T12:27:41Z INFO fare-svc http request method=GET status=200 latency_ms=94 span=afdaa460
+2026-01-22T12:27:54Z INFO fare-svc http request method=GET status=200 latency_ms=26 span=a80ead1d
+2026-01-22T12:28:06Z INFO fare-svc tick ok elapsed_ms=62
+2026-01-22T12:28:13Z INFO fare-svc tick ok elapsed_ms=50
+2026-01-22T12:28:27Z INFO fare-svc http request method=GET status=200 latency_ms=86 span=10fb7dba
+2026-01-22T12:28:36Z INFO fare-svc tick ok elapsed_ms=91
+2026-01-22T12:28:50Z INFO fare-svc tick ok elapsed_ms=48
+2026-01-22T12:28:56Z INFO fare-svc http request method=GET status=200 latency_ms=71 span=f3ea86ea
+2026-01-22T12:29:08Z INFO fare-svc tick ok elapsed_ms=42
+2026-01-22T12:29:18Z INFO fare-svc tick ok elapsed_ms=61
+2026-01-22T12:29:30Z INFO fare-svc http request method=GET status=200 latency_ms=90 span=a623769e
+2026-01-22T12:29:43Z INFO fare-svc tick ok elapsed_ms=49
+2026-01-22T12:29:44Z WARN fare-svc slow poll elapsed_ms=950
+2026-01-22T12:29:57Z INFO fare-svc http request method=GET status=200 latency_ms=68 span=4b3b8950
+2026-01-22T12:30:04Z INFO fare-svc tick ok elapsed_ms=53
+2026-01-22T12:30:15Z INFO fare-svc http request method=GET status=200 latency_ms=53 span=a41409e0
+2026-01-22T12:30:26Z INFO fare-svc http request method=GET status=200 latency_ms=25 span=b43a66f8
+2026-01-22T12:30:36Z INFO fare-svc tick ok elapsed_ms=53
+2026-01-22T12:30:44Z INFO fare-svc http request method=GET status=200 latency_ms=65 span=0f5f0189
+2026-01-22T12:30:55Z INFO fare-svc http request method=GET status=200 latency_ms=76 span=4e947a55
+2026-01-22T12:31:07Z INFO fare-svc http request method=GET status=200 latency_ms=70 span=2e8fe65e
+2026-01-22T12:31:08Z WARN fare-svc client sent oversized header, truncated span=1b23d804
+2026-01-22T12:31:18Z INFO fare-svc tick ok elapsed_ms=22
+2026-01-22T12:31:30Z INFO fare-svc http request method=GET status=200 latency_ms=64 span=bdb75e06
+2026-01-22T12:31:44Z INFO fare-svc tick ok elapsed_ms=45
+2026-01-22T12:31:57Z INFO fare-svc tick ok elapsed_ms=94
+2026-01-22T12:32:05Z INFO fare-svc http request method=GET status=200 latency_ms=85 span=856bf55a
+2026-01-22T12:32:17Z INFO fare-svc http request method=GET status=200 latency_ms=29 span=e52e61ff
+2026-01-22T12:32:31Z INFO fare-svc tick ok elapsed_ms=76
+2026-01-22T12:32:41Z INFO fare-svc tick ok elapsed_ms=54
+2026-01-22T12:32:47Z INFO fare-svc http request method=GET status=200 latency_ms=43 span=b9d6549e
+2026-01-22T12:33:01Z INFO fare-svc http request method=GET status=200 latency_ms=24 span=bcba1373
+2026-01-22T12:33:11Z INFO fare-svc tick ok elapsed_ms=17
+2026-01-22T12:33:22Z INFO fare-svc http request method=GET status=200 latency_ms=66 span=7ce3b976
+2026-01-22T12:33:32Z INFO fare-svc tick ok elapsed_ms=68
+2026-01-22T12:33:42Z INFO fare-svc tick ok elapsed_ms=86
+2026-01-22T12:33:52Z INFO fare-svc http request method=GET status=200 latency_ms=79 span=e4e150ad
+2026-01-22T12:34:04Z INFO fare-svc http request method=GET status=200 latency_ms=53 span=e4fe12bd
+2026-01-22T12:34:15Z INFO fare-svc http request method=GET status=200 latency_ms=42 span=c7e41737
+2026-01-22T12:34:27Z INFO fare-svc http request method=GET status=200 latency_ms=89 span=adc8953b
+2026-01-22T12:34:35Z INFO fare-svc tick ok elapsed_ms=58
+2026-01-22T12:34:46Z INFO fare-svc http request method=GET status=200 latency_ms=12 span=e773e6fc
+2026-01-22T12:34:53Z INFO fare-svc tick ok elapsed_ms=51
+2026-01-22T12:35:04Z INFO fare-svc http request method=GET status=200 latency_ms=36 span=aadcb2b4
+2026-01-22T12:35:11Z INFO fare-svc tick ok elapsed_ms=93

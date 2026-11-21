@@ -1,0 +1,42 @@
+{
+  "schema_version": "1",
+  "case_id": "dev-c001",
+  "split": "dev",
+  "family_id": "df02",
+  "stratum": "multi_hop",
+  "root_causes": [
+    "journal-db"
+  ],
+  "fault_type": "disk_full",
+  "expected_abstain": false,
+  "key_evidence": [
+    "journal-db.log:25",
+    "journal-db.log:30",
+    "journal-db.log:31"
+  ],
+  "relevant_evidence": [
+    "api-edge.log:31",
+    "api-edge.log:32",
+    "api-edge.log:34",
+    "api-edge.log:35",
+    "api-edge.log:36",
+    "api-edge.log:37",
+    "journal-db.log:25",
+    "journal-db.log:30",
+    "journal-db.log:31",
+    "ledger-svc.log:30",
+    "ledger-svc.log:32",
+    "ledger-svc.log:33",
+    "posting-svc.log:31",
+    "posting-svc.log:32",
+    "posting-svc.log:33"
+  ],
+  "propagation_path": [
+    "journal-db",
+    "posting-svc",
+    "ledger-svc",
+    "api-edge"
+  ],
+  "injection_uids": [],
+  "decoy_component": null
+}

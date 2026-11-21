@@ -1,0 +1,65 @@
+2026-01-16 09:13:48,057 INFO risk-engine worker heartbeat ok (81ms)
+2026-01-16 09:14:02,200 INFO risk-engine worker heartbeat ok (81ms)
+2026-01-16 09:14:11,832 INFO risk-engine GET /v1/items 200 44ms req_id=04c65e3c
+2026-01-16 09:14:24,601 INFO risk-engine worker heartbeat ok (71ms)
+2026-01-16 09:14:36,359 INFO risk-engine worker heartbeat ok (27ms)
+2026-01-16 09:14:45,159 INFO risk-engine worker heartbeat ok (43ms)
+2026-01-16 09:14:55,353 INFO risk-engine GET /v1/items 200 94ms req_id=e835035d
+2026-01-16 09:15:01,366 INFO risk-engine worker heartbeat ok (72ms)
+2026-01-16 09:15:13,854 INFO risk-engine GET /v1/items 200 89ms req_id=421a07bb
+2026-01-16 09:15:26,857 INFO risk-engine GET /v1/items 200 71ms req_id=84a33137
+2026-01-16 09:15:34,368 INFO risk-engine worker heartbeat ok (11ms)
+2026-01-16 09:15:45,921 INFO risk-engine worker heartbeat ok (40ms)
+2026-01-16 09:15:55,361 INFO risk-engine worker heartbeat ok (56ms)
+2026-01-16 09:16:06,394 INFO risk-engine GET /v1/items 200 19ms req_id=84e30b09
+2026-01-16 09:16:18,323 INFO risk-engine worker heartbeat ok (10ms)
+2026-01-16 09:16:25,364 INFO risk-engine worker heartbeat ok (40ms)
+2026-01-16 09:16:39,385 INFO risk-engine GET /v1/items 200 84ms req_id=01199170
+2026-01-16 09:16:45,144 INFO risk-engine worker heartbeat ok (89ms)
+2026-01-16 09:16:52,700 INFO risk-engine GET /v1/items 200 8ms req_id=f74f5551
+2026-01-16 09:17:01,786 INFO risk-engine worker heartbeat ok (32ms)
+2026-01-16 09:17:15,229 INFO risk-engine GET /v1/items 200 14ms req_id=c70e8310
+2026-01-16 09:17:23,736 INFO risk-engine GET /v1/items 200 49ms req_id=ce440526
+2026-01-16 09:17:33,817 INFO risk-engine GET /v1/items 200 28ms req_id=ab8153e6
+2026-01-16 09:17:46,358 INFO risk-engine GET /v1/items 200 30ms req_id=f8a5d663
+2026-01-16 09:17:55,884 INFO risk-engine GET /v1/items 200 52ms req_id=9b855fab
+2026-01-16 09:18:04,553 INFO risk-engine worker heartbeat ok (92ms)
+2026-01-16 09:18:14,320 INFO risk-engine GET /v1/items 200 71ms req_id=30698ef5
+2026-01-16 09:18:25,181 INFO risk-engine GET /v1/items 200 12ms req_id=7eb383e5
+2026-01-16 09:18:31,767 INFO risk-engine GET /v1/items 200 58ms req_id=3320e765
+2026-01-16 09:18:33,866 ERROR risk-engine upstream risk-db replied 503 Service Unavailable req_id=31d8a156
+2026-01-16 09:18:35,384 WARNING risk-engine urllib3 retrying (risk-db) after connection broken
+2026-01-16 09:18:38,398 ERROR risk-engine aborting request: risk-db unreachable after retries
+2026-01-16 09:18:40,510 INFO risk-engine worker heartbeat ok (80ms)
+2026-01-16 09:18:47,715 INFO risk-engine GET /v1/items 200 95ms req_id=e8e8b1a3
+2026-01-16 09:18:55,338 INFO risk-engine worker heartbeat ok (71ms)
+2026-01-16 09:19:01,112 INFO risk-engine GET /v1/items 200 49ms req_id=1e1be968
+2026-01-16 09:19:12,229 INFO risk-engine worker heartbeat ok (42ms)
+2026-01-16 09:19:21,593 INFO risk-engine worker heartbeat ok (83ms)
+2026-01-16 09:19:29,789 INFO risk-engine GET /v1/items 200 69ms req_id=7e61868c
+2026-01-16 09:19:42,748 INFO risk-engine worker heartbeat ok (18ms)
+2026-01-16 09:19:55,534 INFO risk-engine worker heartbeat ok (45ms)
+2026-01-16 09:20:04,126 INFO risk-engine worker heartbeat ok (51ms)
+2026-01-16 09:20:13,744 INFO risk-engine GET /v1/items 200 54ms req_id=cc6a4c2b
+2026-01-16 09:20:26,787 INFO risk-engine worker heartbeat ok (17ms)
+2026-01-16 09:20:32,103 INFO risk-engine worker heartbeat ok (53ms)
+2026-01-16 09:20:43,085 INFO risk-engine worker heartbeat ok (40ms)
+2026-01-16 09:20:56,493 INFO risk-engine worker heartbeat ok (33ms)
+2026-01-16 09:21:06,689 INFO risk-engine worker heartbeat ok (31ms)
+2026-01-16 09:21:12,946 INFO risk-engine worker heartbeat ok (51ms)
+2026-01-16 09:21:19,628 INFO risk-engine GET /v1/items 200 18ms req_id=22ca0e55
+2026-01-16 09:21:25,483 INFO risk-engine worker heartbeat ok (57ms)
+2026-01-16 09:21:32,116 INFO risk-engine GET /v1/items 200 75ms req_id=faea1b73
+2026-01-16 09:21:44,185 INFO risk-engine GET /v1/items 200 25ms req_id=58006506
+2026-01-16 09:21:54,567 INFO risk-engine GET /v1/items 200 22ms req_id=2f27312a
+2026-01-16 09:22:03,125 INFO risk-engine worker heartbeat ok (77ms)
+2026-01-16 09:22:16,527 INFO risk-engine worker heartbeat ok (55ms)
+2026-01-16 09:22:24,622 INFO risk-engine GET /v1/items 200 84ms req_id=d873f15f
+2026-01-16 09:22:36,141 INFO risk-engine worker heartbeat ok (14ms)
+2026-01-16 09:22:43,045 INFO risk-engine worker heartbeat ok (59ms)
+2026-01-16 09:22:54,088 INFO risk-engine GET /v1/items 200 71ms req_id=274c97ea
+2026-01-16 09:23:01,681 INFO risk-engine worker heartbeat ok (51ms)
+2026-01-16 09:23:07,557 INFO risk-engine GET /v1/items 200 36ms req_id=3954e059
+2026-01-16 09:23:20,680 INFO risk-engine worker heartbeat ok (28ms)
+2026-01-16 09:23:28,971 INFO risk-engine GET /v1/items 200 32ms req_id=fc2bb12a
+2026-01-16 09:23:39,925 INFO risk-engine GET /v1/items 200 69ms req_id=1596cfc3

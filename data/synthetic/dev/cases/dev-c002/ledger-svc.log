@@ -1,0 +1,62 @@
+2026-01-25 11:31:16,604 INFO ledger-svc ping ok latency=82ms
+2026-01-25 11:31:24,764 INFO ledger-svc handled request rid=90af10c6 status=200 dur=50ms
+2026-01-25 11:31:38,945 INFO ledger-svc handled request rid=7e40fa1c status=200 dur=23ms
+2026-01-25 11:31:52,211 INFO ledger-svc ping ok latency=41ms
+2026-01-25 11:32:05,905 INFO ledger-svc handled request rid=1c86715d status=200 dur=67ms
+2026-01-25 11:32:19,471 INFO ledger-svc ping ok latency=67ms
+2026-01-25 11:32:28,089 INFO ledger-svc handled request rid=7e65a2b4 status=200 dur=76ms
+2026-01-25 11:32:42,544 INFO ledger-svc handled request rid=a0928c4a status=200 dur=43ms
+2026-01-25 11:32:49,467 INFO ledger-svc handled request rid=4ccb9911 status=200 dur=15ms
+2026-01-25 11:32:55,452 INFO ledger-svc ping ok latency=43ms
+2026-01-25 11:33:04,212 INFO ledger-svc ping ok latency=62ms
+2026-01-25 11:33:12,300 INFO ledger-svc handled request rid=f69cfd7b status=200 dur=92ms
+2026-01-25 11:33:22,289 INFO ledger-svc handled request rid=3a976a6c status=200 dur=17ms
+2026-01-25 11:33:33,623 INFO ledger-svc ping ok latency=90ms
+2026-01-25 11:33:43,202 INFO ledger-svc ping ok latency=17ms
+2026-01-25 11:33:53,666 INFO ledger-svc ping ok latency=49ms
+2026-01-25 11:34:05,276 INFO ledger-svc handled request rid=18b01994 status=200 dur=57ms
+2026-01-25 11:34:19,113 INFO ledger-svc handled request rid=d584943b status=200 dur=39ms
+2026-01-25 11:34:25,220 INFO ledger-svc ping ok latency=29ms
+2026-01-25 11:34:38,761 INFO ledger-svc handled request rid=e7fd5ca4 status=200 dur=13ms
+2026-01-25 11:34:48,390 INFO ledger-svc ping ok latency=66ms
+2026-01-25 11:34:59,799 INFO ledger-svc ping ok latency=39ms
+2026-01-25 11:35:11,129 INFO ledger-svc ping ok latency=8ms
+2026-01-25 11:35:20,190 INFO ledger-svc handled request rid=655bfea3 status=200 dur=61ms
+2026-01-25 11:35:26,533 INFO ledger-svc handled request rid=c45fd122 status=200 dur=65ms
+2026-01-25 11:35:39,239 INFO ledger-svc ping ok latency=33ms
+2026-01-25 11:35:49,496 INFO ledger-svc handled request rid=c252ebdc status=200 dur=20ms
+2026-01-25 11:35:56,580 INFO ledger-svc ping ok latency=92ms
+2026-01-25 11:36:07,466 INFO ledger-svc handled request rid=bae328f8 status=200 dur=26ms
+2026-01-25 11:36:17,591 INFO ledger-svc ping ok latency=22ms
+2026-01-25 11:36:25,069 INFO ledger-svc handled request rid=c1878fff status=200 dur=84ms
+2026-01-25 11:36:35,682 ERROR ledger-svc rpc error: code = Unavailable desc = posting-svc unavailable rid=7c973346
+2026-01-25 11:36:37,347 WARNING ledger-svc backoff before retrying posting-svc (2/3)
+2026-01-25 11:36:39,861 INFO ledger-svc handled request rid=82967ebe status=200 dur=34ms
+2026-01-25 11:36:40,526 ERROR ledger-svc request to posting-svc failed permanently after retries
+2026-01-25 11:36:53,075 INFO ledger-svc handled request rid=6b621531 status=200 dur=49ms
+2026-01-25 11:36:59,165 INFO ledger-svc handled request rid=e382c910 status=200 dur=22ms
+2026-01-25 11:37:06,195 INFO ledger-svc handled request rid=29c33adf status=200 dur=61ms
+2026-01-25 11:37:16,861 INFO ledger-svc ping ok latency=9ms
+2026-01-25 11:37:24,143 INFO ledger-svc handled request rid=753636ae status=200 dur=90ms
+2026-01-25 11:37:32,533 INFO ledger-svc ping ok latency=10ms
+2026-01-25 11:37:44,543 INFO ledger-svc handled request rid=05043618 status=200 dur=67ms
+2026-01-25 11:37:58,872 INFO ledger-svc handled request rid=3d977dca status=200 dur=28ms
+2026-01-25 11:38:11,185 INFO ledger-svc ping ok latency=51ms
+2026-01-25 11:38:17,338 INFO ledger-svc handled request rid=d9058437 status=200 dur=51ms
+2026-01-25 11:38:27,322 INFO ledger-svc handled request rid=bd95425a status=200 dur=84ms
+2026-01-25 11:38:37,490 INFO ledger-svc ping ok latency=40ms
+2026-01-25 11:38:43,428 INFO ledger-svc ping ok latency=57ms
+2026-01-25 11:38:50,147 INFO ledger-svc handled request rid=7408706b status=200 dur=78ms
+2026-01-25 11:38:58,302 INFO ledger-svc ping ok latency=37ms
+2026-01-25 11:39:08,247 INFO ledger-svc handled request rid=2fc5c95d status=200 dur=67ms
+2026-01-25 11:39:21,424 INFO ledger-svc handled request rid=b110dd3b status=200 dur=79ms
+2026-01-25 11:39:34,933 INFO ledger-svc ping ok latency=31ms
+2026-01-25 11:39:45,606 INFO ledger-svc ping ok latency=16ms
+2026-01-25 11:39:52,059 INFO ledger-svc handled request rid=e7fc7cc8 status=200 dur=33ms
+2026-01-25 11:40:06,228 INFO ledger-svc handled request rid=f165f476 status=200 dur=46ms
+2026-01-25 11:40:18,280 INFO ledger-svc handled request rid=a528ed1c status=200 dur=14ms
+2026-01-25 11:40:29,951 INFO ledger-svc ping ok latency=75ms
+2026-01-25 11:40:36,605 INFO ledger-svc handled request rid=40244075 status=200 dur=19ms
+2026-01-25 11:40:44,572 INFO ledger-svc ping ok latency=71ms
+2026-01-25 11:40:53,105 INFO ledger-svc handled request rid=1afd7288 status=200 dur=15ms
+2026-01-25 11:41:02,347 INFO ledger-svc ping ok latency=94ms

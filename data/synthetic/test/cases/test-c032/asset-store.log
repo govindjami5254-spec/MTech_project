@@ -1,0 +1,65 @@
+2026-01-26T12:10:20Z INFO asset-store http request method=GET status=200 latency_ms=33 span=0a8b4a87
+2026-01-26T12:10:34Z INFO asset-store http request method=GET status=200 latency_ms=24 span=ed43348f
+2026-01-26T12:10:40Z INFO asset-store http request method=GET status=200 latency_ms=38 span=31b56d48
+2026-01-26T12:10:54Z INFO asset-store http request method=GET status=200 latency_ms=76 span=ffd729f6
+2026-01-26T12:11:00Z INFO asset-store tick ok elapsed_ms=34
+2026-01-26T12:11:10Z INFO asset-store http request method=GET status=200 latency_ms=84 span=e898b48d
+2026-01-26T12:11:20Z INFO asset-store http request method=GET status=200 latency_ms=44 span=1ecc39bc
+2026-01-26T12:11:27Z INFO asset-store http request method=GET status=200 latency_ms=28 span=12d3197a
+2026-01-26T12:11:34Z INFO asset-store tick ok elapsed_ms=28
+2026-01-26T12:11:40Z INFO asset-store http request method=GET status=200 latency_ms=91 span=0da7be69
+2026-01-26T12:11:53Z INFO asset-store tick ok elapsed_ms=89
+2026-01-26T12:12:03Z INFO asset-store tick ok elapsed_ms=53
+2026-01-26T12:12:11Z INFO asset-store http request method=GET status=200 latency_ms=21 span=394c401d
+2026-01-26T12:12:24Z INFO asset-store tick ok elapsed_ms=40
+2026-01-26T12:12:32Z INFO asset-store tick ok elapsed_ms=35
+2026-01-26T12:12:41Z INFO asset-store tick ok elapsed_ms=37
+2026-01-26T12:12:51Z INFO asset-store http request method=GET status=200 latency_ms=29 span=54a930c6
+2026-01-26T12:13:05Z INFO asset-store tick ok elapsed_ms=86
+2026-01-26T12:13:16Z INFO asset-store tick ok elapsed_ms=84
+2026-01-26T12:13:26Z INFO asset-store tick ok elapsed_ms=39
+2026-01-26T12:13:39Z INFO asset-store tick ok elapsed_ms=74
+2026-01-26T12:13:46Z INFO asset-store tick ok elapsed_ms=62
+2026-01-26T12:13:59Z INFO asset-store http request method=GET status=200 latency_ms=83 span=7e7c2a9c
+2026-01-26T12:14:06Z INFO asset-store http request method=GET status=200 latency_ms=46 span=cc8407b4
+2026-01-26T12:14:20Z INFO asset-store tick ok elapsed_ms=22
+2026-01-26T12:14:30Z INFO asset-store http request method=GET status=200 latency_ms=72 span=aeb305fd
+2026-01-26T12:14:43Z INFO asset-store http request method=GET status=200 latency_ms=41 span=3e2c3f34
+2026-01-26T12:14:56Z INFO asset-store http request method=GET status=200 latency_ms=61 span=61dee140
+2026-01-26T12:15:04Z INFO asset-store tick ok elapsed_ms=46
+2026-01-26T12:15:12Z INFO asset-store tick ok elapsed_ms=88
+2026-01-26T12:15:20Z INFO asset-store http request method=GET status=200 latency_ms=85 span=6aa1d8db
+2026-01-26T12:15:24Z WARN asset-store trust-dns resolver slow elapsed_ms=770
+2026-01-26T12:15:33Z INFO asset-store http request method=GET status=200 latency_ms=23 span=64f8602c
+2026-01-26T12:15:35Z ERR asset-store failed to lookup address information: Temporary failure in name resolution
+2026-01-26T12:15:39Z ERR asset-store no resolvable upstream endpoints
+2026-01-26T12:15:44Z INFO asset-store tick ok elapsed_ms=88
+2026-01-26T12:15:53Z INFO asset-store http request method=GET status=200 latency_ms=21 span=2148773c
+2026-01-26T12:16:05Z INFO asset-store tick ok elapsed_ms=50
+2026-01-26T12:16:13Z INFO asset-store tick ok elapsed_ms=20
+2026-01-26T12:16:23Z INFO asset-store http request method=GET status=200 latency_ms=61 span=2ecf8c2f
+2026-01-26T12:16:29Z INFO asset-store http request method=GET status=200 latency_ms=55 span=d170b323
+2026-01-26T12:16:37Z INFO asset-store tick ok elapsed_ms=20
+2026-01-26T12:16:51Z INFO asset-store http request method=GET status=200 latency_ms=67 span=7180ab32
+2026-01-26T12:17:00Z INFO asset-store tick ok elapsed_ms=8
+2026-01-26T12:17:07Z INFO asset-store tick ok elapsed_ms=26
+2026-01-26T12:17:20Z INFO asset-store tick ok elapsed_ms=67
+2026-01-26T12:17:32Z INFO asset-store http request method=GET status=200 latency_ms=84 span=3dcf6233
+2026-01-26T12:17:38Z INFO asset-store http request method=GET status=200 latency_ms=35 span=3dd0258b
+2026-01-26T12:17:44Z INFO asset-store tick ok elapsed_ms=48
+2026-01-26T12:17:56Z INFO asset-store tick ok elapsed_ms=45
+2026-01-26T12:18:02Z INFO asset-store tick ok elapsed_ms=79
+2026-01-26T12:18:14Z INFO asset-store tick ok elapsed_ms=80
+2026-01-26T12:18:24Z INFO asset-store tick ok elapsed_ms=50
+2026-01-26T12:18:31Z INFO asset-store http request method=GET status=200 latency_ms=56 span=b74429f7
+2026-01-26T12:18:45Z INFO asset-store http request method=GET status=200 latency_ms=38 span=41875d81
+2026-01-26T12:18:46Z WARN asset-store slow poll elapsed_ms=660
+2026-01-26T12:18:56Z INFO asset-store tick ok elapsed_ms=11
+2026-01-26T12:19:08Z INFO asset-store tick ok elapsed_ms=73
+2026-01-26T12:19:16Z INFO asset-store http request method=GET status=200 latency_ms=74 span=647a2149
+2026-01-26T12:19:24Z INFO asset-store http request method=GET status=200 latency_ms=34 span=0f17b787
+2026-01-26T12:19:35Z INFO asset-store http request method=GET status=200 latency_ms=59 span=971d6786
+2026-01-26T12:19:47Z INFO asset-store http request method=GET status=200 latency_ms=39 span=d508c0a9
+2026-01-26T12:19:58Z INFO asset-store http request method=GET status=200 latency_ms=89 span=43b59a57
+2026-01-26T12:20:09Z INFO asset-store tick ok elapsed_ms=67
+2026-01-26T12:20:17Z INFO asset-store http request method=GET status=200 latency_ms=65 span=df7a39de

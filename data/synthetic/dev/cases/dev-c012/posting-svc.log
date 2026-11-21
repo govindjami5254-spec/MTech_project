@@ -1,0 +1,63 @@
+2026-01-07 11:48:05,125 INFO posting-svc handled request rid=85449ce4 status=200 dur=87ms
+2026-01-07 11:48:16,531 INFO posting-svc ping ok latency=88ms
+2026-01-07 11:48:30,949 INFO posting-svc handled request rid=e3161fc3 status=200 dur=36ms
+2026-01-07 11:48:38,570 INFO posting-svc handled request rid=69e52ac3 status=200 dur=91ms
+2026-01-07 11:48:52,674 INFO posting-svc ping ok latency=34ms
+2026-01-07 11:48:58,008 INFO posting-svc ping ok latency=91ms
+2026-01-07 11:49:11,918 INFO posting-svc handled request rid=fe05dca8 status=200 dur=14ms
+2026-01-07 11:49:19,719 INFO posting-svc ping ok latency=43ms
+2026-01-07 11:49:27,461 INFO posting-svc ping ok latency=66ms
+2026-01-07 11:49:39,461 INFO posting-svc handled request rid=89dd21cb status=200 dur=50ms
+2026-01-07 11:49:47,079 INFO posting-svc handled request rid=09febf55 status=200 dur=68ms
+2026-01-07 11:49:54,727 INFO posting-svc handled request rid=b5bc38e8 status=200 dur=77ms
+2026-01-07 11:50:06,252 INFO posting-svc ping ok latency=12ms
+2026-01-07 11:50:13,445 INFO posting-svc ping ok latency=76ms
+2026-01-07 11:50:24,283 INFO posting-svc ping ok latency=80ms
+2026-01-07 11:50:30,842 INFO posting-svc ping ok latency=95ms
+2026-01-07 11:50:42,097 INFO posting-svc ping ok latency=19ms
+2026-01-07 11:50:43,000 WARNING posting-svc retry budget low on client pool
+2026-01-07 11:50:49,790 INFO posting-svc ping ok latency=89ms
+2026-01-07 11:50:59,584 INFO posting-svc ping ok latency=71ms
+2026-01-07 11:51:08,288 INFO posting-svc handled request rid=137b404d status=200 dur=50ms
+2026-01-07 11:51:19,909 INFO posting-svc handled request rid=31b4d1f7 status=200 dur=50ms
+2026-01-07 11:51:30,057 INFO posting-svc ping ok latency=42ms
+2026-01-07 11:51:42,673 INFO posting-svc handled request rid=69684196 status=200 dur=56ms
+2026-01-07 11:51:55,180 INFO posting-svc ping ok latency=28ms
+2026-01-07 11:52:04,967 INFO posting-svc handled request rid=c238e031 status=200 dur=31ms
+2026-01-07 11:52:12,102 INFO posting-svc ping ok latency=78ms
+2026-01-07 11:52:21,580 INFO posting-svc ping ok latency=11ms
+2026-01-07 11:52:28,242 INFO posting-svc ping ok latency=57ms
+2026-01-07 11:52:41,036 INFO posting-svc handled request rid=ffe28805 status=200 dur=59ms
+2026-01-07 11:52:53,988 INFO posting-svc handled request rid=bee34871 status=200 dur=92ms
+2026-01-07 11:53:02,984 INFO posting-svc ping ok latency=52ms
+2026-01-07 11:53:15,764 INFO posting-svc ping ok latency=72ms
+2026-01-07 11:53:28,508 INFO posting-svc ping ok latency=41ms
+2026-01-07 11:53:30,065 ERROR posting-svc rpc error: code = Unavailable desc = journal-db unavailable rid=cb3890c0
+2026-01-07 11:53:32,939 WARNING posting-svc backoff before retrying journal-db (2/3)
+2026-01-07 11:53:35,056 ERROR posting-svc request to journal-db failed permanently after retries
+2026-01-07 11:53:42,587 INFO posting-svc handled request rid=7674f74e status=200 dur=23ms
+2026-01-07 11:53:52,681 INFO posting-svc handled request rid=ca060bd6 status=200 dur=40ms
+2026-01-07 11:54:05,159 INFO posting-svc handled request rid=a06bf5f0 status=200 dur=37ms
+2026-01-07 11:54:13,622 INFO posting-svc ping ok latency=92ms
+2026-01-07 11:54:20,941 INFO posting-svc handled request rid=378614f3 status=200 dur=23ms
+2026-01-07 11:54:32,803 INFO posting-svc ping ok latency=89ms
+2026-01-07 11:54:44,878 INFO posting-svc handled request rid=ee72916d status=200 dur=34ms
+2026-01-07 11:54:57,712 INFO posting-svc handled request rid=fd92247e status=200 dur=74ms
+2026-01-07 11:55:06,496 INFO posting-svc ping ok latency=87ms
+2026-01-07 11:55:13,291 INFO posting-svc handled request rid=7113b5e4 status=200 dur=52ms
+2026-01-07 11:55:21,454 INFO posting-svc handled request rid=a4084ad4 status=200 dur=39ms
+2026-01-07 11:55:35,219 INFO posting-svc handled request rid=349697b3 status=200 dur=33ms
+2026-01-07 11:55:41,678 INFO posting-svc ping ok latency=75ms
+2026-01-07 11:55:51,603 INFO posting-svc handled request rid=be03355e status=200 dur=47ms
+2026-01-07 11:56:03,422 INFO posting-svc handled request rid=a3d89395 status=200 dur=36ms
+2026-01-07 11:56:16,133 INFO posting-svc ping ok latency=59ms
+2026-01-07 11:56:25,057 INFO posting-svc ping ok latency=73ms
+2026-01-07 11:56:33,624 INFO posting-svc handled request rid=8fa150c1 status=200 dur=47ms
+2026-01-07 11:56:46,898 INFO posting-svc ping ok latency=23ms
+2026-01-07 11:56:52,497 INFO posting-svc ping ok latency=39ms
+2026-01-07 11:57:03,838 INFO posting-svc handled request rid=be82923f status=200 dur=29ms
+2026-01-07 11:57:11,465 INFO posting-svc handled request rid=16841ab8 status=200 dur=61ms
+2026-01-07 11:57:17,910 INFO posting-svc handled request rid=769a71f0 status=200 dur=30ms
+2026-01-07 11:57:27,393 INFO posting-svc handled request rid=66404876 status=200 dur=34ms
+2026-01-07 11:57:37,293 INFO posting-svc handled request rid=d979fbba status=200 dur=84ms
+2026-01-07 11:57:49,386 INFO posting-svc ping ok latency=44ms

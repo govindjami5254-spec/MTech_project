@@ -1,0 +1,63 @@
+2026-02-13T11:04:25Z INFO booking-svc http request method=GET status=200 latency_ms=70 span=1e3fe234
+2026-02-13T11:04:36Z INFO booking-svc http request method=GET status=200 latency_ms=48 span=e5130d0d
+2026-02-13T11:04:43Z INFO booking-svc http request method=GET status=200 latency_ms=27 span=2d824ef0
+2026-02-13T11:04:55Z INFO booking-svc http request method=GET status=200 latency_ms=51 span=c46515b9
+2026-02-13T11:05:05Z INFO booking-svc tick ok elapsed_ms=31
+2026-02-13T11:05:11Z INFO booking-svc http request method=GET status=200 latency_ms=60 span=9a6139c0
+2026-02-13T11:05:24Z INFO booking-svc tick ok elapsed_ms=38
+2026-02-13T11:05:30Z INFO booking-svc http request method=GET status=200 latency_ms=94 span=f56bead0
+2026-02-13T11:05:39Z INFO booking-svc http request method=GET status=200 latency_ms=10 span=90d3b3aa
+2026-02-13T11:05:47Z INFO booking-svc http request method=GET status=200 latency_ms=43 span=60325d31
+2026-02-13T11:05:54Z INFO booking-svc tick ok elapsed_ms=84
+2026-02-13T11:06:02Z INFO booking-svc http request method=GET status=200 latency_ms=50 span=df2abd53
+2026-02-13T11:06:10Z INFO booking-svc http request method=GET status=200 latency_ms=53 span=bedf9574
+2026-02-13T11:06:16Z INFO booking-svc http request method=GET status=200 latency_ms=85 span=b061f1ac
+2026-02-13T11:06:26Z INFO booking-svc http request method=GET status=200 latency_ms=60 span=28c1de8e
+2026-02-13T11:06:40Z INFO booking-svc tick ok elapsed_ms=89
+2026-02-13T11:06:52Z INFO booking-svc http request method=GET status=200 latency_ms=56 span=d8dc40bd
+2026-02-13T11:07:02Z INFO booking-svc tick ok elapsed_ms=28
+2026-02-13T11:07:12Z INFO booking-svc tick ok elapsed_ms=25
+2026-02-13T11:07:23Z INFO booking-svc http request method=GET status=200 latency_ms=75 span=850c6c3c
+2026-02-13T11:07:35Z INFO booking-svc tick ok elapsed_ms=58
+2026-02-13T11:07:47Z INFO booking-svc tick ok elapsed_ms=45
+2026-02-13T11:07:59Z INFO booking-svc tick ok elapsed_ms=40
+2026-02-13T11:08:13Z INFO booking-svc http request method=GET status=200 latency_ms=24 span=e6eb9a70
+2026-02-13T11:08:21Z INFO booking-svc http request method=GET status=200 latency_ms=89 span=a81e0ad2
+2026-02-13T11:08:29Z INFO booking-svc tick ok elapsed_ms=26
+2026-02-13T11:08:43Z INFO booking-svc http request method=GET status=200 latency_ms=13 span=47e6dcf7
+2026-02-13T11:08:49Z INFO booking-svc tick ok elapsed_ms=11
+2026-02-13T11:08:59Z INFO booking-svc http request method=GET status=200 latency_ms=93 span=5bcd2f92
+2026-02-13T11:09:12Z INFO booking-svc http request method=GET status=200 latency_ms=61 span=dc08030a
+2026-02-13T11:09:21Z ERR booking-svc hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to seat-svc:6102 span=37a79e76
+2026-02-13T11:09:23Z WARN booking-svc tower retry: attempt 2 for seat-svc
+2026-02-13T11:09:25Z INFO booking-svc tick ok elapsed_ms=28
+2026-02-13T11:09:26Z ERR booking-svc request to seat-svc exhausted retry budget
+2026-02-13T11:09:33Z INFO booking-svc http request method=GET status=200 latency_ms=48 span=f201796c
+2026-02-13T11:09:43Z INFO booking-svc http request method=GET status=200 latency_ms=50 span=980663d3
+2026-02-13T11:09:49Z INFO booking-svc http request method=GET status=200 latency_ms=47 span=401d06db
+2026-02-13T11:09:59Z INFO booking-svc http request method=GET status=200 latency_ms=40 span=1fc4bb41
+2026-02-13T11:10:00Z WARN booking-svc client sent oversized header, truncated span=01db1f01
+2026-02-13T11:10:06Z INFO booking-svc tick ok elapsed_ms=8
+2026-02-13T11:10:20Z INFO booking-svc tick ok elapsed_ms=38
+2026-02-13T11:10:28Z INFO booking-svc http request method=GET status=200 latency_ms=43 span=57ef0a61
+2026-02-13T11:10:39Z INFO booking-svc http request method=GET status=200 latency_ms=75 span=e4ba8b2a
+2026-02-13T11:10:46Z INFO booking-svc http request method=GET status=200 latency_ms=38 span=5154f7b0
+2026-02-13T11:10:56Z INFO booking-svc tick ok elapsed_ms=82
+2026-02-13T11:11:08Z INFO booking-svc tick ok elapsed_ms=74
+2026-02-13T11:11:15Z INFO booking-svc tick ok elapsed_ms=68
+2026-02-13T11:11:26Z INFO booking-svc tick ok elapsed_ms=65
+2026-02-13T11:11:36Z INFO booking-svc tick ok elapsed_ms=42
+2026-02-13T11:11:45Z INFO booking-svc tick ok elapsed_ms=13
+2026-02-13T11:11:59Z INFO booking-svc http request method=GET status=200 latency_ms=23 span=00dfef91
+2026-02-13T11:12:12Z INFO booking-svc http request method=GET status=200 latency_ms=9 span=d51b3989
+2026-02-13T11:12:18Z INFO booking-svc http request method=GET status=200 latency_ms=49 span=f0393f18
+2026-02-13T11:12:28Z INFO booking-svc http request method=GET status=200 latency_ms=52 span=fe78550a
+2026-02-13T11:12:37Z INFO booking-svc tick ok elapsed_ms=47
+2026-02-13T11:12:46Z INFO booking-svc http request method=GET status=200 latency_ms=44 span=7cba1e07
+2026-02-13T11:12:59Z INFO booking-svc tick ok elapsed_ms=16
+2026-02-13T11:13:11Z INFO booking-svc tick ok elapsed_ms=92
+2026-02-13T11:13:25Z INFO booking-svc http request method=GET status=200 latency_ms=42 span=ec8fca54
+2026-02-13T11:13:39Z INFO booking-svc http request method=GET status=200 latency_ms=15 span=96047442
+2026-02-13T11:13:50Z INFO booking-svc http request method=GET status=200 latency_ms=17 span=290de47c
+2026-02-13T11:14:04Z INFO booking-svc tick ok elapsed_ms=22
+2026-02-13T11:14:11Z INFO booking-svc http request method=GET status=200 latency_ms=94 span=1e858a59

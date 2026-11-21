@@ -1,0 +1,62 @@
+2026-01-27T15:53:26.931+05:30 info risk-db served GET /api status=200 in 56ms trace=48fde547
+2026-01-27T15:53:33.165+05:30 info risk-db served GET /api status=200 in 49ms trace=05e83e7d
+2026-01-27T15:53:42.693+05:30 info risk-db event loop lag 76ms ok
+2026-01-27T15:53:49.809+05:30 info risk-db event loop lag 66ms ok
+2026-01-27T15:53:55.986+05:30 info risk-db served GET /api status=200 in 14ms trace=436a28fd
+2026-01-27T15:54:02.071+05:30 info risk-db event loop lag 22ms ok
+2026-01-27T15:54:11.558+05:30 info risk-db served GET /api status=200 in 83ms trace=ae5741ca
+2026-01-27T15:54:25.504+05:30 info risk-db event loop lag 34ms ok
+2026-01-27T15:54:35.746+05:30 info risk-db served GET /api status=200 in 40ms trace=27c269f9
+2026-01-27T15:54:48.732+05:30 info risk-db event loop lag 55ms ok
+2026-01-27T15:54:58.573+05:30 info risk-db served GET /api status=200 in 66ms trace=4c6ae98c
+2026-01-27T15:55:09.272+05:30 info risk-db event loop lag 45ms ok
+2026-01-27T15:55:21.805+05:30 info risk-db event loop lag 34ms ok
+2026-01-27T15:55:29.794+05:30 info risk-db event loop lag 47ms ok
+2026-01-27T15:55:41.280+05:30 info risk-db event loop lag 62ms ok
+2026-01-27T15:55:54.779+05:30 info risk-db served GET /api status=200 in 72ms trace=d24fbe69
+2026-01-27T15:56:03.665+05:30 info risk-db served GET /api status=200 in 61ms trace=201e08f6
+2026-01-27T15:56:14.500+05:30 info risk-db served GET /api status=200 in 33ms trace=60845cca
+2026-01-27T15:56:26.419+05:30 info risk-db event loop lag 12ms ok
+2026-01-27T15:56:40.870+05:30 info risk-db served GET /api status=200 in 59ms trace=7f4a11ea
+2026-01-27T15:56:54.462+05:30 info risk-db served GET /api status=200 in 18ms trace=a4b943fd
+2026-01-27T15:57:04.411+05:30 info risk-db event loop lag 82ms ok
+2026-01-27T15:57:11.254+05:30 info risk-db served GET /api status=200 in 52ms trace=af2e2fc1
+2026-01-27T15:57:22.403+05:30 info risk-db served GET /api status=200 in 67ms trace=e7a4b076
+2026-01-27T15:57:30.210+05:30 info risk-db served GET /api status=200 in 75ms trace=3ed2ad86
+2026-01-27T15:57:41.195+05:30 info risk-db event loop lag 19ms ok
+2026-01-27T15:57:52.338+05:30 info risk-db served GET /api status=200 in 39ms trace=be26698d
+2026-01-27T15:58:03.973+05:30 info risk-db served GET /api status=200 in 94ms trace=166b920e
+2026-01-27T15:58:12.245+05:30 info risk-db served GET /api status=200 in 30ms trace=01f1efe7
+2026-01-27T15:58:19.745+05:30 info risk-db event loop lag 36ms ok
+2026-01-27T15:58:25.476+05:30 info risk-db served GET /api status=200 in 87ms trace=545af119
+2026-01-27T15:58:34.961+05:30 info risk-db event loop lag 53ms ok
+2026-01-27T15:58:42.090+05:30 info risk-db served GET /api status=200 in 14ms trace=7516e282
+2026-01-27T15:58:53.523+05:30 info risk-db served GET /api status=200 in 77ms trace=dec2c88f
+2026-01-27T15:59:01.524+05:30 info risk-db event loop lag 57ms ok
+2026-01-27T15:59:14.549+05:30 info risk-db event loop lag 59ms ok
+2026-01-27T15:59:23.980+05:30 info risk-db event loop lag 32ms ok
+2026-01-27T15:59:35.132+05:30 info risk-db served GET /api status=200 in 95ms trace=720e4111
+2026-01-27T15:59:47.590+05:30 info risk-db served GET /api status=200 in 35ms trace=b65da3a2
+2026-01-27T15:59:48.000+05:30 warn risk-db unhandled header x-legacy ignored trace=1cb55e9b
+2026-01-27T15:59:56.625+05:30 info risk-db event loop lag 60ms ok
+2026-01-27T16:00:02.950+05:30 info risk-db served GET /api status=200 in 37ms trace=dc1fb3df
+2026-01-27T16:00:16.870+05:30 info risk-db served GET /api status=200 in 90ms trace=fdce4140
+2026-01-27T16:00:27.408+05:30 info risk-db served GET /api status=200 in 47ms trace=f905a5cb
+2026-01-27T16:00:39.379+05:30 info risk-db served GET /api status=200 in 85ms trace=edf46082
+2026-01-27T16:00:51.946+05:30 info risk-db served GET /api status=200 in 57ms trace=7374d260
+2026-01-27T16:01:00.071+05:30 info risk-db event loop lag 55ms ok
+2026-01-27T16:01:08.879+05:30 info risk-db event loop lag 41ms ok
+2026-01-27T16:01:18.700+05:30 info risk-db event loop lag 87ms ok
+2026-01-27T16:01:24.807+05:30 info risk-db served GET /api status=200 in 67ms trace=4779805b
+2026-01-27T16:01:32.000+05:30 info risk-db event loop lag 47ms ok
+2026-01-27T16:01:38.465+05:30 info risk-db served GET /api status=200 in 51ms trace=9625931c
+2026-01-27T16:01:46.942+05:30 info risk-db event loop lag 83ms ok
+2026-01-27T16:01:52.015+05:30 info risk-db served GET /api status=200 in 41ms trace=7ad58d7b
+2026-01-27T16:01:58.348+05:30 info risk-db event loop lag 68ms ok
+2026-01-27T16:02:08.904+05:30 info risk-db event loop lag 75ms ok
+2026-01-27T16:02:14.775+05:30 info risk-db served GET /api status=200 in 41ms trace=1503f788
+2026-01-27T16:02:27.409+05:30 info risk-db event loop lag 68ms ok
+2026-01-27T16:02:41.959+05:30 info risk-db served GET /api status=200 in 25ms trace=7b431f1d
+2026-01-27T16:02:53.671+05:30 info risk-db served GET /api status=200 in 32ms trace=43accd88
+2026-01-27T16:03:02.967+05:30 info risk-db served GET /api status=200 in 94ms trace=751ade05
+2026-01-27T16:03:13.074+05:30 info risk-db served GET /api status=200 in 71ms trace=d0ac0ca5

@@ -1,0 +1,63 @@
+2026-01-07 09:51:31,118 INFO pricing-svc handled request rid=6df21342 status=200 dur=77ms
+2026-01-07 09:51:43,570 INFO pricing-svc handled request rid=41000988 status=200 dur=31ms
+2026-01-07 09:51:50,099 INFO pricing-svc handled request rid=4a49a663 status=200 dur=52ms
+2026-01-07 09:52:03,358 INFO pricing-svc ping ok latency=71ms
+2026-01-07 09:52:16,695 INFO pricing-svc handled request rid=3b71dc26 status=200 dur=54ms
+2026-01-07 09:52:29,372 INFO pricing-svc ping ok latency=49ms
+2026-01-07 09:52:38,421 INFO pricing-svc ping ok latency=59ms
+2026-01-07 09:52:44,112 INFO pricing-svc handled request rid=dd4efbfd status=200 dur=20ms
+2026-01-07 09:52:58,690 INFO pricing-svc ping ok latency=24ms
+2026-01-07 09:53:12,434 INFO pricing-svc handled request rid=b868df1a status=200 dur=59ms
+2026-01-07 09:53:25,365 INFO pricing-svc handled request rid=9a69f506 status=200 dur=79ms
+2026-01-07 09:53:31,398 INFO pricing-svc handled request rid=b5595298 status=200 dur=90ms
+2026-01-07 09:53:37,942 INFO pricing-svc handled request rid=913c32bb status=200 dur=65ms
+2026-01-07 09:53:45,296 INFO pricing-svc ping ok latency=64ms
+2026-01-07 09:53:56,567 INFO pricing-svc ping ok latency=38ms
+2026-01-07 09:54:02,287 INFO pricing-svc ping ok latency=8ms
+2026-01-07 09:54:11,668 INFO pricing-svc handled request rid=fc85195d status=200 dur=90ms
+2026-01-07 09:54:20,093 INFO pricing-svc handled request rid=8f94490c status=200 dur=95ms
+2026-01-07 09:54:26,676 INFO pricing-svc ping ok latency=62ms
+2026-01-07 09:54:38,103 INFO pricing-svc ping ok latency=85ms
+2026-01-07 09:54:46,444 INFO pricing-svc handled request rid=759ff97d status=200 dur=19ms
+2026-01-07 09:54:57,862 INFO pricing-svc handled request rid=bb8eb18d status=200 dur=77ms
+2026-01-07 09:55:03,568 INFO pricing-svc handled request rid=e3b167a2 status=200 dur=76ms
+2026-01-07 09:55:13,570 INFO pricing-svc handled request rid=f813bbb7 status=200 dur=15ms
+2026-01-07 09:55:22,731 INFO pricing-svc ping ok latency=50ms
+2026-01-07 09:55:33,391 INFO pricing-svc ping ok latency=27ms
+2026-01-07 09:55:46,931 INFO pricing-svc ping ok latency=13ms
+2026-01-07 09:55:53,842 INFO pricing-svc handled request rid=13df4e6e status=200 dur=19ms
+2026-01-07 09:56:03,654 INFO pricing-svc ping ok latency=41ms
+2026-01-07 09:56:09,344 INFO pricing-svc loading config file config.toml
+2026-01-07 09:56:12,065 ERROR pricing-svc config: field pool_size must be > 0, got 0
+2026-01-07 09:56:14,280 FATAL pricing-svc exiting: invalid configuration
+2026-01-07 09:56:16,851 INFO pricing-svc ping ok latency=21ms
+2026-01-07 09:56:24,113 INFO pricing-svc handled request rid=5f19b3bd status=200 dur=44ms
+2026-01-07 09:56:34,733 INFO pricing-svc handled request rid=564cc8d7 status=200 dur=95ms
+2026-01-07 09:56:40,780 INFO pricing-svc handled request rid=b447a879 status=200 dur=38ms
+2026-01-07 09:56:49,056 INFO pricing-svc ping ok latency=69ms
+2026-01-07 09:57:01,018 INFO pricing-svc ping ok latency=77ms
+2026-01-07 09:57:08,318 INFO pricing-svc ping ok latency=84ms
+2026-01-07 09:57:22,585 INFO pricing-svc ping ok latency=71ms
+2026-01-07 09:57:34,740 INFO pricing-svc ping ok latency=46ms
+2026-01-07 09:57:46,666 INFO pricing-svc ping ok latency=95ms
+2026-01-07 09:58:00,102 INFO pricing-svc handled request rid=1044a08b status=200 dur=16ms
+2026-01-07 09:58:12,823 INFO pricing-svc ping ok latency=28ms
+2026-01-07 09:58:25,770 INFO pricing-svc ping ok latency=23ms
+2026-01-07 09:58:32,944 INFO pricing-svc ping ok latency=51ms
+2026-01-07 09:58:41,731 INFO pricing-svc handled request rid=98ae5bf3 status=200 dur=45ms
+2026-01-07 09:58:51,021 INFO pricing-svc handled request rid=4ac37af8 status=200 dur=43ms
+2026-01-07 09:59:03,938 INFO pricing-svc ping ok latency=90ms
+2026-01-07 09:59:16,284 INFO pricing-svc handled request rid=4ddc88b4 status=200 dur=57ms
+2026-01-07 09:59:17,000 WARNING pricing-svc slow handler rid=d4bc5cde dur=420ms
+2026-01-07 09:59:30,593 INFO pricing-svc ping ok latency=49ms
+2026-01-07 09:59:38,400 INFO pricing-svc handled request rid=76bbb216 status=200 dur=74ms
+2026-01-07 09:59:49,951 INFO pricing-svc ping ok latency=66ms
+2026-01-07 09:59:58,791 INFO pricing-svc handled request rid=2b27c578 status=200 dur=23ms
+2026-01-07 10:00:09,060 INFO pricing-svc ping ok latency=53ms
+2026-01-07 10:00:21,794 INFO pricing-svc ping ok latency=68ms
+2026-01-07 10:00:32,748 INFO pricing-svc ping ok latency=19ms
+2026-01-07 10:00:38,626 INFO pricing-svc ping ok latency=77ms
+2026-01-07 10:00:49,674 INFO pricing-svc ping ok latency=31ms
+2026-01-07 10:00:57,929 INFO pricing-svc handled request rid=b27c453e status=200 dur=90ms
+2026-01-07 10:01:09,492 INFO pricing-svc ping ok latency=40ms
+2026-01-07 10:01:19,925 INFO pricing-svc handled request rid=5b2d11bc status=200 dur=79ms

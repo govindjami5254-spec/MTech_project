@@ -1,0 +1,63 @@
+2026-01-14 14:20:44,446 INFO profile-db worker heartbeat ok (90ms)
+2026-01-14 14:20:57,937 INFO profile-db GET /v1/items 200 34ms req_id=acca0f3b
+2026-01-14 14:21:05,595 INFO profile-db GET /v1/items 200 60ms req_id=d31e2cc2
+2026-01-14 14:21:14,625 INFO profile-db worker heartbeat ok (47ms)
+2026-01-14 14:21:24,283 INFO profile-db worker heartbeat ok (88ms)
+2026-01-14 14:21:35,000 INFO profile-db worker heartbeat ok (30ms)
+2026-01-14 14:21:41,448 INFO profile-db GET /v1/items 200 50ms req_id=7a67d6ff
+2026-01-14 14:21:55,847 INFO profile-db GET /v1/items 200 23ms req_id=cee201ca
+2026-01-14 14:22:09,112 INFO profile-db worker heartbeat ok (50ms)
+2026-01-14 14:22:23,513 INFO profile-db GET /v1/items 200 44ms req_id=d9631c29
+2026-01-14 14:22:31,887 INFO profile-db worker heartbeat ok (81ms)
+2026-01-14 14:22:39,750 INFO profile-db worker heartbeat ok (32ms)
+2026-01-14 14:22:45,577 INFO profile-db GET /v1/items 200 27ms req_id=23c94735
+2026-01-14 14:22:58,111 INFO profile-db GET /v1/items 200 43ms req_id=712c1c0e
+2026-01-14 14:23:11,402 INFO profile-db worker heartbeat ok (52ms)
+2026-01-14 14:23:12,000 WARNING profile-db deprecated parameter 'page' used by client
+2026-01-14 14:23:22,371 INFO profile-db GET /v1/items 200 63ms req_id=6dca209f
+2026-01-14 14:23:33,371 INFO profile-db GET /v1/items 200 23ms req_id=956e52d2
+2026-01-14 14:23:45,886 INFO profile-db GET /v1/items 200 43ms req_id=87efaecc
+2026-01-14 14:23:54,739 INFO profile-db worker heartbeat ok (51ms)
+2026-01-14 14:24:04,699 INFO profile-db worker heartbeat ok (71ms)
+2026-01-14 14:24:17,495 INFO profile-db GET /v1/items 200 11ms req_id=d7d975f8
+2026-01-14 14:24:27,907 INFO profile-db GET /v1/items 200 90ms req_id=77b6f6fc
+2026-01-14 14:24:35,316 INFO profile-db GET /v1/items 200 32ms req_id=58c26309
+2026-01-14 14:24:42,813 INFO profile-db worker heartbeat ok (52ms)
+2026-01-14 14:24:52,972 INFO profile-db worker heartbeat ok (64ms)
+2026-01-14 14:24:59,065 INFO profile-db GET /v1/items 200 70ms req_id=a494258e
+2026-01-14 14:25:07,878 INFO profile-db worker heartbeat ok (49ms)
+2026-01-14 14:25:20,715 INFO profile-db GET /v1/items 200 19ms req_id=535b8d23
+2026-01-14 14:25:29,976 INFO profile-db worker heartbeat ok (39ms)
+2026-01-14 14:25:41,919 INFO profile-db GET /v1/items 200 73ms req_id=cc4a2a39
+2026-01-14 14:25:47,962 INFO profile-db GET /v1/items 200 25ms req_id=55d7fe8f
+2026-01-14 14:25:58,157 INFO profile-db GET /v1/items 200 47ms req_id=ed5b29a1
+2026-01-14 14:26:10,113 INFO profile-db GET /v1/items 200 90ms req_id=f8c22023
+2026-01-14 14:26:24,999 INFO profile-db GET /v1/items 200 12ms req_id=21f84007
+2026-01-14 14:26:32,688 INFO profile-db worker heartbeat ok (40ms)
+2026-01-14 14:26:42,481 INFO profile-db GET /v1/items 200 83ms req_id=202afee6
+2026-01-14 14:26:50,556 INFO profile-db worker heartbeat ok (29ms)
+2026-01-14 14:26:57,148 INFO profile-db worker heartbeat ok (41ms)
+2026-01-14 14:27:09,896 INFO profile-db GET /v1/items 200 35ms req_id=e380dd4c
+2026-01-14 14:27:17,240 INFO profile-db worker heartbeat ok (63ms)
+2026-01-14 14:27:25,414 INFO profile-db GET /v1/items 200 37ms req_id=6330e21f
+2026-01-14 14:27:36,742 INFO profile-db worker heartbeat ok (85ms)
+2026-01-14 14:27:44,704 INFO profile-db GET /v1/items 200 11ms req_id=e1f72251
+2026-01-14 14:27:56,076 INFO profile-db GET /v1/items 200 90ms req_id=4a8bb49a
+2026-01-14 14:28:05,370 INFO profile-db GET /v1/items 200 70ms req_id=0bbd0726
+2026-01-14 14:28:14,648 INFO profile-db GET /v1/items 200 86ms req_id=5559f640
+2026-01-14 14:28:26,737 INFO profile-db GET /v1/items 200 56ms req_id=f73266b8
+2026-01-14 14:28:33,586 INFO profile-db GET /v1/items 200 68ms req_id=b670985e
+2026-01-14 14:28:44,035 INFO profile-db worker heartbeat ok (28ms)
+2026-01-14 14:28:56,777 INFO profile-db worker heartbeat ok (26ms)
+2026-01-14 14:29:04,113 INFO profile-db GET /v1/items 200 89ms req_id=a40b2323
+2026-01-14 14:29:05,000 WARNING profile-db slow query took 290ms req_id=c6a9cddb
+2026-01-14 14:29:11,837 INFO profile-db GET /v1/items 200 63ms req_id=1e36d6de
+2026-01-14 14:29:22,135 INFO profile-db GET /v1/items 200 47ms req_id=6ab718ef
+2026-01-14 14:29:29,815 INFO profile-db worker heartbeat ok (80ms)
+2026-01-14 14:29:39,232 INFO profile-db worker heartbeat ok (25ms)
+2026-01-14 14:29:51,481 INFO profile-db GET /v1/items 200 87ms req_id=88966f54
+2026-01-14 14:30:01,549 INFO profile-db worker heartbeat ok (70ms)
+2026-01-14 14:30:13,970 INFO profile-db GET /v1/items 200 16ms req_id=0449cb6d
+2026-01-14 14:30:23,764 INFO profile-db GET /v1/items 200 55ms req_id=8dbed19a
+2026-01-14 14:30:33,792 INFO profile-db worker heartbeat ok (67ms)
+2026-01-14 14:30:40,896 INFO profile-db worker heartbeat ok (53ms)

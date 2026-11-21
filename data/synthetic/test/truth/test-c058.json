@@ -1,0 +1,38 @@
+{
+  "schema_version": "1",
+  "case_id": "test-c058",
+  "split": "test",
+  "family_id": "tf08",
+  "stratum": "distractor",
+  "root_causes": [
+    "stream-proc"
+  ],
+  "fault_type": "bad_config",
+  "expected_abstain": false,
+  "key_evidence": [
+    "stream-proc.log:30",
+    "stream-proc.log:31",
+    "stream-proc.log:32"
+  ],
+  "relevant_evidence": [
+    "ingress.log:29",
+    "ingress.log:30",
+    "ingress.log:31",
+    "ingress.log:33",
+    "ingress.log:34",
+    "ingress.log:36",
+    "stream-proc.log:30",
+    "stream-proc.log:31",
+    "stream-proc.log:32",
+    "telemetry-api.log:28",
+    "telemetry-api.log:29",
+    "telemetry-api.log:30"
+  ],
+  "propagation_path": [
+    "stream-proc",
+    "telemetry-api",
+    "ingress"
+  ],
+  "injection_uids": [],
+  "decoy_component": null
+}

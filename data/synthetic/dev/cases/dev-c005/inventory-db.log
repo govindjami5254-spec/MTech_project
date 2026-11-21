@@ -1,0 +1,64 @@
+2026-02-05T10:31:08Z INFO inventory-db health check passed in 19ms
+2026-02-05T10:31:20Z INFO inventory-db health check passed in 49ms
+2026-02-05T10:31:29Z INFO inventory-db health check passed in 66ms
+2026-02-05T10:31:30Z WARN inventory-db slow request 910ms rid=7f28655b
+2026-02-05T10:31:36Z INFO inventory-db health check passed in 48ms
+2026-02-05T10:31:49Z INFO inventory-db health check passed in 17ms
+2026-02-05T10:31:56Z INFO inventory-db request completed in 15ms status=200 rid=65bdd2c5
+2026-02-05T10:32:07Z INFO inventory-db health check passed in 59ms
+2026-02-05T10:32:20Z INFO inventory-db health check passed in 84ms
+2026-02-05T10:32:27Z INFO inventory-db health check passed in 95ms
+2026-02-05T10:32:34Z INFO inventory-db health check passed in 37ms
+2026-02-05T10:32:45Z INFO inventory-db health check passed in 29ms
+2026-02-05T10:32:59Z INFO inventory-db health check passed in 22ms
+2026-02-05T10:33:05Z INFO inventory-db request completed in 89ms status=200 rid=336dde1b
+2026-02-05T10:33:18Z INFO inventory-db request completed in 37ms status=200 rid=bed057b5
+2026-02-05T10:33:26Z INFO inventory-db health check passed in 94ms
+2026-02-05T10:33:40Z INFO inventory-db request completed in 54ms status=200 rid=bfad6b92
+2026-02-05T10:33:53Z INFO inventory-db request completed in 32ms status=200 rid=d03bccd2
+2026-02-05T10:34:02Z INFO inventory-db request completed in 59ms status=200 rid=cb5c9839
+2026-02-05T10:34:12Z INFO inventory-db health check passed in 66ms
+2026-02-05T10:34:22Z INFO inventory-db request completed in 88ms status=200 rid=791f4f55
+2026-02-05T10:34:29Z INFO inventory-db request completed in 53ms status=200 rid=acd671be
+2026-02-05T10:34:35Z INFO inventory-db request completed in 14ms status=200 rid=6183d91b
+2026-02-05T10:34:45Z INFO inventory-db health check passed in 50ms
+2026-02-05T10:34:56Z INFO inventory-db request completed in 40ms status=200 rid=60a88eb1
+2026-02-05T10:35:01Z WARN inventory-db disk usage 96% on /var/lib/data
+2026-02-05T10:35:02Z INFO inventory-db health check passed in 83ms
+2026-02-05T10:35:12Z INFO inventory-db health check passed in 31ms
+2026-02-05T10:35:19Z INFO inventory-db request completed in 53ms status=200 rid=efd526e3
+2026-02-05T10:35:31Z INFO inventory-db health check passed in 85ms
+2026-02-05T10:35:41Z INFO inventory-db request completed in 12ms status=200 rid=32a691bd
+2026-02-05T10:35:48Z INFO inventory-db request completed in 50ms status=200 rid=c72b8b75
+2026-02-05T10:35:51Z ERROR inventory-db java.io.IOException: No space left on device
+2026-02-05T10:35:54Z FATAL inventory-db storage engine halted: cannot write WAL
+2026-02-05T10:35:57Z INFO inventory-db health check passed in 93ms
+2026-02-05T10:36:08Z INFO inventory-db request completed in 57ms status=200 rid=9756b667
+2026-02-05T10:36:17Z INFO inventory-db health check passed in 41ms
+2026-02-05T10:36:24Z INFO inventory-db request completed in 26ms status=200 rid=9342e2ab
+2026-02-05T10:36:36Z INFO inventory-db request completed in 56ms status=200 rid=fff039c5
+2026-02-05T10:36:44Z INFO inventory-db request completed in 18ms status=200 rid=165ed2fe
+2026-02-05T10:36:52Z INFO inventory-db request completed in 58ms status=200 rid=c9fe1171
+2026-02-05T10:37:02Z INFO inventory-db request completed in 32ms status=200 rid=ecf44323
+2026-02-05T10:37:16Z INFO inventory-db health check passed in 95ms
+2026-02-05T10:37:29Z INFO inventory-db request completed in 23ms status=200 rid=3869cb67
+2026-02-05T10:37:38Z INFO inventory-db health check passed in 42ms
+2026-02-05T10:37:48Z INFO inventory-db request completed in 8ms status=200 rid=90943c76
+2026-02-05T10:37:58Z INFO inventory-db request completed in 50ms status=200 rid=7d3dc2ff
+2026-02-05T10:38:09Z INFO inventory-db request completed in 14ms status=200 rid=3db5b4cf
+2026-02-05T10:38:16Z INFO inventory-db health check passed in 65ms
+2026-02-05T10:38:30Z INFO inventory-db request completed in 95ms status=200 rid=7784a9e1
+2026-02-05T10:38:36Z INFO inventory-db health check passed in 49ms
+2026-02-05T10:38:45Z INFO inventory-db health check passed in 14ms
+2026-02-05T10:38:59Z INFO inventory-db health check passed in 95ms
+2026-02-05T10:39:11Z INFO inventory-db health check passed in 33ms
+2026-02-05T10:39:19Z INFO inventory-db request completed in 72ms status=200 rid=39660d0c
+2026-02-05T10:39:27Z INFO inventory-db health check passed in 43ms
+2026-02-05T10:39:41Z INFO inventory-db request completed in 95ms status=200 rid=6889eb14
+2026-02-05T10:39:52Z INFO inventory-db request completed in 48ms status=200 rid=5020b0f8
+2026-02-05T10:40:06Z INFO inventory-db health check passed in 46ms
+2026-02-05T10:40:07Z WARN inventory-db slow request 840ms rid=719cdf61
+2026-02-05T10:40:17Z INFO inventory-db health check passed in 18ms
+2026-02-05T10:40:31Z INFO inventory-db health check passed in 12ms
+2026-02-05T10:40:43Z INFO inventory-db request completed in 44ms status=200 rid=43e7370b
+2026-02-05T10:40:56Z INFO inventory-db request completed in 52ms status=200 rid=c4a60d48

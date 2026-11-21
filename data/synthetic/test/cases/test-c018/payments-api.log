@@ -1,0 +1,65 @@
+2026-02-07T15:48:18.724+05:30 info payments-api served GET /api status=200 in 85ms trace=61ee3cd7
+2026-02-07T15:48:25.011+05:30 info payments-api event loop lag 11ms ok
+2026-02-07T15:48:34.110+05:30 info payments-api served GET /api status=200 in 95ms trace=caf884b5
+2026-02-07T15:48:46.866+05:30 info payments-api event loop lag 51ms ok
+2026-02-07T15:48:57.664+05:30 info payments-api event loop lag 16ms ok
+2026-02-07T15:49:04.971+05:30 info payments-api event loop lag 45ms ok
+2026-02-07T15:49:14.168+05:30 info payments-api event loop lag 43ms ok
+2026-02-07T15:49:24.519+05:30 info payments-api event loop lag 13ms ok
+2026-02-07T15:49:31.381+05:30 info payments-api served GET /api status=200 in 36ms trace=36c4fbd1
+2026-02-07T15:49:40.137+05:30 info payments-api event loop lag 39ms ok
+2026-02-07T15:49:46.761+05:30 info payments-api served GET /api status=200 in 69ms trace=8764f774
+2026-02-07T15:49:57.853+05:30 info payments-api event loop lag 28ms ok
+2026-02-07T15:50:03.594+05:30 info payments-api served GET /api status=200 in 89ms trace=f59db956
+2026-02-07T15:50:15.421+05:30 info payments-api event loop lag 40ms ok
+2026-02-07T15:50:23.959+05:30 info payments-api served GET /api status=200 in 85ms trace=a37b2f04
+2026-02-07T15:50:37.969+05:30 info payments-api event loop lag 17ms ok
+2026-02-07T15:50:50.769+05:30 info payments-api served GET /api status=200 in 11ms trace=1baaffeb
+2026-02-07T15:51:01.724+05:30 info payments-api event loop lag 32ms ok
+2026-02-07T15:51:14.340+05:30 info payments-api served GET /api status=200 in 72ms trace=b385c9f5
+2026-02-07T15:51:27.316+05:30 info payments-api served GET /api status=200 in 92ms trace=3988614e
+2026-02-07T15:51:38.660+05:30 info payments-api event loop lag 51ms ok
+2026-02-07T15:51:52.277+05:30 info payments-api served GET /api status=200 in 20ms trace=3546e498
+2026-02-07T15:52:04.399+05:30 info payments-api served GET /api status=200 in 8ms trace=6d7e346a
+2026-02-07T15:52:13.800+05:30 info payments-api event loop lag 48ms ok
+2026-02-07T15:52:26.830+05:30 info payments-api served GET /api status=200 in 90ms trace=5584a232
+2026-02-07T15:52:33.317+05:30 info payments-api event loop lag 87ms ok
+2026-02-07T15:52:43.178+05:30 info payments-api event loop lag 46ms ok
+2026-02-07T15:52:56.758+05:30 info payments-api event loop lag 45ms ok
+2026-02-07T15:53:03.795+05:30 info payments-api event loop lag 79ms ok
+2026-02-07T15:53:12.074+05:30 info payments-api served GET /api status=200 in 93ms trace=68d02576
+2026-02-07T15:53:22.387+05:30 info payments-api served GET /api status=200 in 19ms trace=094ba5d6
+2026-02-07T15:53:26.513+05:30 error payments-api FetchError: request to http://ledger-core:8446 failed, reason: socket hang up trace=5a5391e8
+2026-02-07T15:53:28.094+05:30 info payments-api served GET /api status=200 in 24ms trace=c1660502
+2026-02-07T15:53:28.153+05:30 warn payments-api retry 2/3 for ledger-core scheduled in 500ms
+2026-02-07T15:53:29.000+05:30 warn payments-api event loop lag 670ms
+2026-02-07T15:53:31.580+05:30 error payments-api circuit open for ledger-core after repeated failures
+2026-02-07T15:53:41.011+05:30 info payments-api served GET /api status=200 in 65ms trace=0c85a8c1
+2026-02-07T15:53:55.913+05:30 info payments-api event loop lag 55ms ok
+2026-02-07T15:54:05.205+05:30 info payments-api served GET /api status=200 in 28ms trace=1aa9a16d
+2026-02-07T15:54:17.428+05:30 info payments-api served GET /api status=200 in 95ms trace=e7f769e7
+2026-02-07T15:54:31.044+05:30 info payments-api served GET /api status=200 in 46ms trace=b2be0fb8
+2026-02-07T15:54:38.293+05:30 info payments-api event loop lag 51ms ok
+2026-02-07T15:54:46.166+05:30 info payments-api event loop lag 75ms ok
+2026-02-07T15:54:47.000+05:30 warn payments-api event loop lag 610ms
+2026-02-07T15:55:00.718+05:30 info payments-api event loop lag 49ms ok
+2026-02-07T15:55:01.000+05:30 warn payments-api event loop lag 110ms
+2026-02-07T15:55:07.855+05:30 info payments-api event loop lag 78ms ok
+2026-02-07T15:55:20.597+05:30 info payments-api served GET /api status=200 in 84ms trace=74c8d6dc
+2026-02-07T15:55:28.184+05:30 info payments-api served GET /api status=200 in 36ms trace=0500bb61
+2026-02-07T15:55:42.963+05:30 info payments-api served GET /api status=200 in 19ms trace=29e3f576
+2026-02-07T15:55:52.574+05:30 info payments-api served GET /api status=200 in 72ms trace=30e100f0
+2026-02-07T15:56:06.036+05:30 info payments-api event loop lag 26ms ok
+2026-02-07T15:56:14.892+05:30 info payments-api event loop lag 58ms ok
+2026-02-07T15:56:21.350+05:30 info payments-api served GET /api status=200 in 9ms trace=cf8a0463
+2026-02-07T15:56:27.774+05:30 info payments-api event loop lag 49ms ok
+2026-02-07T15:56:37.521+05:30 info payments-api served GET /api status=200 in 83ms trace=c3a8129c
+2026-02-07T15:56:48.543+05:30 info payments-api event loop lag 17ms ok
+2026-02-07T15:57:01.564+05:30 info payments-api served GET /api status=200 in 62ms trace=79900271
+2026-02-07T15:57:07.779+05:30 info payments-api event loop lag 51ms ok
+2026-02-07T15:57:15.752+05:30 info payments-api event loop lag 34ms ok
+2026-02-07T15:57:25.329+05:30 info payments-api event loop lag 88ms ok
+2026-02-07T15:57:35.720+05:30 info payments-api served GET /api status=200 in 11ms trace=20a995e1
+2026-02-07T15:57:46.146+05:30 info payments-api served GET /api status=200 in 95ms trace=0f28716e
+2026-02-07T15:58:00.588+05:30 info payments-api served GET /api status=200 in 31ms trace=27a26524
+2026-02-07T15:58:06.182+05:30 info payments-api served GET /api status=200 in 88ms trace=66fb7730

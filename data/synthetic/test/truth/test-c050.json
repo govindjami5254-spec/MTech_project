@@ -1,0 +1,40 @@
+{
+  "schema_version": "1",
+  "case_id": "test-c050",
+  "split": "test",
+  "family_id": "tf09",
+  "stratum": "distractor",
+  "root_causes": [
+    "ledger-core"
+  ],
+  "fault_type": "conn_pool_exhausted",
+  "expected_abstain": false,
+  "key_evidence": [
+    "ledger-core.log:27",
+    "ledger-core.log:31",
+    "ledger-core.log:32"
+  ],
+  "relevant_evidence": [
+    "front-door.log:32",
+    "front-door.log:33",
+    "front-door.log:34",
+    "front-door.log:36",
+    "front-door.log:37",
+    "front-door.log:38",
+    "front-door.log:39",
+    "front-door.log:41",
+    "ledger-core.log:27",
+    "ledger-core.log:31",
+    "ledger-core.log:32",
+    "payments-api.log:33",
+    "payments-api.log:34",
+    "payments-api.log:35"
+  ],
+  "propagation_path": [
+    "ledger-core",
+    "payments-api",
+    "front-door"
+  ],
+  "injection_uids": [],
+  "decoy_component": null
+}

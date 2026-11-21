@@ -1,0 +1,34 @@
+{
+  "schema_version": "1",
+  "case_id": "test-c017",
+  "split": "test",
+  "family_id": "tf03",
+  "stratum": "easy",
+  "root_causes": [
+    "otp-svc"
+  ],
+  "fault_type": "cert_expired",
+  "expected_abstain": false,
+  "key_evidence": [
+    "otp-svc.log:32",
+    "otp-svc.log:34",
+    "otp-svc.log:35"
+  ],
+  "relevant_evidence": [
+    "front-door.log:36",
+    "front-door.log:37",
+    "front-door.log:39",
+    "front-door.log:40",
+    "front-door.log:41",
+    "front-door.log:43",
+    "otp-svc.log:32",
+    "otp-svc.log:34",
+    "otp-svc.log:35"
+  ],
+  "propagation_path": [
+    "otp-svc",
+    "front-door"
+  ],
+  "injection_uids": [],
+  "decoy_component": null
+}

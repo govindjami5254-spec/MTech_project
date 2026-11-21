@@ -1,0 +1,59 @@
+2026-01-28 14:03:18,119 INFO fare-svc GET /v1/items 200 61ms req_id=e9293949
+2026-01-28 14:03:24,489 INFO fare-svc GET /v1/items 200 92ms req_id=3e836c91
+2026-01-28 14:03:32,479 INFO fare-svc worker heartbeat ok (69ms)
+2026-01-28 14:03:45,729 INFO fare-svc GET /v1/items 200 91ms req_id=c322ef39
+2026-01-28 14:03:54,583 INFO fare-svc GET /v1/items 200 20ms req_id=e2783067
+2026-01-28 14:04:02,941 INFO fare-svc GET /v1/items 200 53ms req_id=88a3121c
+2026-01-28 14:04:15,181 INFO fare-svc GET /v1/items 200 73ms req_id=05a8c27f
+2026-01-28 14:04:27,582 INFO fare-svc GET /v1/items 200 17ms req_id=3137cdff
+2026-01-28 14:04:33,744 INFO fare-svc worker heartbeat ok (51ms)
+2026-01-28 14:04:45,455 INFO fare-svc worker heartbeat ok (43ms)
+2026-01-28 14:04:57,389 INFO fare-svc worker heartbeat ok (77ms)
+2026-01-28 14:05:04,367 INFO fare-svc GET /v1/items 200 93ms req_id=1f5424ff
+2026-01-28 14:05:11,092 INFO fare-svc worker heartbeat ok (78ms)
+2026-01-28 14:05:18,297 INFO fare-svc GET /v1/items 200 34ms req_id=f11b80b3
+2026-01-28 14:05:29,492 INFO fare-svc GET /v1/items 200 73ms req_id=dfee5b6d
+2026-01-28 14:05:36,655 INFO fare-svc worker heartbeat ok (25ms)
+2026-01-28 14:05:50,256 INFO fare-svc GET /v1/items 200 90ms req_id=614b98d5
+2026-01-28 14:05:56,046 INFO fare-svc worker heartbeat ok (93ms)
+2026-01-28 14:06:05,554 INFO fare-svc GET /v1/items 200 22ms req_id=8cd280cd
+2026-01-28 14:06:16,902 INFO fare-svc GET /v1/items 200 38ms req_id=f03c6d53
+2026-01-28 14:06:26,079 INFO fare-svc GET /v1/items 200 41ms req_id=bedfe901
+2026-01-28 14:06:34,903 INFO fare-svc worker heartbeat ok (17ms)
+2026-01-28 14:06:44,471 INFO fare-svc worker heartbeat ok (31ms)
+2026-01-28 14:06:58,976 INFO fare-svc worker heartbeat ok (35ms)
+2026-01-28 14:07:10,345 INFO fare-svc worker heartbeat ok (21ms)
+2026-01-28 14:07:18,777 INFO fare-svc GET /v1/items 200 30ms req_id=10fd190b
+2026-01-28 14:07:25,451 INFO fare-svc worker heartbeat ok (28ms)
+2026-01-28 14:07:39,172 INFO fare-svc GET /v1/items 200 23ms req_id=2a543d97
+2026-01-28 14:07:47,590 INFO fare-svc GET /v1/items 200 93ms req_id=4f2ded35
+2026-01-28 14:07:59,300 INFO fare-svc GET /v1/items 200 20ms req_id=493ca7d8
+2026-01-28 14:08:12,359 INFO fare-svc worker heartbeat ok (61ms)
+2026-01-28 14:08:21,137 INFO fare-svc GET /v1/items 200 31ms req_id=54c0e792
+2026-01-28 14:08:30,708 INFO fare-svc GET /v1/items 200 71ms req_id=3e497d30
+2026-01-28 14:08:38,335 INFO fare-svc worker heartbeat ok (31ms)
+2026-01-28 14:08:51,118 INFO fare-svc worker heartbeat ok (70ms)
+2026-01-28 14:09:04,447 INFO fare-svc worker heartbeat ok (70ms)
+2026-01-28 14:09:12,461 INFO fare-svc GET /v1/items 200 43ms req_id=9b994fc2
+2026-01-28 14:09:26,629 INFO fare-svc worker heartbeat ok (60ms)
+2026-01-28 14:09:36,433 INFO fare-svc worker heartbeat ok (91ms)
+2026-01-28 14:09:43,600 INFO fare-svc GET /v1/items 200 24ms req_id=3eb84905
+2026-01-28 14:09:56,771 INFO fare-svc worker heartbeat ok (26ms)
+2026-01-28 14:10:05,637 INFO fare-svc GET /v1/items 200 36ms req_id=e09b174b
+2026-01-28 14:10:17,329 INFO fare-svc worker heartbeat ok (19ms)
+2026-01-28 14:10:25,131 INFO fare-svc worker heartbeat ok (18ms)
+2026-01-28 14:10:39,550 INFO fare-svc worker heartbeat ok (40ms)
+2026-01-28 14:10:49,542 INFO fare-svc worker heartbeat ok (39ms)
+2026-01-28 14:11:03,519 INFO fare-svc GET /v1/items 200 30ms req_id=a6e8d37f
+2026-01-28 14:11:17,409 INFO fare-svc GET /v1/items 200 48ms req_id=fc04715a
+2026-01-28 14:11:28,068 INFO fare-svc worker heartbeat ok (93ms)
+2026-01-28 14:11:34,127 INFO fare-svc worker heartbeat ok (83ms)
+2026-01-28 14:11:46,743 INFO fare-svc worker heartbeat ok (19ms)
+2026-01-28 14:11:55,251 INFO fare-svc GET /v1/items 200 95ms req_id=76d8c3d4
+2026-01-28 14:12:08,044 INFO fare-svc GET /v1/items 200 23ms req_id=f3e2a852
+2026-01-28 14:12:21,578 INFO fare-svc worker heartbeat ok (26ms)
+2026-01-28 14:12:35,345 INFO fare-svc worker heartbeat ok (28ms)
+2026-01-28 14:12:43,595 INFO fare-svc worker heartbeat ok (28ms)
+2026-01-28 14:12:49,925 INFO fare-svc GET /v1/items 200 45ms req_id=9fb6dfdf
+2026-01-28 14:12:59,644 INFO fare-svc GET /v1/items 200 53ms req_id=b3efc985
+2026-01-28 14:13:08,716 INFO fare-svc GET /v1/items 200 91ms req_id=fbd9606b

@@ -1,0 +1,311 @@
+2026-02-04T13:00:48Z INFO front-door http request method=GET status=200 latency_ms=42 span=8e9c1aad
+2026-02-04T13:01:02Z INFO front-door tick ok elapsed_ms=61
+2026-02-04T13:01:09Z INFO front-door tick ok elapsed_ms=12
+2026-02-04T13:01:19Z INFO front-door tick ok elapsed_ms=70
+2026-02-04T13:01:33Z INFO front-door tick ok elapsed_ms=91
+2026-02-04T13:01:46Z INFO front-door tick ok elapsed_ms=56
+2026-02-04T13:01:59Z INFO front-door tick ok elapsed_ms=66
+2026-02-04T13:02:07Z INFO front-door tick ok elapsed_ms=12
+2026-02-04T13:02:17Z INFO front-door http request method=GET status=200 latency_ms=86 span=03965914
+2026-02-04T13:02:29Z INFO front-door http request method=GET status=200 latency_ms=17 span=58db7abf
+2026-02-04T13:02:36Z INFO front-door http request method=GET status=200 latency_ms=14 span=40eedb62
+2026-02-04T13:02:50Z INFO front-door http request method=GET status=200 latency_ms=95 span=895b13e6
+2026-02-04T13:03:02Z INFO front-door http request method=GET status=200 latency_ms=56 span=240bad68
+2026-02-04T13:03:15Z INFO front-door tick ok elapsed_ms=64
+2026-02-04T13:03:27Z INFO front-door tick ok elapsed_ms=89
+2026-02-04T13:03:38Z INFO front-door http request method=GET status=200 latency_ms=25 span=076c118c
+2026-02-04T13:03:48Z INFO front-door tick ok elapsed_ms=42
+2026-02-04T13:03:59Z INFO front-door http request method=GET status=200 latency_ms=41 span=b1db0564
+2026-02-04T13:04:13Z INFO front-door http request method=GET status=200 latency_ms=84 span=de0e8e1b
+2026-02-04T13:04:22Z INFO front-door tick ok elapsed_ms=19
+2026-02-04T13:04:30Z INFO front-door http request method=GET status=200 latency_ms=10 span=3d4ca784
+2026-02-04T13:04:42Z INFO front-door tick ok elapsed_ms=85
+2026-02-04T13:04:52Z INFO front-door tick ok elapsed_ms=94
+2026-02-04T13:04:58Z INFO front-door tick ok elapsed_ms=39
+2026-02-04T13:05:11Z INFO front-door http request method=GET status=200 latency_ms=13 span=c2bc0912
+2026-02-04T13:05:20Z INFO front-door tick ok elapsed_ms=67
+2026-02-04T13:05:31Z INFO front-door tick ok elapsed_ms=48
+2026-02-04T13:05:38Z INFO front-door http request method=GET status=200 latency_ms=55 span=572f80e5
+2026-02-04T13:05:44Z INFO front-door http request method=GET status=200 latency_ms=31 span=aafecda6
+2026-02-04T13:05:54Z INFO front-door tick ok elapsed_ms=28
+2026-02-04T13:06:02Z ERR front-door service unavailable: payments-api span=cf38f6cd status=503
+2026-02-04T13:06:02Z ERR front-door bad gateway: payments-api failed span=b5d2ae50 status=502
+2026-02-04T13:06:03Z ERR front-door service unavailable: payments-api span=0b0a5892 status=503
+2026-02-04T13:06:04Z ERR front-door bad gateway: payments-api failed span=f6bc20e3 status=502
+2026-02-04T13:06:05Z INFO front-door http request method=GET status=200 latency_ms=74 span=f557671b
+2026-02-04T13:06:05Z ERR front-door bad gateway: payments-api failed span=32495108 status=502
+2026-02-04T13:06:06Z ERR front-door service unavailable: payments-api span=735c5da1 status=503
+2026-02-04T13:06:07Z ERR front-door bad gateway: payments-api failed span=2e408c70 status=502
+2026-02-04T13:06:09Z ERR front-door service unavailable: payments-api span=6eb5cb17 status=503
+2026-02-04T13:06:10Z ERR front-door service unavailable: payments-api span=7ee62c89 status=503
+2026-02-04T13:06:11Z ERR front-door bad gateway: payments-api failed span=ee273e29 status=502
+2026-02-04T13:06:12Z ERR front-door service unavailable: payments-api span=c8534f92 status=503
+2026-02-04T13:06:13Z ERR front-door service unavailable: payments-api span=bf1743eb status=503
+2026-02-04T13:06:14Z ERR front-door service unavailable: payments-api span=f5ab0abd status=503
+2026-02-04T13:06:16Z ERR front-door bad gateway: payments-api failed span=9250ec2c status=502
+2026-02-04T13:06:17Z ERR front-door bad gateway: payments-api failed span=0893df8a status=502
+2026-02-04T13:06:18Z INFO front-door tick ok elapsed_ms=28
+2026-02-04T13:06:18Z ERR front-door service unavailable: payments-api span=9f38e1af status=503
+2026-02-04T13:06:19Z ERR front-door bad gateway: payments-api failed span=96153547 status=502
+2026-02-04T13:06:20Z ERR front-door service unavailable: payments-api span=dbac457e status=503
+2026-02-04T13:06:21Z ERR front-door bad gateway: payments-api failed span=e5247299 status=502
+2026-02-04T13:06:23Z ERR front-door service unavailable: payments-api span=d7344293 status=503
+2026-02-04T13:06:24Z ERR front-door bad gateway: payments-api failed span=1051fd7a status=502
+2026-02-04T13:06:25Z ERR front-door service unavailable: payments-api span=8d909b56 status=503
+2026-02-04T13:06:26Z ERR front-door service unavailable: payments-api span=00ab9e36 status=503
+2026-02-04T13:06:27Z ERR front-door service unavailable: payments-api span=2ee0a927 status=503
+2026-02-04T13:06:28Z ERR front-door service unavailable: payments-api span=0a7ec954 status=503
+2026-02-04T13:06:30Z ERR front-door bad gateway: payments-api failed span=1d1a9fd6 status=502
+2026-02-04T13:06:31Z ERR front-door service unavailable: payments-api span=b9ad4b40 status=503
+2026-02-04T13:06:31Z ERR front-door service unavailable: payments-api span=85408949 status=503
+2026-02-04T13:06:32Z INFO front-door http request method=GET status=200 latency_ms=29 span=abd3598d
+2026-02-04T13:06:32Z ERR front-door service unavailable: payments-api span=89d0b316 status=503
+2026-02-04T13:06:33Z ERR front-door service unavailable: payments-api span=ca22097c status=503
+2026-02-04T13:06:34Z ERR front-door bad gateway: payments-api failed span=923f6265 status=502
+2026-02-04T13:06:35Z ERR front-door service unavailable: payments-api span=1dd3c1d4 status=503
+2026-02-04T13:06:36Z ERR front-door service unavailable: payments-api span=bbeb36a7 status=503
+2026-02-04T13:06:37Z ERR front-door service unavailable: payments-api span=80f86843 status=503
+2026-02-04T13:06:38Z ERR front-door bad gateway: payments-api failed span=28a42cc9 status=502
+2026-02-04T13:06:39Z ERR front-door bad gateway: payments-api failed span=5382249a status=502
+2026-02-04T13:06:40Z ERR front-door service unavailable: payments-api span=24606637 status=503
+2026-02-04T13:06:41Z ERR front-door service unavailable: payments-api span=67073626 status=503
+2026-02-04T13:06:42Z ERR front-door service unavailable: payments-api span=0f0cb4b2 status=503
+2026-02-04T13:06:43Z ERR front-door bad gateway: payments-api failed span=b3c37ae3 status=502
+2026-02-04T13:06:44Z INFO front-door http request method=GET status=200 latency_ms=95 span=aa779881
+2026-02-04T13:06:45Z ERR front-door bad gateway: payments-api failed span=cdf817b0 status=502
+2026-02-04T13:06:45Z ERR front-door service unavailable: payments-api span=058bd8ab status=503
+2026-02-04T13:06:46Z ERR front-door service unavailable: payments-api span=f7504f53 status=503
+2026-02-04T13:06:48Z ERR front-door bad gateway: payments-api failed span=9e420e47 status=502
+2026-02-04T13:06:49Z ERR front-door service unavailable: payments-api span=54cd103d status=503
+2026-02-04T13:06:50Z ERR front-door service unavailable: payments-api span=92cbf17d status=503
+2026-02-04T13:06:51Z ERR front-door service unavailable: payments-api span=6eb6ddf1 status=503
+2026-02-04T13:06:52Z INFO front-door http request method=GET status=200 latency_ms=38 span=8af7cce8
+2026-02-04T13:06:53Z ERR front-door service unavailable: payments-api span=a2eccb63 status=503
+2026-02-04T13:06:54Z ERR front-door service unavailable: payments-api span=aded6058 status=503
+2026-02-04T13:06:55Z ERR front-door service unavailable: payments-api span=b153cd7e status=503
+2026-02-04T13:06:56Z ERR front-door service unavailable: payments-api span=ae350896 status=503
+2026-02-04T13:06:58Z ERR front-door bad gateway: payments-api failed span=57c8981a status=502
+2026-02-04T13:06:59Z INFO front-door http request method=GET status=200 latency_ms=70 span=ce200b98
+2026-02-04T13:06:59Z ERR front-door bad gateway: payments-api failed span=f525f4b5 status=502
+2026-02-04T13:07:00Z ERR front-door bad gateway: payments-api failed span=a3359761 status=502
+2026-02-04T13:07:01Z ERR front-door bad gateway: payments-api failed span=3517a6df status=502
+2026-02-04T13:07:02Z ERR front-door bad gateway: payments-api failed span=83c0c23b status=502
+2026-02-04T13:07:03Z ERR front-door service unavailable: payments-api span=12d02d73 status=503
+2026-02-04T13:07:04Z ERR front-door service unavailable: payments-api span=505a0170 status=503
+2026-02-04T13:07:05Z ERR front-door service unavailable: payments-api span=5d616306 status=503
+2026-02-04T13:07:06Z ERR front-door bad gateway: payments-api failed span=42878c7f status=502
+2026-02-04T13:07:07Z ERR front-door service unavailable: payments-api span=54bb7ea9 status=503
+2026-02-04T13:07:08Z ERR front-door bad gateway: payments-api failed span=ad357d41 status=502
+2026-02-04T13:07:08Z ERR front-door bad gateway: payments-api failed span=be7577e7 status=502
+2026-02-04T13:07:09Z INFO front-door http request method=GET status=200 latency_ms=74 span=cd8e471e
+2026-02-04T13:07:09Z ERR front-door bad gateway: payments-api failed span=8870a1c5 status=502
+2026-02-04T13:07:10Z ERR front-door bad gateway: payments-api failed span=ac1fe034 status=502
+2026-02-04T13:07:12Z ERR front-door service unavailable: payments-api span=5ad02d7d status=503
+2026-02-04T13:07:13Z ERR front-door bad gateway: payments-api failed span=ae0a8d09 status=502
+2026-02-04T13:07:14Z ERR front-door service unavailable: payments-api span=7971fdf7 status=503
+2026-02-04T13:07:15Z ERR front-door service unavailable: payments-api span=dc9c2272 status=503
+2026-02-04T13:07:16Z ERR front-door service unavailable: payments-api span=ad88310b status=503
+2026-02-04T13:07:18Z ERR front-door bad gateway: payments-api failed span=e678226c status=502
+2026-02-04T13:07:19Z ERR front-door bad gateway: payments-api failed span=6a2d07ad status=502
+2026-02-04T13:07:20Z INFO front-door tick ok elapsed_ms=10
+2026-02-04T13:07:21Z ERR front-door bad gateway: payments-api failed span=bd3e5f68 status=502
+2026-02-04T13:07:21Z ERR front-door bad gateway: payments-api failed span=b3db0522 status=502
+2026-02-04T13:07:23Z ERR front-door service unavailable: payments-api span=4ba1f1b3 status=503
+2026-02-04T13:07:24Z ERR front-door bad gateway: payments-api failed span=f6218561 status=502
+2026-02-04T13:07:24Z ERR front-door service unavailable: payments-api span=9cfafaba status=503
+2026-02-04T13:07:26Z ERR front-door service unavailable: payments-api span=fdc30884 status=503
+2026-02-04T13:07:27Z ERR front-door bad gateway: payments-api failed span=3b0aa5f8 status=502
+2026-02-04T13:07:27Z ERR front-door bad gateway: payments-api failed span=a08aa489 status=502
+2026-02-04T13:07:28Z ERR front-door bad gateway: payments-api failed span=d8530c7f status=502
+2026-02-04T13:07:30Z ERR front-door bad gateway: payments-api failed span=64397a23 status=502
+2026-02-04T13:07:30Z ERR front-door bad gateway: payments-api failed span=1138a38f status=502
+2026-02-04T13:07:31Z ERR front-door service unavailable: payments-api span=30e3e4ee status=503
+2026-02-04T13:07:33Z INFO front-door http request method=GET status=200 latency_ms=16 span=c254e9cf
+2026-02-04T13:07:33Z ERR front-door bad gateway: payments-api failed span=7416a82b status=502
+2026-02-04T13:07:34Z ERR front-door bad gateway: payments-api failed span=e1270131 status=502
+2026-02-04T13:07:35Z ERR front-door service unavailable: payments-api span=69037daf status=503
+2026-02-04T13:07:36Z ERR front-door service unavailable: payments-api span=8e219774 status=503
+2026-02-04T13:07:37Z ERR front-door service unavailable: payments-api span=7ab90c2f status=503
+2026-02-04T13:07:38Z ERR front-door bad gateway: payments-api failed span=4170d86a status=502
+2026-02-04T13:07:40Z INFO front-door http request method=GET status=200 latency_ms=81 span=1080baf6
+2026-02-04T13:07:40Z ERR front-door bad gateway: payments-api failed span=9aeb8454 status=502
+2026-02-04T13:07:41Z ERR front-door bad gateway: payments-api failed span=f0ab794d status=502
+2026-02-04T13:07:42Z ERR front-door bad gateway: payments-api failed span=e95bc751 status=502
+2026-02-04T13:07:43Z ERR front-door bad gateway: payments-api failed span=75173acd status=502
+2026-02-04T13:07:45Z ERR front-door bad gateway: payments-api failed span=83165e76 status=502
+2026-02-04T13:07:46Z ERR front-door bad gateway: payments-api failed span=29cadea3 status=502
+2026-02-04T13:07:47Z ERR front-door service unavailable: payments-api span=d2c6472f status=503
+2026-02-04T13:07:48Z ERR front-door bad gateway: payments-api failed span=64a1cba1 status=502
+2026-02-04T13:07:49Z ERR front-door bad gateway: payments-api failed span=c6ad5f08 status=502
+2026-02-04T13:07:50Z ERR front-door service unavailable: payments-api span=8b1cd53b status=503
+2026-02-04T13:07:52Z ERR front-door service unavailable: payments-api span=12fd1366 status=503
+2026-02-04T13:07:52Z ERR front-door service unavailable: payments-api span=668a96b1 status=503
+2026-02-04T13:07:53Z INFO front-door http request method=GET status=200 latency_ms=72 span=4904523f
+2026-02-04T13:07:53Z ERR front-door bad gateway: payments-api failed span=905dfd79 status=502
+2026-02-04T13:07:54Z ERR front-door service unavailable: payments-api span=b720ae7b status=503
+2026-02-04T13:07:55Z ERR front-door service unavailable: payments-api span=6cc37626 status=503
+2026-02-04T13:07:56Z ERR front-door bad gateway: payments-api failed span=45f8d56e status=502
+2026-02-04T13:07:57Z ERR front-door service unavailable: payments-api span=f0f73b2c status=503
+2026-02-04T13:07:58Z ERR front-door service unavailable: payments-api span=8637a961 status=503
+2026-02-04T13:07:59Z ERR front-door bad gateway: payments-api failed span=efb43776 status=502
+2026-02-04T13:08:00Z ERR front-door service unavailable: payments-api span=534e2eb4 status=503
+2026-02-04T13:08:01Z INFO front-door tick ok elapsed_ms=38
+2026-02-04T13:08:01Z ERR front-door service unavailable: payments-api span=889d161d status=503
+2026-02-04T13:08:02Z ERR front-door service unavailable: payments-api span=d378f8d9 status=503
+2026-02-04T13:08:03Z ERR front-door bad gateway: payments-api failed span=d1e6b849 status=502
+2026-02-04T13:08:04Z ERR front-door bad gateway: payments-api failed span=d0645a7e status=502
+2026-02-04T13:08:06Z ERR front-door service unavailable: payments-api span=276b2b4e status=503
+2026-02-04T13:08:07Z ERR front-door bad gateway: payments-api failed span=9078a7b8 status=502
+2026-02-04T13:08:08Z ERR front-door bad gateway: payments-api failed span=ef2c3049 status=502
+2026-02-04T13:08:09Z ERR front-door service unavailable: payments-api span=5d757836 status=503
+2026-02-04T13:08:10Z ERR front-door bad gateway: payments-api failed span=b13ab28d status=502
+2026-02-04T13:08:11Z ERR front-door bad gateway: payments-api failed span=28ef1fc8 status=502
+2026-02-04T13:08:11Z ERR front-door service unavailable: payments-api span=26062245 status=503
+2026-02-04T13:08:12Z ERR front-door bad gateway: payments-api failed span=da9c43a9 status=502
+2026-02-04T13:08:13Z ERR front-door bad gateway: payments-api failed span=e537ef16 status=502
+2026-02-04T13:08:14Z ERR front-door service unavailable: payments-api span=cb27f266 status=503
+2026-02-04T13:08:15Z INFO front-door http request method=GET status=200 latency_ms=76 span=f5d38d28
+2026-02-04T13:08:15Z ERR front-door bad gateway: payments-api failed span=147e6e14 status=502
+2026-02-04T13:08:16Z ERR front-door service unavailable: payments-api span=34c9174f status=503
+2026-02-04T13:08:17Z ERR front-door service unavailable: payments-api span=a5ab1c39 status=503
+2026-02-04T13:08:18Z ERR front-door service unavailable: payments-api span=dfe3f636 status=503
+2026-02-04T13:08:20Z ERR front-door bad gateway: payments-api failed span=ea25c2b4 status=502
+2026-02-04T13:08:21Z ERR front-door service unavailable: payments-api span=b59df98a status=503
+2026-02-04T13:08:22Z ERR front-door bad gateway: payments-api failed span=baa11a43 status=502
+2026-02-04T13:08:23Z ERR front-door bad gateway: payments-api failed span=2a57ded8 status=502
+2026-02-04T13:08:24Z INFO front-door tick ok elapsed_ms=54
+2026-02-04T13:08:24Z ERR front-door service unavailable: payments-api span=9488242c status=503
+2026-02-04T13:08:26Z ERR front-door bad gateway: payments-api failed span=120204f3 status=502
+2026-02-04T13:08:27Z ERR front-door service unavailable: payments-api span=199ec23d status=503
+2026-02-04T13:08:27Z ERR front-door service unavailable: payments-api span=cb297f2a status=503
+2026-02-04T13:08:29Z ERR front-door service unavailable: payments-api span=87fdf1a2 status=503
+2026-02-04T13:08:30Z ERR front-door bad gateway: payments-api failed span=06c5ece6 status=502
+2026-02-04T13:08:31Z ERR front-door service unavailable: payments-api span=c56c3e39 status=503
+2026-02-04T13:08:33Z ERR front-door bad gateway: payments-api failed span=85f6e302 status=502
+2026-02-04T13:08:34Z ERR front-door bad gateway: payments-api failed span=0e740476 status=502
+2026-02-04T13:08:35Z ERR front-door service unavailable: payments-api span=2611f576 status=503
+2026-02-04T13:08:36Z ERR front-door bad gateway: payments-api failed span=7244cc3f status=502
+2026-02-04T13:08:37Z ERR front-door service unavailable: payments-api span=cc5d7768 status=503
+2026-02-04T13:08:38Z INFO front-door tick ok elapsed_ms=81
+2026-02-04T13:08:38Z ERR front-door service unavailable: payments-api span=d19e67f7 status=503
+2026-02-04T13:08:40Z ERR front-door service unavailable: payments-api span=52ed5257 status=503
+2026-02-04T13:08:40Z ERR front-door bad gateway: payments-api failed span=8209ea11 status=502
+2026-02-04T13:08:42Z ERR front-door service unavailable: payments-api span=a83f7bc1 status=503
+2026-02-04T13:08:43Z ERR front-door bad gateway: payments-api failed span=51eb0d22 status=502
+2026-02-04T13:08:44Z ERR front-door service unavailable: payments-api span=f3f424b8 status=503
+2026-02-04T13:08:45Z ERR front-door bad gateway: payments-api failed span=18257003 status=502
+2026-02-04T13:08:46Z ERR front-door service unavailable: payments-api span=68e1db89 status=503
+2026-02-04T13:08:47Z ERR front-door service unavailable: payments-api span=20b42ccb status=503
+2026-02-04T13:08:48Z INFO front-door http request method=GET status=200 latency_ms=42 span=cbbf037f
+2026-02-04T13:08:48Z ERR front-door bad gateway: payments-api failed span=6d246097 status=502
+2026-02-04T13:08:49Z ERR front-door service unavailable: payments-api span=cfd4c2e6 status=503
+2026-02-04T13:08:50Z ERR front-door bad gateway: payments-api failed span=a2bdb58d status=502
+2026-02-04T13:08:51Z ERR front-door bad gateway: payments-api failed span=7c022b06 status=502
+2026-02-04T13:08:52Z ERR front-door service unavailable: payments-api span=5e35ffeb status=503
+2026-02-04T13:08:54Z ERR front-door service unavailable: payments-api span=ab4f6092 status=503
+2026-02-04T13:08:55Z ERR front-door bad gateway: payments-api failed span=3042bc6b status=502
+2026-02-04T13:08:56Z ERR front-door bad gateway: payments-api failed span=46ea2ec6 status=502
+2026-02-04T13:08:57Z ERR front-door service unavailable: payments-api span=202896ed status=503
+2026-02-04T13:08:58Z INFO front-door tick ok elapsed_ms=46
+2026-02-04T13:08:58Z ERR front-door service unavailable: payments-api span=245ad364 status=503
+2026-02-04T13:09:00Z ERR front-door service unavailable: payments-api span=05786fde status=503
+2026-02-04T13:09:01Z ERR front-door service unavailable: payments-api span=a9534310 status=503
+2026-02-04T13:09:03Z ERR front-door bad gateway: payments-api failed span=1b09a9ec status=502
+2026-02-04T13:09:03Z ERR front-door bad gateway: payments-api failed span=6af6f9ef status=502
+2026-02-04T13:09:04Z ERR front-door service unavailable: payments-api span=94971e7b status=503
+2026-02-04T13:09:05Z ERR front-door bad gateway: payments-api failed span=47dd3e93 status=502
+2026-02-04T13:09:06Z ERR front-door service unavailable: payments-api span=41076f09 status=503
+2026-02-04T13:09:07Z ERR front-door service unavailable: payments-api span=58be49de status=503
+2026-02-04T13:09:09Z ERR front-door bad gateway: payments-api failed span=b6790cf2 status=502
+2026-02-04T13:09:09Z ERR front-door bad gateway: payments-api failed span=bef1c54e status=502
+2026-02-04T13:09:10Z ERR front-door service unavailable: payments-api span=2fde28f1 status=503
+2026-02-04T13:09:11Z ERR front-door service unavailable: payments-api span=7c985eb6 status=503
+2026-02-04T13:09:12Z INFO front-door http request method=GET status=200 latency_ms=53 span=2d6d0f10
+2026-02-04T13:09:12Z ERR front-door service unavailable: payments-api span=d17d5fee status=503
+2026-02-04T13:09:14Z ERR front-door service unavailable: payments-api span=6dfe406c status=503
+2026-02-04T13:09:15Z ERR front-door service unavailable: payments-api span=22b775e2 status=503
+2026-02-04T13:09:17Z ERR front-door bad gateway: payments-api failed span=f64bffe2 status=502
+2026-02-04T13:09:18Z ERR front-door bad gateway: payments-api failed span=298bbf68 status=502
+2026-02-04T13:09:19Z ERR front-door bad gateway: payments-api failed span=93385c09 status=502
+2026-02-04T13:09:20Z ERR front-door bad gateway: payments-api failed span=01d93b7c status=502
+2026-02-04T13:09:21Z ERR front-door service unavailable: payments-api span=11fc34b6 status=503
+2026-02-04T13:09:22Z ERR front-door service unavailable: payments-api span=1b2949ea status=503
+2026-02-04T13:09:23Z ERR front-door bad gateway: payments-api failed span=2cd32ab9 status=502
+2026-02-04T13:09:24Z INFO front-door http request method=GET status=200 latency_ms=48 span=9865981d
+2026-02-04T13:09:25Z ERR front-door bad gateway: payments-api failed span=96ba6d86 status=502
+2026-02-04T13:09:26Z ERR front-door service unavailable: payments-api span=e3773686 status=503
+2026-02-04T13:09:27Z ERR front-door service unavailable: payments-api span=0ac0de8f status=503
+2026-02-04T13:09:28Z ERR front-door bad gateway: payments-api failed span=4fa77bbd status=502
+2026-02-04T13:09:29Z ERR front-door bad gateway: payments-api failed span=1d7703a8 status=502
+2026-02-04T13:09:30Z ERR front-door bad gateway: payments-api failed span=883f44b5 status=502
+2026-02-04T13:09:31Z ERR front-door bad gateway: payments-api failed span=5f4ec888 status=502
+2026-02-04T13:09:33Z ERR front-door service unavailable: payments-api span=3adc75ff status=503
+2026-02-04T13:09:33Z ERR front-door service unavailable: payments-api span=bb7d903c status=503
+2026-02-04T13:09:34Z ERR front-door service unavailable: payments-api span=7240ec9e status=503
+2026-02-04T13:09:35Z INFO front-door http request method=GET status=200 latency_ms=90 span=ecc73916
+2026-02-04T13:09:36Z ERR front-door service unavailable: payments-api span=bd2f82d1 status=503
+2026-02-04T13:09:37Z ERR front-door bad gateway: payments-api failed span=44486455 status=502
+2026-02-04T13:09:38Z ERR front-door bad gateway: payments-api failed span=62248b6e status=502
+2026-02-04T13:09:40Z ERR front-door bad gateway: payments-api failed span=15cc7c4c status=502
+2026-02-04T13:09:40Z ERR front-door bad gateway: payments-api failed span=c329c66d status=502
+2026-02-04T13:09:42Z ERR front-door bad gateway: payments-api failed span=cfb5312b status=502
+2026-02-04T13:09:43Z ERR front-door bad gateway: payments-api failed span=c19dd46c status=502
+2026-02-04T13:09:44Z ERR front-door service unavailable: payments-api span=bba93047 status=503
+2026-02-04T13:09:46Z ERR front-door service unavailable: payments-api span=063e6b9e status=503
+2026-02-04T13:09:46Z ERR front-door bad gateway: payments-api failed span=81311421 status=502
+2026-02-04T13:09:47Z INFO front-door http request method=GET status=200 latency_ms=41 span=e5b40d5f
+2026-02-04T13:09:48Z ERR front-door service unavailable: payments-api span=669ae00a status=503
+2026-02-04T13:09:49Z ERR front-door bad gateway: payments-api failed span=1b24f785 status=502
+2026-02-04T13:09:50Z ERR front-door bad gateway: payments-api failed span=03ce7d3a status=502
+2026-02-04T13:09:51Z ERR front-door bad gateway: payments-api failed span=91374884 status=502
+2026-02-04T13:09:53Z INFO front-door http request method=GET status=200 latency_ms=32 span=4d8f8fef
+2026-02-04T13:09:53Z ERR front-door bad gateway: payments-api failed span=64bda83e status=502
+2026-02-04T13:09:53Z ERR front-door bad gateway: payments-api failed span=c4f6ae38 status=502
+2026-02-04T13:09:54Z ERR front-door bad gateway: payments-api failed span=081a1f28 status=502
+2026-02-04T13:09:55Z ERR front-door service unavailable: payments-api span=e641a34d status=503
+2026-02-04T13:09:56Z ERR front-door bad gateway: payments-api failed span=b7eb53f5 status=502
+2026-02-04T13:09:57Z ERR front-door bad gateway: payments-api failed span=99eb1d58 status=502
+2026-02-04T13:09:58Z ERR front-door bad gateway: payments-api failed span=a5896888 status=502
+2026-02-04T13:09:59Z ERR front-door bad gateway: payments-api failed span=d6081b78 status=502
+2026-02-04T13:10:00Z ERR front-door service unavailable: payments-api span=05ec5363 status=503
+2026-02-04T13:10:01Z ERR front-door service unavailable: payments-api span=a8ec856e status=503
+2026-02-04T13:10:02Z ERR front-door bad gateway: payments-api failed span=ecee73aa status=502
+2026-02-04T13:10:03Z ERR front-door bad gateway: payments-api failed span=56207743 status=502
+2026-02-04T13:10:04Z INFO front-door tick ok elapsed_ms=75
+2026-02-04T13:10:04Z ERR front-door bad gateway: payments-api failed span=36f52f52 status=502
+2026-02-04T13:10:05Z ERR front-door service unavailable: payments-api span=927195f2 status=503
+2026-02-04T13:10:05Z ERR front-door bad gateway: payments-api failed span=841ff9b0 status=502
+2026-02-04T13:10:07Z ERR front-door bad gateway: payments-api failed span=3169a272 status=502
+2026-02-04T13:10:08Z ERR front-door bad gateway: payments-api failed span=1e2c1b50 status=502
+2026-02-04T13:10:09Z ERR front-door bad gateway: payments-api failed span=598f6ba8 status=502
+2026-02-04T13:10:11Z ERR front-door service unavailable: payments-api span=e250e905 status=503
+2026-02-04T13:10:12Z ERR front-door service unavailable: payments-api span=22a336bc status=503
+2026-02-04T13:10:13Z ERR front-door service unavailable: payments-api span=1cd5b09f status=503
+2026-02-04T13:10:14Z INFO front-door http request method=GET status=200 latency_ms=57 span=f1e4a860
+2026-02-04T13:10:14Z ERR front-door service unavailable: payments-api span=8b5bf5f1 status=503
+2026-02-04T13:10:15Z ERR front-door service unavailable: payments-api span=d27a700b status=503
+2026-02-04T13:10:16Z ERR front-door service unavailable: payments-api span=39db0213 status=503
+2026-02-04T13:10:17Z ERR front-door service unavailable: payments-api span=9e651d80 status=503
+2026-02-04T13:10:18Z ERR front-door bad gateway: payments-api failed span=b680c7fa status=502
+2026-02-04T13:10:19Z ERR front-door service unavailable: payments-api span=986c69f6 status=503
+2026-02-04T13:10:20Z INFO front-door http request method=GET status=200 latency_ms=55 span=88d6db65
+2026-02-04T13:10:20Z ERR front-door service unavailable: payments-api span=1783eaf1 status=503
+2026-02-04T13:10:21Z ERR front-door bad gateway: payments-api failed span=221d9043 status=502
+2026-02-04T13:10:22Z ERR front-door service unavailable: payments-api span=a201cb2b status=503
+2026-02-04T13:10:23Z ERR front-door bad gateway: payments-api failed span=e487bda2 status=502
+2026-02-04T13:10:25Z ERR front-door bad gateway: payments-api failed span=c6f0e1ff status=502
+2026-02-04T13:10:26Z INFO front-door tick ok elapsed_ms=62
+2026-02-04T13:10:26Z ERR front-door bad gateway: payments-api failed span=46fdb838 status=502
+2026-02-04T13:10:27Z ERR front-door service unavailable: payments-api span=a6673c18 status=503
+2026-02-04T13:10:28Z ERR front-door bad gateway: payments-api failed span=c4d681fa status=502
+2026-02-04T13:10:29Z ERR front-door bad gateway: payments-api failed span=476634da status=502
+2026-02-04T13:10:30Z ERR front-door bad gateway: payments-api failed span=b2c6450c status=502
+2026-02-04T13:10:31Z ERR front-door service unavailable: payments-api span=e2fec913 status=503
+2026-02-04T13:10:32Z ERR front-door bad gateway: payments-api failed span=8fc6350a status=502
+2026-02-04T13:10:34Z INFO front-door http request method=GET status=200 latency_ms=19 span=42515e33
+2026-02-04T13:10:34Z ERR front-door bad gateway: payments-api failed span=e596fda9 status=502
+2026-02-04T13:10:34Z ERR front-door bad gateway: payments-api failed span=e001da4c status=502
+2026-02-04T13:10:35Z ERR front-door bad gateway: payments-api failed span=3d387feb status=502
+2026-02-04T13:10:37Z ERR front-door bad gateway: payments-api failed span=b23089ee status=502
+2026-02-04T13:10:38Z ERR front-door service unavailable: payments-api span=bab1135f status=503
+2026-02-04T13:10:39Z ERR front-door bad gateway: payments-api failed span=f1556d83 status=502

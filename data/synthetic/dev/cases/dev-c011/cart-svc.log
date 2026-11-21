@@ -1,0 +1,66 @@
+2026-01-29T11:08:02Z INFO cart-svc health check passed in 48ms
+2026-01-29T11:08:10Z INFO cart-svc health check passed in 36ms
+2026-01-29T11:08:23Z INFO cart-svc request completed in 65ms status=200 rid=c0c01c5e
+2026-01-29T11:08:32Z INFO cart-svc request completed in 58ms status=200 rid=d7a49797
+2026-01-29T11:08:45Z INFO cart-svc request completed in 59ms status=200 rid=9c249f1f
+2026-01-29T11:08:53Z INFO cart-svc request completed in 31ms status=200 rid=5df0b045
+2026-01-29T11:09:03Z INFO cart-svc request completed in 63ms status=200 rid=a5afc550
+2026-01-29T11:09:14Z INFO cart-svc request completed in 55ms status=200 rid=191a760c
+2026-01-29T11:09:27Z INFO cart-svc request completed in 9ms status=200 rid=83394301
+2026-01-29T11:09:40Z INFO cart-svc request completed in 20ms status=200 rid=78a74612
+2026-01-29T11:09:48Z INFO cart-svc health check passed in 22ms
+2026-01-29T11:09:56Z INFO cart-svc request completed in 73ms status=200 rid=3455df97
+2026-01-29T11:10:06Z INFO cart-svc health check passed in 23ms
+2026-01-29T11:10:13Z INFO cart-svc request completed in 65ms status=200 rid=c9a05dde
+2026-01-29T11:10:26Z INFO cart-svc health check passed in 82ms
+2026-01-29T11:10:32Z INFO cart-svc health check passed in 90ms
+2026-01-29T11:10:39Z INFO cart-svc health check passed in 50ms
+2026-01-29T11:10:52Z INFO cart-svc request completed in 17ms status=200 rid=9aafa68d
+2026-01-29T11:11:01Z INFO cart-svc health check passed in 24ms
+2026-01-29T11:11:11Z INFO cart-svc health check passed in 31ms
+2026-01-29T11:11:24Z INFO cart-svc health check passed in 50ms
+2026-01-29T11:11:34Z INFO cart-svc request completed in 65ms status=200 rid=7f8a33eb
+2026-01-29T11:11:45Z INFO cart-svc health check passed in 80ms
+2026-01-29T11:11:53Z INFO cart-svc health check passed in 78ms
+2026-01-29T11:12:00Z WARN cart-svc heap usage 96% after full GC
+2026-01-29T11:12:05Z INFO cart-svc request completed in 89ms status=200 rid=fa060477
+2026-01-29T11:12:14Z INFO cart-svc health check passed in 40ms
+2026-01-29T11:12:26Z INFO cart-svc request completed in 38ms status=200 rid=82b14334
+2026-01-29T11:12:37Z INFO cart-svc health check passed in 16ms
+2026-01-29T11:12:40Z ERROR cart-svc java.lang.OutOfMemoryError: Java heap space
+2026-01-29T11:12:42Z FATAL cart-svc JVM terminated by OOM killer
+2026-01-29T11:12:46Z INFO cart-svc health check passed in 83ms
+2026-01-29T11:12:54Z INFO cart-svc request completed in 71ms status=200 rid=e68aaa17
+2026-01-29T11:12:55Z WARN cart-svc slow request 190ms rid=b809ebc5
+2026-01-29T11:13:07Z INFO cart-svc request completed in 73ms status=200 rid=e6af9a30
+2026-01-29T11:13:20Z INFO cart-svc health check passed in 89ms
+2026-01-29T11:13:27Z INFO cart-svc request completed in 36ms status=200 rid=e280af4f
+2026-01-29T11:13:38Z INFO cart-svc health check passed in 13ms
+2026-01-29T11:13:49Z INFO cart-svc health check passed in 82ms
+2026-01-29T11:14:01Z INFO cart-svc request completed in 38ms status=200 rid=79530366
+2026-01-29T11:14:12Z INFO cart-svc request completed in 66ms status=200 rid=ba6ff4b7
+2026-01-29T11:14:19Z INFO cart-svc request completed in 40ms status=200 rid=9aeb31d6
+2026-01-29T11:14:26Z INFO cart-svc request completed in 90ms status=200 rid=77c4efad
+2026-01-29T11:14:39Z INFO cart-svc request completed in 30ms status=200 rid=29e5c098
+2026-01-29T11:14:47Z INFO cart-svc health check passed in 25ms
+2026-01-29T11:14:54Z INFO cart-svc health check passed in 15ms
+2026-01-29T11:15:07Z INFO cart-svc request completed in 20ms status=200 rid=f640b01f
+2026-01-29T11:15:15Z INFO cart-svc health check passed in 11ms
+2026-01-29T11:15:24Z INFO cart-svc health check passed in 50ms
+2026-01-29T11:15:33Z INFO cart-svc health check passed in 84ms
+2026-01-29T11:15:42Z INFO cart-svc request completed in 14ms status=200 rid=bf22dc12
+2026-01-29T11:15:50Z INFO cart-svc request completed in 42ms status=200 rid=222db5e3
+2026-01-29T11:15:56Z INFO cart-svc request completed in 72ms status=200 rid=644872d9
+2026-01-29T11:15:57Z WARN cart-svc GC pause 48ms (young gen)
+2026-01-29T11:16:10Z INFO cart-svc request completed in 9ms status=200 rid=b3754042
+2026-01-29T11:16:20Z INFO cart-svc request completed in 60ms status=200 rid=10626541
+2026-01-29T11:16:28Z INFO cart-svc request completed in 24ms status=200 rid=bb37a7b1
+2026-01-29T11:16:42Z INFO cart-svc request completed in 40ms status=200 rid=84917638
+2026-01-29T11:16:50Z INFO cart-svc health check passed in 32ms
+2026-01-29T11:17:01Z INFO cart-svc request completed in 58ms status=200 rid=e8a99a35
+2026-01-29T11:17:11Z INFO cart-svc health check passed in 13ms
+2026-01-29T11:17:23Z INFO cart-svc health check passed in 12ms
+2026-01-29T11:17:33Z INFO cart-svc request completed in 81ms status=200 rid=292cf9b2
+2026-01-29T11:17:44Z INFO cart-svc health check passed in 93ms
+2026-01-29T11:17:45Z WARN cart-svc GC pause 74ms (young gen)
+2026-01-29T11:17:51Z INFO cart-svc request completed in 8ms status=200 rid=f0ae72ee

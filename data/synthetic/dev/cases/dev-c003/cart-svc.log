@@ -1,0 +1,62 @@
+2026-01-18 13:46:54,463 INFO cart-svc ping ok latency=41ms
+2026-01-18 13:47:02,561 INFO cart-svc ping ok latency=50ms
+2026-01-18 13:47:15,064 INFO cart-svc ping ok latency=94ms
+2026-01-18 13:47:27,315 INFO cart-svc ping ok latency=65ms
+2026-01-18 13:47:34,408 INFO cart-svc handled request rid=4a88c42e status=200 dur=17ms
+2026-01-18 13:47:46,414 INFO cart-svc ping ok latency=78ms
+2026-01-18 13:47:55,203 INFO cart-svc ping ok latency=21ms
+2026-01-18 13:48:05,023 INFO cart-svc ping ok latency=21ms
+2026-01-18 13:48:15,244 INFO cart-svc handled request rid=b65aa658 status=200 dur=29ms
+2026-01-18 13:48:22,981 INFO cart-svc handled request rid=b550b167 status=200 dur=93ms
+2026-01-18 13:48:30,674 INFO cart-svc ping ok latency=93ms
+2026-01-18 13:48:40,536 INFO cart-svc ping ok latency=35ms
+2026-01-18 13:48:49,278 INFO cart-svc ping ok latency=36ms
+2026-01-18 13:48:58,903 INFO cart-svc handled request rid=43dcae11 status=200 dur=53ms
+2026-01-18 13:49:11,239 INFO cart-svc handled request rid=3c15bd7e status=200 dur=34ms
+2026-01-18 13:49:25,908 INFO cart-svc handled request rid=99429344 status=200 dur=88ms
+2026-01-18 13:49:33,014 INFO cart-svc ping ok latency=9ms
+2026-01-18 13:49:43,390 INFO cart-svc handled request rid=99b1d284 status=200 dur=71ms
+2026-01-18 13:49:54,235 INFO cart-svc ping ok latency=9ms
+2026-01-18 13:50:06,398 INFO cart-svc ping ok latency=69ms
+2026-01-18 13:50:18,879 INFO cart-svc handled request rid=5a29e497 status=200 dur=69ms
+2026-01-18 13:50:32,112 INFO cart-svc ping ok latency=80ms
+2026-01-18 13:50:40,595 INFO cart-svc handled request rid=8e6e9ba2 status=200 dur=57ms
+2026-01-18 13:50:53,834 INFO cart-svc handled request rid=9643276f status=200 dur=71ms
+2026-01-18 13:51:05,290 INFO cart-svc ping ok latency=69ms
+2026-01-18 13:51:18,610 INFO cart-svc ping ok latency=22ms
+2026-01-18 13:51:28,389 INFO cart-svc ping ok latency=64ms
+2026-01-18 13:51:35,992 INFO cart-svc ping ok latency=45ms
+2026-01-18 13:51:49,180 INFO cart-svc handled request rid=8179c9fb status=200 dur=72ms
+2026-01-18 13:52:00,248 ERROR cart-svc dial tcp pricing-svc:8103: connect: connection refused rid=79899bc5
+2026-01-18 13:52:00,584 INFO cart-svc handled request rid=9b97e93e status=200 dur=32ms
+2026-01-18 13:52:02,097 WARNING cart-svc backoff before retrying pricing-svc (2/3)
+2026-01-18 13:52:05,292 ERROR cart-svc request to pricing-svc failed permanently after retries
+2026-01-18 13:52:11,273 INFO cart-svc ping ok latency=87ms
+2026-01-18 13:52:22,814 INFO cart-svc ping ok latency=76ms
+2026-01-18 13:52:31,545 INFO cart-svc handled request rid=f4fa529c status=200 dur=42ms
+2026-01-18 13:52:42,969 INFO cart-svc handled request rid=4453f825 status=200 dur=20ms
+2026-01-18 13:52:49,660 INFO cart-svc handled request rid=10f9bfc1 status=200 dur=12ms
+2026-01-18 13:53:02,282 INFO cart-svc ping ok latency=25ms
+2026-01-18 13:53:03,000 WARNING cart-svc retry budget low on client pool
+2026-01-18 13:53:14,510 INFO cart-svc ping ok latency=22ms
+2026-01-18 13:53:23,270 INFO cart-svc handled request rid=7268045a status=200 dur=44ms
+2026-01-18 13:53:32,159 INFO cart-svc ping ok latency=83ms
+2026-01-18 13:53:44,599 INFO cart-svc ping ok latency=9ms
+2026-01-18 13:53:54,782 INFO cart-svc handled request rid=5b77533f status=200 dur=74ms
+2026-01-18 13:54:08,385 INFO cart-svc handled request rid=cf0664fa status=200 dur=32ms
+2026-01-18 13:54:22,330 INFO cart-svc ping ok latency=69ms
+2026-01-18 13:54:28,729 INFO cart-svc ping ok latency=28ms
+2026-01-18 13:54:39,515 INFO cart-svc ping ok latency=53ms
+2026-01-18 13:54:53,764 INFO cart-svc ping ok latency=66ms
+2026-01-18 13:55:05,365 INFO cart-svc handled request rid=4004d900 status=200 dur=42ms
+2026-01-18 13:55:13,243 INFO cart-svc handled request rid=423f1286 status=200 dur=24ms
+2026-01-18 13:55:20,659 INFO cart-svc ping ok latency=21ms
+2026-01-18 13:55:28,758 INFO cart-svc ping ok latency=42ms
+2026-01-18 13:55:35,000 INFO cart-svc ping ok latency=66ms
+2026-01-18 13:55:47,718 INFO cart-svc ping ok latency=29ms
+2026-01-18 13:55:54,016 INFO cart-svc ping ok latency=76ms
+2026-01-18 13:56:02,714 INFO cart-svc handled request rid=6fa0c3c9 status=200 dur=9ms
+2026-01-18 13:56:15,482 INFO cart-svc handled request rid=972dbff4 status=200 dur=46ms
+2026-01-18 13:56:22,318 INFO cart-svc handled request rid=33f66293 status=200 dur=27ms
+2026-01-18 13:56:32,908 INFO cart-svc ping ok latency=61ms
+2026-01-18 13:56:45,306 INFO cart-svc handled request rid=7ddbbc9a status=200 dur=72ms

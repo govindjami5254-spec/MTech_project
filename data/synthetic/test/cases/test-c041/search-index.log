@@ -1,0 +1,59 @@
+2026-02-02T14:33:09Z INFO search-index http request method=GET status=200 latency_ms=93 span=ba0b6a7a
+2026-02-02T14:33:17Z INFO search-index tick ok elapsed_ms=78
+2026-02-02T14:33:29Z INFO search-index tick ok elapsed_ms=37
+2026-02-02T14:33:38Z INFO search-index http request method=GET status=200 latency_ms=13 span=2dbfa988
+2026-02-02T14:33:52Z INFO search-index tick ok elapsed_ms=93
+2026-02-02T14:34:02Z INFO search-index tick ok elapsed_ms=21
+2026-02-02T14:34:13Z INFO search-index tick ok elapsed_ms=80
+2026-02-02T14:34:14Z WARN search-index client sent oversized header, truncated span=6010edc7
+2026-02-02T14:34:24Z INFO search-index http request method=GET status=200 latency_ms=90 span=230ac874
+2026-02-02T14:34:25Z WARN search-index slow poll elapsed_ms=240
+2026-02-02T14:34:34Z INFO search-index tick ok elapsed_ms=41
+2026-02-02T14:34:42Z INFO search-index tick ok elapsed_ms=74
+2026-02-02T14:34:51Z INFO search-index tick ok elapsed_ms=90
+2026-02-02T14:35:02Z INFO search-index tick ok elapsed_ms=30
+2026-02-02T14:35:16Z INFO search-index tick ok elapsed_ms=47
+2026-02-02T14:35:29Z INFO search-index http request method=GET status=200 latency_ms=69 span=3bd7d3cb
+2026-02-02T14:35:43Z INFO search-index tick ok elapsed_ms=78
+2026-02-02T14:35:56Z INFO search-index http request method=GET status=200 latency_ms=21 span=a7bbb877
+2026-02-02T14:36:03Z INFO search-index tick ok elapsed_ms=59
+2026-02-02T14:36:13Z INFO search-index tick ok elapsed_ms=29
+2026-02-02T14:36:27Z INFO search-index http request method=GET status=200 latency_ms=91 span=9bd8f00c
+2026-02-02T14:36:40Z INFO search-index tick ok elapsed_ms=82
+2026-02-02T14:36:52Z INFO search-index http request method=GET status=200 latency_ms=50 span=545a7330
+2026-02-02T14:37:04Z INFO search-index http request method=GET status=200 latency_ms=21 span=57b2d0c2
+2026-02-02T14:37:11Z INFO search-index http request method=GET status=200 latency_ms=78 span=cff134f2
+2026-02-02T14:37:21Z INFO search-index http request method=GET status=200 latency_ms=48 span=f1c0c2c0
+2026-02-02T14:37:32Z INFO search-index http request method=GET status=200 latency_ms=78 span=41dc9780
+2026-02-02T14:37:39Z INFO search-index tick ok elapsed_ms=43
+2026-02-02T14:37:51Z INFO search-index http request method=GET status=200 latency_ms=66 span=2dcc96c9
+2026-02-02T14:38:05Z INFO search-index http request method=GET status=200 latency_ms=60 span=c673ca9f
+2026-02-02T14:38:17Z INFO search-index http request method=GET status=200 latency_ms=55 span=beaef0a3
+2026-02-02T14:38:25Z INFO search-index tick ok elapsed_ms=31
+2026-02-02T14:38:35Z INFO search-index tick ok elapsed_ms=16
+2026-02-02T14:38:49Z INFO search-index http request method=GET status=200 latency_ms=83 span=d3a68ca1
+2026-02-02T14:39:00Z INFO search-index http request method=GET status=200 latency_ms=53 span=80226a5f
+2026-02-02T14:39:08Z INFO search-index tick ok elapsed_ms=14
+2026-02-02T14:39:18Z INFO search-index tick ok elapsed_ms=82
+2026-02-02T14:39:30Z INFO search-index http request method=GET status=200 latency_ms=80 span=acd0175e
+2026-02-02T14:39:39Z INFO search-index tick ok elapsed_ms=18
+2026-02-02T14:39:53Z INFO search-index tick ok elapsed_ms=29
+2026-02-02T14:40:05Z INFO search-index http request method=GET status=200 latency_ms=42 span=816c38e6
+2026-02-02T14:40:18Z INFO search-index http request method=GET status=200 latency_ms=64 span=98904315
+2026-02-02T14:40:28Z INFO search-index http request method=GET status=200 latency_ms=38 span=4b92c7d3
+2026-02-02T14:40:38Z INFO search-index http request method=GET status=200 latency_ms=50 span=d18d2652
+2026-02-02T14:40:49Z INFO search-index tick ok elapsed_ms=76
+2026-02-02T14:40:56Z INFO search-index tick ok elapsed_ms=54
+2026-02-02T14:41:05Z INFO search-index tick ok elapsed_ms=20
+2026-02-02T14:41:18Z INFO search-index tick ok elapsed_ms=43
+2026-02-02T14:41:25Z INFO search-index tick ok elapsed_ms=43
+2026-02-02T14:41:36Z INFO search-index http request method=GET status=200 latency_ms=72 span=bc8a6368
+2026-02-02T14:41:43Z INFO search-index http request method=GET status=200 latency_ms=28 span=02b0caaa
+2026-02-02T14:41:50Z INFO search-index http request method=GET status=200 latency_ms=77 span=7962db3d
+2026-02-02T14:41:58Z INFO search-index tick ok elapsed_ms=76
+2026-02-02T14:42:10Z INFO search-index tick ok elapsed_ms=12
+2026-02-02T14:42:21Z INFO search-index http request method=GET status=200 latency_ms=85 span=96564a61
+2026-02-02T14:42:27Z INFO search-index http request method=GET status=200 latency_ms=72 span=017cea8e
+2026-02-02T14:42:39Z INFO search-index tick ok elapsed_ms=54
+2026-02-02T14:42:53Z INFO search-index http request method=GET status=200 latency_ms=41 span=1d15bdf7
+2026-02-02T14:43:00Z INFO search-index tick ok elapsed_ms=47

@@ -1,0 +1,23 @@
+{
+  "schema_version": "1",
+  "case_id": "test-c009",
+  "split": "test",
+  "incident": {
+    "id": "INC-001",
+    "rule_id": "entry-5xx",
+    "description": "Entry service returned 5xx errors to clients",
+    "ts": "2026-01-14T11:26:38.208000Z",
+    "trigger_uid": "ingress.log:33",
+    "trigger_component": "ingress"
+  },
+  "log_files": [
+    "device-registry.log",
+    "firmware-cdn.log",
+    "ingress.log",
+    "registry-db.log",
+    "scheduler.log",
+    "stream-proc.log",
+    "telemetry-api.log",
+    "tsdb.log"
+  ]
+}

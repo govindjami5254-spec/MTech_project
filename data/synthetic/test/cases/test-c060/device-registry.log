@@ -1,0 +1,62 @@
+2026-02-06T14:30:21Z INFO device-registry http request method=GET status=200 latency_ms=45 span=4c632b6d
+2026-02-06T14:30:22Z WARN device-registry slow poll elapsed_ms=770
+2026-02-06T14:30:35Z INFO device-registry http request method=GET status=200 latency_ms=95 span=b641ab77
+2026-02-06T14:30:48Z INFO device-registry http request method=GET status=200 latency_ms=72 span=38253104
+2026-02-06T14:30:54Z INFO device-registry tick ok elapsed_ms=58
+2026-02-06T14:31:05Z INFO device-registry tick ok elapsed_ms=8
+2026-02-06T14:31:11Z INFO device-registry tick ok elapsed_ms=66
+2026-02-06T14:31:22Z INFO device-registry tick ok elapsed_ms=30
+2026-02-06T14:31:29Z INFO device-registry tick ok elapsed_ms=40
+2026-02-06T14:31:37Z INFO device-registry http request method=GET status=200 latency_ms=75 span=54375f43
+2026-02-06T14:31:49Z INFO device-registry tick ok elapsed_ms=67
+2026-02-06T14:32:01Z INFO device-registry tick ok elapsed_ms=64
+2026-02-06T14:32:10Z INFO device-registry tick ok elapsed_ms=35
+2026-02-06T14:32:20Z INFO device-registry tick ok elapsed_ms=47
+2026-02-06T14:32:30Z INFO device-registry http request method=GET status=200 latency_ms=72 span=01bba700
+2026-02-06T14:32:42Z INFO device-registry http request method=GET status=200 latency_ms=91 span=57d684e5
+2026-02-06T14:32:54Z INFO device-registry http request method=GET status=200 latency_ms=16 span=c9f8677c
+2026-02-06T14:33:00Z INFO device-registry tick ok elapsed_ms=69
+2026-02-06T14:33:13Z INFO device-registry http request method=GET status=200 latency_ms=43 span=d935932d
+2026-02-06T14:33:21Z INFO device-registry http request method=GET status=200 latency_ms=52 span=cb51745e
+2026-02-06T14:33:35Z INFO device-registry tick ok elapsed_ms=69
+2026-02-06T14:33:44Z INFO device-registry tick ok elapsed_ms=56
+2026-02-06T14:33:50Z INFO device-registry tick ok elapsed_ms=48
+2026-02-06T14:34:03Z INFO device-registry tick ok elapsed_ms=43
+2026-02-06T14:34:14Z INFO device-registry tick ok elapsed_ms=32
+2026-02-06T14:34:23Z INFO device-registry tick ok elapsed_ms=49
+2026-02-06T14:34:35Z INFO device-registry http request method=GET status=200 latency_ms=87 span=69937b11
+2026-02-06T14:34:41Z WARN device-registry allocator resident 97% of cgroup limit
+2026-02-06T14:34:43Z INFO device-registry http request method=GET status=200 latency_ms=66 span=6559e104
+2026-02-06T14:34:50Z INFO device-registry tick ok elapsed_ms=87
+2026-02-06T14:35:03Z INFO device-registry tick ok elapsed_ms=50
+2026-02-06T14:35:16Z INFO device-registry http request method=GET status=200 latency_ms=59 span=f26dc980
+2026-02-06T14:35:16Z ERR device-registry memory allocation of 1073741824 bytes failed
+2026-02-06T14:35:17Z FATAL device-registry aborted: out of memory
+2026-02-06T14:35:25Z INFO device-registry tick ok elapsed_ms=25
+2026-02-06T14:35:36Z INFO device-registry tick ok elapsed_ms=24
+2026-02-06T14:35:45Z INFO device-registry tick ok elapsed_ms=84
+2026-02-06T14:35:54Z INFO device-registry tick ok elapsed_ms=62
+2026-02-06T14:36:06Z INFO device-registry tick ok elapsed_ms=90
+2026-02-06T14:36:19Z INFO device-registry http request method=GET status=200 latency_ms=16 span=c53775b1
+2026-02-06T14:36:25Z INFO device-registry http request method=GET status=200 latency_ms=13 span=b553c7b4
+2026-02-06T14:36:36Z INFO device-registry http request method=GET status=200 latency_ms=27 span=5b4253a2
+2026-02-06T14:36:47Z INFO device-registry http request method=GET status=200 latency_ms=73 span=a324bad9
+2026-02-06T14:36:58Z INFO device-registry tick ok elapsed_ms=44
+2026-02-06T14:37:06Z INFO device-registry tick ok elapsed_ms=36
+2026-02-06T14:37:19Z INFO device-registry tick ok elapsed_ms=32
+2026-02-06T14:37:33Z INFO device-registry http request method=GET status=200 latency_ms=94 span=f9e4b5df
+2026-02-06T14:37:43Z INFO device-registry tick ok elapsed_ms=80
+2026-02-06T14:37:52Z INFO device-registry http request method=GET status=200 latency_ms=73 span=64d94fd5
+2026-02-06T14:38:06Z INFO device-registry tick ok elapsed_ms=91
+2026-02-06T14:38:19Z INFO device-registry tick ok elapsed_ms=13
+2026-02-06T14:38:27Z INFO device-registry tick ok elapsed_ms=31
+2026-02-06T14:38:39Z INFO device-registry http request method=GET status=200 latency_ms=31 span=843c7fcb
+2026-02-06T14:38:45Z INFO device-registry http request method=GET status=200 latency_ms=88 span=85fe5c88
+2026-02-06T14:38:52Z INFO device-registry tick ok elapsed_ms=49
+2026-02-06T14:39:05Z INFO device-registry http request method=GET status=200 latency_ms=40 span=87a0d79d
+2026-02-06T14:39:12Z INFO device-registry tick ok elapsed_ms=24
+2026-02-06T14:39:26Z INFO device-registry http request method=GET status=200 latency_ms=9 span=9dbf834c
+2026-02-06T14:39:38Z INFO device-registry tick ok elapsed_ms=29
+2026-02-06T14:39:49Z INFO device-registry tick ok elapsed_ms=46
+2026-02-06T14:40:03Z INFO device-registry http request method=GET status=200 latency_ms=55 span=794b9bd6
+2026-02-06T14:40:11Z INFO device-registry tick ok elapsed_ms=9

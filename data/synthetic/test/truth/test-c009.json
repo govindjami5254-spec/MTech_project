@@ -1,0 +1,44 @@
+{
+  "schema_version": "1",
+  "case_id": "test-c009",
+  "split": "test",
+  "family_id": "tf06",
+  "stratum": "multi_hop",
+  "root_causes": [
+    "tsdb"
+  ],
+  "fault_type": "disk_full",
+  "expected_abstain": false,
+  "key_evidence": [
+    "tsdb.log:27",
+    "tsdb.log:34",
+    "tsdb.log:35"
+  ],
+  "relevant_evidence": [
+    "ingress.log:33",
+    "ingress.log:35",
+    "ingress.log:36",
+    "ingress.log:37",
+    "ingress.log:38",
+    "ingress.log:39",
+    "ingress.log:41",
+    "ingress.log:42",
+    "stream-proc.log:30",
+    "stream-proc.log:31",
+    "stream-proc.log:32",
+    "telemetry-api.log:34",
+    "telemetry-api.log:36",
+    "telemetry-api.log:37",
+    "tsdb.log:27",
+    "tsdb.log:34",
+    "tsdb.log:35"
+  ],
+  "propagation_path": [
+    "tsdb",
+    "stream-proc",
+    "telemetry-api",
+    "ingress"
+  ],
+  "injection_uids": [],
+  "decoy_component": null
+}

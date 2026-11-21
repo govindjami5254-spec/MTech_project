@@ -1,0 +1,66 @@
+2026-02-10 13:15:05,433 INFO tsdb GET /v1/items 200 14ms req_id=11503217
+2026-02-10 13:15:18,984 INFO tsdb worker heartbeat ok (59ms)
+2026-02-10 13:15:31,940 INFO tsdb worker heartbeat ok (25ms)
+2026-02-10 13:15:37,642 INFO tsdb worker heartbeat ok (32ms)
+2026-02-10 13:15:45,235 INFO tsdb worker heartbeat ok (19ms)
+2026-02-10 13:15:57,603 INFO tsdb worker heartbeat ok (68ms)
+2026-02-10 13:16:04,054 INFO tsdb worker heartbeat ok (19ms)
+2026-02-10 13:16:16,095 INFO tsdb GET /v1/items 200 11ms req_id=189212fd
+2026-02-10 13:16:24,015 INFO tsdb GET /v1/items 200 21ms req_id=be949b01
+2026-02-10 13:16:33,331 INFO tsdb worker heartbeat ok (81ms)
+2026-02-10 13:16:43,490 INFO tsdb GET /v1/items 200 77ms req_id=11d4f706
+2026-02-10 13:16:49,506 INFO tsdb worker heartbeat ok (74ms)
+2026-02-10 13:16:56,161 INFO tsdb GET /v1/items 200 60ms req_id=2c20928a
+2026-02-10 13:17:07,051 INFO tsdb GET /v1/items 200 63ms req_id=4a3bc1d7
+2026-02-10 13:17:15,651 INFO tsdb worker heartbeat ok (70ms)
+2026-02-10 13:17:24,532 INFO tsdb GET /v1/items 200 41ms req_id=c6ca84f5
+2026-02-10 13:17:33,591 INFO tsdb worker heartbeat ok (9ms)
+2026-02-10 13:17:47,193 INFO tsdb GET /v1/items 200 39ms req_id=863ff2a9
+2026-02-10 13:17:59,596 INFO tsdb GET /v1/items 200 73ms req_id=6504b835
+2026-02-10 13:18:13,061 INFO tsdb worker heartbeat ok (55ms)
+2026-02-10 13:18:19,572 INFO tsdb worker heartbeat ok (30ms)
+2026-02-10 13:18:25,648 INFO tsdb GET /v1/items 200 25ms req_id=f89b07f8
+2026-02-10 13:18:38,776 INFO tsdb GET /v1/items 200 23ms req_id=956073fb
+2026-02-10 13:18:45,700 INFO tsdb worker heartbeat ok (39ms)
+2026-02-10 13:18:55,909 INFO tsdb GET /v1/items 200 32ms req_id=d6aaec02
+2026-02-10 13:19:04,383 INFO tsdb GET /v1/items 200 25ms req_id=693c0d42
+2026-02-10 13:19:13,102 INFO tsdb worker heartbeat ok (64ms)
+2026-02-10 13:19:21,117 WARNING tsdb disk /var/lib/db at 96% capacity
+2026-02-10 13:19:27,906 INFO tsdb worker heartbeat ok (46ms)
+2026-02-10 13:19:33,139 INFO tsdb GET /v1/items 200 76ms req_id=7fff14f2
+2026-02-10 13:19:45,894 INFO tsdb worker heartbeat ok (13ms)
+2026-02-10 13:19:56,316 INFO tsdb GET /v1/items 200 95ms req_id=f96668bc
+2026-02-10 13:20:03,194 INFO tsdb worker heartbeat ok (61ms)
+2026-02-10 13:20:16,182 INFO tsdb GET /v1/items 200 9ms req_id=842ff705
+2026-02-10 13:20:16,385 ERROR tsdb OSError: [Errno 28] No space left on device
+2026-02-10 13:20:19,221 CRITICAL tsdb database refusing writes: disk full
+2026-02-10 13:20:23,439 INFO tsdb GET /v1/items 200 34ms req_id=204ac0a1
+2026-02-10 13:20:29,226 INFO tsdb worker heartbeat ok (62ms)
+2026-02-10 13:20:38,418 INFO tsdb worker heartbeat ok (95ms)
+2026-02-10 13:20:51,346 INFO tsdb GET /v1/items 200 46ms req_id=daeeef4c
+2026-02-10 13:21:03,687 INFO tsdb worker heartbeat ok (22ms)
+2026-02-10 13:21:16,434 INFO tsdb worker heartbeat ok (22ms)
+2026-02-10 13:21:24,451 INFO tsdb worker heartbeat ok (82ms)
+2026-02-10 13:21:32,106 INFO tsdb worker heartbeat ok (28ms)
+2026-02-10 13:21:45,061 INFO tsdb GET /v1/items 200 36ms req_id=f7538b56
+2026-02-10 13:21:46,000 WARNING tsdb deprecated parameter 'page' used by client
+2026-02-10 13:21:52,173 INFO tsdb worker heartbeat ok (79ms)
+2026-02-10 13:22:02,705 INFO tsdb worker heartbeat ok (67ms)
+2026-02-10 13:22:13,044 INFO tsdb GET /v1/items 200 10ms req_id=b1ee02bf
+2026-02-10 13:22:22,372 INFO tsdb worker heartbeat ok (16ms)
+2026-02-10 13:22:30,142 INFO tsdb worker heartbeat ok (95ms)
+2026-02-10 13:22:42,717 INFO tsdb GET /v1/items 200 43ms req_id=aac7fa6c
+2026-02-10 13:22:43,000 WARNING tsdb slow query took 580ms req_id=1ac2a533
+2026-02-10 13:22:48,983 INFO tsdb worker heartbeat ok (39ms)
+2026-02-10 13:22:55,236 INFO tsdb GET /v1/items 200 49ms req_id=90324f6b
+2026-02-10 13:23:08,889 INFO tsdb GET /v1/items 200 20ms req_id=aaeaa2eb
+2026-02-10 13:23:22,560 INFO tsdb worker heartbeat ok (9ms)
+2026-02-10 13:23:28,679 INFO tsdb worker heartbeat ok (82ms)
+2026-02-10 13:23:40,645 INFO tsdb GET /v1/items 200 20ms req_id=c4808e9f
+2026-02-10 13:23:51,470 INFO tsdb worker heartbeat ok (13ms)
+2026-02-10 13:24:03,686 INFO tsdb GET /v1/items 200 44ms req_id=442b435f
+2026-02-10 13:24:14,325 INFO tsdb GET /v1/items 200 81ms req_id=a78302aa
+2026-02-10 13:24:23,522 INFO tsdb worker heartbeat ok (29ms)
+2026-02-10 13:24:32,263 INFO tsdb worker heartbeat ok (45ms)
+2026-02-10 13:24:43,559 INFO tsdb worker heartbeat ok (15ms)
+2026-02-10 13:24:55,988 INFO tsdb GET /v1/items 200 36ms req_id=1a401090

@@ -1,0 +1,61 @@
+2026-02-14T13:37:55Z INFO authz-db health check passed in 29ms
+2026-02-14T13:38:07Z INFO authz-db health check passed in 86ms
+2026-02-14T13:38:17Z INFO authz-db health check passed in 58ms
+2026-02-14T13:38:29Z INFO authz-db request completed in 95ms status=200 rid=07ee28ec
+2026-02-14T13:38:39Z INFO authz-db health check passed in 10ms
+2026-02-14T13:38:50Z INFO authz-db request completed in 24ms status=200 rid=30a99bcb
+2026-02-14T13:39:03Z INFO authz-db request completed in 78ms status=200 rid=de69cbc9
+2026-02-14T13:39:11Z INFO authz-db health check passed in 22ms
+2026-02-14T13:39:25Z INFO authz-db request completed in 62ms status=200 rid=fc1aad26
+2026-02-14T13:39:37Z INFO authz-db health check passed in 52ms
+2026-02-14T13:39:50Z INFO authz-db health check passed in 16ms
+2026-02-14T13:40:04Z INFO authz-db health check passed in 14ms
+2026-02-14T13:40:11Z INFO authz-db request completed in 82ms status=200 rid=7deaf6ce
+2026-02-14T13:40:18Z INFO authz-db request completed in 54ms status=200 rid=b9516d94
+2026-02-14T13:40:30Z INFO authz-db health check passed in 82ms
+2026-02-14T13:40:31Z WARN authz-db slow request 190ms rid=f99bdaf8
+2026-02-14T13:40:44Z INFO authz-db request completed in 88ms status=200 rid=c81525fe
+2026-02-14T13:40:58Z INFO authz-db request completed in 73ms status=200 rid=4fe341ea
+2026-02-14T13:40:59Z WARN authz-db GC pause 43ms (young gen)
+2026-02-14T13:41:06Z INFO authz-db health check passed in 53ms
+2026-02-14T13:41:20Z INFO authz-db request completed in 10ms status=200 rid=a1a531b5
+2026-02-14T13:41:26Z INFO authz-db health check passed in 41ms
+2026-02-14T13:41:33Z INFO authz-db request completed in 50ms status=200 rid=1c5d5ff2
+2026-02-14T13:41:45Z INFO authz-db request completed in 86ms status=200 rid=b1675a48
+2026-02-14T13:41:56Z INFO authz-db health check passed in 57ms
+2026-02-14T13:42:08Z INFO authz-db health check passed in 26ms
+2026-02-14T13:42:14Z INFO authz-db request completed in 82ms status=200 rid=7e70ee89
+2026-02-14T13:42:20Z INFO authz-db request completed in 53ms status=200 rid=819f7c82
+2026-02-14T13:42:30Z INFO authz-db health check passed in 61ms
+2026-02-14T13:42:38Z INFO authz-db health check passed in 28ms
+2026-02-14T13:42:45Z INFO authz-db health check passed in 39ms
+2026-02-14T13:42:56Z INFO authz-db health check passed in 13ms
+2026-02-14T13:43:06Z INFO authz-db health check passed in 36ms
+2026-02-14T13:43:13Z INFO authz-db request completed in 52ms status=200 rid=bdc3a22b
+2026-02-14T13:43:21Z INFO authz-db request completed in 16ms status=200 rid=194c624b
+2026-02-14T13:43:27Z INFO authz-db health check passed in 79ms
+2026-02-14T13:43:41Z INFO authz-db health check passed in 21ms
+2026-02-14T13:43:55Z INFO authz-db request completed in 11ms status=200 rid=05ef2afe
+2026-02-14T13:44:01Z INFO authz-db request completed in 38ms status=200 rid=533fbc01
+2026-02-14T13:44:14Z INFO authz-db request completed in 87ms status=200 rid=b3d65deb
+2026-02-14T13:44:26Z INFO authz-db request completed in 91ms status=200 rid=3a8ff2c8
+2026-02-14T13:44:35Z INFO authz-db request completed in 24ms status=200 rid=35b46eb7
+2026-02-14T13:44:49Z INFO authz-db health check passed in 43ms
+2026-02-14T13:45:03Z INFO authz-db request completed in 66ms status=200 rid=29b96488
+2026-02-14T13:45:14Z INFO authz-db health check passed in 21ms
+2026-02-14T13:45:27Z INFO authz-db request completed in 54ms status=200 rid=d64eca86
+2026-02-14T13:45:38Z INFO authz-db health check passed in 79ms
+2026-02-14T13:45:51Z INFO authz-db health check passed in 57ms
+2026-02-14T13:46:02Z INFO authz-db request completed in 32ms status=200 rid=01d5b90a
+2026-02-14T13:46:15Z INFO authz-db request completed in 23ms status=200 rid=44c88f51
+2026-02-14T13:46:29Z INFO authz-db request completed in 46ms status=200 rid=036cb0e7
+2026-02-14T13:46:35Z INFO authz-db request completed in 93ms status=200 rid=7ca605ec
+2026-02-14T13:46:42Z INFO authz-db request completed in 81ms status=200 rid=2080fc00
+2026-02-14T13:46:50Z INFO authz-db request completed in 48ms status=200 rid=7b8979db
+2026-02-14T13:46:57Z INFO authz-db health check passed in 70ms
+2026-02-14T13:47:09Z INFO authz-db request completed in 11ms status=200 rid=e013cf3b
+2026-02-14T13:47:21Z INFO authz-db request completed in 73ms status=200 rid=ba44ed6a
+2026-02-14T13:47:28Z INFO authz-db request completed in 58ms status=200 rid=034e79ec
+2026-02-14T13:47:29Z WARN authz-db GC pause 59ms (young gen)
+2026-02-14T13:47:39Z INFO authz-db request completed in 67ms status=200 rid=484bff3a
+2026-02-14T13:47:52Z INFO authz-db request completed in 11ms status=200 rid=3f473058

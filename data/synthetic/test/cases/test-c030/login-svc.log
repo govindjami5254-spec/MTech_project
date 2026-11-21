@@ -1,0 +1,65 @@
+2026-01-22T12:25:23Z INFO login-svc http request method=GET status=200 latency_ms=77 span=98845b9d
+2026-01-22T12:25:34Z INFO login-svc http request method=GET status=200 latency_ms=38 span=e186ee22
+2026-01-22T12:25:46Z INFO login-svc http request method=GET status=200 latency_ms=90 span=e08d1ab1
+2026-01-22T12:25:56Z INFO login-svc http request method=GET status=200 latency_ms=36 span=94aa06fd
+2026-01-22T12:26:10Z INFO login-svc tick ok elapsed_ms=50
+2026-01-22T12:26:19Z INFO login-svc http request method=GET status=200 latency_ms=9 span=9e5e9c16
+2026-01-22T12:26:30Z INFO login-svc http request method=GET status=200 latency_ms=38 span=89e7303a
+2026-01-22T12:26:37Z INFO login-svc http request method=GET status=200 latency_ms=71 span=de5f7077
+2026-01-22T12:26:48Z INFO login-svc http request method=GET status=200 latency_ms=90 span=a2a661d4
+2026-01-22T12:26:57Z INFO login-svc http request method=GET status=200 latency_ms=42 span=c1423af0
+2026-01-22T12:26:58Z WARN login-svc client sent oversized header, truncated span=b3a4b5cf
+2026-01-22T12:27:11Z INFO login-svc tick ok elapsed_ms=64
+2026-01-22T12:27:21Z INFO login-svc http request method=GET status=200 latency_ms=69 span=d50a2092
+2026-01-22T12:27:28Z INFO login-svc http request method=GET status=200 latency_ms=37 span=fc468989
+2026-01-22T12:27:36Z INFO login-svc http request method=GET status=200 latency_ms=56 span=13276151
+2026-01-22T12:27:47Z INFO login-svc tick ok elapsed_ms=73
+2026-01-22T12:27:58Z INFO login-svc tick ok elapsed_ms=43
+2026-01-22T12:28:11Z INFO login-svc http request method=GET status=200 latency_ms=79 span=622f5919
+2026-01-22T12:28:25Z INFO login-svc tick ok elapsed_ms=23
+2026-01-22T12:28:31Z INFO login-svc tick ok elapsed_ms=67
+2026-01-22T12:28:37Z INFO login-svc http request method=GET status=200 latency_ms=63 span=ea935a4f
+2026-01-22T12:28:46Z INFO login-svc tick ok elapsed_ms=53
+2026-01-22T12:28:55Z INFO login-svc tick ok elapsed_ms=35
+2026-01-22T12:29:09Z INFO login-svc http request method=GET status=200 latency_ms=14 span=e82c69a1
+2026-01-22T12:29:20Z INFO login-svc http request method=GET status=200 latency_ms=79 span=6ed16bf3
+2026-01-22T12:29:27Z INFO login-svc http request method=GET status=200 latency_ms=45 span=6fdfb22b
+2026-01-22T12:29:40Z INFO login-svc http request method=GET status=200 latency_ms=83 span=593fe432
+2026-01-22T12:29:50Z INFO login-svc http request method=GET status=200 latency_ms=80 span=835aa900
+2026-01-22T12:29:56Z INFO login-svc http request method=GET status=200 latency_ms=70 span=1e0dce69
+2026-01-22T12:30:06Z INFO login-svc tick ok elapsed_ms=72
+2026-01-22T12:30:20Z INFO login-svc http request method=GET status=200 latency_ms=42 span=736031f4
+2026-01-22T12:30:28Z INFO login-svc tick ok elapsed_ms=52
+2026-01-22T12:30:38Z INFO login-svc tick ok elapsed_ms=71
+2026-01-22T12:30:48Z INFO login-svc http request method=GET status=200 latency_ms=23 span=9851e5f1
+2026-01-22T12:30:55Z INFO login-svc tick ok elapsed_ms=94
+2026-01-22T12:31:02Z INFO login-svc http request method=GET status=200 latency_ms=35 span=3742ec97
+2026-01-22T12:31:11Z INFO login-svc http request method=GET status=200 latency_ms=84 span=03ca9896
+2026-01-22T12:31:18Z INFO login-svc http request method=GET status=200 latency_ms=33 span=d5f984b8
+2026-01-22T12:31:29Z INFO login-svc http request method=GET status=200 latency_ms=87 span=666b6e8b
+2026-01-22T12:31:37Z INFO login-svc http request method=GET status=200 latency_ms=77 span=7132bf4a
+2026-01-22T12:31:44Z INFO login-svc tick ok elapsed_ms=30
+2026-01-22T12:31:52Z INFO login-svc tick ok elapsed_ms=64
+2026-01-22T12:32:01Z INFO login-svc tick ok elapsed_ms=91
+2026-01-22T12:32:15Z INFO login-svc http request method=GET status=200 latency_ms=68 span=609efc66
+2026-01-22T12:32:27Z INFO login-svc tick ok elapsed_ms=26
+2026-01-22T12:32:34Z INFO login-svc tick ok elapsed_ms=38
+2026-01-22T12:32:35Z WARN login-svc client sent oversized header, truncated span=df25a780
+2026-01-22T12:32:43Z INFO login-svc tick ok elapsed_ms=29
+2026-01-22T12:32:51Z INFO login-svc http request method=GET status=200 latency_ms=40 span=5bf1c0a8
+2026-01-22T12:32:57Z INFO login-svc http request method=GET status=200 latency_ms=94 span=02e36ca3
+2026-01-22T12:33:03Z INFO login-svc http request method=GET status=200 latency_ms=32 span=dcf3d575
+2026-01-22T12:33:10Z INFO login-svc http request method=GET status=200 latency_ms=29 span=0f742408
+2026-01-22T12:33:18Z INFO login-svc http request method=GET status=200 latency_ms=94 span=f384006d
+2026-01-22T12:33:19Z WARN login-svc slow poll elapsed_ms=540
+2026-01-22T12:33:32Z INFO login-svc tick ok elapsed_ms=72
+2026-01-22T12:33:38Z INFO login-svc tick ok elapsed_ms=68
+2026-01-22T12:33:49Z INFO login-svc tick ok elapsed_ms=86
+2026-01-22T12:33:55Z INFO login-svc http request method=GET status=200 latency_ms=22 span=6d34de77
+2026-01-22T12:34:07Z INFO login-svc tick ok elapsed_ms=38
+2026-01-22T12:34:13Z INFO login-svc tick ok elapsed_ms=37
+2026-01-22T12:34:26Z INFO login-svc tick ok elapsed_ms=69
+2026-01-22T12:34:33Z INFO login-svc http request method=GET status=200 latency_ms=26 span=66cb377f
+2026-01-22T12:34:47Z INFO login-svc http request method=GET status=200 latency_ms=82 span=e71a8fa9
+2026-01-22T12:34:59Z INFO login-svc http request method=GET status=200 latency_ms=75 span=ed057fe1
+2026-01-22T12:35:12Z INFO login-svc tick ok elapsed_ms=67

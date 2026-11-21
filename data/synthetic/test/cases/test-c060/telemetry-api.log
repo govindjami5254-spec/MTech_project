@@ -1,0 +1,223 @@
+2026-02-06T14:30:17Z INFO telemetry-api http request method=GET status=200 latency_ms=13 span=c22fe4af
+2026-02-06T14:30:25Z INFO telemetry-api http request method=GET status=200 latency_ms=86 span=6a0d2454
+2026-02-06T14:30:34Z INFO telemetry-api tick ok elapsed_ms=72
+2026-02-06T14:30:48Z INFO telemetry-api http request method=GET status=200 latency_ms=54 span=1860175d
+2026-02-06T14:30:54Z INFO telemetry-api http request method=GET status=200 latency_ms=76 span=85bb12f2
+2026-02-06T14:31:03Z INFO telemetry-api http request method=GET status=200 latency_ms=80 span=988f5cd5
+2026-02-06T14:31:10Z INFO telemetry-api tick ok elapsed_ms=16
+2026-02-06T14:31:23Z INFO telemetry-api tick ok elapsed_ms=93
+2026-02-06T14:31:36Z INFO telemetry-api http request method=GET status=200 latency_ms=78 span=a1226d9c
+2026-02-06T14:31:50Z INFO telemetry-api tick ok elapsed_ms=48
+2026-02-06T14:32:02Z INFO telemetry-api http request method=GET status=200 latency_ms=36 span=73ba9929
+2026-02-06T14:32:14Z INFO telemetry-api tick ok elapsed_ms=80
+2026-02-06T14:32:23Z INFO telemetry-api http request method=GET status=200 latency_ms=72 span=55656ee0
+2026-02-06T14:32:34Z INFO telemetry-api http request method=GET status=200 latency_ms=17 span=4a9e31f3
+2026-02-06T14:32:48Z INFO telemetry-api tick ok elapsed_ms=69
+2026-02-06T14:32:59Z INFO telemetry-api http request method=GET status=200 latency_ms=94 span=d587c817
+2026-02-06T14:33:10Z INFO telemetry-api tick ok elapsed_ms=19
+2026-02-06T14:33:23Z INFO telemetry-api http request method=GET status=200 latency_ms=62 span=d42e481e
+2026-02-06T14:33:33Z INFO telemetry-api http request method=GET status=200 latency_ms=85 span=094c566b
+2026-02-06T14:33:42Z INFO telemetry-api tick ok elapsed_ms=31
+2026-02-06T14:33:48Z INFO telemetry-api tick ok elapsed_ms=23
+2026-02-06T14:33:59Z INFO telemetry-api tick ok elapsed_ms=90
+2026-02-06T14:34:06Z INFO telemetry-api http request method=GET status=200 latency_ms=46 span=1360b651
+2026-02-06T14:34:20Z INFO telemetry-api tick ok elapsed_ms=13
+2026-02-06T14:34:32Z INFO telemetry-api tick ok elapsed_ms=40
+2026-02-06T14:34:38Z INFO telemetry-api http request method=GET status=200 latency_ms=18 span=04eb97c5
+2026-02-06T14:34:52Z INFO telemetry-api tick ok elapsed_ms=87
+2026-02-06T14:35:00Z INFO telemetry-api http request method=GET status=200 latency_ms=68 span=1002c677
+2026-02-06T14:35:11Z INFO telemetry-api tick ok elapsed_ms=32
+2026-02-06T14:35:22Z ERR telemetry-api upstream device-registry status=503 span=347236c6
+2026-02-06T14:35:24Z INFO telemetry-api http request method=GET status=200 latency_ms=44 span=9b761233
+2026-02-06T14:35:24Z WARN telemetry-api tower retry: attempt 2 for device-registry
+2026-02-06T14:35:27Z ERR telemetry-api request to device-registry exhausted retry budget
+2026-02-06T14:35:28Z ERR telemetry-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to device-registry:4002 span=ad0a7f55
+2026-02-06T14:35:29Z ERR telemetry-api upstream device-registry status=503 span=f54273f0
+2026-02-06T14:35:31Z ERR telemetry-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to device-registry:4002 span=99dd573f
+2026-02-06T14:35:33Z INFO telemetry-api tick ok elapsed_ms=57
+2026-02-06T14:35:33Z ERR telemetry-api upstream device-registry status=503 span=9f81eb20
+2026-02-06T14:35:35Z ERR telemetry-api upstream device-registry status=503 span=fcee62ce
+2026-02-06T14:35:37Z ERR telemetry-api upstream device-registry status=503 span=97fa73b3
+2026-02-06T14:35:38Z ERR telemetry-api upstream device-registry status=503 span=834b00e6
+2026-02-06T14:35:40Z ERR telemetry-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to device-registry:4002 span=2713794e
+2026-02-06T14:35:42Z ERR telemetry-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to device-registry:4002 span=24671a32
+2026-02-06T14:35:44Z INFO telemetry-api tick ok elapsed_ms=64
+2026-02-06T14:35:44Z ERR telemetry-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to device-registry:4002 span=0106c640
+2026-02-06T14:35:46Z ERR telemetry-api upstream device-registry status=503 span=4b7195c2
+2026-02-06T14:35:48Z ERR telemetry-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to device-registry:4002 span=33d5c904
+2026-02-06T14:35:50Z ERR telemetry-api upstream device-registry status=503 span=4be16dee
+2026-02-06T14:35:51Z INFO telemetry-api http request method=GET status=200 latency_ms=17 span=04345cf0
+2026-02-06T14:35:51Z ERR telemetry-api upstream device-registry status=503 span=06adfe13
+2026-02-06T14:35:53Z ERR telemetry-api upstream device-registry status=503 span=3f8757b6
+2026-02-06T14:35:55Z ERR telemetry-api upstream device-registry status=503 span=406f23be
+2026-02-06T14:35:57Z ERR telemetry-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to device-registry:4002 span=bc789692
+2026-02-06T14:35:58Z ERR telemetry-api upstream device-registry status=503 span=4f50da30
+2026-02-06T14:36:00Z ERR telemetry-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to device-registry:4002 span=dcdef0c2
+2026-02-06T14:36:02Z ERR telemetry-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to device-registry:4002 span=73d52c02
+2026-02-06T14:36:04Z ERR telemetry-api upstream device-registry status=503 span=e75f10d1
+2026-02-06T14:36:05Z INFO telemetry-api http request method=GET status=200 latency_ms=22 span=c6665de3
+2026-02-06T14:36:05Z ERR telemetry-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to device-registry:4002 span=ad305240
+2026-02-06T14:36:08Z ERR telemetry-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to device-registry:4002 span=549ff054
+2026-02-06T14:36:10Z ERR telemetry-api upstream device-registry status=503 span=c06e1f04
+2026-02-06T14:36:12Z ERR telemetry-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to device-registry:4002 span=435dd1bb
+2026-02-06T14:36:14Z ERR telemetry-api upstream device-registry status=503 span=5a332f4a
+2026-02-06T14:36:15Z ERR telemetry-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to device-registry:4002 span=65149e73
+2026-02-06T14:36:17Z ERR telemetry-api upstream device-registry status=503 span=c3bf2090
+2026-02-06T14:36:19Z INFO telemetry-api tick ok elapsed_ms=44
+2026-02-06T14:36:19Z ERR telemetry-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to device-registry:4002 span=2e6902fe
+2026-02-06T14:36:21Z ERR telemetry-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to device-registry:4002 span=34e7c22d
+2026-02-06T14:36:23Z ERR telemetry-api upstream device-registry status=503 span=961c309f
+2026-02-06T14:36:25Z ERR telemetry-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to device-registry:4002 span=d462e080
+2026-02-06T14:36:26Z ERR telemetry-api upstream device-registry status=503 span=8a86d33a
+2026-02-06T14:36:28Z ERR telemetry-api upstream device-registry status=503 span=93668443
+2026-02-06T14:36:29Z INFO telemetry-api http request method=GET status=200 latency_ms=12 span=999543a3
+2026-02-06T14:36:30Z ERR telemetry-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to device-registry:4002 span=f65e00e4
+2026-02-06T14:36:31Z ERR telemetry-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to device-registry:4002 span=bfcda0f1
+2026-02-06T14:36:33Z ERR telemetry-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to device-registry:4002 span=5428e93e
+2026-02-06T14:36:34Z ERR telemetry-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to device-registry:4002 span=c63a1d17
+2026-02-06T14:36:36Z ERR telemetry-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to device-registry:4002 span=dcac8974
+2026-02-06T14:36:38Z INFO telemetry-api http request method=GET status=200 latency_ms=74 span=665e4395
+2026-02-06T14:36:38Z ERR telemetry-api upstream device-registry status=503 span=086cfb13
+2026-02-06T14:36:39Z ERR telemetry-api upstream device-registry status=503 span=9b1b15d3
+2026-02-06T14:36:41Z ERR telemetry-api upstream device-registry status=503 span=ef5ff730
+2026-02-06T14:36:43Z ERR telemetry-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to device-registry:4002 span=c9d037cc
+2026-02-06T14:36:44Z INFO telemetry-api http request method=GET status=200 latency_ms=41 span=cc95539f
+2026-02-06T14:36:44Z ERR telemetry-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to device-registry:4002 span=2c8b316b
+2026-02-06T14:36:47Z ERR telemetry-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to device-registry:4002 span=c0de6611
+2026-02-06T14:36:49Z ERR telemetry-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to device-registry:4002 span=6c914b46
+2026-02-06T14:36:51Z ERR telemetry-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to device-registry:4002 span=1903d3fb
+2026-02-06T14:36:52Z ERR telemetry-api upstream device-registry status=503 span=b32c6178
+2026-02-06T14:36:54Z ERR telemetry-api upstream device-registry status=503 span=8f738fc8
+2026-02-06T14:36:56Z INFO telemetry-api tick ok elapsed_ms=41
+2026-02-06T14:36:56Z ERR telemetry-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to device-registry:4002 span=b8cc86f4
+2026-02-06T14:36:57Z ERR telemetry-api upstream device-registry status=503 span=9bf70be1
+2026-02-06T14:36:59Z ERR telemetry-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to device-registry:4002 span=c98e86c3
+2026-02-06T14:37:00Z ERR telemetry-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to device-registry:4002 span=04873b83
+2026-02-06T14:37:02Z ERR telemetry-api upstream device-registry status=503 span=128f51cd
+2026-02-06T14:37:04Z INFO telemetry-api tick ok elapsed_ms=52
+2026-02-06T14:37:04Z ERR telemetry-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to device-registry:4002 span=3e970ef1
+2026-02-06T14:37:06Z ERR telemetry-api upstream device-registry status=503 span=99e732a5
+2026-02-06T14:37:08Z ERR telemetry-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to device-registry:4002 span=7de4c8d2
+2026-02-06T14:37:10Z ERR telemetry-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to device-registry:4002 span=e75ead83
+2026-02-06T14:37:12Z ERR telemetry-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to device-registry:4002 span=55c7a5e5
+2026-02-06T14:37:15Z ERR telemetry-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to device-registry:4002 span=fb618533
+2026-02-06T14:37:16Z INFO telemetry-api tick ok elapsed_ms=49
+2026-02-06T14:37:16Z ERR telemetry-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to device-registry:4002 span=7e57e28b
+2026-02-06T14:37:17Z ERR telemetry-api upstream device-registry status=503 span=e076288f
+2026-02-06T14:37:19Z ERR telemetry-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to device-registry:4002 span=b82c53c5
+2026-02-06T14:37:21Z ERR telemetry-api upstream device-registry status=503 span=013db338
+2026-02-06T14:37:23Z ERR telemetry-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to device-registry:4002 span=36b8159e
+2026-02-06T14:37:25Z ERR telemetry-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to device-registry:4002 span=d6a08086
+2026-02-06T14:37:26Z ERR telemetry-api upstream device-registry status=503 span=2f4fb14e
+2026-02-06T14:37:28Z INFO telemetry-api http request method=GET status=200 latency_ms=45 span=7424df4a
+2026-02-06T14:37:28Z ERR telemetry-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to device-registry:4002 span=64155ce3
+2026-02-06T14:37:29Z ERR telemetry-api upstream device-registry status=503 span=7aa5c8ab
+2026-02-06T14:37:31Z ERR telemetry-api upstream device-registry status=503 span=e85b9405
+2026-02-06T14:37:33Z ERR telemetry-api upstream device-registry status=503 span=b6eac0ca
+2026-02-06T14:37:34Z ERR telemetry-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to device-registry:4002 span=b825a763
+2026-02-06T14:37:36Z ERR telemetry-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to device-registry:4002 span=e2ad83af
+2026-02-06T14:37:37Z ERR telemetry-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to device-registry:4002 span=e736a31f
+2026-02-06T14:37:38Z INFO telemetry-api http request method=GET status=200 latency_ms=87 span=2e95dc7f
+2026-02-06T14:37:38Z ERR telemetry-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to device-registry:4002 span=2be577b8
+2026-02-06T14:37:40Z ERR telemetry-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to device-registry:4002 span=19a79a3e
+2026-02-06T14:37:41Z ERR telemetry-api upstream device-registry status=503 span=0cc8f55c
+2026-02-06T14:37:42Z ERR telemetry-api upstream device-registry status=503 span=eb474516
+2026-02-06T14:37:44Z ERR telemetry-api upstream device-registry status=503 span=6a51a96c
+2026-02-06T14:37:46Z ERR telemetry-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to device-registry:4002 span=094cf6da
+2026-02-06T14:37:48Z ERR telemetry-api upstream device-registry status=503 span=e68e23dd
+2026-02-06T14:37:51Z ERR telemetry-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to device-registry:4002 span=a8949ac5
+2026-02-06T14:37:52Z INFO telemetry-api tick ok elapsed_ms=10
+2026-02-06T14:37:53Z ERR telemetry-api upstream device-registry status=503 span=4bbaa588
+2026-02-06T14:37:54Z ERR telemetry-api upstream device-registry status=503 span=fb50aa17
+2026-02-06T14:37:56Z ERR telemetry-api upstream device-registry status=503 span=14dedcc6
+2026-02-06T14:37:58Z ERR telemetry-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to device-registry:4002 span=2213ff31
+2026-02-06T14:38:01Z ERR telemetry-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to device-registry:4002 span=be222991
+2026-02-06T14:38:02Z ERR telemetry-api upstream device-registry status=503 span=9d159dd7
+2026-02-06T14:38:03Z INFO telemetry-api tick ok elapsed_ms=40
+2026-02-06T14:38:05Z ERR telemetry-api upstream device-registry status=503 span=47b87454
+2026-02-06T14:38:06Z ERR telemetry-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to device-registry:4002 span=d10d8c5b
+2026-02-06T14:38:08Z ERR telemetry-api upstream device-registry status=503 span=bbd74ae7
+2026-02-06T14:38:10Z ERR telemetry-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to device-registry:4002 span=f7800767
+2026-02-06T14:38:12Z INFO telemetry-api http request method=GET status=200 latency_ms=41 span=84c4c4e8
+2026-02-06T14:38:13Z ERR telemetry-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to device-registry:4002 span=6cd3b2dd
+2026-02-06T14:38:14Z ERR telemetry-api upstream device-registry status=503 span=c66198f9
+2026-02-06T14:38:16Z ERR telemetry-api upstream device-registry status=503 span=a888fc1e
+2026-02-06T14:38:18Z ERR telemetry-api upstream device-registry status=503 span=d5050038
+2026-02-06T14:38:19Z INFO telemetry-api tick ok elapsed_ms=73
+2026-02-06T14:38:19Z ERR telemetry-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to device-registry:4002 span=81721fef
+2026-02-06T14:38:21Z ERR telemetry-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to device-registry:4002 span=f5015104
+2026-02-06T14:38:23Z ERR telemetry-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to device-registry:4002 span=0c237cbd
+2026-02-06T14:38:25Z INFO telemetry-api tick ok elapsed_ms=70
+2026-02-06T14:38:25Z ERR telemetry-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to device-registry:4002 span=d079e37a
+2026-02-06T14:38:27Z ERR telemetry-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to device-registry:4002 span=23316a36
+2026-02-06T14:38:28Z ERR telemetry-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to device-registry:4002 span=ee2c7bb9
+2026-02-06T14:38:30Z ERR telemetry-api upstream device-registry status=503 span=2acfd775
+2026-02-06T14:38:31Z ERR telemetry-api upstream device-registry status=503 span=17f30393
+2026-02-06T14:38:34Z ERR telemetry-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to device-registry:4002 span=9c3aac60
+2026-02-06T14:38:35Z ERR telemetry-api upstream device-registry status=503 span=9b20e8b2
+2026-02-06T14:38:37Z INFO telemetry-api tick ok elapsed_ms=35
+2026-02-06T14:38:37Z ERR telemetry-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to device-registry:4002 span=052eaee2
+2026-02-06T14:38:39Z ERR telemetry-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to device-registry:4002 span=fb71b9dc
+2026-02-06T14:38:42Z ERR telemetry-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to device-registry:4002 span=fdd8e025
+2026-02-06T14:38:43Z ERR telemetry-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to device-registry:4002 span=809cc953
+2026-02-06T14:38:44Z ERR telemetry-api upstream device-registry status=503 span=a79ee16e
+2026-02-06T14:38:45Z INFO telemetry-api http request method=GET status=200 latency_ms=69 span=f2b04e2f
+2026-02-06T14:38:46Z ERR telemetry-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to device-registry:4002 span=e9b9d7b5
+2026-02-06T14:38:48Z ERR telemetry-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to device-registry:4002 span=fbba939c
+2026-02-06T14:38:50Z ERR telemetry-api upstream device-registry status=503 span=4b3f8129
+2026-02-06T14:38:51Z ERR telemetry-api upstream device-registry status=503 span=aa8936a3
+2026-02-06T14:38:53Z ERR telemetry-api upstream device-registry status=503 span=ee2bd5d8
+2026-02-06T14:38:55Z ERR telemetry-api upstream device-registry status=503 span=2c23d753
+2026-02-06T14:38:56Z INFO telemetry-api http request method=GET status=200 latency_ms=26 span=84ea383f
+2026-02-06T14:38:57Z ERR telemetry-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to device-registry:4002 span=77d3a232
+2026-02-06T14:38:58Z ERR telemetry-api upstream device-registry status=503 span=8408926c
+2026-02-06T14:39:00Z ERR telemetry-api upstream device-registry status=503 span=11e9022e
+2026-02-06T14:39:02Z ERR telemetry-api upstream device-registry status=503 span=9d6122b5
+2026-02-06T14:39:03Z ERR telemetry-api upstream device-registry status=503 span=e83902b0
+2026-02-06T14:39:04Z INFO telemetry-api http request method=GET status=200 latency_ms=9 span=df2596f2
+2026-02-06T14:39:05Z ERR telemetry-api upstream device-registry status=503 span=f6b1f0b8
+2026-02-06T14:39:08Z ERR telemetry-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to device-registry:4002 span=923ab387
+2026-02-06T14:39:09Z ERR telemetry-api upstream device-registry status=503 span=01f423ab
+2026-02-06T14:39:11Z ERR telemetry-api upstream device-registry status=503 span=3d452787
+2026-02-06T14:39:12Z ERR telemetry-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to device-registry:4002 span=5a6b0a95
+2026-02-06T14:39:14Z INFO telemetry-api http request method=GET status=200 latency_ms=55 span=4afd67b1
+2026-02-06T14:39:14Z ERR telemetry-api upstream device-registry status=503 span=5ac3c65b
+2026-02-06T14:39:15Z ERR telemetry-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to device-registry:4002 span=2aa5e067
+2026-02-06T14:39:16Z ERR telemetry-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to device-registry:4002 span=7b685344
+2026-02-06T14:39:18Z ERR telemetry-api upstream device-registry status=503 span=4badf685
+2026-02-06T14:39:20Z INFO telemetry-api tick ok elapsed_ms=94
+2026-02-06T14:39:20Z ERR telemetry-api upstream device-registry status=503 span=2dcd6d0f
+2026-02-06T14:39:22Z ERR telemetry-api upstream device-registry status=503 span=c2bddf10
+2026-02-06T14:39:23Z ERR telemetry-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to device-registry:4002 span=3fae1247
+2026-02-06T14:39:25Z ERR telemetry-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to device-registry:4002 span=d9c819bd
+2026-02-06T14:39:26Z ERR telemetry-api upstream device-registry status=503 span=65899f2a
+2026-02-06T14:39:28Z ERR telemetry-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to device-registry:4002 span=f2bd3516
+2026-02-06T14:39:30Z ERR telemetry-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to device-registry:4002 span=e6e5359f
+2026-02-06T14:39:31Z INFO telemetry-api tick ok elapsed_ms=33
+2026-02-06T14:39:32Z ERR telemetry-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to device-registry:4002 span=455dee03
+2026-02-06T14:39:34Z ERR telemetry-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to device-registry:4002 span=94882cbb
+2026-02-06T14:39:36Z ERR telemetry-api upstream device-registry status=503 span=94681cb4
+2026-02-06T14:39:38Z ERR telemetry-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to device-registry:4002 span=f1da7469
+2026-02-06T14:39:39Z INFO telemetry-api tick ok elapsed_ms=57
+2026-02-06T14:39:40Z ERR telemetry-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to device-registry:4002 span=007682be
+2026-02-06T14:39:42Z ERR telemetry-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to device-registry:4002 span=b7ed2826
+2026-02-06T14:39:44Z ERR telemetry-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to device-registry:4002 span=8995fdb2
+2026-02-06T14:39:46Z ERR telemetry-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to device-registry:4002 span=248bfbe7
+2026-02-06T14:39:48Z ERR telemetry-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to device-registry:4002 span=e02455aa
+2026-02-06T14:39:50Z INFO telemetry-api http request method=GET status=200 latency_ms=30 span=5636a40e
+2026-02-06T14:39:50Z ERR telemetry-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to device-registry:4002 span=75fddc32
+2026-02-06T14:39:51Z ERR telemetry-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to device-registry:4002 span=df32e061
+2026-02-06T14:39:54Z ERR telemetry-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to device-registry:4002 span=c8575256
+2026-02-06T14:39:55Z ERR telemetry-api upstream device-registry status=503 span=289b3098
+2026-02-06T14:39:56Z ERR telemetry-api upstream device-registry status=503 span=b4f94115
+2026-02-06T14:39:59Z ERR telemetry-api upstream device-registry status=503 span=1f3fc510
+2026-02-06T14:40:00Z ERR telemetry-api upstream device-registry status=503 span=90838a0d
+2026-02-06T14:40:03Z INFO telemetry-api tick ok elapsed_ms=32
+2026-02-06T14:40:03Z ERR telemetry-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to device-registry:4002 span=258dcbf3
+2026-02-06T14:40:04Z ERR telemetry-api upstream device-registry status=503 span=b27b6408
+2026-02-06T14:40:06Z ERR telemetry-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to device-registry:4002 span=9abf77c7
+2026-02-06T14:40:07Z ERR telemetry-api upstream device-registry status=503 span=db06d87e
+2026-02-06T14:40:09Z ERR telemetry-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to device-registry:4002 span=ea65eca4
+2026-02-06T14:40:11Z ERR telemetry-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to device-registry:4002 span=0d40849d
+2026-02-06T14:40:13Z ERR telemetry-api hyper::Error(Connect, ConnectError("tcp connect error", Os { code: 111 })) to device-registry:4002 span=07289224
+2026-02-06T14:40:15Z ERR telemetry-api upstream device-registry status=503 span=deede029

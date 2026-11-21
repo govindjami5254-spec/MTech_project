@@ -1,0 +1,42 @@
+{
+  "schema_version": "1",
+  "case_id": "test-c016",
+  "split": "test",
+  "family_id": "tf07",
+  "stratum": "multi_hop",
+  "root_causes": [
+    "risk-db"
+  ],
+  "fault_type": "oom",
+  "expected_abstain": false,
+  "key_evidence": [
+    "risk-db.log:26",
+    "risk-db.log:31",
+    "risk-db.log:32"
+  ],
+  "relevant_evidence": [
+    "front-door.log:31",
+    "front-door.log:32",
+    "front-door.log:34",
+    "front-door.log:35",
+    "front-door.log:36",
+    "front-door.log:37",
+    "payments-api.log:32",
+    "payments-api.log:33",
+    "payments-api.log:34",
+    "risk-db.log:26",
+    "risk-db.log:31",
+    "risk-db.log:32",
+    "risk-engine.log:30",
+    "risk-engine.log:31",
+    "risk-engine.log:32"
+  ],
+  "propagation_path": [
+    "risk-db",
+    "risk-engine",
+    "payments-api",
+    "front-door"
+  ],
+  "injection_uids": [],
+  "decoy_component": null
+}

@@ -1,0 +1,72 @@
+2026-02-10T09:02:44Z INFO edge-proxy tick ok elapsed_ms=58
+2026-02-10T09:02:55Z INFO edge-proxy http request method=GET status=200 latency_ms=58 span=cb0a5d5a
+2026-02-10T09:03:05Z INFO edge-proxy tick ok elapsed_ms=54
+2026-02-10T09:03:11Z INFO edge-proxy http request method=GET status=200 latency_ms=15 span=ed1dd496
+2026-02-10T09:03:23Z INFO edge-proxy tick ok elapsed_ms=15
+2026-02-10T09:03:36Z INFO edge-proxy http request method=GET status=200 latency_ms=88 span=6161041c
+2026-02-10T09:03:43Z INFO edge-proxy tick ok elapsed_ms=16
+2026-02-10T09:03:50Z INFO edge-proxy http request method=GET status=200 latency_ms=30 span=dedcf408
+2026-02-10T09:04:02Z INFO edge-proxy tick ok elapsed_ms=19
+2026-02-10T09:04:08Z INFO edge-proxy tick ok elapsed_ms=87
+2026-02-10T09:04:17Z INFO edge-proxy tick ok elapsed_ms=39
+2026-02-10T09:04:29Z INFO edge-proxy http request method=GET status=200 latency_ms=95 span=39c9eaae
+2026-02-10T09:04:36Z INFO edge-proxy tick ok elapsed_ms=94
+2026-02-10T09:04:44Z INFO edge-proxy tick ok elapsed_ms=13
+2026-02-10T09:04:52Z INFO edge-proxy tick ok elapsed_ms=79
+2026-02-10T09:05:00Z INFO edge-proxy http request method=GET status=200 latency_ms=88 span=602f18fa
+2026-02-10T09:05:10Z INFO edge-proxy http request method=GET status=200 latency_ms=56 span=cc7c55c0
+2026-02-10T09:05:18Z INFO edge-proxy http request method=GET status=200 latency_ms=15 span=e29cd7e2
+2026-02-10T09:05:29Z INFO edge-proxy tick ok elapsed_ms=27
+2026-02-10T09:05:39Z INFO edge-proxy tick ok elapsed_ms=62
+2026-02-10T09:05:45Z INFO edge-proxy http request method=GET status=200 latency_ms=26 span=816e9a5b
+2026-02-10T09:05:53Z INFO edge-proxy tick ok elapsed_ms=13
+2026-02-10T09:06:01Z INFO edge-proxy http request method=GET status=200 latency_ms=77 span=141fa475
+2026-02-10T09:06:11Z INFO edge-proxy tick ok elapsed_ms=79
+2026-02-10T09:06:22Z INFO edge-proxy tick ok elapsed_ms=87
+2026-02-10T09:06:32Z INFO edge-proxy http request method=GET status=200 latency_ms=44 span=e3e2004e
+2026-02-10T09:06:40Z INFO edge-proxy tick ok elapsed_ms=72
+2026-02-10T09:06:48Z INFO edge-proxy http request method=GET status=200 latency_ms=66 span=0e502ed9
+2026-02-10T09:06:54Z INFO edge-proxy http request method=GET status=200 latency_ms=46 span=6ff6e176
+2026-02-10T09:07:00Z INFO edge-proxy http request method=GET status=200 latency_ms=18 span=b0bd40e9
+2026-02-10T09:07:10Z INFO edge-proxy tick ok elapsed_ms=45
+2026-02-10T09:07:16Z INFO edge-proxy tick ok elapsed_ms=57
+2026-02-10T09:07:27Z INFO edge-proxy http request method=GET status=200 latency_ms=45 span=7d43e343
+2026-02-10T09:07:33Z INFO edge-proxy http request method=GET status=200 latency_ms=35 span=876a607b
+2026-02-10T09:07:45Z INFO edge-proxy http request method=GET status=200 latency_ms=73 span=3a26fcd5
+2026-02-10T09:07:52Z INFO edge-proxy tick ok elapsed_ms=10
+2026-02-10T09:07:59Z ERR edge-proxy service unavailable: catalog-api span=c27d7a85 status=503
+2026-02-10T09:08:02Z INFO edge-proxy http request method=GET status=200 latency_ms=52 span=c995c215
+2026-02-10T09:08:02Z ERR edge-proxy service unavailable: catalog-api span=b0c8c527 status=503
+2026-02-10T09:08:05Z ERR edge-proxy service unavailable: catalog-api span=398224bc status=503
+2026-02-10T09:08:08Z INFO edge-proxy http request method=GET status=200 latency_ms=39 span=057f5224
+2026-02-10T09:08:08Z ERR edge-proxy service unavailable: catalog-api span=c72c064f status=503
+2026-02-10T09:08:11Z ERR edge-proxy service unavailable: catalog-api span=8ca98aa8 status=503
+2026-02-10T09:08:14Z ERR edge-proxy service unavailable: catalog-api span=b1337942 status=503
+2026-02-10T09:08:16Z INFO edge-proxy http request method=GET status=200 latency_ms=86 span=7d033191
+2026-02-10T09:08:23Z INFO edge-proxy http request method=GET status=200 latency_ms=63 span=7043cc64
+2026-02-10T09:08:35Z INFO edge-proxy tick ok elapsed_ms=68
+2026-02-10T09:08:42Z INFO edge-proxy tick ok elapsed_ms=49
+2026-02-10T09:08:52Z INFO edge-proxy tick ok elapsed_ms=35
+2026-02-10T09:09:02Z INFO edge-proxy tick ok elapsed_ms=12
+2026-02-10T09:09:15Z INFO edge-proxy tick ok elapsed_ms=17
+2026-02-10T09:09:26Z INFO edge-proxy tick ok elapsed_ms=50
+2026-02-10T09:09:38Z INFO edge-proxy tick ok elapsed_ms=37
+2026-02-10T09:09:49Z INFO edge-proxy http request method=GET status=200 latency_ms=47 span=d7197efb
+2026-02-10T09:09:56Z INFO edge-proxy http request method=GET status=200 latency_ms=22 span=5e9798d1
+2026-02-10T09:10:10Z INFO edge-proxy http request method=GET status=200 latency_ms=74 span=a2e47344
+2026-02-10T09:10:19Z INFO edge-proxy http request method=GET status=200 latency_ms=89 span=d2c83db9
+2026-02-10T09:10:31Z INFO edge-proxy tick ok elapsed_ms=78
+2026-02-10T09:10:45Z INFO edge-proxy http request method=GET status=200 latency_ms=20 span=88741638
+2026-02-10T09:10:59Z INFO edge-proxy http request method=GET status=200 latency_ms=58 span=1442dacb
+2026-02-10T09:11:06Z INFO edge-proxy tick ok elapsed_ms=57
+2026-02-10T09:11:13Z INFO edge-proxy http request method=GET status=200 latency_ms=12 span=b6118d81
+2026-02-10T09:11:22Z INFO edge-proxy tick ok elapsed_ms=67
+2026-02-10T09:11:34Z INFO edge-proxy tick ok elapsed_ms=34
+2026-02-10T09:11:35Z WARN edge-proxy slow poll elapsed_ms=500
+2026-02-10T09:11:47Z INFO edge-proxy tick ok elapsed_ms=74
+2026-02-10T09:11:53Z INFO edge-proxy http request method=GET status=200 latency_ms=27 span=118c33ce
+2026-02-10T09:12:03Z INFO edge-proxy tick ok elapsed_ms=53
+2026-02-10T09:12:13Z INFO edge-proxy tick ok elapsed_ms=55
+2026-02-10T09:12:21Z INFO edge-proxy tick ok elapsed_ms=93
+2026-02-10T09:12:31Z INFO edge-proxy tick ok elapsed_ms=20
+2026-02-10T09:12:32Z WARN edge-proxy client sent oversized header, truncated span=e4404012

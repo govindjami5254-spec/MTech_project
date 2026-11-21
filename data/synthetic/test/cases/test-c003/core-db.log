@@ -1,0 +1,65 @@
+2026-02-04T13:00:43Z INFO core-db tick ok elapsed_ms=77
+2026-02-04T13:00:55Z INFO core-db tick ok elapsed_ms=73
+2026-02-04T13:01:09Z INFO core-db http request method=GET status=200 latency_ms=56 span=c66246a0
+2026-02-04T13:01:18Z INFO core-db http request method=GET status=200 latency_ms=59 span=4da1fe1e
+2026-02-04T13:01:26Z INFO core-db tick ok elapsed_ms=91
+2026-02-04T13:01:37Z INFO core-db http request method=GET status=200 latency_ms=38 span=fb1b4bb5
+2026-02-04T13:01:49Z INFO core-db http request method=GET status=200 latency_ms=47 span=dfd30620
+2026-02-04T13:02:03Z INFO core-db tick ok elapsed_ms=89
+2026-02-04T13:02:10Z INFO core-db tick ok elapsed_ms=25
+2026-02-04T13:02:22Z INFO core-db http request method=GET status=200 latency_ms=44 span=3e97ff9d
+2026-02-04T13:02:34Z INFO core-db http request method=GET status=200 latency_ms=42 span=6d0aae97
+2026-02-04T13:02:44Z INFO core-db http request method=GET status=200 latency_ms=74 span=ed6780da
+2026-02-04T13:02:58Z INFO core-db http request method=GET status=200 latency_ms=54 span=78117233
+2026-02-04T13:03:08Z INFO core-db tick ok elapsed_ms=25
+2026-02-04T13:03:16Z INFO core-db tick ok elapsed_ms=43
+2026-02-04T13:03:22Z INFO core-db http request method=GET status=200 latency_ms=33 span=1c8c5e30
+2026-02-04T13:03:35Z INFO core-db http request method=GET status=200 latency_ms=32 span=108de6bd
+2026-02-04T13:03:45Z INFO core-db http request method=GET status=200 latency_ms=25 span=a9ff933a
+2026-02-04T13:03:53Z INFO core-db http request method=GET status=200 latency_ms=95 span=79496e6c
+2026-02-04T13:04:01Z INFO core-db http request method=GET status=200 latency_ms=28 span=2461d4e4
+2026-02-04T13:04:09Z INFO core-db http request method=GET status=200 latency_ms=41 span=9e9aa741
+2026-02-04T13:04:16Z INFO core-db http request method=GET status=200 latency_ms=82 span=7c6ebc3a
+2026-02-04T13:04:25Z INFO core-db http request method=GET status=200 latency_ms=74 span=cc9d9ee2
+2026-02-04T13:04:33Z INFO core-db http request method=GET status=200 latency_ms=10 span=dfb938ee
+2026-02-04T13:04:39Z INFO core-db http request method=GET status=200 latency_ms=36 span=6d7fae75
+2026-02-04T13:04:40Z WARN core-db slow poll elapsed_ms=830
+2026-02-04T13:04:52Z INFO core-db http request method=GET status=200 latency_ms=59 span=617ea624
+2026-02-04T13:04:59Z INFO core-db tick ok elapsed_ms=17
+2026-02-04T13:05:01Z WARN core-db disk usage 96% on /srv/data
+2026-02-04T13:05:05Z INFO core-db tick ok elapsed_ms=15
+2026-02-04T13:05:15Z INFO core-db http request method=GET status=200 latency_ms=30 span=e54f59e6
+2026-02-04T13:05:24Z INFO core-db tick ok elapsed_ms=63
+2026-02-04T13:05:37Z INFO core-db tick ok elapsed_ms=83
+2026-02-04T13:05:46Z ERR core-db io error: No space left on device (os error 28)
+2026-02-04T13:05:49Z FATAL core-db write path disabled: storage full
+2026-02-04T13:05:51Z INFO core-db tick ok elapsed_ms=69
+2026-02-04T13:06:00Z INFO core-db http request method=GET status=200 latency_ms=85 span=8b72ff80
+2026-02-04T13:06:09Z INFO core-db tick ok elapsed_ms=60
+2026-02-04T13:06:21Z INFO core-db http request method=GET status=200 latency_ms=25 span=acb95836
+2026-02-04T13:06:35Z INFO core-db tick ok elapsed_ms=20
+2026-02-04T13:06:43Z INFO core-db http request method=GET status=200 latency_ms=73 span=226821a5
+2026-02-04T13:06:53Z INFO core-db http request method=GET status=200 latency_ms=48 span=a80799ce
+2026-02-04T13:07:01Z INFO core-db tick ok elapsed_ms=45
+2026-02-04T13:07:15Z INFO core-db http request method=GET status=200 latency_ms=17 span=032615f8
+2026-02-04T13:07:26Z INFO core-db http request method=GET status=200 latency_ms=85 span=c531c200
+2026-02-04T13:07:40Z INFO core-db http request method=GET status=200 latency_ms=91 span=f11faa4e
+2026-02-04T13:07:47Z INFO core-db tick ok elapsed_ms=69
+2026-02-04T13:07:53Z INFO core-db tick ok elapsed_ms=68
+2026-02-04T13:08:02Z INFO core-db tick ok elapsed_ms=92
+2026-02-04T13:08:12Z INFO core-db tick ok elapsed_ms=54
+2026-02-04T13:08:20Z INFO core-db http request method=GET status=200 latency_ms=86 span=20adc3ca
+2026-02-04T13:08:26Z INFO core-db tick ok elapsed_ms=71
+2026-02-04T13:08:32Z INFO core-db tick ok elapsed_ms=74
+2026-02-04T13:08:43Z INFO core-db http request method=GET status=200 latency_ms=12 span=edffda1f
+2026-02-04T13:08:55Z INFO core-db http request method=GET status=200 latency_ms=59 span=f8a0a899
+2026-02-04T13:09:05Z INFO core-db http request method=GET status=200 latency_ms=18 span=4c8cb0fa
+2026-02-04T13:09:18Z INFO core-db tick ok elapsed_ms=23
+2026-02-04T13:09:26Z INFO core-db tick ok elapsed_ms=85
+2026-02-04T13:09:32Z INFO core-db http request method=GET status=200 latency_ms=57 span=76078966
+2026-02-04T13:09:46Z INFO core-db tick ok elapsed_ms=83
+2026-02-04T13:10:00Z INFO core-db tick ok elapsed_ms=89
+2026-02-04T13:10:06Z INFO core-db tick ok elapsed_ms=41
+2026-02-04T13:10:17Z INFO core-db tick ok elapsed_ms=88
+2026-02-04T13:10:25Z INFO core-db http request method=GET status=200 latency_ms=62 span=9ffe5220
+2026-02-04T13:10:32Z INFO core-db http request method=GET status=200 latency_ms=33 span=d2cfd3ad

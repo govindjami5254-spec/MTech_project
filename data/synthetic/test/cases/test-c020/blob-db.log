@@ -1,0 +1,68 @@
+2026-02-10T18:01:23.777+05:30 info blob-db served GET /api status=200 in 89ms trace=366e271c
+2026-02-10T18:01:34.880+05:30 info blob-db event loop lag 69ms ok
+2026-02-10T18:01:43.568+05:30 info blob-db served GET /api status=200 in 37ms trace=b0938cd9
+2026-02-10T18:01:53.633+05:30 info blob-db served GET /api status=200 in 24ms trace=49dd41b5
+2026-02-10T18:02:05.092+05:30 info blob-db served GET /api status=200 in 15ms trace=8adb6aea
+2026-02-10T18:02:11.596+05:30 info blob-db served GET /api status=200 in 40ms trace=63a10841
+2026-02-10T18:02:17.685+05:30 info blob-db served GET /api status=200 in 61ms trace=a27da6ed
+2026-02-10T18:02:28.436+05:30 info blob-db served GET /api status=200 in 81ms trace=cbde1861
+2026-02-10T18:02:41.791+05:30 info blob-db served GET /api status=200 in 89ms trace=c1a5f344
+2026-02-10T18:02:54.968+05:30 info blob-db event loop lag 24ms ok
+2026-02-10T18:03:01.089+05:30 info blob-db served GET /api status=200 in 95ms trace=adc51603
+2026-02-10T18:03:13.659+05:30 info blob-db served GET /api status=200 in 74ms trace=b1d4ff4f
+2026-02-10T18:03:25.115+05:30 info blob-db event loop lag 55ms ok
+2026-02-10T18:03:33.024+05:30 info blob-db served GET /api status=200 in 52ms trace=19082555
+2026-02-10T18:03:46.002+05:30 info blob-db event loop lag 24ms ok
+2026-02-10T18:03:52.322+05:30 info blob-db event loop lag 83ms ok
+2026-02-10T18:03:58.254+05:30 info blob-db served GET /api status=200 in 17ms trace=34122e73
+2026-02-10T18:04:12.866+05:30 info blob-db served GET /api status=200 in 61ms trace=513642e3
+2026-02-10T18:04:22.268+05:30 info blob-db served GET /api status=200 in 75ms trace=5dde8a0f
+2026-02-10T18:04:28.380+05:30 info blob-db served GET /api status=200 in 78ms trace=dd4caa7a
+2026-02-10T18:04:36.338+05:30 info blob-db served GET /api status=200 in 11ms trace=1cd489ec
+2026-02-10T18:04:45.990+05:30 info blob-db event loop lag 77ms ok
+2026-02-10T18:04:53.076+05:30 info blob-db served GET /api status=200 in 26ms trace=29617a0b
+2026-02-10T18:05:02.701+05:30 info blob-db event loop lag 35ms ok
+2026-02-10T18:05:09.537+05:30 info blob-db event loop lag 88ms ok
+2026-02-10T18:05:18.094+05:30 info blob-db event loop lag 87ms ok
+2026-02-10T18:05:19.000+05:30 warn blob-db event loop lag 360ms
+2026-02-10T18:05:26.215+05:30 warn blob-db volume /data usage 96%
+2026-02-10T18:05:27.221+05:30 info blob-db served GET /api status=200 in 26ms trace=3f2cea99
+2026-02-10T18:05:38.091+05:30 info blob-db event loop lag 22ms ok
+2026-02-10T18:05:47.661+05:30 info blob-db served GET /api status=200 in 41ms trace=9f05c3be
+2026-02-10T18:06:00.930+05:30 info blob-db event loop lag 82ms ok
+2026-02-10T18:06:09.101+05:30 info blob-db served GET /api status=200 in 21ms trace=460707a6
+2026-02-10T18:06:16.249+05:30 error blob-db Error: ENOSPC: no space left on device, write
+2026-02-10T18:06:16.856+05:30 info blob-db served GET /api status=200 in 33ms trace=10a2a281
+2026-02-10T18:06:19.097+05:30 fatal blob-db storage unavailable, exiting process
+2026-02-10T18:06:30.435+05:30 info blob-db served GET /api status=200 in 31ms trace=66f6706a
+2026-02-10T18:06:43.877+05:30 info blob-db served GET /api status=200 in 69ms trace=2bda337a
+2026-02-10T18:06:54.100+05:30 info blob-db served GET /api status=200 in 55ms trace=bdcf6eb2
+2026-02-10T18:07:02.002+05:30 info blob-db event loop lag 84ms ok
+2026-02-10T18:07:12.777+05:30 info blob-db event loop lag 81ms ok
+2026-02-10T18:07:19.527+05:30 info blob-db served GET /api status=200 in 41ms trace=aa1ebd77
+2026-02-10T18:07:28.892+05:30 info blob-db event loop lag 23ms ok
+2026-02-10T18:07:39.445+05:30 info blob-db event loop lag 84ms ok
+2026-02-10T18:07:49.451+05:30 info blob-db event loop lag 77ms ok
+2026-02-10T18:07:57.690+05:30 info blob-db event loop lag 60ms ok
+2026-02-10T18:08:03.941+05:30 info blob-db event loop lag 66ms ok
+2026-02-10T18:08:11.332+05:30 info blob-db event loop lag 59ms ok
+2026-02-10T18:08:25.637+05:30 info blob-db event loop lag 44ms ok
+2026-02-10T18:08:32.212+05:30 info blob-db served GET /api status=200 in 48ms trace=61f33d39
+2026-02-10T18:08:42.364+05:30 info blob-db served GET /api status=200 in 85ms trace=5d82f51e
+2026-02-10T18:08:53.705+05:30 info blob-db event loop lag 21ms ok
+2026-02-10T18:09:04.014+05:30 info blob-db event loop lag 87ms ok
+2026-02-10T18:09:10.145+05:30 info blob-db served GET /api status=200 in 64ms trace=3edbc0f7
+2026-02-10T18:09:16.999+05:30 info blob-db event loop lag 73ms ok
+2026-02-10T18:09:25.974+05:30 info blob-db event loop lag 61ms ok
+2026-02-10T18:09:37.551+05:30 info blob-db event loop lag 39ms ok
+2026-02-10T18:09:47.241+05:30 info blob-db served GET /api status=200 in 91ms trace=d316bc6b
+2026-02-10T18:09:55.149+05:30 info blob-db served GET /api status=200 in 65ms trace=fec3481b
+2026-02-10T18:10:06.226+05:30 info blob-db event loop lag 91ms ok
+2026-02-10T18:10:16.756+05:30 info blob-db served GET /api status=200 in 33ms trace=96e53355
+2026-02-10T18:10:23.178+05:30 info blob-db served GET /api status=200 in 21ms trace=3b6325af
+2026-02-10T18:10:30.215+05:30 info blob-db event loop lag 42ms ok
+2026-02-10T18:10:42.322+05:30 info blob-db served GET /api status=200 in 93ms trace=c5005e09
+2026-02-10T18:10:52.891+05:30 info blob-db served GET /api status=200 in 67ms trace=5ea45a13
+2026-02-10T18:10:58.474+05:30 info blob-db served GET /api status=200 in 83ms trace=6c495e0a
+2026-02-10T18:11:08.723+05:30 info blob-db event loop lag 11ms ok
+2026-02-10T18:11:15.522+05:30 info blob-db event loop lag 34ms ok

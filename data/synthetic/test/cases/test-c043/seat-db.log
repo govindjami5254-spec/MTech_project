@@ -1,0 +1,65 @@
+2026-02-13T11:04:27Z INFO seat-db tick ok elapsed_ms=36
+2026-02-13T11:04:36Z INFO seat-db tick ok elapsed_ms=74
+2026-02-13T11:04:46Z INFO seat-db http request method=GET status=200 latency_ms=26 span=6aa82af9
+2026-02-13T11:04:53Z INFO seat-db tick ok elapsed_ms=30
+2026-02-13T11:05:02Z INFO seat-db tick ok elapsed_ms=31
+2026-02-13T11:05:14Z INFO seat-db tick ok elapsed_ms=76
+2026-02-13T11:05:26Z INFO seat-db tick ok elapsed_ms=19
+2026-02-13T11:05:37Z INFO seat-db tick ok elapsed_ms=28
+2026-02-13T11:05:47Z INFO seat-db tick ok elapsed_ms=8
+2026-02-13T11:05:54Z INFO seat-db tick ok elapsed_ms=11
+2026-02-13T11:06:08Z INFO seat-db http request method=GET status=200 latency_ms=24 span=6d0e44fb
+2026-02-13T11:06:17Z INFO seat-db http request method=GET status=200 latency_ms=35 span=768dfe8c
+2026-02-13T11:06:25Z INFO seat-db http request method=GET status=200 latency_ms=63 span=df120b8c
+2026-02-13T11:06:32Z INFO seat-db tick ok elapsed_ms=53
+2026-02-13T11:06:46Z INFO seat-db http request method=GET status=200 latency_ms=57 span=2a601f8a
+2026-02-13T11:06:58Z INFO seat-db http request method=GET status=200 latency_ms=21 span=a7fb434d
+2026-02-13T11:07:06Z INFO seat-db tick ok elapsed_ms=51
+2026-02-13T11:07:14Z INFO seat-db tick ok elapsed_ms=13
+2026-02-13T11:07:23Z INFO seat-db http request method=GET status=200 latency_ms=50 span=054752b1
+2026-02-13T11:07:35Z INFO seat-db http request method=GET status=200 latency_ms=83 span=dffb1acf
+2026-02-13T11:07:47Z INFO seat-db tick ok elapsed_ms=66
+2026-02-13T11:07:56Z INFO seat-db tick ok elapsed_ms=82
+2026-02-13T11:08:07Z INFO seat-db http request method=GET status=200 latency_ms=65 span=c4524a69
+2026-02-13T11:08:15Z INFO seat-db tick ok elapsed_ms=38
+2026-02-13T11:08:23Z INFO seat-db http request method=GET status=200 latency_ms=58 span=c4f48811
+2026-02-13T11:08:33Z INFO seat-db tick ok elapsed_ms=75
+2026-02-13T11:08:44Z INFO seat-db http request method=GET status=200 latency_ms=43 span=2e9e3af9
+2026-02-13T11:08:46Z WARN seat-db bb8 pool: 148 waiters
+2026-02-13T11:08:54Z INFO seat-db http request method=GET status=200 latency_ms=85 span=93483dfc
+2026-02-13T11:09:01Z INFO seat-db http request method=GET status=200 latency_ms=69 span=85b5c812
+2026-02-13T11:09:12Z INFO seat-db http request method=GET status=200 latency_ms=24 span=3fa74da2
+2026-02-13T11:09:14Z ERR seat-db pool timed out while waiting for an open connection
+2026-02-13T11:09:19Z ERR seat-db rejecting work: connection pool exhausted
+2026-02-13T11:09:26Z INFO seat-db tick ok elapsed_ms=29
+2026-02-13T11:09:39Z INFO seat-db tick ok elapsed_ms=28
+2026-02-13T11:09:47Z INFO seat-db http request method=GET status=200 latency_ms=75 span=49da32e9
+2026-02-13T11:09:56Z INFO seat-db http request method=GET status=200 latency_ms=95 span=291a2a47
+2026-02-13T11:10:02Z INFO seat-db http request method=GET status=200 latency_ms=15 span=7cd07e08
+2026-02-13T11:10:10Z INFO seat-db http request method=GET status=200 latency_ms=87 span=e7240054
+2026-02-13T11:10:17Z INFO seat-db tick ok elapsed_ms=34
+2026-02-13T11:10:24Z INFO seat-db tick ok elapsed_ms=64
+2026-02-13T11:10:30Z INFO seat-db http request method=GET status=200 latency_ms=15 span=828c0dbc
+2026-02-13T11:10:36Z INFO seat-db http request method=GET status=200 latency_ms=16 span=e2ca0008
+2026-02-13T11:10:44Z INFO seat-db http request method=GET status=200 latency_ms=13 span=95302c99
+2026-02-13T11:10:50Z INFO seat-db tick ok elapsed_ms=37
+2026-02-13T11:10:59Z INFO seat-db http request method=GET status=200 latency_ms=83 span=31aa51f4
+2026-02-13T11:11:08Z INFO seat-db tick ok elapsed_ms=56
+2026-02-13T11:11:17Z INFO seat-db tick ok elapsed_ms=8
+2026-02-13T11:11:31Z INFO seat-db tick ok elapsed_ms=81
+2026-02-13T11:11:44Z INFO seat-db tick ok elapsed_ms=28
+2026-02-13T11:11:50Z INFO seat-db http request method=GET status=200 latency_ms=20 span=ff341654
+2026-02-13T11:12:00Z INFO seat-db http request method=GET status=200 latency_ms=28 span=643c3cf8
+2026-02-13T11:12:10Z INFO seat-db http request method=GET status=200 latency_ms=86 span=9be43c5c
+2026-02-13T11:12:24Z INFO seat-db tick ok elapsed_ms=93
+2026-02-13T11:12:38Z INFO seat-db http request method=GET status=200 latency_ms=86 span=d73932a0
+2026-02-13T11:12:45Z INFO seat-db tick ok elapsed_ms=66
+2026-02-13T11:12:52Z INFO seat-db tick ok elapsed_ms=18
+2026-02-13T11:13:04Z INFO seat-db http request method=GET status=200 latency_ms=13 span=9420489c
+2026-02-13T11:13:14Z INFO seat-db http request method=GET status=200 latency_ms=63 span=9e80148d
+2026-02-13T11:13:22Z INFO seat-db http request method=GET status=200 latency_ms=10 span=0c6cf1e0
+2026-02-13T11:13:33Z INFO seat-db http request method=GET status=200 latency_ms=89 span=db4f0699
+2026-02-13T11:13:47Z INFO seat-db http request method=GET status=200 latency_ms=87 span=a97b009e
+2026-02-13T11:13:55Z INFO seat-db tick ok elapsed_ms=51
+2026-02-13T11:14:05Z INFO seat-db tick ok elapsed_ms=10
+2026-02-13T11:14:12Z INFO seat-db tick ok elapsed_ms=70

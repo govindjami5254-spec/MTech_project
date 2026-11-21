@@ -1,0 +1,67 @@
+2026-02-03T16:53:59.987+05:30 info telemetry-api event loop lag 8ms ok
+2026-02-03T16:54:11.396+05:30 info telemetry-api event loop lag 77ms ok
+2026-02-03T16:54:24.924+05:30 info telemetry-api event loop lag 36ms ok
+2026-02-03T16:54:30.057+05:30 info telemetry-api served GET /api status=200 in 82ms trace=fd0dc125
+2026-02-03T16:54:37.077+05:30 info telemetry-api event loop lag 61ms ok
+2026-02-03T16:54:45.471+05:30 info telemetry-api event loop lag 74ms ok
+2026-02-03T16:54:53.660+05:30 info telemetry-api served GET /api status=200 in 73ms trace=912c4473
+2026-02-03T16:55:03.860+05:30 info telemetry-api event loop lag 62ms ok
+2026-02-03T16:55:13.400+05:30 info telemetry-api served GET /api status=200 in 92ms trace=7f9a3f59
+2026-02-03T16:55:26.974+05:30 info telemetry-api served GET /api status=200 in 66ms trace=2274bbef
+2026-02-03T16:55:37.319+05:30 info telemetry-api served GET /api status=200 in 95ms trace=5ef06208
+2026-02-03T16:55:48.258+05:30 info telemetry-api event loop lag 74ms ok
+2026-02-03T16:56:01.829+05:30 info telemetry-api event loop lag 74ms ok
+2026-02-03T16:56:08.919+05:30 info telemetry-api served GET /api status=200 in 58ms trace=ab0a59cf
+2026-02-03T16:56:20.999+05:30 info telemetry-api served GET /api status=200 in 29ms trace=dd8011d4
+2026-02-03T16:56:31.159+05:30 info telemetry-api served GET /api status=200 in 32ms trace=ed4e0ffe
+2026-02-03T16:56:42.881+05:30 info telemetry-api served GET /api status=200 in 15ms trace=b3a42b0e
+2026-02-03T16:56:49.051+05:30 info telemetry-api served GET /api status=200 in 19ms trace=e2eba380
+2026-02-03T16:56:55.064+05:30 info telemetry-api served GET /api status=200 in 56ms trace=89e8bf9c
+2026-02-03T16:57:02.457+05:30 info telemetry-api served GET /api status=200 in 38ms trace=e801fb29
+2026-02-03T16:57:15.736+05:30 info telemetry-api event loop lag 81ms ok
+2026-02-03T16:57:25.847+05:30 info telemetry-api served GET /api status=200 in 61ms trace=4f65df28
+2026-02-03T16:57:36.474+05:30 info telemetry-api event loop lag 76ms ok
+2026-02-03T16:57:49.185+05:30 info telemetry-api event loop lag 57ms ok
+2026-02-03T16:58:02.551+05:30 info telemetry-api event loop lag 28ms ok
+2026-02-03T16:58:12.678+05:30 info telemetry-api event loop lag 94ms ok
+2026-02-03T16:58:21.713+05:30 info telemetry-api served GET /api status=200 in 79ms trace=60a89eae
+2026-02-03T16:58:35.991+05:30 info telemetry-api served GET /api status=200 in 83ms trace=fa366453
+2026-02-03T16:58:42.245+05:30 info telemetry-api event loop lag 73ms ok
+2026-02-03T16:58:51.590+05:30 info telemetry-api event loop lag 37ms ok
+2026-02-03T16:58:52.000+05:30 warn telemetry-api unhandled header x-legacy ignored trace=c56d29e2
+2026-02-03T16:58:56.334+05:30 error telemetry-api FetchError: request to http://stream-proc:4001 failed, reason: socket hang up trace=f029a5f4
+2026-02-03T16:58:58.377+05:30 warn telemetry-api retry 2/3 for stream-proc scheduled in 500ms
+2026-02-03T16:59:01.913+05:30 error telemetry-api circuit open for stream-proc after repeated failures
+2026-02-03T16:59:03.035+05:30 info telemetry-api served GET /api status=200 in 77ms trace=54107c1e
+2026-02-03T16:59:14.787+05:30 info telemetry-api event loop lag 50ms ok
+2026-02-03T16:59:22.553+05:30 info telemetry-api served GET /api status=200 in 63ms trace=916402ab
+2026-02-03T16:59:34.010+05:30 error telemetry-api Error: connect ECONNREFUSED device-registry:4002 trace=4001bdf7
+2026-02-03T16:59:34.793+05:30 info telemetry-api event loop lag 22ms ok
+2026-02-03T16:59:36.156+05:30 warn telemetry-api retry 2/3 for device-registry scheduled in 500ms
+2026-02-03T16:59:39.896+05:30 error telemetry-api circuit open for device-registry after repeated failures
+2026-02-03T16:59:44.819+05:30 info telemetry-api served GET /api status=200 in 90ms trace=9f0f6770
+2026-02-03T16:59:55.177+05:30 info telemetry-api event loop lag 9ms ok
+2026-02-03T17:00:09.021+05:30 info telemetry-api served GET /api status=200 in 87ms trace=9a71b720
+2026-02-03T17:00:16.100+05:30 info telemetry-api served GET /api status=200 in 61ms trace=dde40c17
+2026-02-03T17:00:23.786+05:30 info telemetry-api served GET /api status=200 in 52ms trace=56d713ff
+2026-02-03T17:00:35.985+05:30 info telemetry-api event loop lag 37ms ok
+2026-02-03T17:00:43.474+05:30 info telemetry-api served GET /api status=200 in 46ms trace=6fa9eb27
+2026-02-03T17:00:54.966+05:30 info telemetry-api event loop lag 74ms ok
+2026-02-03T17:01:01.532+05:30 info telemetry-api event loop lag 71ms ok
+2026-02-03T17:01:13.832+05:30 info telemetry-api event loop lag 45ms ok
+2026-02-03T17:01:24.818+05:30 info telemetry-api served GET /api status=200 in 77ms trace=50832002
+2026-02-03T17:01:37.721+05:30 info telemetry-api served GET /api status=200 in 69ms trace=c00881f5
+2026-02-03T17:01:44.005+05:30 info telemetry-api served GET /api status=200 in 8ms trace=81aaa3b8
+2026-02-03T17:01:57.252+05:30 info telemetry-api served GET /api status=200 in 14ms trace=3a1ef66f
+2026-02-03T17:02:05.634+05:30 info telemetry-api event loop lag 74ms ok
+2026-02-03T17:02:14.383+05:30 info telemetry-api event loop lag 41ms ok
+2026-02-03T17:02:24.982+05:30 info telemetry-api served GET /api status=200 in 87ms trace=96e294f6
+2026-02-03T17:02:38.351+05:30 info telemetry-api served GET /api status=200 in 93ms trace=d8c6a4ee
+2026-02-03T17:02:46.782+05:30 info telemetry-api event loop lag 93ms ok
+2026-02-03T17:03:00.990+05:30 info telemetry-api event loop lag 13ms ok
+2026-02-03T17:03:08.396+05:30 info telemetry-api event loop lag 13ms ok
+2026-02-03T17:03:21.249+05:30 info telemetry-api served GET /api status=200 in 30ms trace=a55f480a
+2026-02-03T17:03:27.040+05:30 info telemetry-api served GET /api status=200 in 49ms trace=33fc2c83
+2026-02-03T17:03:33.692+05:30 info telemetry-api served GET /api status=200 in 67ms trace=e9123632
+2026-02-03T17:03:45.002+05:30 info telemetry-api event loop lag 29ms ok
+2026-02-03T17:03:53.196+05:30 info telemetry-api event loop lag 93ms ok

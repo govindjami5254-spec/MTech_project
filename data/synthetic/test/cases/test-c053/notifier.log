@@ -1,0 +1,57 @@
+2026-01-11T15:50:41.042+05:30 info notifier event loop lag 78ms ok
+2026-01-11T15:50:54.326+05:30 info notifier event loop lag 74ms ok
+2026-01-11T15:51:02.677+05:30 info notifier served GET /api status=200 in 8ms trace=55d12981
+2026-01-11T15:51:16.312+05:30 info notifier event loop lag 19ms ok
+2026-01-11T15:51:25.791+05:30 info notifier event loop lag 40ms ok
+2026-01-11T15:51:34.772+05:30 info notifier served GET /api status=200 in 53ms trace=17f299e6
+2026-01-11T15:51:46.917+05:30 info notifier served GET /api status=200 in 14ms trace=2bf6e17f
+2026-01-11T15:51:57.523+05:30 info notifier event loop lag 21ms ok
+2026-01-11T15:52:03.745+05:30 info notifier served GET /api status=200 in 40ms trace=a6cfdf8f
+2026-01-11T15:52:17.550+05:30 info notifier event loop lag 88ms ok
+2026-01-11T15:52:25.443+05:30 info notifier event loop lag 27ms ok
+2026-01-11T15:52:37.919+05:30 info notifier served GET /api status=200 in 28ms trace=57898b61
+2026-01-11T15:52:47.552+05:30 info notifier served GET /api status=200 in 70ms trace=deb31c46
+2026-01-11T15:53:00.279+05:30 info notifier served GET /api status=200 in 68ms trace=01e2c6e3
+2026-01-11T15:53:13.377+05:30 info notifier served GET /api status=200 in 31ms trace=67115935
+2026-01-11T15:53:24.029+05:30 info notifier served GET /api status=200 in 8ms trace=aa63d16d
+2026-01-11T15:53:33.762+05:30 info notifier event loop lag 83ms ok
+2026-01-11T15:53:42.837+05:30 info notifier served GET /api status=200 in 87ms trace=f0bf2b64
+2026-01-11T15:53:54.507+05:30 info notifier event loop lag 46ms ok
+2026-01-11T15:54:03.949+05:30 info notifier served GET /api status=200 in 19ms trace=676ca904
+2026-01-11T15:54:15.662+05:30 info notifier served GET /api status=200 in 54ms trace=070b9595
+2026-01-11T15:54:27.011+05:30 info notifier served GET /api status=200 in 41ms trace=370f8c00
+2026-01-11T15:54:37.866+05:30 info notifier served GET /api status=200 in 49ms trace=d6e3e023
+2026-01-11T15:54:50.895+05:30 info notifier event loop lag 54ms ok
+2026-01-11T15:54:56.684+05:30 info notifier event loop lag 57ms ok
+2026-01-11T15:55:08.296+05:30 info notifier served GET /api status=200 in 70ms trace=b7478d49
+2026-01-11T15:55:14.829+05:30 info notifier event loop lag 66ms ok
+2026-01-11T15:55:27.316+05:30 info notifier served GET /api status=200 in 69ms trace=ad9dc110
+2026-01-11T15:55:35.256+05:30 info notifier served GET /api status=200 in 92ms trace=6f1cfe35
+2026-01-11T15:55:48.927+05:30 info notifier served GET /api status=200 in 37ms trace=eb3ccab0
+2026-01-11T15:56:01.651+05:30 info notifier event loop lag 58ms ok
+2026-01-11T15:56:14.748+05:30 info notifier served GET /api status=200 in 38ms trace=c9adefdd
+2026-01-11T15:56:24.002+05:30 info notifier served GET /api status=200 in 56ms trace=1bc59415
+2026-01-11T15:56:35.703+05:30 info notifier served GET /api status=200 in 80ms trace=3d1b2a27
+2026-01-11T15:56:47.481+05:30 info notifier served GET /api status=200 in 57ms trace=5e669de9
+2026-01-11T15:56:57.399+05:30 info notifier served GET /api status=200 in 32ms trace=89e2d155
+2026-01-11T15:57:10.779+05:30 info notifier event loop lag 18ms ok
+2026-01-11T15:57:21.950+05:30 info notifier event loop lag 95ms ok
+2026-01-11T15:57:32.929+05:30 info notifier served GET /api status=200 in 18ms trace=d0e99f21
+2026-01-11T15:57:46.300+05:30 info notifier served GET /api status=200 in 42ms trace=c9e0ed9d
+2026-01-11T15:58:00.496+05:30 info notifier served GET /api status=200 in 74ms trace=60865fe0
+2026-01-11T15:58:08.156+05:30 info notifier served GET /api status=200 in 64ms trace=9d26f533
+2026-01-11T15:58:15.858+05:30 info notifier served GET /api status=200 in 11ms trace=46941309
+2026-01-11T15:58:23.801+05:30 info notifier served GET /api status=200 in 33ms trace=bfbbb923
+2026-01-11T15:58:33.580+05:30 info notifier served GET /api status=200 in 86ms trace=911fa4d2
+2026-01-11T15:58:47.419+05:30 info notifier event loop lag 87ms ok
+2026-01-11T15:58:54.712+05:30 info notifier served GET /api status=200 in 79ms trace=308540a3
+2026-01-11T15:59:02.824+05:30 info notifier event loop lag 83ms ok
+2026-01-11T15:59:11.209+05:30 info notifier event loop lag 84ms ok
+2026-01-11T15:59:20.776+05:30 info notifier served GET /api status=200 in 56ms trace=868a7f60
+2026-01-11T15:59:33.601+05:30 info notifier served GET /api status=200 in 19ms trace=f4e58362
+2026-01-11T15:59:46.547+05:30 info notifier served GET /api status=200 in 23ms trace=e694268b
+2026-01-11T15:59:58.228+05:30 info notifier event loop lag 51ms ok
+2026-01-11T16:00:05.137+05:30 info notifier served GET /api status=200 in 29ms trace=5554f0d5
+2026-01-11T16:00:11.757+05:30 info notifier served GET /api status=200 in 37ms trace=ef05d4ad
+2026-01-11T16:00:12.000+05:30 warn notifier event loop lag 400ms
+2026-01-11T16:00:25.254+05:30 info notifier event loop lag 31ms ok

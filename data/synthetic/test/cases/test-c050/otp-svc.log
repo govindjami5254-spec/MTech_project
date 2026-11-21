@@ -1,0 +1,63 @@
+2026-01-07T17:42:53.942+05:30 info otp-svc served GET /api status=200 in 79ms trace=542f56b7
+2026-01-07T17:43:03.957+05:30 info otp-svc served GET /api status=200 in 25ms trace=d2017c60
+2026-01-07T17:43:13.372+05:30 info otp-svc served GET /api status=200 in 20ms trace=0ee5fdbb
+2026-01-07T17:43:23.035+05:30 info otp-svc event loop lag 51ms ok
+2026-01-07T17:43:29.595+05:30 info otp-svc served GET /api status=200 in 31ms trace=dc07f3b2
+2026-01-07T17:43:38.772+05:30 info otp-svc event loop lag 46ms ok
+2026-01-07T17:43:44.550+05:30 info otp-svc served GET /api status=200 in 76ms trace=ad5ab00b
+2026-01-07T17:43:56.845+05:30 info otp-svc served GET /api status=200 in 60ms trace=76a2ffed
+2026-01-07T17:44:10.129+05:30 info otp-svc event loop lag 59ms ok
+2026-01-07T17:44:22.703+05:30 info otp-svc served GET /api status=200 in 84ms trace=74402b74
+2026-01-07T17:44:35.589+05:30 info otp-svc event loop lag 61ms ok
+2026-01-07T17:44:45.233+05:30 info otp-svc served GET /api status=200 in 48ms trace=c4fb19ad
+2026-01-07T17:44:53.294+05:30 info otp-svc event loop lag 92ms ok
+2026-01-07T17:45:02.746+05:30 info otp-svc event loop lag 22ms ok
+2026-01-07T17:45:15.723+05:30 info otp-svc event loop lag 13ms ok
+2026-01-07T17:45:18.846+05:30 error otp-svc push notification provider returned 429 Too Many Requests
+2026-01-07T17:45:21.273+05:30 info otp-svc event loop lag 58ms ok
+2026-01-07T17:45:29.271+05:30 info otp-svc served GET /api status=200 in 16ms trace=c04833f4
+2026-01-07T17:45:29.951+05:30 error otp-svc push notification provider returned 429 Too Many Requests
+2026-01-07T17:45:39.630+05:30 info otp-svc event loop lag 18ms ok
+2026-01-07T17:45:45.181+05:30 info otp-svc event loop lag 25ms ok
+2026-01-07T17:45:51.025+05:30 info otp-svc served GET /api status=200 in 90ms trace=a5564467
+2026-01-07T17:46:04.433+05:30 info otp-svc event loop lag 31ms ok
+2026-01-07T17:46:12.469+05:30 info otp-svc served GET /api status=200 in 29ms trace=2031942a
+2026-01-07T17:46:22.628+05:30 info otp-svc event loop lag 11ms ok
+2026-01-07T17:46:28.905+05:30 info otp-svc served GET /api status=200 in 17ms trace=22681a08
+2026-01-07T17:46:37.276+05:30 info otp-svc event loop lag 51ms ok
+2026-01-07T17:46:49.189+05:30 info otp-svc served GET /api status=200 in 69ms trace=05ccae0d
+2026-01-07T17:46:56.399+05:30 info otp-svc event loop lag 88ms ok
+2026-01-07T17:47:09.110+05:30 info otp-svc event loop lag 28ms ok
+2026-01-07T17:47:16.304+05:30 info otp-svc served GET /api status=200 in 59ms trace=a686bfaf
+2026-01-07T17:47:24.751+05:30 info otp-svc served GET /api status=200 in 71ms trace=53331d4f
+2026-01-07T17:47:37.112+05:30 info otp-svc event loop lag 28ms ok
+2026-01-07T17:47:43.889+05:30 info otp-svc served GET /api status=200 in 51ms trace=90e16f5e
+2026-01-07T17:47:55.684+05:30 info otp-svc event loop lag 54ms ok
+2026-01-07T17:48:03.298+05:30 info otp-svc event loop lag 42ms ok
+2026-01-07T17:48:14.150+05:30 info otp-svc event loop lag 21ms ok
+2026-01-07T17:48:24.082+05:30 info otp-svc event loop lag 35ms ok
+2026-01-07T17:48:34.821+05:30 info otp-svc event loop lag 71ms ok
+2026-01-07T17:48:45.787+05:30 info otp-svc served GET /api status=200 in 65ms trace=92d02858
+2026-01-07T17:48:52.880+05:30 info otp-svc served GET /api status=200 in 22ms trace=c1af9003
+2026-01-07T17:49:00.280+05:30 info otp-svc event loop lag 50ms ok
+2026-01-07T17:49:06.526+05:30 info otp-svc served GET /api status=200 in 22ms trace=05a69147
+2026-01-07T17:49:12.037+05:30 info otp-svc event loop lag 46ms ok
+2026-01-07T17:49:19.097+05:30 info otp-svc served GET /api status=200 in 75ms trace=7c507076
+2026-01-07T17:49:31.927+05:30 info otp-svc served GET /api status=200 in 56ms trace=3c10c3a4
+2026-01-07T17:49:41.241+05:30 info otp-svc served GET /api status=200 in 72ms trace=9f6dd158
+2026-01-07T17:49:53.336+05:30 info otp-svc served GET /api status=200 in 55ms trace=d30c1e0a
+2026-01-07T17:50:00.556+05:30 info otp-svc event loop lag 61ms ok
+2026-01-07T17:50:11.161+05:30 info otp-svc event loop lag 61ms ok
+2026-01-07T17:50:24.885+05:30 info otp-svc served GET /api status=200 in 13ms trace=9bca1df0
+2026-01-07T17:50:36.143+05:30 info otp-svc event loop lag 28ms ok
+2026-01-07T17:50:47.231+05:30 info otp-svc served GET /api status=200 in 23ms trace=e7c60c84
+2026-01-07T17:50:59.779+05:30 info otp-svc event loop lag 89ms ok
+2026-01-07T17:51:07.504+05:30 info otp-svc served GET /api status=200 in 30ms trace=137692ab
+2026-01-07T17:51:13.269+05:30 info otp-svc served GET /api status=200 in 67ms trace=eb3b1552
+2026-01-07T17:51:26.656+05:30 info otp-svc event loop lag 20ms ok
+2026-01-07T17:51:37.563+05:30 info otp-svc event loop lag 22ms ok
+2026-01-07T17:51:46.066+05:30 info otp-svc served GET /api status=200 in 44ms trace=8bfb98ee
+2026-01-07T17:51:56.626+05:30 info otp-svc event loop lag 14ms ok
+2026-01-07T17:52:10.365+05:30 info otp-svc event loop lag 72ms ok
+2026-01-07T17:52:21.955+05:30 info otp-svc event loop lag 40ms ok
+2026-01-07T17:52:31.447+05:30 info otp-svc event loop lag 76ms ok

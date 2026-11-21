@@ -1,0 +1,63 @@
+2026-02-01 12:42:03,047 INFO booking-svc GET /v1/items 200 75ms req_id=417d7c33
+2026-02-01 12:42:15,803 INFO booking-svc GET /v1/items 200 26ms req_id=700c7d88
+2026-02-01 12:42:27,090 INFO booking-svc worker heartbeat ok (10ms)
+2026-02-01 12:42:35,449 INFO booking-svc worker heartbeat ok (76ms)
+2026-02-01 12:42:44,414 INFO booking-svc worker heartbeat ok (56ms)
+2026-02-01 12:42:58,164 INFO booking-svc worker heartbeat ok (13ms)
+2026-02-01 12:43:08,382 INFO booking-svc worker heartbeat ok (44ms)
+2026-02-01 12:43:19,174 INFO booking-svc GET /v1/items 200 55ms req_id=d2d5355f
+2026-02-01 12:43:26,342 INFO booking-svc GET /v1/items 200 16ms req_id=8c782db9
+2026-02-01 12:43:36,484 INFO booking-svc GET /v1/items 200 62ms req_id=2c7fb413
+2026-02-01 12:43:43,869 INFO booking-svc worker heartbeat ok (13ms)
+2026-02-01 12:43:55,460 INFO booking-svc GET /v1/items 200 12ms req_id=426c4d2a
+2026-02-01 12:44:02,705 INFO booking-svc worker heartbeat ok (44ms)
+2026-02-01 12:44:16,524 INFO booking-svc worker heartbeat ok (36ms)
+2026-02-01 12:44:28,740 INFO booking-svc GET /v1/items 200 88ms req_id=7af8c826
+2026-02-01 12:44:41,336 INFO booking-svc GET /v1/items 200 93ms req_id=8c434b01
+2026-02-01 12:44:50,071 INFO booking-svc GET /v1/items 200 39ms req_id=63c6792a
+2026-02-01 12:45:03,782 INFO booking-svc worker heartbeat ok (40ms)
+2026-02-01 12:45:13,302 INFO booking-svc GET /v1/items 200 38ms req_id=9c101bbd
+2026-02-01 12:45:24,782 INFO booking-svc worker heartbeat ok (47ms)
+2026-02-01 12:45:38,610 INFO booking-svc GET /v1/items 200 67ms req_id=aec3c740
+2026-02-01 12:45:49,395 INFO booking-svc worker heartbeat ok (19ms)
+2026-02-01 12:45:57,870 INFO booking-svc GET /v1/items 200 61ms req_id=699af520
+2026-02-01 12:46:10,483 INFO booking-svc worker heartbeat ok (53ms)
+2026-02-01 12:46:18,599 INFO booking-svc worker heartbeat ok (12ms)
+2026-02-01 12:46:32,651 INFO booking-svc worker heartbeat ok (57ms)
+2026-02-01 12:46:40,092 INFO booking-svc GET /v1/items 200 77ms req_id=0105f2ff
+2026-02-01 12:46:48,410 ERROR booking-svc upstream fare-svc replied 503 Service Unavailable req_id=de3adb01
+2026-02-01 12:46:50,776 WARNING booking-svc urllib3 retrying (fare-svc) after connection broken
+2026-02-01 12:46:53,170 INFO booking-svc worker heartbeat ok (48ms)
+2026-02-01 12:46:53,742 ERROR booking-svc aborting request: fare-svc unreachable after retries
+2026-02-01 12:47:03,378 INFO booking-svc worker heartbeat ok (78ms)
+2026-02-01 12:47:16,909 INFO booking-svc worker heartbeat ok (13ms)
+2026-02-01 12:47:29,643 INFO booking-svc worker heartbeat ok (22ms)
+2026-02-01 12:47:36,010 INFO booking-svc worker heartbeat ok (66ms)
+2026-02-01 12:47:50,781 INFO booking-svc worker heartbeat ok (72ms)
+2026-02-01 12:47:57,714 INFO booking-svc worker heartbeat ok (43ms)
+2026-02-01 12:48:07,102 INFO booking-svc GET /v1/items 200 93ms req_id=10c22dbc
+2026-02-01 12:48:16,006 INFO booking-svc worker heartbeat ok (90ms)
+2026-02-01 12:48:27,155 INFO booking-svc worker heartbeat ok (83ms)
+2026-02-01 12:48:33,502 INFO booking-svc GET /v1/items 200 61ms req_id=d44cdeb6
+2026-02-01 12:48:47,761 INFO booking-svc GET /v1/items 200 44ms req_id=469b123b
+2026-02-01 12:48:55,426 INFO booking-svc GET /v1/items 200 95ms req_id=392964fd
+2026-02-01 12:49:07,248 INFO booking-svc worker heartbeat ok (38ms)
+2026-02-01 12:49:13,642 INFO booking-svc GET /v1/items 200 9ms req_id=039a125c
+2026-02-01 12:49:20,448 INFO booking-svc worker heartbeat ok (38ms)
+2026-02-01 12:49:26,293 INFO booking-svc GET /v1/items 200 54ms req_id=98f79663
+2026-02-01 12:49:33,152 INFO booking-svc worker heartbeat ok (9ms)
+2026-02-01 12:49:45,133 INFO booking-svc worker heartbeat ok (92ms)
+2026-02-01 12:49:53,206 INFO booking-svc worker heartbeat ok (68ms)
+2026-02-01 12:50:04,633 INFO booking-svc GET /v1/items 200 89ms req_id=6369e261
+2026-02-01 12:50:18,912 INFO booking-svc worker heartbeat ok (85ms)
+2026-02-01 12:50:25,055 INFO booking-svc GET /v1/items 200 53ms req_id=8658c2a6
+2026-02-01 12:50:37,462 INFO booking-svc worker heartbeat ok (73ms)
+2026-02-01 12:50:47,499 INFO booking-svc GET /v1/items 200 35ms req_id=4a63116e
+2026-02-01 12:50:53,030 INFO booking-svc GET /v1/items 200 65ms req_id=ec673207
+2026-02-01 12:51:05,211 INFO booking-svc worker heartbeat ok (92ms)
+2026-02-01 12:51:13,567 INFO booking-svc worker heartbeat ok (30ms)
+2026-02-01 12:51:22,319 INFO booking-svc worker heartbeat ok (19ms)
+2026-02-01 12:51:30,106 INFO booking-svc GET /v1/items 200 22ms req_id=0da8e6fd
+2026-02-01 12:51:31,000 WARNING booking-svc slow query took 460ms req_id=8085bb23
+2026-02-01 12:51:42,713 INFO booking-svc worker heartbeat ok (91ms)
+2026-02-01 12:51:55,914 INFO booking-svc GET /v1/items 200 79ms req_id=714b54db

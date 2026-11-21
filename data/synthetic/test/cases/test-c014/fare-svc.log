@@ -1,0 +1,246 @@
+2026-02-11T14:46:57.903+05:30 info fare-svc event loop lag 30ms ok
+2026-02-11T14:47:08.622+05:30 info fare-svc served GET /api status=200 in 12ms trace=ac4a927b
+2026-02-11T14:47:15.528+05:30 info fare-svc served GET /api status=200 in 17ms trace=fa3674d1
+2026-02-11T14:47:29.671+05:30 info fare-svc event loop lag 46ms ok
+2026-02-11T14:47:38.101+05:30 info fare-svc served GET /api status=200 in 13ms trace=d8ca92bd
+2026-02-11T14:47:52.890+05:30 info fare-svc served GET /api status=200 in 18ms trace=be23a871
+2026-02-11T14:47:58.673+05:30 info fare-svc served GET /api status=200 in 62ms trace=c3f48ce1
+2026-02-11T14:48:12.561+05:30 info fare-svc served GET /api status=200 in 41ms trace=a4aa82dc
+2026-02-11T14:48:23.093+05:30 info fare-svc served GET /api status=200 in 94ms trace=f339022d
+2026-02-11T14:48:31.539+05:30 info fare-svc event loop lag 46ms ok
+2026-02-11T14:48:32.000+05:30 warn fare-svc unhandled header x-legacy ignored trace=e80d9f15
+2026-02-11T14:48:42.712+05:30 info fare-svc event loop lag 59ms ok
+2026-02-11T14:48:56.255+05:30 info fare-svc event loop lag 49ms ok
+2026-02-11T14:49:05.683+05:30 info fare-svc served GET /api status=200 in 26ms trace=afdccf98
+2026-02-11T14:49:12.894+05:30 info fare-svc event loop lag 60ms ok
+2026-02-11T14:49:19.675+05:30 info fare-svc event loop lag 31ms ok
+2026-02-11T14:49:26.550+05:30 info fare-svc served GET /api status=200 in 49ms trace=99c825ec
+2026-02-11T14:49:34.059+05:30 info fare-svc served GET /api status=200 in 26ms trace=bb93f90e
+2026-02-11T14:49:47.438+05:30 info fare-svc event loop lag 69ms ok
+2026-02-11T14:49:56.592+05:30 info fare-svc served GET /api status=200 in 47ms trace=a2c3f7cc
+2026-02-11T14:50:09.198+05:30 info fare-svc event loop lag 23ms ok
+2026-02-11T14:50:23.771+05:30 info fare-svc event loop lag 58ms ok
+2026-02-11T14:50:29.328+05:30 info fare-svc served GET /api status=200 in 82ms trace=457b2bfe
+2026-02-11T14:50:42.498+05:30 info fare-svc event loop lag 74ms ok
+2026-02-11T14:50:55.555+05:30 info fare-svc event loop lag 13ms ok
+2026-02-11T14:51:04.593+05:30 info fare-svc served GET /api status=200 in 55ms trace=406f119f
+2026-02-11T14:51:12.294+05:30 info fare-svc event loop lag 54ms ok
+2026-02-11T14:51:25.319+05:30 info fare-svc served GET /api status=200 in 48ms trace=418b548f
+2026-02-11T14:51:33.995+05:30 error fare-svc Error: connect ECONNREFUSED fare-cache:11211 trace=eda14853
+2026-02-11T14:51:35.769+05:30 warn fare-svc retry 2/3 for fare-cache scheduled in 500ms
+2026-02-11T14:51:38.075+05:30 error fare-svc circuit open for fare-cache after repeated failures
+2026-02-11T14:51:39.122+05:30 info fare-svc event loop lag 62ms ok
+2026-02-11T14:51:39.884+05:30 error fare-svc Error: connect ECONNREFUSED fare-cache:11211 trace=b5ec821b
+2026-02-11T14:51:40.000+05:30 warn fare-svc unhandled header x-legacy ignored trace=814d50f6
+2026-02-11T14:51:41.712+05:30 error fare-svc Error: connect ECONNREFUSED fare-cache:11211 trace=c3ff6427
+2026-02-11T14:51:43.320+05:30 error fare-svc Error: connect ECONNREFUSED fare-cache:11211 trace=154de866
+2026-02-11T14:51:45.160+05:30 error fare-svc FetchError: request to http://fare-cache:11211 failed, reason: socket hang up trace=14780e6c
+2026-02-11T14:51:47.023+05:30 error fare-svc FetchError: request to http://fare-cache:11211 failed, reason: socket hang up trace=182b42bf
+2026-02-11T14:51:48.585+05:30 error fare-svc Error: connect ECONNREFUSED fare-cache:11211 trace=db90ba35
+2026-02-11T14:51:50.370+05:30 error fare-svc Error: connect ECONNREFUSED fare-cache:11211 trace=e11d258c
+2026-02-11T14:51:52.530+05:30 error fare-svc Error: connect ECONNREFUSED fare-cache:11211 trace=9dfbcdbe
+2026-02-11T14:51:53.526+05:30 info fare-svc event loop lag 75ms ok
+2026-02-11T14:51:54.797+05:30 error fare-svc FetchError: request to http://fare-cache:11211 failed, reason: socket hang up trace=fd3b29e4
+2026-02-11T14:51:55.571+05:30 error fare-svc FetchError: request to http://fare-cache:11211 failed, reason: socket hang up trace=98b70cdd
+2026-02-11T14:51:58.466+05:30 error fare-svc FetchError: request to http://fare-cache:11211 failed, reason: socket hang up trace=1a489996
+2026-02-11T14:51:59.514+05:30 error fare-svc FetchError: request to http://fare-cache:11211 failed, reason: socket hang up trace=04d903cb
+2026-02-11T14:52:02.078+05:30 info fare-svc event loop lag 51ms ok
+2026-02-11T14:52:02.095+05:30 error fare-svc Error: connect ECONNREFUSED fare-cache:11211 trace=5369ca20
+2026-02-11T14:52:04.102+05:30 error fare-svc Error: connect ECONNREFUSED fare-cache:11211 trace=7d5824c5
+2026-02-11T14:52:06.618+05:30 error fare-svc FetchError: request to http://fare-cache:11211 failed, reason: socket hang up trace=6b082f44
+2026-02-11T14:52:08.624+05:30 error fare-svc Error: connect ECONNREFUSED fare-cache:11211 trace=9fdef954
+2026-02-11T14:52:09.659+05:30 error fare-svc Error: connect ECONNREFUSED fare-cache:11211 trace=d0b4941a
+2026-02-11T14:52:11.086+05:30 error fare-svc FetchError: request to http://fare-cache:11211 failed, reason: socket hang up trace=564859ed
+2026-02-11T14:52:12.216+05:30 info fare-svc served GET /api status=200 in 67ms trace=8edc8000
+2026-02-11T14:52:13.107+05:30 error fare-svc Error: connect ECONNREFUSED fare-cache:11211 trace=bf6e98f8
+2026-02-11T14:52:14.626+05:30 error fare-svc Error: connect ECONNREFUSED fare-cache:11211 trace=79b68333
+2026-02-11T14:52:16.873+05:30 error fare-svc Error: connect ECONNREFUSED fare-cache:11211 trace=338cb39e
+2026-02-11T14:52:19.236+05:30 error fare-svc Error: connect ECONNREFUSED fare-cache:11211 trace=66101816
+2026-02-11T14:52:20.891+05:30 info fare-svc event loop lag 84ms ok
+2026-02-11T14:52:20.952+05:30 error fare-svc FetchError: request to http://fare-cache:11211 failed, reason: socket hang up trace=2922113b
+2026-02-11T14:52:22.466+05:30 error fare-svc FetchError: request to http://fare-cache:11211 failed, reason: socket hang up trace=7f794cb6
+2026-02-11T14:52:23.275+05:30 error fare-svc Error: connect ECONNREFUSED fare-cache:11211 trace=3fe5b019
+2026-02-11T14:52:25.010+05:30 error fare-svc FetchError: request to http://fare-cache:11211 failed, reason: socket hang up trace=427b5394
+2026-02-11T14:52:27.362+05:30 error fare-svc FetchError: request to http://fare-cache:11211 failed, reason: socket hang up trace=87b67c09
+2026-02-11T14:52:29.443+05:30 error fare-svc Error: connect ECONNREFUSED fare-cache:11211 trace=41c349b9
+2026-02-11T14:52:30.089+05:30 error fare-svc Error: connect ECONNREFUSED fare-cache:11211 trace=ee6d850d
+2026-02-11T14:52:31.196+05:30 error fare-svc FetchError: request to http://fare-cache:11211 failed, reason: socket hang up trace=9f0a2cd4
+2026-02-11T14:52:32.791+05:30 error fare-svc Error: connect ECONNREFUSED fare-cache:11211 trace=cfc5d895
+2026-02-11T14:52:34.149+05:30 error fare-svc FetchError: request to http://fare-cache:11211 failed, reason: socket hang up trace=39d8bfe0
+2026-02-11T14:52:34.252+05:30 info fare-svc served GET /api status=200 in 43ms trace=bf4fef0f
+2026-02-11T14:52:35.409+05:30 error fare-svc FetchError: request to http://fare-cache:11211 failed, reason: socket hang up trace=9143e91b
+2026-02-11T14:52:36.787+05:30 error fare-svc Error: connect ECONNREFUSED fare-cache:11211 trace=0b93a056
+2026-02-11T14:52:38.940+05:30 error fare-svc Error: connect ECONNREFUSED fare-cache:11211 trace=648cf236
+2026-02-11T14:52:40.353+05:30 error fare-svc FetchError: request to http://fare-cache:11211 failed, reason: socket hang up trace=40f72953
+2026-02-11T14:52:40.823+05:30 info fare-svc event loop lag 15ms ok
+2026-02-11T14:52:42.135+05:30 error fare-svc Error: connect ECONNREFUSED fare-cache:11211 trace=29423d0a
+2026-02-11T14:52:43.409+05:30 error fare-svc FetchError: request to http://fare-cache:11211 failed, reason: socket hang up trace=aaa4fc4e
+2026-02-11T14:52:46.057+05:30 info fare-svc served GET /api status=200 in 39ms trace=fdabd4d7
+2026-02-11T14:52:46.122+05:30 error fare-svc Error: connect ECONNREFUSED fare-cache:11211 trace=3e190d46
+2026-02-11T14:52:47.652+05:30 error fare-svc FetchError: request to http://fare-cache:11211 failed, reason: socket hang up trace=e0cc00de
+2026-02-11T14:52:48.812+05:30 error fare-svc Error: connect ECONNREFUSED fare-cache:11211 trace=adbfaa04
+2026-02-11T14:52:51.104+05:30 error fare-svc FetchError: request to http://fare-cache:11211 failed, reason: socket hang up trace=f348ae42
+2026-02-11T14:52:52.529+05:30 error fare-svc Error: connect ECONNREFUSED fare-cache:11211 trace=6463c47a
+2026-02-11T14:52:54.264+05:30 error fare-svc FetchError: request to http://fare-cache:11211 failed, reason: socket hang up trace=f9357b45
+2026-02-11T14:52:56.186+05:30 error fare-svc Error: connect ECONNREFUSED fare-cache:11211 trace=488855aa
+2026-02-11T14:52:58.006+05:30 error fare-svc Error: connect ECONNREFUSED fare-cache:11211 trace=e657a99d
+2026-02-11T14:52:59.988+05:30 info fare-svc served GET /api status=200 in 61ms trace=9915a3d9
+2026-02-11T14:53:00.054+05:30 error fare-svc FetchError: request to http://fare-cache:11211 failed, reason: socket hang up trace=f123bdc3
+2026-02-11T14:53:02.186+05:30 error fare-svc FetchError: request to http://fare-cache:11211 failed, reason: socket hang up trace=702666fb
+2026-02-11T14:53:04.401+05:30 error fare-svc FetchError: request to http://fare-cache:11211 failed, reason: socket hang up trace=a72bbd2c
+2026-02-11T14:53:06.947+05:30 error fare-svc Error: connect ECONNREFUSED fare-cache:11211 trace=8b1f1e59
+2026-02-11T14:53:08.664+05:30 error fare-svc Error: connect ECONNREFUSED fare-cache:11211 trace=2701028b
+2026-02-11T14:53:10.613+05:30 error fare-svc Error: connect ECONNREFUSED fare-cache:11211 trace=7e6c5bd9
+2026-02-11T14:53:11.369+05:30 error fare-svc Error: connect ECONNREFUSED fare-cache:11211 trace=87c198c4
+2026-02-11T14:53:11.479+05:30 info fare-svc event loop lag 30ms ok
+2026-02-11T14:53:13.672+05:30 error fare-svc FetchError: request to http://fare-cache:11211 failed, reason: socket hang up trace=c9e38a49
+2026-02-11T14:53:15.314+05:30 error fare-svc FetchError: request to http://fare-cache:11211 failed, reason: socket hang up trace=a636adda
+2026-02-11T14:53:17.900+05:30 error fare-svc Error: connect ECONNREFUSED fare-cache:11211 trace=56d4c03e
+2026-02-11T14:53:18.148+05:30 error fare-svc Error: connect ECONNREFUSED fare-cache:11211 trace=d9629166
+2026-02-11T14:53:20.106+05:30 error fare-svc Error: connect ECONNREFUSED fare-cache:11211 trace=df351bc4
+2026-02-11T14:53:22.174+05:30 error fare-svc FetchError: request to http://fare-cache:11211 failed, reason: socket hang up trace=cbcaa956
+2026-02-11T14:53:23.130+05:30 error fare-svc FetchError: request to http://fare-cache:11211 failed, reason: socket hang up trace=0b57cc50
+2026-02-11T14:53:23.593+05:30 info fare-svc event loop lag 19ms ok
+2026-02-11T14:53:25.058+05:30 error fare-svc FetchError: request to http://fare-cache:11211 failed, reason: socket hang up trace=fb43d3c3
+2026-02-11T14:53:27.733+05:30 error fare-svc Error: connect ECONNREFUSED fare-cache:11211 trace=8d5339de
+2026-02-11T14:53:29.436+05:30 error fare-svc FetchError: request to http://fare-cache:11211 failed, reason: socket hang up trace=d4525ea3
+2026-02-11T14:53:31.251+05:30 error fare-svc Error: connect ECONNREFUSED fare-cache:11211 trace=67a03042
+2026-02-11T14:53:32.229+05:30 info fare-svc served GET /api status=200 in 92ms trace=736655a9
+2026-02-11T14:53:32.743+05:30 error fare-svc FetchError: request to http://fare-cache:11211 failed, reason: socket hang up trace=423f5391
+2026-02-11T14:53:35.088+05:30 error fare-svc FetchError: request to http://fare-cache:11211 failed, reason: socket hang up trace=60f30048
+2026-02-11T14:53:37.365+05:30 error fare-svc FetchError: request to http://fare-cache:11211 failed, reason: socket hang up trace=0ea3d988
+2026-02-11T14:53:39.132+05:30 error fare-svc Error: connect ECONNREFUSED fare-cache:11211 trace=71bf492e
+2026-02-11T14:53:41.497+05:30 info fare-svc event loop lag 11ms ok
+2026-02-11T14:53:42.240+05:30 error fare-svc Error: connect ECONNREFUSED fare-cache:11211 trace=340c52e2
+2026-02-11T14:53:43.024+05:30 error fare-svc Error: connect ECONNREFUSED fare-cache:11211 trace=72752441
+2026-02-11T14:53:45.628+05:30 error fare-svc Error: connect ECONNREFUSED fare-cache:11211 trace=7e7c9634
+2026-02-11T14:53:47.085+05:30 error fare-svc Error: connect ECONNREFUSED fare-cache:11211 trace=cba6c7cd
+2026-02-11T14:53:48.486+05:30 error fare-svc Error: connect ECONNREFUSED fare-cache:11211 trace=bc14bbfa
+2026-02-11T14:53:49.671+05:30 error fare-svc Error: connect ECONNREFUSED fare-cache:11211 trace=904b35b7
+2026-02-11T14:53:51.775+05:30 info fare-svc served GET /api status=200 in 78ms trace=a25e82cd
+2026-02-11T14:53:52.436+05:30 error fare-svc FetchError: request to http://fare-cache:11211 failed, reason: socket hang up trace=a3248604
+2026-02-11T14:53:53.354+05:30 error fare-svc Error: connect ECONNREFUSED fare-cache:11211 trace=75f10821
+2026-02-11T14:53:54.626+05:30 error fare-svc Error: connect ECONNREFUSED fare-cache:11211 trace=9b969be4
+2026-02-11T14:53:55.923+05:30 error fare-svc Error: connect ECONNREFUSED fare-cache:11211 trace=21d3a17a
+2026-02-11T14:53:57.952+05:30 error fare-svc FetchError: request to http://fare-cache:11211 failed, reason: socket hang up trace=31a3f101
+2026-02-11T14:54:00.321+05:30 error fare-svc FetchError: request to http://fare-cache:11211 failed, reason: socket hang up trace=ee62f469
+2026-02-11T14:54:01.246+05:30 error fare-svc FetchError: request to http://fare-cache:11211 failed, reason: socket hang up trace=c9de8624
+2026-02-11T14:54:03.768+05:30 error fare-svc Error: connect ECONNREFUSED fare-cache:11211 trace=1d0e1a95
+2026-02-11T14:54:03.865+05:30 info fare-svc event loop lag 33ms ok
+2026-02-11T14:54:05.960+05:30 error fare-svc Error: connect ECONNREFUSED fare-cache:11211 trace=a1fadde4
+2026-02-11T14:54:08.268+05:30 error fare-svc FetchError: request to http://fare-cache:11211 failed, reason: socket hang up trace=a4034ea3
+2026-02-11T14:54:09.388+05:30 error fare-svc Error: connect ECONNREFUSED fare-cache:11211 trace=0b4e479c
+2026-02-11T14:54:10.615+05:30 info fare-svc served GET /api status=200 in 28ms trace=67ed76da
+2026-02-11T14:54:11.433+05:30 error fare-svc Error: connect ECONNREFUSED fare-cache:11211 trace=3dd6339c
+2026-02-11T14:54:13.157+05:30 error fare-svc Error: connect ECONNREFUSED fare-cache:11211 trace=cabca1e9
+2026-02-11T14:54:14.477+05:30 error fare-svc Error: connect ECONNREFUSED fare-cache:11211 trace=41b98bed
+2026-02-11T14:54:17.093+05:30 error fare-svc Error: connect ECONNREFUSED fare-cache:11211 trace=b973e674
+2026-02-11T14:54:18.359+05:30 error fare-svc Error: connect ECONNREFUSED fare-cache:11211 trace=c25a38c3
+2026-02-11T14:54:20.158+05:30 info fare-svc served GET /api status=200 in 8ms trace=79528bfd
+2026-02-11T14:54:20.974+05:30 error fare-svc Error: connect ECONNREFUSED fare-cache:11211 trace=cf3ce55e
+2026-02-11T14:54:22.462+05:30 error fare-svc Error: connect ECONNREFUSED fare-cache:11211 trace=fa0528ab
+2026-02-11T14:54:23.588+05:30 error fare-svc FetchError: request to http://fare-cache:11211 failed, reason: socket hang up trace=0f143730
+2026-02-11T14:54:25.843+05:30 error fare-svc FetchError: request to http://fare-cache:11211 failed, reason: socket hang up trace=d6a9aabb
+2026-02-11T14:54:26.817+05:30 error fare-svc Error: connect ECONNREFUSED fare-cache:11211 trace=dc22e369
+2026-02-11T14:54:28.358+05:30 info fare-svc served GET /api status=200 in 18ms trace=5f7bf792
+2026-02-11T14:54:29.162+05:30 error fare-svc FetchError: request to http://fare-cache:11211 failed, reason: socket hang up trace=d21fee80
+2026-02-11T14:54:31.167+05:30 error fare-svc FetchError: request to http://fare-cache:11211 failed, reason: socket hang up trace=ec04a138
+2026-02-11T14:54:32.667+05:30 error fare-svc FetchError: request to http://fare-cache:11211 failed, reason: socket hang up trace=6c0daa81
+2026-02-11T14:54:34.606+05:30 error fare-svc FetchError: request to http://fare-cache:11211 failed, reason: socket hang up trace=cc1c606c
+2026-02-11T14:54:36.539+05:30 error fare-svc FetchError: request to http://fare-cache:11211 failed, reason: socket hang up trace=32969d3c
+2026-02-11T14:54:38.170+05:30 info fare-svc served GET /api status=200 in 39ms trace=4e730b53
+2026-02-11T14:54:38.411+05:30 error fare-svc Error: connect ECONNREFUSED fare-cache:11211 trace=1d06b78e
+2026-02-11T14:54:39.464+05:30 error fare-svc FetchError: request to http://fare-cache:11211 failed, reason: socket hang up trace=cc767129
+2026-02-11T14:54:41.467+05:30 error fare-svc Error: connect ECONNREFUSED fare-cache:11211 trace=0136bab2
+2026-02-11T14:54:42.473+05:30 error fare-svc Error: connect ECONNREFUSED fare-cache:11211 trace=f36a0a2e
+2026-02-11T14:54:44.979+05:30 error fare-svc Error: connect ECONNREFUSED fare-cache:11211 trace=a2f93bf6
+2026-02-11T14:54:45.532+05:30 error fare-svc Error: connect ECONNREFUSED fare-cache:11211 trace=ad2bda58
+2026-02-11T14:54:47.567+05:30 error fare-svc FetchError: request to http://fare-cache:11211 failed, reason: socket hang up trace=666d2d80
+2026-02-11T14:54:48.308+05:30 error fare-svc Error: connect ECONNREFUSED fare-cache:11211 trace=39ff3aba
+2026-02-11T14:54:48.877+05:30 info fare-svc served GET /api status=200 in 48ms trace=9e40f737
+2026-02-11T14:54:49.558+05:30 error fare-svc FetchError: request to http://fare-cache:11211 failed, reason: socket hang up trace=ced89859
+2026-02-11T14:54:50.888+05:30 error fare-svc Error: connect ECONNREFUSED fare-cache:11211 trace=8c609b0f
+2026-02-11T14:54:52.022+05:30 error fare-svc Error: connect ECONNREFUSED fare-cache:11211 trace=5eece376
+2026-02-11T14:54:54.401+05:30 error fare-svc Error: connect ECONNREFUSED fare-cache:11211 trace=7d42fcce
+2026-02-11T14:54:54.954+05:30 error fare-svc FetchError: request to http://fare-cache:11211 failed, reason: socket hang up trace=3c53d449
+2026-02-11T14:54:55.097+05:30 info fare-svc served GET /api status=200 in 31ms trace=21ec86e3
+2026-02-11T14:54:56.763+05:30 error fare-svc Error: connect ECONNREFUSED fare-cache:11211 trace=42d6fb85
+2026-02-11T14:54:58.646+05:30 error fare-svc Error: connect ECONNREFUSED fare-cache:11211 trace=06970f74
+2026-02-11T14:55:00.356+05:30 error fare-svc Error: connect ECONNREFUSED fare-cache:11211 trace=65011e0e
+2026-02-11T14:55:02.163+05:30 info fare-svc served GET /api status=200 in 59ms trace=6f28f218
+2026-02-11T14:55:03.166+05:30 error fare-svc FetchError: request to http://fare-cache:11211 failed, reason: socket hang up trace=6975e68e
+2026-02-11T14:55:04.585+05:30 error fare-svc Error: connect ECONNREFUSED fare-cache:11211 trace=244f7f14
+2026-02-11T14:55:06.197+05:30 error fare-svc Error: connect ECONNREFUSED fare-cache:11211 trace=d6f2b90d
+2026-02-11T14:55:07.108+05:30 error fare-svc Error: connect ECONNREFUSED fare-cache:11211 trace=d55487fc
+2026-02-11T14:55:08.852+05:30 error fare-svc FetchError: request to http://fare-cache:11211 failed, reason: socket hang up trace=468b3fbe
+2026-02-11T14:55:10.071+05:30 error fare-svc FetchError: request to http://fare-cache:11211 failed, reason: socket hang up trace=a8e7693f
+2026-02-11T14:55:11.267+05:30 info fare-svc event loop lag 49ms ok
+2026-02-11T14:55:11.430+05:30 error fare-svc Error: connect ECONNREFUSED fare-cache:11211 trace=f9691dfb
+2026-02-11T14:55:12.922+05:30 error fare-svc FetchError: request to http://fare-cache:11211 failed, reason: socket hang up trace=ebb67ad4
+2026-02-11T14:55:14.919+05:30 error fare-svc Error: connect ECONNREFUSED fare-cache:11211 trace=e2ba7b81
+2026-02-11T14:55:16.623+05:30 error fare-svc FetchError: request to http://fare-cache:11211 failed, reason: socket hang up trace=ae5fc85e
+2026-02-11T14:55:17.691+05:30 error fare-svc FetchError: request to http://fare-cache:11211 failed, reason: socket hang up trace=607ccb4d
+2026-02-11T14:55:18.941+05:30 error fare-svc FetchError: request to http://fare-cache:11211 failed, reason: socket hang up trace=4398bff4
+2026-02-11T14:55:20.366+05:30 error fare-svc FetchError: request to http://fare-cache:11211 failed, reason: socket hang up trace=616356ea
+2026-02-11T14:55:21.574+05:30 error fare-svc FetchError: request to http://fare-cache:11211 failed, reason: socket hang up trace=ad9dc480
+2026-02-11T14:55:22.625+05:30 error fare-svc Error: connect ECONNREFUSED fare-cache:11211 trace=34b5e654
+2026-02-11T14:55:24.758+05:30 error fare-svc FetchError: request to http://fare-cache:11211 failed, reason: socket hang up trace=a11521b0
+2026-02-11T14:55:25.043+05:30 info fare-svc served GET /api status=200 in 75ms trace=2d813e8a
+2026-02-11T14:55:26.051+05:30 error fare-svc FetchError: request to http://fare-cache:11211 failed, reason: socket hang up trace=1b389bc2
+2026-02-11T14:55:27.048+05:30 error fare-svc FetchError: request to http://fare-cache:11211 failed, reason: socket hang up trace=9006291b
+2026-02-11T14:55:28.562+05:30 error fare-svc Error: connect ECONNREFUSED fare-cache:11211 trace=9fccff7d
+2026-02-11T14:55:30.066+05:30 error fare-svc Error: connect ECONNREFUSED fare-cache:11211 trace=cb395fa1
+2026-02-11T14:55:31.234+05:30 info fare-svc served GET /api status=200 in 13ms trace=8b2eabaa
+2026-02-11T14:55:32.247+05:30 error fare-svc Error: connect ECONNREFUSED fare-cache:11211 trace=fc3164a7
+2026-02-11T14:55:34.302+05:30 error fare-svc Error: connect ECONNREFUSED fare-cache:11211 trace=9fc6ba70
+2026-02-11T14:55:35.390+05:30 error fare-svc Error: connect ECONNREFUSED fare-cache:11211 trace=10d8c09e
+2026-02-11T14:55:37.414+05:30 error fare-svc Error: connect ECONNREFUSED fare-cache:11211 trace=2c720e80
+2026-02-11T14:55:38.876+05:30 error fare-svc Error: connect ECONNREFUSED fare-cache:11211 trace=4b03d88c
+2026-02-11T14:55:40.502+05:30 error fare-svc Error: connect ECONNREFUSED fare-cache:11211 trace=55864a5d
+2026-02-11T14:55:41.620+05:30 info fare-svc event loop lag 59ms ok
+2026-02-11T14:55:41.706+05:30 error fare-svc Error: connect ECONNREFUSED fare-cache:11211 trace=16ea8a1e
+2026-02-11T14:55:44.392+05:30 error fare-svc Error: connect ECONNREFUSED fare-cache:11211 trace=d10c0496
+2026-02-11T14:55:45.139+05:30 error fare-svc Error: connect ECONNREFUSED fare-cache:11211 trace=b8ce7074
+2026-02-11T14:55:46.526+05:30 error fare-svc FetchError: request to http://fare-cache:11211 failed, reason: socket hang up trace=3d9e52db
+2026-02-11T14:55:48.210+05:30 error fare-svc FetchError: request to http://fare-cache:11211 failed, reason: socket hang up trace=464d22c3
+2026-02-11T14:55:49.068+05:30 error fare-svc Error: connect ECONNREFUSED fare-cache:11211 trace=c2dad10b
+2026-02-11T14:55:50.617+05:30 error fare-svc Error: connect ECONNREFUSED fare-cache:11211 trace=3e83a215
+2026-02-11T14:55:51.934+05:30 error fare-svc FetchError: request to http://fare-cache:11211 failed, reason: socket hang up trace=bb0726d1
+2026-02-11T14:55:54.363+05:30 error fare-svc Error: connect ECONNREFUSED fare-cache:11211 trace=65663da3
+2026-02-11T14:55:55.251+05:30 info fare-svc served GET /api status=200 in 85ms trace=59b7968d
+2026-02-11T14:55:55.642+05:30 error fare-svc Error: connect ECONNREFUSED fare-cache:11211 trace=1ef037bb
+2026-02-11T14:55:57.829+05:30 error fare-svc Error: connect ECONNREFUSED fare-cache:11211 trace=fe7db5e1
+2026-02-11T14:55:58.881+05:30 error fare-svc FetchError: request to http://fare-cache:11211 failed, reason: socket hang up trace=d94d8eb2
+2026-02-11T14:56:00.375+05:30 error fare-svc Error: connect ECONNREFUSED fare-cache:11211 trace=ea14cff6
+2026-02-11T14:56:02.223+05:30 error fare-svc FetchError: request to http://fare-cache:11211 failed, reason: socket hang up trace=bf5fc005
+2026-02-11T14:56:02.530+05:30 info fare-svc event loop lag 77ms ok
+2026-02-11T14:56:03.876+05:30 error fare-svc Error: connect ECONNREFUSED fare-cache:11211 trace=e1255666
+2026-02-11T14:56:06.242+05:30 error fare-svc Error: connect ECONNREFUSED fare-cache:11211 trace=d9a6ff7d
+2026-02-11T14:56:08.752+05:30 error fare-svc Error: connect ECONNREFUSED fare-cache:11211 trace=2c7286ca
+2026-02-11T14:56:11.228+05:30 error fare-svc Error: connect ECONNREFUSED fare-cache:11211 trace=a6ad8fd8
+2026-02-11T14:56:12.542+05:30 error fare-svc Error: connect ECONNREFUSED fare-cache:11211 trace=3caf443b
+2026-02-11T14:56:14.338+05:30 info fare-svc served GET /api status=200 in 51ms trace=3b7b5358
+2026-02-11T14:56:14.668+05:30 error fare-svc FetchError: request to http://fare-cache:11211 failed, reason: socket hang up trace=41b5772a
+2026-02-11T14:56:16.343+05:30 error fare-svc Error: connect ECONNREFUSED fare-cache:11211 trace=4f64848f
+2026-02-11T14:56:18.035+05:30 error fare-svc Error: connect ECONNREFUSED fare-cache:11211 trace=cf4a9104
+2026-02-11T14:56:18.807+05:30 error fare-svc Error: connect ECONNREFUSED fare-cache:11211 trace=6bc055dc
+2026-02-11T14:56:19.824+05:30 error fare-svc Error: connect ECONNREFUSED fare-cache:11211 trace=d10161b8
+2026-02-11T14:56:21.424+05:30 info fare-svc event loop lag 68ms ok
+2026-02-11T14:56:21.840+05:30 error fare-svc Error: connect ECONNREFUSED fare-cache:11211 trace=2a86c966
+2026-02-11T14:56:22.658+05:30 error fare-svc Error: connect ECONNREFUSED fare-cache:11211 trace=4a0e3b95
+2026-02-11T14:56:24.838+05:30 error fare-svc Error: connect ECONNREFUSED fare-cache:11211 trace=49cb889e
+2026-02-11T14:56:27.089+05:30 error fare-svc Error: connect ECONNREFUSED fare-cache:11211 trace=e5bb1f62
+2026-02-11T14:56:29.499+05:30 error fare-svc FetchError: request to http://fare-cache:11211 failed, reason: socket hang up trace=f364839f
+2026-02-11T14:56:30.714+05:30 info fare-svc event loop lag 16ms ok
+2026-02-11T14:56:31.200+05:30 error fare-svc Error: connect ECONNREFUSED fare-cache:11211 trace=406b0ec4
+2026-02-11T14:56:33.062+05:30 error fare-svc FetchError: request to http://fare-cache:11211 failed, reason: socket hang up trace=63f08dd0
+2026-02-11T14:56:35.433+05:30 error fare-svc Error: connect ECONNREFUSED fare-cache:11211 trace=93e2717a
+2026-02-11T14:56:37.293+05:30 error fare-svc FetchError: request to http://fare-cache:11211 failed, reason: socket hang up trace=9207cc6c
+2026-02-11T14:56:38.437+05:30 error fare-svc FetchError: request to http://fare-cache:11211 failed, reason: socket hang up trace=35551455
+2026-02-11T14:56:40.704+05:30 info fare-svc event loop lag 13ms ok
+2026-02-11T14:56:41.304+05:30 error fare-svc FetchError: request to http://fare-cache:11211 failed, reason: socket hang up trace=072652e4
+2026-02-11T14:56:43.220+05:30 error fare-svc FetchError: request to http://fare-cache:11211 failed, reason: socket hang up trace=2ee68f6d
+2026-02-11T14:56:45.260+05:30 error fare-svc Error: connect ECONNREFUSED fare-cache:11211 trace=5eb3246d
+2026-02-11T14:56:45.605+05:30 error fare-svc FetchError: request to http://fare-cache:11211 failed, reason: socket hang up trace=dc92a5a2
+2026-02-11T14:56:47.805+05:30 error fare-svc Error: connect ECONNREFUSED fare-cache:11211 trace=15c3e3ba
+2026-02-11T14:56:48.821+05:30 error fare-svc Error: connect ECONNREFUSED fare-cache:11211 trace=5ea93d53

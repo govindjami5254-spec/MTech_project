@@ -1,0 +1,67 @@
+2026-01-30 09:12:03,571 INFO catalog-api worker heartbeat ok (52ms)
+2026-01-30 09:12:16,917 INFO catalog-api worker heartbeat ok (84ms)
+2026-01-30 09:12:25,635 INFO catalog-api GET /v1/items 200 10ms req_id=65e8762d
+2026-01-30 09:12:36,880 INFO catalog-api GET /v1/items 200 68ms req_id=d0ee6ce1
+2026-01-30 09:12:45,106 INFO catalog-api worker heartbeat ok (34ms)
+2026-01-30 09:12:54,823 INFO catalog-api GET /v1/items 200 12ms req_id=b92e8c88
+2026-01-30 09:13:07,580 INFO catalog-api GET /v1/items 200 52ms req_id=36a87cd4
+2026-01-30 09:13:15,582 INFO catalog-api worker heartbeat ok (59ms)
+2026-01-30 09:13:29,397 INFO catalog-api worker heartbeat ok (16ms)
+2026-01-30 09:13:30,000 WARNING catalog-api slow query took 120ms req_id=12253187
+2026-01-30 09:13:39,036 INFO catalog-api GET /v1/items 200 12ms req_id=8fb58561
+2026-01-30 09:13:47,703 INFO catalog-api worker heartbeat ok (92ms)
+2026-01-30 09:13:53,549 INFO catalog-api GET /v1/items 200 44ms req_id=686c4dfa
+2026-01-30 09:14:02,416 INFO catalog-api GET /v1/items 200 95ms req_id=166edc13
+2026-01-30 09:14:11,772 INFO catalog-api GET /v1/items 200 34ms req_id=54dde488
+2026-01-30 09:14:22,931 INFO catalog-api GET /v1/items 200 22ms req_id=d0d2e17b
+2026-01-30 09:14:31,158 INFO catalog-api GET /v1/items 200 63ms req_id=52d3cf39
+2026-01-30 09:14:44,042 INFO catalog-api worker heartbeat ok (35ms)
+2026-01-30 09:14:51,206 INFO catalog-api GET /v1/items 200 50ms req_id=6a1853af
+2026-01-30 09:15:04,480 INFO catalog-api worker heartbeat ok (83ms)
+2026-01-30 09:15:13,226 INFO catalog-api worker heartbeat ok (89ms)
+2026-01-30 09:15:24,346 INFO catalog-api GET /v1/items 200 12ms req_id=f70766ab
+2026-01-30 09:15:25,000 WARNING catalog-api deprecated parameter 'page' used by client
+2026-01-30 09:15:30,962 INFO catalog-api GET /v1/items 200 56ms req_id=e3e0e017
+2026-01-30 09:15:31,000 WARNING catalog-api deprecated parameter 'page' used by client
+2026-01-30 09:15:41,003 INFO catalog-api worker heartbeat ok (20ms)
+2026-01-30 09:15:54,051 INFO catalog-api worker heartbeat ok (67ms)
+2026-01-30 09:16:08,512 INFO catalog-api GET /v1/items 200 37ms req_id=c05b59eb
+2026-01-30 09:16:15,303 INFO catalog-api GET /v1/items 200 89ms req_id=7f252f54
+2026-01-30 09:16:22,392 INFO catalog-api worker heartbeat ok (88ms)
+2026-01-30 09:16:30,912 INFO catalog-api GET /v1/items 200 42ms req_id=23a7de54
+2026-01-30 09:16:31,000 WARNING catalog-api slow query took 800ms req_id=8e203e70
+2026-01-30 09:16:31,247 WARNING catalog-api RSS 99% of container memory limit
+2026-01-30 09:16:41,228 INFO catalog-api GET /v1/items 200 77ms req_id=9b50fb61
+2026-01-30 09:16:50,556 INFO catalog-api GET /v1/items 200 76ms req_id=b99fcbce
+2026-01-30 09:17:02,497 INFO catalog-api worker heartbeat ok (90ms)
+2026-01-30 09:17:10,576 INFO catalog-api worker heartbeat ok (14ms)
+2026-01-30 09:17:11,414 ERROR catalog-api MemoryError while building response payload
+2026-01-30 09:17:13,308 CRITICAL catalog-api worker killed: OOMKilled (exit code 137)
+2026-01-30 09:17:20,839 INFO catalog-api GET /v1/items 200 59ms req_id=b18f38f8
+2026-01-30 09:17:31,691 INFO catalog-api GET /v1/items 200 40ms req_id=8bdb6288
+2026-01-30 09:17:45,086 INFO catalog-api GET /v1/items 200 72ms req_id=76147a68
+2026-01-30 09:17:59,661 INFO catalog-api worker heartbeat ok (25ms)
+2026-01-30 09:18:05,866 INFO catalog-api GET /v1/items 200 59ms req_id=03f828cb
+2026-01-30 09:18:18,886 INFO catalog-api worker heartbeat ok (94ms)
+2026-01-30 09:18:28,910 INFO catalog-api worker heartbeat ok (86ms)
+2026-01-30 09:18:37,525 INFO catalog-api worker heartbeat ok (93ms)
+2026-01-30 09:18:48,984 INFO catalog-api GET /v1/items 200 90ms req_id=1134f8a5
+2026-01-30 09:18:56,816 INFO catalog-api worker heartbeat ok (29ms)
+2026-01-30 09:19:03,535 INFO catalog-api GET /v1/items 200 33ms req_id=8b328c9c
+2026-01-30 09:19:14,697 INFO catalog-api GET /v1/items 200 22ms req_id=e2b79070
+2026-01-30 09:19:28,956 INFO catalog-api worker heartbeat ok (57ms)
+2026-01-30 09:19:34,683 INFO catalog-api worker heartbeat ok (58ms)
+2026-01-30 09:19:43,838 INFO catalog-api GET /v1/items 200 75ms req_id=b2daf110
+2026-01-30 09:19:54,460 INFO catalog-api worker heartbeat ok (53ms)
+2026-01-30 09:20:02,801 INFO catalog-api GET /v1/items 200 21ms req_id=77799bf1
+2026-01-30 09:20:08,886 INFO catalog-api GET /v1/items 200 88ms req_id=f0f92e0e
+2026-01-30 09:20:22,303 INFO catalog-api worker heartbeat ok (69ms)
+2026-01-30 09:20:32,379 INFO catalog-api GET /v1/items 200 66ms req_id=444295f8
+2026-01-30 09:20:41,372 INFO catalog-api GET /v1/items 200 82ms req_id=b33dd393
+2026-01-30 09:20:48,118 INFO catalog-api worker heartbeat ok (27ms)
+2026-01-30 09:21:01,156 INFO catalog-api GET /v1/items 200 93ms req_id=30391063
+2026-01-30 09:21:09,528 INFO catalog-api GET /v1/items 200 74ms req_id=931a284a
+2026-01-30 09:21:16,190 INFO catalog-api worker heartbeat ok (48ms)
+2026-01-30 09:21:28,832 INFO catalog-api GET /v1/items 200 14ms req_id=cf38c0fe
+2026-01-30 09:21:40,773 INFO catalog-api worker heartbeat ok (95ms)
+2026-01-30 09:21:54,369 INFO catalog-api GET /v1/items 200 55ms req_id=ddd56b59

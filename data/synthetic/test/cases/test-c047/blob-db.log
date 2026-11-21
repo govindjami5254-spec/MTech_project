@@ -1,0 +1,64 @@
+2026-01-05 14:44:05,051 INFO blob-db worker heartbeat ok (79ms)
+2026-01-05 14:44:19,640 INFO blob-db worker heartbeat ok (18ms)
+2026-01-05 14:44:20,000 WARNING blob-db deprecated parameter 'page' used by client
+2026-01-05 14:44:27,525 INFO blob-db worker heartbeat ok (74ms)
+2026-01-05 14:44:39,102 INFO blob-db GET /v1/items 200 38ms req_id=d35df031
+2026-01-05 14:44:51,065 INFO blob-db GET /v1/items 200 10ms req_id=95b62224
+2026-01-05 14:45:05,952 INFO blob-db worker heartbeat ok (52ms)
+2026-01-05 14:45:11,642 INFO blob-db GET /v1/items 200 63ms req_id=8bc365ac
+2026-01-05 14:45:17,176 INFO blob-db worker heartbeat ok (41ms)
+2026-01-05 14:45:27,289 INFO blob-db GET /v1/items 200 19ms req_id=7ee36963
+2026-01-05 14:45:33,927 INFO blob-db GET /v1/items 200 49ms req_id=a4e7f612
+2026-01-05 14:45:46,826 INFO blob-db worker heartbeat ok (42ms)
+2026-01-05 14:45:59,731 INFO blob-db GET /v1/items 200 36ms req_id=daeb00f5
+2026-01-05 14:46:13,794 INFO blob-db GET /v1/items 200 24ms req_id=2dd81dea
+2026-01-05 14:46:24,607 INFO blob-db GET /v1/items 200 28ms req_id=4cf898a9
+2026-01-05 14:46:34,727 INFO blob-db GET /v1/items 200 55ms req_id=7b1dee0a
+2026-01-05 14:46:35,000 WARNING blob-db slow query took 830ms req_id=fb20c92c
+2026-01-05 14:46:47,275 INFO blob-db worker heartbeat ok (72ms)
+2026-01-05 14:46:56,230 INFO blob-db worker heartbeat ok (38ms)
+2026-01-05 14:47:07,457 INFO blob-db worker heartbeat ok (52ms)
+2026-01-05 14:47:14,430 INFO blob-db GET /v1/items 200 75ms req_id=9cb1a8de
+2026-01-05 14:47:25,471 INFO blob-db worker heartbeat ok (51ms)
+2026-01-05 14:47:31,393 INFO blob-db worker heartbeat ok (93ms)
+2026-01-05 14:47:44,771 INFO blob-db worker heartbeat ok (78ms)
+2026-01-05 14:47:53,198 INFO blob-db GET /v1/items 200 11ms req_id=03bc8e07
+2026-01-05 14:48:04,510 INFO blob-db GET /v1/items 200 92ms req_id=adfbf1d9
+2026-01-05 14:48:11,031 INFO blob-db GET /v1/items 200 70ms req_id=8f8d01ee
+2026-01-05 14:48:24,016 INFO blob-db worker heartbeat ok (59ms)
+2026-01-05 14:48:30,048 INFO blob-db worker heartbeat ok (10ms)
+2026-01-05 14:48:44,549 INFO blob-db GET /v1/items 200 36ms req_id=f14c7895
+2026-01-05 14:48:55,708 INFO blob-db worker heartbeat ok (25ms)
+2026-01-05 14:49:08,835 INFO blob-db worker heartbeat ok (79ms)
+2026-01-05 14:49:20,625 INFO blob-db worker heartbeat ok (21ms)
+2026-01-05 14:49:26,675 INFO blob-db GET /v1/items 200 85ms req_id=cd8587b8
+2026-01-05 14:49:37,614 INFO blob-db worker heartbeat ok (32ms)
+2026-01-05 14:49:44,851 INFO blob-db GET /v1/items 200 17ms req_id=e5aefd94
+2026-01-05 14:49:51,189 INFO blob-db GET /v1/items 200 55ms req_id=00a68a93
+2026-01-05 14:50:02,279 INFO blob-db worker heartbeat ok (83ms)
+2026-01-05 14:50:08,765 INFO blob-db GET /v1/items 200 44ms req_id=a5389316
+2026-01-05 14:50:16,865 INFO blob-db GET /v1/items 200 60ms req_id=f7f49f5a
+2026-01-05 14:50:29,065 INFO blob-db GET /v1/items 200 19ms req_id=a3d0db5f
+2026-01-05 14:50:37,099 INFO blob-db worker heartbeat ok (88ms)
+2026-01-05 14:50:48,922 INFO blob-db GET /v1/items 200 58ms req_id=8ecf5113
+2026-01-05 14:50:57,459 INFO blob-db GET /v1/items 200 79ms req_id=9729275d
+2026-01-05 14:51:10,044 INFO blob-db worker heartbeat ok (34ms)
+2026-01-05 14:51:19,415 INFO blob-db GET /v1/items 200 52ms req_id=aa6d468d
+2026-01-05 14:51:26,707 INFO blob-db worker heartbeat ok (79ms)
+2026-01-05 14:51:38,571 INFO blob-db worker heartbeat ok (81ms)
+2026-01-05 14:51:39,000 WARNING blob-db deprecated parameter 'page' used by client
+2026-01-05 14:51:45,269 INFO blob-db worker heartbeat ok (50ms)
+2026-01-05 14:51:51,329 INFO blob-db GET /v1/items 200 93ms req_id=daf31739
+2026-01-05 14:52:05,065 INFO blob-db worker heartbeat ok (93ms)
+2026-01-05 14:52:11,467 INFO blob-db worker heartbeat ok (61ms)
+2026-01-05 14:52:23,917 INFO blob-db worker heartbeat ok (89ms)
+2026-01-05 14:52:34,209 INFO blob-db GET /v1/items 200 42ms req_id=96fa4019
+2026-01-05 14:52:44,362 INFO blob-db worker heartbeat ok (31ms)
+2026-01-05 14:52:52,193 INFO blob-db GET /v1/items 200 85ms req_id=65629551
+2026-01-05 14:53:00,416 INFO blob-db GET /v1/items 200 81ms req_id=0b3c31b0
+2026-01-05 14:53:13,912 INFO blob-db worker heartbeat ok (58ms)
+2026-01-05 14:53:24,487 INFO blob-db worker heartbeat ok (26ms)
+2026-01-05 14:53:36,533 INFO blob-db GET /v1/items 200 93ms req_id=ae8de3d8
+2026-01-05 14:53:45,272 INFO blob-db GET /v1/items 200 17ms req_id=e24cebdd
+2026-01-05 14:53:54,635 INFO blob-db GET /v1/items 200 29ms req_id=2f84b3b4
+2026-01-05 14:54:00,520 INFO blob-db worker heartbeat ok (67ms)

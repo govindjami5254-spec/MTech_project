@@ -1,0 +1,70 @@
+2026-01-25 11:31:11,215 INFO api-edge ping ok latency=81ms
+2026-01-25 11:31:25,219 INFO api-edge handled request rid=5a178cff status=200 dur=53ms
+2026-01-25 11:31:32,975 INFO api-edge handled request rid=18d8be74 status=200 dur=61ms
+2026-01-25 11:31:44,690 INFO api-edge handled request rid=277a72ff status=200 dur=71ms
+2026-01-25 11:31:57,506 INFO api-edge handled request rid=de1b5a20 status=200 dur=18ms
+2026-01-25 11:32:04,749 INFO api-edge handled request rid=5d26020b status=200 dur=38ms
+2026-01-25 11:32:17,834 INFO api-edge handled request rid=8f1bc200 status=200 dur=24ms
+2026-01-25 11:32:27,506 INFO api-edge handled request rid=ecc407e2 status=200 dur=25ms
+2026-01-25 11:32:37,766 INFO api-edge ping ok latency=75ms
+2026-01-25 11:32:48,041 INFO api-edge ping ok latency=36ms
+2026-01-25 11:32:57,203 INFO api-edge ping ok latency=83ms
+2026-01-25 11:33:10,286 INFO api-edge handled request rid=b2126f2e status=200 dur=17ms
+2026-01-25 11:33:22,590 INFO api-edge handled request rid=8580fe2a status=200 dur=72ms
+2026-01-25 11:33:34,797 INFO api-edge handled request rid=75494793 status=200 dur=70ms
+2026-01-25 11:33:47,836 INFO api-edge handled request rid=76906736 status=200 dur=20ms
+2026-01-25 11:34:01,575 INFO api-edge ping ok latency=32ms
+2026-01-25 11:34:12,982 INFO api-edge ping ok latency=34ms
+2026-01-25 11:34:19,383 INFO api-edge ping ok latency=83ms
+2026-01-25 11:34:29,471 INFO api-edge handled request rid=e08be6c4 status=200 dur=32ms
+2026-01-25 11:34:35,635 INFO api-edge ping ok latency=32ms
+2026-01-25 11:34:42,124 INFO api-edge ping ok latency=41ms
+2026-01-25 11:34:51,277 INFO api-edge ping ok latency=80ms
+2026-01-25 11:35:04,159 INFO api-edge ping ok latency=10ms
+2026-01-25 11:35:13,143 INFO api-edge ping ok latency=50ms
+2026-01-25 11:35:21,119 INFO api-edge handled request rid=8cf27b07 status=200 dur=9ms
+2026-01-25 11:35:27,813 INFO api-edge handled request rid=79e7ca02 status=200 dur=86ms
+2026-01-25 11:35:37,350 INFO api-edge handled request rid=e012963c status=200 dur=24ms
+2026-01-25 11:35:49,238 INFO api-edge handled request rid=bb09191f status=200 dur=74ms
+2026-01-25 11:35:59,628 INFO api-edge ping ok latency=27ms
+2026-01-25 11:36:09,317 INFO api-edge ping ok latency=76ms
+2026-01-25 11:36:19,354 INFO api-edge handled request rid=76938318 status=200 dur=89ms
+2026-01-25 11:36:33,997 INFO api-edge handled request rid=d148ee84 status=200 dur=45ms
+2026-01-25 11:36:41,262 INFO api-edge ping ok latency=63ms
+2026-01-25 11:36:42,220 ERROR api-edge upstream ledger-svc returned 500 rid=5f0318f0
+2026-01-25 11:36:45,993 ERROR api-edge responding 503: upstream ledger-svc error rid=704098fb
+2026-01-25 11:36:48,246 ERROR api-edge upstream ledger-svc returned 500 rid=a8c3535d
+2026-01-25 11:36:50,772 INFO api-edge ping ok latency=28ms
+2026-01-25 11:36:51,131 ERROR api-edge responding 503: upstream ledger-svc error rid=292aca12
+2026-01-25 11:36:54,201 ERROR api-edge responding 503: upstream ledger-svc error rid=8915fb4f
+2026-01-25 11:36:57,067 ERROR api-edge responding 503: upstream ledger-svc error rid=d21e41b4
+2026-01-25 11:36:58,995 INFO api-edge ping ok latency=29ms
+2026-01-25 11:37:00,166 ERROR api-edge upstream ledger-svc returned 500 rid=a48b4a1b
+2026-01-25 11:37:03,742 ERROR api-edge upstream ledger-svc returned 500 rid=51b54835
+2026-01-25 11:37:06,465 ERROR api-edge responding 503: upstream ledger-svc error rid=7f946e45
+2026-01-25 11:37:10,953 INFO api-edge ping ok latency=90ms
+2026-01-25 11:37:23,276 INFO api-edge handled request rid=dc16592b status=200 dur=80ms
+2026-01-25 11:37:31,491 INFO api-edge handled request rid=bb12154f status=200 dur=38ms
+2026-01-25 11:37:37,344 INFO api-edge ping ok latency=45ms
+2026-01-25 11:37:47,769 INFO api-edge handled request rid=b50f0739 status=200 dur=77ms
+2026-01-25 11:37:54,697 INFO api-edge ping ok latency=66ms
+2026-01-25 11:38:01,436 INFO api-edge ping ok latency=32ms
+2026-01-25 11:38:08,924 INFO api-edge handled request rid=5e364c22 status=200 dur=92ms
+2026-01-25 11:38:22,057 INFO api-edge handled request rid=436c313d status=200 dur=74ms
+2026-01-25 11:38:32,294 INFO api-edge ping ok latency=28ms
+2026-01-25 11:38:44,171 INFO api-edge ping ok latency=12ms
+2026-01-25 11:38:56,895 INFO api-edge ping ok latency=87ms
+2026-01-25 11:39:07,457 INFO api-edge handled request rid=d01678cb status=200 dur=35ms
+2026-01-25 11:39:16,035 INFO api-edge ping ok latency=49ms
+2026-01-25 11:39:27,817 INFO api-edge ping ok latency=60ms
+2026-01-25 11:39:38,896 INFO api-edge ping ok latency=88ms
+2026-01-25 11:39:45,033 INFO api-edge handled request rid=4a67134d status=200 dur=62ms
+2026-01-25 11:39:59,571 INFO api-edge handled request rid=f622e192 status=200 dur=85ms
+2026-01-25 11:40:06,306 INFO api-edge handled request rid=52d8495a status=200 dur=11ms
+2026-01-25 11:40:13,324 INFO api-edge handled request rid=e1194dc0 status=200 dur=25ms
+2026-01-25 11:40:24,196 INFO api-edge handled request rid=cde75d07 status=200 dur=63ms
+2026-01-25 11:40:32,618 INFO api-edge handled request rid=440923c5 status=200 dur=57ms
+2026-01-25 11:40:38,567 INFO api-edge handled request rid=7234f6fc status=200 dur=90ms
+2026-01-25 11:40:46,830 INFO api-edge handled request rid=4fe46c71 status=200 dur=46ms
+2026-01-25 11:40:53,549 INFO api-edge handled request rid=efdf70f8 status=200 dur=49ms
+2026-01-25 11:41:00,318 INFO api-edge handled request rid=f86f7fcb status=200 dur=57ms

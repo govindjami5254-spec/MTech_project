@@ -1,0 +1,241 @@
+2026-02-14T13:38:03Z INFO ledger-svc health check passed in 88ms
+2026-02-14T13:38:17Z INFO ledger-svc request completed in 77ms status=200 rid=0138b791
+2026-02-14T13:38:31Z INFO ledger-svc health check passed in 56ms
+2026-02-14T13:38:42Z INFO ledger-svc health check passed in 52ms
+2026-02-14T13:38:55Z INFO ledger-svc request completed in 82ms status=200 rid=b9b68941
+2026-02-14T13:39:09Z INFO ledger-svc health check passed in 67ms
+2026-02-14T13:39:22Z INFO ledger-svc health check passed in 71ms
+2026-02-14T13:39:35Z INFO ledger-svc health check passed in 50ms
+2026-02-14T13:39:42Z INFO ledger-svc health check passed in 20ms
+2026-02-14T13:39:49Z INFO ledger-svc health check passed in 64ms
+2026-02-14T13:40:03Z INFO ledger-svc request completed in 92ms status=200 rid=ae009fbf
+2026-02-14T13:40:17Z INFO ledger-svc health check passed in 26ms
+2026-02-14T13:40:31Z INFO ledger-svc request completed in 59ms status=200 rid=88ead285
+2026-02-14T13:40:39Z INFO ledger-svc request completed in 48ms status=200 rid=2358b344
+2026-02-14T13:40:48Z INFO ledger-svc health check passed in 59ms
+2026-02-14T13:41:02Z INFO ledger-svc health check passed in 90ms
+2026-02-14T13:41:15Z INFO ledger-svc request completed in 78ms status=200 rid=93821305
+2026-02-14T13:41:29Z INFO ledger-svc request completed in 87ms status=200 rid=e3bb1b67
+2026-02-14T13:41:39Z INFO ledger-svc health check passed in 25ms
+2026-02-14T13:41:49Z INFO ledger-svc request completed in 95ms status=200 rid=8688c39a
+2026-02-14T13:41:55Z INFO ledger-svc health check passed in 21ms
+2026-02-14T13:42:02Z INFO ledger-svc request completed in 88ms status=200 rid=6a819508
+2026-02-14T13:42:11Z INFO ledger-svc request completed in 70ms status=200 rid=3d6725c7
+2026-02-14T13:42:24Z INFO ledger-svc health check passed in 71ms
+2026-02-14T13:42:28Z ERROR ledger-svc call to posting-svc failed: HTTP 503 rid=c6755ed7
+2026-02-14T13:42:30Z INFO ledger-svc request completed in 16ms status=200 rid=ac7e1849
+2026-02-14T13:42:30Z WARN ledger-svc retrying call to posting-svc (attempt 2/3)
+2026-02-14T13:42:33Z ERROR ledger-svc giving up on posting-svc after 3 attempts
+2026-02-14T13:42:34Z ERROR ledger-svc call to posting-svc failed: HTTP 503 rid=04faa18a
+2026-02-14T13:42:35Z ERROR ledger-svc java.net.ConnectException: Connection refused to posting-svc:9003 rid=13a34668
+2026-02-14T13:42:37Z ERROR ledger-svc call to posting-svc failed: HTTP 503 rid=c2000753
+2026-02-14T13:42:38Z ERROR ledger-svc call to posting-svc failed: HTTP 503 rid=6387574f
+2026-02-14T13:42:39Z ERROR ledger-svc call to posting-svc failed: HTTP 503 rid=bc209511
+2026-02-14T13:42:41Z ERROR ledger-svc java.net.ConnectException: Connection refused to posting-svc:9003 rid=79be6301
+2026-02-14T13:42:42Z ERROR ledger-svc java.net.ConnectException: Connection refused to posting-svc:9003 rid=d111a56e
+2026-02-14T13:42:43Z INFO ledger-svc request completed in 20ms status=200 rid=92dd9c59
+2026-02-14T13:42:44Z ERROR ledger-svc java.net.ConnectException: Connection refused to posting-svc:9003 rid=f029384c
+2026-02-14T13:42:46Z ERROR ledger-svc java.net.ConnectException: Connection refused to posting-svc:9003 rid=fa443886
+2026-02-14T13:42:47Z ERROR ledger-svc java.net.ConnectException: Connection refused to posting-svc:9003 rid=d81b01d9
+2026-02-14T13:42:49Z ERROR ledger-svc call to posting-svc failed: HTTP 503 rid=baab416f
+2026-02-14T13:42:51Z ERROR ledger-svc java.net.ConnectException: Connection refused to posting-svc:9003 rid=8a70c59e
+2026-02-14T13:42:52Z ERROR ledger-svc java.net.ConnectException: Connection refused to posting-svc:9003 rid=fd3c148a
+2026-02-14T13:42:54Z INFO ledger-svc health check passed in 28ms
+2026-02-14T13:42:54Z ERROR ledger-svc call to posting-svc failed: HTTP 503 rid=38420b14
+2026-02-14T13:42:56Z ERROR ledger-svc java.net.ConnectException: Connection refused to posting-svc:9003 rid=5687e694
+2026-02-14T13:42:59Z ERROR ledger-svc java.net.ConnectException: Connection refused to posting-svc:9003 rid=c6a47553
+2026-02-14T13:43:00Z INFO ledger-svc request completed in 89ms status=200 rid=91cec049
+2026-02-14T13:43:01Z ERROR ledger-svc java.net.ConnectException: Connection refused to posting-svc:9003 rid=346efcf3
+2026-02-14T13:43:03Z ERROR ledger-svc java.net.ConnectException: Connection refused to posting-svc:9003 rid=4a43be27
+2026-02-14T13:43:05Z ERROR ledger-svc java.net.ConnectException: Connection refused to posting-svc:9003 rid=3cf68bdc
+2026-02-14T13:43:06Z INFO ledger-svc health check passed in 13ms
+2026-02-14T13:43:07Z ERROR ledger-svc java.net.ConnectException: Connection refused to posting-svc:9003 rid=4e802ba7
+2026-02-14T13:43:09Z ERROR ledger-svc java.net.ConnectException: Connection refused to posting-svc:9003 rid=1bc2bd9d
+2026-02-14T13:43:11Z ERROR ledger-svc java.net.ConnectException: Connection refused to posting-svc:9003 rid=b3768a6b
+2026-02-14T13:43:12Z INFO ledger-svc health check passed in 47ms
+2026-02-14T13:43:13Z ERROR ledger-svc call to posting-svc failed: HTTP 503 rid=fbbe567d
+2026-02-14T13:43:15Z ERROR ledger-svc java.net.ConnectException: Connection refused to posting-svc:9003 rid=2cee9e53
+2026-02-14T13:43:18Z ERROR ledger-svc java.net.ConnectException: Connection refused to posting-svc:9003 rid=262590b2
+2026-02-14T13:43:20Z INFO ledger-svc request completed in 71ms status=200 rid=99704549
+2026-02-14T13:43:20Z ERROR ledger-svc call to posting-svc failed: HTTP 503 rid=8ef7b6d4
+2026-02-14T13:43:21Z ERROR ledger-svc java.net.ConnectException: Connection refused to posting-svc:9003 rid=785a7b0d
+2026-02-14T13:43:23Z ERROR ledger-svc call to posting-svc failed: HTTP 503 rid=45e53775
+2026-02-14T13:43:25Z ERROR ledger-svc call to posting-svc failed: HTTP 503 rid=f0464263
+2026-02-14T13:43:27Z ERROR ledger-svc java.net.ConnectException: Connection refused to posting-svc:9003 rid=57eafe39
+2026-02-14T13:43:29Z ERROR ledger-svc call to posting-svc failed: HTTP 503 rid=0d6f8af6
+2026-02-14T13:43:31Z ERROR ledger-svc call to posting-svc failed: HTTP 503 rid=cf526023
+2026-02-14T13:43:32Z INFO ledger-svc request completed in 80ms status=200 rid=e41ac7b3
+2026-02-14T13:43:33Z ERROR ledger-svc java.net.ConnectException: Connection refused to posting-svc:9003 rid=ae743eb6
+2026-02-14T13:43:36Z ERROR ledger-svc java.net.ConnectException: Connection refused to posting-svc:9003 rid=917a2c28
+2026-02-14T13:43:38Z ERROR ledger-svc call to posting-svc failed: HTTP 503 rid=564737e4
+2026-02-14T13:43:39Z ERROR ledger-svc call to posting-svc failed: HTTP 503 rid=5ebd9376
+2026-02-14T13:43:40Z ERROR ledger-svc java.net.ConnectException: Connection refused to posting-svc:9003 rid=464eff5b
+2026-02-14T13:43:41Z INFO ledger-svc health check passed in 51ms
+2026-02-14T13:43:42Z ERROR ledger-svc call to posting-svc failed: HTTP 503 rid=9ac34dac
+2026-02-14T13:43:44Z ERROR ledger-svc call to posting-svc failed: HTTP 503 rid=8628de35
+2026-02-14T13:43:46Z ERROR ledger-svc java.net.ConnectException: Connection refused to posting-svc:9003 rid=5910e484
+2026-02-14T13:43:48Z INFO ledger-svc health check passed in 95ms
+2026-02-14T13:43:48Z ERROR ledger-svc call to posting-svc failed: HTTP 503 rid=7b2fdb71
+2026-02-14T13:43:49Z ERROR ledger-svc java.net.ConnectException: Connection refused to posting-svc:9003 rid=2903f53a
+2026-02-14T13:43:51Z ERROR ledger-svc java.net.ConnectException: Connection refused to posting-svc:9003 rid=139b8307
+2026-02-14T13:43:53Z ERROR ledger-svc call to posting-svc failed: HTTP 503 rid=4f77271d
+2026-02-14T13:43:56Z INFO ledger-svc request completed in 81ms status=200 rid=50f31d89
+2026-02-14T13:43:56Z ERROR ledger-svc java.net.ConnectException: Connection refused to posting-svc:9003 rid=1c6815e4
+2026-02-14T13:43:57Z ERROR ledger-svc java.net.ConnectException: Connection refused to posting-svc:9003 rid=cab98a28
+2026-02-14T13:44:00Z ERROR ledger-svc call to posting-svc failed: HTTP 503 rid=8672fbfb
+2026-02-14T13:44:01Z ERROR ledger-svc call to posting-svc failed: HTTP 503 rid=29d2c663
+2026-02-14T13:44:03Z ERROR ledger-svc call to posting-svc failed: HTTP 503 rid=ec1e9ec2
+2026-02-14T13:44:04Z INFO ledger-svc request completed in 25ms status=200 rid=e9b4cdd7
+2026-02-14T13:44:04Z ERROR ledger-svc call to posting-svc failed: HTTP 503 rid=c4b327b9
+2026-02-14T13:44:06Z ERROR ledger-svc call to posting-svc failed: HTTP 503 rid=7e25f310
+2026-02-14T13:44:07Z ERROR ledger-svc java.net.ConnectException: Connection refused to posting-svc:9003 rid=ed26dcf5
+2026-02-14T13:44:09Z ERROR ledger-svc call to posting-svc failed: HTTP 503 rid=79be68b0
+2026-02-14T13:44:10Z ERROR ledger-svc call to posting-svc failed: HTTP 503 rid=6e1bc831
+2026-02-14T13:44:11Z ERROR ledger-svc call to posting-svc failed: HTTP 503 rid=b5824b55
+2026-02-14T13:44:13Z ERROR ledger-svc java.net.ConnectException: Connection refused to posting-svc:9003 rid=33314e9f
+2026-02-14T13:44:15Z ERROR ledger-svc call to posting-svc failed: HTTP 503 rid=501155c6
+2026-02-14T13:44:16Z ERROR ledger-svc java.net.ConnectException: Connection refused to posting-svc:9003 rid=8d4c710f
+2026-02-14T13:44:18Z INFO ledger-svc health check passed in 38ms
+2026-02-14T13:44:18Z ERROR ledger-svc java.net.ConnectException: Connection refused to posting-svc:9003 rid=ce63828b
+2026-02-14T13:44:20Z ERROR ledger-svc call to posting-svc failed: HTTP 503 rid=74f51aa2
+2026-02-14T13:44:22Z ERROR ledger-svc java.net.ConnectException: Connection refused to posting-svc:9003 rid=28b21c28
+2026-02-14T13:44:24Z ERROR ledger-svc java.net.ConnectException: Connection refused to posting-svc:9003 rid=a62c21bd
+2026-02-14T13:44:26Z INFO ledger-svc health check passed in 23ms
+2026-02-14T13:44:26Z ERROR ledger-svc call to posting-svc failed: HTTP 503 rid=a51aa4af
+2026-02-14T13:44:27Z ERROR ledger-svc call to posting-svc failed: HTTP 503 rid=724de0df
+2026-02-14T13:44:29Z ERROR ledger-svc java.net.ConnectException: Connection refused to posting-svc:9003 rid=77994917
+2026-02-14T13:44:31Z ERROR ledger-svc call to posting-svc failed: HTTP 503 rid=a8971f10
+2026-02-14T13:44:33Z ERROR ledger-svc call to posting-svc failed: HTTP 503 rid=2c1175da
+2026-02-14T13:44:35Z ERROR ledger-svc java.net.ConnectException: Connection refused to posting-svc:9003 rid=1703f138
+2026-02-14T13:44:37Z ERROR ledger-svc java.net.ConnectException: Connection refused to posting-svc:9003 rid=da7d81b3
+2026-02-14T13:44:38Z ERROR ledger-svc call to posting-svc failed: HTTP 503 rid=f170904a
+2026-02-14T13:44:40Z INFO ledger-svc health check passed in 87ms
+2026-02-14T13:44:40Z ERROR ledger-svc java.net.ConnectException: Connection refused to posting-svc:9003 rid=9cd10075
+2026-02-14T13:44:42Z ERROR ledger-svc java.net.ConnectException: Connection refused to posting-svc:9003 rid=c494ee94
+2026-02-14T13:44:44Z ERROR ledger-svc call to posting-svc failed: HTTP 503 rid=a769291b
+2026-02-14T13:44:45Z ERROR ledger-svc call to posting-svc failed: HTTP 503 rid=40fc9105
+2026-02-14T13:44:46Z INFO ledger-svc health check passed in 66ms
+2026-02-14T13:44:46Z ERROR ledger-svc call to posting-svc failed: HTTP 503 rid=bca82cae
+2026-02-14T13:44:48Z ERROR ledger-svc call to posting-svc failed: HTTP 503 rid=4c2b8e2b
+2026-02-14T13:44:50Z ERROR ledger-svc java.net.ConnectException: Connection refused to posting-svc:9003 rid=b52b3693
+2026-02-14T13:44:51Z ERROR ledger-svc call to posting-svc failed: HTTP 503 rid=fc066f6f
+2026-02-14T13:44:52Z INFO ledger-svc request completed in 55ms status=200 rid=15c294f6
+2026-02-14T13:44:53Z ERROR ledger-svc call to posting-svc failed: HTTP 503 rid=c41cd36d
+2026-02-14T13:44:55Z ERROR ledger-svc call to posting-svc failed: HTTP 503 rid=d840e4db
+2026-02-14T13:44:56Z ERROR ledger-svc call to posting-svc failed: HTTP 503 rid=17974e27
+2026-02-14T13:44:58Z ERROR ledger-svc java.net.ConnectException: Connection refused to posting-svc:9003 rid=2b4c387b
+2026-02-14T13:45:00Z ERROR ledger-svc java.net.ConnectException: Connection refused to posting-svc:9003 rid=78e06d1b
+2026-02-14T13:45:01Z ERROR ledger-svc java.net.ConnectException: Connection refused to posting-svc:9003 rid=30a76c29
+2026-02-14T13:45:04Z ERROR ledger-svc call to posting-svc failed: HTTP 503 rid=ccc4ef41
+2026-02-14T13:45:06Z INFO ledger-svc request completed in 45ms status=200 rid=afd3392b
+2026-02-14T13:45:06Z ERROR ledger-svc call to posting-svc failed: HTTP 503 rid=9956ae19
+2026-02-14T13:45:07Z ERROR ledger-svc call to posting-svc failed: HTTP 503 rid=614c3e29
+2026-02-14T13:45:09Z ERROR ledger-svc call to posting-svc failed: HTTP 503 rid=d9fc1bcf
+2026-02-14T13:45:11Z ERROR ledger-svc java.net.ConnectException: Connection refused to posting-svc:9003 rid=d5decb01
+2026-02-14T13:45:13Z INFO ledger-svc request completed in 34ms status=200 rid=02c55f15
+2026-02-14T13:45:13Z ERROR ledger-svc call to posting-svc failed: HTTP 503 rid=26774c9a
+2026-02-14T13:45:15Z ERROR ledger-svc call to posting-svc failed: HTTP 503 rid=8263477c
+2026-02-14T13:45:17Z ERROR ledger-svc call to posting-svc failed: HTTP 503 rid=28046af8
+2026-02-14T13:45:19Z ERROR ledger-svc call to posting-svc failed: HTTP 503 rid=24e330df
+2026-02-14T13:45:21Z ERROR ledger-svc call to posting-svc failed: HTTP 503 rid=0c587f73
+2026-02-14T13:45:22Z ERROR ledger-svc java.net.ConnectException: Connection refused to posting-svc:9003 rid=6d600cfb
+2026-02-14T13:45:23Z INFO ledger-svc request completed in 8ms status=200 rid=03eb258a
+2026-02-14T13:45:23Z ERROR ledger-svc call to posting-svc failed: HTTP 503 rid=6498c1b7
+2026-02-14T13:45:25Z ERROR ledger-svc call to posting-svc failed: HTTP 503 rid=931d2107
+2026-02-14T13:45:26Z ERROR ledger-svc java.net.ConnectException: Connection refused to posting-svc:9003 rid=5f16d7e4
+2026-02-14T13:45:27Z ERROR ledger-svc java.net.ConnectException: Connection refused to posting-svc:9003 rid=e7bf85c4
+2026-02-14T13:45:29Z ERROR ledger-svc call to posting-svc failed: HTTP 503 rid=91beb53f
+2026-02-14T13:45:30Z ERROR ledger-svc call to posting-svc failed: HTTP 503 rid=80933e4b
+2026-02-14T13:45:31Z ERROR ledger-svc java.net.ConnectException: Connection refused to posting-svc:9003 rid=65f1e7b7
+2026-02-14T13:45:32Z ERROR ledger-svc java.net.ConnectException: Connection refused to posting-svc:9003 rid=bfbc8b0f
+2026-02-14T13:45:34Z ERROR ledger-svc java.net.ConnectException: Connection refused to posting-svc:9003 rid=8dea008a
+2026-02-14T13:45:36Z ERROR ledger-svc java.net.ConnectException: Connection refused to posting-svc:9003 rid=2acbe4c0
+2026-02-14T13:45:37Z INFO ledger-svc health check passed in 51ms
+2026-02-14T13:45:37Z ERROR ledger-svc call to posting-svc failed: HTTP 503 rid=fb363f4b
+2026-02-14T13:45:39Z ERROR ledger-svc call to posting-svc failed: HTTP 503 rid=84223ff1
+2026-02-14T13:45:41Z ERROR ledger-svc call to posting-svc failed: HTTP 503 rid=0599893c
+2026-02-14T13:45:42Z ERROR ledger-svc call to posting-svc failed: HTTP 503 rid=d88242b2
+2026-02-14T13:45:44Z INFO ledger-svc health check passed in 42ms
+2026-02-14T13:45:45Z ERROR ledger-svc call to posting-svc failed: HTTP 503 rid=a35c603f
+2026-02-14T13:45:46Z ERROR ledger-svc java.net.ConnectException: Connection refused to posting-svc:9003 rid=5dcac278
+2026-02-14T13:45:48Z ERROR ledger-svc java.net.ConnectException: Connection refused to posting-svc:9003 rid=ae785968
+2026-02-14T13:45:50Z ERROR ledger-svc java.net.ConnectException: Connection refused to posting-svc:9003 rid=ca6f2ebf
+2026-02-14T13:45:51Z ERROR ledger-svc call to posting-svc failed: HTTP 503 rid=8af57937
+2026-02-14T13:45:54Z ERROR ledger-svc call to posting-svc failed: HTTP 503 rid=1c27476d
+2026-02-14T13:45:56Z ERROR ledger-svc java.net.ConnectException: Connection refused to posting-svc:9003 rid=e2ba727a
+2026-02-14T13:45:57Z INFO ledger-svc health check passed in 23ms
+2026-02-14T13:45:58Z ERROR ledger-svc call to posting-svc failed: HTTP 503 rid=c85abfb5
+2026-02-14T13:46:00Z ERROR ledger-svc java.net.ConnectException: Connection refused to posting-svc:9003 rid=58d4014d
+2026-02-14T13:46:01Z ERROR ledger-svc java.net.ConnectException: Connection refused to posting-svc:9003 rid=5c6437a7
+2026-02-14T13:46:02Z ERROR ledger-svc call to posting-svc failed: HTTP 503 rid=9dc5b760
+2026-02-14T13:46:04Z INFO ledger-svc health check passed in 70ms
+2026-02-14T13:46:04Z ERROR ledger-svc java.net.ConnectException: Connection refused to posting-svc:9003 rid=510c2b32
+2026-02-14T13:46:06Z ERROR ledger-svc call to posting-svc failed: HTTP 503 rid=62526813
+2026-02-14T13:46:08Z ERROR ledger-svc java.net.ConnectException: Connection refused to posting-svc:9003 rid=de032184
+2026-02-14T13:46:10Z ERROR ledger-svc call to posting-svc failed: HTTP 503 rid=8eca35c7
+2026-02-14T13:46:11Z ERROR ledger-svc call to posting-svc failed: HTTP 503 rid=97f807dc
+2026-02-14T13:46:12Z INFO ledger-svc request completed in 61ms status=200 rid=54852c86
+2026-02-14T13:46:14Z ERROR ledger-svc java.net.ConnectException: Connection refused to posting-svc:9003 rid=bcb88605
+2026-02-14T13:46:16Z ERROR ledger-svc java.net.ConnectException: Connection refused to posting-svc:9003 rid=4b5791d7
+2026-02-14T13:46:18Z ERROR ledger-svc call to posting-svc failed: HTTP 503 rid=fc8f4257
+2026-02-14T13:46:20Z ERROR ledger-svc call to posting-svc failed: HTTP 503 rid=791c9b81
+2026-02-14T13:46:22Z ERROR ledger-svc call to posting-svc failed: HTTP 503 rid=7f752915
+2026-02-14T13:46:24Z ERROR ledger-svc java.net.ConnectException: Connection refused to posting-svc:9003 rid=d4744195
+2026-02-14T13:46:25Z INFO ledger-svc request completed in 68ms status=200 rid=e0fd1008
+2026-02-14T13:46:26Z ERROR ledger-svc call to posting-svc failed: HTTP 503 rid=4301a646
+2026-02-14T13:46:27Z ERROR ledger-svc java.net.ConnectException: Connection refused to posting-svc:9003 rid=fe2feac4
+2026-02-14T13:46:29Z ERROR ledger-svc call to posting-svc failed: HTTP 503 rid=890ada97
+2026-02-14T13:46:31Z INFO ledger-svc health check passed in 21ms
+2026-02-14T13:46:31Z ERROR ledger-svc java.net.ConnectException: Connection refused to posting-svc:9003 rid=b236291e
+2026-02-14T13:46:33Z ERROR ledger-svc java.net.ConnectException: Connection refused to posting-svc:9003 rid=8e9be8bb
+2026-02-14T13:46:35Z ERROR ledger-svc java.net.ConnectException: Connection refused to posting-svc:9003 rid=f083fa77
+2026-02-14T13:46:37Z INFO ledger-svc request completed in 19ms status=200 rid=d21d23cf
+2026-02-14T13:46:37Z ERROR ledger-svc java.net.ConnectException: Connection refused to posting-svc:9003 rid=90bc4154
+2026-02-14T13:46:39Z ERROR ledger-svc call to posting-svc failed: HTTP 503 rid=6e0e074f
+2026-02-14T13:46:41Z ERROR ledger-svc java.net.ConnectException: Connection refused to posting-svc:9003 rid=0eab14a5
+2026-02-14T13:46:42Z ERROR ledger-svc java.net.ConnectException: Connection refused to posting-svc:9003 rid=52c40700
+2026-02-14T13:46:43Z ERROR ledger-svc java.net.ConnectException: Connection refused to posting-svc:9003 rid=95f6fe9e
+2026-02-14T13:46:45Z ERROR ledger-svc java.net.ConnectException: Connection refused to posting-svc:9003 rid=4b530aff
+2026-02-14T13:46:46Z ERROR ledger-svc call to posting-svc failed: HTTP 503 rid=75872a47
+2026-02-14T13:46:47Z INFO ledger-svc request completed in 71ms status=200 rid=c94312a9
+2026-02-14T13:46:48Z ERROR ledger-svc call to posting-svc failed: HTTP 503 rid=b91fca79
+2026-02-14T13:46:50Z ERROR ledger-svc call to posting-svc failed: HTTP 503 rid=75abd26f
+2026-02-14T13:46:53Z ERROR ledger-svc call to posting-svc failed: HTTP 503 rid=c1b845ef
+2026-02-14T13:46:55Z INFO ledger-svc request completed in 95ms status=200 rid=ad98cb76
+2026-02-14T13:46:55Z ERROR ledger-svc call to posting-svc failed: HTTP 503 rid=826a7045
+2026-02-14T13:46:57Z ERROR ledger-svc java.net.ConnectException: Connection refused to posting-svc:9003 rid=7480e9e3
+2026-02-14T13:46:59Z ERROR ledger-svc java.net.ConnectException: Connection refused to posting-svc:9003 rid=663cfd27
+2026-02-14T13:47:00Z ERROR ledger-svc java.net.ConnectException: Connection refused to posting-svc:9003 rid=1217992c
+2026-02-14T13:47:02Z ERROR ledger-svc java.net.ConnectException: Connection refused to posting-svc:9003 rid=cbf308bb
+2026-02-14T13:47:03Z INFO ledger-svc health check passed in 11ms
+2026-02-14T13:47:04Z ERROR ledger-svc call to posting-svc failed: HTTP 503 rid=f0394222
+2026-02-14T13:47:06Z ERROR ledger-svc java.net.ConnectException: Connection refused to posting-svc:9003 rid=5e523075
+2026-02-14T13:47:08Z ERROR ledger-svc java.net.ConnectException: Connection refused to posting-svc:9003 rid=6dadf056
+2026-02-14T13:47:10Z INFO ledger-svc health check passed in 89ms
+2026-02-14T13:47:10Z ERROR ledger-svc call to posting-svc failed: HTTP 503 rid=b9927003
+2026-02-14T13:47:11Z ERROR ledger-svc call to posting-svc failed: HTTP 503 rid=c66793e7
+2026-02-14T13:47:13Z ERROR ledger-svc call to posting-svc failed: HTTP 503 rid=d86ceaaf
+2026-02-14T13:47:16Z ERROR ledger-svc java.net.ConnectException: Connection refused to posting-svc:9003 rid=7595b433
+2026-02-14T13:47:18Z ERROR ledger-svc java.net.ConnectException: Connection refused to posting-svc:9003 rid=5fcebf8d
+2026-02-14T13:47:19Z INFO ledger-svc request completed in 32ms status=200 rid=88270e52
+2026-02-14T13:47:19Z ERROR ledger-svc java.net.ConnectException: Connection refused to posting-svc:9003 rid=2d8c3c0e
+2026-02-14T13:47:21Z ERROR ledger-svc java.net.ConnectException: Connection refused to posting-svc:9003 rid=14443679
+2026-02-14T13:47:23Z ERROR ledger-svc call to posting-svc failed: HTTP 503 rid=c0aff0c2
+2026-02-14T13:47:24Z ERROR ledger-svc call to posting-svc failed: HTTP 503 rid=32ad0b2d
+2026-02-14T13:47:26Z ERROR ledger-svc java.net.ConnectException: Connection refused to posting-svc:9003 rid=62284e79
+2026-02-14T13:47:28Z ERROR ledger-svc java.net.ConnectException: Connection refused to posting-svc:9003 rid=4d550bb4
+2026-02-14T13:47:30Z ERROR ledger-svc call to posting-svc failed: HTTP 503 rid=268c1d23
+2026-02-14T13:47:32Z INFO ledger-svc request completed in 8ms status=200 rid=4d170b44
+2026-02-14T13:47:32Z ERROR ledger-svc call to posting-svc failed: HTTP 503 rid=b68fe2ae
+2026-02-14T13:47:34Z ERROR ledger-svc call to posting-svc failed: HTTP 503 rid=999632ce
+2026-02-14T13:47:37Z ERROR ledger-svc java.net.ConnectException: Connection refused to posting-svc:9003 rid=a27f0188
+2026-02-14T13:47:39Z ERROR ledger-svc call to posting-svc failed: HTTP 503 rid=3e7023a1
+2026-02-14T13:47:41Z ERROR ledger-svc java.net.ConnectException: Connection refused to posting-svc:9003 rid=6d35a830
+2026-02-14T13:47:44Z ERROR ledger-svc java.net.ConnectException: Connection refused to posting-svc:9003 rid=82d8eb38
+2026-02-14T13:47:45Z INFO ledger-svc health check passed in 60ms
+2026-02-14T13:47:46Z ERROR ledger-svc java.net.ConnectException: Connection refused to posting-svc:9003 rid=aa1ffa95
+2026-02-14T13:47:47Z ERROR ledger-svc call to posting-svc failed: HTTP 503 rid=f9671446
+2026-02-14T13:47:49Z ERROR ledger-svc call to posting-svc failed: HTTP 503 rid=45a1fdb8
+2026-02-14T13:47:50Z ERROR ledger-svc java.net.ConnectException: Connection refused to posting-svc:9003 rid=adb614cd
+2026-02-14T13:47:52Z ERROR ledger-svc call to posting-svc failed: HTTP 503 rid=5620cf59
+2026-02-14T13:47:53Z ERROR ledger-svc call to posting-svc failed: HTTP 503 rid=bf070ff1

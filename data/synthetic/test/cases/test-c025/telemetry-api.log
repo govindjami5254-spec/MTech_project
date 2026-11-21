@@ -1,0 +1,63 @@
+2026-02-10 13:15:08,466 INFO telemetry-api worker heartbeat ok (8ms)
+2026-02-10 13:15:14,884 INFO telemetry-api GET /v1/items 200 85ms req_id=117f6c87
+2026-02-10 13:15:26,357 INFO telemetry-api GET /v1/items 200 80ms req_id=a60bb1ec
+2026-02-10 13:15:35,979 INFO telemetry-api worker heartbeat ok (8ms)
+2026-02-10 13:15:49,232 INFO telemetry-api GET /v1/items 200 93ms req_id=79b3d3ee
+2026-02-10 13:15:57,672 INFO telemetry-api GET /v1/items 200 30ms req_id=015ee191
+2026-02-10 13:16:10,070 INFO telemetry-api GET /v1/items 200 40ms req_id=60eac35f
+2026-02-10 13:16:17,905 INFO telemetry-api worker heartbeat ok (68ms)
+2026-02-10 13:16:23,929 INFO telemetry-api GET /v1/items 200 62ms req_id=02f8d972
+2026-02-10 13:16:30,716 INFO telemetry-api worker heartbeat ok (68ms)
+2026-02-10 13:16:43,483 INFO telemetry-api GET /v1/items 200 55ms req_id=8ca0778a
+2026-02-10 13:16:44,000 WARNING telemetry-api deprecated parameter 'page' used by client
+2026-02-10 13:16:53,767 INFO telemetry-api GET /v1/items 200 30ms req_id=60e1bf3b
+2026-02-10 13:17:02,237 INFO telemetry-api worker heartbeat ok (92ms)
+2026-02-10 13:17:14,209 INFO telemetry-api GET /v1/items 200 75ms req_id=e550cc48
+2026-02-10 13:17:27,006 INFO telemetry-api GET /v1/items 200 59ms req_id=db167a7d
+2026-02-10 13:17:36,855 INFO telemetry-api GET /v1/items 200 73ms req_id=d75b738a
+2026-02-10 13:17:42,213 INFO telemetry-api GET /v1/items 200 70ms req_id=ebf9ce64
+2026-02-10 13:17:52,732 INFO telemetry-api worker heartbeat ok (95ms)
+2026-02-10 13:18:03,621 INFO telemetry-api GET /v1/items 200 20ms req_id=6ae1cdda
+2026-02-10 13:18:12,411 INFO telemetry-api worker heartbeat ok (80ms)
+2026-02-10 13:18:23,387 INFO telemetry-api GET /v1/items 200 78ms req_id=9914033e
+2026-02-10 13:18:36,206 INFO telemetry-api GET /v1/items 200 15ms req_id=622dacad
+2026-02-10 13:18:50,375 INFO telemetry-api worker heartbeat ok (25ms)
+2026-02-10 13:19:04,700 INFO telemetry-api worker heartbeat ok (80ms)
+2026-02-10 13:19:13,778 INFO telemetry-api worker heartbeat ok (20ms)
+2026-02-10 13:19:19,715 INFO telemetry-api GET /v1/items 200 90ms req_id=9fe71c01
+2026-02-10 13:19:28,776 INFO telemetry-api worker heartbeat ok (38ms)
+2026-02-10 13:19:37,562 INFO telemetry-api worker heartbeat ok (55ms)
+2026-02-10 13:19:48,469 INFO telemetry-api worker heartbeat ok (74ms)
+2026-02-10 13:19:55,093 INFO telemetry-api worker heartbeat ok (51ms)
+2026-02-10 13:20:05,515 INFO telemetry-api GET /v1/items 200 27ms req_id=101965b6
+2026-02-10 13:20:17,912 INFO telemetry-api worker heartbeat ok (69ms)
+2026-02-10 13:20:26,652 ERROR telemetry-api upstream stream-proc replied 503 Service Unavailable req_id=7848eb26
+2026-02-10 13:20:28,462 INFO telemetry-api worker heartbeat ok (9ms)
+2026-02-10 13:20:28,915 WARNING telemetry-api urllib3 retrying (stream-proc) after connection broken
+2026-02-10 13:20:31,393 ERROR telemetry-api aborting request: stream-proc unreachable after retries
+2026-02-10 13:20:37,760 INFO telemetry-api worker heartbeat ok (19ms)
+2026-02-10 13:20:49,573 INFO telemetry-api worker heartbeat ok (88ms)
+2026-02-10 13:21:00,899 INFO telemetry-api worker heartbeat ok (23ms)
+2026-02-10 13:21:14,843 INFO telemetry-api GET /v1/items 200 88ms req_id=6c97b3ca
+2026-02-10 13:21:28,792 INFO telemetry-api worker heartbeat ok (89ms)
+2026-02-10 13:21:38,286 INFO telemetry-api GET /v1/items 200 11ms req_id=dd7a6ac5
+2026-02-10 13:21:44,059 INFO telemetry-api GET /v1/items 200 57ms req_id=f917a6e1
+2026-02-10 13:21:55,515 INFO telemetry-api GET /v1/items 200 31ms req_id=fa74eee6
+2026-02-10 13:22:06,853 INFO telemetry-api GET /v1/items 200 72ms req_id=2c52155a
+2026-02-10 13:22:14,148 INFO telemetry-api worker heartbeat ok (16ms)
+2026-02-10 13:22:21,599 INFO telemetry-api worker heartbeat ok (18ms)
+2026-02-10 13:22:28,719 INFO telemetry-api worker heartbeat ok (85ms)
+2026-02-10 13:22:39,788 INFO telemetry-api worker heartbeat ok (68ms)
+2026-02-10 13:22:48,178 INFO telemetry-api worker heartbeat ok (26ms)
+2026-02-10 13:23:02,486 INFO telemetry-api GET /v1/items 200 39ms req_id=252afcc4
+2026-02-10 13:23:09,203 INFO telemetry-api GET /v1/items 200 25ms req_id=39e91c6d
+2026-02-10 13:23:23,936 INFO telemetry-api worker heartbeat ok (24ms)
+2026-02-10 13:23:33,419 INFO telemetry-api GET /v1/items 200 60ms req_id=8e96a38d
+2026-02-10 13:23:40,056 INFO telemetry-api worker heartbeat ok (13ms)
+2026-02-10 13:23:54,644 INFO telemetry-api GET /v1/items 200 34ms req_id=3926c923
+2026-02-10 13:24:00,846 INFO telemetry-api worker heartbeat ok (24ms)
+2026-02-10 13:24:08,975 INFO telemetry-api worker heartbeat ok (92ms)
+2026-02-10 13:24:15,807 INFO telemetry-api worker heartbeat ok (60ms)
+2026-02-10 13:24:22,957 INFO telemetry-api worker heartbeat ok (19ms)
+2026-02-10 13:24:36,421 INFO telemetry-api GET /v1/items 200 43ms req_id=531c8429
+2026-02-10 13:24:50,137 INFO telemetry-api GET /v1/items 200 76ms req_id=2524f801

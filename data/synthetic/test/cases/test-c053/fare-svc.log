@@ -1,0 +1,58 @@
+2026-01-11T15:50:40.233+05:30 info fare-svc event loop lag 75ms ok
+2026-01-11T15:50:48.725+05:30 info fare-svc served GET /api status=200 in 19ms trace=69d12f5f
+2026-01-11T15:50:55.047+05:30 info fare-svc event loop lag 45ms ok
+2026-01-11T15:51:09.917+05:30 info fare-svc served GET /api status=200 in 17ms trace=28a88988
+2026-01-11T15:51:23.853+05:30 info fare-svc served GET /api status=200 in 27ms trace=cff9e381
+2026-01-11T15:51:37.042+05:30 info fare-svc event loop lag 59ms ok
+2026-01-11T15:51:48.388+05:30 info fare-svc served GET /api status=200 in 90ms trace=322cbc77
+2026-01-11T15:51:57.396+05:30 info fare-svc event loop lag 71ms ok
+2026-01-11T15:52:11.292+05:30 info fare-svc event loop lag 69ms ok
+2026-01-11T15:52:22.707+05:30 info fare-svc event loop lag 57ms ok
+2026-01-11T15:52:32.892+05:30 info fare-svc event loop lag 47ms ok
+2026-01-11T15:52:43.427+05:30 info fare-svc event loop lag 58ms ok
+2026-01-11T15:52:51.390+05:30 info fare-svc served GET /api status=200 in 32ms trace=ec4d8095
+2026-01-11T15:53:03.646+05:30 info fare-svc event loop lag 68ms ok
+2026-01-11T15:53:17.037+05:30 info fare-svc served GET /api status=200 in 56ms trace=27782a86
+2026-01-11T15:53:29.562+05:30 info fare-svc served GET /api status=200 in 37ms trace=290b0513
+2026-01-11T15:53:43.634+05:30 info fare-svc event loop lag 10ms ok
+2026-01-11T15:53:57.003+05:30 info fare-svc event loop lag 48ms ok
+2026-01-11T15:54:03.899+05:30 info fare-svc event loop lag 68ms ok
+2026-01-11T15:54:17.340+05:30 info fare-svc served GET /api status=200 in 89ms trace=658dab69
+2026-01-11T15:54:30.490+05:30 info fare-svc event loop lag 66ms ok
+2026-01-11T15:54:37.495+05:30 info fare-svc served GET /api status=200 in 57ms trace=7ae85420
+2026-01-11T15:54:46.328+05:30 info fare-svc served GET /api status=200 in 26ms trace=49bd9c14
+2026-01-11T15:54:55.012+05:30 info fare-svc served GET /api status=200 in 73ms trace=b8364539
+2026-01-11T15:55:02.859+05:30 info fare-svc served GET /api status=200 in 14ms trace=598bcd93
+2026-01-11T15:55:12.150+05:30 info fare-svc served GET /api status=200 in 53ms trace=30ae7cc7
+2026-01-11T15:55:25.009+05:30 info fare-svc event loop lag 78ms ok
+2026-01-11T15:55:36.606+05:30 info fare-svc event loop lag 77ms ok
+2026-01-11T15:55:46.447+05:30 info fare-svc served GET /api status=200 in 82ms trace=620f99c5
+2026-01-11T15:55:56.973+05:30 info fare-svc served GET /api status=200 in 23ms trace=b739ce16
+2026-01-11T15:56:06.490+05:30 info fare-svc served GET /api status=200 in 50ms trace=10e16731
+2026-01-11T15:56:19.689+05:30 info fare-svc served GET /api status=200 in 64ms trace=53bc1861
+2026-01-11T15:56:25.712+05:30 info fare-svc served GET /api status=200 in 38ms trace=82137c84
+2026-01-11T15:56:31.687+05:30 info fare-svc served GET /api status=200 in 50ms trace=9edda9e9
+2026-01-11T15:56:43.606+05:30 info fare-svc served GET /api status=200 in 12ms trace=f8e78cbd
+2026-01-11T15:56:55.913+05:30 info fare-svc event loop lag 79ms ok
+2026-01-11T15:57:04.850+05:30 info fare-svc event loop lag 95ms ok
+2026-01-11T15:57:15.342+05:30 info fare-svc event loop lag 39ms ok
+2026-01-11T15:57:23.863+05:30 info fare-svc event loop lag 24ms ok
+2026-01-11T15:57:32.181+05:30 info fare-svc event loop lag 54ms ok
+2026-01-11T15:57:43.147+05:30 info fare-svc event loop lag 33ms ok
+2026-01-11T15:57:52.281+05:30 info fare-svc event loop lag 90ms ok
+2026-01-11T15:58:03.511+05:30 info fare-svc served GET /api status=200 in 68ms trace=cdeba7ff
+2026-01-11T15:58:09.250+05:30 info fare-svc event loop lag 49ms ok
+2026-01-11T15:58:19.127+05:30 info fare-svc event loop lag 80ms ok
+2026-01-11T15:58:28.315+05:30 info fare-svc event loop lag 72ms ok
+2026-01-11T15:58:41.286+05:30 info fare-svc event loop lag 86ms ok
+2026-01-11T15:58:53.593+05:30 info fare-svc event loop lag 65ms ok
+2026-01-11T15:59:00.338+05:30 info fare-svc served GET /api status=200 in 57ms trace=6979dd86
+2026-01-11T15:59:14.221+05:30 info fare-svc served GET /api status=200 in 83ms trace=902b0933
+2026-01-11T15:59:26.255+05:30 info fare-svc event loop lag 84ms ok
+2026-01-11T15:59:37.847+05:30 info fare-svc served GET /api status=200 in 35ms trace=081f9db3
+2026-01-11T15:59:45.366+05:30 info fare-svc event loop lag 12ms ok
+2026-01-11T15:59:52.342+05:30 info fare-svc served GET /api status=200 in 71ms trace=f75afce4
+2026-01-11T16:00:05.538+05:30 info fare-svc served GET /api status=200 in 39ms trace=92a5631d
+2026-01-11T16:00:11.440+05:30 info fare-svc served GET /api status=200 in 41ms trace=9d34e32c
+2026-01-11T16:00:18.374+05:30 info fare-svc served GET /api status=200 in 26ms trace=ca1fb070
+2026-01-11T16:00:30.099+05:30 info fare-svc served GET /api status=200 in 28ms trace=516e2e4e

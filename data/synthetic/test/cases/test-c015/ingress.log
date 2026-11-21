@@ -1,0 +1,65 @@
+2026-01-21 13:09:51,550 INFO ingress GET /v1/items 200 56ms req_id=c65803e2
+2026-01-21 13:10:05,313 INFO ingress GET /v1/items 200 30ms req_id=59e019b0
+2026-01-21 13:10:19,670 INFO ingress worker heartbeat ok (90ms)
+2026-01-21 13:10:20,000 WARNING ingress deprecated parameter 'page' used by client
+2026-01-21 13:10:29,884 INFO ingress worker heartbeat ok (48ms)
+2026-01-21 13:10:41,484 INFO ingress GET /v1/items 200 75ms req_id=197ad720
+2026-01-21 13:10:42,000 WARNING ingress deprecated parameter 'page' used by client
+2026-01-21 13:10:55,170 INFO ingress worker heartbeat ok (48ms)
+2026-01-21 13:11:08,032 INFO ingress GET /v1/items 200 49ms req_id=a594157b
+2026-01-21 13:11:22,246 INFO ingress GET /v1/items 200 15ms req_id=7ab3bd3a
+2026-01-21 13:11:36,276 INFO ingress worker heartbeat ok (93ms)
+2026-01-21 13:11:50,775 INFO ingress GET /v1/items 200 9ms req_id=7ab742e2
+2026-01-21 13:11:59,211 INFO ingress GET /v1/items 200 13ms req_id=5b27f139
+2026-01-21 13:12:06,087 INFO ingress worker heartbeat ok (24ms)
+2026-01-21 13:12:16,111 INFO ingress worker heartbeat ok (38ms)
+2026-01-21 13:12:23,938 INFO ingress GET /v1/items 200 73ms req_id=d9de0cc6
+2026-01-21 13:12:36,878 INFO ingress GET /v1/items 200 30ms req_id=18cec0a5
+2026-01-21 13:12:47,402 INFO ingress GET /v1/items 200 50ms req_id=48eff404
+2026-01-21 13:12:56,274 INFO ingress worker heartbeat ok (88ms)
+2026-01-21 13:13:04,096 INFO ingress worker heartbeat ok (44ms)
+2026-01-21 13:13:16,052 INFO ingress GET /v1/items 200 48ms req_id=eeb6fd95
+2026-01-21 13:13:27,777 INFO ingress worker heartbeat ok (82ms)
+2026-01-21 13:13:37,816 INFO ingress GET /v1/items 200 84ms req_id=6048d526
+2026-01-21 13:13:50,910 INFO ingress GET /v1/items 200 37ms req_id=fa262217
+2026-01-21 13:13:57,112 INFO ingress worker heartbeat ok (18ms)
+2026-01-21 13:14:10,100 INFO ingress worker heartbeat ok (19ms)
+2026-01-21 13:14:24,039 INFO ingress GET /v1/items 200 93ms req_id=8824379a
+2026-01-21 13:14:34,310 INFO ingress GET /v1/items 200 30ms req_id=2e9bd9ab
+2026-01-21 13:14:42,242 INFO ingress worker heartbeat ok (55ms)
+2026-01-21 13:14:55,050 INFO ingress worker heartbeat ok (70ms)
+2026-01-21 13:15:01,751 INFO ingress worker heartbeat ok (74ms)
+2026-01-21 13:15:05,448 ERROR ingress upstream error from telemetry-api; sent 502 to client req_id=a7608d13
+2026-01-21 13:15:08,985 ERROR ingress sent 503 to client, telemetry-api unhealthy req_id=a1c740f2
+2026-01-21 13:15:11,882 ERROR ingress upstream error from telemetry-api; sent 502 to client req_id=746bf575
+2026-01-21 13:15:14,063 ERROR ingress sent 503 to client, telemetry-api unhealthy req_id=2b0740a0
+2026-01-21 13:15:15,416 INFO ingress worker heartbeat ok (24ms)
+2026-01-21 13:15:17,020 ERROR ingress upstream error from telemetry-api; sent 502 to client req_id=d303b1f0
+2026-01-21 13:15:20,048 ERROR ingress sent 503 to client, telemetry-api unhealthy req_id=81901c96
+2026-01-21 13:15:22,137 INFO ingress worker heartbeat ok (19ms)
+2026-01-21 13:15:33,925 INFO ingress GET /v1/items 200 15ms req_id=6869e00b
+2026-01-21 13:15:45,091 INFO ingress GET /v1/items 200 74ms req_id=4fd2e5a4
+2026-01-21 13:15:55,680 INFO ingress GET /v1/items 200 52ms req_id=1e8a0e94
+2026-01-21 13:16:09,875 INFO ingress GET /v1/items 200 75ms req_id=c3dea7a7
+2026-01-21 13:16:22,266 INFO ingress worker heartbeat ok (79ms)
+2026-01-21 13:16:35,327 INFO ingress GET /v1/items 200 11ms req_id=f248b4d0
+2026-01-21 13:16:42,801 INFO ingress worker heartbeat ok (10ms)
+2026-01-21 13:16:49,457 INFO ingress worker heartbeat ok (38ms)
+2026-01-21 13:17:03,861 INFO ingress worker heartbeat ok (57ms)
+2026-01-21 13:17:15,757 INFO ingress GET /v1/items 200 74ms req_id=13583a72
+2026-01-21 13:17:23,318 INFO ingress GET /v1/items 200 82ms req_id=0bcbf9d0
+2026-01-21 13:17:31,856 INFO ingress worker heartbeat ok (27ms)
+2026-01-21 13:17:38,490 INFO ingress worker heartbeat ok (69ms)
+2026-01-21 13:17:47,449 INFO ingress worker heartbeat ok (58ms)
+2026-01-21 13:18:00,984 INFO ingress worker heartbeat ok (32ms)
+2026-01-21 13:18:07,246 INFO ingress worker heartbeat ok (44ms)
+2026-01-21 13:18:15,773 INFO ingress worker heartbeat ok (20ms)
+2026-01-21 13:18:25,053 INFO ingress worker heartbeat ok (88ms)
+2026-01-21 13:18:36,543 INFO ingress worker heartbeat ok (95ms)
+2026-01-21 13:18:45,364 INFO ingress GET /v1/items 200 58ms req_id=816eceb5
+2026-01-21 13:18:56,376 INFO ingress GET /v1/items 200 55ms req_id=3859445c
+2026-01-21 13:19:05,564 INFO ingress worker heartbeat ok (80ms)
+2026-01-21 13:19:15,973 INFO ingress GET /v1/items 200 77ms req_id=22d2db16
+2026-01-21 13:19:21,943 INFO ingress GET /v1/items 200 47ms req_id=20d74b61
+2026-01-21 13:19:31,284 INFO ingress GET /v1/items 200 59ms req_id=7b1a853c
+2026-01-21 13:19:42,646 INFO ingress worker heartbeat ok (62ms)

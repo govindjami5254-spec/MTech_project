@@ -1,0 +1,297 @@
+2026-01-06T11:13:34Z INFO scheduler http request method=GET status=200 latency_ms=90 span=0a953d73
+2026-01-06T11:13:42Z WARN scheduler report generation behind schedule by 0s
+2026-01-06T11:13:43Z INFO scheduler http request method=GET status=200 latency_ms=10 span=cfdccc50
+2026-01-06T11:13:44Z WARN scheduler report generation behind schedule by 0s
+2026-01-06T11:13:46Z WARN scheduler report generation behind schedule by 0s
+2026-01-06T11:13:48Z WARN scheduler report generation behind schedule by 0s
+2026-01-06T11:13:50Z WARN scheduler report generation behind schedule by 0s
+2026-01-06T11:13:52Z INFO scheduler http request method=GET status=200 latency_ms=28 span=b8bcf740
+2026-01-06T11:13:52Z WARN scheduler report generation behind schedule by 0s
+2026-01-06T11:13:55Z WARN scheduler fx rate feed stale by 590ms
+2026-01-06T11:13:57Z WARN scheduler fx rate feed stale by 940ms
+2026-01-06T11:14:01Z INFO scheduler tick ok elapsed_ms=47
+2026-01-06T11:14:01Z WARN scheduler fx rate feed stale by 810ms
+2026-01-06T11:14:03Z WARN scheduler report generation behind schedule by 0s
+2026-01-06T11:14:05Z WARN scheduler report generation behind schedule by 0s
+2026-01-06T11:14:08Z WARN scheduler fx rate feed stale by 220ms
+2026-01-06T11:14:10Z WARN scheduler report generation behind schedule by 0s
+2026-01-06T11:14:11Z INFO scheduler tick ok elapsed_ms=48
+2026-01-06T11:14:13Z WARN scheduler report generation behind schedule by 0s
+2026-01-06T11:14:15Z WARN scheduler fx rate feed stale by 830ms
+2026-01-06T11:14:17Z WARN scheduler report generation behind schedule by 0s
+2026-01-06T11:14:21Z INFO scheduler tick ok elapsed_ms=63
+2026-01-06T11:14:21Z WARN scheduler report generation behind schedule by 0s
+2026-01-06T11:14:23Z WARN scheduler fx rate feed stale by 550ms
+2026-01-06T11:14:26Z WARN scheduler report generation behind schedule by 0s
+2026-01-06T11:14:27Z WARN scheduler report generation behind schedule by 0s
+2026-01-06T11:14:30Z INFO scheduler http request method=GET status=200 latency_ms=32 span=27c84434
+2026-01-06T11:14:30Z WARN scheduler fx rate feed stale by 300ms
+2026-01-06T11:14:33Z WARN scheduler fx rate feed stale by 690ms
+2026-01-06T11:14:35Z WARN scheduler report generation behind schedule by 0s
+2026-01-06T11:14:37Z WARN scheduler report generation behind schedule by 0s
+2026-01-06T11:14:39Z INFO scheduler http request method=GET status=200 latency_ms=28 span=6863ae62
+2026-01-06T11:14:39Z WARN scheduler report generation behind schedule by 0s
+2026-01-06T11:14:42Z WARN scheduler fx rate feed stale by 470ms
+2026-01-06T11:14:45Z WARN scheduler report generation behind schedule by 0s
+2026-01-06T11:14:48Z WARN scheduler fx rate feed stale by 580ms
+2026-01-06T11:14:50Z WARN scheduler fx rate feed stale by 430ms
+2026-01-06T11:14:53Z INFO scheduler http request method=GET status=200 latency_ms=70 span=be2024a9
+2026-01-06T11:14:54Z WARN scheduler fx rate feed stale by 640ms
+2026-01-06T11:14:57Z WARN scheduler report generation behind schedule by 0s
+2026-01-06T11:15:00Z WARN scheduler fx rate feed stale by 300ms
+2026-01-06T11:15:03Z WARN scheduler fx rate feed stale by 610ms
+2026-01-06T11:15:06Z WARN scheduler report generation behind schedule by 0s
+2026-01-06T11:15:07Z INFO scheduler tick ok elapsed_ms=42
+2026-01-06T11:15:09Z WARN scheduler report generation behind schedule by 0s
+2026-01-06T11:15:11Z WARN scheduler report generation behind schedule by 0s
+2026-01-06T11:15:13Z INFO scheduler http request method=GET status=200 latency_ms=28 span=d78df75b
+2026-01-06T11:15:14Z WARN scheduler fx rate feed stale by 390ms
+2026-01-06T11:15:17Z WARN scheduler fx rate feed stale by 900ms
+2026-01-06T11:15:20Z WARN scheduler fx rate feed stale by 520ms
+2026-01-06T11:15:23Z WARN scheduler report generation behind schedule by 0s
+2026-01-06T11:15:26Z INFO scheduler tick ok elapsed_ms=95
+2026-01-06T11:15:26Z WARN scheduler fx rate feed stale by 700ms
+2026-01-06T11:15:30Z WARN scheduler report generation behind schedule by 0s
+2026-01-06T11:15:32Z WARN scheduler fx rate feed stale by 760ms
+2026-01-06T11:15:34Z WARN scheduler report generation behind schedule by 0s
+2026-01-06T11:15:36Z WARN scheduler report generation behind schedule by 0s
+2026-01-06T11:15:39Z WARN scheduler fx rate feed stale by 890ms
+2026-01-06T11:15:40Z INFO scheduler http request method=GET status=200 latency_ms=89 span=45e57e41
+2026-01-06T11:15:42Z WARN scheduler fx rate feed stale by 930ms
+2026-01-06T11:15:45Z WARN scheduler fx rate feed stale by 780ms
+2026-01-06T11:15:47Z WARN scheduler report generation behind schedule by 0s
+2026-01-06T11:15:49Z INFO scheduler tick ok elapsed_ms=94
+2026-01-06T11:15:50Z WARN scheduler report generation behind schedule by 0s
+2026-01-06T11:15:53Z WARN scheduler fx rate feed stale by 640ms
+2026-01-06T11:15:55Z INFO scheduler tick ok elapsed_ms=49
+2026-01-06T11:15:55Z WARN scheduler fx rate feed stale by 170ms
+2026-01-06T11:15:59Z WARN scheduler report generation behind schedule by 0s
+2026-01-06T11:16:01Z WARN scheduler fx rate feed stale by 220ms
+2026-01-06T11:16:05Z WARN scheduler report generation behind schedule by 0s
+2026-01-06T11:16:06Z WARN scheduler fx rate feed stale by 770ms
+2026-01-06T11:16:07Z INFO scheduler http request method=GET status=200 latency_ms=61 span=ed531bc8
+2026-01-06T11:16:09Z WARN scheduler report generation behind schedule by 0s
+2026-01-06T11:16:13Z WARN scheduler fx rate feed stale by 570ms
+2026-01-06T11:16:14Z INFO scheduler tick ok elapsed_ms=33
+2026-01-06T11:16:16Z WARN scheduler report generation behind schedule by 0s
+2026-01-06T11:16:19Z WARN scheduler report generation behind schedule by 0s
+2026-01-06T11:16:20Z WARN scheduler fx rate feed stale by 130ms
+2026-01-06T11:16:23Z WARN scheduler fx rate feed stale by 140ms
+2026-01-06T11:16:26Z INFO scheduler http request method=GET status=200 latency_ms=25 span=74af2ff7
+2026-01-06T11:16:26Z WARN scheduler fx rate feed stale by 830ms
+2026-01-06T11:16:28Z WARN scheduler fx rate feed stale by 740ms
+2026-01-06T11:16:31Z WARN scheduler report generation behind schedule by 0s
+2026-01-06T11:16:34Z WARN scheduler fx rate feed stale by 450ms
+2026-01-06T11:16:35Z INFO scheduler tick ok elapsed_ms=16
+2026-01-06T11:16:37Z WARN scheduler report generation behind schedule by 0s
+2026-01-06T11:16:40Z WARN scheduler report generation behind schedule by 0s
+2026-01-06T11:16:41Z WARN scheduler fx rate feed stale by 740ms
+2026-01-06T11:16:43Z INFO scheduler http request method=GET status=200 latency_ms=32 span=8a6d6884
+2026-01-06T11:16:44Z WARN scheduler fx rate feed stale by 770ms
+2026-01-06T11:16:46Z WARN scheduler report generation behind schedule by 0s
+2026-01-06T11:16:49Z WARN scheduler report generation behind schedule by 0s
+2026-01-06T11:16:53Z WARN scheduler fx rate feed stale by 610ms
+2026-01-06T11:16:55Z INFO scheduler http request method=GET status=200 latency_ms=9 span=11b18b3a
+2026-01-06T11:16:55Z WARN scheduler report generation behind schedule by 0s
+2026-01-06T11:16:57Z WARN scheduler fx rate feed stale by 740ms
+2026-01-06T11:17:00Z WARN scheduler report generation behind schedule by 0s
+2026-01-06T11:17:03Z WARN scheduler fx rate feed stale by 730ms
+2026-01-06T11:17:04Z INFO scheduler http request method=GET status=200 latency_ms=34 span=d7896b75
+2026-01-06T11:17:05Z WARN scheduler report generation behind schedule by 0s
+2026-01-06T11:17:07Z WARN scheduler fx rate feed stale by 270ms
+2026-01-06T11:17:10Z WARN scheduler fx rate feed stale by 280ms
+2026-01-06T11:17:12Z WARN scheduler fx rate feed stale by 380ms
+2026-01-06T11:17:14Z INFO scheduler tick ok elapsed_ms=61
+2026-01-06T11:17:14Z WARN scheduler report generation behind schedule by 0s
+2026-01-06T11:17:17Z WARN scheduler report generation behind schedule by 0s
+2026-01-06T11:17:19Z WARN scheduler report generation behind schedule by 0s
+2026-01-06T11:17:22Z WARN scheduler fx rate feed stale by 260ms
+2026-01-06T11:17:24Z WARN scheduler report generation behind schedule by 0s
+2026-01-06T11:17:27Z INFO scheduler tick ok elapsed_ms=38
+2026-01-06T11:17:27Z WARN scheduler report generation behind schedule by 0s
+2026-01-06T11:17:29Z WARN scheduler report generation behind schedule by 0s
+2026-01-06T11:17:31Z WARN scheduler report generation behind schedule by 0s
+2026-01-06T11:17:33Z WARN scheduler fx rate feed stale by 690ms
+2026-01-06T11:17:34Z INFO scheduler http request method=GET status=200 latency_ms=44 span=499aba8b
+2026-01-06T11:17:36Z WARN scheduler fx rate feed stale by 230ms
+2026-01-06T11:17:39Z WARN scheduler fx rate feed stale by 270ms
+2026-01-06T11:17:42Z INFO scheduler http request method=GET status=200 latency_ms=58 span=04aafec5
+2026-01-06T11:17:43Z WARN scheduler fx rate feed stale by 400ms
+2026-01-06T11:17:44Z WARN scheduler report generation behind schedule by 0s
+2026-01-06T11:17:47Z WARN scheduler report generation behind schedule by 0s
+2026-01-06T11:17:50Z WARN scheduler fx rate feed stale by 680ms
+2026-01-06T11:17:51Z INFO scheduler http request method=GET status=200 latency_ms=40 span=4acb4a60
+2026-01-06T11:17:52Z WARN scheduler fx rate feed stale by 100ms
+2026-01-06T11:17:54Z WARN scheduler report generation behind schedule by 0s
+2026-01-06T11:17:56Z WARN scheduler fx rate feed stale by 550ms
+2026-01-06T11:17:58Z WARN scheduler report generation behind schedule by 0s
+2026-01-06T11:17:59Z WARN scheduler report generation behind schedule by 0s
+2026-01-06T11:18:02Z WARN scheduler fx rate feed stale by 780ms
+2026-01-06T11:18:04Z WARN scheduler report generation behind schedule by 0s
+2026-01-06T11:18:05Z INFO scheduler tick ok elapsed_ms=33
+2026-01-06T11:18:07Z WARN scheduler report generation behind schedule by 0s
+2026-01-06T11:18:09Z WARN scheduler report generation behind schedule by 0s
+2026-01-06T11:18:10Z WARN scheduler report generation behind schedule by 0s
+2026-01-06T11:18:13Z WARN scheduler report generation behind schedule by 0s
+2026-01-06T11:18:15Z WARN scheduler report generation behind schedule by 0s
+2026-01-06T11:18:17Z WARN scheduler fx rate feed stale by 780ms
+2026-01-06T11:18:18Z INFO scheduler http request method=GET status=200 latency_ms=92 span=ff4acd08
+2026-01-06T11:18:19Z WARN scheduler report generation behind schedule by 0s
+2026-01-06T11:18:22Z WARN scheduler report generation behind schedule by 0s
+2026-01-06T11:18:24Z WARN scheduler fx rate feed stale by 430ms
+2026-01-06T11:18:25Z INFO scheduler http request method=GET status=200 latency_ms=73 span=54857ef7
+2026-01-06T11:18:27Z WARN scheduler fx rate feed stale by 830ms
+2026-01-06T11:18:29Z WARN scheduler fx rate feed stale by 880ms
+2026-01-06T11:18:31Z INFO scheduler tick ok elapsed_ms=49
+2026-01-06T11:18:31Z WARN scheduler report generation behind schedule by 0s
+2026-01-06T11:18:34Z WARN scheduler report generation behind schedule by 0s
+2026-01-06T11:18:36Z WARN scheduler fx rate feed stale by 730ms
+2026-01-06T11:18:38Z WARN scheduler report generation behind schedule by 0s
+2026-01-06T11:18:40Z WARN scheduler fx rate feed stale by 590ms
+2026-01-06T11:18:41Z INFO scheduler tick ok elapsed_ms=30
+2026-01-06T11:18:42Z WARN scheduler fx rate feed stale by 510ms
+2026-01-06T11:18:43Z WARN scheduler report generation behind schedule by 0s
+2026-01-06T11:18:45Z WARN scheduler fx rate feed stale by 950ms
+2026-01-06T11:18:47Z WARN scheduler report generation behind schedule by 0s
+2026-01-06T11:18:48Z WARN scheduler fx rate feed stale by 920ms
+2026-01-06T11:18:50Z WARN scheduler report generation behind schedule by 0s
+2026-01-06T11:18:52Z WARN scheduler report generation behind schedule by 0s
+2026-01-06T11:18:53Z INFO scheduler http request method=GET status=200 latency_ms=48 span=808e8be1
+2026-01-06T11:18:54Z WARN scheduler fx rate feed stale by 390ms
+2026-01-06T11:18:56Z WARN scheduler report generation behind schedule by 0s
+2026-01-06T11:18:59Z WARN scheduler report generation behind schedule by 0s
+2026-01-06T11:19:02Z WARN scheduler fx rate feed stale by 400ms
+2026-01-06T11:19:03Z INFO scheduler tick ok elapsed_ms=62
+2026-01-06T11:19:04Z WARN scheduler client sent oversized header, truncated span=9272718d
+2026-01-06T11:19:05Z WARN scheduler report generation behind schedule by 0s
+2026-01-06T11:19:08Z WARN scheduler report generation behind schedule by 0s
+2026-01-06T11:19:09Z INFO scheduler tick ok elapsed_ms=89
+2026-01-06T11:19:11Z WARN scheduler report generation behind schedule by 0s
+2026-01-06T11:19:13Z WARN scheduler fx rate feed stale by 100ms
+2026-01-06T11:19:16Z WARN scheduler report generation behind schedule by 0s
+2026-01-06T11:19:18Z INFO scheduler tick ok elapsed_ms=8
+2026-01-06T11:19:18Z WARN scheduler report generation behind schedule by 0s
+2026-01-06T11:19:20Z WARN scheduler fx rate feed stale by 520ms
+2026-01-06T11:19:22Z WARN scheduler fx rate feed stale by 600ms
+2026-01-06T11:19:25Z INFO scheduler http request method=GET status=200 latency_ms=70 span=39c4724a
+2026-01-06T11:19:25Z WARN scheduler fx rate feed stale by 840ms
+2026-01-06T11:19:28Z WARN scheduler fx rate feed stale by 160ms
+2026-01-06T11:19:31Z INFO scheduler http request method=GET status=200 latency_ms=8 span=fdc6e4dd
+2026-01-06T11:19:31Z WARN scheduler fx rate feed stale by 520ms
+2026-01-06T11:19:34Z WARN scheduler report generation behind schedule by 0s
+2026-01-06T11:19:36Z WARN scheduler report generation behind schedule by 0s
+2026-01-06T11:19:38Z WARN scheduler fx rate feed stale by 520ms
+2026-01-06T11:19:41Z WARN scheduler report generation behind schedule by 0s
+2026-01-06T11:19:43Z WARN scheduler fx rate feed stale by 770ms
+2026-01-06T11:19:44Z INFO scheduler http request method=GET status=200 latency_ms=92 span=71fb7536
+2026-01-06T11:19:46Z WARN scheduler fx rate feed stale by 270ms
+2026-01-06T11:19:49Z WARN scheduler report generation behind schedule by 0s
+2026-01-06T11:19:51Z WARN scheduler report generation behind schedule by 0s
+2026-01-06T11:19:54Z WARN scheduler fx rate feed stale by 760ms
+2026-01-06T11:19:57Z WARN scheduler report generation behind schedule by 0s
+2026-01-06T11:19:58Z INFO scheduler http request method=GET status=200 latency_ms=8 span=fd489df4
+2026-01-06T11:20:00Z WARN scheduler fx rate feed stale by 520ms
+2026-01-06T11:20:03Z WARN scheduler fx rate feed stale by 690ms
+2026-01-06T11:20:05Z INFO scheduler tick ok elapsed_ms=95
+2026-01-06T11:20:06Z WARN scheduler fx rate feed stale by 80ms
+2026-01-06T11:20:08Z WARN scheduler report generation behind schedule by 0s
+2026-01-06T11:20:10Z WARN scheduler fx rate feed stale by 100ms
+2026-01-06T11:20:12Z WARN scheduler fx rate feed stale by 420ms
+2026-01-06T11:20:14Z INFO scheduler tick ok elapsed_ms=63
+2026-01-06T11:20:15Z WARN scheduler report generation behind schedule by 0s
+2026-01-06T11:20:18Z WARN scheduler report generation behind schedule by 0s
+2026-01-06T11:20:19Z WARN scheduler report generation behind schedule by 0s
+2026-01-06T11:20:22Z WARN scheduler fx rate feed stale by 810ms
+2026-01-06T11:20:24Z WARN scheduler report generation behind schedule by 0s
+2026-01-06T11:20:25Z INFO scheduler tick ok elapsed_ms=72
+2026-01-06T11:20:26Z WARN scheduler report generation behind schedule by 0s
+2026-01-06T11:20:28Z WARN scheduler fx rate feed stale by 930ms
+2026-01-06T11:20:30Z WARN scheduler fx rate feed stale by 400ms
+2026-01-06T11:20:32Z WARN scheduler report generation behind schedule by 0s
+2026-01-06T11:20:33Z INFO scheduler tick ok elapsed_ms=68
+2026-01-06T11:20:35Z WARN scheduler fx rate feed stale by 290ms
+2026-01-06T11:20:38Z WARN scheduler fx rate feed stale by 490ms
+2026-01-06T11:20:41Z WARN scheduler fx rate feed stale by 130ms
+2026-01-06T11:20:43Z WARN scheduler report generation behind schedule by 0s
+2026-01-06T11:20:44Z INFO scheduler tick ok elapsed_ms=89
+2026-01-06T11:20:45Z WARN scheduler fx rate feed stale by 550ms
+2026-01-06T11:20:49Z WARN scheduler fx rate feed stale by 880ms
+2026-01-06T11:20:51Z WARN scheduler report generation behind schedule by 0s
+2026-01-06T11:20:52Z INFO scheduler http request method=GET status=200 latency_ms=14 span=432552fa
+2026-01-06T11:20:54Z WARN scheduler fx rate feed stale by 950ms
+2026-01-06T11:20:55Z WARN scheduler report generation behind schedule by 0s
+2026-01-06T11:20:59Z WARN scheduler fx rate feed stale by 380ms
+2026-01-06T11:21:01Z WARN scheduler report generation behind schedule by 0s
+2026-01-06T11:21:04Z WARN scheduler fx rate feed stale by 290ms
+2026-01-06T11:21:05Z INFO scheduler http request method=GET status=200 latency_ms=42 span=faf6a6d2
+2026-01-06T11:21:06Z WARN scheduler report generation behind schedule by 0s
+2026-01-06T11:21:07Z WARN scheduler report generation behind schedule by 0s
+2026-01-06T11:21:11Z WARN scheduler report generation behind schedule by 0s
+2026-01-06T11:21:12Z WARN scheduler report generation behind schedule by 0s
+2026-01-06T11:21:16Z WARN scheduler fx rate feed stale by 630ms
+2026-01-06T11:21:18Z WARN scheduler fx rate feed stale by 730ms
+2026-01-06T11:21:19Z INFO scheduler tick ok elapsed_ms=9
+2026-01-06T11:21:20Z WARN scheduler report generation behind schedule by 0s
+2026-01-06T11:21:22Z WARN scheduler fx rate feed stale by 260ms
+2026-01-06T11:21:25Z WARN scheduler fx rate feed stale by 860ms
+2026-01-06T11:21:27Z WARN scheduler report generation behind schedule by 0s
+2026-01-06T11:21:28Z WARN scheduler report generation behind schedule by 0s
+2026-01-06T11:21:31Z WARN scheduler fx rate feed stale by 340ms
+2026-01-06T11:21:33Z INFO scheduler http request method=GET status=200 latency_ms=59 span=d9835061
+2026-01-06T11:21:33Z WARN scheduler report generation behind schedule by 0s
+2026-01-06T11:21:35Z WARN scheduler report generation behind schedule by 0s
+2026-01-06T11:21:38Z WARN scheduler fx rate feed stale by 430ms
+2026-01-06T11:21:40Z WARN scheduler report generation behind schedule by 0s
+2026-01-06T11:21:42Z WARN scheduler fx rate feed stale by 700ms
+2026-01-06T11:21:45Z WARN scheduler report generation behind schedule by 0s
+2026-01-06T11:21:47Z INFO scheduler tick ok elapsed_ms=52
+2026-01-06T11:21:47Z WARN scheduler fx rate feed stale by 460ms
+2026-01-06T11:21:49Z WARN scheduler report generation behind schedule by 0s
+2026-01-06T11:21:51Z WARN scheduler report generation behind schedule by 0s
+2026-01-06T11:21:54Z WARN scheduler report generation behind schedule by 0s
+2026-01-06T11:21:55Z INFO scheduler http request method=GET status=200 latency_ms=89 span=da3eaf51
+2026-01-06T11:21:57Z WARN scheduler fx rate feed stale by 140ms
+2026-01-06T11:21:58Z WARN scheduler report generation behind schedule by 0s
+2026-01-06T11:22:00Z WARN scheduler fx rate feed stale by 180ms
+2026-01-06T11:22:03Z WARN scheduler fx rate feed stale by 950ms
+2026-01-06T11:22:06Z WARN scheduler fx rate feed stale by 820ms
+2026-01-06T11:22:08Z INFO scheduler http request method=GET status=200 latency_ms=84 span=80e0d260
+2026-01-06T11:22:08Z WARN scheduler report generation behind schedule by 0s
+2026-01-06T11:22:11Z WARN scheduler fx rate feed stale by 840ms
+2026-01-06T11:22:13Z WARN scheduler report generation behind schedule by 0s
+2026-01-06T11:22:17Z WARN scheduler report generation behind schedule by 0s
+2026-01-06T11:22:18Z INFO scheduler tick ok elapsed_ms=41
+2026-01-06T11:22:19Z WARN scheduler fx rate feed stale by 340ms
+2026-01-06T11:22:21Z WARN scheduler fx rate feed stale by 530ms
+2026-01-06T11:22:22Z WARN scheduler report generation behind schedule by 0s
+2026-01-06T11:22:24Z INFO scheduler http request method=GET status=200 latency_ms=49 span=f1679e5a
+2026-01-06T11:22:24Z WARN scheduler fx rate feed stale by 160ms
+2026-01-06T11:22:28Z WARN scheduler fx rate feed stale by 200ms
+2026-01-06T11:22:30Z WARN scheduler report generation behind schedule by 0s
+2026-01-06T11:22:33Z WARN scheduler fx rate feed stale by 180ms
+2026-01-06T11:22:34Z INFO scheduler tick ok elapsed_ms=32
+2026-01-06T11:22:36Z WARN scheduler fx rate feed stale by 830ms
+2026-01-06T11:22:39Z WARN scheduler report generation behind schedule by 0s
+2026-01-06T11:22:41Z INFO scheduler http request method=GET status=200 latency_ms=62 span=ea47d1b5
+2026-01-06T11:22:41Z WARN scheduler fx rate feed stale by 180ms
+2026-01-06T11:22:43Z WARN scheduler fx rate feed stale by 790ms
+2026-01-06T11:22:45Z WARN scheduler report generation behind schedule by 0s
+2026-01-06T11:22:48Z INFO scheduler tick ok elapsed_ms=70
+2026-01-06T11:22:49Z WARN scheduler fx rate feed stale by 900ms
+2026-01-06T11:22:51Z WARN scheduler report generation behind schedule by 0s
+2026-01-06T11:22:54Z WARN scheduler report generation behind schedule by 0s
+2026-01-06T11:22:56Z INFO scheduler http request method=GET status=200 latency_ms=44 span=c146a2e1
+2026-01-06T11:22:56Z WARN scheduler report generation behind schedule by 0s
+2026-01-06T11:22:59Z WARN scheduler fx rate feed stale by 560ms
+2026-01-06T11:23:02Z WARN scheduler fx rate feed stale by 240ms
+2026-01-06T11:23:04Z WARN scheduler fx rate feed stale by 910ms
+2026-01-06T11:23:05Z INFO scheduler tick ok elapsed_ms=13
+2026-01-06T11:23:08Z WARN scheduler report generation behind schedule by 0s
+2026-01-06T11:23:11Z WARN scheduler fx rate feed stale by 610ms
+2026-01-06T11:23:13Z WARN scheduler report generation behind schedule by 0s
+2026-01-06T11:23:14Z INFO scheduler tick ok elapsed_ms=27
+2026-01-06T11:23:15Z WARN scheduler fx rate feed stale by 470ms
+2026-01-06T11:23:17Z WARN scheduler fx rate feed stale by 370ms
+2026-01-06T11:23:19Z WARN scheduler report generation behind schedule by 0s
+2026-01-06T11:23:22Z WARN scheduler report generation behind schedule by 0s
+2026-01-06T11:23:24Z WARN scheduler report generation behind schedule by 0s

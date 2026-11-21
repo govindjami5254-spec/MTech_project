@@ -1,0 +1,60 @@
+2026-02-13T11:04:24Z INFO batch-exporter tick ok elapsed_ms=70
+2026-02-13T11:04:33Z INFO batch-exporter http request method=GET status=200 latency_ms=27 span=fa5dac3d
+2026-02-13T11:04:39Z INFO batch-exporter tick ok elapsed_ms=83
+2026-02-13T11:04:48Z INFO batch-exporter http request method=GET status=200 latency_ms=35 span=c3d311dd
+2026-02-13T11:04:58Z INFO batch-exporter http request method=GET status=200 latency_ms=24 span=ba147f8a
+2026-02-13T11:05:09Z INFO batch-exporter tick ok elapsed_ms=66
+2026-02-13T11:05:19Z INFO batch-exporter tick ok elapsed_ms=92
+2026-02-13T11:05:27Z INFO batch-exporter http request method=GET status=200 latency_ms=85 span=f197fe2a
+2026-02-13T11:05:37Z INFO batch-exporter tick ok elapsed_ms=55
+2026-02-13T11:05:48Z INFO batch-exporter tick ok elapsed_ms=52
+2026-02-13T11:06:02Z INFO batch-exporter http request method=GET status=200 latency_ms=73 span=fbbf31a4
+2026-02-13T11:06:11Z INFO batch-exporter http request method=GET status=200 latency_ms=35 span=3ebb1841
+2026-02-13T11:06:17Z INFO batch-exporter http request method=GET status=200 latency_ms=45 span=9e4bbb7a
+2026-02-13T11:06:23Z INFO batch-exporter tick ok elapsed_ms=56
+2026-02-13T11:06:29Z INFO batch-exporter tick ok elapsed_ms=84
+2026-02-13T11:06:35Z INFO batch-exporter http request method=GET status=200 latency_ms=23 span=207b7e5e
+2026-02-13T11:06:43Z INFO batch-exporter http request method=GET status=200 latency_ms=59 span=b3ff7659
+2026-02-13T11:06:50Z INFO batch-exporter tick ok elapsed_ms=23
+2026-02-13T11:07:01Z INFO batch-exporter http request method=GET status=200 latency_ms=77 span=b3b037c0
+2026-02-13T11:07:14Z INFO batch-exporter http request method=GET status=200 latency_ms=9 span=f31ae3a7
+2026-02-13T11:07:27Z INFO batch-exporter tick ok elapsed_ms=20
+2026-02-13T11:07:39Z INFO batch-exporter tick ok elapsed_ms=32
+2026-02-13T11:07:48Z INFO batch-exporter tick ok elapsed_ms=87
+2026-02-13T11:08:00Z INFO batch-exporter tick ok elapsed_ms=68
+2026-02-13T11:08:11Z INFO batch-exporter http request method=GET status=200 latency_ms=91 span=efa8524a
+2026-02-13T11:08:24Z INFO batch-exporter http request method=GET status=200 latency_ms=64 span=f53e842a
+2026-02-13T11:08:30Z INFO batch-exporter tick ok elapsed_ms=46
+2026-02-13T11:08:43Z INFO batch-exporter http request method=GET status=200 latency_ms=8 span=e0423738
+2026-02-13T11:08:50Z INFO batch-exporter tick ok elapsed_ms=53
+2026-02-13T11:09:03Z INFO batch-exporter tick ok elapsed_ms=41
+2026-02-13T11:09:12Z INFO batch-exporter tick ok elapsed_ms=72
+2026-02-13T11:09:23Z INFO batch-exporter http request method=GET status=200 latency_ms=87 span=c57cd36d
+2026-02-13T11:09:32Z INFO batch-exporter tick ok elapsed_ms=86
+2026-02-13T11:09:45Z INFO batch-exporter http request method=GET status=200 latency_ms=34 span=5e3f1d23
+2026-02-13T11:09:57Z INFO batch-exporter tick ok elapsed_ms=37
+2026-02-13T11:10:03Z INFO batch-exporter http request method=GET status=200 latency_ms=91 span=a325ba0f
+2026-02-13T11:10:12Z INFO batch-exporter http request method=GET status=200 latency_ms=68 span=aa3dd7b7
+2026-02-13T11:10:21Z INFO batch-exporter tick ok elapsed_ms=88
+2026-02-13T11:10:32Z INFO batch-exporter tick ok elapsed_ms=16
+2026-02-13T11:10:38Z INFO batch-exporter tick ok elapsed_ms=25
+2026-02-13T11:10:46Z INFO batch-exporter http request method=GET status=200 latency_ms=67 span=c78a008a
+2026-02-13T11:10:57Z INFO batch-exporter http request method=GET status=200 latency_ms=28 span=8502d2c8
+2026-02-13T11:11:03Z INFO batch-exporter tick ok elapsed_ms=92
+2026-02-13T11:11:17Z INFO batch-exporter tick ok elapsed_ms=93
+2026-02-13T11:11:24Z INFO batch-exporter http request method=GET status=200 latency_ms=31 span=56759cce
+2026-02-13T11:11:33Z INFO batch-exporter http request method=GET status=200 latency_ms=30 span=472e3a02
+2026-02-13T11:11:43Z INFO batch-exporter tick ok elapsed_ms=69
+2026-02-13T11:11:57Z INFO batch-exporter tick ok elapsed_ms=77
+2026-02-13T11:12:11Z INFO batch-exporter tick ok elapsed_ms=82
+2026-02-13T11:12:24Z INFO batch-exporter http request method=GET status=200 latency_ms=39 span=31a2dda5
+2026-02-13T11:12:35Z INFO batch-exporter http request method=GET status=200 latency_ms=43 span=7252d917
+2026-02-13T11:12:46Z INFO batch-exporter http request method=GET status=200 latency_ms=18 span=3009197f
+2026-02-13T11:12:57Z INFO batch-exporter http request method=GET status=200 latency_ms=8 span=f2f27923
+2026-02-13T11:13:11Z INFO batch-exporter tick ok elapsed_ms=40
+2026-02-13T11:13:25Z INFO batch-exporter http request method=GET status=200 latency_ms=76 span=b2611d5c
+2026-02-13T11:13:31Z INFO batch-exporter tick ok elapsed_ms=32
+2026-02-13T11:13:38Z INFO batch-exporter http request method=GET status=200 latency_ms=22 span=9fc89379
+2026-02-13T11:13:52Z INFO batch-exporter http request method=GET status=200 latency_ms=63 span=274f5b97
+2026-02-13T11:14:05Z INFO batch-exporter http request method=GET status=200 latency_ms=88 span=1362ba6b
+2026-02-13T11:14:13Z INFO batch-exporter http request method=GET status=200 latency_ms=18 span=5ff4e2cc

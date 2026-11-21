@@ -1,0 +1,294 @@
+2026-02-14T13:37:56Z INFO cron-runner health check passed in 28ms
+2026-02-14T13:38:09Z INFO cron-runner request completed in 63ms status=200 rid=d909374f
+2026-02-14T13:38:18Z WARN cron-runner metrics push delayed 46ms (buffer 80%)
+2026-02-14T13:38:20Z INFO cron-runner health check passed in 66ms
+2026-02-14T13:38:21Z WARN cron-runner metrics push delayed 20ms (buffer 80%)
+2026-02-14T13:38:23Z WARN cron-runner metrics push delayed 78ms (buffer 80%)
+2026-02-14T13:38:27Z WARN cron-runner metrics push delayed 66ms (buffer 80%)
+2026-02-14T13:38:29Z INFO cron-runner health check passed in 19ms
+2026-02-14T13:38:30Z WARN cron-runner metrics push delayed 58ms (buffer 80%)
+2026-02-14T13:38:33Z WARN cron-runner metrics push delayed 90ms (buffer 80%)
+2026-02-14T13:38:36Z WARN cron-runner queue lag 0 messages on topic events
+2026-02-14T13:38:37Z INFO cron-runner request completed in 53ms status=200 rid=3456a1ce
+2026-02-14T13:38:38Z WARN cron-runner metrics push delayed 16ms (buffer 80%)
+2026-02-14T13:38:40Z WARN cron-runner queue lag 0 messages on topic events
+2026-02-14T13:38:43Z INFO cron-runner request completed in 73ms status=200 rid=f8af8bb0
+2026-02-14T13:38:43Z WARN cron-runner metrics push delayed 77ms (buffer 80%)
+2026-02-14T13:38:46Z WARN cron-runner queue lag 0 messages on topic events
+2026-02-14T13:38:48Z WARN cron-runner queue lag 0 messages on topic events
+2026-02-14T13:38:50Z WARN cron-runner queue lag 0 messages on topic events
+2026-02-14T13:38:53Z WARN cron-runner queue lag 0 messages on topic events
+2026-02-14T13:38:55Z WARN cron-runner queue lag 0 messages on topic events
+2026-02-14T13:38:57Z INFO cron-runner request completed in 84ms status=200 rid=32eabe77
+2026-02-14T13:38:57Z WARN cron-runner queue lag 0 messages on topic events
+2026-02-14T13:38:58Z WARN cron-runner GC pause 24ms (young gen)
+2026-02-14T13:38:59Z WARN cron-runner metrics push delayed 17ms (buffer 80%)
+2026-02-14T13:39:01Z WARN cron-runner metrics push delayed 43ms (buffer 80%)
+2026-02-14T13:39:04Z WARN cron-runner metrics push delayed 67ms (buffer 80%)
+2026-02-14T13:39:06Z WARN cron-runner queue lag 0 messages on topic events
+2026-02-14T13:39:08Z WARN cron-runner metrics push delayed 39ms (buffer 80%)
+2026-02-14T13:39:10Z INFO cron-runner health check passed in 41ms
+2026-02-14T13:39:11Z WARN cron-runner queue lag 0 messages on topic events
+2026-02-14T13:39:15Z WARN cron-runner metrics push delayed 23ms (buffer 80%)
+2026-02-14T13:39:18Z INFO cron-runner request completed in 73ms status=200 rid=934210f2
+2026-02-14T13:39:18Z WARN cron-runner metrics push delayed 36ms (buffer 80%)
+2026-02-14T13:39:20Z WARN cron-runner queue lag 0 messages on topic events
+2026-02-14T13:39:23Z WARN cron-runner queue lag 0 messages on topic events
+2026-02-14T13:39:25Z INFO cron-runner request completed in 70ms status=200 rid=4609fa8b
+2026-02-14T13:39:26Z WARN cron-runner metrics push delayed 81ms (buffer 80%)
+2026-02-14T13:39:28Z WARN cron-runner queue lag 0 messages on topic events
+2026-02-14T13:39:31Z WARN cron-runner metrics push delayed 65ms (buffer 80%)
+2026-02-14T13:39:33Z WARN cron-runner queue lag 0 messages on topic events
+2026-02-14T13:39:34Z INFO cron-runner request completed in 80ms status=200 rid=2d26c50d
+2026-02-14T13:39:36Z WARN cron-runner metrics push delayed 33ms (buffer 80%)
+2026-02-14T13:39:38Z WARN cron-runner metrics push delayed 18ms (buffer 80%)
+2026-02-14T13:39:41Z WARN cron-runner queue lag 0 messages on topic events
+2026-02-14T13:39:43Z WARN cron-runner queue lag 0 messages on topic events
+2026-02-14T13:39:46Z WARN cron-runner queue lag 0 messages on topic events
+2026-02-14T13:39:47Z INFO cron-runner health check passed in 26ms
+2026-02-14T13:39:49Z WARN cron-runner metrics push delayed 8ms (buffer 80%)
+2026-02-14T13:39:52Z WARN cron-runner metrics push delayed 95ms (buffer 80%)
+2026-02-14T13:39:55Z WARN cron-runner metrics push delayed 18ms (buffer 80%)
+2026-02-14T13:39:58Z WARN cron-runner metrics push delayed 45ms (buffer 80%)
+2026-02-14T13:39:59Z INFO cron-runner request completed in 35ms status=200 rid=b7839546
+2026-02-14T13:40:00Z WARN cron-runner metrics push delayed 66ms (buffer 80%)
+2026-02-14T13:40:03Z WARN cron-runner queue lag 0 messages on topic events
+2026-02-14T13:40:06Z WARN cron-runner queue lag 0 messages on topic events
+2026-02-14T13:40:09Z WARN cron-runner queue lag 0 messages on topic events
+2026-02-14T13:40:12Z INFO cron-runner request completed in 25ms status=200 rid=be347ec0
+2026-02-14T13:40:12Z WARN cron-runner metrics push delayed 34ms (buffer 80%)
+2026-02-14T13:40:15Z WARN cron-runner metrics push delayed 18ms (buffer 80%)
+2026-02-14T13:40:17Z WARN cron-runner queue lag 0 messages on topic events
+2026-02-14T13:40:19Z WARN cron-runner metrics push delayed 37ms (buffer 80%)
+2026-02-14T13:40:22Z WARN cron-runner metrics push delayed 75ms (buffer 80%)
+2026-02-14T13:40:26Z INFO cron-runner request completed in 13ms status=200 rid=f6bdb014
+2026-02-14T13:40:26Z WARN cron-runner queue lag 0 messages on topic events
+2026-02-14T13:40:28Z WARN cron-runner queue lag 0 messages on topic events
+2026-02-14T13:40:30Z WARN cron-runner metrics push delayed 53ms (buffer 80%)
+2026-02-14T13:40:32Z INFO cron-runner health check passed in 87ms
+2026-02-14T13:40:33Z WARN cron-runner queue lag 0 messages on topic events
+2026-02-14T13:40:35Z WARN cron-runner queue lag 0 messages on topic events
+2026-02-14T13:40:37Z WARN cron-runner queue lag 0 messages on topic events
+2026-02-14T13:40:40Z WARN cron-runner metrics push delayed 55ms (buffer 80%)
+2026-02-14T13:40:43Z INFO cron-runner request completed in 79ms status=200 rid=2e144b8a
+2026-02-14T13:40:43Z WARN cron-runner queue lag 0 messages on topic events
+2026-02-14T13:40:44Z WARN cron-runner slow request 550ms rid=248cd486
+2026-02-14T13:40:46Z WARN cron-runner metrics push delayed 80ms (buffer 80%)
+2026-02-14T13:40:48Z WARN cron-runner queue lag 0 messages on topic events
+2026-02-14T13:40:49Z INFO cron-runner request completed in 90ms status=200 rid=bc3c58ab
+2026-02-14T13:40:51Z WARN cron-runner queue lag 0 messages on topic events
+2026-02-14T13:40:54Z WARN cron-runner metrics push delayed 56ms (buffer 80%)
+2026-02-14T13:40:56Z WARN cron-runner queue lag 0 messages on topic events
+2026-02-14T13:40:58Z INFO cron-runner request completed in 22ms status=200 rid=9c4265c3
+2026-02-14T13:40:58Z WARN cron-runner queue lag 0 messages on topic events
+2026-02-14T13:41:00Z WARN cron-runner metrics push delayed 72ms (buffer 80%)
+2026-02-14T13:41:03Z WARN cron-runner queue lag 0 messages on topic events
+2026-02-14T13:41:05Z WARN cron-runner metrics push delayed 12ms (buffer 80%)
+2026-02-14T13:41:06Z INFO cron-runner request completed in 50ms status=200 rid=a1d5aca1
+2026-02-14T13:41:08Z WARN cron-runner queue lag 0 messages on topic events
+2026-02-14T13:41:10Z WARN cron-runner queue lag 0 messages on topic events
+2026-02-14T13:41:12Z WARN cron-runner metrics push delayed 35ms (buffer 80%)
+2026-02-14T13:41:14Z WARN cron-runner metrics push delayed 46ms (buffer 80%)
+2026-02-14T13:41:15Z WARN cron-runner queue lag 0 messages on topic events
+2026-02-14T13:41:18Z INFO cron-runner request completed in 29ms status=200 rid=e6f023b6
+2026-02-14T13:41:19Z WARN cron-runner metrics push delayed 48ms (buffer 80%)
+2026-02-14T13:41:20Z WARN cron-runner queue lag 0 messages on topic events
+2026-02-14T13:41:22Z WARN cron-runner queue lag 0 messages on topic events
+2026-02-14T13:41:24Z INFO cron-runner request completed in 84ms status=200 rid=79c7584e
+2026-02-14T13:41:25Z WARN cron-runner queue lag 0 messages on topic events
+2026-02-14T13:41:27Z WARN cron-runner metrics push delayed 87ms (buffer 80%)
+2026-02-14T13:41:30Z WARN cron-runner metrics push delayed 58ms (buffer 80%)
+2026-02-14T13:41:34Z WARN cron-runner queue lag 0 messages on topic events
+2026-02-14T13:41:37Z WARN cron-runner metrics push delayed 92ms (buffer 80%)
+2026-02-14T13:41:38Z INFO cron-runner request completed in 53ms status=200 rid=dc3e2f81
+2026-02-14T13:41:38Z WARN cron-runner queue lag 0 messages on topic events
+2026-02-14T13:41:41Z WARN cron-runner metrics push delayed 34ms (buffer 80%)
+2026-02-14T13:41:44Z WARN cron-runner queue lag 0 messages on topic events
+2026-02-14T13:41:46Z WARN cron-runner metrics push delayed 49ms (buffer 80%)
+2026-02-14T13:41:49Z WARN cron-runner metrics push delayed 59ms (buffer 80%)
+2026-02-14T13:41:51Z INFO cron-runner request completed in 17ms status=200 rid=56f5f0ae
+2026-02-14T13:41:51Z WARN cron-runner queue lag 0 messages on topic events
+2026-02-14T13:41:53Z WARN cron-runner metrics push delayed 75ms (buffer 80%)
+2026-02-14T13:41:56Z WARN cron-runner queue lag 0 messages on topic events
+2026-02-14T13:41:58Z WARN cron-runner queue lag 0 messages on topic events
+2026-02-14T13:42:00Z INFO cron-runner health check passed in 60ms
+2026-02-14T13:42:00Z WARN cron-runner metrics push delayed 21ms (buffer 80%)
+2026-02-14T13:42:02Z WARN cron-runner queue lag 0 messages on topic events
+2026-02-14T13:42:04Z WARN cron-runner queue lag 0 messages on topic events
+2026-02-14T13:42:07Z WARN cron-runner metrics push delayed 21ms (buffer 80%)
+2026-02-14T13:42:08Z INFO cron-runner request completed in 37ms status=200 rid=23562d5c
+2026-02-14T13:42:09Z WARN cron-runner metrics push delayed 47ms (buffer 80%)
+2026-02-14T13:42:12Z WARN cron-runner queue lag 0 messages on topic events
+2026-02-14T13:42:16Z WARN cron-runner metrics push delayed 91ms (buffer 80%)
+2026-02-14T13:42:17Z WARN cron-runner metrics push delayed 28ms (buffer 80%)
+2026-02-14T13:42:19Z WARN cron-runner metrics push delayed 55ms (buffer 80%)
+2026-02-14T13:42:20Z INFO cron-runner request completed in 83ms status=200 rid=39a38f64
+2026-02-14T13:42:21Z WARN cron-runner queue lag 0 messages on topic events
+2026-02-14T13:42:24Z WARN cron-runner metrics push delayed 50ms (buffer 80%)
+2026-02-14T13:42:27Z WARN cron-runner queue lag 0 messages on topic events
+2026-02-14T13:42:28Z WARN cron-runner metrics push delayed 15ms (buffer 80%)
+2026-02-14T13:42:30Z INFO cron-runner request completed in 21ms status=200 rid=c5e6ef8d
+2026-02-14T13:42:31Z WARN cron-runner metrics push delayed 27ms (buffer 80%)
+2026-02-14T13:42:34Z WARN cron-runner metrics push delayed 93ms (buffer 80%)
+2026-02-14T13:42:35Z WARN cron-runner queue lag 0 messages on topic events
+2026-02-14T13:42:37Z WARN cron-runner queue lag 0 messages on topic events
+2026-02-14T13:42:39Z WARN cron-runner metrics push delayed 26ms (buffer 80%)
+2026-02-14T13:42:42Z WARN cron-runner metrics push delayed 60ms (buffer 80%)
+2026-02-14T13:42:44Z INFO cron-runner request completed in 27ms status=200 rid=a3670084
+2026-02-14T13:42:44Z WARN cron-runner queue lag 0 messages on topic events
+2026-02-14T13:42:47Z WARN cron-runner queue lag 0 messages on topic events
+2026-02-14T13:42:50Z WARN cron-runner metrics push delayed 46ms (buffer 80%)
+2026-02-14T13:42:52Z WARN cron-runner queue lag 0 messages on topic events
+2026-02-14T13:42:54Z WARN cron-runner queue lag 0 messages on topic events
+2026-02-14T13:42:56Z INFO cron-runner request completed in 48ms status=200 rid=6aea12e9
+2026-02-14T13:42:57Z WARN cron-runner metrics push delayed 44ms (buffer 80%)
+2026-02-14T13:42:59Z WARN cron-runner queue lag 0 messages on topic events
+2026-02-14T13:43:01Z WARN cron-runner metrics push delayed 60ms (buffer 80%)
+2026-02-14T13:43:04Z WARN cron-runner metrics push delayed 29ms (buffer 80%)
+2026-02-14T13:43:06Z WARN cron-runner queue lag 0 messages on topic events
+2026-02-14T13:43:08Z INFO cron-runner request completed in 16ms status=200 rid=6617e948
+2026-02-14T13:43:08Z WARN cron-runner queue lag 0 messages on topic events
+2026-02-14T13:43:11Z WARN cron-runner metrics push delayed 11ms (buffer 80%)
+2026-02-14T13:43:15Z WARN cron-runner metrics push delayed 35ms (buffer 80%)
+2026-02-14T13:43:18Z INFO cron-runner health check passed in 62ms
+2026-02-14T13:43:18Z WARN cron-runner metrics push delayed 15ms (buffer 80%)
+2026-02-14T13:43:20Z WARN cron-runner queue lag 0 messages on topic events
+2026-02-14T13:43:23Z WARN cron-runner queue lag 0 messages on topic events
+2026-02-14T13:43:25Z WARN cron-runner queue lag 0 messages on topic events
+2026-02-14T13:43:28Z INFO cron-runner request completed in 47ms status=200 rid=bd6371c4
+2026-02-14T13:43:28Z WARN cron-runner queue lag 0 messages on topic events
+2026-02-14T13:43:32Z WARN cron-runner metrics push delayed 94ms (buffer 80%)
+2026-02-14T13:43:34Z WARN cron-runner queue lag 0 messages on topic events
+2026-02-14T13:43:36Z INFO cron-runner health check passed in 15ms
+2026-02-14T13:43:36Z WARN cron-runner queue lag 0 messages on topic events
+2026-02-14T13:43:38Z WARN cron-runner metrics push delayed 23ms (buffer 80%)
+2026-02-14T13:43:41Z WARN cron-runner queue lag 0 messages on topic events
+2026-02-14T13:43:43Z WARN cron-runner metrics push delayed 28ms (buffer 80%)
+2026-02-14T13:43:45Z WARN cron-runner metrics push delayed 31ms (buffer 80%)
+2026-02-14T13:43:48Z INFO cron-runner health check passed in 95ms
+2026-02-14T13:43:48Z WARN cron-runner metrics push delayed 61ms (buffer 80%)
+2026-02-14T13:43:50Z WARN cron-runner metrics push delayed 93ms (buffer 80%)
+2026-02-14T13:43:53Z WARN cron-runner metrics push delayed 16ms (buffer 80%)
+2026-02-14T13:43:56Z INFO cron-runner health check passed in 52ms
+2026-02-14T13:43:56Z WARN cron-runner metrics push delayed 67ms (buffer 80%)
+2026-02-14T13:43:58Z WARN cron-runner metrics push delayed 73ms (buffer 80%)
+2026-02-14T13:44:00Z WARN cron-runner queue lag 0 messages on topic events
+2026-02-14T13:44:03Z WARN cron-runner metrics push delayed 8ms (buffer 80%)
+2026-02-14T13:44:05Z INFO cron-runner health check passed in 64ms
+2026-02-14T13:44:07Z WARN cron-runner queue lag 0 messages on topic events
+2026-02-14T13:44:09Z WARN cron-runner queue lag 0 messages on topic events
+2026-02-14T13:44:11Z WARN cron-runner metrics push delayed 80ms (buffer 80%)
+2026-02-14T13:44:12Z WARN cron-runner metrics push delayed 38ms (buffer 80%)
+2026-02-14T13:44:14Z INFO cron-runner health check passed in 92ms
+2026-02-14T13:44:16Z WARN cron-runner queue lag 0 messages on topic events
+2026-02-14T13:44:18Z WARN cron-runner queue lag 0 messages on topic events
+2026-02-14T13:44:21Z WARN cron-runner queue lag 0 messages on topic events
+2026-02-14T13:44:22Z INFO cron-runner request completed in 33ms status=200 rid=52095c95
+2026-02-14T13:44:23Z WARN cron-runner metrics push delayed 71ms (buffer 80%)
+2026-02-14T13:44:26Z WARN cron-runner queue lag 0 messages on topic events
+2026-02-14T13:44:28Z WARN cron-runner queue lag 0 messages on topic events
+2026-02-14T13:44:30Z WARN cron-runner metrics push delayed 74ms (buffer 80%)
+2026-02-14T13:44:33Z WARN cron-runner metrics push delayed 43ms (buffer 80%)
+2026-02-14T13:44:34Z INFO cron-runner request completed in 77ms status=200 rid=8b2ba11d
+2026-02-14T13:44:35Z WARN cron-runner metrics push delayed 49ms (buffer 80%)
+2026-02-14T13:44:37Z WARN cron-runner queue lag 0 messages on topic events
+2026-02-14T13:44:40Z WARN cron-runner metrics push delayed 73ms (buffer 80%)
+2026-02-14T13:44:41Z INFO cron-runner request completed in 75ms status=200 rid=67732bd8
+2026-02-14T13:44:43Z WARN cron-runner queue lag 0 messages on topic events
+2026-02-14T13:44:45Z WARN cron-runner metrics push delayed 29ms (buffer 80%)
+2026-02-14T13:44:47Z WARN cron-runner metrics push delayed 58ms (buffer 80%)
+2026-02-14T13:44:49Z WARN cron-runner metrics push delayed 23ms (buffer 80%)
+2026-02-14T13:44:52Z WARN cron-runner metrics push delayed 14ms (buffer 80%)
+2026-02-14T13:44:55Z INFO cron-runner request completed in 77ms status=200 rid=0962a09c
+2026-02-14T13:44:55Z WARN cron-runner metrics push delayed 56ms (buffer 80%)
+2026-02-14T13:44:57Z WARN cron-runner metrics push delayed 19ms (buffer 80%)
+2026-02-14T13:44:59Z WARN cron-runner metrics push delayed 58ms (buffer 80%)
+2026-02-14T13:45:01Z WARN cron-runner metrics push delayed 13ms (buffer 80%)
+2026-02-14T13:45:02Z INFO cron-runner request completed in 19ms status=200 rid=b43686ce
+2026-02-14T13:45:04Z WARN cron-runner metrics push delayed 15ms (buffer 80%)
+2026-02-14T13:45:07Z WARN cron-runner metrics push delayed 76ms (buffer 80%)
+2026-02-14T13:45:09Z WARN cron-runner queue lag 0 messages on topic events
+2026-02-14T13:45:10Z INFO cron-runner health check passed in 34ms
+2026-02-14T13:45:12Z WARN cron-runner metrics push delayed 78ms (buffer 80%)
+2026-02-14T13:45:14Z WARN cron-runner metrics push delayed 27ms (buffer 80%)
+2026-02-14T13:45:17Z WARN cron-runner metrics push delayed 20ms (buffer 80%)
+2026-02-14T13:45:19Z INFO cron-runner health check passed in 92ms
+2026-02-14T13:45:19Z WARN cron-runner metrics push delayed 25ms (buffer 80%)
+2026-02-14T13:45:22Z WARN cron-runner queue lag 0 messages on topic events
+2026-02-14T13:45:25Z WARN cron-runner queue lag 0 messages on topic events
+2026-02-14T13:45:27Z WARN cron-runner queue lag 0 messages on topic events
+2026-02-14T13:45:28Z WARN cron-runner metrics push delayed 70ms (buffer 80%)
+2026-02-14T13:45:32Z INFO cron-runner request completed in 55ms status=200 rid=4888dc21
+2026-02-14T13:45:32Z WARN cron-runner queue lag 0 messages on topic events
+2026-02-14T13:45:33Z WARN cron-runner metrics push delayed 52ms (buffer 80%)
+2026-02-14T13:45:35Z WARN cron-runner metrics push delayed 78ms (buffer 80%)
+2026-02-14T13:45:38Z WARN cron-runner queue lag 0 messages on topic events
+2026-02-14T13:45:40Z WARN cron-runner metrics push delayed 73ms (buffer 80%)
+2026-02-14T13:45:42Z WARN cron-runner queue lag 0 messages on topic events
+2026-02-14T13:45:44Z WARN cron-runner queue lag 0 messages on topic events
+2026-02-14T13:45:46Z INFO cron-runner request completed in 54ms status=200 rid=6de3f767
+2026-02-14T13:45:48Z WARN cron-runner metrics push delayed 94ms (buffer 80%)
+2026-02-14T13:45:50Z WARN cron-runner metrics push delayed 10ms (buffer 80%)
+2026-02-14T13:45:52Z WARN cron-runner queue lag 0 messages on topic events
+2026-02-14T13:45:54Z WARN cron-runner metrics push delayed 92ms (buffer 80%)
+2026-02-14T13:45:56Z INFO cron-runner request completed in 12ms status=200 rid=1bf89a3b
+2026-02-14T13:45:56Z WARN cron-runner metrics push delayed 26ms (buffer 80%)
+2026-02-14T13:45:59Z WARN cron-runner queue lag 0 messages on topic events
+2026-02-14T13:46:02Z INFO cron-runner request completed in 15ms status=200 rid=9e86173a
+2026-02-14T13:46:02Z WARN cron-runner metrics push delayed 84ms (buffer 80%)
+2026-02-14T13:46:04Z WARN cron-runner queue lag 0 messages on topic events
+2026-02-14T13:46:07Z WARN cron-runner queue lag 0 messages on topic events
+2026-02-14T13:46:10Z WARN cron-runner queue lag 0 messages on topic events
+2026-02-14T13:46:13Z WARN cron-runner metrics push delayed 58ms (buffer 80%)
+2026-02-14T13:46:15Z INFO cron-runner health check passed in 11ms
+2026-02-14T13:46:16Z WARN cron-runner metrics push delayed 58ms (buffer 80%)
+2026-02-14T13:46:19Z WARN cron-runner queue lag 0 messages on topic events
+2026-02-14T13:46:22Z WARN cron-runner metrics push delayed 78ms (buffer 80%)
+2026-02-14T13:46:24Z WARN cron-runner queue lag 0 messages on topic events
+2026-02-14T13:46:26Z WARN cron-runner queue lag 0 messages on topic events
+2026-02-14T13:46:28Z WARN cron-runner metrics push delayed 18ms (buffer 80%)
+2026-02-14T13:46:29Z INFO cron-runner request completed in 61ms status=200 rid=18b4189a
+2026-02-14T13:46:30Z WARN cron-runner queue lag 0 messages on topic events
+2026-02-14T13:46:33Z WARN cron-runner metrics push delayed 30ms (buffer 80%)
+2026-02-14T13:46:35Z WARN cron-runner metrics push delayed 55ms (buffer 80%)
+2026-02-14T13:46:37Z WARN cron-runner queue lag 0 messages on topic events
+2026-02-14T13:46:39Z WARN cron-runner metrics push delayed 63ms (buffer 80%)
+2026-02-14T13:46:42Z INFO cron-runner health check passed in 51ms
+2026-02-14T13:46:42Z WARN cron-runner queue lag 0 messages on topic events
+2026-02-14T13:46:44Z WARN cron-runner metrics push delayed 61ms (buffer 80%)
+2026-02-14T13:46:47Z WARN cron-runner queue lag 0 messages on topic events
+2026-02-14T13:46:48Z INFO cron-runner health check passed in 71ms
+2026-02-14T13:46:48Z WARN cron-runner queue lag 0 messages on topic events
+2026-02-14T13:46:52Z WARN cron-runner queue lag 0 messages on topic events
+2026-02-14T13:46:54Z WARN cron-runner metrics push delayed 33ms (buffer 80%)
+2026-02-14T13:46:57Z WARN cron-runner metrics push delayed 59ms (buffer 80%)
+2026-02-14T13:46:59Z WARN cron-runner queue lag 0 messages on topic events
+2026-02-14T13:47:00Z WARN cron-runner queue lag 0 messages on topic events
+2026-02-14T13:47:01Z INFO cron-runner request completed in 48ms status=200 rid=c24b3a1d
+2026-02-14T13:47:03Z WARN cron-runner queue lag 0 messages on topic events
+2026-02-14T13:47:05Z WARN cron-runner queue lag 0 messages on topic events
+2026-02-14T13:47:07Z WARN cron-runner queue lag 0 messages on topic events
+2026-02-14T13:47:09Z INFO cron-runner request completed in 29ms status=200 rid=be203725
+2026-02-14T13:47:11Z WARN cron-runner queue lag 0 messages on topic events
+2026-02-14T13:47:12Z WARN cron-runner metrics push delayed 74ms (buffer 80%)
+2026-02-14T13:47:15Z WARN cron-runner metrics push delayed 72ms (buffer 80%)
+2026-02-14T13:47:16Z INFO cron-runner request completed in 90ms status=200 rid=021e1cb6
+2026-02-14T13:47:18Z WARN cron-runner queue lag 0 messages on topic events
+2026-02-14T13:47:20Z WARN cron-runner queue lag 0 messages on topic events
+2026-02-14T13:47:23Z WARN cron-runner queue lag 0 messages on topic events
+2026-02-14T13:47:24Z WARN cron-runner queue lag 0 messages on topic events
+2026-02-14T13:47:27Z WARN cron-runner metrics push delayed 51ms (buffer 80%)
+2026-02-14T13:47:29Z INFO cron-runner health check passed in 95ms
+2026-02-14T13:47:29Z WARN cron-runner metrics push delayed 15ms (buffer 80%)
+2026-02-14T13:47:32Z WARN cron-runner metrics push delayed 36ms (buffer 80%)
+2026-02-14T13:47:34Z WARN cron-runner metrics push delayed 15ms (buffer 80%)
+2026-02-14T13:47:35Z INFO cron-runner request completed in 49ms status=200 rid=342df4dc
+2026-02-14T13:47:36Z WARN cron-runner queue lag 0 messages on topic events
+2026-02-14T13:47:39Z WARN cron-runner metrics push delayed 85ms (buffer 80%)
+2026-02-14T13:47:41Z WARN cron-runner metrics push delayed 92ms (buffer 80%)
+2026-02-14T13:47:44Z WARN cron-runner queue lag 0 messages on topic events
+2026-02-14T13:47:46Z WARN cron-runner queue lag 0 messages on topic events
+2026-02-14T13:47:47Z INFO cron-runner request completed in 28ms status=200 rid=3434fcea
+2026-02-14T13:47:48Z WARN cron-runner queue lag 0 messages on topic events
+2026-02-14T13:47:51Z WARN cron-runner metrics push delayed 33ms (buffer 80%)
+2026-02-14T13:47:53Z WARN cron-runner metrics push delayed 93ms (buffer 80%)

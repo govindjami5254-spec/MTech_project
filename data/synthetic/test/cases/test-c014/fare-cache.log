@@ -1,0 +1,63 @@
+2026-02-11T14:46:49.626+05:30 info fare-cache event loop lag 87ms ok
+2026-02-11T14:47:03.059+05:30 info fare-cache event loop lag 60ms ok
+2026-02-11T14:47:17.676+05:30 info fare-cache served GET /api status=200 in 21ms trace=446a7bed
+2026-02-11T14:47:30.434+05:30 info fare-cache event loop lag 58ms ok
+2026-02-11T14:47:41.639+05:30 info fare-cache served GET /api status=200 in 60ms trace=d1d1ac13
+2026-02-11T14:47:49.020+05:30 info fare-cache event loop lag 37ms ok
+2026-02-11T14:48:01.240+05:30 info fare-cache event loop lag 67ms ok
+2026-02-11T14:48:12.827+05:30 info fare-cache event loop lag 59ms ok
+2026-02-11T14:48:19.840+05:30 info fare-cache served GET /api status=200 in 8ms trace=85294bd9
+2026-02-11T14:48:31.360+05:30 info fare-cache event loop lag 41ms ok
+2026-02-11T14:48:40.900+05:30 info fare-cache event loop lag 86ms ok
+2026-02-11T14:48:53.072+05:30 info fare-cache event loop lag 85ms ok
+2026-02-11T14:49:04.257+05:30 info fare-cache event loop lag 40ms ok
+2026-02-11T14:49:14.583+05:30 info fare-cache event loop lag 65ms ok
+2026-02-11T14:49:28.133+05:30 info fare-cache served GET /api status=200 in 18ms trace=d39d6ffa
+2026-02-11T14:49:40.163+05:30 info fare-cache served GET /api status=200 in 95ms trace=ea11c939
+2026-02-11T14:49:53.142+05:30 info fare-cache event loop lag 18ms ok
+2026-02-11T14:50:05.596+05:30 info fare-cache event loop lag 32ms ok
+2026-02-11T14:50:11.447+05:30 info fare-cache served GET /api status=200 in 27ms trace=eb773a2f
+2026-02-11T14:50:18.159+05:30 info fare-cache event loop lag 33ms ok
+2026-02-11T14:50:28.756+05:30 info fare-cache event loop lag 22ms ok
+2026-02-11T14:50:34.741+05:30 info fare-cache event loop lag 40ms ok
+2026-02-11T14:50:41.147+05:30 info fare-cache event loop lag 21ms ok
+2026-02-11T14:50:55.669+05:30 info fare-cache event loop lag 35ms ok
+2026-02-11T14:51:04.429+05:30 warn fare-cache certificate for mTLS client expires today
+2026-02-11T14:51:06.598+05:30 info fare-cache served GET /api status=200 in 44ms trace=e240dde4
+2026-02-11T14:51:19.974+05:30 info fare-cache served GET /api status=200 in 54ms trace=7d8b5d7d
+2026-02-11T14:51:25.559+05:30 info fare-cache event loop lag 90ms ok
+2026-02-11T14:51:29.041+05:30 error fare-cache Error: certificate has expired (CERT_HAS_EXPIRED)
+2026-02-11T14:51:32.006+05:30 error fare-cache mTLS connections rejected by peer
+2026-02-11T14:51:35.611+05:30 info fare-cache event loop lag 39ms ok
+2026-02-11T14:51:48.921+05:30 info fare-cache event loop lag 46ms ok
+2026-02-11T14:52:01.166+05:30 info fare-cache event loop lag 17ms ok
+2026-02-11T14:52:07.664+05:30 info fare-cache served GET /api status=200 in 52ms trace=a6b41d63
+2026-02-11T14:52:13.665+05:30 info fare-cache served GET /api status=200 in 74ms trace=4fcf8c12
+2026-02-11T14:52:25.855+05:30 info fare-cache served GET /api status=200 in 38ms trace=d8f0278d
+2026-02-11T14:52:38.158+05:30 info fare-cache served GET /api status=200 in 71ms trace=aebac2d6
+2026-02-11T14:52:46.963+05:30 info fare-cache event loop lag 16ms ok
+2026-02-11T14:52:52.390+05:30 info fare-cache event loop lag 63ms ok
+2026-02-11T14:53:04.096+05:30 info fare-cache event loop lag 22ms ok
+2026-02-11T14:53:11.060+05:30 info fare-cache served GET /api status=200 in 9ms trace=c83100aa
+2026-02-11T14:53:22.644+05:30 info fare-cache served GET /api status=200 in 57ms trace=474cd5bd
+2026-02-11T14:53:35.336+05:30 info fare-cache served GET /api status=200 in 88ms trace=c31ae696
+2026-02-11T14:53:49.757+05:30 info fare-cache event loop lag 88ms ok
+2026-02-11T14:53:56.349+05:30 info fare-cache event loop lag 88ms ok
+2026-02-11T14:54:10.894+05:30 info fare-cache event loop lag 87ms ok
+2026-02-11T14:54:18.397+05:30 info fare-cache event loop lag 80ms ok
+2026-02-11T14:54:24.883+05:30 info fare-cache event loop lag 11ms ok
+2026-02-11T14:54:31.268+05:30 info fare-cache event loop lag 82ms ok
+2026-02-11T14:54:40.189+05:30 info fare-cache served GET /api status=200 in 11ms trace=96da21ca
+2026-02-11T14:54:50.499+05:30 info fare-cache served GET /api status=200 in 62ms trace=d29195b4
+2026-02-11T14:55:04.610+05:30 info fare-cache event loop lag 71ms ok
+2026-02-11T14:55:17.292+05:30 info fare-cache event loop lag 37ms ok
+2026-02-11T14:55:23.242+05:30 info fare-cache served GET /api status=200 in 91ms trace=d5eb0471
+2026-02-11T14:55:35.660+05:30 info fare-cache event loop lag 50ms ok
+2026-02-11T14:55:46.698+05:30 info fare-cache served GET /api status=200 in 33ms trace=1e4c9853
+2026-02-11T14:55:57.628+05:30 info fare-cache served GET /api status=200 in 19ms trace=753c4e0b
+2026-02-11T14:56:06.939+05:30 info fare-cache event loop lag 36ms ok
+2026-02-11T14:56:12.420+05:30 info fare-cache served GET /api status=200 in 18ms trace=dfa1359f
+2026-02-11T14:56:19.838+05:30 info fare-cache event loop lag 55ms ok
+2026-02-11T14:56:28.973+05:30 info fare-cache event loop lag 12ms ok
+2026-02-11T14:56:38.483+05:30 info fare-cache served GET /api status=200 in 32ms trace=d275463c
+2026-02-11T14:56:48.642+05:30 info fare-cache served GET /api status=200 in 40ms trace=90c63e70

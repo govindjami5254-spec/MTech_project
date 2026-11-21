@@ -1,0 +1,294 @@
+2026-01-17T16:29:33.630+05:30 info web-gateway event loop lag 14ms ok
+2026-01-17T16:29:46.711+05:30 info web-gateway event loop lag 42ms ok
+2026-01-17T16:29:55.314+05:30 info web-gateway event loop lag 34ms ok
+2026-01-17T16:30:07.402+05:30 info web-gateway served GET /api status=200 in 12ms trace=43e3caaa
+2026-01-17T16:30:14.938+05:30 info web-gateway event loop lag 19ms ok
+2026-01-17T16:30:26.824+05:30 info web-gateway served GET /api status=200 in 27ms trace=af8cafba
+2026-01-17T16:30:40.885+05:30 info web-gateway event loop lag 89ms ok
+2026-01-17T16:30:54.988+05:30 info web-gateway served GET /api status=200 in 58ms trace=a00a6188
+2026-01-17T16:31:00.602+05:30 info web-gateway event loop lag 28ms ok
+2026-01-17T16:31:09.328+05:30 info web-gateway served GET /api status=200 in 11ms trace=79332e35
+2026-01-17T16:31:23.621+05:30 info web-gateway served GET /api status=200 in 37ms trace=3c2e331d
+2026-01-17T16:31:29.767+05:30 info web-gateway event loop lag 89ms ok
+2026-01-17T16:31:42.054+05:30 info web-gateway served GET /api status=200 in 66ms trace=93f55edf
+2026-01-17T16:31:53.329+05:30 info web-gateway served GET /api status=200 in 48ms trace=787c4d01
+2026-01-17T16:32:04.951+05:30 info web-gateway served GET /api status=200 in 52ms trace=41c17688
+2026-01-17T16:32:15.240+05:30 info web-gateway served GET /api status=200 in 38ms trace=a5119dad
+2026-01-17T16:32:24.178+05:30 info web-gateway event loop lag 60ms ok
+2026-01-17T16:32:30.515+05:30 info web-gateway event loop lag 67ms ok
+2026-01-17T16:32:41.574+05:30 info web-gateway served GET /api status=200 in 61ms trace=bbaa58a1
+2026-01-17T16:32:54.388+05:30 info web-gateway event loop lag 45ms ok
+2026-01-17T16:33:01.199+05:30 info web-gateway event loop lag 55ms ok
+2026-01-17T16:33:15.865+05:30 info web-gateway event loop lag 21ms ok
+2026-01-17T16:33:23.714+05:30 info web-gateway event loop lag 91ms ok
+2026-01-17T16:33:30.561+05:30 info web-gateway event loop lag 50ms ok
+2026-01-17T16:33:36.504+05:30 info web-gateway served GET /api status=200 in 18ms trace=b6c9b672
+2026-01-17T16:33:45.697+05:30 info web-gateway event loop lag 35ms ok
+2026-01-17T16:33:58.991+05:30 info web-gateway served GET /api status=200 in 40ms trace=d703a5de
+2026-01-17T16:34:10.294+05:30 info web-gateway served GET /api status=200 in 46ms trace=e3b9db86
+2026-01-17T16:34:18.791+05:30 info web-gateway event loop lag 74ms ok
+2026-01-17T16:34:32.603+05:30 info web-gateway event loop lag 67ms ok
+2026-01-17T16:34:40.449+05:30 info web-gateway served GET /api status=200 in 18ms trace=af372b22
+2026-01-17T16:34:46.978+05:30 info web-gateway event loop lag 31ms ok
+2026-01-17T16:34:58.583+05:30 info web-gateway event loop lag 66ms ok
+2026-01-17T16:35:08.596+05:30 info web-gateway served GET /api status=200 in 70ms trace=507903a9
+2026-01-17T16:35:18.973+05:30 info web-gateway served GET /api status=200 in 75ms trace=48bddc90
+2026-01-17T16:35:20.561+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=f803bdd3
+2026-01-17T16:35:21.024+05:30 error web-gateway 503 Service Unavailable returned (booking-svc down) trace=2ae9e61f
+2026-01-17T16:35:22.685+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=213008f6
+2026-01-17T16:35:22.901+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=b6c6eb33
+2026-01-17T16:35:24.419+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=871d8c0f
+2026-01-17T16:35:25.348+05:30 error web-gateway 503 Service Unavailable returned (booking-svc down) trace=f763044a
+2026-01-17T16:35:26.543+05:30 error web-gateway 503 Service Unavailable returned (booking-svc down) trace=7a5c9dc1
+2026-01-17T16:35:28.002+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=f6eb78d6
+2026-01-17T16:35:28.833+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=1e27a0e7
+2026-01-17T16:35:30.508+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=557b42a2
+2026-01-17T16:35:30.891+05:30 info web-gateway served GET /api status=200 in 13ms trace=98899ab6
+2026-01-17T16:35:31.246+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=e19c6982
+2026-01-17T16:35:32.952+05:30 error web-gateway 503 Service Unavailable returned (booking-svc down) trace=e36b9970
+2026-01-17T16:35:33.571+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=1013cf12
+2026-01-17T16:35:35.295+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=3b3a5c6b
+2026-01-17T16:35:36.146+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=111d4290
+2026-01-17T16:35:37.452+05:30 error web-gateway 503 Service Unavailable returned (booking-svc down) trace=3400edc5
+2026-01-17T16:35:39.130+05:30 error web-gateway 503 Service Unavailable returned (booking-svc down) trace=7988072a
+2026-01-17T16:35:40.329+05:30 error web-gateway 503 Service Unavailable returned (booking-svc down) trace=72c9a506
+2026-01-17T16:35:40.792+05:30 error web-gateway 503 Service Unavailable returned (booking-svc down) trace=a0611df1
+2026-01-17T16:35:41.826+05:30 error web-gateway 503 Service Unavailable returned (booking-svc down) trace=1ac490a2
+2026-01-17T16:35:43.121+05:30 info web-gateway event loop lag 44ms ok
+2026-01-17T16:35:43.125+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=b8594559
+2026-01-17T16:35:44.368+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=589a0283
+2026-01-17T16:35:45.721+05:30 error web-gateway 503 Service Unavailable returned (booking-svc down) trace=00ceba75
+2026-01-17T16:35:46.883+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=12693ef6
+2026-01-17T16:35:48.697+05:30 error web-gateway 503 Service Unavailable returned (booking-svc down) trace=8896d275
+2026-01-17T16:35:49.008+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=abebd7a5
+2026-01-17T16:35:50.311+05:30 error web-gateway 503 Service Unavailable returned (booking-svc down) trace=b5fd4673
+2026-01-17T16:35:51.848+05:30 error web-gateway 503 Service Unavailable returned (booking-svc down) trace=a3e878f0
+2026-01-17T16:35:53.047+05:30 error web-gateway 503 Service Unavailable returned (booking-svc down) trace=092595cc
+2026-01-17T16:35:54.366+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=7fc3d6d0
+2026-01-17T16:35:55.052+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=73a11504
+2026-01-17T16:35:56.406+05:30 info web-gateway event loop lag 20ms ok
+2026-01-17T16:35:57.046+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=4377c994
+2026-01-17T16:35:57.786+05:30 error web-gateway 503 Service Unavailable returned (booking-svc down) trace=a42af8b7
+2026-01-17T16:35:59.073+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=ecd87f13
+2026-01-17T16:35:59.894+05:30 error web-gateway 503 Service Unavailable returned (booking-svc down) trace=80b4f1f6
+2026-01-17T16:36:00.968+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=e7900db8
+2026-01-17T16:36:01.665+05:30 error web-gateway 503 Service Unavailable returned (booking-svc down) trace=beee9447
+2026-01-17T16:36:02.055+05:30 info web-gateway served GET /api status=200 in 19ms trace=f0a14bbd
+2026-01-17T16:36:02.905+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=45e73223
+2026-01-17T16:36:03.821+05:30 error web-gateway 503 Service Unavailable returned (booking-svc down) trace=d8c4245e
+2026-01-17T16:36:04.760+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=52188075
+2026-01-17T16:36:06.051+05:30 error web-gateway 503 Service Unavailable returned (booking-svc down) trace=bc3f9279
+2026-01-17T16:36:06.783+05:30 error web-gateway 503 Service Unavailable returned (booking-svc down) trace=81e67ada
+2026-01-17T16:36:07.362+05:30 error web-gateway 503 Service Unavailable returned (booking-svc down) trace=5fb8d502
+2026-01-17T16:36:08.141+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=48d26892
+2026-01-17T16:36:08.216+05:30 info web-gateway served GET /api status=200 in 55ms trace=c353ee8f
+2026-01-17T16:36:09.777+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=38a07773
+2026-01-17T16:36:10.631+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=a0b0409f
+2026-01-17T16:36:11.924+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=67a60f8c
+2026-01-17T16:36:13.695+05:30 error web-gateway 503 Service Unavailable returned (booking-svc down) trace=c6c90197
+2026-01-17T16:36:14.731+05:30 error web-gateway 503 Service Unavailable returned (booking-svc down) trace=d1322c4e
+2026-01-17T16:36:15.211+05:30 error web-gateway 503 Service Unavailable returned (booking-svc down) trace=c269402d
+2026-01-17T16:36:15.525+05:30 info web-gateway event loop lag 46ms ok
+2026-01-17T16:36:16.955+05:30 error web-gateway 503 Service Unavailable returned (booking-svc down) trace=db39fd7c
+2026-01-17T16:36:17.368+05:30 error web-gateway 503 Service Unavailable returned (booking-svc down) trace=d95f7cc6
+2026-01-17T16:36:18.790+05:30 error web-gateway 503 Service Unavailable returned (booking-svc down) trace=4653eaa9
+2026-01-17T16:36:19.791+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=32cdd417
+2026-01-17T16:36:20.753+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=cc1524f8
+2026-01-17T16:36:22.808+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=5b0a4e9c
+2026-01-17T16:36:23.701+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=7b7073dc
+2026-01-17T16:36:23.857+05:30 info web-gateway served GET /api status=200 in 55ms trace=e7aac193
+2026-01-17T16:36:24.843+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=b2670756
+2026-01-17T16:36:26.423+05:30 error web-gateway 503 Service Unavailable returned (booking-svc down) trace=4477877a
+2026-01-17T16:36:27.770+05:30 error web-gateway 503 Service Unavailable returned (booking-svc down) trace=7dd65775
+2026-01-17T16:36:29.342+05:30 error web-gateway 503 Service Unavailable returned (booking-svc down) trace=ba52c927
+2026-01-17T16:36:29.925+05:30 info web-gateway event loop lag 43ms ok
+2026-01-17T16:36:30.110+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=5a134645
+2026-01-17T16:36:30.983+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=e1562a32
+2026-01-17T16:36:32.863+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=d9d1e6b4
+2026-01-17T16:36:33.318+05:30 error web-gateway 503 Service Unavailable returned (booking-svc down) trace=6ef90d65
+2026-01-17T16:36:34.732+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=9dbba148
+2026-01-17T16:36:35.792+05:30 error web-gateway 503 Service Unavailable returned (booking-svc down) trace=55a2b64c
+2026-01-17T16:36:36.588+05:30 error web-gateway 503 Service Unavailable returned (booking-svc down) trace=034a91f4
+2026-01-17T16:36:36.826+05:30 error web-gateway 503 Service Unavailable returned (booking-svc down) trace=a8c82cbc
+2026-01-17T16:36:37.771+05:30 info web-gateway event loop lag 19ms ok
+2026-01-17T16:36:38.413+05:30 error web-gateway 503 Service Unavailable returned (booking-svc down) trace=29e89fe6
+2026-01-17T16:36:40.223+05:30 error web-gateway 503 Service Unavailable returned (booking-svc down) trace=27823dc4
+2026-01-17T16:36:41.847+05:30 error web-gateway 503 Service Unavailable returned (booking-svc down) trace=fb052010
+2026-01-17T16:36:43.046+05:30 error web-gateway 503 Service Unavailable returned (booking-svc down) trace=e7523859
+2026-01-17T16:36:43.714+05:30 error web-gateway 503 Service Unavailable returned (booking-svc down) trace=d010236c
+2026-01-17T16:36:45.698+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=624d8d55
+2026-01-17T16:36:46.435+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=a809a3f5
+2026-01-17T16:36:46.535+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=5196cd39
+2026-01-17T16:36:48.796+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=2d650d3d
+2026-01-17T16:36:49.316+05:30 error web-gateway 503 Service Unavailable returned (booking-svc down) trace=ea9f7a52
+2026-01-17T16:36:50.321+05:30 info web-gateway event loop lag 86ms ok
+2026-01-17T16:36:50.489+05:30 error web-gateway 503 Service Unavailable returned (booking-svc down) trace=8d4fde0c
+2026-01-17T16:36:51.646+05:30 error web-gateway 503 Service Unavailable returned (booking-svc down) trace=c04ea2f6
+2026-01-17T16:36:52.144+05:30 error web-gateway 503 Service Unavailable returned (booking-svc down) trace=6f444370
+2026-01-17T16:36:53.266+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=4da38ee5
+2026-01-17T16:36:53.622+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=ef352ea2
+2026-01-17T16:36:54.892+05:30 error web-gateway 503 Service Unavailable returned (booking-svc down) trace=7c22a90f
+2026-01-17T16:36:56.963+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=28eef731
+2026-01-17T16:36:57.117+05:30 error web-gateway 503 Service Unavailable returned (booking-svc down) trace=af6e268a
+2026-01-17T16:36:58.432+05:30 info web-gateway event loop lag 55ms ok
+2026-01-17T16:36:59.207+05:30 error web-gateway 503 Service Unavailable returned (booking-svc down) trace=ff3d2313
+2026-01-17T16:37:00.496+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=bb22443b
+2026-01-17T16:37:01.097+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=348c78d3
+2026-01-17T16:37:02.328+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=3aa76e6f
+2026-01-17T16:37:03.740+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=a88dfc21
+2026-01-17T16:37:05.388+05:30 error web-gateway 503 Service Unavailable returned (booking-svc down) trace=7dab53f3
+2026-01-17T16:37:05.542+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=d7b6b45f
+2026-01-17T16:37:05.665+05:30 info web-gateway event loop lag 48ms ok
+2026-01-17T16:37:05.915+05:30 error web-gateway 503 Service Unavailable returned (booking-svc down) trace=ddd1e823
+2026-01-17T16:37:07.308+05:30 error web-gateway 503 Service Unavailable returned (booking-svc down) trace=7a3072b1
+2026-01-17T16:37:08.854+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=db9bfbdc
+2026-01-17T16:37:09.483+05:30 error web-gateway 503 Service Unavailable returned (booking-svc down) trace=39e04918
+2026-01-17T16:37:09.878+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=6278d250
+2026-01-17T16:37:11.340+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=833d8276
+2026-01-17T16:37:11.677+05:30 info web-gateway event loop lag 20ms ok
+2026-01-17T16:37:12.975+05:30 error web-gateway 503 Service Unavailable returned (booking-svc down) trace=adfd7339
+2026-01-17T16:37:14.050+05:30 error web-gateway 503 Service Unavailable returned (booking-svc down) trace=a926c5de
+2026-01-17T16:37:15.431+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=9c44f787
+2026-01-17T16:37:17.360+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=4ced772e
+2026-01-17T16:37:18.094+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=91d41216
+2026-01-17T16:37:19.060+05:30 error web-gateway 503 Service Unavailable returned (booking-svc down) trace=66868e7f
+2026-01-17T16:37:19.428+05:30 error web-gateway 503 Service Unavailable returned (booking-svc down) trace=a4bd3a34
+2026-01-17T16:37:20.725+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=8765bb5e
+2026-01-17T16:37:21.701+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=dfdb4e4c
+2026-01-17T16:37:22.262+05:30 info web-gateway event loop lag 21ms ok
+2026-01-17T16:37:23.457+05:30 error web-gateway 503 Service Unavailable returned (booking-svc down) trace=6749687e
+2026-01-17T16:37:25.212+05:30 error web-gateway 503 Service Unavailable returned (booking-svc down) trace=08177e58
+2026-01-17T16:37:25.433+05:30 error web-gateway 503 Service Unavailable returned (booking-svc down) trace=cfa1244d
+2026-01-17T16:37:26.736+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=03f74cb4
+2026-01-17T16:37:28.233+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=6e4a3fcd
+2026-01-17T16:37:29.045+05:30 info web-gateway served GET /api status=200 in 62ms trace=f7ce3959
+2026-01-17T16:37:29.382+05:30 error web-gateway 503 Service Unavailable returned (booking-svc down) trace=9a622de1
+2026-01-17T16:37:30.499+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=b88dda84
+2026-01-17T16:37:31.952+05:30 error web-gateway 503 Service Unavailable returned (booking-svc down) trace=0d569ea6
+2026-01-17T16:37:33.324+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=5bf0b133
+2026-01-17T16:37:34.071+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=21bef9c1
+2026-01-17T16:37:35.701+05:30 error web-gateway 503 Service Unavailable returned (booking-svc down) trace=170025ab
+2026-01-17T16:37:36.562+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=acc42834
+2026-01-17T16:37:37.370+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=b897f780
+2026-01-17T16:37:38.637+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=403b3f3c
+2026-01-17T16:37:39.077+05:30 error web-gateway 503 Service Unavailable returned (booking-svc down) trace=921197c4
+2026-01-17T16:37:41.347+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=572e41d8
+2026-01-17T16:37:41.451+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=b7be4f3d
+2026-01-17T16:37:41.790+05:30 error web-gateway 503 Service Unavailable returned (booking-svc down) trace=f91eaf91
+2026-01-17T16:37:42.361+05:30 info web-gateway event loop lag 60ms ok
+2026-01-17T16:37:43.665+05:30 error web-gateway 503 Service Unavailable returned (booking-svc down) trace=a06b6a7d
+2026-01-17T16:37:43.924+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=2cf04b60
+2026-01-17T16:37:44.982+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=48bcd2ae
+2026-01-17T16:37:46.541+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=08e02b35
+2026-01-17T16:37:47.053+05:30 error web-gateway 503 Service Unavailable returned (booking-svc down) trace=cd776212
+2026-01-17T16:37:48.268+05:30 error web-gateway 503 Service Unavailable returned (booking-svc down) trace=6ebf42cd
+2026-01-17T16:37:49.807+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=c5039e55
+2026-01-17T16:37:51.333+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=bf801203
+2026-01-17T16:37:52.448+05:30 error web-gateway 503 Service Unavailable returned (booking-svc down) trace=2905271b
+2026-01-17T16:37:52.613+05:30 info web-gateway event loop lag 38ms ok
+2026-01-17T16:37:53.386+05:30 error web-gateway 503 Service Unavailable returned (booking-svc down) trace=250db811
+2026-01-17T16:37:54.076+05:30 error web-gateway 503 Service Unavailable returned (booking-svc down) trace=7919a197
+2026-01-17T16:37:55.088+05:30 error web-gateway 503 Service Unavailable returned (booking-svc down) trace=db1ff045
+2026-01-17T16:37:56.476+05:30 error web-gateway 503 Service Unavailable returned (booking-svc down) trace=4bb3ae29
+2026-01-17T16:37:56.759+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=93393078
+2026-01-17T16:37:58.013+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=8116e086
+2026-01-17T16:37:59.224+05:30 error web-gateway 503 Service Unavailable returned (booking-svc down) trace=8980472c
+2026-01-17T16:37:59.880+05:30 error web-gateway 503 Service Unavailable returned (booking-svc down) trace=8697b515
+2026-01-17T16:38:00.560+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=002352f7
+2026-01-17T16:38:00.717+05:30 error web-gateway 503 Service Unavailable returned (booking-svc down) trace=09c71f58
+2026-01-17T16:38:01.565+05:30 error web-gateway 503 Service Unavailable returned (booking-svc down) trace=5ba03dab
+2026-01-17T16:38:02.409+05:30 error web-gateway 503 Service Unavailable returned (booking-svc down) trace=5cf21a3f
+2026-01-17T16:38:03.012+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=0e4835b5
+2026-01-17T16:38:04.512+05:30 error web-gateway 503 Service Unavailable returned (booking-svc down) trace=8a916737
+2026-01-17T16:38:04.733+05:30 error web-gateway 503 Service Unavailable returned (booking-svc down) trace=c19eb591
+2026-01-17T16:38:04.957+05:30 info web-gateway event loop lag 73ms ok
+2026-01-17T16:38:05.657+05:30 error web-gateway 503 Service Unavailable returned (booking-svc down) trace=a3f6982c
+2026-01-17T16:38:07.216+05:30 error web-gateway 503 Service Unavailable returned (booking-svc down) trace=2c221fc0
+2026-01-17T16:38:08.174+05:30 error web-gateway 503 Service Unavailable returned (booking-svc down) trace=c5d15f2a
+2026-01-17T16:38:09.705+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=d0a57aa0
+2026-01-17T16:38:10.473+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=b038a216
+2026-01-17T16:38:11.777+05:30 error web-gateway 503 Service Unavailable returned (booking-svc down) trace=3323a6bd
+2026-01-17T16:38:13.005+05:30 error web-gateway 503 Service Unavailable returned (booking-svc down) trace=76375a48
+2026-01-17T16:38:13.401+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=7dc96c4b
+2026-01-17T16:38:14.264+05:30 error web-gateway 503 Service Unavailable returned (booking-svc down) trace=c093d032
+2026-01-17T16:38:16.114+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=ce32227c
+2026-01-17T16:38:16.452+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=4bd6225c
+2026-01-17T16:38:18.148+05:30 error web-gateway 503 Service Unavailable returned (booking-svc down) trace=79904373
+2026-01-17T16:38:18.780+05:30 info web-gateway event loop lag 72ms ok
+2026-01-17T16:38:19.311+05:30 error web-gateway 503 Service Unavailable returned (booking-svc down) trace=3b6b1bca
+2026-01-17T16:38:19.951+05:30 error web-gateway 503 Service Unavailable returned (booking-svc down) trace=427b3598
+2026-01-17T16:38:20.931+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=d740e434
+2026-01-17T16:38:21.459+05:30 error web-gateway 503 Service Unavailable returned (booking-svc down) trace=fe88769e
+2026-01-17T16:38:23.101+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=3516583a
+2026-01-17T16:38:24.496+05:30 info web-gateway served GET /api status=200 in 82ms trace=fe1f9c3a
+2026-01-17T16:38:25.001+05:30 error web-gateway 503 Service Unavailable returned (booking-svc down) trace=59e91b20
+2026-01-17T16:38:25.788+05:30 error web-gateway 503 Service Unavailable returned (booking-svc down) trace=092fef8a
+2026-01-17T16:38:27.368+05:30 error web-gateway 503 Service Unavailable returned (booking-svc down) trace=8740d725
+2026-01-17T16:38:27.492+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=760f9179
+2026-01-17T16:38:28.499+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=3d59145f
+2026-01-17T16:38:30.385+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=6deef5c6
+2026-01-17T16:38:30.909+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=4b10fdc7
+2026-01-17T16:38:32.004+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=5571f8e9
+2026-01-17T16:38:32.936+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=5443328a
+2026-01-17T16:38:34.155+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=6d59a0c2
+2026-01-17T16:38:34.960+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=27e7d4c1
+2026-01-17T16:38:35.804+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=0086739c
+2026-01-17T16:38:35.872+05:30 info web-gateway served GET /api status=200 in 87ms trace=6866c72a
+2026-01-17T16:38:36.469+05:30 error web-gateway 503 Service Unavailable returned (booking-svc down) trace=4d712017
+2026-01-17T16:38:38.063+05:30 error web-gateway 503 Service Unavailable returned (booking-svc down) trace=41dd91f5
+2026-01-17T16:38:39.719+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=ea8cb0ca
+2026-01-17T16:38:40.753+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=2f05dfe3
+2026-01-17T16:38:41.423+05:30 error web-gateway 503 Service Unavailable returned (booking-svc down) trace=7e9819c0
+2026-01-17T16:38:43.105+05:30 error web-gateway 503 Service Unavailable returned (booking-svc down) trace=6ac0756b
+2026-01-17T16:38:43.638+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=b54f50ee
+2026-01-17T16:38:44.960+05:30 error web-gateway 503 Service Unavailable returned (booking-svc down) trace=0eab15e4
+2026-01-17T16:38:45.197+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=9b47afd9
+2026-01-17T16:38:47.003+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=0265e5eb
+2026-01-17T16:38:47.703+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=c807ff52
+2026-01-17T16:38:48.863+05:30 error web-gateway 503 Service Unavailable returned (booking-svc down) trace=c8bcdeae
+2026-01-17T16:38:49.905+05:30 info web-gateway event loop lag 90ms ok
+2026-01-17T16:38:50.224+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=da04c0cc
+2026-01-17T16:38:51.663+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=f4db6676
+2026-01-17T16:38:53.078+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=d9d5189b
+2026-01-17T16:38:54.285+05:30 error web-gateway 503 Service Unavailable returned (booking-svc down) trace=324644a3
+2026-01-17T16:38:54.845+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=5e9bfb4b
+2026-01-17T16:38:56.120+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=99f965e6
+2026-01-17T16:38:56.637+05:30 error web-gateway 503 Service Unavailable returned (booking-svc down) trace=e257225c
+2026-01-17T16:38:57.178+05:30 info web-gateway served GET /api status=200 in 21ms trace=5687f475
+2026-01-17T16:38:58.360+05:30 error web-gateway 503 Service Unavailable returned (booking-svc down) trace=b3739ba7
+2026-01-17T16:38:58.625+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=36b78323
+2026-01-17T16:38:59.270+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=04c1189f
+2026-01-17T16:39:00.335+05:30 error web-gateway 503 Service Unavailable returned (booking-svc down) trace=988bc984
+2026-01-17T16:39:01.750+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=3935373c
+2026-01-17T16:39:02.474+05:30 error web-gateway 503 Service Unavailable returned (booking-svc down) trace=108882fc
+2026-01-17T16:39:03.150+05:30 error web-gateway 503 Service Unavailable returned (booking-svc down) trace=6ba38402
+2026-01-17T16:39:04.151+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=2e390de4
+2026-01-17T16:39:05.273+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=5ae7fa56
+2026-01-17T16:39:07.347+05:30 error web-gateway 503 Service Unavailable returned (booking-svc down) trace=f4e9e19d
+2026-01-17T16:39:08.348+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=473dff10
+2026-01-17T16:39:08.550+05:30 error web-gateway 503 Service Unavailable returned (booking-svc down) trace=b364b9db
+2026-01-17T16:39:10.450+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=6be3184c
+2026-01-17T16:39:11.495+05:30 error web-gateway 503 Service Unavailable returned (booking-svc down) trace=31057112
+2026-01-17T16:39:11.865+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=9e0dba63
+2026-01-17T16:39:11.946+05:30 info web-gateway served GET /api status=200 in 25ms trace=789c34b0
+2026-01-17T16:39:13.151+05:30 error web-gateway 503 Service Unavailable returned (booking-svc down) trace=9a2c776f
+2026-01-17T16:39:14.339+05:30 error web-gateway 503 Service Unavailable returned (booking-svc down) trace=19853054
+2026-01-17T16:39:15.530+05:30 error web-gateway 503 Service Unavailable returned (booking-svc down) trace=20e3b797
+2026-01-17T16:39:16.865+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=8c6d9cd5
+2026-01-17T16:39:17.593+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=c8f4dd6b
+2026-01-17T16:39:17.757+05:30 info web-gateway served GET /api status=200 in 54ms trace=d8207367
+2026-01-17T16:39:18.326+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=bc5a5b12
+2026-01-17T16:39:19.895+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=4e32e7da
+2026-01-17T16:39:20.642+05:30 error web-gateway 503 Service Unavailable returned (booking-svc down) trace=cdf6c58b
+2026-01-17T16:39:22.001+05:30 error web-gateway 503 Service Unavailable returned (booking-svc down) trace=5ed34c24
+2026-01-17T16:39:22.815+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=300d1020
+2026-01-17T16:39:24.097+05:30 error web-gateway 503 Service Unavailable returned (booking-svc down) trace=bfe251dc
+2026-01-17T16:39:24.146+05:30 error web-gateway 503 Service Unavailable returned (booking-svc down) trace=56fadf3e
+2026-01-17T16:39:25.428+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=5fad152f
+2026-01-17T16:39:26.600+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=5d8e065e
+2026-01-17T16:39:26.855+05:30 info web-gateway served GET /api status=200 in 38ms trace=7c623458
+2026-01-17T16:39:26.985+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=a1460b6d
+2026-01-17T16:39:28.335+05:30 error web-gateway 503 Service Unavailable returned (booking-svc down) trace=578a8c21
+2026-01-17T16:39:29.645+05:30 error web-gateway 503 Service Unavailable returned (booking-svc down) trace=b8c0cb00
+2026-01-17T16:39:30.991+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=8d24d978
+2026-01-17T16:39:31.222+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=5aab4619

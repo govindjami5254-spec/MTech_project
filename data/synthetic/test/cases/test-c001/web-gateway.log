@@ -1,0 +1,70 @@
+2026-01-17T18:28:14.487+05:30 info web-gateway served GET /api status=200 in 14ms trace=b9e4703d
+2026-01-17T18:28:24.515+05:30 info web-gateway served GET /api status=200 in 8ms trace=95528edd
+2026-01-17T18:28:34.219+05:30 info web-gateway event loop lag 75ms ok
+2026-01-17T18:28:42.933+05:30 info web-gateway event loop lag 46ms ok
+2026-01-17T18:28:50.457+05:30 info web-gateway event loop lag 40ms ok
+2026-01-17T18:28:58.258+05:30 info web-gateway served GET /api status=200 in 62ms trace=42200e83
+2026-01-17T18:29:11.683+05:30 info web-gateway served GET /api status=200 in 55ms trace=4178b8a5
+2026-01-17T18:29:24.455+05:30 info web-gateway served GET /api status=200 in 74ms trace=bb9a0b8c
+2026-01-17T18:29:35.660+05:30 info web-gateway event loop lag 93ms ok
+2026-01-17T18:29:46.784+05:30 info web-gateway served GET /api status=200 in 61ms trace=3143bd9b
+2026-01-17T18:29:53.210+05:30 info web-gateway served GET /api status=200 in 17ms trace=2153ac2c
+2026-01-17T18:30:05.262+05:30 info web-gateway event loop lag 8ms ok
+2026-01-17T18:30:16.822+05:30 info web-gateway event loop lag 11ms ok
+2026-01-17T18:30:23.903+05:30 info web-gateway served GET /api status=200 in 24ms trace=3c33eaa0
+2026-01-17T18:30:31.698+05:30 info web-gateway served GET /api status=200 in 29ms trace=5b8ed5b0
+2026-01-17T18:30:44.314+05:30 info web-gateway event loop lag 34ms ok
+2026-01-17T18:30:57.831+05:30 info web-gateway event loop lag 61ms ok
+2026-01-17T18:31:05.543+05:30 info web-gateway event loop lag 56ms ok
+2026-01-17T18:31:13.275+05:30 info web-gateway served GET /api status=200 in 93ms trace=dbf9a1bf
+2026-01-17T18:31:24.849+05:30 info web-gateway served GET /api status=200 in 85ms trace=209e5a2d
+2026-01-17T18:31:31.598+05:30 info web-gateway served GET /api status=200 in 11ms trace=0f5577cf
+2026-01-17T18:31:39.786+05:30 info web-gateway served GET /api status=200 in 66ms trace=8eedd9fb
+2026-01-17T18:31:48.916+05:30 info web-gateway served GET /api status=200 in 77ms trace=b1dc71b2
+2026-01-17T18:31:59.793+05:30 info web-gateway served GET /api status=200 in 32ms trace=79ff6b10
+2026-01-17T18:32:11.358+05:30 info web-gateway served GET /api status=200 in 71ms trace=b1b2ca5f
+2026-01-17T18:32:25.348+05:30 info web-gateway served GET /api status=200 in 58ms trace=8d6bbd17
+2026-01-17T18:32:35.048+05:30 info web-gateway served GET /api status=200 in 81ms trace=5b0452d5
+2026-01-17T18:32:44.633+05:30 info web-gateway served GET /api status=200 in 74ms trace=22c87835
+2026-01-17T18:32:55.056+05:30 info web-gateway served GET /api status=200 in 38ms trace=9dbc952e
+2026-01-17T18:33:06.064+05:30 info web-gateway event loop lag 39ms ok
+2026-01-17T18:33:14.611+05:30 info web-gateway served GET /api status=200 in 37ms trace=9728dd36
+2026-01-17T18:33:21.879+05:30 info web-gateway event loop lag 17ms ok
+2026-01-17T18:33:26.158+05:30 error web-gateway 503 Service Unavailable returned (booking-svc down) trace=a2a1a19b
+2026-01-17T18:33:29.777+05:30 error web-gateway 503 Service Unavailable returned (booking-svc down) trace=34387176
+2026-01-17T18:33:29.929+05:30 info web-gateway served GET /api status=200 in 17ms trace=60ddbdbb
+2026-01-17T18:33:32.534+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=8278339a
+2026-01-17T18:33:35.319+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=dc8e06d8
+2026-01-17T18:33:38.856+05:30 error web-gateway 503 Service Unavailable returned (booking-svc down) trace=8910d8a7
+2026-01-17T18:33:39.334+05:30 info web-gateway event loop lag 95ms ok
+2026-01-17T18:33:41.258+05:30 error web-gateway 503 Service Unavailable returned (booking-svc down) trace=2900b76c
+2026-01-17T18:33:44.519+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=d7b4e2b1
+2026-01-17T18:33:47.755+05:30 error web-gateway proxy error contacting booking-svc; responded 502 trace=1b239f32
+2026-01-17T18:33:48.428+05:30 info web-gateway served GET /api status=200 in 70ms trace=dc06e28e
+2026-01-17T18:34:00.672+05:30 info web-gateway served GET /api status=200 in 79ms trace=980d3906
+2026-01-17T18:34:10.120+05:30 info web-gateway served GET /api status=200 in 80ms trace=640c29c4
+2026-01-17T18:34:17.131+05:30 info web-gateway served GET /api status=200 in 14ms trace=4eec3ba6
+2026-01-17T18:34:23.251+05:30 info web-gateway served GET /api status=200 in 58ms trace=8c0b1acd
+2026-01-17T18:34:36.713+05:30 info web-gateway event loop lag 55ms ok
+2026-01-17T18:34:46.796+05:30 info web-gateway event loop lag 34ms ok
+2026-01-17T18:34:58.986+05:30 info web-gateway event loop lag 63ms ok
+2026-01-17T18:35:08.146+05:30 info web-gateway event loop lag 41ms ok
+2026-01-17T18:35:19.019+05:30 info web-gateway event loop lag 27ms ok
+2026-01-17T18:35:30.894+05:30 info web-gateway served GET /api status=200 in 12ms trace=9527e3e7
+2026-01-17T18:35:40.977+05:30 info web-gateway event loop lag 13ms ok
+2026-01-17T18:35:54.938+05:30 info web-gateway served GET /api status=200 in 43ms trace=ccfa653c
+2026-01-17T18:36:00.641+05:30 info web-gateway served GET /api status=200 in 28ms trace=c1feaa63
+2026-01-17T18:36:12.605+05:30 info web-gateway served GET /api status=200 in 14ms trace=0333ef12
+2026-01-17T18:36:20.219+05:30 info web-gateway served GET /api status=200 in 48ms trace=37fc6f08
+2026-01-17T18:36:26.581+05:30 info web-gateway served GET /api status=200 in 53ms trace=2730c6ce
+2026-01-17T18:36:33.052+05:30 info web-gateway event loop lag 26ms ok
+2026-01-17T18:36:45.919+05:30 info web-gateway event loop lag 74ms ok
+2026-01-17T18:36:54.665+05:30 info web-gateway served GET /api status=200 in 72ms trace=2017fc69
+2026-01-17T18:37:03.743+05:30 info web-gateway event loop lag 51ms ok
+2026-01-17T18:37:12.067+05:30 info web-gateway event loop lag 62ms ok
+2026-01-17T18:37:22.800+05:30 info web-gateway served GET /api status=200 in 57ms trace=d28c676c
+2026-01-17T18:37:28.727+05:30 info web-gateway event loop lag 43ms ok
+2026-01-17T18:37:34.153+05:30 info web-gateway served GET /api status=200 in 75ms trace=3242c751
+2026-01-17T18:37:47.687+05:30 info web-gateway served GET /api status=200 in 95ms trace=1827027e
+2026-01-17T18:37:53.351+05:30 info web-gateway served GET /api status=200 in 20ms trace=ee8f5159
+2026-01-17T18:37:59.043+05:30 info web-gateway served GET /api status=200 in 92ms trace=06fb7b17

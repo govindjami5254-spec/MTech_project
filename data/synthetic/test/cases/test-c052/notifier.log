@@ -1,0 +1,62 @@
+2026-02-01 12:42:04,566 INFO notifier worker heartbeat ok (50ms)
+2026-02-01 12:42:18,492 INFO notifier GET /v1/items 200 66ms req_id=328d5775
+2026-02-01 12:42:24,060 INFO notifier GET /v1/items 200 66ms req_id=0ecf0580
+2026-02-01 12:42:32,304 INFO notifier GET /v1/items 200 9ms req_id=b4df291e
+2026-02-01 12:42:41,136 INFO notifier worker heartbeat ok (46ms)
+2026-02-01 12:42:49,357 INFO notifier worker heartbeat ok (28ms)
+2026-02-01 12:43:02,963 INFO notifier worker heartbeat ok (26ms)
+2026-02-01 12:43:09,834 INFO notifier worker heartbeat ok (83ms)
+2026-02-01 12:43:17,297 INFO notifier GET /v1/items 200 78ms req_id=622638c5
+2026-02-01 12:43:30,123 INFO notifier GET /v1/items 200 14ms req_id=6f35d388
+2026-02-01 12:43:36,878 INFO notifier GET /v1/items 200 70ms req_id=bcfc7e8e
+2026-02-01 12:43:49,270 INFO notifier worker heartbeat ok (70ms)
+2026-02-01 12:43:55,781 INFO notifier GET /v1/items 200 25ms req_id=222dd186
+2026-02-01 12:43:58,649 ERROR notifier celery task send_digest failed: SMTPServerDisconnected
+2026-02-01 12:44:08,115 INFO notifier worker heartbeat ok (19ms)
+2026-02-01 12:44:09,123 ERROR notifier celery task send_digest failed: SMTPServerDisconnected
+2026-02-01 12:44:15,107 INFO notifier worker heartbeat ok (57ms)
+2026-02-01 12:44:20,009 ERROR notifier celery task send_digest failed: SMTPServerDisconnected
+2026-02-01 12:44:26,982 INFO notifier worker heartbeat ok (45ms)
+2026-02-01 12:44:32,220 INFO notifier GET /v1/items 200 32ms req_id=a8ef0cd4
+2026-02-01 12:44:44,689 INFO notifier worker heartbeat ok (41ms)
+2026-02-01 12:44:56,644 INFO notifier worker heartbeat ok (77ms)
+2026-02-01 12:45:07,814 INFO notifier GET /v1/items 200 20ms req_id=71153e62
+2026-02-01 12:45:18,696 INFO notifier GET /v1/items 200 29ms req_id=d40f33fe
+2026-02-01 12:45:30,859 INFO notifier GET /v1/items 200 86ms req_id=43c7adcc
+2026-02-01 12:45:42,768 INFO notifier GET /v1/items 200 35ms req_id=76fc2d7d
+2026-02-01 12:45:52,251 INFO notifier worker heartbeat ok (82ms)
+2026-02-01 12:46:00,453 INFO notifier worker heartbeat ok (44ms)
+2026-02-01 12:46:07,375 INFO notifier worker heartbeat ok (86ms)
+2026-02-01 12:46:21,879 INFO notifier GET /v1/items 200 87ms req_id=693ab938
+2026-02-01 12:46:29,643 INFO notifier GET /v1/items 200 61ms req_id=48e655c1
+2026-02-01 12:46:36,032 INFO notifier GET /v1/items 200 88ms req_id=9b57c8b0
+2026-02-01 12:46:47,063 INFO notifier worker heartbeat ok (77ms)
+2026-02-01 12:47:01,730 INFO notifier GET /v1/items 200 12ms req_id=02cdfb86
+2026-02-01 12:47:10,419 INFO notifier worker heartbeat ok (17ms)
+2026-02-01 12:47:23,740 INFO notifier GET /v1/items 200 29ms req_id=7e86eb0c
+2026-02-01 12:47:34,283 INFO notifier GET /v1/items 200 11ms req_id=737e4edf
+2026-02-01 12:47:43,386 INFO notifier worker heartbeat ok (12ms)
+2026-02-01 12:47:54,958 INFO notifier worker heartbeat ok (24ms)
+2026-02-01 12:48:08,286 INFO notifier GET /v1/items 200 82ms req_id=e97d993e
+2026-02-01 12:48:18,883 INFO notifier GET /v1/items 200 12ms req_id=3b52db7c
+2026-02-01 12:48:32,018 INFO notifier worker heartbeat ok (63ms)
+2026-02-01 12:48:45,633 INFO notifier worker heartbeat ok (62ms)
+2026-02-01 12:48:51,800 INFO notifier worker heartbeat ok (26ms)
+2026-02-01 12:49:01,867 INFO notifier worker heartbeat ok (63ms)
+2026-02-01 12:49:10,284 INFO notifier worker heartbeat ok (60ms)
+2026-02-01 12:49:20,124 INFO notifier GET /v1/items 200 35ms req_id=b86d253f
+2026-02-01 12:49:29,393 INFO notifier worker heartbeat ok (88ms)
+2026-02-01 12:49:40,201 INFO notifier GET /v1/items 200 83ms req_id=af2c3f00
+2026-02-01 12:49:49,050 INFO notifier worker heartbeat ok (91ms)
+2026-02-01 12:50:01,058 INFO notifier GET /v1/items 200 83ms req_id=57b0e23e
+2026-02-01 12:50:14,729 INFO notifier worker heartbeat ok (36ms)
+2026-02-01 12:50:28,508 INFO notifier GET /v1/items 200 46ms req_id=76198236
+2026-02-01 12:50:41,306 INFO notifier GET /v1/items 200 23ms req_id=13359251
+2026-02-01 12:50:53,323 INFO notifier worker heartbeat ok (16ms)
+2026-02-01 12:51:06,230 INFO notifier worker heartbeat ok (93ms)
+2026-02-01 12:51:18,756 INFO notifier GET /v1/items 200 23ms req_id=5ddc55a5
+2026-02-01 12:51:24,507 INFO notifier worker heartbeat ok (21ms)
+2026-02-01 12:51:36,135 INFO notifier worker heartbeat ok (54ms)
+2026-02-01 12:51:44,982 INFO notifier GET /v1/items 200 45ms req_id=76d2d2d7
+2026-02-01 12:51:58,826 INFO notifier GET /v1/items 200 27ms req_id=2206fa18
+2026-02-01 12:51:59,000 WARNING notifier slow query took 620ms req_id=fcc0d029

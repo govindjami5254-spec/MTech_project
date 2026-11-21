@@ -1,0 +1,62 @@
+2026-01-20 12:36:43,435 INFO journal-db handled request rid=9cf18222 status=200 dur=76ms
+2026-01-20 12:36:57,427 INFO journal-db ping ok latency=82ms
+2026-01-20 12:37:09,842 INFO journal-db handled request rid=f438d8b3 status=200 dur=67ms
+2026-01-20 12:37:15,616 INFO journal-db ping ok latency=59ms
+2026-01-20 12:37:24,707 INFO journal-db handled request rid=1b1efc3b status=200 dur=67ms
+2026-01-20 12:37:36,626 INFO journal-db handled request rid=ea6e1cce status=200 dur=92ms
+2026-01-20 12:37:46,799 INFO journal-db ping ok latency=54ms
+2026-01-20 12:37:52,437 INFO journal-db handled request rid=c5029080 status=200 dur=43ms
+2026-01-20 12:38:06,002 INFO journal-db handled request rid=5331e409 status=200 dur=37ms
+2026-01-20 12:38:13,025 INFO journal-db ping ok latency=74ms
+2026-01-20 12:38:23,465 INFO journal-db handled request rid=1e57b5de status=200 dur=41ms
+2026-01-20 12:38:34,546 INFO journal-db handled request rid=ec736abf status=200 dur=64ms
+2026-01-20 12:38:44,003 INFO journal-db handled request rid=dee4d741 status=200 dur=68ms
+2026-01-20 12:38:54,785 INFO journal-db handled request rid=a3a733bb status=200 dur=30ms
+2026-01-20 12:39:03,229 INFO journal-db handled request rid=6ef0def2 status=200 dur=29ms
+2026-01-20 12:39:15,374 INFO journal-db handled request rid=1afbd5df status=200 dur=50ms
+2026-01-20 12:39:23,594 INFO journal-db ping ok latency=86ms
+2026-01-20 12:39:37,475 INFO journal-db ping ok latency=41ms
+2026-01-20 12:39:48,808 INFO journal-db ping ok latency=52ms
+2026-01-20 12:39:56,013 INFO journal-db ping ok latency=80ms
+2026-01-20 12:40:05,893 INFO journal-db ping ok latency=75ms
+2026-01-20 12:40:12,351 INFO journal-db handled request rid=aed8eda3 status=200 dur=32ms
+2026-01-20 12:40:25,049 INFO journal-db handled request rid=6a411ef7 status=200 dur=70ms
+2026-01-20 12:40:35,200 INFO journal-db ping ok latency=60ms
+2026-01-20 12:40:43,568 WARNING journal-db filesystem /data 99% full
+2026-01-20 12:40:43,618 INFO journal-db ping ok latency=27ms
+2026-01-20 12:40:56,495 INFO journal-db ping ok latency=46ms
+2026-01-20 12:41:10,028 INFO journal-db ping ok latency=23ms
+2026-01-20 12:41:22,207 INFO journal-db handled request rid=ddb918d0 status=200 dur=72ms
+2026-01-20 12:41:28,789 ERROR journal-db write /data/wal/000123.log: no space left on device
+2026-01-20 12:41:32,221 FATAL journal-db panic: unable to persist write-ahead log
+2026-01-20 12:41:34,946 INFO journal-db ping ok latency=42ms
+2026-01-20 12:41:46,252 INFO journal-db handled request rid=e4f8895b status=200 dur=65ms
+2026-01-20 12:42:00,872 INFO journal-db handled request rid=7b22ac5b status=200 dur=94ms
+2026-01-20 12:42:01,000 WARNING journal-db slow handler rid=272e9a84 dur=210ms
+2026-01-20 12:42:13,372 INFO journal-db handled request rid=98007c9a status=200 dur=84ms
+2026-01-20 12:42:26,716 INFO journal-db handled request rid=70449e03 status=200 dur=77ms
+2026-01-20 12:42:27,000 WARNING journal-db retry budget low on client pool
+2026-01-20 12:42:37,090 INFO journal-db ping ok latency=93ms
+2026-01-20 12:42:45,052 INFO journal-db ping ok latency=58ms
+2026-01-20 12:42:57,699 INFO journal-db ping ok latency=79ms
+2026-01-20 12:43:08,836 INFO journal-db ping ok latency=67ms
+2026-01-20 12:43:16,473 INFO journal-db ping ok latency=33ms
+2026-01-20 12:43:30,499 INFO journal-db handled request rid=706a3301 status=200 dur=79ms
+2026-01-20 12:43:38,619 INFO journal-db ping ok latency=44ms
+2026-01-20 12:43:52,414 INFO journal-db handled request rid=0f6449b8 status=200 dur=81ms
+2026-01-20 12:44:00,028 INFO journal-db ping ok latency=37ms
+2026-01-20 12:44:06,276 INFO journal-db ping ok latency=8ms
+2026-01-20 12:44:19,829 INFO journal-db handled request rid=101f8740 status=200 dur=23ms
+2026-01-20 12:44:30,797 INFO journal-db ping ok latency=9ms
+2026-01-20 12:44:43,236 INFO journal-db handled request rid=df053f8a status=200 dur=26ms
+2026-01-20 12:44:55,954 INFO journal-db ping ok latency=94ms
+2026-01-20 12:45:04,406 INFO journal-db ping ok latency=47ms
+2026-01-20 12:45:12,395 INFO journal-db handled request rid=63d1e81a status=200 dur=60ms
+2026-01-20 12:45:22,143 INFO journal-db ping ok latency=55ms
+2026-01-20 12:45:32,900 INFO journal-db ping ok latency=91ms
+2026-01-20 12:45:46,645 INFO journal-db ping ok latency=20ms
+2026-01-20 12:45:56,001 INFO journal-db ping ok latency=54ms
+2026-01-20 12:46:07,359 INFO journal-db handled request rid=d12dee4a status=200 dur=75ms
+2026-01-20 12:46:19,623 INFO journal-db handled request rid=566c58ef status=200 dur=41ms
+2026-01-20 12:46:26,499 INFO journal-db ping ok latency=67ms
+2026-01-20 12:46:37,475 INFO journal-db handled request rid=71285d27 status=200 dur=70ms

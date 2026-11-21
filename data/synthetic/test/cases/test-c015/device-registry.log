@@ -1,0 +1,64 @@
+2026-01-21 13:09:58,783 INFO device-registry GET /v1/items 200 86ms req_id=ddfbc80c
+2026-01-21 13:10:09,412 INFO device-registry worker heartbeat ok (28ms)
+2026-01-21 13:10:15,492 INFO device-registry worker heartbeat ok (65ms)
+2026-01-21 13:10:21,961 INFO device-registry GET /v1/items 200 22ms req_id=5f81924a
+2026-01-21 13:10:30,696 INFO device-registry worker heartbeat ok (49ms)
+2026-01-21 13:10:37,966 INFO device-registry worker heartbeat ok (58ms)
+2026-01-21 13:10:49,115 INFO device-registry worker heartbeat ok (91ms)
+2026-01-21 13:10:55,194 INFO device-registry worker heartbeat ok (91ms)
+2026-01-21 13:11:02,914 INFO device-registry worker heartbeat ok (46ms)
+2026-01-21 13:11:15,285 INFO device-registry worker heartbeat ok (40ms)
+2026-01-21 13:11:25,596 INFO device-registry worker heartbeat ok (21ms)
+2026-01-21 13:11:39,967 INFO device-registry worker heartbeat ok (50ms)
+2026-01-21 13:11:47,328 INFO device-registry worker heartbeat ok (88ms)
+2026-01-21 13:11:56,663 INFO device-registry GET /v1/items 200 10ms req_id=3ae03ac7
+2026-01-21 13:12:10,760 INFO device-registry worker heartbeat ok (22ms)
+2026-01-21 13:12:20,123 INFO device-registry worker heartbeat ok (30ms)
+2026-01-21 13:12:29,774 INFO device-registry GET /v1/items 200 94ms req_id=35bab80b
+2026-01-21 13:12:39,227 INFO device-registry worker heartbeat ok (86ms)
+2026-01-21 13:12:46,577 INFO device-registry GET /v1/items 200 49ms req_id=8a3cd3a4
+2026-01-21 13:13:00,187 INFO device-registry worker heartbeat ok (26ms)
+2026-01-21 13:13:13,469 INFO device-registry worker heartbeat ok (33ms)
+2026-01-21 13:13:19,310 INFO device-registry GET /v1/items 200 32ms req_id=a9af546d
+2026-01-21 13:13:25,131 INFO device-registry GET /v1/items 200 77ms req_id=c7f1cf0c
+2026-01-21 13:13:31,169 INFO device-registry GET /v1/items 200 33ms req_id=4acb605c
+2026-01-21 13:13:39,338 INFO device-registry GET /v1/items 200 30ms req_id=8c57dc0a
+2026-01-21 13:13:52,401 INFO device-registry GET /v1/items 200 68ms req_id=a64c33f2
+2026-01-21 13:13:59,849 INFO device-registry GET /v1/items 200 20ms req_id=4fc34c68
+2026-01-21 13:14:10,474 INFO device-registry GET /v1/items 200 15ms req_id=646674d7
+2026-01-21 13:14:17,664 INFO device-registry GET /v1/items 200 13ms req_id=84b7f085
+2026-01-21 13:14:25,145 INFO device-registry worker heartbeat ok (88ms)
+2026-01-21 13:14:31,391 INFO device-registry worker heartbeat ok (86ms)
+2026-01-21 13:14:37,861 INFO device-registry worker heartbeat ok (81ms)
+2026-01-21 13:14:46,094 INFO device-registry GET /v1/items 200 58ms req_id=ce0bd24b
+2026-01-21 13:14:57,467 INFO device-registry worker heartbeat ok (77ms)
+2026-01-21 13:15:07,803 INFO device-registry worker heartbeat ok (81ms)
+2026-01-21 13:15:20,774 INFO device-registry worker heartbeat ok (16ms)
+2026-01-21 13:15:29,121 INFO device-registry GET /v1/items 200 44ms req_id=c2055ea8
+2026-01-21 13:15:42,000 INFO device-registry GET /v1/items 200 82ms req_id=43a44b86
+2026-01-21 13:15:56,351 INFO device-registry GET /v1/items 200 65ms req_id=7a573a01
+2026-01-21 13:16:04,986 INFO device-registry worker heartbeat ok (60ms)
+2026-01-21 13:16:12,353 INFO device-registry worker heartbeat ok (11ms)
+2026-01-21 13:16:22,527 INFO device-registry GET /v1/items 200 9ms req_id=7210cef5
+2026-01-21 13:16:30,803 INFO device-registry GET /v1/items 200 91ms req_id=3c5aa21a
+2026-01-21 13:16:39,652 INFO device-registry worker heartbeat ok (15ms)
+2026-01-21 13:16:46,250 INFO device-registry worker heartbeat ok (44ms)
+2026-01-21 13:16:59,969 INFO device-registry GET /v1/items 200 63ms req_id=e4a51c68
+2026-01-21 13:17:10,057 INFO device-registry GET /v1/items 200 18ms req_id=8884cd35
+2026-01-21 13:17:22,767 INFO device-registry worker heartbeat ok (35ms)
+2026-01-21 13:17:32,129 INFO device-registry worker heartbeat ok (81ms)
+2026-01-21 13:17:40,525 INFO device-registry GET /v1/items 200 42ms req_id=94c9e6c0
+2026-01-21 13:17:49,077 INFO device-registry GET /v1/items 200 9ms req_id=01076fc3
+2026-01-21 13:18:01,322 INFO device-registry GET /v1/items 200 58ms req_id=76d552ba
+2026-01-21 13:18:07,626 INFO device-registry GET /v1/items 200 57ms req_id=5ddc446d
+2026-01-21 13:18:16,844 INFO device-registry worker heartbeat ok (19ms)
+2026-01-21 13:18:27,677 INFO device-registry GET /v1/items 200 21ms req_id=a13a9807
+2026-01-21 13:18:40,293 INFO device-registry GET /v1/items 200 19ms req_id=56bf36ae
+2026-01-21 13:18:46,286 INFO device-registry GET /v1/items 200 71ms req_id=ecec0971
+2026-01-21 13:18:57,480 INFO device-registry worker heartbeat ok (75ms)
+2026-01-21 13:19:09,878 INFO device-registry worker heartbeat ok (37ms)
+2026-01-21 13:19:10,000 WARNING device-registry slow query took 650ms req_id=ce26c04d
+2026-01-21 13:19:17,133 INFO device-registry worker heartbeat ok (40ms)
+2026-01-21 13:19:30,359 INFO device-registry GET /v1/items 200 33ms req_id=6206b143
+2026-01-21 13:19:42,590 INFO device-registry GET /v1/items 200 78ms req_id=c9cb31e6
+2026-01-21 13:19:50,718 INFO device-registry GET /v1/items 200 21ms req_id=ea6b5766

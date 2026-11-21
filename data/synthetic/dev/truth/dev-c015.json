@@ -1,0 +1,39 @@
+{
+  "schema_version": "1",
+  "case_id": "dev-c015",
+  "split": "dev",
+  "family_id": "df03",
+  "stratum": "distractor",
+  "root_causes": [
+    "pricing-svc"
+  ],
+  "fault_type": "bad_config",
+  "expected_abstain": false,
+  "key_evidence": [
+    "pricing-svc.log:29",
+    "pricing-svc.log:30",
+    "pricing-svc.log:32"
+  ],
+  "relevant_evidence": [
+    "cart-svc.log:32",
+    "cart-svc.log:33",
+    "cart-svc.log:34",
+    "pricing-svc.log:29",
+    "pricing-svc.log:30",
+    "pricing-svc.log:32",
+    "storefront.log:31",
+    "storefront.log:32",
+    "storefront.log:33",
+    "storefront.log:35",
+    "storefront.log:36",
+    "storefront.log:37",
+    "storefront.log:39"
+  ],
+  "propagation_path": [
+    "pricing-svc",
+    "cart-svc",
+    "storefront"
+  ],
+  "injection_uids": [],
+  "decoy_component": null
+}

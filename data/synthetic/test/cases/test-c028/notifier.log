@@ -1,0 +1,63 @@
+2026-01-28 14:37:40,217 INFO notifier GET /v1/items 200 42ms req_id=a5ada126
+2026-01-28 14:37:50,963 INFO notifier GET /v1/items 200 78ms req_id=c6c27b5f
+2026-01-28 14:38:04,535 INFO notifier worker heartbeat ok (64ms)
+2026-01-28 14:38:16,894 INFO notifier worker heartbeat ok (73ms)
+2026-01-28 14:38:29,986 INFO notifier GET /v1/items 200 72ms req_id=c7111033
+2026-01-28 14:38:43,749 INFO notifier GET /v1/items 200 20ms req_id=748fd51b
+2026-01-28 14:38:52,319 INFO notifier GET /v1/items 200 94ms req_id=cb78750a
+2026-01-28 14:38:59,294 INFO notifier GET /v1/items 200 65ms req_id=34a08e38
+2026-01-28 14:39:10,684 INFO notifier GET /v1/items 200 76ms req_id=3d0d0ff1
+2026-01-28 14:39:16,924 INFO notifier GET /v1/items 200 77ms req_id=83e72425
+2026-01-28 14:39:25,392 INFO notifier worker heartbeat ok (30ms)
+2026-01-28 14:39:33,184 INFO notifier worker heartbeat ok (85ms)
+2026-01-28 14:39:39,224 INFO notifier worker heartbeat ok (28ms)
+2026-01-28 14:39:50,265 INFO notifier worker heartbeat ok (86ms)
+2026-01-28 14:40:00,826 INFO notifier worker heartbeat ok (58ms)
+2026-01-28 14:40:02,338 WARNING notifier cache hit ratio dropped to 61% on hot keys
+2026-01-28 14:40:09,186 INFO notifier worker heartbeat ok (48ms)
+2026-01-28 14:40:13,595 WARNING notifier cache hit ratio dropped to 61% on hot keys
+2026-01-28 14:40:19,848 INFO notifier worker heartbeat ok (94ms)
+2026-01-28 14:40:31,649 INFO notifier GET /v1/items 200 24ms req_id=f613b5d1
+2026-01-28 14:40:38,742 INFO notifier worker heartbeat ok (72ms)
+2026-01-28 14:40:50,107 INFO notifier GET /v1/items 200 65ms req_id=c012dfa5
+2026-01-28 14:40:57,197 INFO notifier worker heartbeat ok (65ms)
+2026-01-28 14:41:08,330 INFO notifier GET /v1/items 200 83ms req_id=7fae7077
+2026-01-28 14:41:20,270 INFO notifier GET /v1/items 200 87ms req_id=7ff3730d
+2026-01-28 14:41:26,914 INFO notifier GET /v1/items 200 84ms req_id=a03861fe
+2026-01-28 14:41:36,716 INFO notifier GET /v1/items 200 17ms req_id=ccbfff1b
+2026-01-28 14:41:49,200 INFO notifier GET /v1/items 200 65ms req_id=0d34df87
+2026-01-28 14:41:55,080 INFO notifier GET /v1/items 200 95ms req_id=3377b45b
+2026-01-28 14:42:06,202 INFO notifier GET /v1/items 200 88ms req_id=223d949d
+2026-01-28 14:42:12,020 INFO notifier GET /v1/items 200 44ms req_id=1e1f3317
+2026-01-28 14:42:25,789 INFO notifier GET /v1/items 200 8ms req_id=ccf0881a
+2026-01-28 14:42:38,368 INFO notifier worker heartbeat ok (79ms)
+2026-01-28 14:42:52,108 INFO notifier worker heartbeat ok (73ms)
+2026-01-28 14:43:06,790 INFO notifier worker heartbeat ok (8ms)
+2026-01-28 14:43:15,649 INFO notifier worker heartbeat ok (49ms)
+2026-01-28 14:43:25,762 INFO notifier worker heartbeat ok (63ms)
+2026-01-28 14:43:37,198 INFO notifier GET /v1/items 200 86ms req_id=ed614c10
+2026-01-28 14:43:51,975 INFO notifier GET /v1/items 200 80ms req_id=501eb661
+2026-01-28 14:44:03,715 INFO notifier GET /v1/items 200 14ms req_id=7f2ed10a
+2026-01-28 14:44:09,692 INFO notifier worker heartbeat ok (39ms)
+2026-01-28 14:44:22,670 INFO notifier GET /v1/items 200 76ms req_id=a135ac06
+2026-01-28 14:44:29,117 INFO notifier worker heartbeat ok (40ms)
+2026-01-28 14:44:39,508 INFO notifier GET /v1/items 200 88ms req_id=ff887582
+2026-01-28 14:44:45,338 INFO notifier GET /v1/items 200 57ms req_id=d470e67f
+2026-01-28 14:44:55,833 INFO notifier worker heartbeat ok (80ms)
+2026-01-28 14:45:06,433 INFO notifier worker heartbeat ok (15ms)
+2026-01-28 14:45:15,035 INFO notifier worker heartbeat ok (75ms)
+2026-01-28 14:45:22,378 INFO notifier worker heartbeat ok (48ms)
+2026-01-28 14:45:28,974 INFO notifier GET /v1/items 200 38ms req_id=f9511299
+2026-01-28 14:45:34,971 INFO notifier GET /v1/items 200 9ms req_id=be71a266
+2026-01-28 14:45:44,422 INFO notifier worker heartbeat ok (30ms)
+2026-01-28 14:45:56,733 INFO notifier worker heartbeat ok (32ms)
+2026-01-28 14:46:06,072 INFO notifier GET /v1/items 200 71ms req_id=fc9fbee2
+2026-01-28 14:46:14,915 INFO notifier worker heartbeat ok (84ms)
+2026-01-28 14:46:22,843 INFO notifier GET /v1/items 200 46ms req_id=dc58eebd
+2026-01-28 14:46:28,684 INFO notifier GET /v1/items 200 67ms req_id=9345d28d
+2026-01-28 14:46:34,569 INFO notifier worker heartbeat ok (76ms)
+2026-01-28 14:46:48,261 INFO notifier worker heartbeat ok (37ms)
+2026-01-28 14:46:56,649 INFO notifier worker heartbeat ok (82ms)
+2026-01-28 14:47:05,730 INFO notifier worker heartbeat ok (15ms)
+2026-01-28 14:47:17,104 INFO notifier GET /v1/items 200 41ms req_id=fef31d3a
+2026-01-28 14:47:28,004 INFO notifier worker heartbeat ok (63ms)

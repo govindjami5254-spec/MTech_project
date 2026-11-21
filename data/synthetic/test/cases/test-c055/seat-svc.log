@@ -1,0 +1,59 @@
+2026-02-14 12:16:22,370 INFO seat-svc GET /v1/items 200 93ms req_id=22619f9e
+2026-02-14 12:16:36,024 INFO seat-svc worker heartbeat ok (43ms)
+2026-02-14 12:16:43,214 INFO seat-svc GET /v1/items 200 88ms req_id=b18b9667
+2026-02-14 12:16:54,515 INFO seat-svc worker heartbeat ok (36ms)
+2026-02-14 12:17:03,696 INFO seat-svc worker heartbeat ok (41ms)
+2026-02-14 12:17:13,655 INFO seat-svc worker heartbeat ok (32ms)
+2026-02-14 12:17:20,675 INFO seat-svc GET /v1/items 200 88ms req_id=02029c5d
+2026-02-14 12:17:28,633 INFO seat-svc GET /v1/items 200 62ms req_id=8943ab85
+2026-02-14 12:17:41,779 INFO seat-svc GET /v1/items 200 57ms req_id=98e71e9f
+2026-02-14 12:17:55,620 INFO seat-svc GET /v1/items 200 78ms req_id=cfcc01dd
+2026-02-14 12:18:09,753 INFO seat-svc worker heartbeat ok (70ms)
+2026-02-14 12:18:21,798 INFO seat-svc GET /v1/items 200 15ms req_id=308774e1
+2026-02-14 12:18:30,218 INFO seat-svc worker heartbeat ok (92ms)
+2026-02-14 12:18:44,125 INFO seat-svc worker heartbeat ok (20ms)
+2026-02-14 12:18:53,433 INFO seat-svc GET /v1/items 200 89ms req_id=b3f88085
+2026-02-14 12:19:04,177 INFO seat-svc GET /v1/items 200 61ms req_id=10cf8bc6
+2026-02-14 12:19:10,908 INFO seat-svc worker heartbeat ok (52ms)
+2026-02-14 12:19:16,330 INFO seat-svc worker heartbeat ok (40ms)
+2026-02-14 12:19:29,114 INFO seat-svc worker heartbeat ok (19ms)
+2026-02-14 12:19:43,546 INFO seat-svc GET /v1/items 200 93ms req_id=9726edc1
+2026-02-14 12:19:53,528 INFO seat-svc worker heartbeat ok (13ms)
+2026-02-14 12:20:07,975 INFO seat-svc worker heartbeat ok (38ms)
+2026-02-14 12:20:19,401 INFO seat-svc GET /v1/items 200 89ms req_id=95326947
+2026-02-14 12:20:31,585 INFO seat-svc GET /v1/items 200 94ms req_id=f888296c
+2026-02-14 12:20:37,310 INFO seat-svc GET /v1/items 200 83ms req_id=89e0b699
+2026-02-14 12:20:43,881 INFO seat-svc worker heartbeat ok (75ms)
+2026-02-14 12:20:57,634 INFO seat-svc GET /v1/items 200 57ms req_id=8836504a
+2026-02-14 12:21:05,424 INFO seat-svc worker heartbeat ok (42ms)
+2026-02-14 12:21:14,598 INFO seat-svc worker heartbeat ok (92ms)
+2026-02-14 12:21:27,123 INFO seat-svc GET /v1/items 200 37ms req_id=cab1c0ca
+2026-02-14 12:21:36,429 INFO seat-svc GET /v1/items 200 43ms req_id=30abafcd
+2026-02-14 12:21:50,433 INFO seat-svc worker heartbeat ok (13ms)
+2026-02-14 12:21:57,244 INFO seat-svc GET /v1/items 200 24ms req_id=91f33268
+2026-02-14 12:22:04,866 INFO seat-svc worker heartbeat ok (46ms)
+2026-02-14 12:22:13,591 INFO seat-svc worker heartbeat ok (92ms)
+2026-02-14 12:22:27,120 INFO seat-svc worker heartbeat ok (15ms)
+2026-02-14 12:22:35,684 INFO seat-svc GET /v1/items 200 37ms req_id=962f3dc4
+2026-02-14 12:22:41,847 INFO seat-svc GET /v1/items 200 68ms req_id=1d99b187
+2026-02-14 12:22:52,051 INFO seat-svc worker heartbeat ok (76ms)
+2026-02-14 12:22:59,837 INFO seat-svc GET /v1/items 200 26ms req_id=0ab98b61
+2026-02-14 12:23:08,087 INFO seat-svc GET /v1/items 200 79ms req_id=5908379a
+2026-02-14 12:23:19,928 INFO seat-svc GET /v1/items 200 9ms req_id=8e94472f
+2026-02-14 12:23:20,000 WARNING seat-svc slow query took 760ms req_id=2654b6df
+2026-02-14 12:23:32,101 INFO seat-svc worker heartbeat ok (84ms)
+2026-02-14 12:23:41,438 INFO seat-svc GET /v1/items 200 83ms req_id=b5a1921a
+2026-02-14 12:23:50,612 INFO seat-svc GET /v1/items 200 36ms req_id=004add05
+2026-02-14 12:24:02,480 INFO seat-svc worker heartbeat ok (62ms)
+2026-02-14 12:24:13,102 INFO seat-svc GET /v1/items 200 53ms req_id=c15d0c7d
+2026-02-14 12:24:22,689 INFO seat-svc worker heartbeat ok (55ms)
+2026-02-14 12:24:31,624 INFO seat-svc worker heartbeat ok (55ms)
+2026-02-14 12:24:41,968 INFO seat-svc GET /v1/items 200 66ms req_id=77c83f31
+2026-02-14 12:24:52,236 INFO seat-svc GET /v1/items 200 70ms req_id=8ddad05c
+2026-02-14 12:25:03,404 INFO seat-svc worker heartbeat ok (12ms)
+2026-02-14 12:25:15,063 INFO seat-svc GET /v1/items 200 11ms req_id=874e910b
+2026-02-14 12:25:29,871 INFO seat-svc GET /v1/items 200 49ms req_id=37773078
+2026-02-14 12:25:35,227 INFO seat-svc GET /v1/items 200 51ms req_id=4747513c
+2026-02-14 12:25:48,663 INFO seat-svc GET /v1/items 200 85ms req_id=f5cf8f61
+2026-02-14 12:26:00,402 INFO seat-svc GET /v1/items 200 45ms req_id=e2793267
+2026-02-14 12:26:09,927 INFO seat-svc GET /v1/items 200 19ms req_id=15e0f235

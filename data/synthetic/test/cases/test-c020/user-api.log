@@ -1,0 +1,64 @@
+2026-02-10T18:01:29.405+05:30 info user-api event loop lag 57ms ok
+2026-02-10T18:01:30.000+05:30 warn user-api event loop lag 590ms
+2026-02-10T18:01:43.157+05:30 info user-api served GET /api status=200 in 41ms trace=e7857b4e
+2026-02-10T18:01:57.956+05:30 info user-api event loop lag 17ms ok
+2026-02-10T18:02:10.612+05:30 info user-api served GET /api status=200 in 73ms trace=9bedcc3b
+2026-02-10T18:02:19.734+05:30 info user-api served GET /api status=200 in 84ms trace=fde363f6
+2026-02-10T18:02:25.762+05:30 info user-api event loop lag 85ms ok
+2026-02-10T18:02:31.663+05:30 info user-api served GET /api status=200 in 86ms trace=e60d7dca
+2026-02-10T18:02:42.644+05:30 info user-api event loop lag 63ms ok
+2026-02-10T18:02:51.073+05:30 info user-api served GET /api status=200 in 70ms trace=2269d278
+2026-02-10T18:02:57.679+05:30 info user-api event loop lag 21ms ok
+2026-02-10T18:03:11.519+05:30 info user-api served GET /api status=200 in 56ms trace=9892b79e
+2026-02-10T18:03:21.627+05:30 info user-api served GET /api status=200 in 77ms trace=6daf3acc
+2026-02-10T18:03:31.459+05:30 info user-api served GET /api status=200 in 53ms trace=38277cc0
+2026-02-10T18:03:45.724+05:30 info user-api served GET /api status=200 in 47ms trace=863d0f1d
+2026-02-10T18:03:51.540+05:30 info user-api event loop lag 79ms ok
+2026-02-10T18:04:00.764+05:30 info user-api event loop lag 8ms ok
+2026-02-10T18:04:10.820+05:30 info user-api served GET /api status=200 in 83ms trace=87d547e9
+2026-02-10T18:04:18.776+05:30 info user-api served GET /api status=200 in 41ms trace=367da356
+2026-02-10T18:04:29.610+05:30 info user-api event loop lag 42ms ok
+2026-02-10T18:04:42.914+05:30 info user-api event loop lag 18ms ok
+2026-02-10T18:04:52.645+05:30 info user-api event loop lag 17ms ok
+2026-02-10T18:05:05.234+05:30 info user-api event loop lag 78ms ok
+2026-02-10T18:05:11.865+05:30 info user-api event loop lag 52ms ok
+2026-02-10T18:05:24.921+05:30 info user-api event loop lag 65ms ok
+2026-02-10T18:05:35.657+05:30 info user-api served GET /api status=200 in 95ms trace=d54df53e
+2026-02-10T18:05:46.717+05:30 info user-api served GET /api status=200 in 94ms trace=d782b9aa
+2026-02-10T18:05:55.416+05:30 info user-api event loop lag 88ms ok
+2026-02-10T18:06:08.475+05:30 info user-api event loop lag 66ms ok
+2026-02-10T18:06:22.628+05:30 info user-api served GET /api status=200 in 44ms trace=c438edc6
+2026-02-10T18:06:34.000+05:30 info user-api event loop lag 68ms ok
+2026-02-10T18:06:48.681+05:30 info user-api served GET /api status=200 in 38ms trace=486c3365
+2026-02-10T18:06:56.191+05:30 info user-api event loop lag 19ms ok
+2026-02-10T18:07:03.467+05:30 info user-api served GET /api status=200 in 17ms trace=28c53d15
+2026-02-10T18:07:12.247+05:30 info user-api served GET /api status=200 in 87ms trace=72ccd7bd
+2026-02-10T18:07:23.089+05:30 info user-api served GET /api status=200 in 32ms trace=204845e7
+2026-02-10T18:07:35.060+05:30 info user-api event loop lag 13ms ok
+2026-02-10T18:07:41.582+05:30 info user-api event loop lag 8ms ok
+2026-02-10T18:07:54.651+05:30 info user-api event loop lag 75ms ok
+2026-02-10T18:08:04.609+05:30 info user-api served GET /api status=200 in 80ms trace=3bb71590
+2026-02-10T18:08:16.734+05:30 info user-api event loop lag 80ms ok
+2026-02-10T18:08:24.131+05:30 info user-api served GET /api status=200 in 49ms trace=6d86a874
+2026-02-10T18:08:31.478+05:30 info user-api served GET /api status=200 in 28ms trace=5fe16b19
+2026-02-10T18:08:45.827+05:30 info user-api event loop lag 66ms ok
+2026-02-10T18:08:51.218+05:30 info user-api event loop lag 82ms ok
+2026-02-10T18:08:58.115+05:30 info user-api served GET /api status=200 in 35ms trace=9e52d217
+2026-02-10T18:09:06.894+05:30 info user-api event loop lag 81ms ok
+2026-02-10T18:09:16.382+05:30 info user-api served GET /api status=200 in 78ms trace=47a1e781
+2026-02-10T18:09:25.285+05:30 info user-api event loop lag 87ms ok
+2026-02-10T18:09:35.441+05:30 info user-api served GET /api status=200 in 78ms trace=cc053a74
+2026-02-10T18:09:41.668+05:30 info user-api event loop lag 8ms ok
+2026-02-10T18:09:49.538+05:30 info user-api served GET /api status=200 in 57ms trace=37ab8726
+2026-02-10T18:10:00.684+05:30 info user-api served GET /api status=200 in 42ms trace=5632a394
+2026-02-10T18:10:10.022+05:30 info user-api served GET /api status=200 in 53ms trace=ce8ebbcf
+2026-02-10T18:10:17.188+05:30 info user-api served GET /api status=200 in 90ms trace=3e7c9a5d
+2026-02-10T18:10:18.000+05:30 warn user-api unhandled header x-legacy ignored trace=d187a7c4
+2026-02-10T18:10:23.074+05:30 info user-api served GET /api status=200 in 70ms trace=dfce2df6
+2026-02-10T18:10:35.616+05:30 info user-api event loop lag 59ms ok
+2026-02-10T18:10:42.179+05:30 info user-api served GET /api status=200 in 94ms trace=847bc910
+2026-02-10T18:10:43.000+05:30 warn user-api event loop lag 610ms
+2026-02-10T18:10:49.110+05:30 info user-api event loop lag 78ms ok
+2026-02-10T18:11:03.123+05:30 info user-api event loop lag 19ms ok
+2026-02-10T18:11:13.768+05:30 info user-api served GET /api status=200 in 30ms trace=99c92afe
+2026-02-10T18:11:14.000+05:30 warn user-api event loop lag 290ms
