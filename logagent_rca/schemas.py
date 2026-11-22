@@ -381,6 +381,27 @@ class RunMetrics(_Frozen):
         return self
 
 
+class ValidationStats(_Frozen):
+    """Grounding-validator outcome computed on the RAW report (what the model actually claimed)."""
+    claims_total: Annotated[int, Field(ge=0)]
+    claims_supported: Annotated[int, Field(ge=0)]
+    fabricated_ids: Annotated[int, Field(ge=0)]
+    suspicious_citations: Annotated[int, Field(ge=0)]
+    hypotheses_in: Annotated[int, Field(ge=0)]
+    hypotheses_dropped: Annotated[int, Field(ge=0)]
+    abstained_by_validator: bool
+
+    @property
+    def unsupported_claim_rate(self) -> float:
+        return 0.0 if not self.claims_total else (self.claims_total - self.claims_supported) / self.claims_total
+
+    @model_validator(mode="after")
+    def _counts(self):
+        if self.claims_supported > self.claims_total or self.hypotheses_dropped > self.hypotheses_in:
+            raise ValueError("inconsistent validation counts")
+        return self
+
+
 class RunRecord(_Frozen):
     schema_version: str = SCHEMA_VERSION
     run_id: Annotated[str, StringConstraints(min_length=1, max_length=120)]
@@ -396,6 +417,7 @@ class RunRecord(_Frozen):
     error: Optional[Annotated[str, StringConstraints(max_length=500)]] = None
     report_raw: Optional[FinalReport] = None       # model output before validation (A3 scoring)
     report_validated: Optional[FinalReport] = None # after grounding validator (E3/E2b scoring)
+    validation: Optional[ValidationStats] = None   # validator stats on report_raw
     evidence: list[Evidence] = Field(default_factory=list)
     tool_calls: list[ToolCallRecord] = Field(default_factory=list)
     metrics: RunMetrics
