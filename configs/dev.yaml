@@ -18,7 +18,8 @@ llm:
   model: qwen3:8b
   base_url: http://127.0.0.1:11434
   num_ctx: 8192
-  num_predict: 600
+  num_predict: 450
+  timeout_s: 2400
   temperature: 0.2          # shared by all LLM arms (Q-007; confirm in pilot)
   think: false
 

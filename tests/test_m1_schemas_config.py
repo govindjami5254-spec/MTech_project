@@ -117,7 +117,7 @@ def test_final_report_limits_bound_output():
     with pytest.raises(ValidationError):
         FinalReport(**{**r.model_dump(), "hypotheses": [hyp.model_dump()] * 4})
     with pytest.raises(ValidationError):
-        Claim(text="x" * 241, evidence_ids=["E1"])
+        Claim(text="x" * 161, evidence_ids=["E1"])
     with pytest.raises(ValidationError):
         Hypothesis(**{**hyp.model_dump(), "confidence": 1.5})
     with pytest.raises(ValidationError):

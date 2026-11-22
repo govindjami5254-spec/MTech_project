@@ -278,27 +278,29 @@ class GroundTruth(_Frozen):
 
 
 # ------------------------------------------------------------- shared output
-_TEXT = Annotated[str, StringConstraints(min_length=1, max_length=240)]
+# Output limits are deliberately tight: CPU generation is the dominant cost (M5 measurement:
+# ~1.3-1.6 output tokens/s under shared-server load).
+_TEXT = Annotated[str, StringConstraints(min_length=1, max_length=160)]
 
 
 class Claim(_Frozen):
     text: _TEXT
-    evidence_ids: Annotated[list[EvidenceId], Field(max_length=5)]
+    evidence_ids: Annotated[list[EvidenceId], Field(max_length=4)]
 
 
 class Hypothesis(_Frozen):
     cause_component: ComponentName
     cause_summary: _TEXT
     confidence: Annotated[float, Field(ge=0.0, le=1.0)]
-    claims: Annotated[list[Claim], Field(min_length=1, max_length=4)]
+    claims: Annotated[list[Claim], Field(min_length=1, max_length=3)]
 
 
 class FinalReport(_Frozen):
     """The single final-answer schema used by E2b and E3 (identical prompt contract)."""
     insufficient_evidence: bool
     hypotheses: Annotated[list[Hypothesis], Field(max_length=3)]
-    evidence_gaps: Annotated[list[_TEXT], Field(max_length=3)]
-    recommendations: Annotated[list[_TEXT], Field(max_length=3)]
+    evidence_gaps: Annotated[list[_TEXT], Field(max_length=2)]
+    recommendations: Annotated[list[_TEXT], Field(max_length=2)]
 
     @property
     def abstained(self) -> bool:

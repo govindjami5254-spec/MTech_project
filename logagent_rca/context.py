@@ -41,6 +41,7 @@ class LLMUsage:
     output_tokens: int = 0
     seconds: float = 0.0
     parse_failures: int = 0
+    normalised_fields: int = 0        # over-long fields truncated to schema limits
 
 
 @dataclass

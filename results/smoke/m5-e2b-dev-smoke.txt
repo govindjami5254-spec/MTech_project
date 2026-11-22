@@ -1,0 +1,2 @@
+dev-c004 easy truth ['cart-svc'] | status ok | pred ['cart-svc', 'cart-svc', 'storefront'] | B 960 items 19 | prompt 1324 out 391 | wall 441s | pf 0 {'cpu_seconds': 1212.6, 'peak_rss_mb': 7465.1, 'mean_cpu_percent': 274.6} None
+dev-c006 over_budget truth ['posting-svc'] | status ok | pred ['posting-svc'] | B 1770 items 34 | prompt 4798 out 590 | wall 591s | pf 1 {'cpu_seconds': 1674.6, 'peak_rss_mb': 7565.5, 'mean_cpu_percent': 283.3} None

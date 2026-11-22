@@ -41,7 +41,7 @@ def _fault_label(events: list[LogEvent]) -> str:
     return "unclassified failure"
 
 
-def _short(text: str, n: int = 200) -> str:
+def _short(text: str, n: int = 155) -> str:
     return text if len(text) <= n else text[: n - 1] + "…"
 
 
@@ -79,7 +79,7 @@ def run_e1(ctx: CaseContext, counter: TokenCounter, budget: int, lookback_s: int
     label = {e.uid: e.id for e in ledger.items()}
 
     claims = []
-    for caller, dep, ev in hops[-3:]:
+    for caller, dep, ev in hops[-2:]:
         if ev.uid in label:
             claims.append(Claim(text=_short(f"{caller} reported failures calling {dep}: {ev.message}"),
                                 evidence_ids=[label[ev.uid]]))
@@ -91,10 +91,10 @@ def run_e1(ctx: CaseContext, counter: TokenCounter, budget: int, lookback_s: int
     cited = [label[e.uid] for e in cause_events if e.uid in label]
     if cited:
         claims.append(Claim(text=_short(f"{cause} logged its own failure: {cause_events[-1].message}"),
-                            evidence_ids=cited[:5]))
+                            evidence_ids=cited[:4]))
     if not claims:
         claims = [Claim(text=_short(f"{cause} reported: {ctx.trigger.message}"), evidence_ids=["E1"])]
-    hyp = Hypothesis(cause_component=cause, confidence=0.6, claims=claims[-4:],
+    hyp = Hypothesis(cause_component=cause, confidence=0.6, claims=claims[-3:],
                      cause_summary=_short(f"{_fault_label(cause_events)} in {cause} "
                                           f"(dependency chain: {' -> '.join(chain)})"))
     report = FinalReport(insufficient_evidence=False, hypotheses=[hyp], evidence_gaps=[],
