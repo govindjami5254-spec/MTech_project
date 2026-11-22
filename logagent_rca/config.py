@@ -22,7 +22,7 @@ from pydantic import BaseModel, ConfigDict, Field, StringConstraints, field_vali
 
 from .schemas import ArmId, Split
 
-KNOWN_TOOLS = ("list_components", "error_timeline", "search_logs", "get_context", "count_matches")
+KNOWN_TOOLS = ("error_timeline", "search_logs", "get_context")   # read-only; no aggregate/count tools
 
 DEFAULT_LOG_FORMAT = {
     "name": "iso-level-component",
