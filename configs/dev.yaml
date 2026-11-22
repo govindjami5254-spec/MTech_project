@@ -5,6 +5,8 @@ config_version: "1"
 data:
   cases_dir: data/synthetic/dev/cases      # agent-accessible case bundles
   truth_dir: data/synthetic/dev/truth      # ground truth, never passed to any arm
+  sums_file: data/synthetic/dev/SHA256SUMS
+  sums_sha256: 7aaf93223775309a780a8b73ddccef5ffdbc8c10a617ae0eeec2190161e1a8e1
 
 experiment:
   name: dev-pilot
@@ -12,7 +14,7 @@ experiment:
   arms: [E1, E2b, E3, A2, A3]
   repeats: 1
   base_seed: 1000
-  output_dir: runs/dev
+  output_dir: results/dev-pilot
 
 llm:
   model: qwen3:8b

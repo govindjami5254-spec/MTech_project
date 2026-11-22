@@ -71,6 +71,8 @@ class IngestConfig(_Section):
 class DataConfig(_Section):
     cases_dir: Annotated[str, StringConstraints(min_length=1)]
     truth_dir: Annotated[str, StringConstraints(min_length=1)]
+    sums_file: Optional[str] = None                   # SHA256SUMS of the frozen split
+    sums_sha256: Optional[Annotated[str, StringConstraints(pattern=r"^[0-9a-f]{64}$")]] = None
 
     @property
     def cases_path(self) -> Path:
@@ -230,3 +232,11 @@ def config_hash(cfg: Config) -> str:
     """SHA-256 over canonical JSON of the raw configuration values."""
     canonical = json.dumps(cfg.model_dump(mode="json"), sort_keys=True, separators=(",", ":"))
     return hashlib.sha256(canonical.encode("utf-8")).hexdigest()
+
+
+def parse_override(item: str) -> tuple[str, Any]:
+    """'agent.max_steps=4' -> ('agent.max_steps', 4); values are parsed as YAML scalars."""
+    key, sep, value = item.partition("=")
+    if not sep or not key.strip():
+        raise ValueError(f"override must be KEY=VALUE: {item!r}")
+    return key.strip(), yaml.safe_load(value)

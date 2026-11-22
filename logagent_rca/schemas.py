@@ -359,6 +359,8 @@ class RunMetrics(_Frozen):
     evidence_token_budget: Annotated[int, Field(ge=1)]           # B
     unique_evidence_tokens: Annotated[int, Field(ge=0)]          # must be <= B (strict)
     unique_evidence_items: Annotated[int, Field(ge=0)] = 0
+    repeated_exposures: Annotated[int, Field(ge=0)] = 0          # already-shown items shown again
+    repeated_exposure_tokens: Annotated[int, Field(ge=0)] = 0    # compute cost only, not charged to B
     llm_calls: Annotated[int, Field(ge=0)] = 0
     prompt_tokens_total: Annotated[int, Field(ge=0)] = 0         # all processed prompt tokens
     output_tokens_total: Annotated[int, Field(ge=0)] = 0
