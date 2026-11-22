@@ -35,6 +35,8 @@ Status values: **Agreed**, **Tentative** (needs verification), **Open**.
 | D-027 | 2026-11-21 | Token counter: `tokenizers==0.23.3` + Qwen3-8B `tokenizer.json` (HF rev b968826d9c46dd6066d109eabc6255188de91218, SHA-256 aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4); verified on load; file not committed (`models/` ignored) | Q-018 approval; exact, strict B | Agreed |
 | D-028 | 2026-11-21 | Evidence accounting: canonical line `[E<n>] <ts> <SEV> <component> (<source>:<line>) <message>` + newline charged once per stable uid; block framing and prompts are overhead; repeats free for B but recorded; same ledger for E2b and E3 | User M2 requirements 1–5 | Agreed |
 | D-029 | 2026-11-21 | Synthetic test split frozen at commit a4a6c25 (generator 2.0.0): 60 cases, 20 families x 3; SHA256SUMS digest 7b39d343...72ad. Dev split: 18 cases, 6 families (SHA256SUMS digest 7aaf9322...a8e1). Test templates must not be edited; any change requires a new version and is reported | Pre-registration of the test set before any E3 tuning | Agreed |
+| D-030 | 2026-11-22 | M4-M10 implemented and tested (commits 8eb8300, c36f7d9, 4aae7f6, 7585cec, c0a521a, d492861, e4ba766; 155 tests). E1f log-free floor added (ArmId.E1F). Output schema limits tightened (text <= 160 chars, <= 3 claims, <= 2 gaps/recommendations) with deterministic, counted truncation applied identically to all arms | CPU output speed ~1.3-1.6 tok/s on the shared server | Agreed (implementation) |
+| D-031 | 2026-11-22 | Measured real per-run wall time on dev (shared server, load avg 2-13): E2b 441-591 s; E3 444-650 s; A2 443 s; E1 < 1 s. Peak Ollama RSS 7.5-9.3 GB | Basis for the run plan at the pilot freeze | Measured |
 
 ## Open questions
 
@@ -56,9 +58,10 @@ Status values: **Agreed**, **Tentative** (needs verification), **Open**.
 | Q-014 | Manual Google Scholar / IEEE Xplore / ACM DL searches (automated access blocked) | Student | Before final gap |
 | Q-015 | Full-text read of ★ papers | Team / Student | 3 of 6 done (A18–A20). Context-RCA, RCAgentOps, VerifyRCA need manual browser download (CC-BY on IEEE Xplore) |
 | Q-016 | Resolve licence conflicts (RCAEval, GAIA, Loghub) and verify OpenStack-RCA-Bench availability | Team | Before data use |
-| Q-017 | Compute: measured CPU prefill 22–29 tok/s; core estimate now ~43–61 h; choose reductions at pilot freeze | Student / Team | Pilot freeze (27 Nov) |
+| Q-017 | Compute: at measured ~8-11 min per LLM run, 60 cases x 3 runs x 3 LLM arms is ~70+ h. Choose at pilot freeze, e.g. E2b and E3 at 2 runs, A2 at 1 run (~42 h) | Student / Team | Pilot freeze |
 | Q-018 | Token counter for B | Team | **Closed (D-027)**; calibration: constant +16/+21 template tokens vs Ollama |
 | Q-019 | At B = 3,000, only the over-budget stratum (12 of 60 test cases) has more WARN+ evidence than B; in other strata all WARN+ lines fit (median 1.1k-2.4k tokens). Choose B at the pilot freeze on a stated, arm-neutral basis (compute or a fixed fraction), not on observed arm differences | Team | Pilot freeze |
+| Q-020 | E1 scores 18/18 on dev because generated messages name the failing dependency; E1 may be near ceiling on test too. Report as a property of the synthetic data (limitation), not as a weakness of LLM arms | Team | Write-up |
 
 ## Mid-report review (next week)
 
