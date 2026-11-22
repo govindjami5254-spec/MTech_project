@@ -102,7 +102,8 @@ class Stratum(str, Enum):
 
 
 class ArmId(str, Enum):
-    E1 = "E1"      # rule-based RCA
+    E1 = "E1"      # rule-based RCA (dependency-following rules authored on dev data)
+    E1F = "E1f"    # log-free floor: names the incident's own component (no log evidence)
     E2B = "E2b"    # strong single-pass LLM
     E3 = "E3"      # iterative agentic RCA
     A2 = "A2"      # E3 without coverage gate
@@ -401,11 +402,11 @@ class RunRecord(_Frozen):
     def _consistency(self):
         if self.arm == ArmId.A3:
             raise ValueError("A3 is derived from E3 report_raw; it is never a separate run")
-        if self.arm != ArmId.E1 and self.model is None:
+        if self.arm not in (ArmId.E1, ArmId.E1F) and self.model is None:
             raise ValueError("LLM arms must record model provenance")
         if self.status == RunStatus.OK and self.report_raw is None:
             raise ValueError("successful runs must store report_raw")
-        if self.arm in (ArmId.E1, ArmId.E2B) and self.tool_calls:
+        if self.arm in (ArmId.E1, ArmId.E1F, ArmId.E2B) and self.tool_calls:
             raise ValueError("non-agentic arms cannot have tool calls")
         tokens = sum(e.tokens for e in self.evidence)
         if tokens != self.metrics.unique_evidence_tokens:
