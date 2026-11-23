@@ -371,9 +371,15 @@ class RunMetrics(_Frozen):
     blocked_tool_calls: Annotated[int, Field(ge=0)] = 0
     gate_rounds: Annotated[int, Field(ge=0)] = 0
     parse_failures: Annotated[int, Field(ge=0)] = 0
-    cpu_seconds: Optional[Annotated[float, Field(ge=0.0)]] = None    # Ollama process CPU time
-    peak_rss_mb: Optional[Annotated[float, Field(ge=0.0)]] = None
+    normalised_fields: Annotated[int, Field(ge=0)] = 0         # over-long output fields truncated (all arms)
+    cpu_seconds: Optional[Annotated[float, Field(ge=0.0)]] = None    # Ollama process-tree CPU time
     mean_cpu_percent: Optional[Annotated[float, Field(ge=0.0)]] = None
+    # Memory (MB) of the Ollama process tree, each PID once (see resources.py for exact meaning):
+    peak_rss_mb: Optional[Annotated[float, Field(ge=0.0)]] = None    # summed RSS; may over-state shared pages
+    peak_uss_mb: Optional[Annotated[float, Field(ge=0.0)]] = None    # summed unique memory; no double counting
+    peak_pss_mb: Optional[Annotated[float, Field(ge=0.0)]] = None    # proportional share (Linux only)
+    host_used_peak_mb: Optional[Annotated[float, Field(ge=0.0)]] = None   # whole host incl. other users
+    host_total_mb: Optional[Annotated[float, Field(ge=0.0)]] = None
 
     @model_validator(mode="after")
     def _strict_budget(self):

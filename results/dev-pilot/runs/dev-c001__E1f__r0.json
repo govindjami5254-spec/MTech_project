@@ -1,0 +1,100 @@
+{
+ "schema_version": "1",
+ "run_id": "dev-c001__E1f__r0",
+ "case_id": "dev-c001",
+ "split": "dev",
+ "arm": "E1f",
+ "repeat": 0,
+ "config_hash": "d6814d15a11c7227e7a3ab1d03f9b42cf8b768abab09666f18ca2d01a1fa5bfa",
+ "code_commit": "b21644cccef0d6004693068bd1fbcd19801cd11e",
+ "model": null,
+ "started_at": "2026-11-22T16:52:28.719699Z",
+ "status": "ok",
+ "error": null,
+ "report_raw": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "api-edge",
+    "cause_summary": "api-edge reported the incident",
+    "confidence": 0.1,
+    "claims": [
+     {
+      "text": "api-edge returned errors: responding 503: upstream ledger-svc error rid=7b4daa3d",
+      "evidence_ids": [
+       "E1"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [],
+  "recommendations": []
+ },
+ "report_validated": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "api-edge",
+    "cause_summary": "api-edge reported the incident",
+    "confidence": 0.1,
+    "claims": [
+     {
+      "text": "api-edge returned errors: responding 503: upstream ledger-svc error rid=7b4daa3d",
+      "evidence_ids": [
+       "E1"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [],
+  "recommendations": []
+ },
+ "validation": {
+  "claims_total": 1,
+  "claims_supported": 1,
+  "fabricated_ids": 0,
+  "suspicious_citations": 0,
+  "hypotheses_in": 1,
+  "hypotheses_dropped": 0,
+  "abstained_by_validator": false
+ },
+ "evidence": [
+  {
+   "id": "E1",
+   "uid": "api-edge.log:31",
+   "ts": "2026-01-20T12:41:45.011000Z",
+   "severity": "ERROR",
+   "component": "api-edge",
+   "source": "api-edge.log",
+   "line_no": 31,
+   "message": "responding 503: upstream ledger-svc error rid=7b4daa3d",
+   "step": 0,
+   "tool": "incident",
+   "tokens": 56,
+   "suspicious": false
+  }
+ ],
+ "tool_calls": [],
+ "metrics": {
+  "evidence_token_budget": 3000,
+  "unique_evidence_tokens": 56,
+  "unique_evidence_items": 1,
+  "repeated_exposures": 0,
+  "repeated_exposure_tokens": 0,
+  "llm_calls": 0,
+  "prompt_tokens_total": 0,
+  "output_tokens_total": 0,
+  "llm_seconds": 0.0,
+  "wall_seconds": 0.187,
+  "steps": 0,
+  "tool_calls": 0,
+  "blocked_tool_calls": 0,
+  "gate_rounds": 0,
+  "parse_failures": 0,
+  "cpu_seconds": null,
+  "peak_rss_mb": null,
+  "mean_cpu_percent": null
+ }
+}

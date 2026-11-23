@@ -1,0 +1,13 @@
+DEV ONLY (18 cases). Tokens of canonical evidence lines within the analysis window (lookback 600 s, +120 s).
+  warn        min    792  p25   1194  p50   1392  p75   2260  max  29404
+  warn_dedup  min    559  p25    682  p50    904  p75   1024  max   1489
+  key         min      0  p25    142  p50    145  p75    148  max    276
+  window_all  min  17713  p25  18929  p50  19678  p75  20412  max  48738
+  by stratum (median warn / warn_dedup): {'concurrent': (2275, 1440), 'distractor': (1377, 791), 'easy': (835, 560), 'insufficient': (1149, 662), 'multi_hop': (1406, 925), 'over_budget': (28086, 1043)}
+
+Candidate | B | dev cases with WARN+ > B | dev cases with dedup WARN+ > B
+  R1 fixed 3000 (current, context-fit rule)                3000    3/18    0/18
+  R2 P50 of dev WARN+ volume                               1391    9/18    2/18
+  R3 P25 of dev WARN+ volume                               1194   13/18    3/18
+  R4 P50 of dev template-deduplicated WARN+                 904   16/18    9/18
+  R5 max fit in context (num_ctx-overhead-num_predict)     6242    3/18    0/18

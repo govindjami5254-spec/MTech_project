@@ -1,0 +1,499 @@
+{
+ "schema_version": "1",
+ "run_id": "dev-c001__E3__r0",
+ "case_id": "dev-c001",
+ "split": "dev",
+ "arm": "E3",
+ "repeat": 0,
+ "config_hash": "d6814d15a11c7227e7a3ab1d03f9b42cf8b768abab09666f18ca2d01a1fa5bfa",
+ "code_commit": "b21644cccef0d6004693068bd1fbcd19801cd11e",
+ "model": {
+  "name": "qwen3:8b",
+  "manifest_digest": "b3d9ba7c899cfd112df2574c6a91458a70b724c5e4e50dfffd75574b2d1648e7",
+  "weights_digest": "a3de86cd1c132c822487ededd47a324c50491393e6565cd14bafa40d0b8e686f",
+  "quantization": "Q4_K_M",
+  "parameter_size": "8.2B",
+  "ollama_version": "0.40.16",
+  "num_ctx": 8192,
+  "temperature": 0.2,
+  "seed": 1000,
+  "think": false,
+  "num_predict": 450
+ },
+ "started_at": "2026-11-22T17:04:30.779372Z",
+ "status": "ok",
+ "error": null,
+ "report_raw": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "journal-db",
+    "cause_summary": "journal-db ran out of disk space",
+    "confidence": 0.95,
+    "claims": [
+     {
+      "text": "journal-db failed to persist writes",
+      "evidence_ids": [
+       "E2",
+       "E3"
+      ]
+     },
+     {
+      "text": "journal-db caused posting-svc connection failures",
+      "evidence_ids": [
+       "E4"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [
+   "audit-shipper",
+   "authz-db"
+  ],
+  "recommendations": [
+   "Check disk space on journal-db",
+   "Verify journal-db recovery processes"
+  ]
+ },
+ "report_validated": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "journal-db",
+    "cause_summary": "journal-db ran out of disk space",
+    "confidence": 0.95,
+    "claims": [
+     {
+      "text": "journal-db failed to persist writes",
+      "evidence_ids": [
+       "E2",
+       "E3"
+      ]
+     },
+     {
+      "text": "journal-db caused posting-svc connection failures",
+      "evidence_ids": [
+       "E4"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [
+   "audit-shipper",
+   "authz-db"
+  ],
+  "recommendations": [
+   "Check disk space on journal-db",
+   "Verify journal-db recovery processes"
+  ]
+ },
+ "validation": {
+  "claims_total": 2,
+  "claims_supported": 2,
+  "fabricated_ids": 0,
+  "suspicious_citations": 0,
+  "hypotheses_in": 1,
+  "hypotheses_dropped": 0,
+  "abstained_by_validator": false
+ },
+ "evidence": [
+  {
+   "id": "E1",
+   "uid": "api-edge.log:31",
+   "ts": "2026-01-20T12:41:45.011000Z",
+   "severity": "ERROR",
+   "component": "api-edge",
+   "source": "api-edge.log",
+   "line_no": 31,
+   "message": "responding 503: upstream ledger-svc error rid=7b4daa3d",
+   "step": 0,
+   "tool": "incident",
+   "tokens": 56,
+   "suspicious": false
+  },
+  {
+   "id": "E2",
+   "uid": "journal-db.log:30",
+   "ts": "2026-01-20T12:41:28.789000Z",
+   "severity": "ERROR",
+   "component": "journal-db",
+   "source": "journal-db.log",
+   "line_no": 30,
+   "message": "write /data/wal/000123.log: no space left on device",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 55,
+   "suspicious": false
+  },
+  {
+   "id": "E3",
+   "uid": "journal-db.log:31",
+   "ts": "2026-01-20T12:41:32.221000Z",
+   "severity": "FATAL",
+   "component": "journal-db",
+   "source": "journal-db.log",
+   "line_no": 31,
+   "message": "panic: unable to persist write-ahead log",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 45,
+   "suspicious": false
+  },
+  {
+   "id": "E4",
+   "uid": "posting-svc.log:31",
+   "ts": "2026-01-20T12:41:34.392000Z",
+   "severity": "ERROR",
+   "component": "posting-svc",
+   "source": "posting-svc.log",
+   "line_no": 31,
+   "message": "dial tcp journal-db:3306: connect: connection refused rid=d2c8daf0",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 59,
+   "suspicious": false
+  },
+  {
+   "id": "E5",
+   "uid": "ledger-svc.log:30",
+   "ts": "2026-01-20T12:41:37.006000Z",
+   "severity": "ERROR",
+   "component": "ledger-svc",
+   "source": "ledger-svc.log",
+   "line_no": 30,
+   "message": "dial tcp posting-svc:9003: connect: connection refused rid=d9294327",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 62,
+   "suspicious": false
+  },
+  {
+   "id": "E6",
+   "uid": "posting-svc.log:33",
+   "ts": "2026-01-20T12:41:39.277000Z",
+   "severity": "ERROR",
+   "component": "posting-svc",
+   "source": "posting-svc.log",
+   "line_no": 33,
+   "message": "request to journal-db failed permanently after retries",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 46,
+   "suspicious": false
+  },
+  {
+   "id": "E7",
+   "uid": "ledger-svc.log:33",
+   "ts": "2026-01-20T12:41:42.339000Z",
+   "severity": "ERROR",
+   "component": "ledger-svc",
+   "source": "ledger-svc.log",
+   "line_no": 33,
+   "message": "request to posting-svc failed permanently after retries",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 47,
+   "suspicious": false
+  },
+  {
+   "id": "E8",
+   "uid": "api-edge.log:32",
+   "ts": "2026-01-20T12:41:48.847000Z",
+   "severity": "ERROR",
+   "component": "api-edge",
+   "source": "api-edge.log",
+   "line_no": 32,
+   "message": "responding 503: upstream ledger-svc error rid=12bcd074",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 55,
+   "suspicious": false
+  },
+  {
+   "id": "E9",
+   "uid": "api-edge.log:34",
+   "ts": "2026-01-20T12:41:51.479000Z",
+   "severity": "ERROR",
+   "component": "api-edge",
+   "source": "api-edge.log",
+   "line_no": 34,
+   "message": "upstream ledger-svc returned 500 rid=9083313b",
+   "step": 5,
+   "tool": "search_logs",
+   "tokens": 55,
+   "suspicious": false
+  },
+  {
+   "id": "E10",
+   "uid": "api-edge.log:35",
+   "ts": "2026-01-20T12:41:54.728000Z",
+   "severity": "ERROR",
+   "component": "api-edge",
+   "source": "api-edge.log",
+   "line_no": 35,
+   "message": "upstream ledger-svc returned 500 rid=4629507e",
+   "step": 5,
+   "tool": "search_logs",
+   "tokens": 56,
+   "suspicious": false
+  },
+  {
+   "id": "E11",
+   "uid": "api-edge.log:36",
+   "ts": "2026-01-20T12:41:57.337000Z",
+   "severity": "ERROR",
+   "component": "api-edge",
+   "source": "api-edge.log",
+   "line_no": 36,
+   "message": "upstream ledger-svc returned 500 rid=a6996035",
+   "step": 5,
+   "tool": "search_logs",
+   "tokens": 55,
+   "suspicious": false
+  },
+  {
+   "id": "E12",
+   "uid": "ledger-svc.log:29",
+   "ts": "2026-01-20T12:41:28.902000Z",
+   "severity": "INFO",
+   "component": "ledger-svc",
+   "source": "ledger-svc.log",
+   "line_no": 29,
+   "message": "handled request rid=d549c306 status=200 dur=95ms",
+   "step": 6,
+   "tool": "get_context",
+   "tokens": 60,
+   "suspicious": false
+  },
+  {
+   "id": "E13",
+   "uid": "cron-runner.log:29",
+   "ts": "2026-01-20T12:41:28.955000Z",
+   "severity": "INFO",
+   "component": "cron-runner",
+   "source": "cron-runner.log",
+   "line_no": 29,
+   "message": "ping ok latency=18ms",
+   "step": 6,
+   "tool": "get_context",
+   "tokens": 44,
+   "suspicious": false
+  },
+  {
+   "id": "E14",
+   "uid": "posting-svc.log:30",
+   "ts": "2026-01-20T12:41:29.807000Z",
+   "severity": "INFO",
+   "component": "posting-svc",
+   "source": "posting-svc.log",
+   "line_no": 30,
+   "message": "ping ok latency=43ms",
+   "step": 6,
+   "tool": "get_context",
+   "tokens": 46,
+   "suspicious": false
+  },
+  {
+   "id": "E15",
+   "uid": "authz-svc.log:30",
+   "ts": "2026-01-20T12:41:33.499000Z",
+   "severity": "INFO",
+   "component": "authz-svc",
+   "source": "authz-svc.log",
+   "line_no": 30,
+   "message": "ping ok latency=54ms",
+   "step": 6,
+   "tool": "get_context",
+   "tokens": 48,
+   "suspicious": false
+  },
+  {
+   "id": "E16",
+   "uid": "audit-shipper.log:32",
+   "ts": "2026-01-20T12:41:33.759000Z",
+   "severity": "INFO",
+   "component": "audit-shipper",
+   "source": "audit-shipper.log",
+   "line_no": 32,
+   "message": "handled request rid=fb6a402e status=200 dur=59ms",
+   "step": 6,
+   "tool": "get_context",
+   "tokens": 62,
+   "suspicious": false
+  }
+ ],
+ "tool_calls": [
+  {
+   "step": 1,
+   "tool": "error_timeline",
+   "args": {
+    "min_severity": "ERROR"
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [
+    "E2",
+    "E3",
+    "E4",
+    "E5",
+    "E6",
+    "E7",
+    "E1",
+    "E8"
+   ],
+   "new_evidence_tokens": 369,
+   "output_chars": 917,
+   "ms": 0.81
+  },
+  {
+   "step": 2,
+   "tool": "search_logs",
+   "args": {
+    "component": "journal-db",
+    "min_severity": "ERROR",
+    "limit": 5
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [
+    "E2",
+    "E3"
+   ],
+   "new_evidence_tokens": 0,
+   "output_chars": 64,
+   "ms": 0.11
+  },
+  {
+   "step": 3,
+   "tool": "search_logs",
+   "args": {
+    "component": "posting-svc",
+    "min_severity": "ERROR",
+    "limit": 5
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [
+    "E4",
+    "E6"
+   ],
+   "new_evidence_tokens": 0,
+   "output_chars": 64,
+   "ms": 0.1
+  },
+  {
+   "step": 4,
+   "tool": "search_logs",
+   "args": {
+    "component": "ledger-svc",
+    "min_severity": "ERROR",
+    "limit": 5
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [
+    "E5",
+    "E7"
+   ],
+   "new_evidence_tokens": 0,
+   "output_chars": 64,
+   "ms": 0.12
+  },
+  {
+   "step": 5,
+   "tool": "search_logs",
+   "args": {
+    "component": "api-edge",
+    "min_severity": "ERROR",
+    "limit": 5
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [
+    "E1",
+    "E8",
+    "E9",
+    "E10",
+    "E11"
+   ],
+   "new_evidence_tokens": 166,
+   "output_chars": 381,
+   "ms": 0.62
+  },
+  {
+   "step": 6,
+   "tool": "get_context",
+   "args": {
+    "evidence_id": "E3",
+    "before": 3,
+    "after": 3
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [
+    "E12",
+    "E13",
+    "E14",
+    "E3",
+    "E15",
+    "E16",
+    "E4"
+   ],
+   "new_evidence_tokens": 260,
+   "output_chars": 567,
+   "ms": 0.73
+  },
+  {
+   "step": 7,
+   "tool": "search_logs",
+   "args": {
+    "component": "authz-db",
+    "min_severity": "ERROR",
+    "limit": 5
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [],
+   "new_evidence_tokens": 0,
+   "output_chars": 24,
+   "ms": 0.05
+  },
+  {
+   "step": 8,
+   "tool": "search_logs",
+   "args": {
+    "component": "audit-shipper",
+    "min_severity": "ERROR",
+    "limit": 5
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [],
+   "new_evidence_tokens": 0,
+   "output_chars": 24,
+   "ms": 0.05
+  }
+ ],
+ "metrics": {
+  "evidence_token_budget": 3000,
+  "unique_evidence_tokens": 851,
+  "unique_evidence_items": 16,
+  "repeated_exposures": 11,
+  "repeated_exposure_tokens": 585,
+  "llm_calls": 9,
+  "prompt_tokens_total": 14197,
+  "output_tokens_total": 359,
+  "llm_seconds": 639.102,
+  "wall_seconds": 639.509,
+  "steps": 8,
+  "tool_calls": 8,
+  "blocked_tool_calls": 0,
+  "gate_rounds": 1,
+  "parse_failures": 0,
+  "cpu_seconds": 1727.5099999999984,
+  "peak_rss_mb": 9585.897472,
+  "mean_cpu_percent": 269.6167772511848
+ }
+}

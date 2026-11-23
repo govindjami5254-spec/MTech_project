@@ -1,0 +1,202 @@
+{
+ "schema_version": "1",
+ "run_id": "dev-c002__E1__r0",
+ "case_id": "dev-c002",
+ "split": "dev",
+ "arm": "E1",
+ "repeat": 0,
+ "config_hash": "d6814d15a11c7227e7a3ab1d03f9b42cf8b768abab09666f18ca2d01a1fa5bfa",
+ "code_commit": "b21644cccef0d6004693068bd1fbcd19801cd11e",
+ "model": null,
+ "started_at": "2026-11-22T17:22:29.997948Z",
+ "status": "ok",
+ "error": null,
+ "report_raw": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "journal-db",
+    "cause_summary": "disk full in journal-db (dependency chain: api-edge -> ledger-svc -> posting-svc -> journal-db)",
+    "confidence": 0.6,
+    "claims": [
+     {
+      "text": "ledger-svc reported failures calling posting-svc: rpc error: code = Unavailable desc = posting-svc unavailable rid=7c973346",
+      "evidence_ids": [
+       "E2"
+      ]
+     },
+     {
+      "text": "posting-svc reported failures calling journal-db: dial tcp journal-db:3306: connect: connection refused rid=8926a0eb",
+      "evidence_ids": [
+       "E3"
+      ]
+     },
+     {
+      "text": "journal-db logged its own failure: write /data/wal/000123.log: no space left on device",
+      "evidence_ids": [
+       "E4",
+       "E5",
+       "E6"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [],
+  "recommendations": [
+   "Inspect journal-db for disk full."
+  ]
+ },
+ "report_validated": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "journal-db",
+    "cause_summary": "disk full in journal-db (dependency chain: api-edge -> ledger-svc -> posting-svc -> journal-db)",
+    "confidence": 0.6,
+    "claims": [
+     {
+      "text": "ledger-svc reported failures calling posting-svc: rpc error: code = Unavailable desc = posting-svc unavailable rid=7c973346",
+      "evidence_ids": [
+       "E2"
+      ]
+     },
+     {
+      "text": "posting-svc reported failures calling journal-db: dial tcp journal-db:3306: connect: connection refused rid=8926a0eb",
+      "evidence_ids": [
+       "E3"
+      ]
+     },
+     {
+      "text": "journal-db logged its own failure: write /data/wal/000123.log: no space left on device",
+      "evidence_ids": [
+       "E4",
+       "E5",
+       "E6"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [],
+  "recommendations": [
+   "Inspect journal-db for disk full."
+  ]
+ },
+ "validation": {
+  "claims_total": 3,
+  "claims_supported": 3,
+  "fabricated_ids": 0,
+  "suspicious_citations": 0,
+  "hypotheses_in": 1,
+  "hypotheses_dropped": 0,
+  "abstained_by_validator": false
+ },
+ "evidence": [
+  {
+   "id": "E1",
+   "uid": "api-edge.log:34",
+   "ts": "2026-01-25T11:36:42.220000Z",
+   "severity": "ERROR",
+   "component": "api-edge",
+   "source": "api-edge.log",
+   "line_no": 34,
+   "message": "upstream ledger-svc returned 500 rid=5f0318f0",
+   "step": 0,
+   "tool": "incident",
+   "tokens": 55,
+   "suspicious": false
+  },
+  {
+   "id": "E2",
+   "uid": "ledger-svc.log:32",
+   "ts": "2026-01-25T11:36:35.682000Z",
+   "severity": "ERROR",
+   "component": "ledger-svc",
+   "source": "ledger-svc.log",
+   "line_no": 32,
+   "message": "rpc error: code = Unavailable desc = posting-svc unavailable rid=7c973346",
+   "step": 1,
+   "tool": "e1_rules",
+   "tokens": 61,
+   "suspicious": false
+  },
+  {
+   "id": "E3",
+   "uid": "posting-svc.log:36",
+   "ts": "2026-01-25T11:36:27.529000Z",
+   "severity": "ERROR",
+   "component": "posting-svc",
+   "source": "posting-svc.log",
+   "line_no": 36,
+   "message": "dial tcp journal-db:3306: connect: connection refused rid=8926a0eb",
+   "step": 1,
+   "tool": "e1_rules",
+   "tokens": 61,
+   "suspicious": false
+  },
+  {
+   "id": "E4",
+   "uid": "journal-db.log:16",
+   "ts": "2026-01-25T11:33:29Z",
+   "severity": "WARN",
+   "component": "journal-db",
+   "source": "journal-db.log",
+   "line_no": 16,
+   "message": "slow handler rid=b83a1617 dur=120ms",
+   "step": 1,
+   "tool": "e1_rules",
+   "tokens": 53,
+   "suspicious": false
+  },
+  {
+   "id": "E5",
+   "uid": "journal-db.log:28",
+   "ts": "2026-01-25T11:35:37.863000Z",
+   "severity": "WARN",
+   "component": "journal-db",
+   "source": "journal-db.log",
+   "line_no": 28,
+   "message": "filesystem /data 99% full",
+   "step": 1,
+   "tool": "e1_rules",
+   "tokens": 44,
+   "suspicious": false
+  },
+  {
+   "id": "E6",
+   "uid": "journal-db.log:34",
+   "ts": "2026-01-25T11:36:22.828000Z",
+   "severity": "ERROR",
+   "component": "journal-db",
+   "source": "journal-db.log",
+   "line_no": 34,
+   "message": "write /data/wal/000123.log: no space left on device",
+   "step": 1,
+   "tool": "e1_rules",
+   "tokens": 55,
+   "suspicious": false
+  }
+ ],
+ "tool_calls": [],
+ "metrics": {
+  "evidence_token_budget": 3000,
+  "unique_evidence_tokens": 329,
+  "unique_evidence_items": 6,
+  "repeated_exposures": 1,
+  "repeated_exposure_tokens": 55,
+  "llm_calls": 0,
+  "prompt_tokens_total": 0,
+  "output_tokens_total": 0,
+  "llm_seconds": 0.0,
+  "wall_seconds": 0.171,
+  "steps": 0,
+  "tool_calls": 0,
+  "blocked_tool_calls": 0,
+  "gate_rounds": 0,
+  "parse_failures": 0,
+  "cpu_seconds": null,
+  "peak_rss_mb": null,
+  "mean_cpu_percent": null
+ }
+}

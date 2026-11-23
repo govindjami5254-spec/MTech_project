@@ -1,0 +1,202 @@
+{
+ "schema_version": "1",
+ "run_id": "dev-c005__E1__r0",
+ "case_id": "dev-c005",
+ "split": "dev",
+ "arm": "E1",
+ "repeat": 0,
+ "config_hash": "d6814d15a11c7227e7a3ab1d03f9b42cf8b768abab09666f18ca2d01a1fa5bfa",
+ "code_commit": "b21644cccef0d6004693068bd1fbcd19801cd11e",
+ "model": null,
+ "started_at": "2026-11-22T18:29:02.488940Z",
+ "status": "ok",
+ "error": null,
+ "report_raw": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "session-cache",
+    "cause_summary": "disk full in session-cache (dependency chain: storefront -> session-svc -> session-cache)",
+    "confidence": 0.6,
+    "claims": [
+     {
+      "text": "storefront reported failures calling session-svc: HTTP 502 Bad Gateway from session-svc rid=da45ddde",
+      "evidence_ids": [
+       "E2"
+      ]
+     },
+     {
+      "text": "session-svc reported failures calling session-cache: call to session-cache failed: HTTP 503 rid=b7896500",
+      "evidence_ids": [
+       "E3"
+      ]
+     },
+     {
+      "text": "session-cache logged its own failure: heap usage 98% after full GC",
+      "evidence_ids": [
+       "E4",
+       "E5",
+       "E6"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [],
+  "recommendations": [
+   "Inspect session-cache for disk full."
+  ]
+ },
+ "report_validated": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "session-cache",
+    "cause_summary": "disk full in session-cache (dependency chain: storefront -> session-svc -> session-cache)",
+    "confidence": 0.6,
+    "claims": [
+     {
+      "text": "storefront reported failures calling session-svc: HTTP 502 Bad Gateway from session-svc rid=da45ddde",
+      "evidence_ids": [
+       "E2"
+      ]
+     },
+     {
+      "text": "session-svc reported failures calling session-cache: call to session-cache failed: HTTP 503 rid=b7896500",
+      "evidence_ids": [
+       "E3"
+      ]
+     },
+     {
+      "text": "session-cache logged its own failure: heap usage 98% after full GC",
+      "evidence_ids": [
+       "E4",
+       "E5",
+       "E6"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [],
+  "recommendations": [
+   "Inspect session-cache for disk full."
+  ]
+ },
+ "validation": {
+  "claims_total": 3,
+  "claims_supported": 3,
+  "fabricated_ids": 0,
+  "suspicious_citations": 0,
+  "hypotheses_in": 1,
+  "hypotheses_dropped": 0,
+  "abstained_by_validator": false
+ },
+ "evidence": [
+  {
+   "id": "E1",
+   "uid": "storefront.log:33",
+   "ts": "2026-02-05T10:36:03Z",
+   "severity": "ERROR",
+   "component": "storefront",
+   "source": "storefront.log",
+   "line_no": 33,
+   "message": "returned 503 to client: dependency cart-svc failed rid=505f93f5",
+   "step": 0,
+   "tool": "incident",
+   "tokens": 58,
+   "suspicious": false
+  },
+  {
+   "id": "E2",
+   "uid": "storefront.log:39",
+   "ts": "2026-02-05T10:36:14Z",
+   "severity": "ERROR",
+   "component": "storefront",
+   "source": "storefront.log",
+   "line_no": 39,
+   "message": "HTTP 502 Bad Gateway from session-svc rid=da45ddde",
+   "step": 1,
+   "tool": "e1_rules",
+   "tokens": 53,
+   "suspicious": false
+  },
+  {
+   "id": "E3",
+   "uid": "session-svc.log:35",
+   "ts": "2026-02-05T10:36:08Z",
+   "severity": "ERROR",
+   "component": "session-svc",
+   "source": "session-svc.log",
+   "line_no": 35,
+   "message": "call to session-cache failed: HTTP 503 rid=b7896500",
+   "step": 1,
+   "tool": "e1_rules",
+   "tokens": 58,
+   "suspicious": false
+  },
+  {
+   "id": "E4",
+   "uid": "session-cache.log:14",
+   "ts": "2026-02-05T10:32:50Z",
+   "severity": "WARN",
+   "component": "session-cache",
+   "source": "session-cache.log",
+   "line_no": 14,
+   "message": "slow request 700ms rid=20f83040",
+   "step": 1,
+   "tool": "e1_rules",
+   "tokens": 53,
+   "suspicious": false
+  },
+  {
+   "id": "E5",
+   "uid": "session-cache.log:26",
+   "ts": "2026-02-05T10:34:54Z",
+   "severity": "WARN",
+   "component": "session-cache",
+   "source": "session-cache.log",
+   "line_no": 26,
+   "message": "slow request 310ms rid=721637ec",
+   "step": 1,
+   "tool": "e1_rules",
+   "tokens": 52,
+   "suspicious": false
+  },
+  {
+   "id": "E6",
+   "uid": "session-cache.log:30",
+   "ts": "2026-02-05T10:35:23Z",
+   "severity": "WARN",
+   "component": "session-cache",
+   "source": "session-cache.log",
+   "line_no": 30,
+   "message": "heap usage 98% after full GC",
+   "step": 1,
+   "tool": "e1_rules",
+   "tokens": 45,
+   "suspicious": false
+  }
+ ],
+ "tool_calls": [],
+ "metrics": {
+  "evidence_token_budget": 3000,
+  "unique_evidence_tokens": 319,
+  "unique_evidence_items": 6,
+  "repeated_exposures": 0,
+  "repeated_exposure_tokens": 0,
+  "llm_calls": 0,
+  "prompt_tokens_total": 0,
+  "output_tokens_total": 0,
+  "llm_seconds": 0.0,
+  "wall_seconds": 0.181,
+  "steps": 0,
+  "tool_calls": 0,
+  "blocked_tool_calls": 0,
+  "gate_rounds": 0,
+  "parse_failures": 0,
+  "cpu_seconds": null,
+  "peak_rss_mb": null,
+  "mean_cpu_percent": null
+ }
+}

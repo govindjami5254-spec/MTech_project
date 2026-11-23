@@ -1,0 +1,427 @@
+{
+ "schema_version": "1",
+ "run_id": "dev-c011__A2__r0",
+ "case_id": "dev-c011",
+ "split": "dev",
+ "arm": "A2",
+ "repeat": 0,
+ "config_hash": "d6814d15a11c7227e7a3ab1d03f9b42cf8b768abab09666f18ca2d01a1fa5bfa",
+ "code_commit": "b21644cccef0d6004693068bd1fbcd19801cd11e",
+ "model": {
+  "name": "qwen3:8b",
+  "manifest_digest": "b3d9ba7c899cfd112df2574c6a91458a70b724c5e4e50dfffd75574b2d1648e7",
+  "weights_digest": "a3de86cd1c132c822487ededd47a324c50491393e6565cd14bafa40d0b8e686f",
+  "quantization": "Q4_K_M",
+  "parameter_size": "8.2B",
+  "ollama_version": "0.40.16",
+  "num_ctx": 8192,
+  "temperature": 0.2,
+  "seed": 1000,
+  "think": false,
+  "num_predict": 450
+ },
+ "started_at": "2026-11-22T21:25:26.424856Z",
+ "status": "ok",
+ "error": null,
+ "report_raw": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "cart-svc",
+    "cause_summary": "Cart service OOM due to high heap usage",
+    "confidence": 0.95,
+    "claims": [
+     {
+      "text": "Cart service had 96% heap usage after full GC",
+      "evidence_ids": [
+       "E4"
+      ]
+     },
+     {
+      "text": "Cart service terminated by OOM killer",
+      "evidence_ids": [
+       "E10"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [
+   "No logs show what caused cart-svc heap exhaustion"
+  ],
+  "recommendations": [
+   "Check cart-svc memory configuration",
+   "Monitor GC behavior in cart-svc"
+  ]
+ },
+ "report_validated": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "cart-svc",
+    "cause_summary": "Cart service OOM due to high heap usage",
+    "confidence": 0.95,
+    "claims": [
+     {
+      "text": "Cart service had 96% heap usage after full GC",
+      "evidence_ids": [
+       "E4"
+      ]
+     },
+     {
+      "text": "Cart service terminated by OOM killer",
+      "evidence_ids": [
+       "E10"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [
+   "No logs show what caused cart-svc heap exhaustion"
+  ],
+  "recommendations": [
+   "Check cart-svc memory configuration",
+   "Monitor GC behavior in cart-svc"
+  ]
+ },
+ "validation": {
+  "claims_total": 2,
+  "claims_supported": 2,
+  "fabricated_ids": 0,
+  "suspicious_citations": 0,
+  "hypotheses_in": 1,
+  "hypotheses_dropped": 0,
+  "abstained_by_validator": false
+ },
+ "evidence": [
+  {
+   "id": "E1",
+   "uid": "storefront.log:30",
+   "ts": "2026-01-29T11:12:43Z",
+   "severity": "ERROR",
+   "component": "storefront",
+   "source": "storefront.log",
+   "line_no": 30,
+   "message": "returned 503 to client: dependency cart-svc failed rid=3defcb7f",
+   "step": 0,
+   "tool": "incident",
+   "tokens": 55,
+   "suspicious": false
+  },
+  {
+   "id": "E2",
+   "uid": "storefront.log:13",
+   "ts": "2026-01-29T11:09:58Z",
+   "severity": "WARN",
+   "component": "storefront",
+   "source": "storefront.log",
+   "line_no": 13,
+   "message": "GC pause 68ms (young gen)",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 44,
+   "suspicious": false
+  },
+  {
+   "id": "E3",
+   "uid": "pricing-svc.log:19",
+   "ts": "2026-01-29T11:10:52Z",
+   "severity": "WARN",
+   "component": "pricing-svc",
+   "source": "pricing-svc.log",
+   "line_no": 19,
+   "message": "slow request 720ms rid=a20c3219",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 54,
+   "suspicious": false
+  },
+  {
+   "id": "E4",
+   "uid": "cart-svc.log:25",
+   "ts": "2026-01-29T11:12:00Z",
+   "severity": "WARN",
+   "component": "cart-svc",
+   "source": "cart-svc.log",
+   "line_no": 25,
+   "message": "heap usage 96% after full GC",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 47,
+   "suspicious": false
+  },
+  {
+   "id": "E5",
+   "uid": "inventory-db.log:25",
+   "ts": "2026-01-29T11:12:00Z",
+   "severity": "WARN",
+   "component": "inventory-db",
+   "source": "inventory-db.log",
+   "line_no": 25,
+   "message": "slow request 100ms rid=f430d5ed",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 51,
+   "suspicious": false
+  },
+  {
+   "id": "E6",
+   "uid": "cart-svc.log:30",
+   "ts": "2026-01-29T11:12:40Z",
+   "severity": "ERROR",
+   "component": "cart-svc",
+   "source": "cart-svc.log",
+   "line_no": 30,
+   "message": "java.lang.OutOfMemoryError: Java heap space",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 48,
+   "suspicious": false
+  },
+  {
+   "id": "E7",
+   "uid": "pricing-svc.log:36",
+   "ts": "2026-01-29T11:13:30Z",
+   "severity": "WARN",
+   "component": "pricing-svc",
+   "source": "pricing-svc.log",
+   "line_no": 36,
+   "message": "GC pause 15ms (young gen)",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 47,
+   "suspicious": false
+  },
+  {
+   "id": "E8",
+   "uid": "metrics-agent.log:40",
+   "ts": "2026-01-29T11:14:26Z",
+   "severity": "WARN",
+   "component": "metrics-agent",
+   "source": "metrics-agent.log",
+   "line_no": 40,
+   "message": "GC pause 43ms (young gen)",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 45,
+   "suspicious": false
+  },
+  {
+   "id": "E9",
+   "uid": "session-svc.log:40",
+   "ts": "2026-01-29T11:14:28Z",
+   "severity": "WARN",
+   "component": "session-svc",
+   "source": "session-svc.log",
+   "line_no": 40,
+   "message": "GC pause 74ms (young gen)",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 47,
+   "suspicious": false
+  },
+  {
+   "id": "E10",
+   "uid": "cart-svc.log:31",
+   "ts": "2026-01-29T11:12:42Z",
+   "severity": "FATAL",
+   "component": "cart-svc",
+   "source": "cart-svc.log",
+   "line_no": 31,
+   "message": "JVM terminated by OOM killer",
+   "step": 2,
+   "tool": "search_logs",
+   "tokens": 46,
+   "suspicious": false
+  },
+  {
+   "id": "E11",
+   "uid": "pricing-svc.log:30",
+   "ts": "2026-01-29T11:12:35Z",
+   "severity": "INFO",
+   "component": "pricing-svc",
+   "source": "pricing-svc.log",
+   "line_no": 30,
+   "message": "health check passed in 89ms",
+   "step": 3,
+   "tool": "get_context",
+   "tokens": 47,
+   "suspicious": false
+  },
+  {
+   "id": "E12",
+   "uid": "cart-svc.log:29",
+   "ts": "2026-01-29T11:12:37Z",
+   "severity": "INFO",
+   "component": "cart-svc",
+   "source": "cart-svc.log",
+   "line_no": 29,
+   "message": "health check passed in 16ms",
+   "step": 3,
+   "tool": "get_context",
+   "tokens": 47,
+   "suspicious": false
+  },
+  {
+   "id": "E13",
+   "uid": "session-cache.log:28",
+   "ts": "2026-01-29T11:12:37Z",
+   "severity": "INFO",
+   "component": "session-cache",
+   "source": "session-cache.log",
+   "line_no": 28,
+   "message": "request completed in 59ms status=200 rid=5e5f1a30",
+   "step": 3,
+   "tool": "get_context",
+   "tokens": 59,
+   "suspicious": false
+  },
+  {
+   "id": "E14",
+   "uid": "inventory-db.log:29",
+   "ts": "2026-01-29T11:12:41Z",
+   "severity": "INFO",
+   "component": "inventory-db",
+   "source": "inventory-db.log",
+   "line_no": 29,
+   "message": "health check passed in 57ms",
+   "step": 3,
+   "tool": "get_context",
+   "tokens": 45,
+   "suspicious": false
+  }
+ ],
+ "tool_calls": [
+  {
+   "step": 1,
+   "tool": "error_timeline",
+   "args": {
+    "min_severity": "WARN"
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [
+    "E2",
+    "E3",
+    "E4",
+    "E5",
+    "E6",
+    "E1",
+    "E7",
+    "E8",
+    "E9"
+   ],
+   "new_evidence_tokens": 383,
+   "output_chars": 828,
+   "ms": 0.45
+  },
+  {
+   "step": 2,
+   "tool": "search_logs",
+   "args": {
+    "component": "cart-svc",
+    "min_severity": "ERROR"
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [
+    "E6",
+    "E10"
+   ],
+   "new_evidence_tokens": 46,
+   "output_chars": 132,
+   "ms": 0.23
+  },
+  {
+   "step": 3,
+   "tool": "get_context",
+   "args": {
+    "evidence_id": "E6",
+    "before": 3,
+    "after": 3
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [
+    "E11",
+    "E12",
+    "E13",
+    "E6",
+    "E14",
+    "E10",
+    "E1"
+   ],
+   "new_evidence_tokens": 198,
+   "output_chars": 499,
+   "ms": 0.19
+  },
+  {
+   "step": 4,
+   "tool": "search_logs",
+   "args": {
+    "component": "inventory-db",
+    "min_severity": "WARN"
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [
+    "E5"
+   ],
+   "new_evidence_tokens": 0,
+   "output_chars": 43,
+   "ms": 0.11
+  },
+  {
+   "step": 5,
+   "tool": "search_logs",
+   "args": {
+    "component": "pricing-svc",
+    "min_severity": "WARN"
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [
+    "E3",
+    "E7"
+   ],
+   "new_evidence_tokens": 0,
+   "output_chars": 64,
+   "ms": 0.1
+  },
+  {
+   "step": 6,
+   "tool": "search_logs",
+   "args": {
+    "component": "session-cache",
+    "min_severity": "WARN"
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [],
+   "new_evidence_tokens": 0,
+   "output_chars": 24,
+   "ms": 0.06
+  }
+ ],
+ "metrics": {
+  "evidence_token_budget": 3000,
+  "unique_evidence_tokens": 682,
+  "unique_evidence_items": 14,
+  "repeated_exposures": 8,
+  "repeated_exposure_tokens": 404,
+  "llm_calls": 7,
+  "prompt_tokens_total": 10092,
+  "output_tokens_total": 286,
+  "llm_seconds": 329.122,
+  "wall_seconds": 329.445,
+  "steps": 6,
+  "tool_calls": 6,
+  "blocked_tool_calls": 0,
+  "gate_rounds": 0,
+  "parse_failures": 0,
+  "cpu_seconds": 933.2299999999959,
+  "peak_rss_mb": 15216.57856,
+  "mean_cpu_percent": 283.0055248618784
+ }
+}

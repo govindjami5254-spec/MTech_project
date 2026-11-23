@@ -1,0 +1,162 @@
+{
+ "schema_version": "1",
+ "run_id": "dev-c007__E1__r0",
+ "case_id": "dev-c007",
+ "split": "dev",
+ "arm": "E1",
+ "repeat": 0,
+ "config_hash": "d6814d15a11c7227e7a3ab1d03f9b42cf8b768abab09666f18ca2d01a1fa5bfa",
+ "code_commit": "b21644cccef0d6004693068bd1fbcd19801cd11e",
+ "model": null,
+ "started_at": "2026-11-22T19:22:55.762808Z",
+ "status": "ok",
+ "error": null,
+ "report_raw": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "cart-svc",
+    "cause_summary": "disk full in cart-svc (dependency chain: storefront -> cart-svc)",
+    "confidence": 0.6,
+    "claims": [
+     {
+      "text": "storefront reported failures calling cart-svc: HTTP 502 Bad Gateway from cart-svc rid=7446cec7",
+      "evidence_ids": [
+       "E1"
+      ]
+     },
+     {
+      "text": "cart-svc logged its own failure: heap usage 99% after full GC",
+      "evidence_ids": [
+       "E2",
+       "E3",
+       "E4"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [],
+  "recommendations": [
+   "Inspect cart-svc for disk full."
+  ]
+ },
+ "report_validated": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "cart-svc",
+    "cause_summary": "disk full in cart-svc (dependency chain: storefront -> cart-svc)",
+    "confidence": 0.6,
+    "claims": [
+     {
+      "text": "storefront reported failures calling cart-svc: HTTP 502 Bad Gateway from cart-svc rid=7446cec7",
+      "evidence_ids": [
+       "E1"
+      ]
+     },
+     {
+      "text": "cart-svc logged its own failure: heap usage 99% after full GC",
+      "evidence_ids": [
+       "E2",
+       "E3",
+       "E4"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [],
+  "recommendations": [
+   "Inspect cart-svc for disk full."
+  ]
+ },
+ "validation": {
+  "claims_total": 2,
+  "claims_supported": 2,
+  "fabricated_ids": 0,
+  "suspicious_citations": 0,
+  "hypotheses_in": 1,
+  "hypotheses_dropped": 0,
+  "abstained_by_validator": false
+ },
+ "evidence": [
+  {
+   "id": "E1",
+   "uid": "storefront.log:35",
+   "ts": "2026-01-19T09:07:43Z",
+   "severity": "ERROR",
+   "component": "storefront",
+   "source": "storefront.log",
+   "line_no": 35,
+   "message": "HTTP 502 Bad Gateway from cart-svc rid=7446cec7",
+   "step": 0,
+   "tool": "incident",
+   "tokens": 54,
+   "suspicious": false
+  },
+  {
+   "id": "E2",
+   "uid": "cart-svc.log:14",
+   "ts": "2026-01-19T09:04:17Z",
+   "severity": "WARN",
+   "component": "cart-svc",
+   "source": "cart-svc.log",
+   "line_no": 14,
+   "message": "slow request 150ms rid=e3d0b6f0",
+   "step": 1,
+   "tool": "e1_rules",
+   "tokens": 54,
+   "suspicious": false
+  },
+  {
+   "id": "E3",
+   "uid": "cart-svc.log:31",
+   "ts": "2026-01-19T09:06:46Z",
+   "severity": "WARN",
+   "component": "cart-svc",
+   "source": "cart-svc.log",
+   "line_no": 31,
+   "message": "slow request 520ms rid=26e2310f",
+   "step": 1,
+   "tool": "e1_rules",
+   "tokens": 55,
+   "suspicious": false
+  },
+  {
+   "id": "E4",
+   "uid": "cart-svc.log:33",
+   "ts": "2026-01-19T09:06:57Z",
+   "severity": "WARN",
+   "component": "cart-svc",
+   "source": "cart-svc.log",
+   "line_no": 33,
+   "message": "heap usage 99% after full GC",
+   "step": 1,
+   "tool": "e1_rules",
+   "tokens": 47,
+   "suspicious": false
+  }
+ ],
+ "tool_calls": [],
+ "metrics": {
+  "evidence_token_budget": 3000,
+  "unique_evidence_tokens": 210,
+  "unique_evidence_items": 4,
+  "repeated_exposures": 1,
+  "repeated_exposure_tokens": 54,
+  "llm_calls": 0,
+  "prompt_tokens_total": 0,
+  "output_tokens_total": 0,
+  "llm_seconds": 0.0,
+  "wall_seconds": 0.19,
+  "steps": 0,
+  "tool_calls": 0,
+  "blocked_tool_calls": 0,
+  "gate_rounds": 0,
+  "parse_failures": 0,
+  "cpu_seconds": null,
+  "peak_rss_mb": null,
+  "mean_cpu_percent": null
+ }
+}

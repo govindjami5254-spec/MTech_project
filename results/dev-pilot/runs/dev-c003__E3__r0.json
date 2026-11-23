@@ -1,0 +1,662 @@
+{
+ "schema_version": "1",
+ "run_id": "dev-c003__E3__r0",
+ "case_id": "dev-c003",
+ "split": "dev",
+ "arm": "E3",
+ "repeat": 0,
+ "config_hash": "d6814d15a11c7227e7a3ab1d03f9b42cf8b768abab09666f18ca2d01a1fa5bfa",
+ "code_commit": "b21644cccef0d6004693068bd1fbcd19801cd11e",
+ "model": {
+  "name": "qwen3:8b",
+  "manifest_digest": "b3d9ba7c899cfd112df2574c6a91458a70b724c5e4e50dfffd75574b2d1648e7",
+  "weights_digest": "a3de86cd1c132c822487ededd47a324c50491393e6565cd14bafa40d0b8e686f",
+  "quantization": "Q4_K_M",
+  "parameter_size": "8.2B",
+  "ollama_version": "0.40.16",
+  "num_ctx": 8192,
+  "temperature": 0.2,
+  "seed": 1000,
+  "think": false,
+  "num_predict": 450
+ },
+ "started_at": "2026-11-22T17:53:05.486996Z",
+ "status": "ok",
+ "error": null,
+ "report_raw": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "pricing-svc",
+    "cause_summary": "Invalid config caused pricing-svc failure (E7,E8).",
+    "confidence": 0.95,
+    "claims": [
+     {
+      "text": "E7 shows pricing-svc had invalid config",
+      "evidence_ids": [
+       "E7"
+      ]
+     },
+     {
+      "text": "E8 shows pricing-svc exited due to invalid config",
+      "evidence_ids": [
+       "E8"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [
+   "No logs show if pricing-svc was reachable before E9"
+  ],
+  "recommendations": [
+   "Check pricing-svc config file for errors",
+   "Verify network connectivity between cart-svc and pricing-svc"
+  ]
+ },
+ "report_validated": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "pricing-svc",
+    "cause_summary": "Invalid config caused pricing-svc failure (E7,E8).",
+    "confidence": 0.95,
+    "claims": [
+     {
+      "text": "E7 shows pricing-svc had invalid config",
+      "evidence_ids": [
+       "E7"
+      ]
+     },
+     {
+      "text": "E8 shows pricing-svc exited due to invalid config",
+      "evidence_ids": [
+       "E8"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [
+   "No logs show if pricing-svc was reachable before E9"
+  ],
+  "recommendations": [
+   "Check pricing-svc config file for errors",
+   "Verify network connectivity between cart-svc and pricing-svc"
+  ]
+ },
+ "validation": {
+  "claims_total": 2,
+  "claims_supported": 2,
+  "fabricated_ids": 0,
+  "suspicious_citations": 0,
+  "hypotheses_in": 1,
+  "hypotheses_dropped": 0,
+  "abstained_by_validator": false
+ },
+ "evidence": [
+  {
+   "id": "E1",
+   "uid": "storefront.log:33",
+   "ts": "2026-01-18T13:52:03.439000Z",
+   "severity": "ERROR",
+   "component": "storefront",
+   "source": "storefront.log",
+   "line_no": 33,
+   "message": "responding 503: upstream cart-svc error rid=33051722",
+   "step": 0,
+   "tool": "incident",
+   "tokens": 56,
+   "suspicious": false
+  },
+  {
+   "id": "E2",
+   "uid": "metrics-agent.log:5",
+   "ts": "2026-01-18T13:47:23Z",
+   "severity": "WARN",
+   "component": "metrics-agent",
+   "source": "metrics-agent.log",
+   "line_no": 5,
+   "message": "slow handler rid=e3737ac9 dur=160ms",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 51,
+   "suspicious": false
+  },
+  {
+   "id": "E3",
+   "uid": "session-svc.log:8",
+   "ts": "2026-01-18T13:47:55Z",
+   "severity": "WARN",
+   "component": "session-svc",
+   "source": "session-svc.log",
+   "line_no": 8,
+   "message": "retry budget low on client pool",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 43,
+   "suspicious": false
+  },
+  {
+   "id": "E4",
+   "uid": "metrics-agent.log:11",
+   "ts": "2026-01-18T13:48:18Z",
+   "severity": "WARN",
+   "component": "metrics-agent",
+   "source": "metrics-agent.log",
+   "line_no": 11,
+   "message": "slow handler rid=8d61c1f4 dur=900ms",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 54,
+   "suspicious": false
+  },
+  {
+   "id": "E5",
+   "uid": "inventory-db.log:12",
+   "ts": "2026-01-18T13:48:46Z",
+   "severity": "WARN",
+   "component": "inventory-db",
+   "source": "inventory-db.log",
+   "line_no": 12,
+   "message": "retry budget low on client pool",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 42,
+   "suspicious": false
+  },
+  {
+   "id": "E6",
+   "uid": "session-svc.log:18",
+   "ts": "2026-01-18T13:49:23Z",
+   "severity": "WARN",
+   "component": "session-svc",
+   "source": "session-svc.log",
+   "line_no": 18,
+   "message": "slow handler rid=be2af287 dur=640ms",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 54,
+   "suspicious": false
+  },
+  {
+   "id": "E7",
+   "uid": "pricing-svc.log:31",
+   "ts": "2026-01-18T13:51:57.543000Z",
+   "severity": "ERROR",
+   "component": "pricing-svc",
+   "source": "pricing-svc.log",
+   "line_no": 31,
+   "message": "config: field pool_size must be > 0, got 0",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 52,
+   "suspicious": false
+  },
+  {
+   "id": "E8",
+   "uid": "pricing-svc.log:32",
+   "ts": "2026-01-18T13:51:59.340000Z",
+   "severity": "FATAL",
+   "component": "pricing-svc",
+   "source": "pricing-svc.log",
+   "line_no": 32,
+   "message": "exiting: invalid configuration",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 43,
+   "suspicious": false
+  },
+  {
+   "id": "E9",
+   "uid": "cart-svc.log:30",
+   "ts": "2026-01-18T13:52:00.248000Z",
+   "severity": "ERROR",
+   "component": "cart-svc",
+   "source": "cart-svc.log",
+   "line_no": 30,
+   "message": "dial tcp pricing-svc:8103: connect: connection refused rid=79899bc5",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 62,
+   "suspicious": false
+  },
+  {
+   "id": "E10",
+   "uid": "cart-svc.log:32",
+   "ts": "2026-01-18T13:52:02.097000Z",
+   "severity": "WARN",
+   "component": "cart-svc",
+   "source": "cart-svc.log",
+   "line_no": 32,
+   "message": "backoff before retrying pricing-svc (2/3)",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 51,
+   "suspicious": false
+  },
+  {
+   "id": "E11",
+   "uid": "storefront.log:34",
+   "ts": "2026-01-18T13:52:06.024000Z",
+   "severity": "ERROR",
+   "component": "storefront",
+   "source": "storefront.log",
+   "line_no": 34,
+   "message": "responding 503: upstream cart-svc error rid=24d9046e",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 57,
+   "suspicious": false
+  },
+  {
+   "id": "E12",
+   "uid": "session-cache.log:38",
+   "ts": "2026-01-18T13:53:19Z",
+   "severity": "WARN",
+   "component": "session-cache",
+   "source": "session-cache.log",
+   "line_no": 38,
+   "message": "retry budget low on client pool",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 43,
+   "suspicious": false
+  },
+  {
+   "id": "E13",
+   "uid": "cart-svc.log:33",
+   "ts": "2026-01-18T13:52:05.292000Z",
+   "severity": "ERROR",
+   "component": "cart-svc",
+   "source": "cart-svc.log",
+   "line_no": 33,
+   "message": "request to pricing-svc failed permanently after retries",
+   "step": 2,
+   "tool": "search_logs",
+   "tokens": 48,
+   "suspicious": false
+  },
+  {
+   "id": "E14",
+   "uid": "storefront.log:32",
+   "ts": "2026-01-18T13:51:58.260000Z",
+   "severity": "INFO",
+   "component": "storefront",
+   "source": "storefront.log",
+   "line_no": 32,
+   "message": "handled request rid=527c8063 status=200 dur=41ms",
+   "step": 3,
+   "tool": "get_context",
+   "tokens": 58,
+   "suspicious": false
+  },
+  {
+   "id": "E15",
+   "uid": "inventory-db.log:32",
+   "ts": "2026-01-18T13:51:58.929000Z",
+   "severity": "INFO",
+   "component": "inventory-db",
+   "source": "inventory-db.log",
+   "line_no": 32,
+   "message": "ping ok latency=13ms",
+   "step": 3,
+   "tool": "get_context",
+   "tokens": 44,
+   "suspicious": false
+  },
+  {
+   "id": "E16",
+   "uid": "cart-svc.log:31",
+   "ts": "2026-01-18T13:52:00.584000Z",
+   "severity": "INFO",
+   "component": "cart-svc",
+   "source": "cart-svc.log",
+   "line_no": 31,
+   "message": "handled request rid=9b97e93e status=200 dur=32ms",
+   "step": 3,
+   "tool": "get_context",
+   "tokens": 61,
+   "suspicious": false
+  },
+  {
+   "id": "E17",
+   "uid": "session-svc.log:39",
+   "ts": "2026-01-18T13:52:01.469000Z",
+   "severity": "INFO",
+   "component": "session-svc",
+   "source": "session-svc.log",
+   "line_no": 39,
+   "message": "ping ok latency=36ms",
+   "step": 3,
+   "tool": "get_context",
+   "tokens": 46,
+   "suspicious": false
+  },
+  {
+   "id": "E18",
+   "uid": "pricing-svc.log:29",
+   "ts": "2026-01-18T13:51:54.790000Z",
+   "severity": "INFO",
+   "component": "pricing-svc",
+   "source": "pricing-svc.log",
+   "line_no": 29,
+   "message": "loading config file config.toml",
+   "step": 4,
+   "tool": "get_context",
+   "tokens": 45,
+   "suspicious": false
+  },
+  {
+   "id": "E19",
+   "uid": "mailer.log:33",
+   "ts": "2026-01-18T13:51:56.488000Z",
+   "severity": "INFO",
+   "component": "mailer",
+   "source": "mailer.log",
+   "line_no": 33,
+   "message": "ping ok latency=25ms",
+   "step": 4,
+   "tool": "get_context",
+   "tokens": 43,
+   "suspicious": false
+  },
+  {
+   "id": "E20",
+   "uid": "pricing-svc.log:30",
+   "ts": "2026-01-18T13:51:56.540000Z",
+   "severity": "INFO",
+   "component": "pricing-svc",
+   "source": "pricing-svc.log",
+   "line_no": 30,
+   "message": "ping ok latency=44ms",
+   "step": 4,
+   "tool": "get_context",
+   "tokens": 46,
+   "suspicious": false
+  },
+  {
+   "id": "E21",
+   "uid": "session-svc.log:26",
+   "ts": "2026-01-18T13:50:23.436000Z",
+   "severity": "ERROR",
+   "component": "session-svc",
+   "source": "session-svc.log",
+   "line_no": 26,
+   "message": "leader election lost for cron lock, re-electing",
+   "step": 7,
+   "tool": "search_logs",
+   "tokens": 49,
+   "suspicious": false
+  },
+  {
+   "id": "E22",
+   "uid": "session-svc.log:28",
+   "ts": "2026-01-18T13:50:34.410000Z",
+   "severity": "ERROR",
+   "component": "session-svc",
+   "source": "session-svc.log",
+   "line_no": 28,
+   "message": "leader election lost for cron lock, re-electing",
+   "step": 7,
+   "tool": "search_logs",
+   "tokens": 49,
+   "suspicious": false
+  },
+  {
+   "id": "E23",
+   "uid": "session-svc.log:48",
+   "ts": "2026-01-18T13:53:31Z",
+   "severity": "WARN",
+   "component": "session-svc",
+   "source": "session-svc.log",
+   "line_no": 48,
+   "message": "slow handler rid=16ccc86d dur=510ms",
+   "step": 7,
+   "tool": "search_logs",
+   "tokens": 55,
+   "suspicious": false
+  },
+  {
+   "id": "E24",
+   "uid": "metrics-agent.log:13",
+   "ts": "2026-01-18T13:48:24Z",
+   "severity": "WARN",
+   "component": "metrics-agent",
+   "source": "metrics-agent.log",
+   "line_no": 13,
+   "message": "retry budget low on client pool",
+   "step": 8,
+   "tool": "search_logs",
+   "tokens": 43,
+   "suspicious": false
+  },
+  {
+   "id": "E25",
+   "uid": "metrics-agent.log:15",
+   "ts": "2026-01-18T13:48:41.497000Z",
+   "severity": "WARN",
+   "component": "metrics-agent",
+   "source": "metrics-agent.log",
+   "line_no": 15,
+   "message": "clock drift 180ms detected vs NTP",
+   "step": 8,
+   "tool": "search_logs",
+   "tokens": 48,
+   "suspicious": false
+  },
+  {
+   "id": "E26",
+   "uid": "metrics-agent.log:18",
+   "ts": "2026-01-18T13:48:52.544000Z",
+   "severity": "WARN",
+   "component": "metrics-agent",
+   "source": "metrics-agent.log",
+   "line_no": 18,
+   "message": "clock drift 180ms detected vs NTP",
+   "step": 8,
+   "tool": "search_logs",
+   "tokens": 48,
+   "suspicious": false
+  },
+  {
+   "id": "E27",
+   "uid": "metrics-agent.log:20",
+   "ts": "2026-01-18T13:49:03.290000Z",
+   "severity": "WARN",
+   "component": "metrics-agent",
+   "source": "metrics-agent.log",
+   "line_no": 20,
+   "message": "clock drift 180ms detected vs NTP",
+   "step": 8,
+   "tool": "search_logs",
+   "tokens": 48,
+   "suspicious": false
+  }
+ ],
+ "tool_calls": [
+  {
+   "step": 1,
+   "tool": "error_timeline",
+   "args": {
+    "min_severity": "WARN"
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [
+    "E2",
+    "E3",
+    "E4",
+    "E5",
+    "E6",
+    "E7",
+    "E8",
+    "E9",
+    "E10",
+    "E1",
+    "E11",
+    "E12"
+   ],
+   "new_evidence_tokens": 552,
+   "output_chars": 1232,
+   "ms": 1.33
+  },
+  {
+   "step": 2,
+   "tool": "search_logs",
+   "args": {
+    "component": "cart-svc",
+    "min_severity": "ERROR"
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [
+    "E9",
+    "E13"
+   ],
+   "new_evidence_tokens": 48,
+   "output_chars": 159,
+   "ms": 0.37
+  },
+  {
+   "step": 3,
+   "tool": "get_context",
+   "args": {
+    "evidence_id": "E9",
+    "before": 3,
+    "after": 3
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [
+    "E14",
+    "E15",
+    "E8",
+    "E9",
+    "E16",
+    "E17",
+    "E10"
+   ],
+   "new_evidence_tokens": 209,
+   "output_chars": 499,
+   "ms": 0.6
+  },
+  {
+   "step": 4,
+   "tool": "get_context",
+   "args": {
+    "evidence_id": "E7",
+    "before": 3,
+    "after": 3
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [
+    "E18",
+    "E19",
+    "E20",
+    "E7",
+    "E14",
+    "E15",
+    "E8"
+   ],
+   "new_evidence_tokens": 134,
+   "output_chars": 386,
+   "ms": 0.52
+  },
+  {
+   "step": 5,
+   "tool": "search_logs",
+   "args": {
+    "component": "pricing-svc",
+    "min_severity": "ERROR"
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [
+    "E7",
+    "E8"
+   ],
+   "new_evidence_tokens": 0,
+   "output_chars": 64,
+   "ms": 0.1
+  },
+  {
+   "step": 6,
+   "tool": "search_logs",
+   "args": {
+    "component": "inventory-db",
+    "min_severity": "WARN"
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [
+    "E5"
+   ],
+   "new_evidence_tokens": 0,
+   "output_chars": 43,
+   "ms": 0.09
+  },
+  {
+   "step": 7,
+   "tool": "search_logs",
+   "args": {
+    "component": "session-svc",
+    "min_severity": "WARN"
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [
+    "E3",
+    "E6",
+    "E21",
+    "E22",
+    "E23"
+   ],
+   "new_evidence_tokens": 153,
+   "output_chars": 393,
+   "ms": 0.54
+  },
+  {
+   "step": 8,
+   "tool": "search_logs",
+   "args": {
+    "component": "metrics-agent",
+    "min_severity": "WARN"
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [
+    "E2",
+    "E4",
+    "E24",
+    "E25",
+    "E26",
+    "E27"
+   ],
+   "new_evidence_tokens": 187,
+   "output_chars": 474,
+   "ms": 0.59
+  }
+ ],
+ "metrics": {
+  "evidence_token_budget": 3000,
+  "unique_evidence_tokens": 1339,
+  "unique_evidence_items": 27,
+  "repeated_exposures": 16,
+  "repeated_exposure_tokens": 810,
+  "llm_calls": 9,
+  "prompt_tokens_total": 16989,
+  "output_tokens_total": 356,
+  "llm_seconds": 685.481,
+  "wall_seconds": 685.817,
+  "steps": 8,
+  "tool_calls": 8,
+  "blocked_tool_calls": 0,
+  "gate_rounds": 1,
+  "parse_failures": 0,
+  "cpu_seconds": 1924.6800000000003,
+  "peak_rss_mb": 11639.721984,
+  "mean_cpu_percent": 280.36111603188664
+ }
+}

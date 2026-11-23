@@ -1,0 +1,634 @@
+{
+ "schema_version": "1",
+ "run_id": "dev-c001__E2b__r0",
+ "case_id": "dev-c001",
+ "split": "dev",
+ "arm": "E2b",
+ "repeat": 0,
+ "config_hash": "d6814d15a11c7227e7a3ab1d03f9b42cf8b768abab09666f18ca2d01a1fa5bfa",
+ "code_commit": "b21644cccef0d6004693068bd1fbcd19801cd11e",
+ "model": {
+  "name": "qwen3:8b",
+  "manifest_digest": "b3d9ba7c899cfd112df2574c6a91458a70b724c5e4e50dfffd75574b2d1648e7",
+  "weights_digest": "a3de86cd1c132c822487ededd47a324c50491393e6565cd14bafa40d0b8e686f",
+  "quantization": "Q4_K_M",
+  "parameter_size": "8.2B",
+  "ollama_version": "0.40.16",
+  "num_ctx": 8192,
+  "temperature": 0.2,
+  "seed": 1000,
+  "think": false,
+  "num_predict": 450
+ },
+ "started_at": "2026-11-22T16:52:28.928596Z",
+ "status": "ok",
+ "error": null,
+ "report_raw": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "journal-db",
+    "cause_summary": "Journal-db ran out of disk space, causing write failures.",
+    "confidence": 0.95,
+    "claims": [
+     {
+      "text": "Journal-db failed to write due to full disk.",
+      "evidence_ids": [
+       "E3",
+       "E4"
+      ]
+     },
+     {
+      "text": "Disk full caused journal-db to panic.",
+      "evidence_ids": [
+       "E2",
+       "E14"
+      ]
+     }
+    ]
+   },
+   {
+    "cause_component": "posting-svc",
+    "cause_summary": "Posting-svc failed to connect to journal-db due to disk full.",
+    "confidence": 0.85,
+    "claims": [
+     {
+      "text": "Posting-svc could not connect to journal-db.",
+      "evidence_ids": [
+       "E4"
+      ]
+     },
+     {
+      "text": "Posting-svc failed after retries due to journal-db issues.",
+      "evidence_ids": [
+       "E6"
+      ]
+     }
+    ]
+   },
+   {
+    "cause_component": "ledger-svc",
+    "cause_summary": "Ledger-svc failed to connect to posting-svc due to prior failures.",
+    "confidence": 0.8,
+    "claims": [
+     {
+      "text": "Ledger-svc could not connect to posting-svc.",
+      "evidence_ids": [
+       "E5"
+      ]
+     },
+     {
+      "text": "Ledger-svc failed after retries due to posting-svc issues.",
+      "evidence_ids": [
+       "E7"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [
+   "No evidence shows if the disk full issue was resolved or if other services were affected."
+  ],
+  "recommendations": [
+   "Check disk usage on journal-db and ensure sufficient space.",
+   "Verify connectivity between journal-db and other services after resolving disk issues."
+  ]
+ },
+ "report_validated": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "journal-db",
+    "cause_summary": "Journal-db ran out of disk space, causing write failures.",
+    "confidence": 0.95,
+    "claims": [
+     {
+      "text": "Journal-db failed to write due to full disk.",
+      "evidence_ids": [
+       "E3",
+       "E4"
+      ]
+     },
+     {
+      "text": "Disk full caused journal-db to panic.",
+      "evidence_ids": [
+       "E2",
+       "E14"
+      ]
+     }
+    ]
+   },
+   {
+    "cause_component": "posting-svc",
+    "cause_summary": "Posting-svc failed to connect to journal-db due to disk full.",
+    "confidence": 0.85,
+    "claims": [
+     {
+      "text": "Posting-svc could not connect to journal-db.",
+      "evidence_ids": [
+       "E4"
+      ]
+     },
+     {
+      "text": "Posting-svc failed after retries due to journal-db issues.",
+      "evidence_ids": [
+       "E6"
+      ]
+     }
+    ]
+   },
+   {
+    "cause_component": "ledger-svc",
+    "cause_summary": "Ledger-svc failed to connect to posting-svc due to prior failures.",
+    "confidence": 0.8,
+    "claims": [
+     {
+      "text": "Ledger-svc could not connect to posting-svc.",
+      "evidence_ids": [
+       "E5"
+      ]
+     },
+     {
+      "text": "Ledger-svc failed after retries due to posting-svc issues.",
+      "evidence_ids": [
+       "E7"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [
+   "No evidence shows if the disk full issue was resolved or if other services were affected."
+  ],
+  "recommendations": [
+   "Check disk usage on journal-db and ensure sufficient space.",
+   "Verify connectivity between journal-db and other services after resolving disk issues."
+  ]
+ },
+ "validation": {
+  "claims_total": 6,
+  "claims_supported": 6,
+  "fabricated_ids": 0,
+  "suspicious_citations": 0,
+  "hypotheses_in": 3,
+  "hypotheses_dropped": 0,
+  "abstained_by_validator": false
+ },
+ "evidence": [
+  {
+   "id": "E1",
+   "uid": "api-edge.log:31",
+   "ts": "2026-01-20T12:41:45.011000Z",
+   "severity": "ERROR",
+   "component": "api-edge",
+   "source": "api-edge.log",
+   "line_no": 31,
+   "message": "responding 503: upstream ledger-svc error rid=7b4daa3d",
+   "step": 0,
+   "tool": "incident",
+   "tokens": 56,
+   "suspicious": false
+  },
+  {
+   "id": "E2",
+   "uid": "journal-db.log:31",
+   "ts": "2026-01-20T12:41:32.221000Z",
+   "severity": "FATAL",
+   "component": "journal-db",
+   "source": "journal-db.log",
+   "line_no": 31,
+   "message": "panic: unable to persist write-ahead log",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 45,
+   "suspicious": false
+  },
+  {
+   "id": "E3",
+   "uid": "journal-db.log:30",
+   "ts": "2026-01-20T12:41:28.789000Z",
+   "severity": "ERROR",
+   "component": "journal-db",
+   "source": "journal-db.log",
+   "line_no": 30,
+   "message": "write /data/wal/000123.log: no space left on device",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 55,
+   "suspicious": false
+  },
+  {
+   "id": "E4",
+   "uid": "posting-svc.log:31",
+   "ts": "2026-01-20T12:41:34.392000Z",
+   "severity": "ERROR",
+   "component": "posting-svc",
+   "source": "posting-svc.log",
+   "line_no": 31,
+   "message": "dial tcp journal-db:3306: connect: connection refused rid=d2c8daf0",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 59,
+   "suspicious": false
+  },
+  {
+   "id": "E5",
+   "uid": "ledger-svc.log:30",
+   "ts": "2026-01-20T12:41:37.006000Z",
+   "severity": "ERROR",
+   "component": "ledger-svc",
+   "source": "ledger-svc.log",
+   "line_no": 30,
+   "message": "dial tcp posting-svc:9003: connect: connection refused rid=d9294327",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 62,
+   "suspicious": false
+  },
+  {
+   "id": "E6",
+   "uid": "posting-svc.log:33",
+   "ts": "2026-01-20T12:41:39.277000Z",
+   "severity": "ERROR",
+   "component": "posting-svc",
+   "source": "posting-svc.log",
+   "line_no": 33,
+   "message": "request to journal-db failed permanently after retries",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 46,
+   "suspicious": false
+  },
+  {
+   "id": "E7",
+   "uid": "ledger-svc.log:33",
+   "ts": "2026-01-20T12:41:42.339000Z",
+   "severity": "ERROR",
+   "component": "ledger-svc",
+   "source": "ledger-svc.log",
+   "line_no": 33,
+   "message": "request to posting-svc failed permanently after retries",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 47,
+   "suspicious": false
+  },
+  {
+   "id": "E8",
+   "uid": "api-edge.log:34",
+   "ts": "2026-01-20T12:41:51.479000Z",
+   "severity": "ERROR",
+   "component": "api-edge",
+   "source": "api-edge.log",
+   "line_no": 34,
+   "message": "upstream ledger-svc returned 500 rid=9083313b",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 55,
+   "suspicious": false
+  },
+  {
+   "id": "E9",
+   "uid": "audit-shipper.log:6",
+   "ts": "2026-01-20T12:37:13Z",
+   "severity": "WARN",
+   "component": "audit-shipper",
+   "source": "audit-shipper.log",
+   "line_no": 6,
+   "message": "retry budget low on client pool",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 45,
+   "suspicious": false
+  },
+  {
+   "id": "E10",
+   "uid": "authz-db.log:9",
+   "ts": "2026-01-20T12:38:01Z",
+   "severity": "WARN",
+   "component": "authz-db",
+   "source": "authz-db.log",
+   "line_no": 9,
+   "message": "retry budget low on client pool",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 44,
+   "suspicious": false
+  },
+  {
+   "id": "E11",
+   "uid": "ledger-svc.log:14",
+   "ts": "2026-01-20T12:38:55Z",
+   "severity": "WARN",
+   "component": "ledger-svc",
+   "source": "ledger-svc.log",
+   "line_no": 14,
+   "message": "slow handler rid=ef1ae56d dur=180ms",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 55,
+   "suspicious": false
+  },
+  {
+   "id": "E12",
+   "uid": "api-edge.log:16",
+   "ts": "2026-01-20T12:39:13Z",
+   "severity": "WARN",
+   "component": "api-edge",
+   "source": "api-edge.log",
+   "line_no": 16,
+   "message": "retry budget low on client pool",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 43,
+   "suspicious": false
+  },
+  {
+   "id": "E13",
+   "uid": "authz-db.log:23",
+   "ts": "2026-01-20T12:40:07Z",
+   "severity": "WARN",
+   "component": "authz-db",
+   "source": "authz-db.log",
+   "line_no": 23,
+   "message": "slow handler rid=dd86949e dur=210ms",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 56,
+   "suspicious": false
+  },
+  {
+   "id": "E14",
+   "uid": "journal-db.log:25",
+   "ts": "2026-01-20T12:40:43.568000Z",
+   "severity": "WARN",
+   "component": "journal-db",
+   "source": "journal-db.log",
+   "line_no": 25,
+   "message": "filesystem /data 99% full",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 45,
+   "suspicious": false
+  },
+  {
+   "id": "E15",
+   "uid": "posting-svc.log:32",
+   "ts": "2026-01-20T12:41:36.070000Z",
+   "severity": "WARN",
+   "component": "posting-svc",
+   "source": "posting-svc.log",
+   "line_no": 32,
+   "message": "backoff before retrying journal-db (2/3)",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 50,
+   "suspicious": false
+  },
+  {
+   "id": "E16",
+   "uid": "ledger-svc.log:32",
+   "ts": "2026-01-20T12:41:39.469000Z",
+   "severity": "WARN",
+   "component": "ledger-svc",
+   "source": "ledger-svc.log",
+   "line_no": 32,
+   "message": "backoff before retrying posting-svc (2/3)",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 51,
+   "suspicious": false
+  },
+  {
+   "id": "E17",
+   "uid": "journal-db.log:35",
+   "ts": "2026-01-20T12:42:01Z",
+   "severity": "WARN",
+   "component": "journal-db",
+   "source": "journal-db.log",
+   "line_no": 35,
+   "message": "slow handler rid=272e9a84 dur=210ms",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 55,
+   "suspicious": false
+  },
+  {
+   "id": "E18",
+   "uid": "posting-svc.log:39",
+   "ts": "2026-01-20T12:42:23Z",
+   "severity": "WARN",
+   "component": "posting-svc",
+   "source": "posting-svc.log",
+   "line_no": 39,
+   "message": "retry budget low on client pool",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 45,
+   "suspicious": false
+  },
+  {
+   "id": "E19",
+   "uid": "journal-db.log:38",
+   "ts": "2026-01-20T12:42:27Z",
+   "severity": "WARN",
+   "component": "journal-db",
+   "source": "journal-db.log",
+   "line_no": 38,
+   "message": "retry budget low on client pool",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 43,
+   "suspicious": false
+  },
+  {
+   "id": "E20",
+   "uid": "audit-shipper.log:1",
+   "ts": "2026-01-20T12:36:41.602000Z",
+   "severity": "INFO",
+   "component": "audit-shipper",
+   "source": "audit-shipper.log",
+   "line_no": 1,
+   "message": "ping ok latency=8ms",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 46,
+   "suspicious": false
+  },
+  {
+   "id": "E21",
+   "uid": "journal-db.log:1",
+   "ts": "2026-01-20T12:36:43.435000Z",
+   "severity": "INFO",
+   "component": "journal-db",
+   "source": "journal-db.log",
+   "line_no": 1,
+   "message": "handled request rid=9cf18222 status=200 dur=76ms",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 57,
+   "suspicious": false
+  },
+  {
+   "id": "E22",
+   "uid": "api-edge.log:1",
+   "ts": "2026-01-20T12:36:43.660000Z",
+   "severity": "INFO",
+   "component": "api-edge",
+   "source": "api-edge.log",
+   "line_no": 1,
+   "message": "handled request rid=27cd6f5d status=200 dur=59ms",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 57,
+   "suspicious": false
+  },
+  {
+   "id": "E23",
+   "uid": "posting-svc.log:1",
+   "ts": "2026-01-20T12:36:44.935000Z",
+   "severity": "INFO",
+   "component": "posting-svc",
+   "source": "posting-svc.log",
+   "line_no": 1,
+   "message": "handled request rid=cac5a7d6 status=200 dur=73ms",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 58,
+   "suspicious": false
+  },
+  {
+   "id": "E24",
+   "uid": "authz-db.log:1",
+   "ts": "2026-01-20T12:36:46.924000Z",
+   "severity": "INFO",
+   "component": "authz-db",
+   "source": "authz-db.log",
+   "line_no": 1,
+   "message": "ping ok latency=84ms",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 45,
+   "suspicious": false
+  },
+  {
+   "id": "E25",
+   "uid": "ledger-svc.log:1",
+   "ts": "2026-01-20T12:36:47.376000Z",
+   "severity": "INFO",
+   "component": "ledger-svc",
+   "source": "ledger-svc.log",
+   "line_no": 1,
+   "message": "handled request rid=8a840005 status=200 dur=83ms",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 60,
+   "suspicious": false
+  },
+  {
+   "id": "E26",
+   "uid": "api-edge.log:2",
+   "ts": "2026-01-20T12:36:56.364000Z",
+   "severity": "INFO",
+   "component": "api-edge",
+   "source": "api-edge.log",
+   "line_no": 2,
+   "message": "ping ok latency=60ms",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 43,
+   "suspicious": false
+  },
+  {
+   "id": "E27",
+   "uid": "posting-svc.log:2",
+   "ts": "2026-01-20T12:36:57.233000Z",
+   "severity": "INFO",
+   "component": "posting-svc",
+   "source": "posting-svc.log",
+   "line_no": 2,
+   "message": "ping ok latency=27ms",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 45,
+   "suspicious": false
+  },
+  {
+   "id": "E28",
+   "uid": "journal-db.log:2",
+   "ts": "2026-01-20T12:36:57.427000Z",
+   "severity": "INFO",
+   "component": "journal-db",
+   "source": "journal-db.log",
+   "line_no": 2,
+   "message": "ping ok latency=82ms",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 43,
+   "suspicious": false
+  },
+  {
+   "id": "E29",
+   "uid": "authz-db.log:2",
+   "ts": "2026-01-20T12:36:57.583000Z",
+   "severity": "INFO",
+   "component": "authz-db",
+   "source": "authz-db.log",
+   "line_no": 2,
+   "message": "handled request rid=94c758fc status=200 dur=43ms",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 59,
+   "suspicious": false
+  },
+  {
+   "id": "E30",
+   "uid": "audit-shipper.log:5",
+   "ts": "2026-01-20T12:37:12.920000Z",
+   "severity": "INFO",
+   "component": "audit-shipper",
+   "source": "audit-shipper.log",
+   "line_no": 5,
+   "message": "handled request rid=98547f71 status=200 dur=16ms",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 62,
+   "suspicious": false
+  },
+  {
+   "id": "E31",
+   "uid": "ledger-svc.log:5",
+   "ts": "2026-01-20T12:37:27.445000Z",
+   "severity": "INFO",
+   "component": "ledger-svc",
+   "source": "ledger-svc.log",
+   "line_no": 5,
+   "message": "ping ok latency=81ms",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 45,
+   "suspicious": false
+  }
+ ],
+ "tool_calls": [],
+ "metrics": {
+  "evidence_token_budget": 3000,
+  "unique_evidence_tokens": 1577,
+  "unique_evidence_items": 31,
+  "repeated_exposures": 1,
+  "repeated_exposure_tokens": 56,
+  "llm_calls": 1,
+  "prompt_tokens_total": 1947,
+  "output_tokens_total": 415,
+  "llm_seconds": 721.64,
+  "wall_seconds": 721.811,
+  "steps": 1,
+  "tool_calls": 0,
+  "blocked_tool_calls": 0,
+  "gate_rounds": 0,
+  "parse_failures": 0,
+  "cpu_seconds": 1918.2700000000004,
+  "peak_rss_mb": 9258.999807999999,
+  "mean_cpu_percent": 265.268765743073
+ }
+}

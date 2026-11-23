@@ -1,0 +1,188 @@
+{
+ "schema_version": "1",
+ "run_id": "dev-c018__E1__r0",
+ "case_id": "dev-c018",
+ "split": "dev",
+ "arm": "E1",
+ "repeat": 0,
+ "config_hash": "d6814d15a11c7227e7a3ab1d03f9b42cf8b768abab09666f18ca2d01a1fa5bfa",
+ "code_commit": "b21644cccef0d6004693068bd1fbcd19801cd11e",
+ "model": null,
+ "started_at": "2026-11-23T00:30:34.221587Z",
+ "status": "ok",
+ "error": null,
+ "report_raw": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "session-cache",
+    "cause_summary": "disk full in session-cache (dependency chain: storefront -> session-svc -> session-cache)",
+    "confidence": 0.6,
+    "claims": [
+     {
+      "text": "storefront reported failures calling session-svc: HTTP 502 Bad Gateway from session-svc rid=e9217c77",
+      "evidence_ids": [
+       "E1"
+      ]
+     },
+     {
+      "text": "session-svc reported failures calling session-cache: call to session-cache failed: HTTP 503 rid=80631d58",
+      "evidence_ids": [
+       "E2"
+      ]
+     },
+     {
+      "text": "session-cache logged its own failure: GC pause 47ms (young gen)",
+      "evidence_ids": [
+       "E3",
+       "E4",
+       "E5"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [],
+  "recommendations": [
+   "Inspect session-cache for disk full."
+  ]
+ },
+ "report_validated": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "session-cache",
+    "cause_summary": "disk full in session-cache (dependency chain: storefront -> session-svc -> session-cache)",
+    "confidence": 0.6,
+    "claims": [
+     {
+      "text": "storefront reported failures calling session-svc: HTTP 502 Bad Gateway from session-svc rid=e9217c77",
+      "evidence_ids": [
+       "E1"
+      ]
+     },
+     {
+      "text": "session-svc reported failures calling session-cache: call to session-cache failed: HTTP 503 rid=80631d58",
+      "evidence_ids": [
+       "E2"
+      ]
+     },
+     {
+      "text": "session-cache logged its own failure: GC pause 47ms (young gen)",
+      "evidence_ids": [
+       "E3",
+       "E4",
+       "E5"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [],
+  "recommendations": [
+   "Inspect session-cache for disk full."
+  ]
+ },
+ "validation": {
+  "claims_total": 3,
+  "claims_supported": 3,
+  "fabricated_ids": 0,
+  "suspicious_citations": 0,
+  "hypotheses_in": 1,
+  "hypotheses_dropped": 0,
+  "abstained_by_validator": false
+ },
+ "evidence": [
+  {
+   "id": "E1",
+   "uid": "storefront.log:30",
+   "ts": "2026-01-25T14:26:50Z",
+   "severity": "ERROR",
+   "component": "storefront",
+   "source": "storefront.log",
+   "line_no": 30,
+   "message": "HTTP 502 Bad Gateway from session-svc rid=e9217c77",
+   "step": 0,
+   "tool": "incident",
+   "tokens": 55,
+   "suspicious": false
+  },
+  {
+   "id": "E2",
+   "uid": "session-svc.log:28",
+   "ts": "2026-01-25T14:26:47Z",
+   "severity": "ERROR",
+   "component": "session-svc",
+   "source": "session-svc.log",
+   "line_no": 28,
+   "message": "call to session-cache failed: HTTP 503 rid=80631d58",
+   "step": 1,
+   "tool": "e1_rules",
+   "tokens": 59,
+   "suspicious": false
+  },
+  {
+   "id": "E3",
+   "uid": "session-cache.log:22",
+   "ts": "2026-01-25T14:25:20Z",
+   "severity": "WARN",
+   "component": "session-cache",
+   "source": "session-cache.log",
+   "line_no": 22,
+   "message": "slow request 620ms rid=634ab1db",
+   "step": 1,
+   "tool": "e1_rules",
+   "tokens": 51,
+   "suspicious": false
+  },
+  {
+   "id": "E4",
+   "uid": "session-cache.log:26",
+   "ts": "2026-01-25T14:26:04Z",
+   "severity": "WARN",
+   "component": "session-cache",
+   "source": "session-cache.log",
+   "line_no": 26,
+   "message": "heap usage 97% after full GC",
+   "step": 1,
+   "tool": "e1_rules",
+   "tokens": 45,
+   "suspicious": false
+  },
+  {
+   "id": "E5",
+   "uid": "session-cache.log:29",
+   "ts": "2026-01-25T14:26:19Z",
+   "severity": "WARN",
+   "component": "session-cache",
+   "source": "session-cache.log",
+   "line_no": 29,
+   "message": "GC pause 47ms (young gen)",
+   "step": 1,
+   "tool": "e1_rules",
+   "tokens": 45,
+   "suspicious": false
+  }
+ ],
+ "tool_calls": [],
+ "metrics": {
+  "evidence_token_budget": 3000,
+  "unique_evidence_tokens": 255,
+  "unique_evidence_items": 5,
+  "repeated_exposures": 1,
+  "repeated_exposure_tokens": 55,
+  "llm_calls": 0,
+  "prompt_tokens_total": 0,
+  "output_tokens_total": 0,
+  "llm_seconds": 0.0,
+  "wall_seconds": 0.167,
+  "steps": 0,
+  "tool_calls": 0,
+  "blocked_tool_calls": 0,
+  "gate_rounds": 0,
+  "parse_failures": 0,
+  "cpu_seconds": null,
+  "peak_rss_mb": null,
+  "mean_cpu_percent": null
+ }
+}

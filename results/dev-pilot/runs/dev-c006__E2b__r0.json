@@ -1,0 +1,596 @@
+{
+ "schema_version": "1",
+ "run_id": "dev-c006__E2b__r0",
+ "case_id": "dev-c006",
+ "split": "dev",
+ "arm": "E2b",
+ "repeat": 0,
+ "config_hash": "d6814d15a11c7227e7a3ab1d03f9b42cf8b768abab09666f18ca2d01a1fa5bfa",
+ "code_commit": "b21644cccef0d6004693068bd1fbcd19801cd11e",
+ "model": {
+  "name": "qwen3:8b",
+  "manifest_digest": "b3d9ba7c899cfd112df2574c6a91458a70b724c5e4e50dfffd75574b2d1648e7",
+  "weights_digest": "a3de86cd1c132c822487ededd47a324c50491393e6565cd14bafa40d0b8e686f",
+  "quantization": "Q4_K_M",
+  "parameter_size": "8.2B",
+  "ollama_version": "0.40.16",
+  "num_ctx": 8192,
+  "temperature": 0.2,
+  "seed": 1000,
+  "think": false,
+  "num_predict": 450
+ },
+ "started_at": "2026-11-22T18:58:15.319680Z",
+ "status": "ok",
+ "error": null,
+ "report_raw": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "posting-svc",
+    "cause_summary": "Posting-svc connection pool exhausted, leading to 503 errors.",
+    "confidence": 0.95,
+    "claims": [
+     {
+      "text": "Posting-svc connection pool exhausted, rejecting requests.",
+      "evidence_ids": [
+       "E4"
+      ]
+     },
+     {
+      "text": "Posting-svc timed out, causing ledger-svc to fail.",
+      "evidence_ids": [
+       "E3",
+       "E5"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [
+   "No logs show if posting-svc was down or overloaded before the incident."
+  ],
+  "recommendations": [
+   "Check posting-svc's connection pool configuration and capacity"
+  ]
+ },
+ "report_validated": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "posting-svc",
+    "cause_summary": "Posting-svc connection pool exhausted, leading to 503 errors.",
+    "confidence": 0.95,
+    "claims": [
+     {
+      "text": "Posting-svc connection pool exhausted, rejecting requests.",
+      "evidence_ids": [
+       "E4"
+      ]
+     },
+     {
+      "text": "Posting-svc timed out, causing ledger-svc to fail.",
+      "evidence_ids": [
+       "E3",
+       "E5"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [
+   "No logs show if posting-svc was down or overloaded before the incident."
+  ],
+  "recommendations": [
+   "Check posting-svc's connection pool configuration and capacity"
+  ]
+ },
+ "validation": {
+  "claims_total": 2,
+  "claims_supported": 2,
+  "fabricated_ids": 0,
+  "suspicious_citations": 0,
+  "hypotheses_in": 1,
+  "hypotheses_dropped": 0,
+  "abstained_by_validator": false
+ },
+ "evidence": [
+  {
+   "id": "E1",
+   "uid": "api-edge.log:29",
+   "ts": "2026-02-14T13:42:36Z",
+   "severity": "ERROR",
+   "component": "api-edge",
+   "source": "api-edge.log",
+   "line_no": 29,
+   "message": "HTTP 502 Bad Gateway from ledger-svc rid=6558ca35",
+   "step": 0,
+   "tool": "incident",
+   "tokens": 56,
+   "suspicious": false
+  },
+  {
+   "id": "E2",
+   "uid": "posting-svc.log:30",
+   "ts": "2026-02-14T13:42:24Z",
+   "severity": "ERROR",
+   "component": "posting-svc",
+   "source": "posting-svc.log",
+   "line_no": 30,
+   "message": "HikariPool: connection is not available, request timed out",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 51,
+   "suspicious": false
+  },
+  {
+   "id": "E3",
+   "uid": "ledger-svc.log:25",
+   "ts": "2026-02-14T13:42:28Z",
+   "severity": "ERROR",
+   "component": "ledger-svc",
+   "source": "ledger-svc.log",
+   "line_no": 25,
+   "message": "call to posting-svc failed: HTTP 503 rid=c6755ed7",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 58,
+   "suspicious": false
+  },
+  {
+   "id": "E4",
+   "uid": "posting-svc.log:31",
+   "ts": "2026-02-14T13:42:29Z",
+   "severity": "ERROR",
+   "component": "posting-svc",
+   "source": "posting-svc.log",
+   "line_no": 31,
+   "message": "rejecting requests: connection pool exhausted",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 44,
+   "suspicious": false
+  },
+  {
+   "id": "E5",
+   "uid": "ledger-svc.log:28",
+   "ts": "2026-02-14T13:42:33Z",
+   "severity": "ERROR",
+   "component": "ledger-svc",
+   "source": "ledger-svc.log",
+   "line_no": 28,
+   "message": "giving up on posting-svc after 3 attempts",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 48,
+   "suspicious": false
+  },
+  {
+   "id": "E6",
+   "uid": "ledger-svc.log:30",
+   "ts": "2026-02-14T13:42:35Z",
+   "severity": "ERROR",
+   "component": "ledger-svc",
+   "source": "ledger-svc.log",
+   "line_no": 30,
+   "message": "java.net.ConnectException: Connection refused to posting-svc:9003 rid=13a34668",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 64,
+   "suspicious": false
+  },
+  {
+   "id": "E7",
+   "uid": "api-edge.log:31",
+   "ts": "2026-02-14T13:42:38Z",
+   "severity": "ERROR",
+   "component": "api-edge",
+   "source": "api-edge.log",
+   "line_no": 31,
+   "message": "returned 503 to client: dependency ledger-svc failed rid=7bdc6435",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 58,
+   "suspicious": false
+  },
+  {
+   "id": "E8",
+   "uid": "audit-shipper.log:2",
+   "ts": "2026-02-14T13:38:03Z",
+   "severity": "WARN",
+   "component": "audit-shipper",
+   "source": "audit-shipper.log",
+   "line_no": 2,
+   "message": "queue lag 0 messages on topic events",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 47,
+   "suspicious": false
+  },
+  {
+   "id": "E9",
+   "uid": "audit-shipper.log:4",
+   "ts": "2026-02-14T13:38:06Z",
+   "severity": "WARN",
+   "component": "audit-shipper",
+   "source": "audit-shipper.log",
+   "line_no": 4,
+   "message": "metrics push delayed 72ms (buffer 80%)",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 52,
+   "suspicious": false
+  },
+  {
+   "id": "E10",
+   "uid": "cron-runner.log:3",
+   "ts": "2026-02-14T13:38:18Z",
+   "severity": "WARN",
+   "component": "cron-runner",
+   "source": "cron-runner.log",
+   "line_no": 3,
+   "message": "metrics push delayed 46ms (buffer 80%)",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 49,
+   "suspicious": false
+  },
+  {
+   "id": "E11",
+   "uid": "cron-runner.log:11",
+   "ts": "2026-02-14T13:38:36Z",
+   "severity": "WARN",
+   "component": "cron-runner",
+   "source": "cron-runner.log",
+   "line_no": 11,
+   "message": "queue lag 0 messages on topic events",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 45,
+   "suspicious": false
+  },
+  {
+   "id": "E12",
+   "uid": "cron-runner.log:24",
+   "ts": "2026-02-14T13:38:58Z",
+   "severity": "WARN",
+   "component": "cron-runner",
+   "source": "cron-runner.log",
+   "line_no": 24,
+   "message": "GC pause 24ms (young gen)",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 46,
+   "suspicious": false
+  },
+  {
+   "id": "E13",
+   "uid": "api-edge.log:12",
+   "ts": "2026-02-14T13:39:42Z",
+   "severity": "WARN",
+   "component": "api-edge",
+   "source": "api-edge.log",
+   "line_no": 12,
+   "message": "slow request 120ms rid=66d2557e",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 54,
+   "suspicious": false
+  },
+  {
+   "id": "E14",
+   "uid": "authz-db.log:16",
+   "ts": "2026-02-14T13:40:31Z",
+   "severity": "WARN",
+   "component": "authz-db",
+   "source": "authz-db.log",
+   "line_no": 16,
+   "message": "slow request 190ms rid=f99bdaf8",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 53,
+   "suspicious": false
+  },
+  {
+   "id": "E15",
+   "uid": "cron-runner.log:75",
+   "ts": "2026-02-14T13:40:44Z",
+   "severity": "WARN",
+   "component": "cron-runner",
+   "source": "cron-runner.log",
+   "line_no": 75,
+   "message": "slow request 550ms rid=248cd486",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 53,
+   "suspicious": false
+  },
+  {
+   "id": "E16",
+   "uid": "authz-db.log:19",
+   "ts": "2026-02-14T13:40:59Z",
+   "severity": "WARN",
+   "component": "authz-db",
+   "source": "authz-db.log",
+   "line_no": 19,
+   "message": "GC pause 43ms (young gen)",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 48,
+   "suspicious": false
+  },
+  {
+   "id": "E17",
+   "uid": "posting-svc.log:25",
+   "ts": "2026-02-14T13:41:54Z",
+   "severity": "WARN",
+   "component": "posting-svc",
+   "source": "posting-svc.log",
+   "line_no": 25,
+   "message": "connection pool usage 97% (active=55)",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 51,
+   "suspicious": false
+  },
+  {
+   "id": "E18",
+   "uid": "posting-svc.log:27",
+   "ts": "2026-02-14T13:42:00Z",
+   "severity": "WARN",
+   "component": "posting-svc",
+   "source": "posting-svc.log",
+   "line_no": 27,
+   "message": "slow request 360ms rid=3d579802",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 56,
+   "suspicious": false
+  },
+  {
+   "id": "E19",
+   "uid": "ledger-svc.log:27",
+   "ts": "2026-02-14T13:42:30Z",
+   "severity": "WARN",
+   "component": "ledger-svc",
+   "source": "ledger-svc.log",
+   "line_no": 27,
+   "message": "retrying call to posting-svc (attempt 2/3)",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 52,
+   "suspicious": false
+  },
+  {
+   "id": "E20",
+   "uid": "authz-svc.log:31",
+   "ts": "2026-02-14T13:42:57Z",
+   "severity": "WARN",
+   "component": "authz-svc",
+   "source": "authz-svc.log",
+   "line_no": 31,
+   "message": "GC pause 48ms (young gen)",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 50,
+   "suspicious": false
+  },
+  {
+   "id": "E21",
+   "uid": "authz-db.log:1",
+   "ts": "2026-02-14T13:37:55Z",
+   "severity": "INFO",
+   "component": "authz-db",
+   "source": "authz-db.log",
+   "line_no": 1,
+   "message": "health check passed in 29ms",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 46,
+   "suspicious": false
+  },
+  {
+   "id": "E22",
+   "uid": "cron-runner.log:1",
+   "ts": "2026-02-14T13:37:56Z",
+   "severity": "INFO",
+   "component": "cron-runner",
+   "source": "cron-runner.log",
+   "line_no": 1,
+   "message": "health check passed in 28ms",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 44,
+   "suspicious": false
+  },
+  {
+   "id": "E23",
+   "uid": "audit-shipper.log:1",
+   "ts": "2026-02-14T13:37:57Z",
+   "severity": "INFO",
+   "component": "audit-shipper",
+   "source": "audit-shipper.log",
+   "line_no": 1,
+   "message": "health check passed in 39ms",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 48,
+   "suspicious": false
+  },
+  {
+   "id": "E24",
+   "uid": "api-edge.log:1",
+   "ts": "2026-02-14T13:38:00Z",
+   "severity": "INFO",
+   "component": "api-edge",
+   "source": "api-edge.log",
+   "line_no": 1,
+   "message": "health check passed in 43ms",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 44,
+   "suspicious": false
+  },
+  {
+   "id": "E25",
+   "uid": "authz-svc.log:1",
+   "ts": "2026-02-14T13:38:01Z",
+   "severity": "INFO",
+   "component": "authz-svc",
+   "source": "authz-svc.log",
+   "line_no": 1,
+   "message": "health check passed in 73ms",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 48,
+   "suspicious": false
+  },
+  {
+   "id": "E26",
+   "uid": "ledger-svc.log:1",
+   "ts": "2026-02-14T13:38:03Z",
+   "severity": "INFO",
+   "component": "ledger-svc",
+   "source": "ledger-svc.log",
+   "line_no": 1,
+   "message": "health check passed in 88ms",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 46,
+   "suspicious": false
+  },
+  {
+   "id": "E27",
+   "uid": "posting-svc.log:1",
+   "ts": "2026-02-14T13:38:03Z",
+   "severity": "INFO",
+   "component": "posting-svc",
+   "source": "posting-svc.log",
+   "line_no": 1,
+   "message": "health check passed in 39ms",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 46,
+   "suspicious": false
+  },
+  {
+   "id": "E28",
+   "uid": "audit-shipper.log:3",
+   "ts": "2026-02-14T13:38:05Z",
+   "severity": "INFO",
+   "component": "audit-shipper",
+   "source": "audit-shipper.log",
+   "line_no": 3,
+   "message": "request completed in 84ms status=200 rid=996330bd",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 61,
+   "suspicious": false
+  },
+  {
+   "id": "E29",
+   "uid": "cron-runner.log:2",
+   "ts": "2026-02-14T13:38:09Z",
+   "severity": "INFO",
+   "component": "cron-runner",
+   "source": "cron-runner.log",
+   "line_no": 2,
+   "message": "request completed in 63ms status=200 rid=d909374f",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 57,
+   "suspicious": false
+  },
+  {
+   "id": "E30",
+   "uid": "api-edge.log:2",
+   "ts": "2026-02-14T13:38:14Z",
+   "severity": "INFO",
+   "component": "api-edge",
+   "source": "api-edge.log",
+   "line_no": 2,
+   "message": "request completed in 73ms status=200 rid=473728a0",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 58,
+   "suspicious": false
+  },
+  {
+   "id": "E31",
+   "uid": "ledger-svc.log:2",
+   "ts": "2026-02-14T13:38:17Z",
+   "severity": "INFO",
+   "component": "ledger-svc",
+   "source": "ledger-svc.log",
+   "line_no": 2,
+   "message": "request completed in 77ms status=200 rid=0138b791",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 60,
+   "suspicious": false
+  },
+  {
+   "id": "E32",
+   "uid": "authz-db.log:4",
+   "ts": "2026-02-14T13:38:29Z",
+   "severity": "INFO",
+   "component": "authz-db",
+   "source": "authz-db.log",
+   "line_no": 4,
+   "message": "request completed in 95ms status=200 rid=07ee28ec",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 58,
+   "suspicious": false
+  },
+  {
+   "id": "E33",
+   "uid": "posting-svc.log:5",
+   "ts": "2026-02-14T13:38:44Z",
+   "severity": "INFO",
+   "component": "posting-svc",
+   "source": "posting-svc.log",
+   "line_no": 5,
+   "message": "request completed in 21ms status=200 rid=87f259f6",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 60,
+   "suspicious": false
+  },
+  {
+   "id": "E34",
+   "uid": "authz-svc.log:6",
+   "ts": "2026-02-14T13:39:01Z",
+   "severity": "INFO",
+   "component": "authz-svc",
+   "source": "authz-svc.log",
+   "line_no": 6,
+   "message": "request completed in 78ms status=200 rid=d16dec2e",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 59,
+   "suspicious": false
+  }
+ ],
+ "tool_calls": [],
+ "metrics": {
+  "evidence_token_budget": 3000,
+  "unique_evidence_tokens": 1770,
+  "unique_evidence_items": 34,
+  "repeated_exposures": 1,
+  "repeated_exposure_tokens": 56,
+  "llm_calls": 2,
+  "prompt_tokens_total": 4767,
+  "output_tokens_total": 579,
+  "llm_seconds": 703.211,
+  "wall_seconds": 703.34,
+  "steps": 1,
+  "tool_calls": 0,
+  "blocked_tool_calls": 0,
+  "gate_rounds": 0,
+  "parse_failures": 1,
+  "cpu_seconds": 1953.7799999999916,
+  "peak_rss_mb": 13575.806976,
+  "mean_cpu_percent": 277.4403281519862
+ }
+}

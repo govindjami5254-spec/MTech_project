@@ -123,10 +123,8 @@ def run_one(cfg: Config, case_id: str, arm: ArmId, rep: int, out: Path, llm, cou
                          wall_seconds=round(wall, 3), steps=res.steps,
                          tool_calls=sum(1 for t in res.tool_calls if t.allowed),
                          blocked_tool_calls=res.blocked_calls, gate_rounds=res.gate_rounds,
-                         parse_failures=res.llm.parse_failures,
-                         cpu_seconds=rs.cpu_seconds if arm in LLM_ARMS else None,
-                         peak_rss_mb=rs.peak_rss_mb if arm in LLM_ARMS else None,
-                         mean_cpu_percent=rs.mean_cpu_percent if arm in LLM_ARMS else None)
+                         parse_failures=res.llm.parse_failures, normalised_fields=res.llm.normalised_fields,
+                         **({k: v for k, v in rs.as_dict().items()} if arm in LLM_ARMS else {}))
     rec = RunRecord(run_id=run_id, case_id=case_id, split=ctx.manifest.split, arm=arm, repeat=rep,
                     config_hash=config_hash(cfg), code_commit=commit, model=model, started_at=started,
                     status=res.status, error=(res.error or None) and str(res.error)[:500],

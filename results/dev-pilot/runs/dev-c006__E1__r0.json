@@ -1,0 +1,188 @@
+{
+ "schema_version": "1",
+ "run_id": "dev-c006__E1__r0",
+ "case_id": "dev-c006",
+ "split": "dev",
+ "arm": "E1",
+ "repeat": 0,
+ "config_hash": "d6814d15a11c7227e7a3ab1d03f9b42cf8b768abab09666f18ca2d01a1fa5bfa",
+ "code_commit": "b21644cccef0d6004693068bd1fbcd19801cd11e",
+ "model": null,
+ "started_at": "2026-11-22T18:58:14.887507Z",
+ "status": "ok",
+ "error": null,
+ "report_raw": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "posting-svc",
+    "cause_summary": "connection pool exhausted in posting-svc (dependency chain: api-edge -> ledger-svc -> posting-svc)",
+    "confidence": 0.6,
+    "claims": [
+     {
+      "text": "api-edge reported failures calling ledger-svc: HTTP 502 Bad Gateway from ledger-svc rid=6558ca35",
+      "evidence_ids": [
+       "E1"
+      ]
+     },
+     {
+      "text": "ledger-svc reported failures calling posting-svc: call to posting-svc failed: HTTP 503 rid=c6755ed7",
+      "evidence_ids": [
+       "E2"
+      ]
+     },
+     {
+      "text": "posting-svc logged its own failure: HikariPool: connection is not available, request timed out",
+      "evidence_ids": [
+       "E3",
+       "E4",
+       "E5"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [],
+  "recommendations": [
+   "Inspect posting-svc for connection pool exhausted."
+  ]
+ },
+ "report_validated": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "posting-svc",
+    "cause_summary": "connection pool exhausted in posting-svc (dependency chain: api-edge -> ledger-svc -> posting-svc)",
+    "confidence": 0.6,
+    "claims": [
+     {
+      "text": "api-edge reported failures calling ledger-svc: HTTP 502 Bad Gateway from ledger-svc rid=6558ca35",
+      "evidence_ids": [
+       "E1"
+      ]
+     },
+     {
+      "text": "ledger-svc reported failures calling posting-svc: call to posting-svc failed: HTTP 503 rid=c6755ed7",
+      "evidence_ids": [
+       "E2"
+      ]
+     },
+     {
+      "text": "posting-svc logged its own failure: HikariPool: connection is not available, request timed out",
+      "evidence_ids": [
+       "E3",
+       "E4",
+       "E5"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [],
+  "recommendations": [
+   "Inspect posting-svc for connection pool exhausted."
+  ]
+ },
+ "validation": {
+  "claims_total": 3,
+  "claims_supported": 3,
+  "fabricated_ids": 0,
+  "suspicious_citations": 0,
+  "hypotheses_in": 1,
+  "hypotheses_dropped": 0,
+  "abstained_by_validator": false
+ },
+ "evidence": [
+  {
+   "id": "E1",
+   "uid": "api-edge.log:29",
+   "ts": "2026-02-14T13:42:36Z",
+   "severity": "ERROR",
+   "component": "api-edge",
+   "source": "api-edge.log",
+   "line_no": 29,
+   "message": "HTTP 502 Bad Gateway from ledger-svc rid=6558ca35",
+   "step": 0,
+   "tool": "incident",
+   "tokens": 56,
+   "suspicious": false
+  },
+  {
+   "id": "E2",
+   "uid": "ledger-svc.log:25",
+   "ts": "2026-02-14T13:42:28Z",
+   "severity": "ERROR",
+   "component": "ledger-svc",
+   "source": "ledger-svc.log",
+   "line_no": 25,
+   "message": "call to posting-svc failed: HTTP 503 rid=c6755ed7",
+   "step": 1,
+   "tool": "e1_rules",
+   "tokens": 58,
+   "suspicious": false
+  },
+  {
+   "id": "E3",
+   "uid": "posting-svc.log:25",
+   "ts": "2026-02-14T13:41:54Z",
+   "severity": "WARN",
+   "component": "posting-svc",
+   "source": "posting-svc.log",
+   "line_no": 25,
+   "message": "connection pool usage 97% (active=55)",
+   "step": 1,
+   "tool": "e1_rules",
+   "tokens": 50,
+   "suspicious": false
+  },
+  {
+   "id": "E4",
+   "uid": "posting-svc.log:27",
+   "ts": "2026-02-14T13:42:00Z",
+   "severity": "WARN",
+   "component": "posting-svc",
+   "source": "posting-svc.log",
+   "line_no": 27,
+   "message": "slow request 360ms rid=3d579802",
+   "step": 1,
+   "tool": "e1_rules",
+   "tokens": 55,
+   "suspicious": false
+  },
+  {
+   "id": "E5",
+   "uid": "posting-svc.log:30",
+   "ts": "2026-02-14T13:42:24Z",
+   "severity": "ERROR",
+   "component": "posting-svc",
+   "source": "posting-svc.log",
+   "line_no": 30,
+   "message": "HikariPool: connection is not available, request timed out",
+   "step": 1,
+   "tool": "e1_rules",
+   "tokens": 51,
+   "suspicious": false
+  }
+ ],
+ "tool_calls": [],
+ "metrics": {
+  "evidence_token_budget": 3000,
+  "unique_evidence_tokens": 270,
+  "unique_evidence_items": 5,
+  "repeated_exposures": 1,
+  "repeated_exposure_tokens": 56,
+  "llm_calls": 0,
+  "prompt_tokens_total": 0,
+  "output_tokens_total": 0,
+  "llm_seconds": 0.0,
+  "wall_seconds": 0.17,
+  "steps": 0,
+  "tool_calls": 0,
+  "blocked_tool_calls": 0,
+  "gate_rounds": 0,
+  "parse_failures": 0,
+  "cpu_seconds": null,
+  "peak_rss_mb": null,
+  "mean_cpu_percent": null
+ }
+}

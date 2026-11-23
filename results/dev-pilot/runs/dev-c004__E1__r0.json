@@ -1,0 +1,162 @@
+{
+ "schema_version": "1",
+ "run_id": "dev-c004__E1__r0",
+ "case_id": "dev-c004",
+ "split": "dev",
+ "arm": "E1",
+ "repeat": 0,
+ "config_hash": "d6814d15a11c7227e7a3ab1d03f9b42cf8b768abab09666f18ca2d01a1fa5bfa",
+ "code_commit": "b21644cccef0d6004693068bd1fbcd19801cd11e",
+ "model": null,
+ "started_at": "2026-11-22T18:10:10.397353Z",
+ "status": "ok",
+ "error": null,
+ "report_raw": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "cart-svc",
+    "cause_summary": "disk full in cart-svc (dependency chain: storefront -> cart-svc)",
+    "confidence": 0.6,
+    "claims": [
+     {
+      "text": "storefront reported failures calling cart-svc: returned 503 to client: dependency cart-svc failed rid=88c3d1d6",
+      "evidence_ids": [
+       "E1"
+      ]
+     },
+     {
+      "text": "cart-svc logged its own failure: java.lang.OutOfMemoryError: Java heap space",
+      "evidence_ids": [
+       "E2",
+       "E3",
+       "E4"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [],
+  "recommendations": [
+   "Inspect cart-svc for disk full."
+  ]
+ },
+ "report_validated": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "cart-svc",
+    "cause_summary": "disk full in cart-svc (dependency chain: storefront -> cart-svc)",
+    "confidence": 0.6,
+    "claims": [
+     {
+      "text": "storefront reported failures calling cart-svc: returned 503 to client: dependency cart-svc failed rid=88c3d1d6",
+      "evidence_ids": [
+       "E1"
+      ]
+     },
+     {
+      "text": "cart-svc logged its own failure: java.lang.OutOfMemoryError: Java heap space",
+      "evidence_ids": [
+       "E2",
+       "E3",
+       "E4"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [],
+  "recommendations": [
+   "Inspect cart-svc for disk full."
+  ]
+ },
+ "validation": {
+  "claims_total": 2,
+  "claims_supported": 2,
+  "fabricated_ids": 0,
+  "suspicious_citations": 0,
+  "hypotheses_in": 1,
+  "hypotheses_dropped": 0,
+  "abstained_by_validator": false
+ },
+ "evidence": [
+  {
+   "id": "E1",
+   "uid": "storefront.log:33",
+   "ts": "2026-01-18T09:37:22Z",
+   "severity": "ERROR",
+   "component": "storefront",
+   "source": "storefront.log",
+   "line_no": 33,
+   "message": "returned 503 to client: dependency cart-svc failed rid=88c3d1d6",
+   "step": 0,
+   "tool": "incident",
+   "tokens": 58,
+   "suspicious": false
+  },
+  {
+   "id": "E2",
+   "uid": "cart-svc.log:29",
+   "ts": "2026-01-18T09:36:34Z",
+   "severity": "WARN",
+   "component": "cart-svc",
+   "source": "cart-svc.log",
+   "line_no": 29,
+   "message": "slow request 450ms rid=544538a7",
+   "step": 1,
+   "tool": "e1_rules",
+   "tokens": 55,
+   "suspicious": false
+  },
+  {
+   "id": "E3",
+   "uid": "cart-svc.log:30",
+   "ts": "2026-01-18T09:36:39Z",
+   "severity": "WARN",
+   "component": "cart-svc",
+   "source": "cart-svc.log",
+   "line_no": 30,
+   "message": "heap usage 96% after full GC",
+   "step": 1,
+   "tool": "e1_rules",
+   "tokens": 47,
+   "suspicious": false
+  },
+  {
+   "id": "E4",
+   "uid": "cart-svc.log:35",
+   "ts": "2026-01-18T09:37:19Z",
+   "severity": "ERROR",
+   "component": "cart-svc",
+   "source": "cart-svc.log",
+   "line_no": 35,
+   "message": "java.lang.OutOfMemoryError: Java heap space",
+   "step": 1,
+   "tool": "e1_rules",
+   "tokens": 48,
+   "suspicious": false
+  }
+ ],
+ "tool_calls": [],
+ "metrics": {
+  "evidence_token_budget": 3000,
+  "unique_evidence_tokens": 208,
+  "unique_evidence_items": 4,
+  "repeated_exposures": 1,
+  "repeated_exposure_tokens": 58,
+  "llm_calls": 0,
+  "prompt_tokens_total": 0,
+  "output_tokens_total": 0,
+  "llm_seconds": 0.0,
+  "wall_seconds": 0.173,
+  "steps": 0,
+  "tool_calls": 0,
+  "blocked_tool_calls": 0,
+  "gate_rounds": 0,
+  "parse_failures": 0,
+  "cpu_seconds": null,
+  "peak_rss_mb": null,
+  "mean_cpu_percent": null
+ }
+}

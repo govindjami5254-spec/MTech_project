@@ -1,0 +1,487 @@
+{
+ "note": "EXPLORATORY ANALYSIS - underpowered design (D-024). Effects are reported with 95% cluster-bootstrap CIs and family-level permutation p-values as descriptive statistics only; no claim of statistical significance is made.",
+ "n_records": 90,
+ "summary": {
+  "A2": {
+   "runs": 18,
+   "failed_runs": 0,
+   "correct": 0.8888888888888888,
+   "top1": 0.8888888888888888,
+   "top3": 0.8888888888888888,
+   "grounded": 0.9333333333333333,
+   "evidence_precision": 1.0,
+   "evidence_coverage": 0.5555555555555556,
+   "unsupported_claim_rate": 0.0,
+   "median_wall_s": 375.9615,
+   "median_prompt_tokens": 10412.0,
+   "median_output_tokens": 297.5,
+   "median_cpu_s": 1055.340000000002,
+   "max_peak_rss_mb": 15308.14464,
+   "median_evidence_tokens": 994.0,
+   "median_repeated_exposures": 10.0,
+   "median_tool_calls": 6.0,
+   "median_llm_calls": 7.0,
+   "by_stratum": {
+    "concurrent": 1.0,
+    "distractor": 1.0,
+    "easy": 1.0,
+    "insufficient": 0.6666666666666666,
+    "multi_hop": 1.0,
+    "over_budget": 0.6666666666666666
+   }
+  },
+  "A3": {
+   "runs": 18,
+   "failed_runs": 0,
+   "correct": 0.8888888888888888,
+   "top1": 0.8888888888888888,
+   "top3": 0.8888888888888888,
+   "grounded": 0.9333333333333333,
+   "evidence_precision": 1.0,
+   "evidence_coverage": 0.5666666666666668,
+   "unsupported_claim_rate": 0.027777777777777776,
+   "median_wall_s": 681.7815,
+   "median_prompt_tokens": 17897.0,
+   "median_output_tokens": 366.0,
+   "median_cpu_s": 1911.0499999999993,
+   "max_peak_rss_mb": 15360.356351999999,
+   "median_evidence_tokens": 1072.0,
+   "median_repeated_exposures": 11.5,
+   "median_tool_calls": 8.0,
+   "median_llm_calls": 9.0,
+   "by_stratum": {
+    "concurrent": 1.0,
+    "distractor": 1.0,
+    "easy": 1.0,
+    "insufficient": 0.6666666666666666,
+    "multi_hop": 0.6666666666666666,
+    "over_budget": 1.0
+   }
+  },
+  "E1": {
+   "runs": 18,
+   "failed_runs": 0,
+   "correct": 1.0,
+   "top1": 1.0,
+   "top3": 1.0,
+   "grounded": 1.0,
+   "evidence_precision": 0.8433333333333334,
+   "evidence_coverage": 0.6333333333333332,
+   "unsupported_claim_rate": 0.0,
+   "median_wall_s": 0.1745,
+   "median_prompt_tokens": 0.0,
+   "median_output_tokens": 0.0,
+   "median_cpu_s": null,
+   "max_peak_rss_mb": null,
+   "median_evidence_tokens": 234.0,
+   "median_repeated_exposures": 1.0,
+   "median_tool_calls": 0.0,
+   "median_llm_calls": 0.0,
+   "by_stratum": {
+    "concurrent": 1.0,
+    "distractor": 1.0,
+    "easy": 1.0,
+    "insufficient": 1.0,
+    "multi_hop": 1.0,
+    "over_budget": 1.0
+   }
+  },
+  "E1f": {
+   "runs": 18,
+   "failed_runs": 0,
+   "correct": 0.0,
+   "top1": 0.0,
+   "top3": 0.0,
+   "grounded": 0.0,
+   "evidence_precision": 1.0,
+   "evidence_coverage": 0.0,
+   "unsupported_claim_rate": 0.0,
+   "median_wall_s": 0.1685,
+   "median_prompt_tokens": 0.0,
+   "median_output_tokens": 0.0,
+   "median_cpu_s": null,
+   "max_peak_rss_mb": null,
+   "median_evidence_tokens": 55.0,
+   "median_repeated_exposures": 0.0,
+   "median_tool_calls": 0.0,
+   "median_llm_calls": 0.0,
+   "by_stratum": {
+    "concurrent": 0.0,
+    "distractor": 0.0,
+    "easy": 0.0,
+    "insufficient": 0.0,
+    "multi_hop": 0.0,
+    "over_budget": 0.0
+   }
+  },
+  "E2b": {
+   "runs": 18,
+   "failed_runs": 0,
+   "correct": 0.8333333333333334,
+   "top1": 0.8333333333333334,
+   "top3": 0.8333333333333334,
+   "grounded": 0.9333333333333333,
+   "evidence_precision": 0.9160714285714286,
+   "evidence_coverage": 0.6888888888888889,
+   "unsupported_claim_rate": 0.009259259259259259,
+   "median_wall_s": 493.592,
+   "median_prompt_tokens": 1947.5,
+   "median_output_tokens": 424.0,
+   "median_cpu_s": 1401.935000000005,
+   "max_peak_rss_mb": 15351.054336,
+   "median_evidence_tokens": 1580.5,
+   "median_repeated_exposures": 1.0,
+   "median_tool_calls": 0.0,
+   "median_llm_calls": 1.0,
+   "by_stratum": {
+    "concurrent": 1.0,
+    "distractor": 0.6666666666666666,
+    "easy": 1.0,
+    "insufficient": 0.3333333333333333,
+    "multi_hop": 1.0,
+    "over_budget": 1.0
+   }
+  },
+  "E3": {
+   "runs": 18,
+   "failed_runs": 0,
+   "correct": 0.8888888888888888,
+   "top1": 0.8888888888888888,
+   "top3": 0.8888888888888888,
+   "grounded": 0.9333333333333333,
+   "evidence_precision": 1.0,
+   "evidence_coverage": 0.5444444444444445,
+   "unsupported_claim_rate": 0.027777777777777776,
+   "median_wall_s": 681.7815,
+   "median_prompt_tokens": 17897.0,
+   "median_output_tokens": 366.0,
+   "median_cpu_s": 1911.0499999999993,
+   "max_peak_rss_mb": 15360.356351999999,
+   "median_evidence_tokens": 1072.0,
+   "median_repeated_exposures": 11.5,
+   "median_tool_calls": 8.0,
+   "median_llm_calls": 9.0,
+   "by_stratum": {
+    "concurrent": 1.0,
+    "distractor": 1.0,
+    "easy": 1.0,
+    "insufficient": 0.6666666666666666,
+    "multi_hop": 0.6666666666666666,
+    "over_budget": 1.0
+   }
+  }
+ },
+ "primary": {
+  "metric": "correct",
+  "a": "E3",
+  "b": "E2b",
+  "n_cases": 18,
+  "n_families": 6,
+  "mean_a": 0.8888888888888888,
+  "mean_b": 0.8333333333333334,
+  "effect": 0.05555555555555555,
+  "ci95": [
+   -0.16666666666666666,
+   0.3333333333333333
+  ],
+  "perm_p": 1.0,
+  "icc": 0.042553191489361715,
+  "mcnemar": {
+   "a_only": 2,
+   "b_only": 1,
+   "p": 1.0
+  }
+ },
+ "primary_by_stratum": {
+  "concurrent": {
+   "metric": "correct",
+   "a": "E3",
+   "b": "E2b",
+   "n_cases": 3,
+   "n_families": 1,
+   "mean_a": 1.0,
+   "mean_b": 1.0,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "perm_p": 1.0,
+   "icc": null,
+   "mcnemar": {
+    "a_only": 0,
+    "b_only": 0,
+    "p": 1.0
+   }
+  },
+  "distractor": {
+   "metric": "correct",
+   "a": "E3",
+   "b": "E2b",
+   "n_cases": 3,
+   "n_families": 1,
+   "mean_a": 1.0,
+   "mean_b": 0.6666666666666666,
+   "effect": 0.3333333333333333,
+   "ci95": [
+    0.0,
+    1.0
+   ],
+   "perm_p": 1.0,
+   "icc": null,
+   "mcnemar": {
+    "a_only": 1,
+    "b_only": 0,
+    "p": 1.0
+   }
+  },
+  "easy": {
+   "metric": "correct",
+   "a": "E3",
+   "b": "E2b",
+   "n_cases": 3,
+   "n_families": 1,
+   "mean_a": 1.0,
+   "mean_b": 1.0,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "perm_p": 1.0,
+   "icc": null,
+   "mcnemar": {
+    "a_only": 0,
+    "b_only": 0,
+    "p": 1.0
+   }
+  },
+  "insufficient": {
+   "metric": "correct",
+   "a": "E3",
+   "b": "E2b",
+   "n_cases": 3,
+   "n_families": 1,
+   "mean_a": 0.6666666666666666,
+   "mean_b": 0.3333333333333333,
+   "effect": 0.3333333333333333,
+   "ci95": [
+    0.0,
+    1.0
+   ],
+   "perm_p": 1.0,
+   "icc": null,
+   "mcnemar": {
+    "a_only": 1,
+    "b_only": 0,
+    "p": 1.0
+   }
+  },
+  "multi_hop": {
+   "metric": "correct",
+   "a": "E3",
+   "b": "E2b",
+   "n_cases": 3,
+   "n_families": 1,
+   "mean_a": 0.6666666666666666,
+   "mean_b": 1.0,
+   "effect": -0.3333333333333333,
+   "ci95": [
+    -1.0,
+    0.0
+   ],
+   "perm_p": 1.0,
+   "icc": null,
+   "mcnemar": {
+    "a_only": 0,
+    "b_only": 1,
+    "p": 1.0
+   }
+  },
+  "over_budget": {
+   "metric": "correct",
+   "a": "E3",
+   "b": "E2b",
+   "n_cases": 3,
+   "n_families": 1,
+   "mean_a": 1.0,
+   "mean_b": 1.0,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "perm_p": 1.0,
+   "icc": null,
+   "mcnemar": {
+    "a_only": 0,
+    "b_only": 0,
+    "p": 1.0
+   }
+  }
+ },
+ "secondary": {
+  "correct:E3-E1": {
+   "metric": "correct",
+   "a": "E3",
+   "b": "E1",
+   "n_cases": 18,
+   "n_families": 6,
+   "mean_a": 0.8888888888888888,
+   "mean_b": 1.0,
+   "effect": -0.1111111111111111,
+   "ci95": [
+    -0.3333333333333333,
+    0.0
+   ],
+   "perm_p": 0.5,
+   "icc": -0.07142857142857148,
+   "mcnemar": {
+    "a_only": 0,
+    "b_only": 2,
+    "p": 0.5
+   },
+   "perm_p_holm": 1.0
+  },
+  "correct:E2b-E1": {
+   "metric": "correct",
+   "a": "E2b",
+   "b": "E1",
+   "n_cases": 18,
+   "n_families": 6,
+   "mean_a": 0.8333333333333334,
+   "mean_b": 1.0,
+   "effect": -0.16666666666666666,
+   "ci95": [
+    -0.4444444444444444,
+    0.0
+   ],
+   "perm_p": 0.5,
+   "icc": 0.26829268292682923,
+   "mcnemar": {
+    "a_only": 0,
+    "b_only": 3,
+    "p": 0.25
+   },
+   "perm_p_holm": 1.0
+  },
+  "correct:E3-A2": {
+   "metric": "correct",
+   "a": "E3",
+   "b": "A2",
+   "n_cases": 18,
+   "n_families": 6,
+   "mean_a": 0.8888888888888888,
+   "mean_b": 0.8888888888888888,
+   "effect": 0.0,
+   "ci95": [
+    -0.2222222222222222,
+    0.2222222222222222
+   ],
+   "perm_p": 1.0,
+   "icc": 0.06249999999999997,
+   "mcnemar": {
+    "a_only": 1,
+    "b_only": 1,
+    "p": 1.0
+   },
+   "perm_p_holm": 1.0
+  },
+  "correct:E3-A3": {
+   "metric": "correct",
+   "a": "E3",
+   "b": "A3",
+   "n_cases": 18,
+   "n_families": 6,
+   "mean_a": 0.8888888888888888,
+   "mean_b": 0.8888888888888888,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "perm_p": 1.0,
+   "icc": null,
+   "mcnemar": {
+    "a_only": 0,
+    "b_only": 0,
+    "p": 1.0
+   },
+   "perm_p_holm": 1.0
+  },
+  "unsupported_claim_rate:E3-E2b": {
+   "metric": "unsupported_claim_rate",
+   "a": "E3",
+   "b": "E2b",
+   "n_cases": 18,
+   "n_families": 6,
+   "mean_a": 0.027777777777777776,
+   "mean_b": 0.009259259259259259,
+   "effect": 0.01851851851851852,
+   "ci95": [
+    -0.027777777777777776,
+    0.10185185185185186
+   ],
+   "perm_p": 1.0,
+   "icc": -0.30000000000000004,
+   "perm_p_holm": 1.0
+  },
+  "unsupported_claim_rate:A3-E3": {
+   "metric": "unsupported_claim_rate",
+   "a": "A3",
+   "b": "E3",
+   "n_cases": 18,
+   "n_families": 6,
+   "mean_a": 0.027777777777777776,
+   "mean_b": 0.027777777777777776,
+   "effect": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "perm_p": 1.0,
+   "icc": null,
+   "perm_p_holm": 1.0
+  },
+  "grounded:E3-E2b": {
+   "metric": "grounded",
+   "a": "E3",
+   "b": "E2b",
+   "n_cases": 15,
+   "n_families": 5,
+   "mean_a": 0.9333333333333333,
+   "mean_b": 0.9333333333333333,
+   "effect": 0.0,
+   "ci95": [
+    -0.26666666666666666,
+    0.26666666666666666
+   ],
+   "perm_p": 1.0,
+   "icc": 0.07692307692307684,
+   "perm_p_holm": 1.0
+  },
+  "evidence_coverage:E3-E2b": {
+   "metric": "evidence_coverage",
+   "a": "E3",
+   "b": "E2b",
+   "n_cases": 15,
+   "n_families": 5,
+   "mean_a": 0.5444444444444445,
+   "mean_b": 0.6888888888888889,
+   "effect": -0.14444444444444446,
+   "ci95": [
+    -0.4222222222222223,
+    0.13333333333333333
+   ],
+   "perm_p": 0.4375,
+   "icc": 0.3848920863309353,
+   "perm_p_holm": 1.0
+  }
+ },
+ "code_commits": [
+  "b21644cccef0d6004693068bd1fbcd19801cd11e"
+ ],
+ "config_hashes": [
+  "d6814d15a11c7227e7a3ab1d03f9b42cf8b768abab09666f18ca2d01a1fa5bfa"
+ ]
+}

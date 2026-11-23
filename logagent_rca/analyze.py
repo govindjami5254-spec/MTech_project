@@ -56,13 +56,14 @@ def _f(x, pct=False):
 
 def to_markdown(res: dict) -> str:
     lines = [f"> {res['note']}", "", f"Records: {res['n_records']}; code commits: {', '.join(res['code_commits'])}", "",
-             "| Arm | Runs | Failed | Correct | Top-3 | Grounded | Evidence prec. | Evidence cov. | Unsupported claims | Median wall s | Median prompt tok | Median output tok | Median CPU s | Peak RSS MB | Median B used | Median repeats |",
-             "|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|"]
+             "| Arm | Runs | Failed | Correct | Top-3 | Grounded | Evidence prec. | Evidence cov. | Unsupported claims | Median wall s | Median prompt tok | Median output tok | Median CPU s | Peak USS MB (RSS) | Truncated fields (runs) | Median B used | Median repeats |",
+             "|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|"]
     for arm, s in res["summary"].items():
         lines.append(f"| {arm} | {s['runs']} | {s['failed_runs']} | {_f(s['correct'], 1)} | {_f(s['top3'], 1)} | "
                      f"{_f(s['grounded'], 1)} | {_f(s['evidence_precision'], 1)} | {_f(s['evidence_coverage'], 1)} | "
                      f"{_f(s['unsupported_claim_rate'], 1)} | {_f(s['median_wall_s'])} | {_f(s['median_prompt_tokens'])} | "
-                     f"{_f(s['median_output_tokens'])} | {_f(s['median_cpu_s'])} | {_f(s['max_peak_rss_mb'])} | "
+                     f"{_f(s['median_output_tokens'])} | {_f(s['median_cpu_s'])} | {_f(s['max_peak_uss_mb'])} ({_f(s['max_peak_rss_mb'])}) | "
+                     f"{s['normalised_fields_total']} ({s['runs_with_truncation']}) | "
                      f"{_f(s['median_evidence_tokens'])} | {_f(s['median_repeated_exposures'])} |")
     def row(name, v):
         if not v.get("n_cases"):

@@ -1,0 +1,339 @@
+{
+ "schema_version": "1",
+ "run_id": "dev-c003__A2__r0",
+ "case_id": "dev-c003",
+ "split": "dev",
+ "arm": "A2",
+ "repeat": 0,
+ "config_hash": "d6814d15a11c7227e7a3ab1d03f9b42cf8b768abab09666f18ca2d01a1fa5bfa",
+ "code_commit": "b21644cccef0d6004693068bd1fbcd19801cd11e",
+ "model": {
+  "name": "qwen3:8b",
+  "manifest_digest": "b3d9ba7c899cfd112df2574c6a91458a70b724c5e4e50dfffd75574b2d1648e7",
+  "weights_digest": "a3de86cd1c132c822487ededd47a324c50491393e6565cd14bafa40d0b8e686f",
+  "quantization": "Q4_K_M",
+  "parameter_size": "8.2B",
+  "ollama_version": "0.40.16",
+  "num_ctx": 8192,
+  "temperature": 0.2,
+  "seed": 1000,
+  "think": false,
+  "num_predict": 450
+ },
+ "started_at": "2026-11-22T18:04:31.335702Z",
+ "status": "ok",
+ "error": null,
+ "report_raw": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "pricing-svc",
+    "cause_summary": "Invalid config caused pricing-svc to exit (E5).",
+    "confidence": 0.95,
+    "claims": [
+     {
+      "text": "pricing-svc exited due to invalid config (E5).",
+      "evidence_ids": [
+       "E5"
+      ]
+     },
+     {
+      "text": "pricing-svc config had pool_size 0 (E4).",
+      "evidence_ids": [
+       "E4"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [
+   "No logs from inventory-db or mailer"
+  ],
+  "recommendations": [
+   "Check pricing-svc config for pool_size",
+   "Verify if pricing-svc was restarted after config fix"
+  ]
+ },
+ "report_validated": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "pricing-svc",
+    "cause_summary": "Invalid config caused pricing-svc to exit (E5).",
+    "confidence": 0.95,
+    "claims": [
+     {
+      "text": "pricing-svc exited due to invalid config (E5).",
+      "evidence_ids": [
+       "E5"
+      ]
+     },
+     {
+      "text": "pricing-svc config had pool_size 0 (E4).",
+      "evidence_ids": [
+       "E4"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [
+   "No logs from inventory-db or mailer"
+  ],
+  "recommendations": [
+   "Check pricing-svc config for pool_size",
+   "Verify if pricing-svc was restarted after config fix"
+  ]
+ },
+ "validation": {
+  "claims_total": 2,
+  "claims_supported": 2,
+  "fabricated_ids": 0,
+  "suspicious_citations": 0,
+  "hypotheses_in": 1,
+  "hypotheses_dropped": 0,
+  "abstained_by_validator": false
+ },
+ "evidence": [
+  {
+   "id": "E1",
+   "uid": "storefront.log:33",
+   "ts": "2026-01-18T13:52:03.439000Z",
+   "severity": "ERROR",
+   "component": "storefront",
+   "source": "storefront.log",
+   "line_no": 33,
+   "message": "responding 503: upstream cart-svc error rid=33051722",
+   "step": 0,
+   "tool": "incident",
+   "tokens": 56,
+   "suspicious": false
+  },
+  {
+   "id": "E2",
+   "uid": "session-svc.log:26",
+   "ts": "2026-01-18T13:50:23.436000Z",
+   "severity": "ERROR",
+   "component": "session-svc",
+   "source": "session-svc.log",
+   "line_no": 26,
+   "message": "leader election lost for cron lock, re-electing",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 48,
+   "suspicious": false
+  },
+  {
+   "id": "E3",
+   "uid": "session-svc.log:28",
+   "ts": "2026-01-18T13:50:34.410000Z",
+   "severity": "ERROR",
+   "component": "session-svc",
+   "source": "session-svc.log",
+   "line_no": 28,
+   "message": "leader election lost for cron lock, re-electing",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 48,
+   "suspicious": false
+  },
+  {
+   "id": "E4",
+   "uid": "pricing-svc.log:31",
+   "ts": "2026-01-18T13:51:57.543000Z",
+   "severity": "ERROR",
+   "component": "pricing-svc",
+   "source": "pricing-svc.log",
+   "line_no": 31,
+   "message": "config: field pool_size must be > 0, got 0",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 52,
+   "suspicious": false
+  },
+  {
+   "id": "E5",
+   "uid": "pricing-svc.log:32",
+   "ts": "2026-01-18T13:51:59.340000Z",
+   "severity": "FATAL",
+   "component": "pricing-svc",
+   "source": "pricing-svc.log",
+   "line_no": 32,
+   "message": "exiting: invalid configuration",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 43,
+   "suspicious": false
+  },
+  {
+   "id": "E6",
+   "uid": "cart-svc.log:30",
+   "ts": "2026-01-18T13:52:00.248000Z",
+   "severity": "ERROR",
+   "component": "cart-svc",
+   "source": "cart-svc.log",
+   "line_no": 30,
+   "message": "dial tcp pricing-svc:8103: connect: connection refused rid=79899bc5",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 62,
+   "suspicious": false
+  },
+  {
+   "id": "E7",
+   "uid": "cart-svc.log:33",
+   "ts": "2026-01-18T13:52:05.292000Z",
+   "severity": "ERROR",
+   "component": "cart-svc",
+   "source": "cart-svc.log",
+   "line_no": 33,
+   "message": "request to pricing-svc failed permanently after retries",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 47,
+   "suspicious": false
+  },
+  {
+   "id": "E8",
+   "uid": "storefront.log:34",
+   "ts": "2026-01-18T13:52:06.024000Z",
+   "severity": "ERROR",
+   "component": "storefront",
+   "source": "storefront.log",
+   "line_no": 34,
+   "message": "responding 503: upstream cart-svc error rid=24d9046e",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 56,
+   "suspicious": false
+  }
+ ],
+ "tool_calls": [
+  {
+   "step": 1,
+   "tool": "error_timeline",
+   "args": {
+    "min_severity": "ERROR"
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [
+    "E2",
+    "E3",
+    "E4",
+    "E5",
+    "E6",
+    "E1",
+    "E7",
+    "E8"
+   ],
+   "new_evidence_tokens": 356,
+   "output_chars": 870,
+   "ms": 0.99
+  },
+  {
+   "step": 2,
+   "tool": "search_logs",
+   "args": {
+    "component": "pricing-svc",
+    "min_severity": "ERROR",
+    "limit": 5
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [
+    "E4",
+    "E5"
+   ],
+   "new_evidence_tokens": 0,
+   "output_chars": 64,
+   "ms": 0.12
+  },
+  {
+   "step": 3,
+   "tool": "search_logs",
+   "args": {
+    "component": "cart-svc",
+    "min_severity": "ERROR",
+    "limit": 5
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [
+    "E6",
+    "E7"
+   ],
+   "new_evidence_tokens": 0,
+   "output_chars": 64,
+   "ms": 0.1
+  },
+  {
+   "step": 4,
+   "tool": "search_logs",
+   "args": {
+    "component": "session-svc",
+    "min_severity": "ERROR",
+    "limit": 5
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [
+    "E2",
+    "E3"
+   ],
+   "new_evidence_tokens": 0,
+   "output_chars": 64,
+   "ms": 0.12
+  },
+  {
+   "step": 5,
+   "tool": "search_logs",
+   "args": {
+    "component": "inventory-db",
+    "min_severity": "ERROR",
+    "limit": 5
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [],
+   "new_evidence_tokens": 0,
+   "output_chars": 24,
+   "ms": 0.06
+  },
+  {
+   "step": 6,
+   "tool": "search_logs",
+   "args": {
+    "component": "mailer",
+    "min_severity": "ERROR",
+    "limit": 5
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [],
+   "new_evidence_tokens": 0,
+   "output_chars": 24,
+   "ms": 0.06
+  }
+ ],
+ "metrics": {
+  "evidence_token_budget": 3000,
+  "unique_evidence_tokens": 412,
+  "unique_evidence_items": 8,
+  "repeated_exposures": 7,
+  "repeated_exposure_tokens": 356,
+  "llm_calls": 7,
+  "prompt_tokens_total": 8933,
+  "output_tokens_total": 314,
+  "llm_seconds": 338.791,
+  "wall_seconds": 339.033,
+  "steps": 6,
+  "tool_calls": 6,
+  "blocked_tool_calls": 0,
+  "gate_rounds": 0,
+  "parse_failures": 0,
+  "cpu_seconds": 962.510000000002,
+  "peak_rss_mb": 11922.1248,
+  "mean_cpu_percent": 283.4876785714286
+ }
+}

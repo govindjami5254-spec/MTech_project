@@ -1,0 +1,518 @@
+{
+ "schema_version": "1",
+ "run_id": "dev-c016__E3__r0",
+ "case_id": "dev-c016",
+ "split": "dev",
+ "arm": "E3",
+ "repeat": 0,
+ "config_hash": "d6814d15a11c7227e7a3ab1d03f9b42cf8b768abab09666f18ca2d01a1fa5bfa",
+ "code_commit": "b21644cccef0d6004693068bd1fbcd19801cd11e",
+ "model": {
+  "name": "qwen3:8b",
+  "manifest_digest": "b3d9ba7c899cfd112df2574c6a91458a70b724c5e4e50dfffd75574b2d1648e7",
+  "weights_digest": "a3de86cd1c132c822487ededd47a324c50491393e6565cd14bafa40d0b8e686f",
+  "quantization": "Q4_K_M",
+  "parameter_size": "8.2B",
+  "ollama_version": "0.40.16",
+  "num_ctx": 8192,
+  "temperature": 0.2,
+  "seed": 1000,
+  "think": false,
+  "num_predict": 450
+ },
+ "started_at": "2026-11-22T23:55:56.135467Z",
+ "status": "ok",
+ "error": null,
+ "report_raw": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "posting-svc",
+    "cause_summary": "posting-svc failed permanently after retries (E12)",
+    "confidence": 0.95,
+    "claims": [
+     {
+      "text": "posting-svc failed permanently after retries",
+      "evidence_ids": [
+       "E12"
+      ]
+     },
+     {
+      "text": "ledger-svc could not reach posting-svc",
+      "evidence_ids": [
+       "E10"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [
+   "posting-svc logs not available"
+  ],
+  "recommendations": [
+   "Check posting-svc health and network connectivity",
+   "Review posting-svc error logs for root cause"
+  ]
+ },
+ "report_validated": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "posting-svc",
+    "cause_summary": "posting-svc failed permanently after retries (E12)",
+    "confidence": 0.95,
+    "claims": [
+     {
+      "text": "posting-svc failed permanently after retries",
+      "evidence_ids": [
+       "E12"
+      ]
+     },
+     {
+      "text": "ledger-svc could not reach posting-svc",
+      "evidence_ids": [
+       "E10"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [
+   "posting-svc logs not available"
+  ],
+  "recommendations": [
+   "Check posting-svc health and network connectivity",
+   "Review posting-svc error logs for root cause"
+  ]
+ },
+ "validation": {
+  "claims_total": 2,
+  "claims_supported": 2,
+  "fabricated_ids": 0,
+  "suspicious_citations": 0,
+  "hypotheses_in": 1,
+  "hypotheses_dropped": 0,
+  "abstained_by_validator": false
+ },
+ "evidence": [
+  {
+   "id": "E1",
+   "uid": "api-edge.log:31",
+   "ts": "2026-01-24T11:18:18.877000Z",
+   "severity": "ERROR",
+   "component": "api-edge",
+   "source": "api-edge.log",
+   "line_no": 31,
+   "message": "upstream ledger-svc returned 500 rid=6663cfba",
+   "step": 0,
+   "tool": "incident",
+   "tokens": 53,
+   "suspicious": false
+  },
+  {
+   "id": "E2",
+   "uid": "authz-svc.log:6",
+   "ts": "2026-01-24T11:14:04Z",
+   "severity": "WARN",
+   "component": "authz-svc",
+   "source": "authz-svc.log",
+   "line_no": 6,
+   "message": "retry budget low on client pool",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 45,
+   "suspicious": false
+  },
+  {
+   "id": "E3",
+   "uid": "authz-svc.log:8",
+   "ts": "2026-01-24T11:14:15Z",
+   "severity": "WARN",
+   "component": "authz-svc",
+   "source": "authz-svc.log",
+   "line_no": 8,
+   "message": "retry budget low on client pool",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 45,
+   "suspicious": false
+  },
+  {
+   "id": "E4",
+   "uid": "journal-db.log:7",
+   "ts": "2026-01-24T11:14:16Z",
+   "severity": "WARN",
+   "component": "journal-db",
+   "source": "journal-db.log",
+   "line_no": 7,
+   "message": "retry budget low on client pool",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 41,
+   "suspicious": false
+  },
+  {
+   "id": "E5",
+   "uid": "ledger-svc.log:13",
+   "ts": "2026-01-24T11:15:11Z",
+   "severity": "WARN",
+   "component": "ledger-svc",
+   "source": "ledger-svc.log",
+   "line_no": 13,
+   "message": "slow handler rid=1c69bf8a dur=630ms",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 55,
+   "suspicious": false
+  },
+  {
+   "id": "E6",
+   "uid": "journal-db.log:19",
+   "ts": "2026-01-24T11:15:58Z",
+   "severity": "WARN",
+   "component": "journal-db",
+   "source": "journal-db.log",
+   "line_no": 19,
+   "message": "retry budget low on client pool",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 42,
+   "suspicious": false
+  },
+  {
+   "id": "E7",
+   "uid": "ledger-svc.log:26",
+   "ts": "2026-01-24T11:17:08Z",
+   "severity": "WARN",
+   "component": "ledger-svc",
+   "source": "ledger-svc.log",
+   "line_no": 26,
+   "message": "retry budget low on client pool",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 44,
+   "suspicious": false
+  },
+  {
+   "id": "E8",
+   "uid": "api-edge.log:33",
+   "ts": "2026-01-24T11:18:21.556000Z",
+   "severity": "ERROR",
+   "component": "api-edge",
+   "source": "api-edge.log",
+   "line_no": 33,
+   "message": "responding 503: upstream ledger-svc error rid=ee9f9caf",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 54,
+   "suspicious": false
+  },
+  {
+   "id": "E9",
+   "uid": "ledger-svc.log:31",
+   "ts": "2026-01-24T11:17:42Z",
+   "severity": "WARN",
+   "component": "ledger-svc",
+   "source": "ledger-svc.log",
+   "line_no": 31,
+   "message": "slow handler rid=e3e0dbf1 dur=500ms",
+   "step": 2,
+   "tool": "search_logs",
+   "tokens": 54,
+   "suspicious": false
+  },
+  {
+   "id": "E10",
+   "uid": "ledger-svc.log:35",
+   "ts": "2026-01-24T11:18:13.749000Z",
+   "severity": "ERROR",
+   "component": "ledger-svc",
+   "source": "ledger-svc.log",
+   "line_no": 35,
+   "message": "context deadline exceeded calling posting-svc rid=f9367048",
+   "step": 2,
+   "tool": "search_logs",
+   "tokens": 55,
+   "suspicious": false
+  },
+  {
+   "id": "E11",
+   "uid": "ledger-svc.log:36",
+   "ts": "2026-01-24T11:18:15.065000Z",
+   "severity": "WARN",
+   "component": "ledger-svc",
+   "source": "ledger-svc.log",
+   "line_no": 36,
+   "message": "backoff before retrying posting-svc (2/3)",
+   "step": 2,
+   "tool": "search_logs",
+   "tokens": 51,
+   "suspicious": false
+  },
+  {
+   "id": "E12",
+   "uid": "ledger-svc.log:38",
+   "ts": "2026-01-24T11:18:18.454000Z",
+   "severity": "ERROR",
+   "component": "ledger-svc",
+   "source": "ledger-svc.log",
+   "line_no": 38,
+   "message": "request to posting-svc failed permanently after retries",
+   "step": 2,
+   "tool": "search_logs",
+   "tokens": 48,
+   "suspicious": false
+  },
+  {
+   "id": "E13",
+   "uid": "authz-svc.log:11",
+   "ts": "2026-01-24T11:14:36Z",
+   "severity": "WARN",
+   "component": "authz-svc",
+   "source": "authz-svc.log",
+   "line_no": 11,
+   "message": "slow handler rid=951e0881 dur=900ms",
+   "step": 4,
+   "tool": "search_logs",
+   "tokens": 59,
+   "suspicious": false
+  },
+  {
+   "id": "E14",
+   "uid": "authz-svc.log:14",
+   "ts": "2026-01-24T11:14:59Z",
+   "severity": "WARN",
+   "component": "authz-svc",
+   "source": "authz-svc.log",
+   "line_no": 14,
+   "message": "retry budget low on client pool",
+   "step": 4,
+   "tool": "search_logs",
+   "tokens": 47,
+   "suspicious": false
+  },
+  {
+   "id": "E15",
+   "uid": "journal-db.log:24",
+   "ts": "2026-01-24T11:16:39Z",
+   "severity": "WARN",
+   "component": "journal-db",
+   "source": "journal-db.log",
+   "line_no": 24,
+   "message": "slow handler rid=587558b3 dur=760ms",
+   "step": 5,
+   "tool": "search_logs",
+   "tokens": 55,
+   "suspicious": false
+  },
+  {
+   "id": "E16",
+   "uid": "journal-db.log:34",
+   "ts": "2026-01-24T11:18:10.545000Z",
+   "severity": "INFO",
+   "component": "journal-db",
+   "source": "journal-db.log",
+   "line_no": 34,
+   "message": "handled request rid=b05fded9 status=200 dur=37ms",
+   "step": 6,
+   "tool": "get_context",
+   "tokens": 56,
+   "suspicious": false
+  },
+  {
+   "id": "E17",
+   "uid": "authz-svc.log:32",
+   "ts": "2026-01-24T11:18:11.298000Z",
+   "severity": "INFO",
+   "component": "authz-svc",
+   "source": "authz-svc.log",
+   "line_no": 32,
+   "message": "handled request rid=b9e02e17 status=200 dur=16ms",
+   "step": 6,
+   "tool": "get_context",
+   "tokens": 62,
+   "suspicious": false
+  },
+  {
+   "id": "E18",
+   "uid": "authz-db.log:31",
+   "ts": "2026-01-24T11:18:12.598000Z",
+   "severity": "INFO",
+   "component": "authz-db",
+   "source": "authz-db.log",
+   "line_no": 31,
+   "message": "ping ok latency=40ms",
+   "step": 6,
+   "tool": "get_context",
+   "tokens": 46,
+   "suspicious": false
+  },
+  {
+   "id": "E19",
+   "uid": "api-edge.log:30",
+   "ts": "2026-01-24T11:18:13.844000Z",
+   "severity": "INFO",
+   "component": "api-edge",
+   "source": "api-edge.log",
+   "line_no": 30,
+   "message": "ping ok latency=10ms",
+   "step": 6,
+   "tool": "get_context",
+   "tokens": 44,
+   "suspicious": false
+  },
+  {
+   "id": "E20",
+   "uid": "ledger-svc.log:37",
+   "ts": "2026-01-24T11:18:15.298000Z",
+   "severity": "INFO",
+   "component": "ledger-svc",
+   "source": "ledger-svc.log",
+   "line_no": 37,
+   "message": "handled request rid=1107c61b status=200 dur=87ms",
+   "step": 6,
+   "tool": "get_context",
+   "tokens": 61,
+   "suspicious": false
+  }
+ ],
+ "tool_calls": [
+  {
+   "step": 1,
+   "tool": "error_timeline",
+   "args": {
+    "min_severity": "WARN"
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [
+    "E2",
+    "E3",
+    "E4",
+    "E5",
+    "E6",
+    "E7",
+    "E1",
+    "E8"
+   ],
+   "new_evidence_tokens": 326,
+   "output_chars": 757,
+   "ms": 97.94
+  },
+  {
+   "step": 2,
+   "tool": "search_logs",
+   "args": {
+    "component": "ledger-svc",
+    "min_severity": "WARN"
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [
+    "E5",
+    "E7",
+    "E9",
+    "E10",
+    "E11",
+    "E12"
+   ],
+   "new_evidence_tokens": 208,
+   "output_chars": 510,
+   "ms": 62.01
+  },
+  {
+   "step": 3,
+   "tool": "search_logs",
+   "args": {
+    "component": "posting-svc",
+    "min_severity": "WARN"
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [],
+   "new_evidence_tokens": 0,
+   "output_chars": 24,
+   "ms": 0.07
+  },
+  {
+   "step": 4,
+   "tool": "search_logs",
+   "args": {
+    "component": "authz-svc",
+    "min_severity": "WARN"
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [
+    "E2",
+    "E3",
+    "E13",
+    "E14"
+   ],
+   "new_evidence_tokens": 106,
+   "output_chars": 254,
+   "ms": 0.53
+  },
+  {
+   "step": 5,
+   "tool": "search_logs",
+   "args": {
+    "component": "journal-db",
+    "min_severity": "WARN"
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [
+    "E4",
+    "E6",
+    "E15"
+   ],
+   "new_evidence_tokens": 55,
+   "output_chars": 163,
+   "ms": 0.34
+  },
+  {
+   "step": 6,
+   "tool": "get_context",
+   "args": {
+    "evidence_id": "E10",
+    "before": 3,
+    "after": 3
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [
+    "E16",
+    "E17",
+    "E18",
+    "E10",
+    "E19",
+    "E11",
+    "E20"
+   ],
+   "new_evidence_tokens": 269,
+   "output_chars": 580,
+   "ms": 0.69
+  }
+ ],
+ "metrics": {
+  "evidence_token_budget": 3000,
+  "unique_evidence_tokens": 1017,
+  "unique_evidence_items": 20,
+  "repeated_exposures": 9,
+  "repeated_exposure_tokens": 431,
+  "llm_calls": 7,
+  "prompt_tokens_total": 10451,
+  "output_tokens_total": 290,
+  "llm_seconds": 575.428,
+  "wall_seconds": 575.831,
+  "steps": 6,
+  "tool_calls": 6,
+  "blocked_tool_calls": 0,
+  "gate_rounds": 0,
+  "parse_failures": 0,
+  "cpu_seconds": 1508.0800000000017,
+  "peak_rss_mb": 15235.387392,
+  "mean_cpu_percent": 261.2224660397074
+ }
+}

@@ -1,0 +1,46 @@
+{
+ "purpose": "development pilot (dev split only); B=3000 is PROVISIONAL, not the frozen budget",
+ "started_at": "2026-11-22T16:52:25.641946+00:00",
+ "branch": "logagent-rca",
+ "code_commit": "b21644cccef0d6004693068bd1fbcd19801cd11e",
+ "working_tree_clean": true,
+ "config_file": "configs/dev.yaml",
+ "config_file_sha256": "83467c49b86329f3a1bd4ff5b0af1e84e07b2fc7499b775a5b1b17dc8ca6ef29",
+ "config_hash": "d6814d15a11c7227e7a3ab1d03f9b42cf8b768abab09666f18ca2d01a1fa5bfa",
+ "dev_SHA256SUMS_sha256": "7aaf93223775309a780a8b73ddccef5ffdbc8c10a617ae0eeec2190161e1a8e1",
+ "frozen_test_untouched": {
+  "configs/test.yaml": "59e89c82ffab26ec96e1356e5e8ccd41f53916a2ac4ea0a336d092e6ebde47e7",
+  "test_SHA256SUMS": "7b39d3430562fa99cd03a45ad085ae73b601274c3352abbfbe098da1a6fc72ad"
+ },
+ "arms_run": [
+  "E1",
+  "E1f",
+  "E2b",
+  "E3",
+  "A2"
+ ],
+ "arms_derived": [
+  "A3 (E3 raw report)"
+ ],
+ "repeats": 1,
+ "planned_runs": 90,
+ "model": {
+  "name": "qwen3:8b",
+  "manifest_digest": "b3d9ba7c899cfd112df2574c6a91458a70b724c5e4e50dfffd75574b2d1648e7",
+  "weights_digest": "a3de86cd1c132c822487ededd47a324c50491393e6565cd14bafa40d0b8e686f",
+  "quantization": "Q4_K_M",
+  "parameter_size": "8.2B",
+  "ollama_version": "0.40.16",
+  "num_ctx": 8192,
+  "temperature": 0.2,
+  "seed": 1000,
+  "think": false,
+  "num_predict": 450
+ },
+ "host": {
+  "python": "3.12.14",
+  "machine": "x86_64",
+  "system": "Linux",
+  "cpus": 4
+ }
+}

@@ -1,0 +1,526 @@
+{
+ "schema_version": "1",
+ "run_id": "dev-c011__E2b__r0",
+ "case_id": "dev-c011",
+ "split": "dev",
+ "arm": "E2b",
+ "repeat": 0,
+ "config_hash": "d6814d15a11c7227e7a3ab1d03f9b42cf8b768abab09666f18ca2d01a1fa5bfa",
+ "code_commit": "b21644cccef0d6004693068bd1fbcd19801cd11e",
+ "model": {
+  "name": "qwen3:8b",
+  "manifest_digest": "b3d9ba7c899cfd112df2574c6a91458a70b724c5e4e50dfffd75574b2d1648e7",
+  "weights_digest": "a3de86cd1c132c822487ededd47a324c50491393e6565cd14bafa40d0b8e686f",
+  "quantization": "Q4_K_M",
+  "parameter_size": "8.2B",
+  "ollama_version": "0.40.16",
+  "num_ctx": 8192,
+  "temperature": 0.2,
+  "seed": 1000,
+  "think": false,
+  "num_predict": 450
+ },
+ "started_at": "2026-11-22T21:12:29.181527Z",
+ "status": "ok",
+ "error": null,
+ "report_raw": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "cart-svc",
+    "cause_summary": "Cart service OOM due to heap exhaustion.",
+    "confidence": 0.95,
+    "claims": [
+     {
+      "text": "Cart service OOM error occurred at 11:12:40Z.",
+      "evidence_ids": [
+       "E3"
+      ]
+     },
+     {
+      "text": "Cart service JVM terminated by OOM killer at 11:12:42Z.",
+      "evidence_ids": [
+       "E2"
+      ]
+     }
+    ]
+   },
+   {
+    "cause_component": "storefront",
+    "cause_summary": "Storefront failed due to cart-svc dependency failure.",
+    "confidence": 0.9,
+    "claims": [
+     {
+      "text": "Storefront returned 503 to client due to cart-svc failure.",
+      "evidence_ids": [
+       "E1"
+      ]
+     },
+     {
+      "text": "Storefront received HTTP 502 from cart-svc.",
+      "evidence_ids": [
+       "E4"
+      ]
+     }
+    ]
+   },
+   {
+    "cause_component": "cart-svc",
+    "cause_summary": "Cart service had high heap usage before OOM.",
+    "confidence": 0.85,
+    "claims": [
+     {
+      "text": "Cart service had 96% heap usage after full GC at 11:12:00Z.",
+      "evidence_ids": [
+       "E7"
+      ]
+     },
+     {
+      "text": "Cart service had slow request at 11:12:55Z.",
+      "evidence_ids": [
+       "E9"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [
+   "No logs show why cart-svc ran out of memory."
+  ],
+  "recommendations": [
+   "Check cart-svc memory configuration and garbage collection logs.",
+   "Monitor heap usage and GC behavior for cart-svc."
+  ]
+ },
+ "report_validated": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "cart-svc",
+    "cause_summary": "Cart service OOM due to heap exhaustion.",
+    "confidence": 0.95,
+    "claims": [
+     {
+      "text": "Cart service JVM terminated by OOM killer at 11:12:42Z.",
+      "evidence_ids": [
+       "E2"
+      ]
+     }
+    ]
+   },
+   {
+    "cause_component": "storefront",
+    "cause_summary": "Storefront failed due to cart-svc dependency failure.",
+    "confidence": 0.9,
+    "claims": [
+     {
+      "text": "Storefront returned 503 to client due to cart-svc failure.",
+      "evidence_ids": [
+       "E1"
+      ]
+     },
+     {
+      "text": "Storefront received HTTP 502 from cart-svc.",
+      "evidence_ids": [
+       "E4"
+      ]
+     }
+    ]
+   },
+   {
+    "cause_component": "cart-svc",
+    "cause_summary": "Cart service had high heap usage before OOM.",
+    "confidence": 0.85,
+    "claims": [
+     {
+      "text": "Cart service had 96% heap usage after full GC at 11:12:00Z.",
+      "evidence_ids": [
+       "E7"
+      ]
+     },
+     {
+      "text": "Cart service had slow request at 11:12:55Z.",
+      "evidence_ids": [
+       "E9"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [
+   "No logs show why cart-svc ran out of memory."
+  ],
+  "recommendations": [
+   "Check cart-svc memory configuration and garbage collection logs.",
+   "Monitor heap usage and GC behavior for cart-svc."
+  ]
+ },
+ "validation": {
+  "claims_total": 6,
+  "claims_supported": 5,
+  "fabricated_ids": 0,
+  "suspicious_citations": 0,
+  "hypotheses_in": 3,
+  "hypotheses_dropped": 0,
+  "abstained_by_validator": false
+ },
+ "evidence": [
+  {
+   "id": "E1",
+   "uid": "storefront.log:30",
+   "ts": "2026-01-29T11:12:43Z",
+   "severity": "ERROR",
+   "component": "storefront",
+   "source": "storefront.log",
+   "line_no": 30,
+   "message": "returned 503 to client: dependency cart-svc failed rid=3defcb7f",
+   "step": 0,
+   "tool": "incident",
+   "tokens": 55,
+   "suspicious": false
+  },
+  {
+   "id": "E2",
+   "uid": "cart-svc.log:31",
+   "ts": "2026-01-29T11:12:42Z",
+   "severity": "FATAL",
+   "component": "cart-svc",
+   "source": "cart-svc.log",
+   "line_no": 31,
+   "message": "JVM terminated by OOM killer",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 45,
+   "suspicious": false
+  },
+  {
+   "id": "E3",
+   "uid": "cart-svc.log:30",
+   "ts": "2026-01-29T11:12:40Z",
+   "severity": "ERROR",
+   "component": "cart-svc",
+   "source": "cart-svc.log",
+   "line_no": 30,
+   "message": "java.lang.OutOfMemoryError: Java heap space",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 48,
+   "suspicious": false
+  },
+  {
+   "id": "E4",
+   "uid": "storefront.log:35",
+   "ts": "2026-01-29T11:12:55Z",
+   "severity": "ERROR",
+   "component": "storefront",
+   "source": "storefront.log",
+   "line_no": 35,
+   "message": "HTTP 502 Bad Gateway from cart-svc rid=f67bca9b",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 54,
+   "suspicious": false
+  },
+  {
+   "id": "E5",
+   "uid": "storefront.log:13",
+   "ts": "2026-01-29T11:09:58Z",
+   "severity": "WARN",
+   "component": "storefront",
+   "source": "storefront.log",
+   "line_no": 13,
+   "message": "GC pause 68ms (young gen)",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 44,
+   "suspicious": false
+  },
+  {
+   "id": "E6",
+   "uid": "pricing-svc.log:19",
+   "ts": "2026-01-29T11:10:52Z",
+   "severity": "WARN",
+   "component": "pricing-svc",
+   "source": "pricing-svc.log",
+   "line_no": 19,
+   "message": "slow request 720ms rid=a20c3219",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 54,
+   "suspicious": false
+  },
+  {
+   "id": "E7",
+   "uid": "cart-svc.log:25",
+   "ts": "2026-01-29T11:12:00Z",
+   "severity": "WARN",
+   "component": "cart-svc",
+   "source": "cart-svc.log",
+   "line_no": 25,
+   "message": "heap usage 96% after full GC",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 47,
+   "suspicious": false
+  },
+  {
+   "id": "E8",
+   "uid": "inventory-db.log:25",
+   "ts": "2026-01-29T11:12:00Z",
+   "severity": "WARN",
+   "component": "inventory-db",
+   "source": "inventory-db.log",
+   "line_no": 25,
+   "message": "slow request 100ms rid=f430d5ed",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 51,
+   "suspicious": false
+  },
+  {
+   "id": "E9",
+   "uid": "cart-svc.log:34",
+   "ts": "2026-01-29T11:12:55Z",
+   "severity": "WARN",
+   "component": "cart-svc",
+   "source": "cart-svc.log",
+   "line_no": 34,
+   "message": "slow request 190ms rid=b809ebc5",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 53,
+   "suspicious": false
+  },
+  {
+   "id": "E10",
+   "uid": "pricing-svc.log:36",
+   "ts": "2026-01-29T11:13:30Z",
+   "severity": "WARN",
+   "component": "pricing-svc",
+   "source": "pricing-svc.log",
+   "line_no": 36,
+   "message": "GC pause 15ms (young gen)",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 48,
+   "suspicious": false
+  },
+  {
+   "id": "E11",
+   "uid": "metrics-agent.log:40",
+   "ts": "2026-01-29T11:14:26Z",
+   "severity": "WARN",
+   "component": "metrics-agent",
+   "source": "metrics-agent.log",
+   "line_no": 40,
+   "message": "GC pause 43ms (young gen)",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 46,
+   "suspicious": false
+  },
+  {
+   "id": "E12",
+   "uid": "session-svc.log:40",
+   "ts": "2026-01-29T11:14:28Z",
+   "severity": "WARN",
+   "component": "session-svc",
+   "source": "session-svc.log",
+   "line_no": 40,
+   "message": "GC pause 74ms (young gen)",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 48,
+   "suspicious": false
+  },
+  {
+   "id": "E13",
+   "uid": "storefront.log:1",
+   "ts": "2026-01-29T11:07:58Z",
+   "severity": "INFO",
+   "component": "storefront",
+   "source": "storefront.log",
+   "line_no": 1,
+   "message": "health check passed in 19ms",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 43,
+   "suspicious": false
+  },
+  {
+   "id": "E14",
+   "uid": "pricing-svc.log:1",
+   "ts": "2026-01-29T11:07:59Z",
+   "severity": "INFO",
+   "component": "pricing-svc",
+   "source": "pricing-svc.log",
+   "line_no": 1,
+   "message": "health check passed in 21ms",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 46,
+   "suspicious": false
+  },
+  {
+   "id": "E15",
+   "uid": "session-svc.log:1",
+   "ts": "2026-01-29T11:07:59Z",
+   "severity": "INFO",
+   "component": "session-svc",
+   "source": "session-svc.log",
+   "line_no": 1,
+   "message": "request completed in 58ms status=200 rid=50eb9847",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 59,
+   "suspicious": false
+  },
+  {
+   "id": "E16",
+   "uid": "metrics-agent.log:1",
+   "ts": "2026-01-29T11:08:00Z",
+   "severity": "INFO",
+   "component": "metrics-agent",
+   "source": "metrics-agent.log",
+   "line_no": 1,
+   "message": "request completed in 23ms status=200 rid=aaf1149c",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 56,
+   "suspicious": false
+  },
+  {
+   "id": "E17",
+   "uid": "cart-svc.log:1",
+   "ts": "2026-01-29T11:08:02Z",
+   "severity": "INFO",
+   "component": "cart-svc",
+   "source": "cart-svc.log",
+   "line_no": 1,
+   "message": "health check passed in 48ms",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 46,
+   "suspicious": false
+  },
+  {
+   "id": "E18",
+   "uid": "inventory-db.log:1",
+   "ts": "2026-01-29T11:08:04Z",
+   "severity": "INFO",
+   "component": "inventory-db",
+   "source": "inventory-db.log",
+   "line_no": 1,
+   "message": "request completed in 43ms status=200 rid=f9eef961",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 56,
+   "suspicious": false
+  },
+  {
+   "id": "E19",
+   "uid": "session-svc.log:2",
+   "ts": "2026-01-29T11:08:06Z",
+   "severity": "INFO",
+   "component": "session-svc",
+   "source": "session-svc.log",
+   "line_no": 2,
+   "message": "health check passed in 36ms",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 46,
+   "suspicious": false
+  },
+  {
+   "id": "E20",
+   "uid": "storefront.log:2",
+   "ts": "2026-01-29T11:08:10Z",
+   "severity": "INFO",
+   "component": "storefront",
+   "source": "storefront.log",
+   "line_no": 2,
+   "message": "request completed in 35ms status=200 rid=6996304e",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 57,
+   "suspicious": false
+  },
+  {
+   "id": "E21",
+   "uid": "pricing-svc.log:2",
+   "ts": "2026-01-29T11:08:12Z",
+   "severity": "INFO",
+   "component": "pricing-svc",
+   "source": "pricing-svc.log",
+   "line_no": 2,
+   "message": "request completed in 29ms status=200 rid=ae539165",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 59,
+   "suspicious": false
+  },
+  {
+   "id": "E22",
+   "uid": "cart-svc.log:3",
+   "ts": "2026-01-29T11:08:23Z",
+   "severity": "INFO",
+   "component": "cart-svc",
+   "source": "cart-svc.log",
+   "line_no": 3,
+   "message": "request completed in 65ms status=200 rid=c0c01c5e",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 59,
+   "suspicious": false
+  },
+  {
+   "id": "E23",
+   "uid": "metrics-agent.log:3",
+   "ts": "2026-01-29T11:08:28Z",
+   "severity": "INFO",
+   "component": "metrics-agent",
+   "source": "metrics-agent.log",
+   "line_no": 3,
+   "message": "health check passed in 93ms",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 44,
+   "suspicious": false
+  },
+  {
+   "id": "E24",
+   "uid": "inventory-db.log:4",
+   "ts": "2026-01-29T11:08:32Z",
+   "severity": "INFO",
+   "component": "inventory-db",
+   "source": "inventory-db.log",
+   "line_no": 4,
+   "message": "health check passed in 9ms",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 43,
+   "suspicious": false
+  }
+ ],
+ "tool_calls": [],
+ "metrics": {
+  "evidence_token_budget": 3000,
+  "unique_evidence_tokens": 1207,
+  "unique_evidence_items": 24,
+  "repeated_exposures": 1,
+  "repeated_exposure_tokens": 55,
+  "llm_calls": 1,
+  "prompt_tokens_total": 1571,
+  "output_tokens_total": 429,
+  "llm_seconds": 402.795,
+  "wall_seconds": 402.97,
+  "steps": 1,
+  "tool_calls": 0,
+  "blocked_tool_calls": 0,
+  "gate_rounds": 0,
+  "parse_failures": 0,
+  "cpu_seconds": 1157.8299999999945,
+  "peak_rss_mb": 15088.742400000001,
+  "mean_cpu_percent": 287.27099697885194
+ }
+}

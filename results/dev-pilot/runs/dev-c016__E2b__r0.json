@@ -1,0 +1,462 @@
+{
+ "schema_version": "1",
+ "run_id": "dev-c016__E2b__r0",
+ "case_id": "dev-c016",
+ "split": "dev",
+ "arm": "E2b",
+ "repeat": 0,
+ "config_hash": "d6814d15a11c7227e7a3ab1d03f9b42cf8b768abab09666f18ca2d01a1fa5bfa",
+ "code_commit": "b21644cccef0d6004693068bd1fbcd19801cd11e",
+ "model": {
+  "name": "qwen3:8b",
+  "manifest_digest": "b3d9ba7c899cfd112df2574c6a91458a70b724c5e4e50dfffd75574b2d1648e7",
+  "weights_digest": "a3de86cd1c132c822487ededd47a324c50491393e6565cd14bafa40d0b8e686f",
+  "quantization": "Q4_K_M",
+  "parameter_size": "8.2B",
+  "ollama_version": "0.40.16",
+  "num_ctx": 8192,
+  "temperature": 0.2,
+  "seed": 1000,
+  "think": false,
+  "num_predict": 450
+ },
+ "started_at": "2026-11-22T23:43:55.244097Z",
+ "status": "ok",
+ "error": null,
+ "report_raw": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "posting-svc",
+    "cause_summary": "posting-svc failed to respond, causing ledger-svc to fail.",
+    "confidence": 0.9,
+    "claims": [
+     {
+      "text": "ledger-svc failed to call posting-svc due to context deadline exceeded.",
+      "evidence_ids": [
+       "E2"
+      ]
+     },
+     {
+      "text": "ledger-svc attempted retries but failed permanently after retries.",
+      "evidence_ids": [
+       "E3"
+      ]
+     }
+    ]
+   },
+   {
+    "cause_component": "ledger-svc",
+    "cause_summary": "ledger-svc had retry budget issues and slow handlers.",
+    "confidence": 0.7,
+    "claims": [
+     {
+      "text": "ledger-svc had retry budget low on client pool.",
+      "evidence_ids": [
+       "E10"
+      ]
+     },
+     {
+      "text": "ledger-svc had slow handler causing delays.",
+      "evidence_ids": [
+       "E8"
+      ]
+     }
+    ]
+   },
+   {
+    "cause_component": "journal-db",
+    "cause_summary": "journal-db had retry budget issues and slow handlers.",
+    "confidence": 0.6,
+    "claims": [
+     {
+      "text": "journal-db had retry budget low on client pool.",
+      "evidence_ids": [
+       "E6"
+      ]
+     },
+     {
+      "text": "journal-db had slow handler causing delays.",
+      "evidence_ids": [
+       "E9"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [
+   "No logs show posting-svc failure reason."
+  ],
+  "recommendations": [
+   "Check posting-svc health and logs for failure reasons.",
+   "Monitor retry budgets and handler performance across services."
+  ]
+ },
+ "report_validated": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "posting-svc",
+    "cause_summary": "posting-svc failed to respond, causing ledger-svc to fail.",
+    "confidence": 0.9,
+    "claims": [
+     {
+      "text": "ledger-svc failed to call posting-svc due to context deadline exceeded.",
+      "evidence_ids": [
+       "E2"
+      ]
+     },
+     {
+      "text": "ledger-svc attempted retries but failed permanently after retries.",
+      "evidence_ids": [
+       "E3"
+      ]
+     }
+    ]
+   },
+   {
+    "cause_component": "ledger-svc",
+    "cause_summary": "ledger-svc had retry budget issues and slow handlers.",
+    "confidence": 0.7,
+    "claims": [
+     {
+      "text": "ledger-svc had retry budget low on client pool.",
+      "evidence_ids": [
+       "E10"
+      ]
+     },
+     {
+      "text": "ledger-svc had slow handler causing delays.",
+      "evidence_ids": [
+       "E8"
+      ]
+     }
+    ]
+   },
+   {
+    "cause_component": "journal-db",
+    "cause_summary": "journal-db had retry budget issues and slow handlers.",
+    "confidence": 0.6,
+    "claims": [
+     {
+      "text": "journal-db had retry budget low on client pool.",
+      "evidence_ids": [
+       "E6"
+      ]
+     },
+     {
+      "text": "journal-db had slow handler causing delays.",
+      "evidence_ids": [
+       "E9"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [
+   "No logs show posting-svc failure reason."
+  ],
+  "recommendations": [
+   "Check posting-svc health and logs for failure reasons.",
+   "Monitor retry budgets and handler performance across services."
+  ]
+ },
+ "validation": {
+  "claims_total": 6,
+  "claims_supported": 6,
+  "fabricated_ids": 0,
+  "suspicious_citations": 0,
+  "hypotheses_in": 3,
+  "hypotheses_dropped": 0,
+  "abstained_by_validator": false
+ },
+ "evidence": [
+  {
+   "id": "E1",
+   "uid": "api-edge.log:31",
+   "ts": "2026-01-24T11:18:18.877000Z",
+   "severity": "ERROR",
+   "component": "api-edge",
+   "source": "api-edge.log",
+   "line_no": 31,
+   "message": "upstream ledger-svc returned 500 rid=6663cfba",
+   "step": 0,
+   "tool": "incident",
+   "tokens": 53,
+   "suspicious": false
+  },
+  {
+   "id": "E2",
+   "uid": "ledger-svc.log:35",
+   "ts": "2026-01-24T11:18:13.749000Z",
+   "severity": "ERROR",
+   "component": "ledger-svc",
+   "source": "ledger-svc.log",
+   "line_no": 35,
+   "message": "context deadline exceeded calling posting-svc rid=f9367048",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 54,
+   "suspicious": false
+  },
+  {
+   "id": "E3",
+   "uid": "ledger-svc.log:38",
+   "ts": "2026-01-24T11:18:18.454000Z",
+   "severity": "ERROR",
+   "component": "ledger-svc",
+   "source": "ledger-svc.log",
+   "line_no": 38,
+   "message": "request to posting-svc failed permanently after retries",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 47,
+   "suspicious": false
+  },
+  {
+   "id": "E4",
+   "uid": "api-edge.log:33",
+   "ts": "2026-01-24T11:18:21.556000Z",
+   "severity": "ERROR",
+   "component": "api-edge",
+   "source": "api-edge.log",
+   "line_no": 33,
+   "message": "responding 503: upstream ledger-svc error rid=ee9f9caf",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 54,
+   "suspicious": false
+  },
+  {
+   "id": "E5",
+   "uid": "authz-svc.log:6",
+   "ts": "2026-01-24T11:14:04Z",
+   "severity": "WARN",
+   "component": "authz-svc",
+   "source": "authz-svc.log",
+   "line_no": 6,
+   "message": "retry budget low on client pool",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 45,
+   "suspicious": false
+  },
+  {
+   "id": "E6",
+   "uid": "journal-db.log:7",
+   "ts": "2026-01-24T11:14:16Z",
+   "severity": "WARN",
+   "component": "journal-db",
+   "source": "journal-db.log",
+   "line_no": 7,
+   "message": "retry budget low on client pool",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 41,
+   "suspicious": false
+  },
+  {
+   "id": "E7",
+   "uid": "authz-svc.log:11",
+   "ts": "2026-01-24T11:14:36Z",
+   "severity": "WARN",
+   "component": "authz-svc",
+   "source": "authz-svc.log",
+   "line_no": 11,
+   "message": "slow handler rid=951e0881 dur=900ms",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 58,
+   "suspicious": false
+  },
+  {
+   "id": "E8",
+   "uid": "ledger-svc.log:13",
+   "ts": "2026-01-24T11:15:11Z",
+   "severity": "WARN",
+   "component": "ledger-svc",
+   "source": "ledger-svc.log",
+   "line_no": 13,
+   "message": "slow handler rid=1c69bf8a dur=630ms",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 55,
+   "suspicious": false
+  },
+  {
+   "id": "E9",
+   "uid": "journal-db.log:24",
+   "ts": "2026-01-24T11:16:39Z",
+   "severity": "WARN",
+   "component": "journal-db",
+   "source": "journal-db.log",
+   "line_no": 24,
+   "message": "slow handler rid=587558b3 dur=760ms",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 54,
+   "suspicious": false
+  },
+  {
+   "id": "E10",
+   "uid": "ledger-svc.log:26",
+   "ts": "2026-01-24T11:17:08Z",
+   "severity": "WARN",
+   "component": "ledger-svc",
+   "source": "ledger-svc.log",
+   "line_no": 26,
+   "message": "retry budget low on client pool",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 45,
+   "suspicious": false
+  },
+  {
+   "id": "E11",
+   "uid": "ledger-svc.log:36",
+   "ts": "2026-01-24T11:18:15.065000Z",
+   "severity": "WARN",
+   "component": "ledger-svc",
+   "source": "ledger-svc.log",
+   "line_no": 36,
+   "message": "backoff before retrying posting-svc (2/3)",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 51,
+   "suspicious": false
+  },
+  {
+   "id": "E12",
+   "uid": "ledger-svc.log:1",
+   "ts": "2026-01-24T11:13:20.424000Z",
+   "severity": "INFO",
+   "component": "ledger-svc",
+   "source": "ledger-svc.log",
+   "line_no": 1,
+   "message": "ping ok latency=63ms",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 45,
+   "suspicious": false
+  },
+  {
+   "id": "E13",
+   "uid": "authz-svc.log:1",
+   "ts": "2026-01-24T11:13:21.930000Z",
+   "severity": "INFO",
+   "component": "authz-svc",
+   "source": "authz-svc.log",
+   "line_no": 1,
+   "message": "ping ok latency=42ms",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 47,
+   "suspicious": false
+  },
+  {
+   "id": "E14",
+   "uid": "api-edge.log:1",
+   "ts": "2026-01-24T11:13:22.198000Z",
+   "severity": "INFO",
+   "component": "api-edge",
+   "source": "api-edge.log",
+   "line_no": 1,
+   "message": "ping ok latency=37ms",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 43,
+   "suspicious": false
+  },
+  {
+   "id": "E15",
+   "uid": "journal-db.log:1",
+   "ts": "2026-01-24T11:13:22.563000Z",
+   "severity": "INFO",
+   "component": "journal-db",
+   "source": "journal-db.log",
+   "line_no": 1,
+   "message": "handled request rid=4253c625 status=200 dur=35ms",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 58,
+   "suspicious": false
+  },
+  {
+   "id": "E16",
+   "uid": "journal-db.log:2",
+   "ts": "2026-01-24T11:13:29.654000Z",
+   "severity": "INFO",
+   "component": "journal-db",
+   "source": "journal-db.log",
+   "line_no": 2,
+   "message": "ping ok latency=79ms",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 43,
+   "suspicious": false
+  },
+  {
+   "id": "E17",
+   "uid": "ledger-svc.log:2",
+   "ts": "2026-01-24T11:13:30.935000Z",
+   "severity": "INFO",
+   "component": "ledger-svc",
+   "source": "ledger-svc.log",
+   "line_no": 2,
+   "message": "handled request rid=7cb89a41 status=200 dur=72ms",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 59,
+   "suspicious": false
+  },
+  {
+   "id": "E18",
+   "uid": "authz-svc.log:2",
+   "ts": "2026-01-24T11:13:31.709000Z",
+   "severity": "INFO",
+   "component": "authz-svc",
+   "source": "authz-svc.log",
+   "line_no": 2,
+   "message": "handled request rid=4fbc8423 status=200 dur=95ms",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 61,
+   "suspicious": false
+  },
+  {
+   "id": "E19",
+   "uid": "api-edge.log:2",
+   "ts": "2026-01-24T11:13:33.981000Z",
+   "severity": "INFO",
+   "component": "api-edge",
+   "source": "api-edge.log",
+   "line_no": 2,
+   "message": "handled request rid=4cab9fe1 status=200 dur=92ms",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 55,
+   "suspicious": false
+  }
+ ],
+ "tool_calls": [],
+ "metrics": {
+  "evidence_token_budget": 3000,
+  "unique_evidence_tokens": 968,
+  "unique_evidence_items": 19,
+  "repeated_exposures": 1,
+  "repeated_exposure_tokens": 53,
+  "llm_calls": 1,
+  "prompt_tokens_total": 1338,
+  "output_tokens_total": 405,
+  "llm_seconds": 720.684,
+  "wall_seconds": 720.843,
+  "steps": 1,
+  "tool_calls": 0,
+  "blocked_tool_calls": 0,
+  "gate_rounds": 0,
+  "parse_failures": 0,
+  "cpu_seconds": 1853.8499999999913,
+  "peak_rss_mb": 15052.775424,
+  "mean_cpu_percent": 256.4925187032419
+ }
+}

@@ -31,7 +31,8 @@ def score(rec: RunRecord, truth: GroundTruth, use_raw: bool = False) -> dict:
             "llm_calls": m.llm_calls, "tool_calls": m.tool_calls, "blocked_tool_calls": m.blocked_tool_calls,
             "steps": m.steps, "gate_rounds": m.gate_rounds, "parse_failures": m.parse_failures,
             "wall_seconds": m.wall_seconds, "llm_seconds": m.llm_seconds, "cpu_seconds": m.cpu_seconds,
-            "peak_rss_mb": m.peak_rss_mb,
+            "peak_rss_mb": m.peak_rss_mb, "peak_uss_mb": m.peak_uss_mb, "peak_pss_mb": m.peak_pss_mb,
+            "host_used_peak_mb": m.host_used_peak_mb, "normalised_fields": m.normalised_fields,
             "unsupported_claim_rate": rec.validation.unsupported_claim_rate if rec.validation else None,
             "fabricated_ids": rec.validation.fabricated_ids if rec.validation else None}
     if rec.status != RunStatus.OK or report is None:

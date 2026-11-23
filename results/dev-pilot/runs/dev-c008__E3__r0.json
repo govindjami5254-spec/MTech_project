@@ -1,0 +1,1132 @@
+{
+ "schema_version": "1",
+ "run_id": "dev-c008__E3__r0",
+ "case_id": "dev-c008",
+ "split": "dev",
+ "arm": "E3",
+ "repeat": 0,
+ "config_hash": "d6814d15a11c7227e7a3ab1d03f9b42cf8b768abab09666f18ca2d01a1fa5bfa",
+ "code_commit": "b21644cccef0d6004693068bd1fbcd19801cd11e",
+ "model": {
+  "name": "qwen3:8b",
+  "manifest_digest": "b3d9ba7c899cfd112df2574c6a91458a70b724c5e4e50dfffd75574b2d1648e7",
+  "weights_digest": "a3de86cd1c132c822487ededd47a324c50491393e6565cd14bafa40d0b8e686f",
+  "quantization": "Q4_K_M",
+  "parameter_size": "8.2B",
+  "ollama_version": "0.40.16",
+  "num_ctx": 8192,
+  "temperature": 0.2,
+  "seed": 1000,
+  "think": false,
+  "num_predict": 450
+ },
+ "started_at": "2026-11-22T19:55:53.273775Z",
+ "status": "ok",
+ "error": null,
+ "report_raw": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "posting-svc",
+    "cause_summary": "Connection pool exhausted due to high usage",
+    "confidence": 0.95,
+    "claims": [
+     {
+      "text": "Posting-svc connection pool usage reached 98%",
+      "evidence_ids": [
+       "E9"
+      ]
+     },
+     {
+      "text": "Posting-svc rejected requests due to connection pool exhaustion",
+      "evidence_ids": [
+       "E21"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [
+   "No logs show why posting-svc connection pool became exhausted"
+  ],
+  "recommendations": [
+   "Check if posting-svc's connection pool was configured correctly",
+   "Investigate if there was a surge in requests to posting-svc"
+  ]
+ },
+ "report_validated": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "posting-svc",
+    "cause_summary": "Connection pool exhausted due to high usage",
+    "confidence": 0.95,
+    "claims": [
+     {
+      "text": "Posting-svc connection pool usage reached 98%",
+      "evidence_ids": [
+       "E9"
+      ]
+     },
+     {
+      "text": "Posting-svc rejected requests due to connection pool exhaustion",
+      "evidence_ids": [
+       "E21"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [
+   "No logs show why posting-svc connection pool became exhausted"
+  ],
+  "recommendations": [
+   "Check if posting-svc's connection pool was configured correctly",
+   "Investigate if there was a surge in requests to posting-svc"
+  ]
+ },
+ "validation": {
+  "claims_total": 2,
+  "claims_supported": 2,
+  "fabricated_ids": 0,
+  "suspicious_citations": 0,
+  "hypotheses_in": 1,
+  "hypotheses_dropped": 0,
+  "abstained_by_validator": false
+ },
+ "evidence": [
+  {
+   "id": "E1",
+   "uid": "api-edge.log:33",
+   "ts": "2026-01-16T11:08:46Z",
+   "severity": "ERROR",
+   "component": "api-edge",
+   "source": "api-edge.log",
+   "line_no": 33,
+   "message": "HTTP 502 Bad Gateway from ledger-svc rid=fbc17de5",
+   "step": 0,
+   "tool": "incident",
+   "tokens": 54,
+   "suspicious": false
+  },
+  {
+   "id": "E2",
+   "uid": "audit-shipper.log:2",
+   "ts": "2026-01-16T11:03:22Z",
+   "severity": "WARN",
+   "component": "audit-shipper",
+   "source": "audit-shipper.log",
+   "line_no": 2,
+   "message": "metrics push delayed 61ms (buffer 80%)",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 52,
+   "suspicious": false
+  },
+  {
+   "id": "E3",
+   "uid": "audit-shipper.log:3",
+   "ts": "2026-01-16T11:03:25Z",
+   "severity": "WARN",
+   "component": "audit-shipper",
+   "source": "audit-shipper.log",
+   "line_no": 3,
+   "message": "metrics push delayed 20ms (buffer 80%)",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 52,
+   "suspicious": false
+  },
+  {
+   "id": "E4",
+   "uid": "cron-runner.log:3",
+   "ts": "2026-01-16T11:03:34Z",
+   "severity": "WARN",
+   "component": "cron-runner",
+   "source": "cron-runner.log",
+   "line_no": 3,
+   "message": "queue lag 0 messages on topic events",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 43,
+   "suspicious": false
+  },
+  {
+   "id": "E5",
+   "uid": "cron-runner.log:4",
+   "ts": "2026-01-16T11:03:36Z",
+   "severity": "WARN",
+   "component": "cron-runner",
+   "source": "cron-runner.log",
+   "line_no": 4,
+   "message": "queue lag 0 messages on topic events",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 43,
+   "suspicious": false
+  },
+  {
+   "id": "E6",
+   "uid": "authz-db.log:5",
+   "ts": "2026-01-16T11:03:57Z",
+   "severity": "WARN",
+   "component": "authz-db",
+   "source": "authz-db.log",
+   "line_no": 5,
+   "message": "GC pause 59ms (young gen)",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 46,
+   "suspicious": false
+  },
+  {
+   "id": "E7",
+   "uid": "ledger-svc.log:8",
+   "ts": "2026-01-16T11:04:21Z",
+   "severity": "WARN",
+   "component": "ledger-svc",
+   "source": "ledger-svc.log",
+   "line_no": 8,
+   "message": "slow request 120ms rid=0f97effa",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 52,
+   "suspicious": false
+  },
+  {
+   "id": "E8",
+   "uid": "posting-svc.log:25",
+   "ts": "2026-01-16T11:07:13Z",
+   "severity": "WARN",
+   "component": "posting-svc",
+   "source": "posting-svc.log",
+   "line_no": 25,
+   "message": "slow request 90ms rid=b193d131",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 53,
+   "suspicious": false
+  },
+  {
+   "id": "E9",
+   "uid": "posting-svc.log:31",
+   "ts": "2026-01-16T11:08:06Z",
+   "severity": "WARN",
+   "component": "posting-svc",
+   "source": "posting-svc.log",
+   "line_no": 31,
+   "message": "connection pool usage 98% (active=65)",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 50,
+   "suspicious": false
+  },
+  {
+   "id": "E10",
+   "uid": "ledger-svc.log:36",
+   "ts": "2026-01-16T11:08:39Z",
+   "severity": "ERROR",
+   "component": "ledger-svc",
+   "source": "ledger-svc.log",
+   "line_no": 36,
+   "message": "java.net.ConnectException: Connection refused to posting-svc:9003 rid=21af62ba",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 63,
+   "suspicious": false
+  },
+  {
+   "id": "E11",
+   "uid": "api-edge.log:34",
+   "ts": "2026-01-16T11:08:46Z",
+   "severity": "ERROR",
+   "component": "api-edge",
+   "source": "api-edge.log",
+   "line_no": 34,
+   "message": "HTTP 502 Bad Gateway from ledger-svc rid=496a69a9",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 58,
+   "suspicious": false
+  },
+  {
+   "id": "E12",
+   "uid": "ledger-svc.log:38",
+   "ts": "2026-01-16T11:08:41Z",
+   "severity": "WARN",
+   "component": "ledger-svc",
+   "source": "ledger-svc.log",
+   "line_no": 38,
+   "message": "retrying call to posting-svc (attempt 2/3)",
+   "step": 2,
+   "tool": "search_logs",
+   "tokens": 52,
+   "suspicious": false
+  },
+  {
+   "id": "E13",
+   "uid": "ledger-svc.log:39",
+   "ts": "2026-01-16T11:08:44Z",
+   "severity": "ERROR",
+   "component": "ledger-svc",
+   "source": "ledger-svc.log",
+   "line_no": 39,
+   "message": "giving up on posting-svc after 3 attempts",
+   "step": 2,
+   "tool": "search_logs",
+   "tokens": 49,
+   "suspicious": false
+  },
+  {
+   "id": "E14",
+   "uid": "ledger-svc.log:40",
+   "ts": "2026-01-16T11:08:45Z",
+   "severity": "ERROR",
+   "component": "ledger-svc",
+   "source": "ledger-svc.log",
+   "line_no": 40,
+   "message": "call to posting-svc failed: HTTP 503 rid=bdc01399",
+   "step": 2,
+   "tool": "search_logs",
+   "tokens": 59,
+   "suspicious": false
+  },
+  {
+   "id": "E15",
+   "uid": "ledger-svc.log:41",
+   "ts": "2026-01-16T11:08:47Z",
+   "severity": "ERROR",
+   "component": "ledger-svc",
+   "source": "ledger-svc.log",
+   "line_no": 41,
+   "message": "java.net.ConnectException: Connection refused to posting-svc:9003 rid=737dbd65",
+   "step": 2,
+   "tool": "search_logs",
+   "tokens": 64,
+   "suspicious": false
+  },
+  {
+   "id": "E16",
+   "uid": "ledger-svc.log:42",
+   "ts": "2026-01-16T11:08:49Z",
+   "severity": "ERROR",
+   "component": "ledger-svc",
+   "source": "ledger-svc.log",
+   "line_no": 42,
+   "message": "call to posting-svc failed: HTTP 503 rid=f66bd164",
+   "step": 2,
+   "tool": "search_logs",
+   "tokens": 59,
+   "suspicious": false
+  },
+  {
+   "id": "E17",
+   "uid": "ledger-svc.log:43",
+   "ts": "2026-01-16T11:08:50Z",
+   "severity": "ERROR",
+   "component": "ledger-svc",
+   "source": "ledger-svc.log",
+   "line_no": 43,
+   "message": "java.net.ConnectException: Connection refused to posting-svc:9003 rid=7e1ff4ff",
+   "step": 2,
+   "tool": "search_logs",
+   "tokens": 63,
+   "suspicious": false
+  },
+  {
+   "id": "E18",
+   "uid": "ledger-svc.log:44",
+   "ts": "2026-01-16T11:08:52Z",
+   "severity": "ERROR",
+   "component": "ledger-svc",
+   "source": "ledger-svc.log",
+   "line_no": 44,
+   "message": "java.net.ConnectException: Connection refused to posting-svc:9003 rid=9e5a8434",
+   "step": 2,
+   "tool": "search_logs",
+   "tokens": 65,
+   "suspicious": false
+  },
+  {
+   "id": "E19",
+   "uid": "ledger-svc.log:45",
+   "ts": "2026-01-16T11:08:54Z",
+   "severity": "ERROR",
+   "component": "ledger-svc",
+   "source": "ledger-svc.log",
+   "line_no": 45,
+   "message": "call to posting-svc failed: HTTP 503 rid=eea525c4",
+   "step": 2,
+   "tool": "search_logs",
+   "tokens": 59,
+   "suspicious": false
+  },
+  {
+   "id": "E20",
+   "uid": "posting-svc.log:35",
+   "ts": "2026-01-16T11:08:36Z",
+   "severity": "ERROR",
+   "component": "posting-svc",
+   "source": "posting-svc.log",
+   "line_no": 35,
+   "message": "HikariPool: connection is not available, request timed out",
+   "step": 3,
+   "tool": "search_logs",
+   "tokens": 52,
+   "suspicious": false
+  },
+  {
+   "id": "E21",
+   "uid": "posting-svc.log:36",
+   "ts": "2026-01-16T11:08:41Z",
+   "severity": "ERROR",
+   "component": "posting-svc",
+   "source": "posting-svc.log",
+   "line_no": 36,
+   "message": "rejecting requests: connection pool exhausted",
+   "step": 3,
+   "tool": "search_logs",
+   "tokens": 45,
+   "suspicious": false
+  },
+  {
+   "id": "E22",
+   "uid": "api-edge.log:31",
+   "ts": "2026-01-16T11:08:37Z",
+   "severity": "INFO",
+   "component": "api-edge",
+   "source": "api-edge.log",
+   "line_no": 31,
+   "message": "request completed in 30ms status=200 rid=f6f55570",
+   "step": 4,
+   "tool": "get_context",
+   "tokens": 58,
+   "suspicious": false
+  },
+  {
+   "id": "E23",
+   "uid": "audit-shipper.log:163",
+   "ts": "2026-01-16T11:08:38Z",
+   "severity": "INFO",
+   "component": "audit-shipper",
+   "source": "audit-shipper.log",
+   "line_no": 163,
+   "message": "request completed in 8ms status=200 rid=e9f4fd98",
+   "step": 4,
+   "tool": "get_context",
+   "tokens": 61,
+   "suspicious": false
+  },
+  {
+   "id": "E24",
+   "uid": "audit-shipper.log:164",
+   "ts": "2026-01-16T11:08:38Z",
+   "severity": "WARN",
+   "component": "audit-shipper",
+   "source": "audit-shipper.log",
+   "line_no": 164,
+   "message": "metrics push delayed 57ms (buffer 80%)",
+   "step": 4,
+   "tool": "get_context",
+   "tokens": 55,
+   "suspicious": false
+  },
+  {
+   "id": "E25",
+   "uid": "cron-runner.log:150",
+   "ts": "2026-01-16T11:08:40Z",
+   "severity": "WARN",
+   "component": "cron-runner",
+   "source": "cron-runner.log",
+   "line_no": 150,
+   "message": "queue lag 0 messages on topic events",
+   "step": 4,
+   "tool": "get_context",
+   "tokens": 46,
+   "suspicious": false
+  },
+  {
+   "id": "E26",
+   "uid": "journal-db.log:35",
+   "ts": "2026-01-16T11:08:40Z",
+   "severity": "INFO",
+   "component": "journal-db",
+   "source": "journal-db.log",
+   "line_no": 35,
+   "message": "health check passed in 36ms",
+   "step": 4,
+   "tool": "get_context",
+   "tokens": 45,
+   "suspicious": false
+  },
+  {
+   "id": "E27",
+   "uid": "audit-shipper.log:165",
+   "ts": "2026-01-16T11:08:41Z",
+   "severity": "WARN",
+   "component": "audit-shipper",
+   "source": "audit-shipper.log",
+   "line_no": 165,
+   "message": "metrics push delayed 25ms (buffer 80%)",
+   "step": 4,
+   "tool": "get_context",
+   "tokens": 55,
+   "suspicious": false
+  },
+  {
+   "id": "E28",
+   "uid": "cron-runner.log:151",
+   "ts": "2026-01-16T11:08:41Z",
+   "severity": "WARN",
+   "component": "cron-runner",
+   "source": "cron-runner.log",
+   "line_no": 151,
+   "message": "queue lag 0 messages on topic events",
+   "step": 5,
+   "tool": "get_context",
+   "tokens": 46,
+   "suspicious": false
+  },
+  {
+   "id": "E29",
+   "uid": "ledger-svc.log:37",
+   "ts": "2026-01-16T11:08:41Z",
+   "severity": "INFO",
+   "component": "ledger-svc",
+   "source": "ledger-svc.log",
+   "line_no": 37,
+   "message": "health check passed in 14ms",
+   "step": 5,
+   "tool": "get_context",
+   "tokens": 47,
+   "suspicious": false
+  },
+  {
+   "id": "E30",
+   "uid": "posting-svc.log:37",
+   "ts": "2026-01-16T11:08:42Z",
+   "severity": "INFO",
+   "component": "posting-svc",
+   "source": "posting-svc.log",
+   "line_no": 37,
+   "message": "health check passed in 41ms",
+   "step": 5,
+   "tool": "get_context",
+   "tokens": 47,
+   "suspicious": false
+  },
+  {
+   "id": "E31",
+   "uid": "api-edge.log:32",
+   "ts": "2026-01-16T11:08:43Z",
+   "severity": "INFO",
+   "component": "api-edge",
+   "source": "api-edge.log",
+   "line_no": 32,
+   "message": "request completed in 26ms status=200 rid=03922754",
+   "step": 5,
+   "tool": "get_context",
+   "tokens": 59,
+   "suspicious": false
+  },
+  {
+   "id": "E32",
+   "uid": "cron-runner.log:152",
+   "ts": "2026-01-16T11:08:43Z",
+   "severity": "INFO",
+   "component": "cron-runner",
+   "source": "cron-runner.log",
+   "line_no": 152,
+   "message": "health check passed in 48ms",
+   "step": 5,
+   "tool": "get_context",
+   "tokens": 46,
+   "suspicious": false
+  },
+  {
+   "id": "E33",
+   "uid": "authz-db.log:31",
+   "ts": "2026-01-16T11:08:36Z",
+   "severity": "INFO",
+   "component": "authz-db",
+   "source": "authz-db.log",
+   "line_no": 31,
+   "message": "health check passed in 37ms",
+   "step": 6,
+   "tool": "get_context",
+   "tokens": 47,
+   "suspicious": false
+  },
+  {
+   "id": "E34",
+   "uid": "cron-runner.log:149",
+   "ts": "2026-01-16T11:08:36Z",
+   "severity": "WARN",
+   "component": "cron-runner",
+   "source": "cron-runner.log",
+   "line_no": 149,
+   "message": "queue lag 0 messages on topic events",
+   "step": 6,
+   "tool": "get_context",
+   "tokens": 46,
+   "suspicious": false
+  },
+  {
+   "id": "E35",
+   "uid": "posting-svc.log:34",
+   "ts": "2026-01-16T11:08:36Z",
+   "severity": "INFO",
+   "component": "posting-svc",
+   "source": "posting-svc.log",
+   "line_no": 34,
+   "message": "request completed in 48ms status=200 rid=6df24911",
+   "step": 6,
+   "tool": "get_context",
+   "tokens": 60,
+   "suspicious": false
+  },
+  {
+   "id": "E36",
+   "uid": "audit-shipper.log:4",
+   "ts": "2026-01-16T11:03:27Z",
+   "severity": "WARN",
+   "component": "audit-shipper",
+   "source": "audit-shipper.log",
+   "line_no": 4,
+   "message": "metrics push delayed 17ms (buffer 80%)",
+   "step": 7,
+   "tool": "search_logs",
+   "tokens": 53,
+   "suspicious": false
+  },
+  {
+   "id": "E37",
+   "uid": "audit-shipper.log:6",
+   "ts": "2026-01-16T11:03:30Z",
+   "severity": "WARN",
+   "component": "audit-shipper",
+   "source": "audit-shipper.log",
+   "line_no": 6,
+   "message": "metrics push delayed 20ms (buffer 80%)",
+   "step": 7,
+   "tool": "search_logs",
+   "tokens": 53,
+   "suspicious": false
+  },
+  {
+   "id": "E38",
+   "uid": "audit-shipper.log:7",
+   "ts": "2026-01-16T11:03:32Z",
+   "severity": "WARN",
+   "component": "audit-shipper",
+   "source": "audit-shipper.log",
+   "line_no": 7,
+   "message": "queue lag 0 messages on topic events",
+   "step": 7,
+   "tool": "search_logs",
+   "tokens": 48,
+   "suspicious": false
+  },
+  {
+   "id": "E39",
+   "uid": "audit-shipper.log:8",
+   "ts": "2026-01-16T11:03:34Z",
+   "severity": "WARN",
+   "component": "audit-shipper",
+   "source": "audit-shipper.log",
+   "line_no": 8,
+   "message": "metrics push delayed 88ms (buffer 80%)",
+   "step": 7,
+   "tool": "search_logs",
+   "tokens": 53,
+   "suspicious": false
+  },
+  {
+   "id": "E40",
+   "uid": "audit-shipper.log:10",
+   "ts": "2026-01-16T11:03:37Z",
+   "severity": "WARN",
+   "component": "audit-shipper",
+   "source": "audit-shipper.log",
+   "line_no": 10,
+   "message": "queue lag 0 messages on topic events",
+   "step": 7,
+   "tool": "search_logs",
+   "tokens": 49,
+   "suspicious": false
+  },
+  {
+   "id": "E41",
+   "uid": "audit-shipper.log:11",
+   "ts": "2026-01-16T11:03:39Z",
+   "severity": "WARN",
+   "component": "audit-shipper",
+   "source": "audit-shipper.log",
+   "line_no": 11,
+   "message": "metrics push delayed 64ms (buffer 80%)",
+   "step": 7,
+   "tool": "search_logs",
+   "tokens": 54,
+   "suspicious": false
+  },
+  {
+   "id": "E42",
+   "uid": "audit-shipper.log:12",
+   "ts": "2026-01-16T11:03:41Z",
+   "severity": "WARN",
+   "component": "audit-shipper",
+   "source": "audit-shipper.log",
+   "line_no": 12,
+   "message": "queue lag 0 messages on topic events",
+   "step": 7,
+   "tool": "search_logs",
+   "tokens": 49,
+   "suspicious": false
+  },
+  {
+   "id": "E43",
+   "uid": "audit-shipper.log:14",
+   "ts": "2026-01-16T11:03:44Z",
+   "severity": "WARN",
+   "component": "audit-shipper",
+   "source": "audit-shipper.log",
+   "line_no": 14,
+   "message": "metrics push delayed 33ms (buffer 80%)",
+   "step": 7,
+   "tool": "search_logs",
+   "tokens": 54,
+   "suspicious": false
+  },
+  {
+   "id": "E44",
+   "uid": "cron-runner.log:6",
+   "ts": "2026-01-16T11:03:39Z",
+   "severity": "WARN",
+   "component": "cron-runner",
+   "source": "cron-runner.log",
+   "line_no": 6,
+   "message": "queue lag 0 messages on topic events",
+   "step": 8,
+   "tool": "search_logs",
+   "tokens": 44,
+   "suspicious": false
+  },
+  {
+   "id": "E45",
+   "uid": "cron-runner.log:7",
+   "ts": "2026-01-16T11:03:42Z",
+   "severity": "WARN",
+   "component": "cron-runner",
+   "source": "cron-runner.log",
+   "line_no": 7,
+   "message": "metrics push delayed 15ms (buffer 80%)",
+   "step": 8,
+   "tool": "search_logs",
+   "tokens": 49,
+   "suspicious": false
+  },
+  {
+   "id": "E46",
+   "uid": "cron-runner.log:8",
+   "ts": "2026-01-16T11:03:44Z",
+   "severity": "WARN",
+   "component": "cron-runner",
+   "source": "cron-runner.log",
+   "line_no": 8,
+   "message": "queue lag 0 messages on topic events",
+   "step": 8,
+   "tool": "search_logs",
+   "tokens": 44,
+   "suspicious": false
+  },
+  {
+   "id": "E47",
+   "uid": "cron-runner.log:9",
+   "ts": "2026-01-16T11:03:46Z",
+   "severity": "WARN",
+   "component": "cron-runner",
+   "source": "cron-runner.log",
+   "line_no": 9,
+   "message": "metrics push delayed 31ms (buffer 80%)",
+   "step": 8,
+   "tool": "search_logs",
+   "tokens": 49,
+   "suspicious": false
+  },
+  {
+   "id": "E48",
+   "uid": "cron-runner.log:11",
+   "ts": "2026-01-16T11:03:50Z",
+   "severity": "WARN",
+   "component": "cron-runner",
+   "source": "cron-runner.log",
+   "line_no": 11,
+   "message": "queue lag 0 messages on topic events",
+   "step": 8,
+   "tool": "search_logs",
+   "tokens": 45,
+   "suspicious": false
+  },
+  {
+   "id": "E49",
+   "uid": "cron-runner.log:12",
+   "ts": "2026-01-16T11:03:53Z",
+   "severity": "WARN",
+   "component": "cron-runner",
+   "source": "cron-runner.log",
+   "line_no": 12,
+   "message": "metrics push delayed 8ms (buffer 80%)",
+   "step": 8,
+   "tool": "search_logs",
+   "tokens": 49,
+   "suspicious": false
+  },
+  {
+   "id": "E50",
+   "uid": "cron-runner.log:13",
+   "ts": "2026-01-16T11:03:55Z",
+   "severity": "WARN",
+   "component": "cron-runner",
+   "source": "cron-runner.log",
+   "line_no": 13,
+   "message": "metrics push delayed 67ms (buffer 80%)",
+   "step": 8,
+   "tool": "search_logs",
+   "tokens": 50,
+   "suspicious": false
+  },
+  {
+   "id": "E51",
+   "uid": "cron-runner.log:14",
+   "ts": "2026-01-16T11:03:58Z",
+   "severity": "WARN",
+   "component": "cron-runner",
+   "source": "cron-runner.log",
+   "line_no": 14,
+   "message": "metrics push delayed 10ms (buffer 80%)",
+   "step": 8,
+   "tool": "search_logs",
+   "tokens": 50,
+   "suspicious": false
+  },
+  {
+   "id": "E52",
+   "uid": "posting-svc.log:4",
+   "ts": "2026-01-16T11:03:55Z",
+   "severity": "INFO",
+   "component": "posting-svc",
+   "source": "posting-svc.log",
+   "line_no": 4,
+   "message": "health check passed in 38ms",
+   "step": 10,
+   "tool": "get_context",
+   "tokens": 46,
+   "suspicious": false
+  },
+  {
+   "id": "E53",
+   "uid": "authz-db.log:4",
+   "ts": "2026-01-16T11:03:56Z",
+   "severity": "INFO",
+   "component": "authz-db",
+   "source": "authz-db.log",
+   "line_no": 4,
+   "message": "request completed in 55ms status=200 rid=6bfa5e3d",
+   "step": 10,
+   "tool": "get_context",
+   "tokens": 59,
+   "suspicious": false
+  },
+  {
+   "id": "E54",
+   "uid": "audit-shipper.log:22",
+   "ts": "2026-01-16T11:03:57Z",
+   "severity": "WARN",
+   "component": "audit-shipper",
+   "source": "audit-shipper.log",
+   "line_no": 22,
+   "message": "metrics push delayed 66ms (buffer 80%)",
+   "step": 10,
+   "tool": "get_context",
+   "tokens": 54,
+   "suspicious": false
+  },
+  {
+   "id": "E55",
+   "uid": "journal-db.log:4",
+   "ts": "2026-01-16T11:03:57Z",
+   "severity": "INFO",
+   "component": "journal-db",
+   "source": "journal-db.log",
+   "line_no": 4,
+   "message": "request completed in 45ms status=200 rid=4c13b81b",
+   "step": 10,
+   "tool": "get_context",
+   "tokens": 58,
+   "suspicious": false
+  },
+  {
+   "id": "E56",
+   "uid": "audit-shipper.log:23",
+   "ts": "2026-01-16T11:03:59Z",
+   "severity": "WARN",
+   "component": "audit-shipper",
+   "source": "audit-shipper.log",
+   "line_no": 23,
+   "message": "metrics push delayed 13ms (buffer 80%)",
+   "step": 10,
+   "tool": "get_context",
+   "tokens": 54,
+   "suspicious": false
+  }
+ ],
+ "tool_calls": [
+  {
+   "step": 1,
+   "tool": "error_timeline",
+   "args": {
+    "min_severity": "WARN"
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [
+    "E2",
+    "E3",
+    "E4",
+    "E5",
+    "E6",
+    "E7",
+    "E8",
+    "E9",
+    "E10",
+    "E1",
+    "E11"
+   ],
+   "new_evidence_tokens": 512,
+   "output_chars": 1120,
+   "ms": 1.77
+  },
+  {
+   "step": 2,
+   "tool": "search_logs",
+   "args": {
+    "component": "ledger-svc",
+    "min_severity": "WARN"
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [
+    "E7",
+    "E10",
+    "E12",
+    "E13",
+    "E14",
+    "E15",
+    "E16",
+    "E17",
+    "E18",
+    "E19"
+   ],
+   "new_evidence_tokens": 470,
+   "output_chars": 1048,
+   "ms": 1.16
+  },
+  {
+   "step": 3,
+   "tool": "search_logs",
+   "args": {
+    "component": "posting-svc",
+    "min_severity": "WARN"
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [
+    "E8",
+    "E9",
+    "E20",
+    "E21"
+   ],
+   "new_evidence_tokens": 97,
+   "output_chars": 301,
+   "ms": 0.57
+  },
+  {
+   "step": 4,
+   "tool": "get_context",
+   "args": {
+    "evidence_id": "E10",
+    "before": 3,
+    "after": 3
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [
+    "E22",
+    "E23",
+    "E24",
+    "E10",
+    "E25",
+    "E26",
+    "E27"
+   ],
+   "new_evidence_tokens": 320,
+   "output_chars": 704,
+   "ms": 0.83
+  },
+  {
+   "step": 5,
+   "tool": "get_context",
+   "args": {
+    "evidence_id": "E21",
+    "before": 3,
+    "after": 3
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [
+    "E28",
+    "E29",
+    "E12",
+    "E21",
+    "E30",
+    "E31",
+    "E32"
+   ],
+   "new_evidence_tokens": 245,
+   "output_chars": 576,
+   "ms": 0.76
+  },
+  {
+   "step": 6,
+   "tool": "get_context",
+   "args": {
+    "evidence_id": "E20",
+    "before": 3,
+    "after": 3
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [
+    "E33",
+    "E34",
+    "E35",
+    "E20",
+    "E22",
+    "E23",
+    "E24"
+   ],
+   "new_evidence_tokens": 153,
+   "output_chars": 435,
+   "ms": 0.58
+  },
+  {
+   "step": 7,
+   "tool": "search_logs",
+   "args": {
+    "component": "audit-shipper",
+    "min_severity": "WARN"
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [
+    "E2",
+    "E3",
+    "E36",
+    "E37",
+    "E38",
+    "E39",
+    "E40",
+    "E41",
+    "E42",
+    "E43"
+   ],
+   "new_evidence_tokens": 413,
+   "output_chars": 918,
+   "ms": 1.02
+  },
+  {
+   "step": 8,
+   "tool": "search_logs",
+   "args": {
+    "component": "cron-runner",
+    "min_severity": "WARN"
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [
+    "E4",
+    "E5",
+    "E44",
+    "E45",
+    "E46",
+    "E47",
+    "E48",
+    "E49",
+    "E50",
+    "E51"
+   ],
+   "new_evidence_tokens": 380,
+   "output_chars": 885,
+   "ms": 0.98
+  },
+  {
+   "step": 9,
+   "tool": "search_logs",
+   "args": {
+    "component": "authz-db",
+    "min_severity": "WARN"
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [
+    "E6"
+   ],
+   "new_evidence_tokens": 0,
+   "output_chars": 43,
+   "ms": 0.09
+  },
+  {
+   "step": 10,
+   "tool": "get_context",
+   "args": {
+    "evidence_id": "E6",
+    "before": 3,
+    "after": 3
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [
+    "E52",
+    "E53",
+    "E54",
+    "E6",
+    "E55",
+    "E51",
+    "E56"
+   ],
+   "new_evidence_tokens": 271,
+   "output_chars": 612,
+   "ms": 0.72
+  }
+ ],
+ "metrics": {
+  "evidence_token_budget": 3000,
+  "unique_evidence_tokens": 2915,
+  "unique_evidence_items": 56,
+  "repeated_exposures": 19,
+  "repeated_exposure_tokens": 990,
+  "llm_calls": 11,
+  "prompt_tokens_total": 31029,
+  "output_tokens_total": 420,
+  "llm_seconds": 1214.143,
+  "wall_seconds": 1214.622,
+  "steps": 10,
+  "tool_calls": 10,
+  "blocked_tool_calls": 0,
+  "gate_rounds": 2,
+  "parse_failures": 0,
+  "cpu_seconds": 3371.0199999999895,
+  "peak_rss_mb": 15144.374272,
+  "mean_cpu_percent": 277.0676147704591
+ }
+}

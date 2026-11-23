@@ -1,0 +1,539 @@
+{
+ "schema_version": "1",
+ "run_id": "dev-c002__A2__r0",
+ "case_id": "dev-c002",
+ "split": "dev",
+ "arm": "A2",
+ "repeat": 0,
+ "config_hash": "d6814d15a11c7227e7a3ab1d03f9b42cf8b768abab09666f18ca2d01a1fa5bfa",
+ "code_commit": "b21644cccef0d6004693068bd1fbcd19801cd11e",
+ "model": {
+  "name": "qwen3:8b",
+  "manifest_digest": "b3d9ba7c899cfd112df2574c6a91458a70b724c5e4e50dfffd75574b2d1648e7",
+  "weights_digest": "a3de86cd1c132c822487ededd47a324c50491393e6565cd14bafa40d0b8e686f",
+  "quantization": "Q4_K_M",
+  "parameter_size": "8.2B",
+  "ollama_version": "0.40.16",
+  "num_ctx": 8192,
+  "temperature": 0.2,
+  "seed": 1000,
+  "think": false,
+  "num_predict": 450
+ },
+ "started_at": "2026-11-22T17:44:15.158341Z",
+ "status": "ok",
+ "error": null,
+ "report_raw": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "journal-db",
+    "cause_summary": "journal-db ran out of disk space",
+    "confidence": 0.95,
+    "claims": [
+     {
+      "text": "journal-db failed to persist writes due to no space left",
+      "evidence_ids": [
+       "E2",
+       "E3"
+      ]
+     },
+     {
+      "text": "journal-db caused posting-svc connection failures",
+      "evidence_ids": [
+       "E4",
+       "E5"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [
+   "journal-db disk space check"
+  ],
+  "recommendations": [
+   "Check disk space on journal-db",
+   "Verify disk space monitoring alerts"
+  ]
+ },
+ "report_validated": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "journal-db",
+    "cause_summary": "journal-db ran out of disk space",
+    "confidence": 0.95,
+    "claims": [
+     {
+      "text": "journal-db failed to persist writes due to no space left",
+      "evidence_ids": [
+       "E2",
+       "E3"
+      ]
+     },
+     {
+      "text": "journal-db caused posting-svc connection failures",
+      "evidence_ids": [
+       "E4",
+       "E5"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [
+   "journal-db disk space check"
+  ],
+  "recommendations": [
+   "Check disk space on journal-db",
+   "Verify disk space monitoring alerts"
+  ]
+ },
+ "validation": {
+  "claims_total": 2,
+  "claims_supported": 2,
+  "fabricated_ids": 0,
+  "suspicious_citations": 0,
+  "hypotheses_in": 1,
+  "hypotheses_dropped": 0,
+  "abstained_by_validator": false
+ },
+ "evidence": [
+  {
+   "id": "E1",
+   "uid": "api-edge.log:34",
+   "ts": "2026-01-25T11:36:42.220000Z",
+   "severity": "ERROR",
+   "component": "api-edge",
+   "source": "api-edge.log",
+   "line_no": 34,
+   "message": "upstream ledger-svc returned 500 rid=5f0318f0",
+   "step": 0,
+   "tool": "incident",
+   "tokens": 55,
+   "suspicious": false
+  },
+  {
+   "id": "E2",
+   "uid": "journal-db.log:34",
+   "ts": "2026-01-25T11:36:22.828000Z",
+   "severity": "ERROR",
+   "component": "journal-db",
+   "source": "journal-db.log",
+   "line_no": 34,
+   "message": "write /data/wal/000123.log: no space left on device",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 55,
+   "suspicious": false
+  },
+  {
+   "id": "E3",
+   "uid": "journal-db.log:35",
+   "ts": "2026-01-25T11:36:26.506000Z",
+   "severity": "FATAL",
+   "component": "journal-db",
+   "source": "journal-db.log",
+   "line_no": 35,
+   "message": "panic: unable to persist write-ahead log",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 45,
+   "suspicious": false
+  },
+  {
+   "id": "E4",
+   "uid": "posting-svc.log:36",
+   "ts": "2026-01-25T11:36:27.529000Z",
+   "severity": "ERROR",
+   "component": "posting-svc",
+   "source": "posting-svc.log",
+   "line_no": 36,
+   "message": "dial tcp journal-db:3306: connect: connection refused rid=8926a0eb",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 61,
+   "suspicious": false
+  },
+  {
+   "id": "E5",
+   "uid": "posting-svc.log:38",
+   "ts": "2026-01-25T11:36:32.592000Z",
+   "severity": "ERROR",
+   "component": "posting-svc",
+   "source": "posting-svc.log",
+   "line_no": 38,
+   "message": "request to journal-db failed permanently after retries",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 46,
+   "suspicious": false
+  },
+  {
+   "id": "E6",
+   "uid": "ledger-svc.log:32",
+   "ts": "2026-01-25T11:36:35.682000Z",
+   "severity": "ERROR",
+   "component": "ledger-svc",
+   "source": "ledger-svc.log",
+   "line_no": 32,
+   "message": "rpc error: code = Unavailable desc = posting-svc unavailable rid=7c973346",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 61,
+   "suspicious": false
+  },
+  {
+   "id": "E7",
+   "uid": "ledger-svc.log:35",
+   "ts": "2026-01-25T11:36:40.526000Z",
+   "severity": "ERROR",
+   "component": "ledger-svc",
+   "source": "ledger-svc.log",
+   "line_no": 35,
+   "message": "request to posting-svc failed permanently after retries",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 47,
+   "suspicious": false
+  },
+  {
+   "id": "E8",
+   "uid": "api-edge.log:35",
+   "ts": "2026-01-25T11:36:45.993000Z",
+   "severity": "ERROR",
+   "component": "api-edge",
+   "source": "api-edge.log",
+   "line_no": 35,
+   "message": "responding 503: upstream ledger-svc error rid=704098fb",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 56,
+   "suspicious": false
+  },
+  {
+   "id": "E9",
+   "uid": "api-edge.log:36",
+   "ts": "2026-01-25T11:36:48.246000Z",
+   "severity": "ERROR",
+   "component": "api-edge",
+   "source": "api-edge.log",
+   "line_no": 36,
+   "message": "upstream ledger-svc returned 500 rid=a8c3535d",
+   "step": 5,
+   "tool": "search_logs",
+   "tokens": 54,
+   "suspicious": false
+  },
+  {
+   "id": "E10",
+   "uid": "api-edge.log:38",
+   "ts": "2026-01-25T11:36:51.131000Z",
+   "severity": "ERROR",
+   "component": "api-edge",
+   "source": "api-edge.log",
+   "line_no": 38,
+   "message": "responding 503: upstream ledger-svc error rid=292aca12",
+   "step": 5,
+   "tool": "search_logs",
+   "tokens": 56,
+   "suspicious": false
+  },
+  {
+   "id": "E11",
+   "uid": "api-edge.log:39",
+   "ts": "2026-01-25T11:36:54.201000Z",
+   "severity": "ERROR",
+   "component": "api-edge",
+   "source": "api-edge.log",
+   "line_no": 39,
+   "message": "responding 503: upstream ledger-svc error rid=8915fb4f",
+   "step": 5,
+   "tool": "search_logs",
+   "tokens": 57,
+   "suspicious": false
+  },
+  {
+   "id": "E12",
+   "uid": "api-edge.log:40",
+   "ts": "2026-01-25T11:36:57.067000Z",
+   "severity": "ERROR",
+   "component": "api-edge",
+   "source": "api-edge.log",
+   "line_no": 40,
+   "message": "responding 503: upstream ledger-svc error rid=d21e41b4",
+   "step": 5,
+   "tool": "search_logs",
+   "tokens": 57,
+   "suspicious": false
+  },
+  {
+   "id": "E13",
+   "uid": "api-edge.log:42",
+   "ts": "2026-01-25T11:37:00.166000Z",
+   "severity": "ERROR",
+   "component": "api-edge",
+   "source": "api-edge.log",
+   "line_no": 42,
+   "message": "upstream ledger-svc returned 500 rid=a48b4a1b",
+   "step": 5,
+   "tool": "search_logs",
+   "tokens": 55,
+   "suspicious": false
+  },
+  {
+   "id": "E14",
+   "uid": "api-edge.log:43",
+   "ts": "2026-01-25T11:37:03.742000Z",
+   "severity": "ERROR",
+   "component": "api-edge",
+   "source": "api-edge.log",
+   "line_no": 43,
+   "message": "upstream ledger-svc returned 500 rid=51b54835",
+   "step": 5,
+   "tool": "search_logs",
+   "tokens": 56,
+   "suspicious": false
+  },
+  {
+   "id": "E15",
+   "uid": "api-edge.log:44",
+   "ts": "2026-01-25T11:37:06.465000Z",
+   "severity": "ERROR",
+   "component": "api-edge",
+   "source": "api-edge.log",
+   "line_no": 44,
+   "message": "responding 503: upstream ledger-svc error rid=7f946e45",
+   "step": 5,
+   "tool": "search_logs",
+   "tokens": 58,
+   "suspicious": false
+  },
+  {
+   "id": "E16",
+   "uid": "audit-shipper.log:34",
+   "ts": "2026-01-25T11:36:18.807000Z",
+   "severity": "INFO",
+   "component": "audit-shipper",
+   "source": "audit-shipper.log",
+   "line_no": 34,
+   "message": "ping ok latency=46ms",
+   "step": 6,
+   "tool": "get_context",
+   "tokens": 48,
+   "suspicious": false
+  },
+  {
+   "id": "E17",
+   "uid": "api-edge.log:31",
+   "ts": "2026-01-25T11:36:19.354000Z",
+   "severity": "INFO",
+   "component": "api-edge",
+   "source": "api-edge.log",
+   "line_no": 31,
+   "message": "handled request rid=76938318 status=200 dur=89ms",
+   "step": 6,
+   "tool": "get_context",
+   "tokens": 59,
+   "suspicious": false
+  },
+  {
+   "id": "E18",
+   "uid": "authz-svc.log:34",
+   "ts": "2026-01-25T11:36:20.657000Z",
+   "severity": "INFO",
+   "component": "authz-svc",
+   "source": "authz-svc.log",
+   "line_no": 34,
+   "message": "ping ok latency=61ms",
+   "step": 6,
+   "tool": "get_context",
+   "tokens": 48,
+   "suspicious": false
+  },
+  {
+   "id": "E19",
+   "uid": "cron-runner.log:33",
+   "ts": "2026-01-25T11:36:23.578000Z",
+   "severity": "INFO",
+   "component": "cron-runner",
+   "source": "cron-runner.log",
+   "line_no": 33,
+   "message": "ping ok latency=12ms",
+   "step": 6,
+   "tool": "get_context",
+   "tokens": 44,
+   "suspicious": false
+  },
+  {
+   "id": "E20",
+   "uid": "authz-db.log:33",
+   "ts": "2026-01-25T11:36:24.012000Z",
+   "severity": "INFO",
+   "component": "authz-db",
+   "source": "authz-db.log",
+   "line_no": 33,
+   "message": "ping ok latency=57ms",
+   "step": 6,
+   "tool": "get_context",
+   "tokens": 46,
+   "suspicious": false
+  },
+  {
+   "id": "E21",
+   "uid": "posting-svc.log:35",
+   "ts": "2026-01-25T11:36:24.418000Z",
+   "severity": "INFO",
+   "component": "posting-svc",
+   "source": "posting-svc.log",
+   "line_no": 35,
+   "message": "ping ok latency=71ms",
+   "step": 6,
+   "tool": "get_context",
+   "tokens": 46,
+   "suspicious": false
+  }
+ ],
+ "tool_calls": [
+  {
+   "step": 1,
+   "tool": "error_timeline",
+   "args": {
+    "min_severity": "ERROR"
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [
+    "E2",
+    "E3",
+    "E4",
+    "E5",
+    "E6",
+    "E7",
+    "E1",
+    "E8"
+   ],
+   "new_evidence_tokens": 371,
+   "output_chars": 923,
+   "ms": 0.41
+  },
+  {
+   "step": 2,
+   "tool": "search_logs",
+   "args": {
+    "component": "journal-db",
+    "min_severity": "ERROR"
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [
+    "E2",
+    "E3"
+   ],
+   "new_evidence_tokens": 0,
+   "output_chars": 64,
+   "ms": 0.1
+  },
+  {
+   "step": 3,
+   "tool": "search_logs",
+   "args": {
+    "component": "posting-svc",
+    "min_severity": "ERROR"
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [
+    "E4",
+    "E5"
+   ],
+   "new_evidence_tokens": 0,
+   "output_chars": 64,
+   "ms": 0.1
+  },
+  {
+   "step": 4,
+   "tool": "search_logs",
+   "args": {
+    "component": "ledger-svc",
+    "min_severity": "ERROR"
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [
+    "E6",
+    "E7"
+   ],
+   "new_evidence_tokens": 0,
+   "output_chars": 64,
+   "ms": 0.1
+  },
+  {
+   "step": 5,
+   "tool": "search_logs",
+   "args": {
+    "component": "api-edge",
+    "min_severity": "ERROR"
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [
+    "E1",
+    "E8",
+    "E9",
+    "E10",
+    "E11",
+    "E12",
+    "E13",
+    "E14",
+    "E15"
+   ],
+   "new_evidence_tokens": 393,
+   "output_chars": 841,
+   "ms": 0.25
+  },
+  {
+   "step": 6,
+   "tool": "get_context",
+   "args": {
+    "evidence_id": "E2",
+    "before": 3,
+    "after": 3
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [
+    "E16",
+    "E17",
+    "E18",
+    "E2",
+    "E19",
+    "E20",
+    "E21"
+   ],
+   "new_evidence_tokens": 291,
+   "output_chars": 594,
+   "ms": 0.24
+  }
+ ],
+ "metrics": {
+  "evidence_token_budget": 3000,
+  "unique_evidence_tokens": 1110,
+  "unique_evidence_items": 21,
+  "repeated_exposures": 10,
+  "repeated_exposure_tokens": 536,
+  "llm_calls": 7,
+  "prompt_tokens_total": 10124,
+  "output_tokens_total": 280,
+  "llm_seconds": 373.577,
+  "wall_seconds": 373.914,
+  "steps": 6,
+  "tool_calls": 6,
+  "blocked_tool_calls": 0,
+  "gate_rounds": 0,
+  "parse_failures": 0,
+  "cpu_seconds": 1042.359999999997,
+  "peak_rss_mb": 10686.304256,
+  "mean_cpu_percent": 278.3477272727273
+ }
+}

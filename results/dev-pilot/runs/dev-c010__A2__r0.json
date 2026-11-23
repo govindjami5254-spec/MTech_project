@@ -1,0 +1,388 @@
+{
+ "schema_version": "1",
+ "run_id": "dev-c010__A2__r0",
+ "case_id": "dev-c010",
+ "split": "dev",
+ "arm": "A2",
+ "repeat": 0,
+ "config_hash": "d6814d15a11c7227e7a3ab1d03f9b42cf8b768abab09666f18ca2d01a1fa5bfa",
+ "code_commit": "b21644cccef0d6004693068bd1fbcd19801cd11e",
+ "model": {
+  "name": "qwen3:8b",
+  "manifest_digest": "b3d9ba7c899cfd112df2574c6a91458a70b724c5e4e50dfffd75574b2d1648e7",
+  "weights_digest": "a3de86cd1c132c822487ededd47a324c50491393e6565cd14bafa40d0b8e686f",
+  "quantization": "Q4_K_M",
+  "parameter_size": "8.2B",
+  "ollama_version": "0.40.16",
+  "num_ctx": 8192,
+  "temperature": 0.2,
+  "seed": 1000,
+  "think": false,
+  "num_predict": 450
+ },
+ "started_at": "2026-11-22T21:08:03.886505Z",
+ "status": "ok",
+ "error": null,
+ "report_raw": {
+  "insufficient_evidence": true,
+  "hypotheses": [],
+  "evidence_gaps": [
+   "no logs from posting-svc",
+   "no logs from authz-db"
+  ],
+  "recommendations": [
+   "check posting-svc for errors",
+   "check authz-db for errors"
+  ]
+ },
+ "report_validated": {
+  "insufficient_evidence": true,
+  "hypotheses": [],
+  "evidence_gaps": [
+   "no logs from posting-svc",
+   "no logs from authz-db"
+  ],
+  "recommendations": [
+   "check posting-svc for errors",
+   "check authz-db for errors"
+  ]
+ },
+ "validation": {
+  "claims_total": 0,
+  "claims_supported": 0,
+  "fabricated_ids": 0,
+  "suspicious_citations": 0,
+  "hypotheses_in": 0,
+  "hypotheses_dropped": 0,
+  "abstained_by_validator": false
+ },
+ "evidence": [
+  {
+   "id": "E1",
+   "uid": "api-edge.log:31",
+   "ts": "2026-01-05T10:57:05.521000Z",
+   "severity": "ERROR",
+   "component": "api-edge",
+   "source": "api-edge.log",
+   "line_no": 31,
+   "message": "upstream ledger-svc returned 500 rid=4c7b6a8d",
+   "step": 0,
+   "tool": "incident",
+   "tokens": 55,
+   "suspicious": false
+  },
+  {
+   "id": "E2",
+   "uid": "ledger-svc.log:34",
+   "ts": "2026-01-05T10:56:58.876000Z",
+   "severity": "ERROR",
+   "component": "ledger-svc",
+   "source": "ledger-svc.log",
+   "line_no": 34,
+   "message": "context deadline exceeded calling posting-svc rid=5f980dea",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 53,
+   "suspicious": false
+  },
+  {
+   "id": "E3",
+   "uid": "ledger-svc.log:36",
+   "ts": "2026-01-05T10:57:03.432000Z",
+   "severity": "ERROR",
+   "component": "ledger-svc",
+   "source": "ledger-svc.log",
+   "line_no": 36,
+   "message": "request to posting-svc failed permanently after retries",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 47,
+   "suspicious": false
+  },
+  {
+   "id": "E4",
+   "uid": "api-edge.log:32",
+   "ts": "2026-01-05T10:57:08.910000Z",
+   "severity": "ERROR",
+   "component": "api-edge",
+   "source": "api-edge.log",
+   "line_no": 32,
+   "message": "responding 503: upstream ledger-svc error rid=3fa79ba0",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 55,
+   "suspicious": false
+  },
+  {
+   "id": "E5",
+   "uid": "cron-runner.log:34",
+   "ts": "2026-01-05T10:56:56.469000Z",
+   "severity": "INFO",
+   "component": "cron-runner",
+   "source": "cron-runner.log",
+   "line_no": 34,
+   "message": "handled request rid=47ea8aa2 status=200 dur=82ms",
+   "step": 3,
+   "tool": "get_context",
+   "tokens": 56,
+   "suspicious": false
+  },
+  {
+   "id": "E6",
+   "uid": "journal-db.log:34",
+   "ts": "2026-01-05T10:56:56.497000Z",
+   "severity": "INFO",
+   "component": "journal-db",
+   "source": "journal-db.log",
+   "line_no": 34,
+   "message": "handled request rid=9950394d status=200 dur=79ms",
+   "step": 3,
+   "tool": "get_context",
+   "tokens": 58,
+   "suspicious": false
+  },
+  {
+   "id": "E7",
+   "uid": "audit-shipper.log:35",
+   "ts": "2026-01-05T10:56:58.455000Z",
+   "severity": "INFO",
+   "component": "audit-shipper",
+   "source": "audit-shipper.log",
+   "line_no": 35,
+   "message": "ping ok latency=81ms",
+   "step": 3,
+   "tool": "get_context",
+   "tokens": 47,
+   "suspicious": false
+  },
+  {
+   "id": "E8",
+   "uid": "authz-db.log:34",
+   "ts": "2026-01-05T10:57:00.676000Z",
+   "severity": "INFO",
+   "component": "authz-db",
+   "source": "authz-db.log",
+   "line_no": 34,
+   "message": "handled request rid=f415d4d5 status=200 dur=90ms",
+   "step": 3,
+   "tool": "get_context",
+   "tokens": 59,
+   "suspicious": false
+  },
+  {
+   "id": "E9",
+   "uid": "authz-svc.log:32",
+   "ts": "2026-01-05T10:57:00.770000Z",
+   "severity": "INFO",
+   "component": "authz-svc",
+   "source": "authz-svc.log",
+   "line_no": 32,
+   "message": "handled request rid=e4967091 status=200 dur=95ms",
+   "step": 3,
+   "tool": "get_context",
+   "tokens": 61,
+   "suspicious": false
+  },
+  {
+   "id": "E10",
+   "uid": "api-edge.log:30",
+   "ts": "2026-01-05T10:57:00.804000Z",
+   "severity": "INFO",
+   "component": "api-edge",
+   "source": "api-edge.log",
+   "line_no": 30,
+   "message": "ping ok latency=94ms",
+   "step": 3,
+   "tool": "get_context",
+   "tokens": 44,
+   "suspicious": false
+  },
+  {
+   "id": "E11",
+   "uid": "ledger-svc.log:35",
+   "ts": "2026-01-05T10:57:00.837000Z",
+   "severity": "WARN",
+   "component": "ledger-svc",
+   "source": "ledger-svc.log",
+   "line_no": 35,
+   "message": "backoff before retrying posting-svc (2/3)",
+   "step": 4,
+   "tool": "get_context",
+   "tokens": 51,
+   "suspicious": false
+  },
+  {
+   "id": "E12",
+   "uid": "posting-svc.log:33",
+   "ts": "2026-01-05T10:57:01.378000Z",
+   "severity": "INFO",
+   "component": "posting-svc",
+   "source": "posting-svc.log",
+   "line_no": 33,
+   "message": "ping ok latency=57ms",
+   "step": 4,
+   "tool": "get_context",
+   "tokens": 46,
+   "suspicious": false
+  },
+  {
+   "id": "E13",
+   "uid": "cron-runner.log:35",
+   "ts": "2026-01-05T10:57:04.061000Z",
+   "severity": "INFO",
+   "component": "cron-runner",
+   "source": "cron-runner.log",
+   "line_no": 35,
+   "message": "ping ok latency=51ms",
+   "step": 4,
+   "tool": "get_context",
+   "tokens": 44,
+   "suspicious": false
+  },
+  {
+   "id": "E14",
+   "uid": "ledger-svc.log:37",
+   "ts": "2026-01-05T10:57:04.876000Z",
+   "severity": "INFO",
+   "component": "ledger-svc",
+   "source": "ledger-svc.log",
+   "line_no": 37,
+   "message": "ping ok latency=37ms",
+   "step": 4,
+   "tool": "get_context",
+   "tokens": 46,
+   "suspicious": false
+  }
+ ],
+ "tool_calls": [
+  {
+   "step": 1,
+   "tool": "error_timeline",
+   "args": {
+    "min_severity": "ERROR"
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [
+    "E2",
+    "E3",
+    "E1",
+    "E4"
+   ],
+   "new_evidence_tokens": 155,
+   "output_chars": 437,
+   "ms": 0.3
+  },
+  {
+   "step": 2,
+   "tool": "search_logs",
+   "args": {
+    "component": "ledger-svc",
+    "min_severity": "ERROR"
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [
+    "E2",
+    "E3"
+   ],
+   "new_evidence_tokens": 0,
+   "output_chars": 64,
+   "ms": 0.11
+  },
+  {
+   "step": 3,
+   "tool": "get_context",
+   "args": {
+    "evidence_id": "E2",
+    "before": 3,
+    "after": 3
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [
+    "E5",
+    "E6",
+    "E7",
+    "E2",
+    "E8",
+    "E9",
+    "E10"
+   ],
+   "new_evidence_tokens": 325,
+   "output_chars": 671,
+   "ms": 0.21
+  },
+  {
+   "step": 4,
+   "tool": "get_context",
+   "args": {
+    "evidence_id": "E3",
+    "before": 3,
+    "after": 3
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [
+    "E10",
+    "E11",
+    "E12",
+    "E3",
+    "E13",
+    "E14",
+    "E1"
+   ],
+   "new_evidence_tokens": 187,
+   "output_chars": 466,
+   "ms": 0.19
+  },
+  {
+   "step": 5,
+   "tool": "search_logs",
+   "args": {
+    "component": "posting-svc",
+    "min_severity": "ERROR"
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [],
+   "new_evidence_tokens": 0,
+   "output_chars": 24,
+   "ms": 0.06
+  },
+  {
+   "step": 6,
+   "tool": "search_logs",
+   "args": {
+    "component": "authz-db",
+    "min_severity": "ERROR"
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [],
+   "new_evidence_tokens": 0,
+   "output_chars": 24,
+   "ms": 0.05
+  }
+ ],
+ "metrics": {
+  "evidence_token_budget": 3000,
+  "unique_evidence_tokens": 722,
+  "unique_evidence_items": 14,
+  "repeated_exposures": 7,
+  "repeated_exposure_tokens": 354,
+  "llm_calls": 7,
+  "prompt_tokens_total": 9619,
+  "output_tokens_total": 222,
+  "llm_seconds": 264.517,
+  "wall_seconds": 264.843,
+  "steps": 6,
+  "tool_calls": 6,
+  "blocked_tool_calls": 0,
+  "gate_rounds": 0,
+  "parse_failures": 0,
+  "cpu_seconds": 757.6500000000015,
+  "peak_rss_mb": 15229.874176,
+  "mean_cpu_percent": 285.97862068965514
+ }
+}
