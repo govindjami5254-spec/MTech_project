@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="csrf-token" content="{{ csrf }}">
+  <meta name="auth-mode" content="{{ auth_mode }}">
+  <title>{% block title %}LogAgent-RCA{% endblock %} · LogAgent-RCA</title>
+  <link rel="stylesheet" href="/static/style.css">
+  <script src="/static/app.js" defer></script>
+</head>
+<body data-page="{% block page %}{% endblock %}" {% block body_attrs %}{% endblock %}>
+<header class="topbar">
+  <div class="brand"><span class="logo" aria-hidden="true">◈</span> LogAgent-RCA</div>
+  <nav aria-label="Main">
+    <a href="/">Dashboard</a>
+    <a href="/new">New analysis</a>
+    <a href="/investigations">History</a>
+    <a href="/settings">Settings &amp; health</a>
+  </nav>
+  <div class="who">
+    <span class="badge" title="Configured model">{{ model }}</span>
+    <span class="badge" title="Unique evidence-token budget B">B = {{ budget }}</span>
+    {% if user %}<span class="user">{{ user.username }} ({{ user.role }})</span>{% endif %}
+    {% if auth_mode == "users" %}
+    <form method="post" action="/logout" class="inline"><button class="link" type="submit">Log out</button></form>
+    {% endif %}
+  </div>
+</header>
+<main id="main">
+{% block content %}{% endblock %}
+</main>
+<footer class="foot">
+  Read-only diagnostic assistant. It never changes, restarts or remediates systems. Diagnoses are produced by a local
+  language model ({{ model }}) and must be reviewed by a human operator.
+</footer>
+</body>
+</html>

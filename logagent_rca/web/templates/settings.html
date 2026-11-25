@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block title %}Settings &amp; health{% endblock %}
+{% block page %}settings{% endblock %}
+{% block content %}
+<h1>Settings and system health</h1>
+<p class="muted">Read-only. Model, budget and agent settings come from <code>configs/app.yaml</code>, which must match the
+  frozen research configuration; they cannot be changed from the web interface.</p>
+<div class="two">
+  <section class="panel"><h2>Backend</h2><table class="grid kv" id="h-backend"><tbody></tbody></table></section>
+  <section class="panel"><h2>Ollama</h2><table class="grid kv" id="h-ollama"><tbody></tbody></table>
+    <h3>Installed models</h3><table class="grid" id="h-models"><thead><tr><th>Name</th><th>Size (GB)</th><th>Digest</th></tr></thead><tbody></tbody></table></section>
+</div>
+<div class="two">
+  <section class="panel"><h2>Model parameters</h2><table class="grid kv" id="h-model"><tbody></tbody></table></section>
+  <section class="panel"><h2>Evidence budget and agent limits</h2><table class="grid kv" id="h-budget"><tbody></tbody></table></section>
+</div>
+<section class="panel"><h2>Persistence and tokenizer</h2><table class="grid kv" id="h-persist"><tbody></tbody></table></section>
+{% endblock %}

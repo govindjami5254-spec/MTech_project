@@ -1,0 +1,61 @@
+{% extends "base.html" %}
+{% block title %}New analysis{% endblock %}
+{% block page %}new{% endblock %}
+{% block body_attrs %}data-max-files="{{ limits.max_files }}" data-max-file-bytes="{{ limits.max_file_bytes }}" data-max-total-bytes="{{ limits.max_total_bytes }}"{% endblock %}
+{% block content %}
+<h1>New incident analysis</h1>
+<form id="new-form" class="form" novalidate>
+  <fieldset>
+    <legend>1. Log files</legend>
+    <label for="files">Log files (.log or .txt; up to {{ limits.max_files }} files, {{ (limits.max_file_bytes/1e6)|round(0)|int }} MB each,
+      {{ limits.max_lines }} lines each)</label>
+    <input id="files" name="files" type="file" multiple accept=".log,.txt" required>
+    <p class="hint">Each line must look like <code>&lt;timestamp&gt; &lt;LEVEL&gt; &lt;component&gt; &lt;message&gt;</code>,
+      for example <code>2026-01-10T10:04:48Z ERROR db-primary write failed</code>. Only synthetic or approved logs:
+      do not upload confidential production data.</p>
+    <ul id="file-list" class="files"></ul>
+  </fieldset>
+  <fieldset>
+    <legend>2. Incident</legend>
+    <div class="row">
+      <div><label for="incident_id">Incident ID</label>
+        <input id="incident_id" name="incident_id" required pattern="INC-[0-9]{3,6}" placeholder="INC-001">
+        <p class="hint">Format: INC- followed by 3–6 digits.</p></div>
+      <div><label for="rule_id">Rule ID (optional)</label>
+        <input id="rule_id" name="rule_id" pattern="[a-z0-9][a-z0-9_-]{0,47}" placeholder="manual-entry"></div>
+    </div>
+    <label for="description">Description</label>
+    <input id="description" name="description" required maxlength="200" placeholder="Entry service returned 5xx errors to clients">
+    <div class="row">
+      <div><label for="ts_local">Incident time</label>
+        <input id="ts_local" type="datetime-local" step="1" required></div>
+      <div><label for="ts_zone">Time zone of the time entered</label>
+        <select id="ts_zone">
+          <option value="Z">UTC (Z)</option><option value="+05:30">+05:30</option><option value="+01:00">+01:00</option>
+          <option value="+02:00">+02:00</option><option value="-05:00">-05:00</option><option value="-08:00">-08:00</option>
+        </select></div>
+    </div>
+  </fieldset>
+  <fieldset>
+    <legend>3. Trigger event (the log line that reported the incident)</legend>
+    <div class="row">
+      <div><label for="trigger_file">Trigger log file</label><select id="trigger_file" name="trigger_file" required></select></div>
+      <div><label for="trigger_line">Line number (1-based)</label><input id="trigger_line" name="trigger_line" type="number" min="1" required></div>
+      <div><label for="trigger_component">Trigger component</label><input id="trigger_component" name="trigger_component" required pattern="[A-Za-z0-9][A-Za-z0-9._-]{0,63}"></div>
+    </div>
+    <p class="hint">The line must be a parseable event of that component, within 600 s before to 120 s after the incident time.</p>
+    <pre id="line-preview" class="preview" aria-live="polite"></pre>
+  </fieldset>
+  <fieldset>
+    <legend>4. Diagnosis mode</legend>
+    <label class="radio"><input type="radio" name="mode" value="E3" checked> <b>E3 — iterative agent</b>: the model queries
+      the logs with read-only tools (coverage gate and grounding validator enabled). Slower.</label>
+    <label class="radio"><input type="radio" name="mode" value="E2b"> <b>E2b — single pass</b>: deterministic evidence
+      selection, then one model call. Faster.</label>
+    <p class="hint">Model <b>{{ model }}</b>, evidence budget <b>{{ budget }}</b> unique evidence tokens, same settings as
+      the research configuration. On this CPU-only host one analysis takes minutes.</p>
+  </fieldset>
+  <div id="form-errors" class="errors" role="alert"></div>
+  <button id="submit" class="button primary" type="submit">Analyze</button>
+</form>
+{% endblock %}

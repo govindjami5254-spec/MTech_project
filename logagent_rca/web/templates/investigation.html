@@ -1,0 +1,57 @@
+{% extends "base.html" %}
+{% block title %}Investigation{% endblock %}
+{% block page %}investigation{% endblock %}
+{% block body_attrs %}data-inv="{{ inv_id }}"{% endblock %}
+{% block content %}
+<h1>Investigation <code>{{ inv_id }}</code></h1>
+<section id="inv-head" class="panel"></section>
+
+<section class="panel">
+  <h2>Analyses</h2>
+  <div class="row">
+    <div><label for="analysis-select">Analysis</label><select id="analysis-select"></select></div>
+    <div class="actions">
+      <button class="button" data-run-mode="E2b">Run E2b</button>
+      <button class="button" data-run-mode="E3">Run E3</button>
+    </div>
+  </div>
+  <div id="action-msg" class="errors" role="alert"></div>
+</section>
+
+<section class="panel" id="progress-panel">
+  <h2>Progress <span id="status" class="status"></span></h2>
+  <p class="muted">Only events actually recorded by the backend are shown. The agent's tool calls and coverage-gate
+    decisions appear as they are written to the audit log; the single-pass mode records no intermediate steps.</p>
+  <ol id="events" class="events"></ol>
+</section>
+
+<section class="panel" id="report-panel" hidden>
+  <h2>RCA report</h2>
+  <p class="downloads"><a id="dl-md" class="button">Download Markdown</a> <a id="dl-json" class="button">Download JSON (full run record)</a></p>
+  <div id="verdict"></div>
+  <div id="hypotheses"></div>
+  <p class="note" id="confidence-note"></p>
+  <div class="two">
+    <div><h3>Evidence gaps</h3><ul id="gaps"></ul></div>
+    <div><h3>Recommendations</h3><ul id="recs"></ul><p class="note" id="recs-note"></p></div>
+  </div>
+  <h3>Grounding validation</h3>
+  <div id="validation"></div>
+  <h3>Runtime and token metrics</h3>
+  <table class="grid kv" id="metrics"><tbody></tbody></table>
+  <h3>All evidence presented to the model</h3>
+  <table class="grid" id="evidence">
+    <thead><tr><th>ID</th><th>Source</th><th>Line</th><th>Time (UTC)</th><th>Severity</th><th>Component</th><th>Message</th><th></th></tr></thead>
+    <tbody></tbody>
+  </table>
+  <h3>Provenance</h3>
+  <table class="grid kv" id="provenance"><tbody></tbody></table>
+</section>
+
+<dialog id="source-dialog" aria-labelledby="source-title">
+  <h3 id="source-title">Original log lines</h3>
+  <p id="source-meta" class="muted"></p>
+  <pre id="source-lines" class="preview"></pre>
+  <form method="dialog"><button class="button">Close</button></form>
+</dialog>
+{% endblock %}

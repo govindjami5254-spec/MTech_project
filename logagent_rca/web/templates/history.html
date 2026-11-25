@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block title %}History{% endblock %}
+{% block page %}history{% endblock %}
+{% block content %}
+<h1>Investigation history</h1>
+<form id="filters" class="form row">
+  <div><label for="f-inc">Incident ID contains</label><input id="f-inc" name="incident_id"></div>
+  <div><label for="f-mode">Mode</label><select id="f-mode" name="mode"><option value="">any</option><option>E2b</option><option>E3</option></select></div>
+  <div><label for="f-from">Created from (UTC)</label><input id="f-from" name="date_from" type="date"></div>
+  <div><label for="f-to">Created to (UTC)</label><input id="f-to" name="date_to" type="date"></div>
+  <div class="actions"><button class="button" type="submit">Filter</button></div>
+</form>
+<table class="grid" id="history">
+  <thead><tr><th>Investigation</th><th>Incident</th><th>Description</th><th>Created (UTC)</th><th>Owner</th><th>Analyses</th><th>Downloads</th></tr></thead>
+  <tbody></tbody>
+</table>
+{% endblock %}

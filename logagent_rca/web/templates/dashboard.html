@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block title %}Dashboard{% endblock %}
+{% block page %}dashboard{% endblock %}
+{% block content %}
+<h1>Dashboard</h1>
+<section class="cards" id="cards" aria-live="polite">
+  <div class="card"><div class="k">Investigations</div><div class="v" id="c-inv">–</div></div>
+  <div class="card"><div class="k">Analyses</div><div class="v" id="c-an">–</div></div>
+  <div class="card"><div class="k">Completed / failed / errors</div><div class="v" id="c-st">–</div></div>
+  <div class="card"><div class="k">Queued / running</div><div class="v" id="c-q">–</div></div>
+  <div class="card"><div class="k">Median wall time E2b / E3</div><div class="v" id="c-rt">–</div></div>
+  <div class="card"><div class="k">Model · evidence budget</div><div class="v" id="c-model">–</div></div>
+</section>
+<p class="muted">Figures are computed from stored investigations only. Wall times describe this machine.</p>
+<h2>Recent investigations</h2>
+<table class="grid" id="recent">
+  <thead><tr><th>Investigation</th><th>Incident</th><th>Created (UTC)</th><th>Status</th><th>Modes</th></tr></thead>
+  <tbody></tbody>
+</table>
+<p><a class="button" href="/new">Start a new analysis</a></p>
+{% endblock %}
