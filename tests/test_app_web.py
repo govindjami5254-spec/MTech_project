@@ -307,3 +307,16 @@ def test_web_does_not_expose_research_settings_changes(client):
     assert not any("settings" in p and p.startswith("/api") for p in paths)
     assert all(m in ("GET", "HEAD") for r in client.app.routes if getattr(r, "path", "") == "/settings"
                for m in r.methods)
+
+
+def test_every_dom_id_used_by_app_js_exists_in_templates():
+    """No JavaScript runtime is available here; at least check the script and templates agree on element IDs."""
+    web = ROOT / "logagent_rca" / "web"
+    js = (web / "static" / "app.js").read_text()
+    used = set(re.findall(r'getElementById\("([\w-]+)"\)', js)) | set(re.findall(r'querySelector\("#([\w-]+)', js))
+    html = "".join(p.read_text() for p in (web / "templates").glob("*.html"))
+    defined = set(re.findall(r'id="([\w-]+)"', html))
+    assert used and used <= defined, sorted(used - defined)
+    # Check for actual use of HTML-string sinks (property access/calls), not mentions in comments.
+    for sink in (".innerHTML", ".outerHTML", "insertAdjacentHTML", "document.write", "eval(", "new Function("):
+        assert sink not in js, sink
