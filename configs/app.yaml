@@ -1,0 +1,39 @@
+# LogAgent-RCA APPLICATION configuration (CLI `diagnose` and web UI).
+# Model, budget, agent, validator, safety and ingestion settings MUST equal configs/test.yaml
+# (enforced by tests/test_web_*). Only the data/output locations differ. Do not edit model settings here.
+config_version: '1'
+data:
+  cases_dir: workspace/cases
+  truth_dir: workspace/no-truth
+experiment:
+  name: app
+  split: dev
+  arms:
+  - E2b
+  - E3
+  repeats: 1
+  base_seed: 1000
+  output_dir: workspace/investigations
+llm:
+  model: qwen3:8b
+  base_url: http://127.0.0.1:11434
+  num_ctx: 8192
+  num_predict: 450
+  timeout_s: 2400
+  temperature: 0.2
+  think: false
+budget:
+  evidence_token_budget: 900
+  prompt_overhead_tokens: 1500
+  token_counter: hf_tokenizer
+  tokenizer_file: models/qwen3-tokenizer.json
+  tokenizer_sha256: aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4
+  tokenizer_source: https://huggingface.co/Qwen/Qwen3-8B/resolve/b968826d9c46dd6066d109eabc6255188de91218/tokenizer.json
+  tokenizers_version: 0.23.3
+agent:
+  max_steps: 6
+  min_tool_calls: 2
+  coverage_gate: true
+  lookback_s: 600
+validator:
+  enabled: true

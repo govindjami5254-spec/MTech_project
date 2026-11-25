@@ -6,3 +6,6 @@ __pycache__/
 
 # Downloaded model artifacts (hash recorded in config)
 models/
+
+# LogAgent-RCA application workspace (uploaded incidents, investigation records)
+workspace/
