@@ -1,0 +1,105 @@
+{
+ "schema_version": "1",
+ "run_id": "dev-c004__E1f__r0",
+ "case_id": "dev-c004",
+ "split": "dev",
+ "arm": "E1f",
+ "repeat": 0,
+ "config_hash": "7f0b29f83bf52300877ba60c216bd644fcd262d2b68fdfcd7341cdcecace957a",
+ "code_commit": "a4e26667404fe5d88cd8152eae17d1f1a26c499e",
+ "model": null,
+ "started_at": "2026-11-23T16:02:39.812087Z",
+ "status": "ok",
+ "error": null,
+ "report_raw": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "storefront",
+    "cause_summary": "storefront reported the incident",
+    "confidence": 0.1,
+    "claims": [
+     {
+      "text": "storefront returned errors: returned 503 to client: dependency cart-svc failed rid=88c3d1d6",
+      "evidence_ids": [
+       "E1"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [],
+  "recommendations": []
+ },
+ "report_validated": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "storefront",
+    "cause_summary": "storefront reported the incident",
+    "confidence": 0.1,
+    "claims": [
+     {
+      "text": "storefront returned errors: returned 503 to client: dependency cart-svc failed rid=88c3d1d6",
+      "evidence_ids": [
+       "E1"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [],
+  "recommendations": []
+ },
+ "validation": {
+  "claims_total": 1,
+  "claims_supported": 1,
+  "fabricated_ids": 0,
+  "suspicious_citations": 0,
+  "hypotheses_in": 1,
+  "hypotheses_dropped": 0,
+  "abstained_by_validator": false
+ },
+ "evidence": [
+  {
+   "id": "E1",
+   "uid": "storefront.log:33",
+   "ts": "2026-01-18T09:37:22Z",
+   "severity": "ERROR",
+   "component": "storefront",
+   "source": "storefront.log",
+   "line_no": 33,
+   "message": "returned 503 to client: dependency cart-svc failed rid=88c3d1d6",
+   "step": 0,
+   "tool": "incident",
+   "tokens": 58,
+   "suspicious": false
+  }
+ ],
+ "tool_calls": [],
+ "metrics": {
+  "evidence_token_budget": 900,
+  "unique_evidence_tokens": 58,
+  "unique_evidence_items": 1,
+  "repeated_exposures": 0,
+  "repeated_exposure_tokens": 0,
+  "llm_calls": 0,
+  "prompt_tokens_total": 0,
+  "output_tokens_total": 0,
+  "llm_seconds": 0.0,
+  "wall_seconds": 0.232,
+  "steps": 0,
+  "tool_calls": 0,
+  "blocked_tool_calls": 0,
+  "gate_rounds": 0,
+  "parse_failures": 0,
+  "normalised_fields": 0,
+  "cpu_seconds": null,
+  "mean_cpu_percent": null,
+  "peak_rss_mb": null,
+  "peak_uss_mb": null,
+  "peak_pss_mb": null,
+  "host_used_peak_mb": null,
+  "host_total_mb": null
+ }
+}

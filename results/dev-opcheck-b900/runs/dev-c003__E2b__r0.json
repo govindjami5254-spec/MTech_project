@@ -1,0 +1,459 @@
+{
+ "schema_version": "1",
+ "run_id": "dev-c003__E2b__r0",
+ "case_id": "dev-c003",
+ "split": "dev",
+ "arm": "E2b",
+ "repeat": 0,
+ "config_hash": "7f0b29f83bf52300877ba60c216bd644fcd262d2b68fdfcd7341cdcecace957a",
+ "code_commit": "a4e26667404fe5d88cd8152eae17d1f1a26c499e",
+ "model": {
+  "name": "qwen3:8b",
+  "manifest_digest": "b3d9ba7c899cfd112df2574c6a91458a70b724c5e4e50dfffd75574b2d1648e7",
+  "weights_digest": "a3de86cd1c132c822487ededd47a324c50491393e6565cd14bafa40d0b8e686f",
+  "quantization": "Q4_K_M",
+  "parameter_size": "8.2B",
+  "ollama_version": "0.40.16",
+  "num_ctx": 8192,
+  "temperature": 0.2,
+  "seed": 1000,
+  "think": false,
+  "num_predict": 450
+ },
+ "started_at": "2026-11-23T17:06:17.856550Z",
+ "status": "ok",
+ "error": null,
+ "report_raw": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "pricing-svc",
+    "cause_summary": "Invalid config caused pricing-svc to exit.",
+    "confidence": 0.9,
+    "claims": [
+     {
+      "text": "Pricing-svc exited due to invalid config with pool_size 0.",
+      "evidence_ids": [
+       "E4",
+       "E2"
+      ]
+     },
+     {
+      "text": "Cart-svc could not connect to pricing-svc after it exited.",
+      "evidence_ids": [
+       "E5",
+       "E6"
+      ]
+     }
+    ]
+   },
+   {
+    "cause_component": "cart-svc",
+    "cause_summary": "Retry budget exhausted when connecting to pricing-svc.",
+    "confidence": 0.7,
+    "claims": [
+     {
+      "text": "Cart-svc failed to connect to pricing-svc after retries.",
+      "evidence_ids": [
+       "E5",
+       "E6"
+      ]
+     },
+     {
+      "text": "Retry budget was low on client pool for cart-svc.",
+      "evidence_ids": [
+       "E15"
+      ]
+     }
+    ]
+   },
+   {
+    "cause_component": "session-svc",
+    "cause_summary": "Leader election lost affecting session-svc operations.",
+    "confidence": 0.6,
+    "claims": [
+     {
+      "text": "Session-svc lost leader election for cron lock.",
+      "evidence_ids": [
+       "E3"
+      ]
+     },
+     {
+      "text": "Session-svc had retry budget issues earlier.",
+      "evidence_ids": [
+       "E9"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [
+   "No evidence shows if the pricing-svc restart resolved the issue."
+  ],
+  "recommendations": [
+   "Check if pricing-svc was restarted after the config error.",
+   "Verify if retry budget limits were adjusted to prevent future failures."
+  ]
+ },
+ "report_validated": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "pricing-svc",
+    "cause_summary": "Invalid config caused pricing-svc to exit.",
+    "confidence": 0.9,
+    "claims": [
+     {
+      "text": "Pricing-svc exited due to invalid config with pool_size 0.",
+      "evidence_ids": [
+       "E4",
+       "E2"
+      ]
+     },
+     {
+      "text": "Cart-svc could not connect to pricing-svc after it exited.",
+      "evidence_ids": [
+       "E5",
+       "E6"
+      ]
+     }
+    ]
+   },
+   {
+    "cause_component": "cart-svc",
+    "cause_summary": "Retry budget exhausted when connecting to pricing-svc.",
+    "confidence": 0.7,
+    "claims": [
+     {
+      "text": "Cart-svc failed to connect to pricing-svc after retries.",
+      "evidence_ids": [
+       "E5",
+       "E6"
+      ]
+     },
+     {
+      "text": "Retry budget was low on client pool for cart-svc.",
+      "evidence_ids": [
+       "E15"
+      ]
+     }
+    ]
+   },
+   {
+    "cause_component": "session-svc",
+    "cause_summary": "Leader election lost affecting session-svc operations.",
+    "confidence": 0.6,
+    "claims": [
+     {
+      "text": "Session-svc lost leader election for cron lock.",
+      "evidence_ids": [
+       "E3"
+      ]
+     },
+     {
+      "text": "Session-svc had retry budget issues earlier.",
+      "evidence_ids": [
+       "E9"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [
+   "No evidence shows if the pricing-svc restart resolved the issue."
+  ],
+  "recommendations": [
+   "Check if pricing-svc was restarted after the config error.",
+   "Verify if retry budget limits were adjusted to prevent future failures."
+  ]
+ },
+ "validation": {
+  "claims_total": 6,
+  "claims_supported": 6,
+  "fabricated_ids": 0,
+  "suspicious_citations": 0,
+  "hypotheses_in": 3,
+  "hypotheses_dropped": 0,
+  "abstained_by_validator": false
+ },
+ "evidence": [
+  {
+   "id": "E1",
+   "uid": "storefront.log:33",
+   "ts": "2026-01-18T13:52:03.439000Z",
+   "severity": "ERROR",
+   "component": "storefront",
+   "source": "storefront.log",
+   "line_no": 33,
+   "message": "responding 503: upstream cart-svc error rid=33051722",
+   "step": 0,
+   "tool": "incident",
+   "tokens": 56,
+   "suspicious": false
+  },
+  {
+   "id": "E2",
+   "uid": "pricing-svc.log:32",
+   "ts": "2026-01-18T13:51:59.340000Z",
+   "severity": "FATAL",
+   "component": "pricing-svc",
+   "source": "pricing-svc.log",
+   "line_no": 32,
+   "message": "exiting: invalid configuration",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 43,
+   "suspicious": false
+  },
+  {
+   "id": "E3",
+   "uid": "session-svc.log:26",
+   "ts": "2026-01-18T13:50:23.436000Z",
+   "severity": "ERROR",
+   "component": "session-svc",
+   "source": "session-svc.log",
+   "line_no": 26,
+   "message": "leader election lost for cron lock, re-electing",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 48,
+   "suspicious": false
+  },
+  {
+   "id": "E4",
+   "uid": "pricing-svc.log:31",
+   "ts": "2026-01-18T13:51:57.543000Z",
+   "severity": "ERROR",
+   "component": "pricing-svc",
+   "source": "pricing-svc.log",
+   "line_no": 31,
+   "message": "config: field pool_size must be > 0, got 0",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 52,
+   "suspicious": false
+  },
+  {
+   "id": "E5",
+   "uid": "cart-svc.log:30",
+   "ts": "2026-01-18T13:52:00.248000Z",
+   "severity": "ERROR",
+   "component": "cart-svc",
+   "source": "cart-svc.log",
+   "line_no": 30,
+   "message": "dial tcp pricing-svc:8103: connect: connection refused rid=79899bc5",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 62,
+   "suspicious": false
+  },
+  {
+   "id": "E6",
+   "uid": "cart-svc.log:33",
+   "ts": "2026-01-18T13:52:05.292000Z",
+   "severity": "ERROR",
+   "component": "cart-svc",
+   "source": "cart-svc.log",
+   "line_no": 33,
+   "message": "request to pricing-svc failed permanently after retries",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 47,
+   "suspicious": false
+  },
+  {
+   "id": "E7",
+   "uid": "storefront.log:37",
+   "ts": "2026-01-18T13:52:12.954000Z",
+   "severity": "ERROR",
+   "component": "storefront",
+   "source": "storefront.log",
+   "line_no": 37,
+   "message": "upstream cart-svc returned 500 rid=d6ba5f6d",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 52,
+   "suspicious": false
+  },
+  {
+   "id": "E8",
+   "uid": "metrics-agent.log:5",
+   "ts": "2026-01-18T13:47:23Z",
+   "severity": "WARN",
+   "component": "metrics-agent",
+   "source": "metrics-agent.log",
+   "line_no": 5,
+   "message": "slow handler rid=e3737ac9 dur=160ms",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 51,
+   "suspicious": false
+  },
+  {
+   "id": "E9",
+   "uid": "session-svc.log:8",
+   "ts": "2026-01-18T13:47:55Z",
+   "severity": "WARN",
+   "component": "session-svc",
+   "source": "session-svc.log",
+   "line_no": 8,
+   "message": "retry budget low on client pool",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 43,
+   "suspicious": false
+  },
+  {
+   "id": "E10",
+   "uid": "metrics-agent.log:13",
+   "ts": "2026-01-18T13:48:24Z",
+   "severity": "WARN",
+   "component": "metrics-agent",
+   "source": "metrics-agent.log",
+   "line_no": 13,
+   "message": "retry budget low on client pool",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 43,
+   "suspicious": false
+  },
+  {
+   "id": "E11",
+   "uid": "metrics-agent.log:15",
+   "ts": "2026-01-18T13:48:41.497000Z",
+   "severity": "WARN",
+   "component": "metrics-agent",
+   "source": "metrics-agent.log",
+   "line_no": 15,
+   "message": "clock drift 180ms detected vs NTP",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 48,
+   "suspicious": false
+  },
+  {
+   "id": "E12",
+   "uid": "inventory-db.log:12",
+   "ts": "2026-01-18T13:48:46Z",
+   "severity": "WARN",
+   "component": "inventory-db",
+   "source": "inventory-db.log",
+   "line_no": 12,
+   "message": "retry budget low on client pool",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 43,
+   "suspicious": false
+  },
+  {
+   "id": "E13",
+   "uid": "session-svc.log:18",
+   "ts": "2026-01-18T13:49:23Z",
+   "severity": "WARN",
+   "component": "session-svc",
+   "source": "session-svc.log",
+   "line_no": 18,
+   "message": "slow handler rid=be2af287 dur=640ms",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 55,
+   "suspicious": false
+  },
+  {
+   "id": "E14",
+   "uid": "cart-svc.log:32",
+   "ts": "2026-01-18T13:52:02.097000Z",
+   "severity": "WARN",
+   "component": "cart-svc",
+   "source": "cart-svc.log",
+   "line_no": 32,
+   "message": "backoff before retrying pricing-svc (2/3)",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 51,
+   "suspicious": false
+  },
+  {
+   "id": "E15",
+   "uid": "cart-svc.log:40",
+   "ts": "2026-01-18T13:53:03Z",
+   "severity": "WARN",
+   "component": "cart-svc",
+   "source": "cart-svc.log",
+   "line_no": 40,
+   "message": "retry budget low on client pool",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 45,
+   "suspicious": false
+  },
+  {
+   "id": "E16",
+   "uid": "session-cache.log:38",
+   "ts": "2026-01-18T13:53:19Z",
+   "severity": "WARN",
+   "component": "session-cache",
+   "source": "session-cache.log",
+   "line_no": 38,
+   "message": "retry budget low on client pool",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 43,
+   "suspicious": false
+  },
+  {
+   "id": "E17",
+   "uid": "metrics-agent.log:1",
+   "ts": "2026-01-18T13:46:53.306000Z",
+   "severity": "INFO",
+   "component": "metrics-agent",
+   "source": "metrics-agent.log",
+   "line_no": 1,
+   "message": "handled request rid=5af99ad5 status=200 dur=53ms",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 56,
+   "suspicious": false
+  },
+  {
+   "id": "E18",
+   "uid": "cart-svc.log:1",
+   "ts": "2026-01-18T13:46:54.463000Z",
+   "severity": "INFO",
+   "component": "cart-svc",
+   "source": "cart-svc.log",
+   "line_no": 1,
+   "message": "ping ok latency=41ms",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 45,
+   "suspicious": false
+  }
+ ],
+ "tool_calls": [],
+ "metrics": {
+  "evidence_token_budget": 900,
+  "unique_evidence_tokens": 883,
+  "unique_evidence_items": 18,
+  "repeated_exposures": 1,
+  "repeated_exposure_tokens": 56,
+  "llm_calls": 1,
+  "prompt_tokens_total": 1247,
+  "output_tokens_total": 434,
+  "llm_seconds": 450.867,
+  "wall_seconds": 451.048,
+  "steps": 1,
+  "tool_calls": 0,
+  "blocked_tool_calls": 0,
+  "gate_rounds": 0,
+  "parse_failures": 0,
+  "normalised_fields": 0,
+  "cpu_seconds": 1281.0800000000002,
+  "mean_cpu_percent": 284.06998709994014,
+  "peak_rss_mb": 8533.83168,
+  "peak_uss_mb": 8529.469439999999,
+  "peak_pss_mb": 8529.563648,
+  "host_used_peak_mb": 25882.210304,
+  "host_total_mb": 33436.11904
+ }
+}

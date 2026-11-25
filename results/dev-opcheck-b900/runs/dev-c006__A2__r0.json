@@ -1,0 +1,423 @@
+{
+ "schema_version": "1",
+ "run_id": "dev-c006__A2__r0",
+ "case_id": "dev-c006",
+ "split": "dev",
+ "arm": "A2",
+ "repeat": 0,
+ "config_hash": "7f0b29f83bf52300877ba60c216bd644fcd262d2b68fdfcd7341cdcecace957a",
+ "code_commit": "a4e26667404fe5d88cd8152eae17d1f1a26c499e",
+ "model": {
+  "name": "qwen3:8b",
+  "manifest_digest": "b3d9ba7c899cfd112df2574c6a91458a70b724c5e4e50dfffd75574b2d1648e7",
+  "weights_digest": "a3de86cd1c132c822487ededd47a324c50491393e6565cd14bafa40d0b8e686f",
+  "quantization": "Q4_K_M",
+  "parameter_size": "8.2B",
+  "ollama_version": "0.40.16",
+  "num_ctx": 8192,
+  "temperature": 0.2,
+  "seed": 1000,
+  "think": false,
+  "num_predict": 450
+ },
+ "started_at": "2026-11-23T17:47:28.237406Z",
+ "status": "ok",
+ "error": null,
+ "report_raw": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "posting-svc",
+    "cause_summary": "Connection pool exhausted due to request timeouts (E14,E15).",
+    "confidence": 0.95,
+    "claims": [
+     {
+      "text": "posting-svc had connection timeouts (E14).",
+      "evidence_ids": [
+       "E14"
+      ]
+     },
+     {
+      "text": "posting-svc rejected requests due to exhausted connection pool (E15).",
+      "evidence_ids": [
+       "E15"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [],
+  "recommendations": [
+   "Check posting-svc connection pool configuration and database health."
+  ]
+ },
+ "report_validated": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "posting-svc",
+    "cause_summary": "Connection pool exhausted due to request timeouts (E14,E15).",
+    "confidence": 0.95,
+    "claims": [
+     {
+      "text": "posting-svc had connection timeouts (E14).",
+      "evidence_ids": [
+       "E14"
+      ]
+     },
+     {
+      "text": "posting-svc rejected requests due to exhausted connection pool (E15).",
+      "evidence_ids": [
+       "E15"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [],
+  "recommendations": [
+   "Check posting-svc connection pool configuration and database health."
+  ]
+ },
+ "validation": {
+  "claims_total": 2,
+  "claims_supported": 2,
+  "fabricated_ids": 0,
+  "suspicious_citations": 0,
+  "hypotheses_in": 1,
+  "hypotheses_dropped": 0,
+  "abstained_by_validator": false
+ },
+ "evidence": [
+  {
+   "id": "E1",
+   "uid": "api-edge.log:29",
+   "ts": "2026-02-14T13:42:36Z",
+   "severity": "ERROR",
+   "component": "api-edge",
+   "source": "api-edge.log",
+   "line_no": 29,
+   "message": "HTTP 502 Bad Gateway from ledger-svc rid=6558ca35",
+   "step": 0,
+   "tool": "incident",
+   "tokens": 56,
+   "suspicious": false
+  },
+  {
+   "id": "E2",
+   "uid": "audit-shipper.log:2",
+   "ts": "2026-02-14T13:38:03Z",
+   "severity": "WARN",
+   "component": "audit-shipper",
+   "source": "audit-shipper.log",
+   "line_no": 2,
+   "message": "queue lag 0 messages on topic events",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 47,
+   "suspicious": false
+  },
+  {
+   "id": "E3",
+   "uid": "audit-shipper.log:4",
+   "ts": "2026-02-14T13:38:06Z",
+   "severity": "WARN",
+   "component": "audit-shipper",
+   "source": "audit-shipper.log",
+   "line_no": 4,
+   "message": "metrics push delayed 72ms (buffer 80%)",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 52,
+   "suspicious": false
+  },
+  {
+   "id": "E4",
+   "uid": "cron-runner.log:3",
+   "ts": "2026-02-14T13:38:18Z",
+   "severity": "WARN",
+   "component": "cron-runner",
+   "source": "cron-runner.log",
+   "line_no": 3,
+   "message": "metrics push delayed 46ms (buffer 80%)",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 48,
+   "suspicious": false
+  },
+  {
+   "id": "E5",
+   "uid": "cron-runner.log:5",
+   "ts": "2026-02-14T13:38:21Z",
+   "severity": "WARN",
+   "component": "cron-runner",
+   "source": "cron-runner.log",
+   "line_no": 5,
+   "message": "metrics push delayed 20ms (buffer 80%)",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 48,
+   "suspicious": false
+  },
+  {
+   "id": "E6",
+   "uid": "api-edge.log:12",
+   "ts": "2026-02-14T13:39:42Z",
+   "severity": "WARN",
+   "component": "api-edge",
+   "source": "api-edge.log",
+   "line_no": 12,
+   "message": "slow request 120ms rid=66d2557e",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 53,
+   "suspicious": false
+  },
+  {
+   "id": "E7",
+   "uid": "authz-db.log:16",
+   "ts": "2026-02-14T13:40:31Z",
+   "severity": "WARN",
+   "component": "authz-db",
+   "source": "authz-db.log",
+   "line_no": 16,
+   "message": "slow request 190ms rid=f99bdaf8",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 52,
+   "suspicious": false
+  },
+  {
+   "id": "E8",
+   "uid": "authz-db.log:19",
+   "ts": "2026-02-14T13:40:59Z",
+   "severity": "WARN",
+   "component": "authz-db",
+   "source": "authz-db.log",
+   "line_no": 19,
+   "message": "GC pause 43ms (young gen)",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 47,
+   "suspicious": false
+  },
+  {
+   "id": "E9",
+   "uid": "posting-svc.log:25",
+   "ts": "2026-02-14T13:41:54Z",
+   "severity": "WARN",
+   "component": "posting-svc",
+   "source": "posting-svc.log",
+   "line_no": 25,
+   "message": "connection pool usage 97% (active=55)",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 50,
+   "suspicious": false
+  },
+  {
+   "id": "E10",
+   "uid": "posting-svc.log:27",
+   "ts": "2026-02-14T13:42:00Z",
+   "severity": "WARN",
+   "component": "posting-svc",
+   "source": "posting-svc.log",
+   "line_no": 27,
+   "message": "slow request 360ms rid=3d579802",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 56,
+   "suspicious": false
+  },
+  {
+   "id": "E11",
+   "uid": "ledger-svc.log:25",
+   "ts": "2026-02-14T13:42:28Z",
+   "severity": "ERROR",
+   "component": "ledger-svc",
+   "source": "ledger-svc.log",
+   "line_no": 25,
+   "message": "call to posting-svc failed: HTTP 503 rid=c6755ed7",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 59,
+   "suspicious": false
+  },
+  {
+   "id": "E12",
+   "uid": "ledger-svc.log:27",
+   "ts": "2026-02-14T13:42:30Z",
+   "severity": "WARN",
+   "component": "ledger-svc",
+   "source": "ledger-svc.log",
+   "line_no": 27,
+   "message": "retrying call to posting-svc (attempt 2/3)",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 52,
+   "suspicious": false
+  },
+  {
+   "id": "E13",
+   "uid": "authz-svc.log:31",
+   "ts": "2026-02-14T13:42:57Z",
+   "severity": "WARN",
+   "component": "authz-svc",
+   "source": "authz-svc.log",
+   "line_no": 31,
+   "message": "GC pause 48ms (young gen)",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 50,
+   "suspicious": false
+  },
+  {
+   "id": "E14",
+   "uid": "posting-svc.log:30",
+   "ts": "2026-02-14T13:42:24Z",
+   "severity": "ERROR",
+   "component": "posting-svc",
+   "source": "posting-svc.log",
+   "line_no": 30,
+   "message": "HikariPool: connection is not available, request timed out",
+   "step": 2,
+   "tool": "search_logs",
+   "tokens": 52,
+   "suspicious": false
+  },
+  {
+   "id": "E15",
+   "uid": "posting-svc.log:31",
+   "ts": "2026-02-14T13:42:29Z",
+   "severity": "ERROR",
+   "component": "posting-svc",
+   "source": "posting-svc.log",
+   "line_no": 31,
+   "message": "rejecting requests: connection pool exhausted",
+   "step": 2,
+   "tool": "search_logs",
+   "tokens": 45,
+   "suspicious": false
+  },
+  {
+   "id": "E16",
+   "uid": "ledger-svc.log:28",
+   "ts": "2026-02-14T13:42:33Z",
+   "severity": "ERROR",
+   "component": "ledger-svc",
+   "source": "ledger-svc.log",
+   "line_no": 28,
+   "message": "giving up on posting-svc after 3 attempts",
+   "step": 3,
+   "tool": "search_logs",
+   "tokens": 49,
+   "suspicious": false
+  },
+  {
+   "id": "E17",
+   "uid": "ledger-svc.log:29",
+   "ts": "2026-02-14T13:42:34Z",
+   "severity": "ERROR",
+   "component": "ledger-svc",
+   "source": "ledger-svc.log",
+   "line_no": 29,
+   "message": "call to posting-svc failed: HTTP 503 rid=04faa18a",
+   "step": 3,
+   "tool": "search_logs",
+   "tokens": 60,
+   "suspicious": false
+  }
+ ],
+ "tool_calls": [
+  {
+   "step": 1,
+   "tool": "error_timeline",
+   "args": {
+    "min_severity": "WARN"
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [
+    "E2",
+    "E3",
+    "E4",
+    "E5",
+    "E6",
+    "E7",
+    "E8",
+    "E9",
+    "E10",
+    "E11",
+    "E12",
+    "E1",
+    "E13"
+   ],
+   "new_evidence_tokens": 614,
+   "output_chars": 1266,
+   "ms": 5.24
+  },
+  {
+   "step": 2,
+   "tool": "search_logs",
+   "args": {
+    "component": "posting-svc",
+    "min_severity": "WARN"
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [
+    "E9",
+    "E10",
+    "E14",
+    "E15"
+   ],
+   "new_evidence_tokens": 97,
+   "output_chars": 302,
+   "ms": 0.21
+  },
+  {
+   "step": 3,
+   "tool": "search_logs",
+   "args": {
+    "component": "ledger-svc",
+    "min_severity": "WARN"
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [
+    "E11",
+    "E12",
+    "E16",
+    "E17"
+   ],
+   "new_evidence_tokens": 109,
+   "output_chars": 350,
+   "ms": 0.24
+  }
+ ],
+ "metrics": {
+  "evidence_token_budget": 900,
+  "unique_evidence_tokens": 876,
+  "unique_evidence_items": 17,
+  "repeated_exposures": 5,
+  "repeated_exposure_tokens": 273,
+  "llm_calls": 5,
+  "prompt_tokens_total": 7618,
+  "output_tokens_total": 410,
+  "llm_seconds": 396.936,
+  "wall_seconds": 397.179,
+  "steps": 4,
+  "tool_calls": 3,
+  "blocked_tool_calls": 0,
+  "gate_rounds": 0,
+  "parse_failures": 0,
+  "normalised_fields": 0,
+  "cpu_seconds": 1142.59,
+  "mean_cpu_percent": 287.7300558539935,
+  "peak_rss_mb": 9682.059264,
+  "peak_uss_mb": 9680.904192,
+  "peak_pss_mb": 9680.9984,
+  "host_used_peak_mb": 26840.518656,
+  "host_total_mb": 33436.11904
+ }
+}

@@ -1,4 +1,4 @@
-# LogAgent-RCA TEST configuration. NOT FROZEN: B, repeats and reductions are set at the pilot freeze (Q-017, Q-019).
+# LogAgent-RCA TEST configuration - FROZEN (tag test-freeze, approved 2026-11-25). See docs/preregistration.md.
 # Relative paths resolve against the working directory (run from the repository root).
 config_version: "1"
 
@@ -12,7 +12,7 @@ experiment:
   name: test-main
   split: test
   arms: [E1, E2b, E3, A2, A3]
-  repeats: 3
+  repeats: 2               # E2b, E3, A2 x 2 runs; E1/E1f deterministic (1 run); A3 derived from E3
   base_seed: 1000
   output_dir: results/test-main
 
@@ -26,7 +26,7 @@ llm:
   think: false
 
 budget:
-  evidence_token_budget: 3000   # B: DEVELOPMENT PLACEHOLDER; strict unique-evidence-token budget; set after pilot
+  evidence_token_budget: 900    # B: rule R4 = P50 of dev template-deduplicated WARN+ evidence tokens (904), rounded down to 100
   prompt_overhead_tokens: 1500
   token_counter: hf_tokenizer
   tokenizer_file: models/qwen3-tokenizer.json

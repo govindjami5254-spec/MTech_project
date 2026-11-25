@@ -1,0 +1,442 @@
+{
+ "schema_version": "1",
+ "run_id": "dev-c001__A2__r0",
+ "case_id": "dev-c001",
+ "split": "dev",
+ "arm": "A2",
+ "repeat": 0,
+ "config_hash": "7f0b29f83bf52300877ba60c216bd644fcd262d2b68fdfcd7341cdcecace957a",
+ "code_commit": "a4e26667404fe5d88cd8152eae17d1f1a26c499e",
+ "model": {
+  "name": "qwen3:8b",
+  "manifest_digest": "b3d9ba7c899cfd112df2574c6a91458a70b724c5e4e50dfffd75574b2d1648e7",
+  "weights_digest": "a3de86cd1c132c822487ededd47a324c50491393e6565cd14bafa40d0b8e686f",
+  "quantization": "Q4_K_M",
+  "parameter_size": "8.2B",
+  "ollama_version": "0.40.16",
+  "num_ctx": 8192,
+  "temperature": 0.2,
+  "seed": 1000,
+  "think": false,
+  "num_predict": 450
+ },
+ "started_at": "2026-11-23T16:53:35.036973Z",
+ "status": "ok",
+ "error": null,
+ "report_raw": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "journal-db",
+    "cause_summary": "journal-db ran out of disk space (E8, E9).",
+    "confidence": 0.95,
+    "claims": [
+     {
+      "text": "journal-db filesystem /data 99% full (E8).",
+      "evidence_ids": [
+       "E8"
+      ]
+     },
+     {
+      "text": "journal-db failed to write to disk (E9).",
+      "evidence_ids": [
+       "E9"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [],
+  "recommendations": [
+   "Check disk usage on journal-db.",
+   "Investigate why journal-db's disk usage reached 99%."
+  ]
+ },
+ "report_validated": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "journal-db",
+    "cause_summary": "journal-db ran out of disk space (E8, E9).",
+    "confidence": 0.95,
+    "claims": [
+     {
+      "text": "journal-db filesystem /data 99% full (E8).",
+      "evidence_ids": [
+       "E8"
+      ]
+     },
+     {
+      "text": "journal-db failed to write to disk (E9).",
+      "evidence_ids": [
+       "E9"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [],
+  "recommendations": [
+   "Check disk usage on journal-db.",
+   "Investigate why journal-db's disk usage reached 99%."
+  ]
+ },
+ "validation": {
+  "claims_total": 2,
+  "claims_supported": 2,
+  "fabricated_ids": 0,
+  "suspicious_citations": 0,
+  "hypotheses_in": 1,
+  "hypotheses_dropped": 0,
+  "abstained_by_validator": false
+ },
+ "evidence": [
+  {
+   "id": "E1",
+   "uid": "api-edge.log:31",
+   "ts": "2026-01-20T12:41:45.011000Z",
+   "severity": "ERROR",
+   "component": "api-edge",
+   "source": "api-edge.log",
+   "line_no": 31,
+   "message": "responding 503: upstream ledger-svc error rid=7b4daa3d",
+   "step": 0,
+   "tool": "incident",
+   "tokens": 56,
+   "suspicious": false
+  },
+  {
+   "id": "E2",
+   "uid": "audit-shipper.log:6",
+   "ts": "2026-01-20T12:37:13Z",
+   "severity": "WARN",
+   "component": "audit-shipper",
+   "source": "audit-shipper.log",
+   "line_no": 6,
+   "message": "retry budget low on client pool",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 45,
+   "suspicious": false
+  },
+  {
+   "id": "E3",
+   "uid": "authz-db.log:9",
+   "ts": "2026-01-20T12:38:01Z",
+   "severity": "WARN",
+   "component": "authz-db",
+   "source": "authz-db.log",
+   "line_no": 9,
+   "message": "retry budget low on client pool",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 43,
+   "suspicious": false
+  },
+  {
+   "id": "E4",
+   "uid": "ledger-svc.log:14",
+   "ts": "2026-01-20T12:38:55Z",
+   "severity": "WARN",
+   "component": "ledger-svc",
+   "source": "ledger-svc.log",
+   "line_no": 14,
+   "message": "slow handler rid=ef1ae56d dur=180ms",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 54,
+   "suspicious": false
+  },
+  {
+   "id": "E5",
+   "uid": "api-edge.log:16",
+   "ts": "2026-01-20T12:39:13Z",
+   "severity": "WARN",
+   "component": "api-edge",
+   "source": "api-edge.log",
+   "line_no": 16,
+   "message": "retry budget low on client pool",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 42,
+   "suspicious": false
+  },
+  {
+   "id": "E6",
+   "uid": "ledger-svc.log:18",
+   "ts": "2026-01-20T12:39:28Z",
+   "severity": "WARN",
+   "component": "ledger-svc",
+   "source": "ledger-svc.log",
+   "line_no": 18,
+   "message": "slow handler rid=a12c9777 dur=380ms",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 55,
+   "suspicious": false
+  },
+  {
+   "id": "E7",
+   "uid": "authz-db.log:23",
+   "ts": "2026-01-20T12:40:07Z",
+   "severity": "WARN",
+   "component": "authz-db",
+   "source": "authz-db.log",
+   "line_no": 23,
+   "message": "slow handler rid=dd86949e dur=210ms",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 55,
+   "suspicious": false
+  },
+  {
+   "id": "E8",
+   "uid": "journal-db.log:25",
+   "ts": "2026-01-20T12:40:43.568000Z",
+   "severity": "WARN",
+   "component": "journal-db",
+   "source": "journal-db.log",
+   "line_no": 25,
+   "message": "filesystem /data 99% full",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 44,
+   "suspicious": false
+  },
+  {
+   "id": "E9",
+   "uid": "journal-db.log:30",
+   "ts": "2026-01-20T12:41:28.789000Z",
+   "severity": "ERROR",
+   "component": "journal-db",
+   "source": "journal-db.log",
+   "line_no": 30,
+   "message": "write /data/wal/000123.log: no space left on device",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 55,
+   "suspicious": false
+  },
+  {
+   "id": "E10",
+   "uid": "posting-svc.log:31",
+   "ts": "2026-01-20T12:41:34.392000Z",
+   "severity": "ERROR",
+   "component": "posting-svc",
+   "source": "posting-svc.log",
+   "line_no": 31,
+   "message": "dial tcp journal-db:3306: connect: connection refused rid=d2c8daf0",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 60,
+   "suspicious": false
+  },
+  {
+   "id": "E11",
+   "uid": "posting-svc.log:32",
+   "ts": "2026-01-20T12:41:36.070000Z",
+   "severity": "WARN",
+   "component": "posting-svc",
+   "source": "posting-svc.log",
+   "line_no": 32,
+   "message": "backoff before retrying journal-db (2/3)",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 50,
+   "suspicious": false
+  },
+  {
+   "id": "E12",
+   "uid": "ledger-svc.log:30",
+   "ts": "2026-01-20T12:41:37.006000Z",
+   "severity": "ERROR",
+   "component": "ledger-svc",
+   "source": "ledger-svc.log",
+   "line_no": 30,
+   "message": "dial tcp posting-svc:9003: connect: connection refused rid=d9294327",
+   "step": 2,
+   "tool": "search_logs",
+   "tokens": 63,
+   "suspicious": false
+  },
+  {
+   "id": "E13",
+   "uid": "ledger-svc.log:32",
+   "ts": "2026-01-20T12:41:39.469000Z",
+   "severity": "WARN",
+   "component": "ledger-svc",
+   "source": "ledger-svc.log",
+   "line_no": 32,
+   "message": "backoff before retrying posting-svc (2/3)",
+   "step": 2,
+   "tool": "search_logs",
+   "tokens": 51,
+   "suspicious": false
+  },
+  {
+   "id": "E14",
+   "uid": "ledger-svc.log:33",
+   "ts": "2026-01-20T12:41:42.339000Z",
+   "severity": "ERROR",
+   "component": "ledger-svc",
+   "source": "ledger-svc.log",
+   "line_no": 33,
+   "message": "request to posting-svc failed permanently after retries",
+   "step": 2,
+   "tool": "search_logs",
+   "tokens": 48,
+   "suspicious": false
+  },
+  {
+   "id": "E15",
+   "uid": "journal-db.log:31",
+   "ts": "2026-01-20T12:41:32.221000Z",
+   "severity": "FATAL",
+   "component": "journal-db",
+   "source": "journal-db.log",
+   "line_no": 31,
+   "message": "panic: unable to persist write-ahead log",
+   "step": 3,
+   "tool": "search_logs",
+   "tokens": 46,
+   "suspicious": false
+  },
+  {
+   "id": "E16",
+   "uid": "journal-db.log:35",
+   "ts": "2026-01-20T12:42:01Z",
+   "severity": "WARN",
+   "component": "journal-db",
+   "source": "journal-db.log",
+   "line_no": 35,
+   "message": "slow handler rid=272e9a84 dur=210ms",
+   "step": 3,
+   "tool": "search_logs",
+   "tokens": 55,
+   "suspicious": false
+  },
+  {
+   "id": "E17",
+   "uid": "journal-db.log:38",
+   "ts": "2026-01-20T12:42:27Z",
+   "severity": "WARN",
+   "component": "journal-db",
+   "source": "journal-db.log",
+   "line_no": 38,
+   "message": "retry budget low on client pool",
+   "step": 3,
+   "tool": "search_logs",
+   "tokens": 43,
+   "suspicious": false
+  }
+ ],
+ "tool_calls": [
+  {
+   "step": 1,
+   "tool": "error_timeline",
+   "args": {
+    "min_severity": "WARN"
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [
+    "E2",
+    "E3",
+    "E4",
+    "E5",
+    "E6",
+    "E7",
+    "E8",
+    "E9",
+    "E10",
+    "E11",
+    "E1"
+   ],
+   "new_evidence_tokens": 503,
+   "output_chars": 1092,
+   "ms": 0.46
+  },
+  {
+   "step": 2,
+   "tool": "search_logs",
+   "args": {
+    "component": "ledger-svc",
+    "min_severity": "WARN"
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [
+    "E4",
+    "E6",
+    "E12",
+    "E13",
+    "E14"
+   ],
+   "new_evidence_tokens": 162,
+   "output_chars": 421,
+   "ms": 0.24
+  },
+  {
+   "step": 3,
+   "tool": "search_logs",
+   "args": {
+    "component": "journal-db",
+    "min_severity": "WARN"
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [
+    "E8",
+    "E9",
+    "E15",
+    "E16",
+    "E17"
+   ],
+   "new_evidence_tokens": 144,
+   "output_chars": 363,
+   "ms": 0.2
+  },
+  {
+   "step": 4,
+   "tool": "search_logs",
+   "args": {
+    "component": "posting-svc",
+    "min_severity": "WARN"
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [
+    "E10",
+    "E11"
+   ],
+   "new_evidence_tokens": 0,
+   "output_chars": 130,
+   "ms": 0.13
+  }
+ ],
+ "metrics": {
+  "evidence_token_budget": 900,
+  "unique_evidence_tokens": 865,
+  "unique_evidence_items": 17,
+  "repeated_exposures": 7,
+  "repeated_exposure_tokens": 374,
+  "llm_calls": 6,
+  "prompt_tokens_total": 9483,
+  "output_tokens_total": 539,
+  "llm_seconds": 762.005,
+  "wall_seconds": 762.238,
+  "steps": 5,
+  "tool_calls": 4,
+  "blocked_tool_calls": 0,
+  "gate_rounds": 0,
+  "parse_failures": 0,
+  "normalised_fields": 0,
+  "cpu_seconds": 2093.5600000000018,
+  "mean_cpu_percent": 274.68723282980835,
+  "peak_rss_mb": 8366.75584,
+  "peak_uss_mb": 8378.765312,
+  "peak_pss_mb": 8378.856448,
+  "host_used_peak_mb": 25808.248832,
+  "host_total_mb": 33436.11904
+ }
+}

@@ -39,6 +39,8 @@ Status values: **Agreed**, **Tentative** (needs verification), **Open**.
 | D-031 | 2026-11-22 | Measured real per-run wall time on dev (shared server, load avg 2-13): E2b 441-591 s; E3 444-650 s; A2 443 s; E1 < 1 s. Peak Ollama RSS 7.5-9.3 GB | Basis for the run plan at the pilot freeze | Measured |
 | D-032 | 2026-11-23 | Memory measurement corrected (M11): sampler now uses the Ollama process tree (by process name, each PID once) and records summed RSS, USS, PSS, host used/total; mean CPU % = 100 x CPU s / wall s. Pilot 15.3 GB was NOT double counting: one llama-server only; its host-RAM prompt cache (Ollama 0.40.16 default 8,192 MiB) reached 8,178 MiB. Fresh model process after one E2b run: USS 6.79 GB | Measurement only; no RCA behaviour change | Agreed (measurement) |
 | D-033 | 2026-11-23 | Output-truncation count persisted per run (RunMetrics.normalised_fields) and reported in analysis; truncation policy and limits unchanged and identical across arms | Auditability | Agreed (measurement) |
+| D-034 | 2026-11-25 | Test freeze: B = 900 (rule R4, dev-only volume statistic); temperature 0.2; E2b/E3/A2 x 2 runs, E1/E1f x 1, A3 derived (480 runs); Ollama default prompt cache kept, memory recorded; no 16 GB laptop claim | Approved by student | Agreed |
+| D-035 | 2026-11-25 | Operational check at B = 900 on 6 dev cases: 30/30 ok, strict budget held, no invalid references; E3 exhausts B early so the gate is often skipped (specified behaviour) | Pre-freeze verification, accuracy not used | Agreed |
 
 ## Open questions
 
@@ -60,9 +62,9 @@ Status values: **Agreed**, **Tentative** (needs verification), **Open**.
 | Q-014 | Manual Google Scholar / IEEE Xplore / ACM DL searches (automated access blocked) | Student | Before final gap |
 | Q-015 | Full-text read of ★ papers | Team / Student | 3 of 6 done (A18–A20). Context-RCA, RCAgentOps, VerifyRCA need manual browser download (CC-BY on IEEE Xplore) |
 | Q-016 | Resolve licence conflicts (RCAEval, GAIA, Loghub) and verify OpenStack-RCA-Bench availability | Team | Before data use |
-| Q-017 | Compute: at measured ~8-11 min per LLM run, 60 cases x 3 runs x 3 LLM arms is ~70+ h. Choose at pilot freeze, e.g. E2b and E3 at 2 runs, A2 at 1 run (~42 h) | Student / Team | Pilot freeze |
+| Q-017 | Compute plan | Student / Team | **Closed (D-034)**: 480 runs, ~56 h estimated |
 | Q-018 | Token counter for B | Team | **Closed (D-027)**; calibration: constant +16/+21 template tokens vs Ollama |
-| Q-019 | At B = 3,000, only the over-budget stratum (12 of 60 test cases) has more WARN+ evidence than B; in other strata all WARN+ lines fit (median 1.1k-2.4k tokens). Choose B at the pilot freeze on a stated, arm-neutral basis (compute or a fixed fraction), not on observed arm differences | Team | Pilot freeze |
+| Q-019 | Choice of B | Team | **Closed (D-034)**: B = 900 by rule R4 (dev-only volume) |
 | Q-020 | E1 scores 18/18 on dev because generated messages name the failing dependency; E1 may be near ceiling on test too. Report as a property of the synthetic data (limitation), not as a weakness of LLM arms | Team | Write-up |
 
 ## Mid-report review (next week)

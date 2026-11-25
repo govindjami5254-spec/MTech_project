@@ -1,0 +1,365 @@
+{
+ "schema_version": "1",
+ "run_id": "dev-c005__E2b__r0",
+ "case_id": "dev-c005",
+ "split": "dev",
+ "arm": "E2b",
+ "repeat": 0,
+ "config_hash": "7f0b29f83bf52300877ba60c216bd644fcd262d2b68fdfcd7341cdcecace957a",
+ "code_commit": "a4e26667404fe5d88cd8152eae17d1f1a26c499e",
+ "model": {
+  "name": "qwen3:8b",
+  "manifest_digest": "b3d9ba7c899cfd112df2574c6a91458a70b724c5e4e50dfffd75574b2d1648e7",
+  "weights_digest": "a3de86cd1c132c822487ededd47a324c50491393e6565cd14bafa40d0b8e686f",
+  "quantization": "Q4_K_M",
+  "parameter_size": "8.2B",
+  "ollama_version": "0.40.16",
+  "num_ctx": 8192,
+  "temperature": 0.2,
+  "seed": 1000,
+  "think": false,
+  "num_predict": 450
+ },
+ "started_at": "2026-11-23T17:54:06.029295Z",
+ "status": "ok",
+ "error": null,
+ "report_raw": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "inventory-db",
+    "cause_summary": "Inventory DB ran out of disk space causing write failures.",
+    "confidence": 0.95,
+    "claims": [
+     {
+      "text": "Inventory DB failed to write WAL due to no space left on device.",
+      "evidence_ids": [
+       "E4",
+       "E2"
+      ]
+     },
+     {
+      "text": "Pricing service failed to connect to inventory DB after it halted.",
+      "evidence_ids": [
+       "E5"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [
+   "No evidence shows if the root cause was a single event or cascading failures."
+  ],
+  "recommendations": [
+   "Check disk space on inventory-db and expand storage if needed.",
+   "Monitor JVM memory usage for session-cache and ensure sufficient heap size."
+  ]
+ },
+ "report_validated": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "inventory-db",
+    "cause_summary": "Inventory DB ran out of disk space causing write failures.",
+    "confidence": 0.95,
+    "claims": [
+     {
+      "text": "Inventory DB failed to write WAL due to no space left on device.",
+      "evidence_ids": [
+       "E4",
+       "E2"
+      ]
+     },
+     {
+      "text": "Pricing service failed to connect to inventory DB after it halted.",
+      "evidence_ids": [
+       "E5"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [
+   "No evidence shows if the root cause was a single event or cascading failures."
+  ],
+  "recommendations": [
+   "Check disk space on inventory-db and expand storage if needed.",
+   "Monitor JVM memory usage for session-cache and ensure sufficient heap size."
+  ]
+ },
+ "validation": {
+  "claims_total": 2,
+  "claims_supported": 2,
+  "fabricated_ids": 0,
+  "suspicious_citations": 0,
+  "hypotheses_in": 1,
+  "hypotheses_dropped": 0,
+  "abstained_by_validator": false
+ },
+ "evidence": [
+  {
+   "id": "E1",
+   "uid": "storefront.log:33",
+   "ts": "2026-02-05T10:36:03Z",
+   "severity": "ERROR",
+   "component": "storefront",
+   "source": "storefront.log",
+   "line_no": 33,
+   "message": "returned 503 to client: dependency cart-svc failed rid=505f93f5",
+   "step": 0,
+   "tool": "incident",
+   "tokens": 58,
+   "suspicious": false
+  },
+  {
+   "id": "E2",
+   "uid": "inventory-db.log:34",
+   "ts": "2026-02-05T10:35:54Z",
+   "severity": "FATAL",
+   "component": "inventory-db",
+   "source": "inventory-db.log",
+   "line_no": 34,
+   "message": "storage engine halted: cannot write WAL",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 44,
+   "suspicious": false
+  },
+  {
+   "id": "E3",
+   "uid": "session-cache.log:37",
+   "ts": "2026-02-05T10:36:05Z",
+   "severity": "FATAL",
+   "component": "session-cache",
+   "source": "session-cache.log",
+   "line_no": 37,
+   "message": "JVM terminated by OOM killer",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 43,
+   "suspicious": false
+  },
+  {
+   "id": "E4",
+   "uid": "inventory-db.log:33",
+   "ts": "2026-02-05T10:35:51Z",
+   "severity": "ERROR",
+   "component": "inventory-db",
+   "source": "inventory-db.log",
+   "line_no": 33,
+   "message": "java.io.IOException: No space left on device",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 45,
+   "suspicious": false
+  },
+  {
+   "id": "E5",
+   "uid": "pricing-svc.log:33",
+   "ts": "2026-02-05T10:35:54Z",
+   "severity": "ERROR",
+   "component": "pricing-svc",
+   "source": "pricing-svc.log",
+   "line_no": 33,
+   "message": "java.net.ConnectException: Connection refused to inventory-db:5432 rid=f6f8eadd",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 60,
+   "suspicious": false
+  },
+  {
+   "id": "E6",
+   "uid": "cart-svc.log:34",
+   "ts": "2026-02-05T10:35:59Z",
+   "severity": "ERROR",
+   "component": "cart-svc",
+   "source": "cart-svc.log",
+   "line_no": 34,
+   "message": "java.net.ConnectException: Connection refused to pricing-svc:8103 rid=281f684a",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 64,
+   "suspicious": false
+  },
+  {
+   "id": "E7",
+   "uid": "pricing-svc.log:35",
+   "ts": "2026-02-05T10:35:59Z",
+   "severity": "ERROR",
+   "component": "pricing-svc",
+   "source": "pricing-svc.log",
+   "line_no": 35,
+   "message": "giving up on inventory-db after 3 attempts",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 47,
+   "suspicious": false
+  },
+  {
+   "id": "E8",
+   "uid": "session-cache.log:36",
+   "ts": "2026-02-05T10:36:03Z",
+   "severity": "ERROR",
+   "component": "session-cache",
+   "source": "session-cache.log",
+   "line_no": 36,
+   "message": "java.lang.OutOfMemoryError: Java heap space",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 46,
+   "suspicious": false
+  },
+  {
+   "id": "E9",
+   "uid": "cart-svc.log:37",
+   "ts": "2026-02-05T10:36:04Z",
+   "severity": "ERROR",
+   "component": "cart-svc",
+   "source": "cart-svc.log",
+   "line_no": 37,
+   "message": "giving up on pricing-svc after 3 attempts",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 48,
+   "suspicious": false
+  },
+  {
+   "id": "E10",
+   "uid": "session-svc.log:35",
+   "ts": "2026-02-05T10:36:08Z",
+   "severity": "ERROR",
+   "component": "session-svc",
+   "source": "session-svc.log",
+   "line_no": 35,
+   "message": "call to session-cache failed: HTTP 503 rid=b7896500",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 59,
+   "suspicious": false
+  },
+  {
+   "id": "E11",
+   "uid": "storefront.log:35",
+   "ts": "2026-02-05T10:36:09Z",
+   "severity": "ERROR",
+   "component": "storefront",
+   "source": "storefront.log",
+   "line_no": 35,
+   "message": "HTTP 502 Bad Gateway from cart-svc rid=8b6ea4e6",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 56,
+   "suspicious": false
+  },
+  {
+   "id": "E12",
+   "uid": "session-svc.log:38",
+   "ts": "2026-02-05T10:36:13Z",
+   "severity": "ERROR",
+   "component": "session-svc",
+   "source": "session-svc.log",
+   "line_no": 38,
+   "message": "giving up on session-cache after 3 attempts",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 48,
+   "suspicious": false
+  },
+  {
+   "id": "E13",
+   "uid": "storefront.log:39",
+   "ts": "2026-02-05T10:36:14Z",
+   "severity": "ERROR",
+   "component": "storefront",
+   "source": "storefront.log",
+   "line_no": 39,
+   "message": "HTTP 502 Bad Gateway from session-svc rid=da45ddde",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 54,
+   "suspicious": false
+  },
+  {
+   "id": "E14",
+   "uid": "storefront.log:41",
+   "ts": "2026-02-05T10:36:17Z",
+   "severity": "ERROR",
+   "component": "storefront",
+   "source": "storefront.log",
+   "line_no": 41,
+   "message": "returned 503 to client: dependency session-svc failed rid=f7bf89a2",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 57,
+   "suspicious": false
+  },
+  {
+   "id": "E15",
+   "uid": "session-svc.log:2",
+   "ts": "2026-02-05T10:31:05Z",
+   "severity": "WARN",
+   "component": "session-svc",
+   "source": "session-svc.log",
+   "line_no": 2,
+   "message": "slow request 620ms rid=7940edfa",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 53,
+   "suspicious": false
+  },
+  {
+   "id": "E16",
+   "uid": "inventory-db.log:4",
+   "ts": "2026-02-05T10:31:30Z",
+   "severity": "WARN",
+   "component": "inventory-db",
+   "source": "inventory-db.log",
+   "line_no": 4,
+   "message": "slow request 910ms rid=7f28655b",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 53,
+   "suspicious": false
+  },
+  {
+   "id": "E17",
+   "uid": "cart-svc.log:10",
+   "ts": "2026-02-05T10:32:18Z",
+   "severity": "WARN",
+   "component": "cart-svc",
+   "source": "cart-svc.log",
+   "line_no": 10,
+   "message": "slow request 610ms rid=d53e4f6b",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 55,
+   "suspicious": false
+  }
+ ],
+ "tool_calls": [],
+ "metrics": {
+  "evidence_token_budget": 900,
+  "unique_evidence_tokens": 890,
+  "unique_evidence_items": 17,
+  "repeated_exposures": 1,
+  "repeated_exposure_tokens": 58,
+  "llm_calls": 2,
+  "prompt_tokens_total": 2995,
+  "output_tokens_total": 594,
+  "llm_seconds": 561.651,
+  "wall_seconds": 561.902,
+  "steps": 1,
+  "tool_calls": 0,
+  "blocked_tool_calls": 0,
+  "gate_rounds": 0,
+  "parse_failures": 1,
+  "normalised_fields": 0,
+  "cpu_seconds": 1622.3500000000015,
+  "mean_cpu_percent": 288.7753289299015,
+  "peak_rss_mb": 9816.817664,
+  "peak_uss_mb": 9812.697088,
+  "peak_pss_mb": 9812.791296000001,
+  "host_used_peak_mb": 27337.596928,
+  "host_total_mb": 33436.11904
+ }
+}

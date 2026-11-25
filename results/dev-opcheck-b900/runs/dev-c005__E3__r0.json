@@ -1,0 +1,425 @@
+{
+ "schema_version": "1",
+ "run_id": "dev-c005__E3__r0",
+ "case_id": "dev-c005",
+ "split": "dev",
+ "arm": "E3",
+ "repeat": 0,
+ "config_hash": "7f0b29f83bf52300877ba60c216bd644fcd262d2b68fdfcd7341cdcecace957a",
+ "code_commit": "a4e26667404fe5d88cd8152eae17d1f1a26c499e",
+ "model": {
+  "name": "qwen3:8b",
+  "manifest_digest": "b3d9ba7c899cfd112df2574c6a91458a70b724c5e4e50dfffd75574b2d1648e7",
+  "weights_digest": "a3de86cd1c132c822487ededd47a324c50491393e6565cd14bafa40d0b8e686f",
+  "quantization": "Q4_K_M",
+  "parameter_size": "8.2B",
+  "ollama_version": "0.40.16",
+  "num_ctx": 8192,
+  "temperature": 0.2,
+  "seed": 1000,
+  "think": false,
+  "num_predict": 450
+ },
+ "started_at": "2026-11-23T18:03:28.029482Z",
+ "status": "ok",
+ "error": null,
+ "report_raw": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "inventory-db",
+    "cause_summary": "inventory-db ran out of disk space (E16) leading to storage engine halt (E17).",
+    "confidence": 0.95,
+    "claims": [
+     {
+      "text": "inventory-db had no space left on device (E16).",
+      "evidence_ids": [
+       "E16"
+      ]
+     },
+     {
+      "text": "inventory-db storage engine halted due to write failure (E17).",
+      "evidence_ids": [
+       "E17"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [],
+  "recommendations": [
+   "Check inventory-db disk usage and storage configuration.",
+   "Investigate why inventory-db ran out of space."
+  ]
+ },
+ "report_validated": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "inventory-db",
+    "cause_summary": "inventory-db ran out of disk space (E16) leading to storage engine halt (E17).",
+    "confidence": 0.95,
+    "claims": [
+     {
+      "text": "inventory-db had no space left on device (E16).",
+      "evidence_ids": [
+       "E16"
+      ]
+     },
+     {
+      "text": "inventory-db storage engine halted due to write failure (E17).",
+      "evidence_ids": [
+       "E17"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [],
+  "recommendations": [
+   "Check inventory-db disk usage and storage configuration.",
+   "Investigate why inventory-db ran out of space."
+  ]
+ },
+ "validation": {
+  "claims_total": 2,
+  "claims_supported": 2,
+  "fabricated_ids": 0,
+  "suspicious_citations": 0,
+  "hypotheses_in": 1,
+  "hypotheses_dropped": 0,
+  "abstained_by_validator": false
+ },
+ "evidence": [
+  {
+   "id": "E1",
+   "uid": "storefront.log:33",
+   "ts": "2026-02-05T10:36:03Z",
+   "severity": "ERROR",
+   "component": "storefront",
+   "source": "storefront.log",
+   "line_no": 33,
+   "message": "returned 503 to client: dependency cart-svc failed rid=505f93f5",
+   "step": 0,
+   "tool": "incident",
+   "tokens": 58,
+   "suspicious": false
+  },
+  {
+   "id": "E2",
+   "uid": "session-svc.log:2",
+   "ts": "2026-02-05T10:31:05Z",
+   "severity": "WARN",
+   "component": "session-svc",
+   "source": "session-svc.log",
+   "line_no": 2,
+   "message": "slow request 620ms rid=7940edfa",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 52,
+   "suspicious": false
+  },
+  {
+   "id": "E3",
+   "uid": "inventory-db.log:4",
+   "ts": "2026-02-05T10:31:30Z",
+   "severity": "WARN",
+   "component": "inventory-db",
+   "source": "inventory-db.log",
+   "line_no": 4,
+   "message": "slow request 910ms rid=7f28655b",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 52,
+   "suspicious": false
+  },
+  {
+   "id": "E4",
+   "uid": "cart-svc.log:10",
+   "ts": "2026-02-05T10:32:18Z",
+   "severity": "WARN",
+   "component": "cart-svc",
+   "source": "cart-svc.log",
+   "line_no": 10,
+   "message": "slow request 610ms rid=d53e4f6b",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 54,
+   "suspicious": false
+  },
+  {
+   "id": "E5",
+   "uid": "session-cache.log:14",
+   "ts": "2026-02-05T10:32:50Z",
+   "severity": "WARN",
+   "component": "session-cache",
+   "source": "session-cache.log",
+   "line_no": 14,
+   "message": "slow request 700ms rid=20f83040",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 53,
+   "suspicious": false
+  },
+  {
+   "id": "E6",
+   "uid": "pricing-svc.log:18",
+   "ts": "2026-02-05T10:33:20Z",
+   "severity": "WARN",
+   "component": "pricing-svc",
+   "source": "pricing-svc.log",
+   "line_no": 18,
+   "message": "GC pause 78ms (young gen)",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 47,
+   "suspicious": false
+  },
+  {
+   "id": "E7",
+   "uid": "metrics-agent.log:19",
+   "ts": "2026-02-05T10:33:51Z",
+   "severity": "WARN",
+   "component": "metrics-agent",
+   "source": "metrics-agent.log",
+   "line_no": 19,
+   "message": "slow request 290ms rid=21f26fbf",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 52,
+   "suspicious": false
+  },
+  {
+   "id": "E8",
+   "uid": "mailer.log:24",
+   "ts": "2026-02-05T10:34:35Z",
+   "severity": "WARN",
+   "component": "mailer",
+   "source": "mailer.log",
+   "line_no": 24,
+   "message": "GC pause 73ms (young gen)",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 44,
+   "suspicious": false
+  },
+  {
+   "id": "E9",
+   "uid": "session-cache.log:26",
+   "ts": "2026-02-05T10:34:54Z",
+   "severity": "WARN",
+   "component": "session-cache",
+   "source": "session-cache.log",
+   "line_no": 26,
+   "message": "slow request 310ms rid=721637ec",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 52,
+   "suspicious": false
+  },
+  {
+   "id": "E10",
+   "uid": "inventory-db.log:26",
+   "ts": "2026-02-05T10:35:01Z",
+   "severity": "WARN",
+   "component": "inventory-db",
+   "source": "inventory-db.log",
+   "line_no": 26,
+   "message": "disk usage 96% on /var/lib/data",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 48,
+   "suspicious": false
+  },
+  {
+   "id": "E11",
+   "uid": "pricing-svc.log:33",
+   "ts": "2026-02-05T10:35:54Z",
+   "severity": "ERROR",
+   "component": "pricing-svc",
+   "source": "pricing-svc.log",
+   "line_no": 33,
+   "message": "java.net.ConnectException: Connection refused to inventory-db:5432 rid=f6f8eadd",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 61,
+   "suspicious": false
+  },
+  {
+   "id": "E12",
+   "uid": "cart-svc.log:34",
+   "ts": "2026-02-05T10:35:59Z",
+   "severity": "ERROR",
+   "component": "cart-svc",
+   "source": "cart-svc.log",
+   "line_no": 34,
+   "message": "java.net.ConnectException: Connection refused to pricing-svc:8103 rid=281f684a",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 65,
+   "suspicious": false
+  },
+  {
+   "id": "E13",
+   "uid": "storefront.log:34",
+   "ts": "2026-02-05T10:36:06Z",
+   "severity": "ERROR",
+   "component": "storefront",
+   "source": "storefront.log",
+   "line_no": 34,
+   "message": "returned 503 to client: dependency cart-svc failed rid=4df84111",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 58,
+   "suspicious": false
+  },
+  {
+   "id": "E14",
+   "uid": "session-svc.log:35",
+   "ts": "2026-02-05T10:36:08Z",
+   "severity": "ERROR",
+   "component": "session-svc",
+   "source": "session-svc.log",
+   "line_no": 35,
+   "message": "call to session-cache failed: HTTP 503 rid=b7896500",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 59,
+   "suspicious": false
+  },
+  {
+   "id": "E15",
+   "uid": "metrics-agent.log:36",
+   "ts": "2026-02-05T10:36:38Z",
+   "severity": "WARN",
+   "component": "metrics-agent",
+   "source": "metrics-agent.log",
+   "line_no": 36,
+   "message": "slow request 820ms rid=fc052e44",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 53,
+   "suspicious": false
+  },
+  {
+   "id": "E16",
+   "uid": "inventory-db.log:33",
+   "ts": "2026-02-05T10:35:51Z",
+   "severity": "ERROR",
+   "component": "inventory-db",
+   "source": "inventory-db.log",
+   "line_no": 33,
+   "message": "java.io.IOException: No space left on device",
+   "step": 2,
+   "tool": "search_logs",
+   "tokens": 46,
+   "suspicious": false
+  },
+  {
+   "id": "E17",
+   "uid": "inventory-db.log:34",
+   "ts": "2026-02-05T10:35:54Z",
+   "severity": "FATAL",
+   "component": "inventory-db",
+   "source": "inventory-db.log",
+   "line_no": 34,
+   "message": "storage engine halted: cannot write WAL",
+   "step": 2,
+   "tool": "search_logs",
+   "tokens": 45,
+   "suspicious": false
+  }
+ ],
+ "tool_calls": [
+  {
+   "step": 1,
+   "tool": "error_timeline",
+   "args": {
+    "min_severity": "WARN"
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [
+    "E2",
+    "E3",
+    "E4",
+    "E5",
+    "E6",
+    "E7",
+    "E8",
+    "E9",
+    "E10",
+    "E11",
+    "E12",
+    "E1",
+    "E13",
+    "E14",
+    "E15"
+   ],
+   "new_evidence_tokens": 750,
+   "output_chars": 1565,
+   "ms": 1.59
+  },
+  {
+   "step": 2,
+   "tool": "search_logs",
+   "args": {
+    "component": "inventory-db",
+    "min_severity": "WARN"
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [
+    "E3",
+    "E10",
+    "E16",
+    "E17"
+   ],
+   "new_evidence_tokens": 91,
+   "output_chars": 286,
+   "ms": 0.41
+  },
+  {
+   "step": 3,
+   "tool": "search_logs",
+   "args": {
+    "component": "cart-svc",
+    "min_severity": "WARN"
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [
+    "E4",
+    "E12"
+   ],
+   "new_evidence_tokens": 0,
+   "output_chars": 129,
+   "ms": 0.12
+  }
+ ],
+ "metrics": {
+  "evidence_token_budget": 900,
+  "unique_evidence_tokens": 899,
+  "unique_evidence_items": 17,
+  "repeated_exposures": 5,
+  "repeated_exposure_tokens": 277,
+  "llm_calls": 5,
+  "prompt_tokens_total": 7972,
+  "output_tokens_total": 495,
+  "llm_seconds": 933.085,
+  "wall_seconds": 933.379,
+  "steps": 4,
+  "tool_calls": 3,
+  "blocked_tool_calls": 0,
+  "gate_rounds": 0,
+  "parse_failures": 0,
+  "normalised_fields": 0,
+  "cpu_seconds": 2550.059999999997,
+  "mean_cpu_percent": 273.23467336141954,
+  "peak_rss_mb": 10128.121856,
+  "peak_uss_mb": 10123.73504,
+  "peak_pss_mb": 10123.829248,
+  "host_used_peak_mb": 27370.561536,
+  "host_total_mb": 33436.11904
+ }
+}

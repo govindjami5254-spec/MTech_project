@@ -1,0 +1,207 @@
+{
+ "schema_version": "1",
+ "run_id": "dev-c001__E1__r0",
+ "case_id": "dev-c001",
+ "split": "dev",
+ "arm": "E1",
+ "repeat": 0,
+ "config_hash": "7f0b29f83bf52300877ba60c216bd644fcd262d2b68fdfcd7341cdcecace957a",
+ "code_commit": "a4e26667404fe5d88cd8152eae17d1f1a26c499e",
+ "model": null,
+ "started_at": "2026-11-23T16:30:50.819076Z",
+ "status": "ok",
+ "error": null,
+ "report_raw": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "journal-db",
+    "cause_summary": "disk full in journal-db (dependency chain: api-edge -> ledger-svc -> posting-svc -> journal-db)",
+    "confidence": 0.6,
+    "claims": [
+     {
+      "text": "ledger-svc reported failures calling posting-svc: dial tcp posting-svc:9003: connect: connection refused rid=d9294327",
+      "evidence_ids": [
+       "E2"
+      ]
+     },
+     {
+      "text": "posting-svc reported failures calling journal-db: dial tcp journal-db:3306: connect: connection refused rid=d2c8daf0",
+      "evidence_ids": [
+       "E3"
+      ]
+     },
+     {
+      "text": "journal-db logged its own failure: panic: unable to persist write-ahead log",
+      "evidence_ids": [
+       "E4",
+       "E5",
+       "E6"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [],
+  "recommendations": [
+   "Inspect journal-db for disk full."
+  ]
+ },
+ "report_validated": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "journal-db",
+    "cause_summary": "disk full in journal-db (dependency chain: api-edge -> ledger-svc -> posting-svc -> journal-db)",
+    "confidence": 0.6,
+    "claims": [
+     {
+      "text": "ledger-svc reported failures calling posting-svc: dial tcp posting-svc:9003: connect: connection refused rid=d9294327",
+      "evidence_ids": [
+       "E2"
+      ]
+     },
+     {
+      "text": "posting-svc reported failures calling journal-db: dial tcp journal-db:3306: connect: connection refused rid=d2c8daf0",
+      "evidence_ids": [
+       "E3"
+      ]
+     },
+     {
+      "text": "journal-db logged its own failure: panic: unable to persist write-ahead log",
+      "evidence_ids": [
+       "E4",
+       "E5",
+       "E6"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [],
+  "recommendations": [
+   "Inspect journal-db for disk full."
+  ]
+ },
+ "validation": {
+  "claims_total": 3,
+  "claims_supported": 3,
+  "fabricated_ids": 0,
+  "suspicious_citations": 0,
+  "hypotheses_in": 1,
+  "hypotheses_dropped": 0,
+  "abstained_by_validator": false
+ },
+ "evidence": [
+  {
+   "id": "E1",
+   "uid": "api-edge.log:31",
+   "ts": "2026-01-20T12:41:45.011000Z",
+   "severity": "ERROR",
+   "component": "api-edge",
+   "source": "api-edge.log",
+   "line_no": 31,
+   "message": "responding 503: upstream ledger-svc error rid=7b4daa3d",
+   "step": 0,
+   "tool": "incident",
+   "tokens": 56,
+   "suspicious": false
+  },
+  {
+   "id": "E2",
+   "uid": "ledger-svc.log:30",
+   "ts": "2026-01-20T12:41:37.006000Z",
+   "severity": "ERROR",
+   "component": "ledger-svc",
+   "source": "ledger-svc.log",
+   "line_no": 30,
+   "message": "dial tcp posting-svc:9003: connect: connection refused rid=d9294327",
+   "step": 1,
+   "tool": "e1_rules",
+   "tokens": 62,
+   "suspicious": false
+  },
+  {
+   "id": "E3",
+   "uid": "posting-svc.log:31",
+   "ts": "2026-01-20T12:41:34.392000Z",
+   "severity": "ERROR",
+   "component": "posting-svc",
+   "source": "posting-svc.log",
+   "line_no": 31,
+   "message": "dial tcp journal-db:3306: connect: connection refused rid=d2c8daf0",
+   "step": 1,
+   "tool": "e1_rules",
+   "tokens": 59,
+   "suspicious": false
+  },
+  {
+   "id": "E4",
+   "uid": "journal-db.log:25",
+   "ts": "2026-01-20T12:40:43.568000Z",
+   "severity": "WARN",
+   "component": "journal-db",
+   "source": "journal-db.log",
+   "line_no": 25,
+   "message": "filesystem /data 99% full",
+   "step": 1,
+   "tool": "e1_rules",
+   "tokens": 44,
+   "suspicious": false
+  },
+  {
+   "id": "E5",
+   "uid": "journal-db.log:30",
+   "ts": "2026-01-20T12:41:28.789000Z",
+   "severity": "ERROR",
+   "component": "journal-db",
+   "source": "journal-db.log",
+   "line_no": 30,
+   "message": "write /data/wal/000123.log: no space left on device",
+   "step": 1,
+   "tool": "e1_rules",
+   "tokens": 55,
+   "suspicious": false
+  },
+  {
+   "id": "E6",
+   "uid": "journal-db.log:31",
+   "ts": "2026-01-20T12:41:32.221000Z",
+   "severity": "FATAL",
+   "component": "journal-db",
+   "source": "journal-db.log",
+   "line_no": 31,
+   "message": "panic: unable to persist write-ahead log",
+   "step": 1,
+   "tool": "e1_rules",
+   "tokens": 45,
+   "suspicious": false
+  }
+ ],
+ "tool_calls": [],
+ "metrics": {
+  "evidence_token_budget": 900,
+  "unique_evidence_tokens": 321,
+  "unique_evidence_items": 6,
+  "repeated_exposures": 1,
+  "repeated_exposure_tokens": 56,
+  "llm_calls": 0,
+  "prompt_tokens_total": 0,
+  "output_tokens_total": 0,
+  "llm_seconds": 0.0,
+  "wall_seconds": 0.268,
+  "steps": 0,
+  "tool_calls": 0,
+  "blocked_tool_calls": 0,
+  "gate_rounds": 0,
+  "parse_failures": 0,
+  "normalised_fields": 0,
+  "cpu_seconds": null,
+  "mean_cpu_percent": null,
+  "peak_rss_mb": null,
+  "peak_uss_mb": null,
+  "peak_pss_mb": null,
+  "host_used_peak_mb": null,
+  "host_total_mb": null
+ }
+}
