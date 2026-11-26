@@ -1,0 +1,207 @@
+{
+ "schema_version": "1",
+ "run_id": "test-c004__E1__r0",
+ "case_id": "test-c004",
+ "split": "test",
+ "arm": "E1",
+ "repeat": 0,
+ "config_hash": "f084f650236305957f9116e615ede9c0cb648ddd97d3aa12302849eddff23ca1",
+ "code_commit": "c5448efd25158e25cc055e988ee3e931b6331ca5",
+ "model": null,
+ "started_at": "2026-11-25T15:07:27.466778Z",
+ "status": "ok",
+ "error": null,
+ "report_raw": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "blob-db",
+    "cause_summary": "disk full in blob-db (dependency chain: edge-proxy -> catalog-api -> asset-store -> blob-db)",
+    "confidence": 0.6,
+    "claims": [
+     {
+      "text": "catalog-api reported failures calling asset-store: Error: connect ECONNREFUSED asset-store:7003 trace=4854295f",
+      "evidence_ids": [
+       "E2"
+      ]
+     },
+     {
+      "text": "asset-store reported failures calling blob-db: Error: connect ECONNREFUSED blob-db:27017 trace=c2cf5c3f",
+      "evidence_ids": [
+       "E3"
+      ]
+     },
+     {
+      "text": "blob-db logged its own failure: Error: ENOSPC: no space left on device, write",
+      "evidence_ids": [
+       "E4",
+       "E5",
+       "E6"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [],
+  "recommendations": [
+   "Inspect blob-db for disk full."
+  ]
+ },
+ "report_validated": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "blob-db",
+    "cause_summary": "disk full in blob-db (dependency chain: edge-proxy -> catalog-api -> asset-store -> blob-db)",
+    "confidence": 0.6,
+    "claims": [
+     {
+      "text": "catalog-api reported failures calling asset-store: Error: connect ECONNREFUSED asset-store:7003 trace=4854295f",
+      "evidence_ids": [
+       "E2"
+      ]
+     },
+     {
+      "text": "asset-store reported failures calling blob-db: Error: connect ECONNREFUSED blob-db:27017 trace=c2cf5c3f",
+      "evidence_ids": [
+       "E3"
+      ]
+     },
+     {
+      "text": "blob-db logged its own failure: Error: ENOSPC: no space left on device, write",
+      "evidence_ids": [
+       "E4",
+       "E5",
+       "E6"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [],
+  "recommendations": [
+   "Inspect blob-db for disk full."
+  ]
+ },
+ "validation": {
+  "claims_total": 3,
+  "claims_supported": 3,
+  "fabricated_ids": 0,
+  "suspicious_citations": 0,
+  "hypotheses_in": 1,
+  "hypotheses_dropped": 0,
+  "abstained_by_validator": false
+ },
+ "evidence": [
+  {
+   "id": "E1",
+   "uid": "edge-proxy.log:36",
+   "ts": "2026-02-03T12:23:15.372000Z",
+   "severity": "ERROR",
+   "component": "edge-proxy",
+   "source": "edge-proxy.log",
+   "line_no": 36,
+   "message": "proxy error contacting catalog-api; responded 502 trace=7402fbc3",
+   "step": 0,
+   "tool": "incident",
+   "tokens": 56,
+   "suspicious": false
+  },
+  {
+   "id": "E2",
+   "uid": "catalog-api.log:35",
+   "ts": "2026-02-03T12:23:11.105000Z",
+   "severity": "ERROR",
+   "component": "catalog-api",
+   "source": "catalog-api.log",
+   "line_no": 35,
+   "message": "Error: connect ECONNREFUSED asset-store:7003 trace=4854295f",
+   "step": 1,
+   "tool": "e1_rules",
+   "tokens": 60,
+   "suspicious": false
+  },
+  {
+   "id": "E3",
+   "uid": "asset-store.log:36",
+   "ts": "2026-02-03T12:23:04.609000Z",
+   "severity": "ERROR",
+   "component": "asset-store",
+   "source": "asset-store.log",
+   "line_no": 36,
+   "message": "Error: connect ECONNREFUSED blob-db:27017 trace=c2cf5c3f",
+   "step": 1,
+   "tool": "e1_rules",
+   "tokens": 59,
+   "suspicious": false
+  },
+  {
+   "id": "E4",
+   "uid": "blob-db.log:27",
+   "ts": "2026-02-03T12:21:57Z",
+   "severity": "WARN",
+   "component": "blob-db",
+   "source": "blob-db.log",
+   "line_no": 27,
+   "message": "unhandled header x-legacy ignored trace=08f87068",
+   "step": 1,
+   "tool": "e1_rules",
+   "tokens": 53,
+   "suspicious": false
+  },
+  {
+   "id": "E5",
+   "uid": "blob-db.log:28",
+   "ts": "2026-02-03T12:22:08.417000Z",
+   "severity": "WARN",
+   "component": "blob-db",
+   "source": "blob-db.log",
+   "line_no": 28,
+   "message": "volume /data usage 98%",
+   "step": 1,
+   "tool": "e1_rules",
+   "tokens": 43,
+   "suspicious": false
+  },
+  {
+   "id": "E6",
+   "uid": "blob-db.log:35",
+   "ts": "2026-02-03T12:22:58.601000Z",
+   "severity": "ERROR",
+   "component": "blob-db",
+   "source": "blob-db.log",
+   "line_no": 35,
+   "message": "Error: ENOSPC: no space left on device, write",
+   "step": 1,
+   "tool": "e1_rules",
+   "tokens": 49,
+   "suspicious": false
+  }
+ ],
+ "tool_calls": [],
+ "metrics": {
+  "evidence_token_budget": 900,
+  "unique_evidence_tokens": 320,
+  "unique_evidence_items": 6,
+  "repeated_exposures": 1,
+  "repeated_exposure_tokens": 56,
+  "llm_calls": 0,
+  "prompt_tokens_total": 0,
+  "output_tokens_total": 0,
+  "llm_seconds": 0.0,
+  "wall_seconds": 0.284,
+  "steps": 0,
+  "tool_calls": 0,
+  "blocked_tool_calls": 0,
+  "gate_rounds": 0,
+  "parse_failures": 0,
+  "normalised_fields": 0,
+  "cpu_seconds": null,
+  "mean_cpu_percent": null,
+  "peak_rss_mb": null,
+  "peak_uss_mb": null,
+  "peak_pss_mb": null,
+  "host_used_peak_mb": null,
+  "host_total_mb": null
+ }
+}

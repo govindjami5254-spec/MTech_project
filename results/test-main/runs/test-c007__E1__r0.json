@@ -1,0 +1,109 @@
+{
+ "schema_version": "1",
+ "run_id": "test-c007__E1__r0",
+ "case_id": "test-c007",
+ "split": "test",
+ "arm": "E1",
+ "repeat": 0,
+ "config_hash": "f084f650236305957f9116e615ede9c0cb648ddd97d3aa12302849eddff23ca1",
+ "code_commit": "c5448efd25158e25cc055e988ee3e931b6331ca5",
+ "model": null,
+ "started_at": "2026-11-25T16:41:47.199833Z",
+ "status": "ok",
+ "error": null,
+ "report_raw": {
+  "insufficient_evidence": true,
+  "hypotheses": [],
+  "evidence_gaps": [
+   "asset-store is blamed by its callers but logs no errors itself; the cause is not visible in the logs"
+  ],
+  "recommendations": []
+ },
+ "report_validated": {
+  "insufficient_evidence": true,
+  "hypotheses": [],
+  "evidence_gaps": [
+   "asset-store is blamed by its callers but logs no errors itself; the cause is not visible in the logs"
+  ],
+  "recommendations": []
+ },
+ "validation": {
+  "claims_total": 0,
+  "claims_supported": 0,
+  "fabricated_ids": 0,
+  "suspicious_citations": 0,
+  "hypotheses_in": 0,
+  "hypotheses_dropped": 0,
+  "abstained_by_validator": false
+ },
+ "evidence": [
+  {
+   "id": "E1",
+   "uid": "edge-proxy.log:35",
+   "ts": "2026-02-12T09:38:02Z",
+   "severity": "ERROR",
+   "component": "edge-proxy",
+   "source": "edge-proxy.log",
+   "line_no": 35,
+   "message": "service unavailable: catalog-api span=92cf9a40 status=503",
+   "step": 0,
+   "tool": "incident",
+   "tokens": 55,
+   "suspicious": false
+  },
+  {
+   "id": "E2",
+   "uid": "catalog-api.log:36",
+   "ts": "2026-02-12T09:37:54Z",
+   "severity": "ERROR",
+   "component": "catalog-api",
+   "source": "catalog-api.log",
+   "line_no": 36,
+   "message": "deadline elapsed waiting on asset-store span=d11bf5b4",
+   "step": 1,
+   "tool": "e1_rules",
+   "tokens": 50,
+   "suspicious": false
+  },
+  {
+   "id": "E3",
+   "uid": "asset-store.log:41",
+   "ts": "2026-02-12T09:39:01Z",
+   "severity": "WARN",
+   "component": "asset-store",
+   "source": "asset-store.log",
+   "line_no": 41,
+   "message": "client sent oversized header, truncated span=83933faa",
+   "step": 1,
+   "tool": "e1_rules",
+   "tokens": 51,
+   "suspicious": false
+  }
+ ],
+ "tool_calls": [],
+ "metrics": {
+  "evidence_token_budget": 900,
+  "unique_evidence_tokens": 156,
+  "unique_evidence_items": 3,
+  "repeated_exposures": 1,
+  "repeated_exposure_tokens": 55,
+  "llm_calls": 0,
+  "prompt_tokens_total": 0,
+  "output_tokens_total": 0,
+  "llm_seconds": 0.0,
+  "wall_seconds": 0.284,
+  "steps": 0,
+  "tool_calls": 0,
+  "blocked_tool_calls": 0,
+  "gate_rounds": 0,
+  "parse_failures": 0,
+  "normalised_fields": 0,
+  "cpu_seconds": null,
+  "mean_cpu_percent": null,
+  "peak_rss_mb": null,
+  "peak_uss_mb": null,
+  "peak_pss_mb": null,
+  "host_used_peak_mb": null,
+  "host_total_mb": null
+ }
+}

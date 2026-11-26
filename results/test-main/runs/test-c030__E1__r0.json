@@ -1,0 +1,207 @@
+{
+ "schema_version": "1",
+ "run_id": "test-c030__E1__r0",
+ "case_id": "test-c030",
+ "split": "test",
+ "arm": "E1",
+ "repeat": 0,
+ "config_hash": "f084f650236305957f9116e615ede9c0cb648ddd97d3aa12302849eddff23ca1",
+ "code_commit": "c5448efd25158e25cc055e988ee3e931b6331ca5",
+ "model": null,
+ "started_at": "2026-11-26T03:23:55.777144Z",
+ "status": "ok",
+ "error": null,
+ "report_raw": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "seat-db",
+    "cause_summary": "connection pool exhausted in seat-db (dependency chain: web-gateway -> booking-svc -> seat-svc -> seat-db)",
+    "confidence": 0.6,
+    "claims": [
+     {
+      "text": "booking-svc reported failures calling seat-svc: hyper::Error(Connect, ConnectError(\"tcp connect error\", Os { code: 111 })) to seat-svc:6102 span=4b535a13",
+      "evidence_ids": [
+       "E2"
+      ]
+     },
+     {
+      "text": "seat-svc reported failures calling seat-db: hyper::Error(Connect, ConnectError(\"tcp connect error\", Os { code: 111 })) to seat-db:5433 span=3a6b0db2",
+      "evidence_ids": [
+       "E3"
+      ]
+     },
+     {
+      "text": "seat-db logged its own failure: rejecting work: connection pool exhausted",
+      "evidence_ids": [
+       "E4",
+       "E5",
+       "E6"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [],
+  "recommendations": [
+   "Inspect seat-db for connection pool exhausted."
+  ]
+ },
+ "report_validated": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "seat-db",
+    "cause_summary": "connection pool exhausted in seat-db (dependency chain: web-gateway -> booking-svc -> seat-svc -> seat-db)",
+    "confidence": 0.6,
+    "claims": [
+     {
+      "text": "booking-svc reported failures calling seat-svc: hyper::Error(Connect, ConnectError(\"tcp connect error\", Os { code: 111 })) to seat-svc:6102 span=4b535a13",
+      "evidence_ids": [
+       "E2"
+      ]
+     },
+     {
+      "text": "seat-svc reported failures calling seat-db: hyper::Error(Connect, ConnectError(\"tcp connect error\", Os { code: 111 })) to seat-db:5433 span=3a6b0db2",
+      "evidence_ids": [
+       "E3"
+      ]
+     },
+     {
+      "text": "seat-db logged its own failure: rejecting work: connection pool exhausted",
+      "evidence_ids": [
+       "E4",
+       "E5",
+       "E6"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [],
+  "recommendations": [
+   "Inspect seat-db for connection pool exhausted."
+  ]
+ },
+ "validation": {
+  "claims_total": 3,
+  "claims_supported": 3,
+  "fabricated_ids": 0,
+  "suspicious_citations": 0,
+  "hypotheses_in": 1,
+  "hypotheses_dropped": 0,
+  "abstained_by_validator": false
+ },
+ "evidence": [
+  {
+   "id": "E1",
+   "uid": "web-gateway.log:37",
+   "ts": "2026-01-22T12:31:06Z",
+   "severity": "ERROR",
+   "component": "web-gateway",
+   "source": "web-gateway.log",
+   "line_no": 37,
+   "message": "service unavailable: booking-svc span=28a28e54 status=503",
+   "step": 0,
+   "tool": "incident",
+   "tokens": 59,
+   "suspicious": false
+  },
+  {
+   "id": "E2",
+   "uid": "booking-svc.log:37",
+   "ts": "2026-01-22T12:30:58Z",
+   "severity": "ERROR",
+   "component": "booking-svc",
+   "source": "booking-svc.log",
+   "line_no": 37,
+   "message": "hyper::Error(Connect, ConnectError(\"tcp connect error\", Os { code: 111 })) to seat-svc:6102 span=4b535a13",
+   "step": 1,
+   "tool": "e1_rules",
+   "tokens": 79,
+   "suspicious": false
+  },
+  {
+   "id": "E3",
+   "uid": "seat-svc.log:37",
+   "ts": "2026-01-22T12:30:51Z",
+   "severity": "ERROR",
+   "component": "seat-svc",
+   "source": "seat-svc.log",
+   "line_no": 37,
+   "message": "hyper::Error(Connect, ConnectError(\"tcp connect error\", Os { code: 111 })) to seat-db:5433 span=3a6b0db2",
+   "step": 1,
+   "tool": "e1_rules",
+   "tokens": 77,
+   "suspicious": false
+  },
+  {
+   "id": "E4",
+   "uid": "seat-db.log:30",
+   "ts": "2026-01-22T12:30:18Z",
+   "severity": "WARN",
+   "component": "seat-db",
+   "source": "seat-db.log",
+   "line_no": 30,
+   "message": "bb8 pool: 172 waiters",
+   "step": 1,
+   "tool": "e1_rules",
+   "tokens": 46,
+   "suspicious": false
+  },
+  {
+   "id": "E5",
+   "uid": "seat-db.log:34",
+   "ts": "2026-01-22T12:30:46Z",
+   "severity": "ERROR",
+   "component": "seat-db",
+   "source": "seat-db.log",
+   "line_no": 34,
+   "message": "pool timed out while waiting for an open connection",
+   "step": 1,
+   "tool": "e1_rules",
+   "tokens": 45,
+   "suspicious": false
+  },
+  {
+   "id": "E6",
+   "uid": "seat-db.log:35",
+   "ts": "2026-01-22T12:30:51Z",
+   "severity": "ERROR",
+   "component": "seat-db",
+   "source": "seat-db.log",
+   "line_no": 35,
+   "message": "rejecting work: connection pool exhausted",
+   "step": 1,
+   "tool": "e1_rules",
+   "tokens": 42,
+   "suspicious": false
+  }
+ ],
+ "tool_calls": [],
+ "metrics": {
+  "evidence_token_budget": 900,
+  "unique_evidence_tokens": 348,
+  "unique_evidence_items": 6,
+  "repeated_exposures": 1,
+  "repeated_exposure_tokens": 59,
+  "llm_calls": 0,
+  "prompt_tokens_total": 0,
+  "output_tokens_total": 0,
+  "llm_seconds": 0.0,
+  "wall_seconds": 0.271,
+  "steps": 0,
+  "tool_calls": 0,
+  "blocked_tool_calls": 0,
+  "gate_rounds": 0,
+  "parse_failures": 0,
+  "normalised_fields": 0,
+  "cpu_seconds": null,
+  "mean_cpu_percent": null,
+  "peak_rss_mb": null,
+  "peak_uss_mb": null,
+  "peak_pss_mb": null,
+  "host_used_peak_mb": null,
+  "host_total_mb": null
+ }
+}

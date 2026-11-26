@@ -1,0 +1,438 @@
+{
+ "schema_version": "1",
+ "run_id": "test-c005__E3__r0",
+ "case_id": "test-c005",
+ "split": "test",
+ "arm": "E3",
+ "repeat": 0,
+ "config_hash": "f084f650236305957f9116e615ede9c0cb648ddd97d3aa12302849eddff23ca1",
+ "code_commit": "c5448efd25158e25cc055e988ee3e931b6331ca5",
+ "model": {
+  "name": "qwen3:8b",
+  "manifest_digest": "b3d9ba7c899cfd112df2574c6a91458a70b724c5e4e50dfffd75574b2d1648e7",
+  "weights_digest": "a3de86cd1c132c822487ededd47a324c50491393e6565cd14bafa40d0b8e686f",
+  "quantization": "Q4_K_M",
+  "parameter_size": "8.2B",
+  "ollama_version": "0.40.16",
+  "num_ctx": 8192,
+  "temperature": 0.2,
+  "seed": 1000,
+  "think": false,
+  "num_predict": 450
+ },
+ "started_at": "2026-11-25T15:47:06.404530Z",
+ "status": "ok",
+ "error": null,
+ "report_raw": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "catalog-api",
+    "cause_summary": "catalog-api had slow query (E4) and deprecated parameter 'page' (E9).",
+    "confidence": 0.85,
+    "claims": [
+     {
+      "text": "catalog-api had slow query (E4).",
+      "evidence_ids": [
+       "E4"
+      ]
+     },
+     {
+      "text": "catalog-api had deprecated parameter 'page' (E9).",
+      "evidence_ids": [
+       "E9"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [],
+  "recommendations": [
+   "Check catalog-api for slow queries and deprecated parameter handling."
+  ]
+ },
+ "report_validated": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "catalog-api",
+    "cause_summary": "catalog-api had slow query (E4) and deprecated parameter 'page' (E9).",
+    "confidence": 0.85,
+    "claims": [
+     {
+      "text": "catalog-api had slow query (E4).",
+      "evidence_ids": [
+       "E4"
+      ]
+     },
+     {
+      "text": "catalog-api had deprecated parameter 'page' (E9).",
+      "evidence_ids": [
+       "E9"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [],
+  "recommendations": [
+   "Check catalog-api for slow queries and deprecated parameter handling."
+  ]
+ },
+ "validation": {
+  "claims_total": 2,
+  "claims_supported": 2,
+  "fabricated_ids": 0,
+  "suspicious_citations": 0,
+  "hypotheses_in": 1,
+  "hypotheses_dropped": 0,
+  "abstained_by_validator": false
+ },
+ "evidence": [
+  {
+   "id": "E1",
+   "uid": "edge-proxy.log:35",
+   "ts": "2026-01-30T09:17:15.911000Z",
+   "severity": "ERROR",
+   "component": "edge-proxy",
+   "source": "edge-proxy.log",
+   "line_no": 35,
+   "message": "upstream error from catalog-api; sent 502 to client req_id=77576717",
+   "step": 0,
+   "tool": "incident",
+   "tokens": 60,
+   "suspicious": false
+  },
+  {
+   "id": "E2",
+   "uid": "blob-db.log:4",
+   "ts": "2026-01-30T09:12:19Z",
+   "severity": "WARN",
+   "component": "blob-db",
+   "source": "blob-db.log",
+   "line_no": 4,
+   "message": "slow query took 730ms req_id=a3173c15",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 53,
+   "suspicious": false
+  },
+  {
+   "id": "E3",
+   "uid": "asset-store.log:10",
+   "ts": "2026-01-30T09:13:16Z",
+   "severity": "WARN",
+   "component": "asset-store",
+   "source": "asset-store.log",
+   "line_no": 10,
+   "message": "deprecated parameter 'page' used by client",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 44,
+   "suspicious": false
+  },
+  {
+   "id": "E4",
+   "uid": "catalog-api.log:10",
+   "ts": "2026-01-30T09:13:30Z",
+   "severity": "WARN",
+   "component": "catalog-api",
+   "source": "catalog-api.log",
+   "line_no": 10,
+   "message": "slow query took 120ms req_id=12253187",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 55,
+   "suspicious": false
+  },
+  {
+   "id": "E5",
+   "uid": "thumbnailer.log:14",
+   "ts": "2026-01-30T09:14:05Z",
+   "severity": "WARN",
+   "component": "thumbnailer",
+   "source": "thumbnailer.log",
+   "line_no": 14,
+   "message": "deprecated parameter 'page' used by client",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 44,
+   "suspicious": false
+  },
+  {
+   "id": "E6",
+   "uid": "edge-proxy.log:17",
+   "ts": "2026-01-30T09:14:40Z",
+   "severity": "WARN",
+   "component": "edge-proxy",
+   "source": "edge-proxy.log",
+   "line_no": 17,
+   "message": "slow query took 650ms req_id=e5b15fce",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 52,
+   "suspicious": false
+  },
+  {
+   "id": "E7",
+   "uid": "user-api.log:18",
+   "ts": "2026-01-30T09:14:48Z",
+   "severity": "WARN",
+   "component": "user-api",
+   "source": "user-api.log",
+   "line_no": 18,
+   "message": "slow query took 940ms req_id=5aea2b1e",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 53,
+   "suspicious": false
+  },
+  {
+   "id": "E8",
+   "uid": "thumbnailer.log:21",
+   "ts": "2026-01-30T09:15:15Z",
+   "severity": "WARN",
+   "component": "thumbnailer",
+   "source": "thumbnailer.log",
+   "line_no": 21,
+   "message": "slow query took 840ms req_id=1ebbff68",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 52,
+   "suspicious": false
+  },
+  {
+   "id": "E9",
+   "uid": "catalog-api.log:23",
+   "ts": "2026-01-30T09:15:25Z",
+   "severity": "WARN",
+   "component": "catalog-api",
+   "source": "catalog-api.log",
+   "line_no": 23,
+   "message": "deprecated parameter 'page' used by client",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 44,
+   "suspicious": false
+  },
+  {
+   "id": "E10",
+   "uid": "profile-db.log:23",
+   "ts": "2026-01-30T09:15:47Z",
+   "severity": "WARN",
+   "component": "profile-db",
+   "source": "profile-db.log",
+   "line_no": 23,
+   "message": "deprecated parameter 'page' used by client",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 45,
+   "suspicious": false
+  },
+  {
+   "id": "E11",
+   "uid": "profile-db.log:31",
+   "ts": "2026-01-30T09:16:54Z",
+   "severity": "WARN",
+   "component": "profile-db",
+   "source": "profile-db.log",
+   "line_no": 31,
+   "message": "deprecated parameter 'page' used by client",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 45,
+   "suspicious": false
+  },
+  {
+   "id": "E12",
+   "uid": "log-forwarder.log:34",
+   "ts": "2026-01-30T09:17:44Z",
+   "severity": "WARN",
+   "component": "log-forwarder",
+   "source": "log-forwarder.log",
+   "line_no": 34,
+   "message": "deprecated parameter 'page' used by client",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 47,
+   "suspicious": false
+  },
+  {
+   "id": "E13",
+   "uid": "user-api.log:37",
+   "ts": "2026-01-30T09:17:45Z",
+   "severity": "WARN",
+   "component": "user-api",
+   "source": "user-api.log",
+   "line_no": 37,
+   "message": "deprecated parameter 'page' used by client",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 45,
+   "suspicious": false
+  },
+  {
+   "id": "E14",
+   "uid": "search-index.log:43",
+   "ts": "2026-01-30T09:18:32Z",
+   "severity": "WARN",
+   "component": "search-index",
+   "source": "search-index.log",
+   "line_no": 43,
+   "message": "deprecated parameter 'page' used by client",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 45,
+   "suspicious": false
+  },
+  {
+   "id": "E15",
+   "uid": "blob-db.log:44",
+   "ts": "2026-01-30T09:18:48Z",
+   "severity": "WARN",
+   "component": "blob-db",
+   "source": "blob-db.log",
+   "line_no": 44,
+   "message": "deprecated parameter 'page' used by client",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 45,
+   "suspicious": false
+  },
+  {
+   "id": "E16",
+   "uid": "search-index.log:48",
+   "ts": "2026-01-30T09:19:08Z",
+   "severity": "WARN",
+   "component": "search-index",
+   "source": "search-index.log",
+   "line_no": 48,
+   "message": "deprecated parameter 'page' used by client",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 45,
+   "suspicious": false
+  },
+  {
+   "id": "E17",
+   "uid": "catalog-api.log:25",
+   "ts": "2026-01-30T09:15:31Z",
+   "severity": "WARN",
+   "component": "catalog-api",
+   "source": "catalog-api.log",
+   "line_no": 25,
+   "message": "deprecated parameter 'page' used by client",
+   "step": 2,
+   "tool": "search_logs",
+   "tokens": 45,
+   "suspicious": false
+  },
+  {
+   "id": "E18",
+   "uid": "edge-proxy.log:36",
+   "ts": "2026-01-30T09:17:18.794000Z",
+   "severity": "ERROR",
+   "component": "edge-proxy",
+   "source": "edge-proxy.log",
+   "line_no": 36,
+   "message": "upstream error from catalog-api; sent 502 to client req_id=925fcd77",
+   "step": 3,
+   "tool": "search_logs",
+   "tokens": 60,
+   "suspicious": false
+  }
+ ],
+ "tool_calls": [
+  {
+   "step": 1,
+   "tool": "error_timeline",
+   "args": {
+    "min_severity": "WARN"
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [
+    "E2",
+    "E3",
+    "E4",
+    "E5",
+    "E6",
+    "E7",
+    "E8",
+    "E9",
+    "E10",
+    "E11",
+    "E1",
+    "E12",
+    "E13",
+    "E14",
+    "E15",
+    "E16"
+   ],
+   "new_evidence_tokens": 714,
+   "output_chars": 1642,
+   "ms": 1.66
+  },
+  {
+   "step": 2,
+   "tool": "search_logs",
+   "args": {
+    "component": "catalog-api",
+    "contains": "page",
+    "min_severity": "WARN"
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [
+    "E9",
+    "E17"
+   ],
+   "new_evidence_tokens": 45,
+   "output_chars": 151,
+   "ms": 0.35
+  },
+  {
+   "step": 3,
+   "tool": "search_logs",
+   "args": {
+    "component": "edge-proxy",
+    "contains": "catalog-api",
+    "min_severity": "WARN"
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [
+    "E1",
+    "E18"
+   ],
+   "new_evidence_tokens": 60,
+   "output_chars": 239,
+   "ms": 0.52
+  }
+ ],
+ "metrics": {
+  "evidence_token_budget": 900,
+  "unique_evidence_tokens": 879,
+  "unique_evidence_items": 18,
+  "repeated_exposures": 3,
+  "repeated_exposure_tokens": 164,
+  "llm_calls": 5,
+  "prompt_tokens_total": 7686,
+  "output_tokens_total": 357,
+  "llm_seconds": 737.993,
+  "wall_seconds": 738.315,
+  "steps": 4,
+  "tool_calls": 3,
+  "blocked_tool_calls": 0,
+  "gate_rounds": 0,
+  "parse_failures": 0,
+  "normalised_fields": 0,
+  "cpu_seconds": 1919.2100000000005,
+  "mean_cpu_percent": 259.97284843780193,
+  "peak_rss_mb": 9328.074752,
+  "peak_uss_mb": 9324.269568,
+  "peak_pss_mb": 9324.335104,
+  "host_used_peak_mb": 27746.033664,
+  "host_total_mb": 33436.11904
+ }
+}

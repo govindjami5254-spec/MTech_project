@@ -1,0 +1,477 @@
+{
+ "schema_version": "1",
+ "run_id": "test-c001__E3__r0",
+ "case_id": "test-c001",
+ "split": "test",
+ "arm": "E3",
+ "repeat": 0,
+ "config_hash": "f084f650236305957f9116e615ede9c0cb648ddd97d3aa12302849eddff23ca1",
+ "code_commit": "c5448efd25158e25cc055e988ee3e931b6331ca5",
+ "model": {
+  "name": "qwen3:8b",
+  "manifest_digest": "b3d9ba7c899cfd112df2574c6a91458a70b724c5e4e50dfffd75574b2d1648e7",
+  "weights_digest": "a3de86cd1c132c822487ededd47a324c50491393e6565cd14bafa40d0b8e686f",
+  "quantization": "Q4_K_M",
+  "parameter_size": "8.2B",
+  "ollama_version": "0.40.16",
+  "num_ctx": 8192,
+  "temperature": 0.2,
+  "seed": 1000,
+  "think": false,
+  "num_predict": 450
+ },
+ "started_at": "2026-11-25T13:40:55.702875Z",
+ "status": "ok",
+ "error": null,
+ "report_raw": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "booking-svc",
+    "cause_summary": "Invalid configuration caused booking-svc to fail (E2,E3).",
+    "confidence": 0.95,
+    "claims": [
+     {
+      "text": "booking-svc had a ConfigError with invalid poolSize (E2).",
+      "evidence_ids": [
+       "E2"
+      ]
+     },
+     {
+      "text": "booking-svc refused to start with invalid configuration (E3).",
+      "evidence_ids": [
+       "E3"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [],
+  "recommendations": [
+   "Check booking-svc configuration for invalid poolSize.",
+   "Verify if other components depend on booking-svc."
+  ]
+ },
+ "report_validated": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "booking-svc",
+    "cause_summary": "Invalid configuration caused booking-svc to fail (E2,E3).",
+    "confidence": 0.95,
+    "claims": [
+     {
+      "text": "booking-svc had a ConfigError with invalid poolSize (E2).",
+      "evidence_ids": [
+       "E2"
+      ]
+     },
+     {
+      "text": "booking-svc refused to start with invalid configuration (E3).",
+      "evidence_ids": [
+       "E3"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [],
+  "recommendations": [
+   "Check booking-svc configuration for invalid poolSize.",
+   "Verify if other components depend on booking-svc."
+  ]
+ },
+ "validation": {
+  "claims_total": 2,
+  "claims_supported": 2,
+  "fabricated_ids": 0,
+  "suspicious_citations": 0,
+  "hypotheses_in": 1,
+  "hypotheses_dropped": 0,
+  "abstained_by_validator": false
+ },
+ "evidence": [
+  {
+   "id": "E1",
+   "uid": "web-gateway.log:33",
+   "ts": "2026-01-17T13:03:26.158000Z",
+   "severity": "ERROR",
+   "component": "web-gateway",
+   "source": "web-gateway.log",
+   "line_no": 33,
+   "message": "503 Service Unavailable returned (booking-svc down) trace=a2a1a19b",
+   "step": 0,
+   "tool": "incident",
+   "tokens": 61,
+   "suspicious": false
+  },
+  {
+   "id": "E2",
+   "uid": "booking-svc.log:35",
+   "ts": "2026-01-17T13:03:23.702000Z",
+   "severity": "ERROR",
+   "component": "booking-svc",
+   "source": "booking-svc.log",
+   "line_no": 35,
+   "message": "ConfigError: 'poolSize' must be a positive integer, got 'abc'",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 54,
+   "suspicious": false
+  },
+  {
+   "id": "E3",
+   "uid": "booking-svc.log:36",
+   "ts": "2026-01-17T13:03:25.968000Z",
+   "severity": "FATAL",
+   "component": "booking-svc",
+   "source": "booking-svc.log",
+   "line_no": 36,
+   "message": "refusing to start with invalid configuration",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 45,
+   "suspicious": false
+  },
+  {
+   "id": "E4",
+   "uid": "web-gateway.log:34",
+   "ts": "2026-01-17T13:03:29.777000Z",
+   "severity": "ERROR",
+   "component": "web-gateway",
+   "source": "web-gateway.log",
+   "line_no": 34,
+   "message": "503 Service Unavailable returned (booking-svc down) trace=34387176",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 62,
+   "suspicious": false
+  },
+  {
+   "id": "E5",
+   "uid": "login-svc.log:33",
+   "ts": "2026-01-17T13:03:23.126000Z",
+   "severity": "INFO",
+   "component": "login-svc",
+   "source": "login-svc.log",
+   "line_no": 33,
+   "message": "served GET /api status=200 in 38ms trace=21d4e2d3",
+   "step": 3,
+   "tool": "get_context",
+   "tokens": 62,
+   "suspicious": false
+  },
+  {
+   "id": "E6",
+   "uid": "fare-cache.log:37",
+   "ts": "2026-01-17T13:03:25.668000Z",
+   "severity": "INFO",
+   "component": "fare-cache",
+   "source": "fare-cache.log",
+   "line_no": 37,
+   "message": "served GET /api status=200 in 63ms trace=1447473b",
+   "step": 3,
+   "tool": "get_context",
+   "tokens": 60,
+   "suspicious": false
+  },
+  {
+   "id": "E7",
+   "uid": "notifier.log:36",
+   "ts": "2026-01-17T13:03:26.130000Z",
+   "severity": "INFO",
+   "component": "notifier",
+   "source": "notifier.log",
+   "line_no": 36,
+   "message": "served GET /api status=200 in 22ms trace=17c39dc2",
+   "step": 3,
+   "tool": "get_context",
+   "tokens": 58,
+   "suspicious": false
+  },
+  {
+   "id": "E8",
+   "uid": "booking-svc.log:37",
+   "ts": "2026-01-17T13:03:26.488000Z",
+   "severity": "INFO",
+   "component": "booking-svc",
+   "source": "booking-svc.log",
+   "line_no": 37,
+   "message": "event loop lag 61ms ok",
+   "step": 3,
+   "tool": "get_context",
+   "tokens": 46,
+   "suspicious": false
+  },
+  {
+   "id": "E9",
+   "uid": "login-svc.log:2",
+   "ts": "2026-01-17T12:58:12Z",
+   "severity": "WARN",
+   "component": "login-svc",
+   "source": "login-svc.log",
+   "line_no": 2,
+   "message": "unhandled header x-legacy ignored trace=64ebd164",
+   "step": 5,
+   "tool": "search_logs",
+   "tokens": 53,
+   "suspicious": false
+  },
+  {
+   "id": "E10",
+   "uid": "login-svc.log:29",
+   "ts": "2026-01-17T13:02:51Z",
+   "severity": "WARN",
+   "component": "login-svc",
+   "source": "login-svc.log",
+   "line_no": 29,
+   "message": "event loop lag 780ms",
+   "step": 5,
+   "tool": "search_logs",
+   "tokens": 47,
+   "suspicious": false
+  },
+  {
+   "id": "E11",
+   "uid": "login-svc.log:42",
+   "ts": "2026-01-17T13:04:39Z",
+   "severity": "WARN",
+   "component": "login-svc",
+   "source": "login-svc.log",
+   "line_no": 42,
+   "message": "unhandled header x-legacy ignored trace=42cf24c8",
+   "step": 5,
+   "tool": "search_logs",
+   "tokens": 55,
+   "suspicious": false
+  },
+  {
+   "id": "E12",
+   "uid": "seat-svc.log:3",
+   "ts": "2026-01-17T12:58:26Z",
+   "severity": "WARN",
+   "component": "seat-svc",
+   "source": "seat-svc.log",
+   "line_no": 3,
+   "message": "event loop lag 700ms",
+   "step": 6,
+   "tool": "search_logs",
+   "tokens": 46,
+   "suspicious": false
+  },
+  {
+   "id": "E13",
+   "uid": "fare-cache.log:4",
+   "ts": "2026-01-17T12:58:31Z",
+   "severity": "WARN",
+   "component": "fare-cache",
+   "source": "fare-cache.log",
+   "line_no": 4,
+   "message": "event loop lag 400ms",
+   "step": 7,
+   "tool": "search_logs",
+   "tokens": 44,
+   "suspicious": false
+  },
+  {
+   "id": "E14",
+   "uid": "fare-cache.log:16",
+   "ts": "2026-01-17T13:00:10Z",
+   "severity": "WARN",
+   "component": "fare-cache",
+   "source": "fare-cache.log",
+   "line_no": 16,
+   "message": "unhandled header x-legacy ignored trace=9bfcf875",
+   "step": 7,
+   "tool": "search_logs",
+   "tokens": 53,
+   "suspicious": false
+  },
+  {
+   "id": "E15",
+   "uid": "fare-svc.log:6",
+   "ts": "2026-01-17T12:58:55Z",
+   "severity": "WARN",
+   "component": "fare-svc",
+   "source": "fare-svc.log",
+   "line_no": 6,
+   "message": "unhandled header x-legacy ignored trace=c6c95d8c",
+   "step": 8,
+   "tool": "search_logs",
+   "tokens": 54,
+   "suspicious": false
+  },
+  {
+   "id": "E16",
+   "uid": "fare-svc.log:15",
+   "ts": "2026-01-17T13:00:14Z",
+   "severity": "WARN",
+   "component": "fare-svc",
+   "source": "fare-svc.log",
+   "line_no": 15,
+   "message": "event loop lag 310ms",
+   "step": 8,
+   "tool": "search_logs",
+   "tokens": 47,
+   "suspicious": false
+  }
+ ],
+ "tool_calls": [
+  {
+   "step": 1,
+   "tool": "error_timeline",
+   "args": {
+    "min_severity": "ERROR"
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [
+    "E2",
+    "E3",
+    "E1",
+    "E4"
+   ],
+   "new_evidence_tokens": 161,
+   "output_chars": 451,
+   "ms": 0.56
+  },
+  {
+   "step": 2,
+   "tool": "search_logs",
+   "args": {
+    "component": "booking-svc",
+    "min_severity": "ERROR",
+    "limit": 10
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [
+    "E2",
+    "E3"
+   ],
+   "new_evidence_tokens": 0,
+   "output_chars": 64,
+   "ms": 0.12
+  },
+  {
+   "step": 3,
+   "tool": "get_context",
+   "args": {
+    "evidence_id": "E3",
+    "before": 3,
+    "after": 3
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [
+    "E5",
+    "E2",
+    "E6",
+    "E3",
+    "E7",
+    "E1",
+    "E8"
+   ],
+   "new_evidence_tokens": 226,
+   "output_chars": 521,
+   "ms": 0.92
+  },
+  {
+   "step": 5,
+   "tool": "search_logs",
+   "args": {
+    "component": "login-svc",
+    "min_severity": "WARN",
+    "start": "2026-01-17T12:58:12Z"
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [
+    "E9",
+    "E10",
+    "E11"
+   ],
+   "new_evidence_tokens": 155,
+   "output_chars": 322,
+   "ms": 0.53
+  },
+  {
+   "step": 6,
+   "tool": "search_logs",
+   "args": {
+    "component": "seat-svc",
+    "min_severity": "WARN",
+    "start": "2026-01-17T12:58:26Z"
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [
+    "E12"
+   ],
+   "new_evidence_tokens": 46,
+   "output_chars": 101,
+   "ms": 0.3
+  },
+  {
+   "step": 7,
+   "tool": "search_logs",
+   "args": {
+    "component": "fare-cache",
+    "min_severity": "WARN",
+    "start": "2026-01-17T12:58:31Z"
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [
+    "E13",
+    "E14"
+   ],
+   "new_evidence_tokens": 97,
+   "output_chars": 217,
+   "ms": 0.44
+  },
+  {
+   "step": 8,
+   "tool": "search_logs",
+   "args": {
+    "component": "fare-svc",
+    "min_severity": "WARN",
+    "start": "2026-01-17T12:58:55Z"
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [
+    "E15",
+    "E16"
+   ],
+   "new_evidence_tokens": 101,
+   "output_chars": 209,
+   "ms": 0.41
+  }
+ ],
+ "metrics": {
+  "evidence_token_budget": 900,
+  "unique_evidence_tokens": 847,
+  "unique_evidence_items": 16,
+  "repeated_exposures": 6,
+  "repeated_exposure_tokens": 320,
+  "llm_calls": 9,
+  "prompt_tokens_total": 15066,
+  "output_tokens_total": 609,
+  "llm_seconds": 1386.734,
+  "wall_seconds": 1387.189,
+  "steps": 8,
+  "tool_calls": 7,
+  "blocked_tool_calls": 0,
+  "gate_rounds": 2,
+  "parse_failures": 0,
+  "normalised_fields": 0,
+  "cpu_seconds": 3613.57,
+  "mean_cpu_percent": 260.5105685154184,
+  "peak_rss_mb": 7347.847168,
+  "peak_uss_mb": 7343.5545600000005,
+  "peak_pss_mb": 7343.622144,
+  "host_used_peak_mb": 25791.066112,
+  "host_total_mb": 33436.11904
+ }
+}

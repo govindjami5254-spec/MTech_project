@@ -1,0 +1,207 @@
+{
+ "schema_version": "1",
+ "run_id": "test-c016__E1__r0",
+ "case_id": "test-c016",
+ "split": "test",
+ "arm": "E1",
+ "repeat": 0,
+ "config_hash": "f084f650236305957f9116e615ede9c0cb648ddd97d3aa12302849eddff23ca1",
+ "code_commit": "c5448efd25158e25cc055e988ee3e931b6331ca5",
+ "model": null,
+ "started_at": "2026-11-25T20:21:28.384599Z",
+ "status": "ok",
+ "error": null,
+ "report_raw": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "risk-db",
+    "cause_summary": "unclassified failure in risk-db (dependency chain: front-door -> payments-api -> risk-engine -> risk-db)",
+    "confidence": 0.6,
+    "claims": [
+     {
+      "text": "payments-api reported failures calling risk-engine: upstream risk-engine replied 503 Service Unavailable req_id=91a3633f",
+      "evidence_ids": [
+       "E2"
+      ]
+     },
+     {
+      "text": "risk-engine reported failures calling risk-db: upstream risk-db replied 503 Service Unavailable req_id=31d8a156",
+      "evidence_ids": [
+       "E3"
+      ]
+     },
+     {
+      "text": "risk-db logged its own failure: RSS 96% of container memory limit",
+      "evidence_ids": [
+       "E4",
+       "E5",
+       "E6"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [],
+  "recommendations": [
+   "Inspect risk-db for unclassified failure."
+  ]
+ },
+ "report_validated": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "risk-db",
+    "cause_summary": "unclassified failure in risk-db (dependency chain: front-door -> payments-api -> risk-engine -> risk-db)",
+    "confidence": 0.6,
+    "claims": [
+     {
+      "text": "payments-api reported failures calling risk-engine: upstream risk-engine replied 503 Service Unavailable req_id=91a3633f",
+      "evidence_ids": [
+       "E2"
+      ]
+     },
+     {
+      "text": "risk-engine reported failures calling risk-db: upstream risk-db replied 503 Service Unavailable req_id=31d8a156",
+      "evidence_ids": [
+       "E3"
+      ]
+     },
+     {
+      "text": "risk-db logged its own failure: RSS 96% of container memory limit",
+      "evidence_ids": [
+       "E4",
+       "E5",
+       "E6"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [],
+  "recommendations": [
+   "Inspect risk-db for unclassified failure."
+  ]
+ },
+ "validation": {
+  "claims_total": 3,
+  "claims_supported": 3,
+  "fabricated_ids": 0,
+  "suspicious_citations": 0,
+  "hypotheses_in": 1,
+  "hypotheses_dropped": 0,
+  "abstained_by_validator": false
+ },
+ "evidence": [
+  {
+   "id": "E1",
+   "uid": "front-door.log:31",
+   "ts": "2026-01-16T09:18:45.924000Z",
+   "severity": "ERROR",
+   "component": "front-door",
+   "source": "front-door.log",
+   "line_no": 31,
+   "message": "upstream error from payments-api; sent 502 to client req_id=6613b063",
+   "step": 0,
+   "tool": "incident",
+   "tokens": 60,
+   "suspicious": false
+  },
+  {
+   "id": "E2",
+   "uid": "payments-api.log:32",
+   "ts": "2026-01-16T09:18:38.759000Z",
+   "severity": "ERROR",
+   "component": "payments-api",
+   "source": "payments-api.log",
+   "line_no": 32,
+   "message": "upstream risk-engine replied 503 Service Unavailable req_id=91a3633f",
+   "step": 1,
+   "tool": "e1_rules",
+   "tokens": 58,
+   "suspicious": false
+  },
+  {
+   "id": "E3",
+   "uid": "risk-engine.log:30",
+   "ts": "2026-01-16T09:18:33.866000Z",
+   "severity": "ERROR",
+   "component": "risk-engine",
+   "source": "risk-engine.log",
+   "line_no": 30,
+   "message": "upstream risk-db replied 503 Service Unavailable req_id=31d8a156",
+   "step": 1,
+   "tool": "e1_rules",
+   "tokens": 58,
+   "suspicious": false
+  },
+  {
+   "id": "E4",
+   "uid": "risk-db.log:12",
+   "ts": "2026-01-16T09:15:39Z",
+   "severity": "WARN",
+   "component": "risk-db",
+   "source": "risk-db.log",
+   "line_no": 12,
+   "message": "slow query took 450ms req_id=7cff74f0",
+   "step": 1,
+   "tool": "e1_rules",
+   "tokens": 53,
+   "suspicious": false
+  },
+  {
+   "id": "E5",
+   "uid": "risk-db.log:22",
+   "ts": "2026-01-16T09:17:16Z",
+   "severity": "WARN",
+   "component": "risk-db",
+   "source": "risk-db.log",
+   "line_no": 22,
+   "message": "slow query took 260ms req_id=07e197f4",
+   "step": 1,
+   "tool": "e1_rules",
+   "tokens": 55,
+   "suspicious": false
+  },
+  {
+   "id": "E6",
+   "uid": "risk-db.log:26",
+   "ts": "2026-01-16T09:17:47.015000Z",
+   "severity": "WARN",
+   "component": "risk-db",
+   "source": "risk-db.log",
+   "line_no": 26,
+   "message": "RSS 96% of container memory limit",
+   "step": 1,
+   "tool": "e1_rules",
+   "tokens": 45,
+   "suspicious": false
+  }
+ ],
+ "tool_calls": [],
+ "metrics": {
+  "evidence_token_budget": 900,
+  "unique_evidence_tokens": 329,
+  "unique_evidence_items": 6,
+  "repeated_exposures": 1,
+  "repeated_exposure_tokens": 60,
+  "llm_calls": 0,
+  "prompt_tokens_total": 0,
+  "output_tokens_total": 0,
+  "llm_seconds": 0.0,
+  "wall_seconds": 0.296,
+  "steps": 0,
+  "tool_calls": 0,
+  "blocked_tool_calls": 0,
+  "gate_rounds": 0,
+  "parse_failures": 0,
+  "normalised_fields": 0,
+  "cpu_seconds": null,
+  "mean_cpu_percent": null,
+  "peak_rss_mb": null,
+  "peak_uss_mb": null,
+  "peak_pss_mb": null,
+  "host_used_peak_mb": null,
+  "host_total_mb": null
+ }
+}

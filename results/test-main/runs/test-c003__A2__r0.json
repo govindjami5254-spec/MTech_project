@@ -1,0 +1,425 @@
+{
+ "schema_version": "1",
+ "run_id": "test-c003__A2__r0",
+ "case_id": "test-c003",
+ "split": "test",
+ "arm": "A2",
+ "repeat": 0,
+ "config_hash": "f084f650236305957f9116e615ede9c0cb648ddd97d3aa12302849eddff23ca1",
+ "code_commit": "c5448efd25158e25cc055e988ee3e931b6331ca5",
+ "model": {
+  "name": "qwen3:8b",
+  "manifest_digest": "b3d9ba7c899cfd112df2574c6a91458a70b724c5e4e50dfffd75574b2d1648e7",
+  "weights_digest": "a3de86cd1c132c822487ededd47a324c50491393e6565cd14bafa40d0b8e686f",
+  "quantization": "Q4_K_M",
+  "parameter_size": "8.2B",
+  "ollama_version": "0.40.16",
+  "num_ctx": 8192,
+  "temperature": 0.2,
+  "seed": 1000,
+  "think": false,
+  "num_predict": 450
+ },
+ "started_at": "2026-11-25T14:55:00.588569Z",
+ "status": "ok",
+ "error": null,
+ "report_raw": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "core-db",
+    "cause_summary": "core-db storage full prevented writes (E2,E3)",
+    "confidence": 0.95,
+    "claims": [
+     {
+      "text": "core-db had io error: No space left on device (E2)",
+      "evidence_ids": [
+       "E2"
+      ]
+     },
+     {
+      "text": "core-db write path disabled due to storage full (E3)",
+      "evidence_ids": [
+       "E3"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [],
+  "recommendations": [
+   "Check core-db storage usage and disk space allocation."
+  ]
+ },
+ "report_validated": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "core-db",
+    "cause_summary": "core-db storage full prevented writes (E2,E3)",
+    "confidence": 0.95,
+    "claims": [
+     {
+      "text": "core-db had io error: No space left on device (E2)",
+      "evidence_ids": [
+       "E2"
+      ]
+     },
+     {
+      "text": "core-db write path disabled due to storage full (E3)",
+      "evidence_ids": [
+       "E3"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [],
+  "recommendations": [
+   "Check core-db storage usage and disk space allocation."
+  ]
+ },
+ "validation": {
+  "claims_total": 2,
+  "claims_supported": 2,
+  "fabricated_ids": 0,
+  "suspicious_citations": 0,
+  "hypotheses_in": 1,
+  "hypotheses_dropped": 0,
+  "abstained_by_validator": false
+ },
+ "evidence": [
+  {
+   "id": "E1",
+   "uid": "front-door.log:31",
+   "ts": "2026-02-04T13:06:02Z",
+   "severity": "ERROR",
+   "component": "front-door",
+   "source": "front-door.log",
+   "line_no": 31,
+   "message": "service unavailable: payments-api span=cf38f6cd status=503",
+   "step": 0,
+   "tool": "incident",
+   "tokens": 54,
+   "suspicious": false
+  },
+  {
+   "id": "E2",
+   "uid": "core-db.log:34",
+   "ts": "2026-02-04T13:05:46Z",
+   "severity": "ERROR",
+   "component": "core-db",
+   "source": "core-db.log",
+   "line_no": 34,
+   "message": "io error: No space left on device (os error 28)",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 50,
+   "suspicious": false
+  },
+  {
+   "id": "E3",
+   "uid": "core-db.log:35",
+   "ts": "2026-02-04T13:05:49Z",
+   "severity": "FATAL",
+   "component": "core-db",
+   "source": "core-db.log",
+   "line_no": 35,
+   "message": "write path disabled: storage full",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 43,
+   "suspicious": false
+  },
+  {
+   "id": "E4",
+   "uid": "ledger-core.log:37",
+   "ts": "2026-02-04T13:05:52Z",
+   "severity": "ERROR",
+   "component": "ledger-core",
+   "source": "ledger-core.log",
+   "line_no": 37,
+   "message": "upstream core-db status=503 span=504a5da4",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 53,
+   "suspicious": false
+  },
+  {
+   "id": "E5",
+   "uid": "payments-api.log:36",
+   "ts": "2026-02-04T13:05:55Z",
+   "severity": "ERROR",
+   "component": "payments-api",
+   "source": "payments-api.log",
+   "line_no": 36,
+   "message": "upstream ledger-core status=503 span=21f1e9bf",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 53,
+   "suspicious": false
+  },
+  {
+   "id": "E6",
+   "uid": "ledger-core.log:39",
+   "ts": "2026-02-04T13:05:57Z",
+   "severity": "ERROR",
+   "component": "ledger-core",
+   "source": "ledger-core.log",
+   "line_no": 39,
+   "message": "request to core-db exhausted retry budget",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 43,
+   "suspicious": false
+  },
+  {
+   "id": "E7",
+   "uid": "payments-api.log:39",
+   "ts": "2026-02-04T13:06:00Z",
+   "severity": "ERROR",
+   "component": "payments-api",
+   "source": "payments-api.log",
+   "line_no": 39,
+   "message": "request to ledger-core exhausted retry budget",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 43,
+   "suspicious": false
+  },
+  {
+   "id": "E8",
+   "uid": "front-door.log:32",
+   "ts": "2026-02-04T13:06:02Z",
+   "severity": "ERROR",
+   "component": "front-door",
+   "source": "front-door.log",
+   "line_no": 32,
+   "message": "bad gateway: payments-api failed span=b5d2ae50 status=502",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 55,
+   "suspicious": false
+  },
+  {
+   "id": "E9",
+   "uid": "ledger-core.log:35",
+   "ts": "2026-02-04T13:05:45Z",
+   "severity": "INFO",
+   "component": "ledger-core",
+   "source": "ledger-core.log",
+   "line_no": 35,
+   "message": "http request method=GET status=200 latency_ms=75 span=2ae7ad55",
+   "step": 2,
+   "tool": "get_context",
+   "tokens": 59,
+   "suspicious": false
+  },
+  {
+   "id": "E10",
+   "uid": "report-batch.log:150",
+   "ts": "2026-02-04T13:05:45Z",
+   "severity": "INFO",
+   "component": "report-batch",
+   "source": "report-batch.log",
+   "line_no": 150,
+   "message": "http request method=GET status=200 latency_ms=20 span=58b251bb",
+   "step": 2,
+   "tool": "get_context",
+   "tokens": 64,
+   "suspicious": false
+  },
+  {
+   "id": "E11",
+   "uid": "risk-engine.log:30",
+   "ts": "2026-02-04T13:05:45Z",
+   "severity": "INFO",
+   "component": "risk-engine",
+   "source": "risk-engine.log",
+   "line_no": 30,
+   "message": "tick ok elapsed_ms=25",
+   "step": 2,
+   "tool": "get_context",
+   "tokens": 44,
+   "suspicious": false
+  },
+  {
+   "id": "E12",
+   "uid": "otp-svc.log:32",
+   "ts": "2026-02-04T13:05:46Z",
+   "severity": "INFO",
+   "component": "otp-svc",
+   "source": "otp-svc.log",
+   "line_no": 32,
+   "message": "http request method=GET status=200 latency_ms=54 span=eea8fb21",
+   "step": 2,
+   "tool": "get_context",
+   "tokens": 61,
+   "suspicious": false
+  },
+  {
+   "id": "E13",
+   "uid": "report-batch.log:151",
+   "ts": "2026-02-04T13:05:46Z",
+   "severity": "WARN",
+   "component": "report-batch",
+   "source": "report-batch.log",
+   "line_no": 151,
+   "message": "fx rate feed stale by 310ms",
+   "step": 2,
+   "tool": "get_context",
+   "tokens": 50,
+   "suspicious": false
+  },
+  {
+   "id": "E14",
+   "uid": "fx-feed.log:141",
+   "ts": "2026-02-04T13:05:47Z",
+   "severity": "WARN",
+   "component": "fx-feed",
+   "source": "fx-feed.log",
+   "line_no": 141,
+   "message": "fx rate feed stale by 160ms",
+   "step": 2,
+   "tool": "get_context",
+   "tokens": 48,
+   "suspicious": false
+  },
+  {
+   "id": "E15",
+   "uid": "risk-db.log:35",
+   "ts": "2026-02-04T13:05:47Z",
+   "severity": "INFO",
+   "component": "risk-db",
+   "source": "risk-db.log",
+   "line_no": 35,
+   "message": "http request method=GET status=200 latency_ms=68 span=9e0ce2ab",
+   "step": 3,
+   "tool": "get_context",
+   "tokens": 60,
+   "suspicious": false
+  },
+  {
+   "id": "E16",
+   "uid": "fx-feed.log:142",
+   "ts": "2026-02-04T13:05:49Z",
+   "severity": "WARN",
+   "component": "fx-feed",
+   "source": "fx-feed.log",
+   "line_no": 142,
+   "message": "report generation behind schedule by 0s",
+   "step": 3,
+   "tool": "get_context",
+   "tokens": 46,
+   "suspicious": false
+  },
+  {
+   "id": "E17",
+   "uid": "payments-api.log:35",
+   "ts": "2026-02-04T13:05:49Z",
+   "severity": "INFO",
+   "component": "payments-api",
+   "source": "payments-api.log",
+   "line_no": 35,
+   "message": "http request method=GET status=200 latency_ms=92 span=6e15f9e0",
+   "step": 3,
+   "tool": "get_context",
+   "tokens": 62,
+   "suspicious": false
+  }
+ ],
+ "tool_calls": [
+  {
+   "step": 1,
+   "tool": "error_timeline",
+   "args": {
+    "min_severity": "ERROR"
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [
+    "E2",
+    "E3",
+    "E4",
+    "E5",
+    "E6",
+    "E7",
+    "E1",
+    "E8"
+   ],
+   "new_evidence_tokens": 340,
+   "output_chars": 839,
+   "ms": 0.82
+  },
+  {
+   "step": 2,
+   "tool": "get_context",
+   "args": {
+    "evidence_id": "E2",
+    "before": 3,
+    "after": 3
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [
+    "E9",
+    "E10",
+    "E11",
+    "E2",
+    "E12",
+    "E13",
+    "E14"
+   ],
+   "new_evidence_tokens": 326,
+   "output_chars": 709,
+   "ms": 0.23
+  },
+  {
+   "step": 3,
+   "tool": "get_context",
+   "args": {
+    "evidence_id": "E3",
+    "before": 3,
+    "after": 3
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [
+    "E13",
+    "E14",
+    "E15",
+    "E3",
+    "E16",
+    "E17"
+   ],
+   "new_evidence_tokens": 168,
+   "output_chars": 518,
+   "ms": 0.2
+  }
+ ],
+ "metrics": {
+  "evidence_token_budget": 900,
+  "unique_evidence_tokens": 888,
+  "unique_evidence_items": 17,
+  "repeated_exposures": 5,
+  "repeated_exposure_tokens": 245,
+  "llm_calls": 5,
+  "prompt_tokens_total": 7431,
+  "output_tokens_total": 504,
+  "llm_seconds": 746.46,
+  "wall_seconds": 746.839,
+  "steps": 4,
+  "tool_calls": 3,
+  "blocked_tool_calls": 0,
+  "gate_rounds": 0,
+  "parse_failures": 0,
+  "normalised_fields": 0,
+  "cpu_seconds": 1990.8299999999992,
+  "mean_cpu_percent": 266.59422187889453,
+  "peak_rss_mb": 8332.648448,
+  "peak_uss_mb": 8330.73152,
+  "peak_pss_mb": 8330.802176,
+  "host_used_peak_mb": 26759.819264,
+  "host_total_mb": 33436.11904
+ }
+}

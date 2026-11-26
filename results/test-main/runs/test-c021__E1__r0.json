@@ -1,0 +1,193 @@
+{
+ "schema_version": "1",
+ "run_id": "test-c021__E1__r0",
+ "case_id": "test-c021",
+ "split": "test",
+ "arm": "E1",
+ "repeat": 0,
+ "config_hash": "f084f650236305957f9116e615ede9c0cb648ddd97d3aa12302849eddff23ca1",
+ "code_commit": "c5448efd25158e25cc055e988ee3e931b6331ca5",
+ "model": null,
+ "started_at": "2026-11-25T22:33:56.556494Z",
+ "status": "ok",
+ "error": null,
+ "report_raw": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "asset-store",
+    "cause_summary": "unclassified failure in asset-store (dependency chain: edge-proxy -> catalog-api -> asset-store)",
+    "confidence": 0.6,
+    "claims": [
+     {
+      "text": "edge-proxy reported failures calling catalog-api: service unavailable: catalog-api span=c27d7a85 status=503",
+      "evidence_ids": [
+       "E1"
+      ]
+     },
+     {
+      "text": "catalog-api reported failures calling asset-store: upstream asset-store status=503 span=640f9533",
+      "evidence_ids": [
+       "E2"
+      ]
+     },
+     {
+      "text": "asset-store logged its own failure: no resolvable upstream endpoints",
+      "evidence_ids": [
+       "E3",
+       "E4",
+       "E5"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [],
+  "recommendations": [
+   "Inspect asset-store for unclassified failure."
+  ]
+ },
+ "report_validated": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "asset-store",
+    "cause_summary": "unclassified failure in asset-store (dependency chain: edge-proxy -> catalog-api -> asset-store)",
+    "confidence": 0.6,
+    "claims": [
+     {
+      "text": "edge-proxy reported failures calling catalog-api: service unavailable: catalog-api span=c27d7a85 status=503",
+      "evidence_ids": [
+       "E1"
+      ]
+     },
+     {
+      "text": "catalog-api reported failures calling asset-store: upstream asset-store status=503 span=640f9533",
+      "evidence_ids": [
+       "E2"
+      ]
+     },
+     {
+      "text": "asset-store logged its own failure: no resolvable upstream endpoints",
+      "evidence_ids": [
+       "E3",
+       "E4",
+       "E5"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [],
+  "recommendations": [
+   "Inspect asset-store for unclassified failure."
+  ]
+ },
+ "validation": {
+  "claims_total": 3,
+  "claims_supported": 3,
+  "fabricated_ids": 0,
+  "suspicious_citations": 0,
+  "hypotheses_in": 1,
+  "hypotheses_dropped": 0,
+  "abstained_by_validator": false
+ },
+ "evidence": [
+  {
+   "id": "E1",
+   "uid": "edge-proxy.log:37",
+   "ts": "2026-02-10T09:07:59Z",
+   "severity": "ERROR",
+   "component": "edge-proxy",
+   "source": "edge-proxy.log",
+   "line_no": 37,
+   "message": "service unavailable: catalog-api span=c27d7a85 status=503",
+   "step": 0,
+   "tool": "incident",
+   "tokens": 55,
+   "suspicious": false
+  },
+  {
+   "id": "E2",
+   "uid": "catalog-api.log:33",
+   "ts": "2026-02-10T09:07:55Z",
+   "severity": "ERROR",
+   "component": "catalog-api",
+   "source": "catalog-api.log",
+   "line_no": 33,
+   "message": "upstream asset-store status=503 span=640f9533",
+   "step": 1,
+   "tool": "e1_rules",
+   "tokens": 54,
+   "suspicious": false
+  },
+  {
+   "id": "E3",
+   "uid": "asset-store.log:32",
+   "ts": "2026-02-10T09:07:39Z",
+   "severity": "WARN",
+   "component": "asset-store",
+   "source": "asset-store.log",
+   "line_no": 32,
+   "message": "trust-dns resolver slow elapsed_ms=940",
+   "step": 1,
+   "tool": "e1_rules",
+   "tokens": 47,
+   "suspicious": false
+  },
+  {
+   "id": "E4",
+   "uid": "asset-store.log:34",
+   "ts": "2026-02-10T09:07:50Z",
+   "severity": "ERROR",
+   "component": "asset-store",
+   "source": "asset-store.log",
+   "line_no": 34,
+   "message": "failed to lookup address information: Temporary failure in name resolution",
+   "step": 1,
+   "tool": "e1_rules",
+   "tokens": 47,
+   "suspicious": false
+  },
+  {
+   "id": "E5",
+   "uid": "asset-store.log:35",
+   "ts": "2026-02-10T09:07:54Z",
+   "severity": "ERROR",
+   "component": "asset-store",
+   "source": "asset-store.log",
+   "line_no": 35,
+   "message": "no resolvable upstream endpoints",
+   "step": 1,
+   "tool": "e1_rules",
+   "tokens": 41,
+   "suspicious": false
+  }
+ ],
+ "tool_calls": [],
+ "metrics": {
+  "evidence_token_budget": 900,
+  "unique_evidence_tokens": 244,
+  "unique_evidence_items": 5,
+  "repeated_exposures": 1,
+  "repeated_exposure_tokens": 55,
+  "llm_calls": 0,
+  "prompt_tokens_total": 0,
+  "output_tokens_total": 0,
+  "llm_seconds": 0.0,
+  "wall_seconds": 0.441,
+  "steps": 0,
+  "tool_calls": 0,
+  "blocked_tool_calls": 0,
+  "gate_rounds": 0,
+  "parse_failures": 0,
+  "normalised_fields": 0,
+  "cpu_seconds": null,
+  "mean_cpu_percent": null,
+  "peak_rss_mb": null,
+  "peak_uss_mb": null,
+  "peak_pss_mb": null,
+  "host_used_peak_mb": null,
+  "host_total_mb": null
+ }
+}

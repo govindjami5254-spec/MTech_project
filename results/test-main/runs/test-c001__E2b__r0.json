@@ -1,0 +1,361 @@
+{
+ "schema_version": "1",
+ "run_id": "test-c001__E2b__r0",
+ "case_id": "test-c001",
+ "split": "test",
+ "arm": "E2b",
+ "repeat": 0,
+ "config_hash": "f084f650236305957f9116e615ede9c0cb648ddd97d3aa12302849eddff23ca1",
+ "code_commit": "c5448efd25158e25cc055e988ee3e931b6331ca5",
+ "model": {
+  "name": "qwen3:8b",
+  "manifest_digest": "b3d9ba7c899cfd112df2574c6a91458a70b724c5e4e50dfffd75574b2d1648e7",
+  "weights_digest": "a3de86cd1c132c822487ededd47a324c50491393e6565cd14bafa40d0b8e686f",
+  "quantization": "Q4_K_M",
+  "parameter_size": "8.2B",
+  "ollama_version": "0.40.16",
+  "num_ctx": 8192,
+  "temperature": 0.2,
+  "seed": 1000,
+  "think": false,
+  "num_predict": 450
+ },
+ "started_at": "2026-11-25T13:37:24.373100Z",
+ "status": "ok",
+ "error": null,
+ "report_raw": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "booking-svc",
+    "cause_summary": "Invalid config 'poolSize' value 'abc'",
+    "confidence": 0.95,
+    "claims": [
+     {
+      "text": "booking-svc failed to start due to invalid 'poolSize' config",
+      "evidence_ids": [
+       "E3",
+       "E2"
+      ]
+     },
+     {
+      "text": "web-gateway returned 503 due to booking-svc down",
+      "evidence_ids": [
+       "E1"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [],
+  "recommendations": [
+   "Check booking-svc config for 'poolSize' validity",
+   "Verify if config changes were applied correctly"
+  ]
+ },
+ "report_validated": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "booking-svc",
+    "cause_summary": "Invalid config 'poolSize' value 'abc'",
+    "confidence": 0.95,
+    "claims": [
+     {
+      "text": "booking-svc failed to start due to invalid 'poolSize' config",
+      "evidence_ids": [
+       "E3",
+       "E2"
+      ]
+     },
+     {
+      "text": "web-gateway returned 503 due to booking-svc down",
+      "evidence_ids": [
+       "E1"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [],
+  "recommendations": [
+   "Check booking-svc config for 'poolSize' validity",
+   "Verify if config changes were applied correctly"
+  ]
+ },
+ "validation": {
+  "claims_total": 2,
+  "claims_supported": 2,
+  "fabricated_ids": 0,
+  "suspicious_citations": 0,
+  "hypotheses_in": 1,
+  "hypotheses_dropped": 0,
+  "abstained_by_validator": false
+ },
+ "evidence": [
+  {
+   "id": "E1",
+   "uid": "web-gateway.log:33",
+   "ts": "2026-01-17T13:03:26.158000Z",
+   "severity": "ERROR",
+   "component": "web-gateway",
+   "source": "web-gateway.log",
+   "line_no": 33,
+   "message": "503 Service Unavailable returned (booking-svc down) trace=a2a1a19b",
+   "step": 0,
+   "tool": "incident",
+   "tokens": 61,
+   "suspicious": false
+  },
+  {
+   "id": "E2",
+   "uid": "booking-svc.log:36",
+   "ts": "2026-01-17T13:03:25.968000Z",
+   "severity": "FATAL",
+   "component": "booking-svc",
+   "source": "booking-svc.log",
+   "line_no": 36,
+   "message": "refusing to start with invalid configuration",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 45,
+   "suspicious": false
+  },
+  {
+   "id": "E3",
+   "uid": "booking-svc.log:35",
+   "ts": "2026-01-17T13:03:23.702000Z",
+   "severity": "ERROR",
+   "component": "booking-svc",
+   "source": "booking-svc.log",
+   "line_no": 35,
+   "message": "ConfigError: 'poolSize' must be a positive integer, got 'abc'",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 54,
+   "suspicious": false
+  },
+  {
+   "id": "E4",
+   "uid": "web-gateway.log:36",
+   "ts": "2026-01-17T13:03:32.534000Z",
+   "severity": "ERROR",
+   "component": "web-gateway",
+   "source": "web-gateway.log",
+   "line_no": 36,
+   "message": "proxy error contacting booking-svc; responded 502 trace=8278339a",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 60,
+   "suspicious": false
+  },
+  {
+   "id": "E5",
+   "uid": "login-svc.log:2",
+   "ts": "2026-01-17T12:58:12Z",
+   "severity": "WARN",
+   "component": "login-svc",
+   "source": "login-svc.log",
+   "line_no": 2,
+   "message": "unhandled header x-legacy ignored trace=64ebd164",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 53,
+   "suspicious": false
+  },
+  {
+   "id": "E6",
+   "uid": "seat-svc.log:3",
+   "ts": "2026-01-17T12:58:26Z",
+   "severity": "WARN",
+   "component": "seat-svc",
+   "source": "seat-svc.log",
+   "line_no": 3,
+   "message": "event loop lag 700ms",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 45,
+   "suspicious": false
+  },
+  {
+   "id": "E7",
+   "uid": "fare-cache.log:4",
+   "ts": "2026-01-17T12:58:31Z",
+   "severity": "WARN",
+   "component": "fare-cache",
+   "source": "fare-cache.log",
+   "line_no": 4,
+   "message": "event loop lag 400ms",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 43,
+   "suspicious": false
+  },
+  {
+   "id": "E8",
+   "uid": "fare-svc.log:6",
+   "ts": "2026-01-17T12:58:55Z",
+   "severity": "WARN",
+   "component": "fare-svc",
+   "source": "fare-svc.log",
+   "line_no": 6,
+   "message": "unhandled header x-legacy ignored trace=c6c95d8c",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 53,
+   "suspicious": false
+  },
+  {
+   "id": "E9",
+   "uid": "seat-db.log:11",
+   "ts": "2026-01-17T12:59:38Z",
+   "severity": "WARN",
+   "component": "seat-db",
+   "source": "seat-db.log",
+   "line_no": 11,
+   "message": "unhandled header x-legacy ignored trace=96b484ae",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 52,
+   "suspicious": false
+  },
+  {
+   "id": "E10",
+   "uid": "fare-cache.log:16",
+   "ts": "2026-01-17T13:00:10Z",
+   "severity": "WARN",
+   "component": "fare-cache",
+   "source": "fare-cache.log",
+   "line_no": 16,
+   "message": "unhandled header x-legacy ignored trace=9bfcf875",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 53,
+   "suspicious": false
+  },
+  {
+   "id": "E11",
+   "uid": "fare-svc.log:15",
+   "ts": "2026-01-17T13:00:14Z",
+   "severity": "WARN",
+   "component": "fare-svc",
+   "source": "fare-svc.log",
+   "line_no": 15,
+   "message": "event loop lag 310ms",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 47,
+   "suspicious": false
+  },
+  {
+   "id": "E12",
+   "uid": "login-svc.log:29",
+   "ts": "2026-01-17T13:02:51Z",
+   "severity": "WARN",
+   "component": "login-svc",
+   "source": "login-svc.log",
+   "line_no": 29,
+   "message": "event loop lag 780ms",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 47,
+   "suspicious": false
+  },
+  {
+   "id": "E13",
+   "uid": "booking-svc.log:39",
+   "ts": "2026-01-17T13:03:34Z",
+   "severity": "WARN",
+   "component": "booking-svc",
+   "source": "booking-svc.log",
+   "line_no": 39,
+   "message": "event loop lag 460ms",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 47,
+   "suspicious": false
+  },
+  {
+   "id": "E14",
+   "uid": "booking-svc.log:1",
+   "ts": "2026-01-17T12:58:06.784000Z",
+   "severity": "INFO",
+   "component": "booking-svc",
+   "source": "booking-svc.log",
+   "line_no": 1,
+   "message": "served GET /api status=200 in 69ms trace=2ed37824",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 61,
+   "suspicious": false
+  },
+  {
+   "id": "E15",
+   "uid": "seat-db.log:1",
+   "ts": "2026-01-17T12:58:07.024000Z",
+   "severity": "INFO",
+   "component": "seat-db",
+   "source": "seat-db.log",
+   "line_no": 1,
+   "message": "served GET /api status=200 in 92ms trace=4fe19a7c",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 59,
+   "suspicious": false
+  },
+  {
+   "id": "E16",
+   "uid": "fare-cache.log:1",
+   "ts": "2026-01-17T12:58:07.421000Z",
+   "severity": "INFO",
+   "component": "fare-cache",
+   "source": "fare-cache.log",
+   "line_no": 1,
+   "message": "served GET /api status=200 in 30ms trace=229a8ed0",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 59,
+   "suspicious": false
+  },
+  {
+   "id": "E17",
+   "uid": "login-svc.log:1",
+   "ts": "2026-01-17T12:58:11.005000Z",
+   "severity": "INFO",
+   "component": "login-svc",
+   "source": "login-svc.log",
+   "line_no": 1,
+   "message": "event loop lag 74ms ok",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 46,
+   "suspicious": false
+  }
+ ],
+ "tool_calls": [],
+ "metrics": {
+  "evidence_token_budget": 900,
+  "unique_evidence_tokens": 885,
+  "unique_evidence_items": 17,
+  "repeated_exposures": 1,
+  "repeated_exposure_tokens": 61,
+  "llm_calls": 1,
+  "prompt_tokens_total": 1257,
+  "output_tokens_total": 130,
+  "llm_seconds": 211.028,
+  "wall_seconds": 211.295,
+  "steps": 1,
+  "tool_calls": 0,
+  "blocked_tool_calls": 0,
+  "gate_rounds": 0,
+  "parse_failures": 0,
+  "normalised_fields": 0,
+  "cpu_seconds": 571.01,
+  "mean_cpu_percent": 270.43789668986074,
+  "peak_rss_mb": 6778.998783999999,
+  "peak_uss_mb": 6775.369728,
+  "peak_pss_mb": 6775.43936,
+  "host_used_peak_mb": 24891.850752,
+  "host_total_mb": 33436.11904
+ }
+}

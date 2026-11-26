@@ -1,0 +1,367 @@
+{
+ "schema_version": "1",
+ "run_id": "test-c014__E2b__r0",
+ "case_id": "test-c014",
+ "split": "test",
+ "arm": "E2b",
+ "repeat": 0,
+ "config_hash": "f084f650236305957f9116e615ede9c0cb648ddd97d3aa12302849eddff23ca1",
+ "code_commit": "c5448efd25158e25cc055e988ee3e931b6331ca5",
+ "model": {
+  "name": "qwen3:8b",
+  "manifest_digest": "b3d9ba7c899cfd112df2574c6a91458a70b724c5e4e50dfffd75574b2d1648e7",
+  "weights_digest": "a3de86cd1c132c822487ededd47a324c50491393e6565cd14bafa40d0b8e686f",
+  "quantization": "Q4_K_M",
+  "parameter_size": "8.2B",
+  "ollama_version": "0.40.16",
+  "num_ctx": 8192,
+  "temperature": 0.2,
+  "seed": 1000,
+  "think": false,
+  "num_predict": 450
+ },
+ "started_at": "2026-11-25T19:39:14.718926Z",
+ "status": "ok",
+ "error": null,
+ "report_raw": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "fare-cache",
+    "cause_summary": "Certificate expired causing mTLS rejection (E2, E3).",
+    "confidence": 0.95,
+    "claims": [
+     {
+      "text": "Certificate expired causing mTLS rejection.",
+      "evidence_ids": [
+       "E2",
+       "E3"
+      ]
+     },
+     {
+      "text": "mTLS connections rejected leading to failed connections from fare-svc.",
+      "evidence_ids": [
+       "E4",
+       "E5"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [
+   "No evidence shows if the certificate expiration was a one-time event or ongoing."
+  ],
+  "recommendations": [
+   "Check if the certificate for fare-cache is expired or needs renewal.",
+   "Verify mTLS configuration between fare-cache and fare-svc."
+  ]
+ },
+ "report_validated": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "fare-cache",
+    "cause_summary": "Certificate expired causing mTLS rejection (E2, E3).",
+    "confidence": 0.95,
+    "claims": [
+     {
+      "text": "Certificate expired causing mTLS rejection.",
+      "evidence_ids": [
+       "E2",
+       "E3"
+      ]
+     },
+     {
+      "text": "mTLS connections rejected leading to failed connections from fare-svc.",
+      "evidence_ids": [
+       "E4",
+       "E5"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [
+   "No evidence shows if the certificate expiration was a one-time event or ongoing."
+  ],
+  "recommendations": [
+   "Check if the certificate for fare-cache is expired or needs renewal.",
+   "Verify mTLS configuration between fare-cache and fare-svc."
+  ]
+ },
+ "validation": {
+  "claims_total": 2,
+  "claims_supported": 2,
+  "fabricated_ids": 0,
+  "suspicious_citations": 0,
+  "hypotheses_in": 1,
+  "hypotheses_dropped": 0,
+  "abstained_by_validator": false
+ },
+ "evidence": [
+  {
+   "id": "E1",
+   "uid": "web-gateway.log:29",
+   "ts": "2026-02-11T09:21:46.560000Z",
+   "severity": "ERROR",
+   "component": "web-gateway",
+   "source": "web-gateway.log",
+   "line_no": 29,
+   "message": "503 Service Unavailable returned (booking-svc down) trace=218704eb",
+   "step": 0,
+   "tool": "incident",
+   "tokens": 61,
+   "suspicious": false
+  },
+  {
+   "id": "E2",
+   "uid": "fare-cache.log:29",
+   "ts": "2026-02-11T09:21:29.041000Z",
+   "severity": "ERROR",
+   "component": "fare-cache",
+   "source": "fare-cache.log",
+   "line_no": 29,
+   "message": "Error: certificate has expired (CERT_HAS_EXPIRED)",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 46,
+   "suspicious": false
+  },
+  {
+   "id": "E3",
+   "uid": "fare-cache.log:30",
+   "ts": "2026-02-11T09:21:32.006000Z",
+   "severity": "ERROR",
+   "component": "fare-cache",
+   "source": "fare-cache.log",
+   "line_no": 30,
+   "message": "mTLS connections rejected by peer",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 42,
+   "suspicious": false
+  },
+  {
+   "id": "E4",
+   "uid": "fare-svc.log:29",
+   "ts": "2026-02-11T09:21:33.995000Z",
+   "severity": "ERROR",
+   "component": "fare-svc",
+   "source": "fare-svc.log",
+   "line_no": 29,
+   "message": "Error: connect ECONNREFUSED fare-cache:11211 trace=eda14853",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 61,
+   "suspicious": false
+  },
+  {
+   "id": "E5",
+   "uid": "fare-svc.log:31",
+   "ts": "2026-02-11T09:21:38.075000Z",
+   "severity": "ERROR",
+   "component": "fare-svc",
+   "source": "fare-svc.log",
+   "line_no": 31,
+   "message": "circuit open for fare-cache after repeated failures",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 46,
+   "suspicious": false
+  },
+  {
+   "id": "E6",
+   "uid": "booking-svc.log:30",
+   "ts": "2026-02-11T09:21:40.082000Z",
+   "severity": "ERROR",
+   "component": "booking-svc",
+   "source": "booking-svc.log",
+   "line_no": 30,
+   "message": "Error: connect ECONNREFUSED fare-svc:6103 trace=e9b06e6f",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 62,
+   "suspicious": false
+  },
+  {
+   "id": "E7",
+   "uid": "fare-svc.log:37",
+   "ts": "2026-02-11T09:21:45.160000Z",
+   "severity": "ERROR",
+   "component": "fare-svc",
+   "source": "fare-svc.log",
+   "line_no": 37,
+   "message": "FetchError: request to http://fare-cache:11211 failed, reason: socket hang up trace=14780e6c",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 70,
+   "suspicious": false
+  },
+  {
+   "id": "E8",
+   "uid": "booking-svc.log:33",
+   "ts": "2026-02-11T09:21:45.246000Z",
+   "severity": "ERROR",
+   "component": "booking-svc",
+   "source": "booking-svc.log",
+   "line_no": 33,
+   "message": "circuit open for fare-svc after repeated failures",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 47,
+   "suspicious": false
+  },
+  {
+   "id": "E9",
+   "uid": "web-gateway.log:30",
+   "ts": "2026-02-11T09:21:47.559000Z",
+   "severity": "ERROR",
+   "component": "web-gateway",
+   "source": "web-gateway.log",
+   "line_no": 30,
+   "message": "proxy error contacting booking-svc; responded 502 trace=3e46fdd3",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 59,
+   "suspicious": false
+  },
+  {
+   "id": "E10",
+   "uid": "booking-svc.log:37",
+   "ts": "2026-02-11T09:21:50.272000Z",
+   "severity": "ERROR",
+   "component": "booking-svc",
+   "source": "booking-svc.log",
+   "line_no": 37,
+   "message": "FetchError: request to http://fare-svc:6103 failed, reason: socket hang up trace=83493c1b",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 71,
+   "suspicious": false
+  },
+  {
+   "id": "E11",
+   "uid": "notifier.log:3",
+   "ts": "2026-02-11T09:17:00.676000Z",
+   "severity": "WARN",
+   "component": "notifier",
+   "source": "notifier.log",
+   "line_no": 3,
+   "message": "export job lag 0 rows behind",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 42,
+   "suspicious": false
+  },
+  {
+   "id": "E12",
+   "uid": "notifier.log:5",
+   "ts": "2026-02-11T09:17:04.698000Z",
+   "severity": "WARN",
+   "component": "notifier",
+   "source": "notifier.log",
+   "line_no": 5,
+   "message": "webhook delivery retries pending 0",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 41,
+   "suspicious": false
+  },
+  {
+   "id": "E13",
+   "uid": "batch-exporter.log:3",
+   "ts": "2026-02-11T09:17:06.311000Z",
+   "severity": "WARN",
+   "component": "batch-exporter",
+   "source": "batch-exporter.log",
+   "line_no": 3,
+   "message": "webhook delivery retries pending 0",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 44,
+   "suspicious": false
+  },
+  {
+   "id": "E14",
+   "uid": "batch-exporter.log:7",
+   "ts": "2026-02-11T09:17:15.201000Z",
+   "severity": "WARN",
+   "component": "batch-exporter",
+   "source": "batch-exporter.log",
+   "line_no": 7,
+   "message": "export job lag 0 rows behind",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 45,
+   "suspicious": false
+  },
+  {
+   "id": "E15",
+   "uid": "notifier.log:35",
+   "ts": "2026-02-11T09:18:06Z",
+   "severity": "WARN",
+   "component": "notifier",
+   "source": "notifier.log",
+   "line_no": 35,
+   "message": "unhandled header x-legacy ignored trace=71ff6a68",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 52,
+   "suspicious": false
+  },
+  {
+   "id": "E16",
+   "uid": "fare-svc.log:11",
+   "ts": "2026-02-11T09:18:32Z",
+   "severity": "WARN",
+   "component": "fare-svc",
+   "source": "fare-svc.log",
+   "line_no": 11,
+   "message": "unhandled header x-legacy ignored trace=e80d9f15",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 55,
+   "suspicious": false
+  },
+  {
+   "id": "E17",
+   "uid": "seat-db.log:12",
+   "ts": "2026-02-11T09:18:34Z",
+   "severity": "WARN",
+   "component": "seat-db",
+   "source": "seat-db.log",
+   "line_no": 12,
+   "message": "event loop lag 800ms",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 45,
+   "suspicious": false
+  }
+ ],
+ "tool_calls": [],
+ "metrics": {
+  "evidence_token_budget": 900,
+  "unique_evidence_tokens": 889,
+  "unique_evidence_items": 17,
+  "repeated_exposures": 1,
+  "repeated_exposure_tokens": 61,
+  "llm_calls": 2,
+  "prompt_tokens_total": 3009,
+  "output_tokens_total": 592,
+  "llm_seconds": 527.273,
+  "wall_seconds": 527.441,
+  "steps": 1,
+  "tool_calls": 0,
+  "blocked_tool_calls": 0,
+  "gate_rounds": 0,
+  "parse_failures": 1,
+  "normalised_fields": 0,
+  "cpu_seconds": 1504.7099999999964,
+  "mean_cpu_percent": 285.3261122427149,
+  "peak_rss_mb": 13653.692416,
+  "peak_uss_mb": 13649.784832000001,
+  "peak_pss_mb": 13649.846271999999,
+  "host_used_peak_mb": 31605.489664,
+  "host_total_mb": 33436.11904
+ }
+}

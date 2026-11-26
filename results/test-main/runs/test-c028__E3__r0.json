@@ -1,0 +1,459 @@
+{
+ "schema_version": "1",
+ "run_id": "test-c028__E3__r0",
+ "case_id": "test-c028",
+ "split": "test",
+ "arm": "E3",
+ "repeat": 0,
+ "config_hash": "f084f650236305957f9116e615ede9c0cb648ddd97d3aa12302849eddff23ca1",
+ "code_commit": "c5448efd25158e25cc055e988ee3e931b6331ca5",
+ "model": {
+  "name": "qwen3:8b",
+  "manifest_digest": "b3d9ba7c899cfd112df2574c6a91458a70b724c5e4e50dfffd75574b2d1648e7",
+  "weights_digest": "a3de86cd1c132c822487ededd47a324c50491393e6565cd14bafa40d0b8e686f",
+  "quantization": "Q4_K_M",
+  "parameter_size": "8.2B",
+  "ollama_version": "0.40.16",
+  "num_ctx": 8192,
+  "temperature": 0.2,
+  "seed": 1000,
+  "think": false,
+  "num_predict": 450
+ },
+ "started_at": "2026-11-26T02:41:11.718669Z",
+ "status": "ok",
+ "error": null,
+ "report_raw": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "fare-svc",
+    "cause_summary": "Fare-svc OOMKilled due to MemoryError (E2,E3)",
+    "confidence": 0.95,
+    "claims": [
+     {
+      "text": "Fare-svc had MemoryError (E2)",
+      "evidence_ids": [
+       "E2"
+      ]
+     },
+     {
+      "text": "Fare-svc was killed by OOM (E3)",
+      "evidence_ids": [
+       "E3"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [
+   "No logs show if other components depended on fare-svc"
+  ],
+  "recommendations": [
+   "Check if fare-svc's memory limits were exceeded",
+   "Investigate if fare-svc's dependencies were healthy"
+  ]
+ },
+ "report_validated": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "fare-svc",
+    "cause_summary": "Fare-svc OOMKilled due to MemoryError (E2,E3)",
+    "confidence": 0.95,
+    "claims": [
+     {
+      "text": "Fare-svc had MemoryError (E2)",
+      "evidence_ids": [
+       "E2"
+      ]
+     },
+     {
+      "text": "Fare-svc was killed by OOM (E3)",
+      "evidence_ids": [
+       "E3"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [
+   "No logs show if other components depended on fare-svc"
+  ],
+  "recommendations": [
+   "Check if fare-svc's memory limits were exceeded",
+   "Investigate if fare-svc's dependencies were healthy"
+  ]
+ },
+ "validation": {
+  "claims_total": 2,
+  "claims_supported": 2,
+  "fabricated_ids": 0,
+  "suspicious_citations": 0,
+  "hypotheses_in": 1,
+  "hypotheses_dropped": 0,
+  "abstained_by_validator": false
+ },
+ "evidence": [
+  {
+   "id": "E1",
+   "uid": "web-gateway.log:32",
+   "ts": "2026-01-28T14:43:04.941000Z",
+   "severity": "ERROR",
+   "component": "web-gateway",
+   "source": "web-gateway.log",
+   "line_no": 32,
+   "message": "sent 503 to client, booking-svc unhealthy req_id=4158a0f4",
+   "step": 0,
+   "tool": "incident",
+   "tokens": 61,
+   "suspicious": false
+  },
+  {
+   "id": "E2",
+   "uid": "fare-svc.log:34",
+   "ts": "2026-01-28T14:42:54.316000Z",
+   "severity": "ERROR",
+   "component": "fare-svc",
+   "source": "fare-svc.log",
+   "line_no": 34,
+   "message": "MemoryError while building response payload",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 44,
+   "suspicious": false
+  },
+  {
+   "id": "E3",
+   "uid": "fare-svc.log:35",
+   "ts": "2026-01-28T14:42:56.125000Z",
+   "severity": "FATAL",
+   "component": "fare-svc",
+   "source": "fare-svc.log",
+   "line_no": 35,
+   "message": "worker killed: OOMKilled (exit code 137)",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 53,
+   "suspicious": false
+  },
+  {
+   "id": "E4",
+   "uid": "booking-svc.log:34",
+   "ts": "2026-01-28T14:42:58.795000Z",
+   "severity": "ERROR",
+   "component": "booking-svc",
+   "source": "booking-svc.log",
+   "line_no": 34,
+   "message": "requests.exceptions.ConnectionError: HTTPConnectionPool(host='fare-svc', port=6103): Max retries exceeded req_id=2b5f7de7",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 72,
+   "suspicious": false
+  },
+  {
+   "id": "E5",
+   "uid": "booking-svc.log:37",
+   "ts": "2026-01-28T14:43:03.470000Z",
+   "severity": "ERROR",
+   "component": "booking-svc",
+   "source": "booking-svc.log",
+   "line_no": 37,
+   "message": "aborting request: fare-svc unreachable after retries",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 48,
+   "suspicious": false
+  },
+  {
+   "id": "E6",
+   "uid": "web-gateway.log:33",
+   "ts": "2026-01-28T14:43:07.795000Z",
+   "severity": "ERROR",
+   "component": "web-gateway",
+   "source": "web-gateway.log",
+   "line_no": 33,
+   "message": "sent 503 to client, booking-svc unhealthy req_id=6ac298ba",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 59,
+   "suspicious": false
+  },
+  {
+   "id": "E7",
+   "uid": "web-gateway.log:35",
+   "ts": "2026-01-28T14:43:10.396000Z",
+   "severity": "ERROR",
+   "component": "web-gateway",
+   "source": "web-gateway.log",
+   "line_no": 35,
+   "message": "upstream error from booking-svc; sent 502 to client req_id=0fe7a860",
+   "step": 4,
+   "tool": "search_logs",
+   "tokens": 62,
+   "suspicious": false
+  },
+  {
+   "id": "E8",
+   "uid": "web-gateway.log:36",
+   "ts": "2026-01-28T14:43:13.525000Z",
+   "severity": "ERROR",
+   "component": "web-gateway",
+   "source": "web-gateway.log",
+   "line_no": 36,
+   "message": "upstream error from booking-svc; sent 502 to client req_id=f115e727",
+   "step": 4,
+   "tool": "search_logs",
+   "tokens": 62,
+   "suspicious": false
+  },
+  {
+   "id": "E9",
+   "uid": "web-gateway.log:37",
+   "ts": "2026-01-28T14:43:16.004000Z",
+   "severity": "ERROR",
+   "component": "web-gateway",
+   "source": "web-gateway.log",
+   "line_no": 37,
+   "message": "sent 503 to client, booking-svc unhealthy req_id=da5dae64",
+   "step": 4,
+   "tool": "search_logs",
+   "tokens": 58,
+   "suspicious": false
+  },
+  {
+   "id": "E10",
+   "uid": "seat-svc.log:34",
+   "ts": "2026-01-28T14:42:54.242000Z",
+   "severity": "INFO",
+   "component": "seat-svc",
+   "source": "seat-svc.log",
+   "line_no": 34,
+   "message": "GET /v1/items 200 55ms req_id=b0e78370",
+   "step": 5,
+   "tool": "get_context",
+   "tokens": 62,
+   "suspicious": false
+  },
+  {
+   "id": "E11",
+   "uid": "batch-exporter.log:32",
+   "ts": "2026-01-28T14:42:54.438000Z",
+   "severity": "INFO",
+   "component": "batch-exporter",
+   "source": "batch-exporter.log",
+   "line_no": 32,
+   "message": "GET /v1/items 200 13ms req_id=855fc8eb",
+   "step": 5,
+   "tool": "get_context",
+   "tokens": 61,
+   "suspicious": false
+  },
+  {
+   "id": "E12",
+   "uid": "web-gateway.log:31",
+   "ts": "2026-01-28T14:42:58.248000Z",
+   "severity": "INFO",
+   "component": "web-gateway",
+   "source": "web-gateway.log",
+   "line_no": 31,
+   "message": "GET /v1/items 200 30ms req_id=70c6656d",
+   "step": 5,
+   "tool": "get_context",
+   "tokens": 63,
+   "suspicious": false
+  },
+  {
+   "id": "E13",
+   "uid": "booking-svc.log:35",
+   "ts": "2026-01-28T14:42:59.046000Z",
+   "severity": "INFO",
+   "component": "booking-svc",
+   "source": "booking-svc.log",
+   "line_no": 35,
+   "message": "GET /v1/items 200 23ms req_id=9d034ec5",
+   "step": 5,
+   "tool": "get_context",
+   "tokens": 62,
+   "suspicious": false
+  },
+  {
+   "id": "E14",
+   "uid": "fare-svc.log:36",
+   "ts": "2026-01-28T14:42:59.996000Z",
+   "severity": "INFO",
+   "component": "fare-svc",
+   "source": "fare-svc.log",
+   "line_no": 36,
+   "message": "GET /v1/items 200 92ms req_id=1ec5b338",
+   "step": 6,
+   "tool": "get_context",
+   "tokens": 62,
+   "suspicious": false
+  },
+  {
+   "id": "E15",
+   "uid": "booking-svc.log:36",
+   "ts": "2026-01-28T14:43:00.204000Z",
+   "severity": "WARN",
+   "component": "booking-svc",
+   "source": "booking-svc.log",
+   "line_no": 36,
+   "message": "urllib3 retrying (fare-svc) after connection broken",
+   "step": 6,
+   "tool": "get_context",
+   "tokens": 51,
+   "suspicious": false
+  }
+ ],
+ "tool_calls": [
+  {
+   "step": 1,
+   "tool": "error_timeline",
+   "args": {
+    "min_severity": "ERROR"
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [
+    "E2",
+    "E3",
+    "E4",
+    "E5",
+    "E1",
+    "E6"
+   ],
+   "new_evidence_tokens": 276,
+   "output_chars": 713,
+   "ms": 0.75
+  },
+  {
+   "step": 2,
+   "tool": "search_logs",
+   "args": {
+    "component": "fare-svc",
+    "min_severity": "ERROR",
+    "limit": 5
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [
+    "E2",
+    "E3"
+   ],
+   "new_evidence_tokens": 0,
+   "output_chars": 64,
+   "ms": 0.1
+  },
+  {
+   "step": 3,
+   "tool": "search_logs",
+   "args": {
+    "component": "booking-svc",
+    "min_severity": "ERROR",
+    "limit": 5
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [
+    "E4",
+    "E5"
+   ],
+   "new_evidence_tokens": 0,
+   "output_chars": 64,
+   "ms": 0.11
+  },
+  {
+   "step": 4,
+   "tool": "search_logs",
+   "args": {
+    "component": "web-gateway",
+    "min_severity": "ERROR",
+    "limit": 5
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [
+    "E1",
+    "E6",
+    "E7",
+    "E8",
+    "E9"
+   ],
+   "new_evidence_tokens": 182,
+   "output_chars": 453,
+   "ms": 0.62
+  },
+  {
+   "step": 5,
+   "tool": "get_context",
+   "args": {
+    "evidence_id": "E3",
+    "before": 3,
+    "after": 3
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [
+    "E10",
+    "E2",
+    "E11",
+    "E3",
+    "E12",
+    "E4",
+    "E13"
+   ],
+   "new_evidence_tokens": 248,
+   "output_chars": 520,
+   "ms": 0.66
+  },
+  {
+   "step": 6,
+   "tool": "get_context",
+   "args": {
+    "evidence_id": "E4",
+    "before": 3,
+    "after": 3
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [
+    "E11",
+    "E3",
+    "E12",
+    "E4",
+    "E13",
+    "E14",
+    "E15"
+   ],
+   "new_evidence_tokens": 113,
+   "output_chars": 364,
+   "ms": 0.44
+  }
+ ],
+ "metrics": {
+  "evidence_token_budget": 900,
+  "unique_evidence_tokens": 880,
+  "unique_evidence_items": 15,
+  "repeated_exposures": 15,
+  "repeated_exposure_tokens": 878,
+  "llm_calls": 7,
+  "prompt_tokens_total": 9790,
+  "output_tokens_total": 325,
+  "llm_seconds": 450.635,
+  "wall_seconds": 450.995,
+  "steps": 6,
+  "tool_calls": 6,
+  "blocked_tool_calls": 0,
+  "gate_rounds": 0,
+  "parse_failures": 0,
+  "normalised_fields": 0,
+  "cpu_seconds": 1282.8900000000028,
+  "mean_cpu_percent": 284.5062973520549,
+  "peak_rss_mb": 9666.666496,
+  "peak_uss_mb": 9666.514944,
+  "peak_pss_mb": 9666.861056,
+  "host_used_peak_mb": 26859.13088,
+  "host_total_mb": 33436.11904
+ }
+}

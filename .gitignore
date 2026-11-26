@@ -9,3 +9,14 @@ models/
 
 # LogAgent-RCA application workspace (uploaded incidents, investigation records)
 workspace/
+
+# Secrets and local credentials (web users file holds password hashes; keep it local)
+.env
+.env.*
+users*.json
+*.pem
+*.key
+
+# Temporary files
+*.tmp
+*.log.tmp

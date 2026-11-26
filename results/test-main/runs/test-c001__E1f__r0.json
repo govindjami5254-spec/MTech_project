@@ -1,0 +1,105 @@
+{
+ "schema_version": "1",
+ "run_id": "test-c001__E1f__r0",
+ "case_id": "test-c001",
+ "split": "test",
+ "arm": "E1f",
+ "repeat": 0,
+ "config_hash": "f084f650236305957f9116e615ede9c0cb648ddd97d3aa12302849eddff23ca1",
+ "code_commit": "c5448efd25158e25cc055e988ee3e931b6331ca5",
+ "model": null,
+ "started_at": "2026-11-25T13:37:24.087214Z",
+ "status": "ok",
+ "error": null,
+ "report_raw": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "web-gateway",
+    "cause_summary": "web-gateway reported the incident",
+    "confidence": 0.1,
+    "claims": [
+     {
+      "text": "web-gateway returned errors: 503 Service Unavailable returned (booking-svc down) trace=a2a1a19b",
+      "evidence_ids": [
+       "E1"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [],
+  "recommendations": []
+ },
+ "report_validated": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "web-gateway",
+    "cause_summary": "web-gateway reported the incident",
+    "confidence": 0.1,
+    "claims": [
+     {
+      "text": "web-gateway returned errors: 503 Service Unavailable returned (booking-svc down) trace=a2a1a19b",
+      "evidence_ids": [
+       "E1"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [],
+  "recommendations": []
+ },
+ "validation": {
+  "claims_total": 1,
+  "claims_supported": 1,
+  "fabricated_ids": 0,
+  "suspicious_citations": 0,
+  "hypotheses_in": 1,
+  "hypotheses_dropped": 0,
+  "abstained_by_validator": false
+ },
+ "evidence": [
+  {
+   "id": "E1",
+   "uid": "web-gateway.log:33",
+   "ts": "2026-01-17T13:03:26.158000Z",
+   "severity": "ERROR",
+   "component": "web-gateway",
+   "source": "web-gateway.log",
+   "line_no": 33,
+   "message": "503 Service Unavailable returned (booking-svc down) trace=a2a1a19b",
+   "step": 0,
+   "tool": "incident",
+   "tokens": 61,
+   "suspicious": false
+  }
+ ],
+ "tool_calls": [],
+ "metrics": {
+  "evidence_token_budget": 900,
+  "unique_evidence_tokens": 61,
+  "unique_evidence_items": 1,
+  "repeated_exposures": 0,
+  "repeated_exposure_tokens": 0,
+  "llm_calls": 0,
+  "prompt_tokens_total": 0,
+  "output_tokens_total": 0,
+  "llm_seconds": 0.0,
+  "wall_seconds": 0.261,
+  "steps": 0,
+  "tool_calls": 0,
+  "blocked_tool_calls": 0,
+  "gate_rounds": 0,
+  "parse_failures": 0,
+  "normalised_fields": 0,
+  "cpu_seconds": null,
+  "mean_cpu_percent": null,
+  "peak_rss_mb": null,
+  "peak_uss_mb": null,
+  "peak_pss_mb": null,
+  "host_used_peak_mb": null,
+  "host_total_mb": null
+ }
+}

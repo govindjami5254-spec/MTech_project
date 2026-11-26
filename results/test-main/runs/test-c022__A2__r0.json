@@ -1,0 +1,440 @@
+{
+ "schema_version": "1",
+ "run_id": "test-c022__A2__r0",
+ "case_id": "test-c022",
+ "split": "test",
+ "arm": "A2",
+ "repeat": 0,
+ "config_hash": "f084f650236305957f9116e615ede9c0cb648ddd97d3aa12302849eddff23ca1",
+ "code_commit": "c5448efd25158e25cc055e988ee3e931b6331ca5",
+ "model": {
+  "name": "qwen3:8b",
+  "manifest_digest": "b3d9ba7c899cfd112df2574c6a91458a70b724c5e4e50dfffd75574b2d1648e7",
+  "weights_digest": "a3de86cd1c132c822487ededd47a324c50491393e6565cd14bafa40d0b8e686f",
+  "quantization": "Q4_K_M",
+  "parameter_size": "8.2B",
+  "ollama_version": "0.40.16",
+  "num_ctx": 8192,
+  "temperature": 0.2,
+  "seed": 1000,
+  "think": false,
+  "num_predict": 450
+ },
+ "started_at": "2026-11-25T23:10:48.370037Z",
+ "status": "ok",
+ "error": null,
+ "report_raw": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "search-index",
+    "cause_summary": "SQLAlchemy pool timeout reached limit",
+    "confidence": 0.95,
+    "claims": [
+     {
+      "text": "search-index had QueuePool limit of size 20 reached",
+      "evidence_ids": [
+       "E9"
+      ]
+     },
+     {
+      "text": "search-index caused ConnectionError in catalog-api",
+      "evidence_ids": [
+       "E10"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [],
+  "recommendations": [
+   "Check search-index database connection pool configuration",
+   "Monitor catalog-api health and dependencies"
+  ]
+ },
+ "report_validated": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "search-index",
+    "cause_summary": "SQLAlchemy pool timeout reached limit",
+    "confidence": 0.95,
+    "claims": [
+     {
+      "text": "search-index had QueuePool limit of size 20 reached",
+      "evidence_ids": [
+       "E9"
+      ]
+     },
+     {
+      "text": "search-index caused ConnectionError in catalog-api",
+      "evidence_ids": [
+       "E10"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [],
+  "recommendations": [
+   "Check search-index database connection pool configuration",
+   "Monitor catalog-api health and dependencies"
+  ]
+ },
+ "validation": {
+  "claims_total": 2,
+  "claims_supported": 2,
+  "fabricated_ids": 0,
+  "suspicious_citations": 0,
+  "hypotheses_in": 1,
+  "hypotheses_dropped": 0,
+  "abstained_by_validator": false
+ },
+ "evidence": [
+  {
+   "id": "E1",
+   "uid": "edge-proxy.log:32",
+   "ts": "2026-02-04T11:00:37.804000Z",
+   "severity": "ERROR",
+   "component": "edge-proxy",
+   "source": "edge-proxy.log",
+   "line_no": 32,
+   "message": "sent 503 to client, catalog-api unhealthy req_id=0548d366",
+   "step": 0,
+   "tool": "incident",
+   "tokens": 58,
+   "suspicious": false
+  },
+  {
+   "id": "E2",
+   "uid": "log-forwarder.log:2",
+   "ts": "2026-02-04T10:55:58Z",
+   "severity": "WARN",
+   "component": "log-forwarder",
+   "source": "log-forwarder.log",
+   "line_no": 2,
+   "message": "slow query took 490ms req_id=8fd1f683",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 55,
+   "suspicious": false
+  },
+  {
+   "id": "E3",
+   "uid": "user-api.log:3",
+   "ts": "2026-02-04T10:56:01Z",
+   "severity": "WARN",
+   "component": "user-api",
+   "source": "user-api.log",
+   "line_no": 3,
+   "message": "deprecated parameter 'page' used by client",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 43,
+   "suspicious": false
+  },
+  {
+   "id": "E4",
+   "uid": "thumbnailer.log:2",
+   "ts": "2026-02-04T10:56:04.984000Z",
+   "severity": "WARN",
+   "component": "thumbnailer",
+   "source": "thumbnailer.log",
+   "line_no": 2,
+   "message": "log shipping lag 780ms",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 43,
+   "suspicious": false
+  },
+  {
+   "id": "E5",
+   "uid": "thumbnailer.log:3",
+   "ts": "2026-02-04T10:56:06.902000Z",
+   "severity": "WARN",
+   "component": "thumbnailer",
+   "source": "thumbnailer.log",
+   "line_no": 3,
+   "message": "thumbnail queue backlog 0 items",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 41,
+   "suspicious": false
+  },
+  {
+   "id": "E6",
+   "uid": "log-forwarder.log:5",
+   "ts": "2026-02-04T10:56:15Z",
+   "severity": "WARN",
+   "component": "log-forwarder",
+   "source": "log-forwarder.log",
+   "line_no": 5,
+   "message": "thumbnail queue backlog 0 items",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 43,
+   "suspicious": false
+  },
+  {
+   "id": "E7",
+   "uid": "profile-db.log:17",
+   "ts": "2026-02-04T10:58:27Z",
+   "severity": "WARN",
+   "component": "profile-db",
+   "source": "profile-db.log",
+   "line_no": 17,
+   "message": "deprecated parameter 'page' used by client",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 44,
+   "suspicious": false
+  },
+  {
+   "id": "E8",
+   "uid": "search-index.log:27",
+   "ts": "2026-02-04T10:59:55.245000Z",
+   "severity": "WARN",
+   "component": "search-index",
+   "source": "search-index.log",
+   "line_no": 27,
+   "message": "SQLAlchemy pool overflow 183 in use",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 45,
+   "suspicious": false
+  },
+  {
+   "id": "E9",
+   "uid": "search-index.log:30",
+   "ts": "2026-02-04T11:00:25.730000Z",
+   "severity": "ERROR",
+   "component": "search-index",
+   "source": "search-index.log",
+   "line_no": 30,
+   "message": "sqlalchemy.exc.TimeoutError: QueuePool limit of size 20 reached",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 50,
+   "suspicious": false
+  },
+  {
+   "id": "E10",
+   "uid": "catalog-api.log:28",
+   "ts": "2026-02-04T11:00:29.473000Z",
+   "severity": "ERROR",
+   "component": "catalog-api",
+   "source": "catalog-api.log",
+   "line_no": 28,
+   "message": "requests.exceptions.ConnectionError: HTTPConnectionPool(host='search-index', port=9200): Max retries exceeded req_id=625a1ef3",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 70,
+   "suspicious": false
+  },
+  {
+   "id": "E11",
+   "uid": "catalog-api.log:29",
+   "ts": "2026-02-04T11:00:31.257000Z",
+   "severity": "WARN",
+   "component": "catalog-api",
+   "source": "catalog-api.log",
+   "line_no": 29,
+   "message": "urllib3 retrying (search-index) after connection broken",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 48,
+   "suspicious": false
+  },
+  {
+   "id": "E12",
+   "uid": "edge-proxy.log:34",
+   "ts": "2026-02-04T11:00:38.589000Z",
+   "severity": "ERROR",
+   "component": "edge-proxy",
+   "source": "edge-proxy.log",
+   "line_no": 34,
+   "message": "upstream error from catalog-api; sent 502 to client req_id=55903631",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 61,
+   "suspicious": false
+  },
+  {
+   "id": "E13",
+   "uid": "profile-db.log:32",
+   "ts": "2026-02-04T11:01:01Z",
+   "severity": "WARN",
+   "component": "profile-db",
+   "source": "profile-db.log",
+   "line_no": 32,
+   "message": "deprecated parameter 'page' used by client",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 45,
+   "suspicious": false
+  },
+  {
+   "id": "E14",
+   "uid": "thumbnailer.log:131",
+   "ts": "2026-02-04T11:00:22.397000Z",
+   "severity": "WARN",
+   "component": "thumbnailer",
+   "source": "thumbnailer.log",
+   "line_no": 131,
+   "message": "thumbnail queue backlog 0 items",
+   "step": 3,
+   "tool": "get_context",
+   "tokens": 44,
+   "suspicious": false
+  },
+  {
+   "id": "E15",
+   "uid": "log-forwarder.log:130",
+   "ts": "2026-02-04T11:00:22.431000Z",
+   "severity": "WARN",
+   "component": "log-forwarder",
+   "source": "log-forwarder.log",
+   "line_no": 130,
+   "message": "log shipping lag 930ms",
+   "step": 3,
+   "tool": "get_context",
+   "tokens": 48,
+   "suspicious": false
+  },
+  {
+   "id": "E16",
+   "uid": "asset-store.log:26",
+   "ts": "2026-02-04T11:00:22.655000Z",
+   "severity": "INFO",
+   "component": "asset-store",
+   "source": "asset-store.log",
+   "line_no": 26,
+   "message": "worker heartbeat ok (92ms)",
+   "step": 3,
+   "tool": "get_context",
+   "tokens": 44,
+   "suspicious": false
+  },
+  {
+   "id": "E17",
+   "uid": "thumbnailer.log:132",
+   "ts": "2026-02-04T11:00:25.800000Z",
+   "severity": "WARN",
+   "component": "thumbnailer",
+   "source": "thumbnailer.log",
+   "line_no": 132,
+   "message": "log shipping lag 170ms",
+   "step": 3,
+   "tool": "get_context",
+   "tokens": 46,
+   "suspicious": false
+  },
+  {
+   "id": "E18",
+   "uid": "log-forwarder.log:131",
+   "ts": "2026-02-04T11:00:26.282000Z",
+   "severity": "WARN",
+   "component": "log-forwarder",
+   "source": "log-forwarder.log",
+   "line_no": 131,
+   "message": "thumbnail queue backlog 0 items",
+   "step": 3,
+   "tool": "get_context",
+   "tokens": 46,
+   "suspicious": false
+  }
+ ],
+ "tool_calls": [
+  {
+   "step": 1,
+   "tool": "error_timeline",
+   "args": {
+    "min_severity": "WARN"
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [
+    "E2",
+    "E3",
+    "E4",
+    "E5",
+    "E6",
+    "E7",
+    "E8",
+    "E9",
+    "E10",
+    "E11",
+    "E1",
+    "E12",
+    "E13"
+   ],
+   "new_evidence_tokens": 588,
+   "output_chars": 1456,
+   "ms": 245.15
+  },
+  {
+   "step": 2,
+   "tool": "search_logs",
+   "args": {
+    "component": "search-index",
+    "contains": "TimeoutError",
+    "min_severity": "ERROR"
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [
+    "E9"
+   ],
+   "new_evidence_tokens": 0,
+   "output_chars": 43,
+   "ms": 0.13
+  },
+  {
+   "step": 3,
+   "tool": "get_context",
+   "args": {
+    "evidence_id": "E9",
+    "before": 3,
+    "after": 3
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [
+    "E14",
+    "E15",
+    "E16",
+    "E9",
+    "E17",
+    "E18"
+   ],
+   "new_evidence_tokens": 228,
+   "output_chars": 600,
+   "ms": 21.24
+  }
+ ],
+ "metrics": {
+  "evidence_token_budget": 900,
+  "unique_evidence_tokens": 874,
+  "unique_evidence_items": 18,
+  "repeated_exposures": 3,
+  "repeated_exposure_tokens": 158,
+  "llm_calls": 5,
+  "prompt_tokens_total": 7474,
+  "output_tokens_total": 440,
+  "llm_seconds": 593.06,
+  "wall_seconds": 593.541,
+  "steps": 4,
+  "tool_calls": 3,
+  "blocked_tool_calls": 0,
+  "gate_rounds": 0,
+  "parse_failures": 0,
+  "normalised_fields": 0,
+  "cpu_seconds": 1643.5899999999983,
+  "mean_cpu_percent": 276.9492057088111,
+  "peak_rss_mb": 15319.924735999999,
+  "peak_uss_mb": 15329.865728,
+  "peak_pss_mb": 15329.897472,
+  "host_used_peak_mb": 33149.710336,
+  "host_total_mb": 33436.11904
+ }
+}

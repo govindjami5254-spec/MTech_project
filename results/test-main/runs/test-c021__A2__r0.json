@@ -1,0 +1,444 @@
+{
+ "schema_version": "1",
+ "run_id": "test-c021__A2__r0",
+ "case_id": "test-c021",
+ "split": "test",
+ "arm": "A2",
+ "repeat": 0,
+ "config_hash": "f084f650236305957f9116e615ede9c0cb648ddd97d3aa12302849eddff23ca1",
+ "code_commit": "c5448efd25158e25cc055e988ee3e931b6331ca5",
+ "model": {
+  "name": "qwen3:8b",
+  "manifest_digest": "b3d9ba7c899cfd112df2574c6a91458a70b724c5e4e50dfffd75574b2d1648e7",
+  "weights_digest": "a3de86cd1c132c822487ededd47a324c50491393e6565cd14bafa40d0b8e686f",
+  "quantization": "Q4_K_M",
+  "parameter_size": "8.2B",
+  "ollama_version": "0.40.16",
+  "num_ctx": 8192,
+  "temperature": 0.2,
+  "seed": 1000,
+  "think": false,
+  "num_predict": 450
+ },
+ "started_at": "2026-11-25T22:45:16.284264Z",
+ "status": "ok",
+ "error": null,
+ "report_raw": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "asset-store",
+    "cause_summary": "asset-store failed to resolve addresses due to name resolution error",
+    "confidence": 0.95,
+    "claims": [
+     {
+      "text": "asset-store failed to lookup address information: Temporary failure in name resolution",
+      "evidence_ids": [
+       "E12"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [],
+  "recommendations": [
+   "Check DNS configuration for asset-store.",
+   "Verify network connectivity to DNS servers."
+  ]
+ },
+ "report_validated": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "asset-store",
+    "cause_summary": "asset-store failed to resolve addresses due to name resolution error",
+    "confidence": 0.95,
+    "claims": [
+     {
+      "text": "asset-store failed to lookup address information: Temporary failure in name resolution",
+      "evidence_ids": [
+       "E12"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [],
+  "recommendations": [
+   "Check DNS configuration for asset-store.",
+   "Verify network connectivity to DNS servers."
+  ]
+ },
+ "validation": {
+  "claims_total": 1,
+  "claims_supported": 1,
+  "fabricated_ids": 0,
+  "suspicious_citations": 0,
+  "hypotheses_in": 1,
+  "hypotheses_dropped": 0,
+  "abstained_by_validator": false
+ },
+ "evidence": [
+  {
+   "id": "E1",
+   "uid": "edge-proxy.log:37",
+   "ts": "2026-02-10T09:07:59Z",
+   "severity": "ERROR",
+   "component": "edge-proxy",
+   "source": "edge-proxy.log",
+   "line_no": 37,
+   "message": "service unavailable: catalog-api span=c27d7a85 status=503",
+   "step": 0,
+   "tool": "incident",
+   "tokens": 55,
+   "suspicious": false
+  },
+  {
+   "id": "E2",
+   "uid": "thumbnailer.log:6",
+   "ts": "2026-02-10T09:03:16Z",
+   "severity": "WARN",
+   "component": "thumbnailer",
+   "source": "thumbnailer.log",
+   "line_no": 6,
+   "message": "client sent oversized header, truncated span=b36edbed",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 47,
+   "suspicious": false
+  },
+  {
+   "id": "E3",
+   "uid": "blob-db.log:7",
+   "ts": "2026-02-10T09:03:26Z",
+   "severity": "WARN",
+   "component": "blob-db",
+   "source": "blob-db.log",
+   "line_no": 7,
+   "message": "slow poll elapsed_ms=720",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 43,
+   "suspicious": false
+  },
+  {
+   "id": "E4",
+   "uid": "thumbnailer.log:12",
+   "ts": "2026-02-10T09:04:06Z",
+   "severity": "WARN",
+   "component": "thumbnailer",
+   "source": "thumbnailer.log",
+   "line_no": 12,
+   "message": "slow poll elapsed_ms=870",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 44,
+   "suspicious": false
+  },
+  {
+   "id": "E5",
+   "uid": "search-index.log:10",
+   "ts": "2026-02-10T09:04:12Z",
+   "severity": "WARN",
+   "component": "search-index",
+   "source": "search-index.log",
+   "line_no": 10,
+   "message": "slow poll elapsed_ms=220",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 44,
+   "suspicious": false
+  },
+  {
+   "id": "E6",
+   "uid": "user-api.log:21",
+   "ts": "2026-02-10T09:05:58Z",
+   "severity": "ERROR",
+   "component": "user-api",
+   "source": "user-api.log",
+   "line_no": 21,
+   "message": "background compaction of audit store failed: io error (will retry)",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 49,
+   "suspicious": false
+  },
+  {
+   "id": "E7",
+   "uid": "user-api.log:23",
+   "ts": "2026-02-10T09:06:09Z",
+   "severity": "ERROR",
+   "component": "user-api",
+   "source": "user-api.log",
+   "line_no": 23,
+   "message": "background compaction of audit store failed: io error (will retry)",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 49,
+   "suspicious": false
+  },
+  {
+   "id": "E8",
+   "uid": "search-index.log:24",
+   "ts": "2026-02-10T09:06:20Z",
+   "severity": "WARN",
+   "component": "search-index",
+   "source": "search-index.log",
+   "line_no": 24,
+   "message": "slow poll elapsed_ms=160",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 44,
+   "suspicious": false
+  },
+  {
+   "id": "E9",
+   "uid": "profile-db.log:24",
+   "ts": "2026-02-10T09:06:32Z",
+   "severity": "WARN",
+   "component": "profile-db",
+   "source": "profile-db.log",
+   "line_no": 24,
+   "message": "slow poll elapsed_ms=660",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 44,
+   "suspicious": false
+  },
+  {
+   "id": "E10",
+   "uid": "blob-db.log:35",
+   "ts": "2026-02-10T09:07:38Z",
+   "severity": "WARN",
+   "component": "blob-db",
+   "source": "blob-db.log",
+   "line_no": 35,
+   "message": "client sent oversized header, truncated span=002d6425",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 53,
+   "suspicious": false
+  },
+  {
+   "id": "E11",
+   "uid": "asset-store.log:32",
+   "ts": "2026-02-10T09:07:39Z",
+   "severity": "WARN",
+   "component": "asset-store",
+   "source": "asset-store.log",
+   "line_no": 32,
+   "message": "trust-dns resolver slow elapsed_ms=940",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 48,
+   "suspicious": false
+  },
+  {
+   "id": "E12",
+   "uid": "asset-store.log:34",
+   "ts": "2026-02-10T09:07:50Z",
+   "severity": "ERROR",
+   "component": "asset-store",
+   "source": "asset-store.log",
+   "line_no": 34,
+   "message": "failed to lookup address information: Temporary failure in name resolution",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 48,
+   "suspicious": false
+  },
+  {
+   "id": "E13",
+   "uid": "catalog-api.log:33",
+   "ts": "2026-02-10T09:07:55Z",
+   "severity": "ERROR",
+   "component": "catalog-api",
+   "source": "catalog-api.log",
+   "line_no": 33,
+   "message": "upstream asset-store status=503 span=640f9533",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 55,
+   "suspicious": false
+  },
+  {
+   "id": "E14",
+   "uid": "catalog-api.log:34",
+   "ts": "2026-02-10T09:07:57Z",
+   "severity": "WARN",
+   "component": "catalog-api",
+   "source": "catalog-api.log",
+   "line_no": 34,
+   "message": "tower retry: attempt 2 for asset-store",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 46,
+   "suspicious": false
+  },
+  {
+   "id": "E15",
+   "uid": "edge-proxy.log:39",
+   "ts": "2026-02-10T09:08:02Z",
+   "severity": "ERROR",
+   "component": "edge-proxy",
+   "source": "edge-proxy.log",
+   "line_no": 39,
+   "message": "service unavailable: catalog-api span=b0c8c527 status=503",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 56,
+   "suspicious": false
+  },
+  {
+   "id": "E16",
+   "uid": "profile-db.log:34",
+   "ts": "2026-02-10T09:08:10Z",
+   "severity": "WARN",
+   "component": "profile-db",
+   "source": "profile-db.log",
+   "line_no": 34,
+   "message": "slow poll elapsed_ms=170",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 45,
+   "suspicious": false
+  },
+  {
+   "id": "E17",
+   "uid": "catalog-api.log:35",
+   "ts": "2026-02-10T09:08:00Z",
+   "severity": "ERROR",
+   "component": "catalog-api",
+   "source": "catalog-api.log",
+   "line_no": 35,
+   "message": "request to asset-store exhausted retry budget",
+   "step": 2,
+   "tool": "search_logs",
+   "tokens": 44,
+   "suspicious": false
+  },
+  {
+   "id": "E18",
+   "uid": "asset-store.log:35",
+   "ts": "2026-02-10T09:07:54Z",
+   "severity": "ERROR",
+   "component": "asset-store",
+   "source": "asset-store.log",
+   "line_no": 35,
+   "message": "no resolvable upstream endpoints",
+   "step": 3,
+   "tool": "search_logs",
+   "tokens": 42,
+   "suspicious": false
+  }
+ ],
+ "tool_calls": [
+  {
+   "step": 1,
+   "tool": "error_timeline",
+   "args": {
+    "min_severity": "WARN"
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [
+    "E2",
+    "E3",
+    "E4",
+    "E5",
+    "E6",
+    "E7",
+    "E8",
+    "E9",
+    "E10",
+    "E11",
+    "E12",
+    "E13",
+    "E14",
+    "E1",
+    "E15",
+    "E16"
+   ],
+   "new_evidence_tokens": 715,
+   "output_chars": 1671,
+   "ms": 0.6
+  },
+  {
+   "step": 2,
+   "tool": "search_logs",
+   "args": {
+    "component": "catalog-api",
+    "min_severity": "WARN"
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [
+    "E13",
+    "E14",
+    "E17"
+   ],
+   "new_evidence_tokens": 44,
+   "output_chars": 178,
+   "ms": 0.18
+  },
+  {
+   "step": 3,
+   "tool": "search_logs",
+   "args": {
+    "component": "asset-store",
+    "min_severity": "ERROR"
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [
+    "E12",
+    "E18"
+   ],
+   "new_evidence_tokens": 42,
+   "output_chars": 143,
+   "ms": 0.16
+  },
+  {
+   "step": 4,
+   "tool": "get_context",
+   "args": {
+    "evidence_id": "E12",
+    "before": 3,
+    "after": 3
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [
+    "E12"
+   ],
+   "new_evidence_tokens": 0,
+   "output_chars": 128,
+   "ms": 0.09
+  }
+ ],
+ "metrics": {
+  "evidence_token_budget": 900,
+  "unique_evidence_tokens": 856,
+  "unique_evidence_items": 18,
+  "repeated_exposures": 5,
+  "repeated_exposure_tokens": 252,
+  "llm_calls": 6,
+  "prompt_tokens_total": 9564,
+  "output_tokens_total": 344,
+  "llm_seconds": 482.478,
+  "wall_seconds": 482.717,
+  "steps": 5,
+  "tool_calls": 4,
+  "blocked_tool_calls": 0,
+  "gate_rounds": 0,
+  "parse_failures": 0,
+  "normalised_fields": 0,
+  "cpu_seconds": 1314.6900000000057,
+  "mean_cpu_percent": 272.39787523640047,
+  "peak_rss_mb": 15261.175808,
+  "peak_uss_mb": 15268.978688,
+  "peak_pss_mb": 15269.004288,
+  "host_used_peak_mb": 32997.380096,
+  "host_total_mb": 33436.11904
+ }
+}

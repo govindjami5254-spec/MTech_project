@@ -1,0 +1,193 @@
+{
+ "schema_version": "1",
+ "run_id": "test-c022__E1__r0",
+ "case_id": "test-c022",
+ "split": "test",
+ "arm": "E1",
+ "repeat": 0,
+ "config_hash": "f084f650236305957f9116e615ede9c0cb648ddd97d3aa12302849eddff23ca1",
+ "code_commit": "c5448efd25158e25cc055e988ee3e931b6331ca5",
+ "model": null,
+ "started_at": "2026-11-25T22:53:19.110022Z",
+ "status": "ok",
+ "error": null,
+ "report_raw": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "search-index",
+    "cause_summary": "connection pool exhausted in search-index (dependency chain: edge-proxy -> catalog-api -> search-index)",
+    "confidence": 0.6,
+    "claims": [
+     {
+      "text": "edge-proxy reported failures calling catalog-api: sent 503 to client, catalog-api unhealthy req_id=0548d366",
+      "evidence_ids": [
+       "E1"
+      ]
+     },
+     {
+      "text": "catalog-api reported failures calling search-index: requests.exceptions.ConnectionError: HTTPConnectionPool(host='search-index', port=9200): Max retries e…",
+      "evidence_ids": [
+       "E2"
+      ]
+     },
+     {
+      "text": "search-index logged its own failure: returning 503 internally: no DB connection available",
+      "evidence_ids": [
+       "E3",
+       "E4",
+       "E5"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [],
+  "recommendations": [
+   "Inspect search-index for connection pool exhausted."
+  ]
+ },
+ "report_validated": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "search-index",
+    "cause_summary": "connection pool exhausted in search-index (dependency chain: edge-proxy -> catalog-api -> search-index)",
+    "confidence": 0.6,
+    "claims": [
+     {
+      "text": "edge-proxy reported failures calling catalog-api: sent 503 to client, catalog-api unhealthy req_id=0548d366",
+      "evidence_ids": [
+       "E1"
+      ]
+     },
+     {
+      "text": "catalog-api reported failures calling search-index: requests.exceptions.ConnectionError: HTTPConnectionPool(host='search-index', port=9200): Max retries e…",
+      "evidence_ids": [
+       "E2"
+      ]
+     },
+     {
+      "text": "search-index logged its own failure: returning 503 internally: no DB connection available",
+      "evidence_ids": [
+       "E3",
+       "E4",
+       "E5"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [],
+  "recommendations": [
+   "Inspect search-index for connection pool exhausted."
+  ]
+ },
+ "validation": {
+  "claims_total": 3,
+  "claims_supported": 3,
+  "fabricated_ids": 0,
+  "suspicious_citations": 0,
+  "hypotheses_in": 1,
+  "hypotheses_dropped": 0,
+  "abstained_by_validator": false
+ },
+ "evidence": [
+  {
+   "id": "E1",
+   "uid": "edge-proxy.log:32",
+   "ts": "2026-02-04T11:00:37.804000Z",
+   "severity": "ERROR",
+   "component": "edge-proxy",
+   "source": "edge-proxy.log",
+   "line_no": 32,
+   "message": "sent 503 to client, catalog-api unhealthy req_id=0548d366",
+   "step": 0,
+   "tool": "incident",
+   "tokens": 58,
+   "suspicious": false
+  },
+  {
+   "id": "E2",
+   "uid": "catalog-api.log:28",
+   "ts": "2026-02-04T11:00:29.473000Z",
+   "severity": "ERROR",
+   "component": "catalog-api",
+   "source": "catalog-api.log",
+   "line_no": 28,
+   "message": "requests.exceptions.ConnectionError: HTTPConnectionPool(host='search-index', port=9200): Max retries exceeded req_id=625a1ef3",
+   "step": 1,
+   "tool": "e1_rules",
+   "tokens": 69,
+   "suspicious": false
+  },
+  {
+   "id": "E3",
+   "uid": "search-index.log:27",
+   "ts": "2026-02-04T10:59:55.245000Z",
+   "severity": "WARN",
+   "component": "search-index",
+   "source": "search-index.log",
+   "line_no": 27,
+   "message": "SQLAlchemy pool overflow 183 in use",
+   "step": 1,
+   "tool": "e1_rules",
+   "tokens": 45,
+   "suspicious": false
+  },
+  {
+   "id": "E4",
+   "uid": "search-index.log:30",
+   "ts": "2026-02-04T11:00:25.730000Z",
+   "severity": "ERROR",
+   "component": "search-index",
+   "source": "search-index.log",
+   "line_no": 30,
+   "message": "sqlalchemy.exc.TimeoutError: QueuePool limit of size 20 reached",
+   "step": 1,
+   "tool": "e1_rules",
+   "tokens": 50,
+   "suspicious": false
+  },
+  {
+   "id": "E5",
+   "uid": "search-index.log:32",
+   "ts": "2026-02-04T11:00:30.225000Z",
+   "severity": "ERROR",
+   "component": "search-index",
+   "source": "search-index.log",
+   "line_no": 32,
+   "message": "returning 503 internally: no DB connection available",
+   "step": 1,
+   "tool": "e1_rules",
+   "tokens": 47,
+   "suspicious": false
+  }
+ ],
+ "tool_calls": [],
+ "metrics": {
+  "evidence_token_budget": 900,
+  "unique_evidence_tokens": 269,
+  "unique_evidence_items": 5,
+  "repeated_exposures": 1,
+  "repeated_exposure_tokens": 58,
+  "llm_calls": 0,
+  "prompt_tokens_total": 0,
+  "output_tokens_total": 0,
+  "llm_seconds": 0.0,
+  "wall_seconds": 0.397,
+  "steps": 0,
+  "tool_calls": 0,
+  "blocked_tool_calls": 0,
+  "gate_rounds": 0,
+  "parse_failures": 0,
+  "normalised_fields": 0,
+  "cpu_seconds": null,
+  "mean_cpu_percent": null,
+  "peak_rss_mb": null,
+  "peak_uss_mb": null,
+  "peak_pss_mb": null,
+  "host_used_peak_mb": null,
+  "host_total_mb": null
+ }
+}

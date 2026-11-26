@@ -1,0 +1,207 @@
+{
+ "schema_version": "1",
+ "run_id": "test-c023__E1__r0",
+ "case_id": "test-c023",
+ "split": "test",
+ "arm": "E1",
+ "repeat": 0,
+ "config_hash": "f084f650236305957f9116e615ede9c0cb648ddd97d3aa12302849eddff23ca1",
+ "code_commit": "c5448efd25158e25cc055e988ee3e931b6331ca5",
+ "model": null,
+ "started_at": "2026-11-25T23:20:42.030601Z",
+ "status": "ok",
+ "error": null,
+ "report_raw": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "tsdb",
+    "cause_summary": "disk full in tsdb (dependency chain: ingress -> telemetry-api -> stream-proc -> tsdb)",
+    "confidence": 0.6,
+    "claims": [
+     {
+      "text": "telemetry-api reported failures calling stream-proc: requests.exceptions.ConnectionError: HTTPConnectionPool(host='stream-proc', port=4001): Max retries e…",
+      "evidence_ids": [
+       "E2"
+      ]
+     },
+     {
+      "text": "stream-proc reported failures calling tsdb: requests.exceptions.ConnectionError: HTTPConnectionPool(host='tsdb', port=8086): Max retries exceeded req_id=6…",
+      "evidence_ids": [
+       "E3"
+      ]
+     },
+     {
+      "text": "tsdb logged its own failure: OSError: [Errno 28] No space left on device",
+      "evidence_ids": [
+       "E4",
+       "E5",
+       "E6"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [],
+  "recommendations": [
+   "Inspect tsdb for disk full."
+  ]
+ },
+ "report_validated": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "tsdb",
+    "cause_summary": "disk full in tsdb (dependency chain: ingress -> telemetry-api -> stream-proc -> tsdb)",
+    "confidence": 0.6,
+    "claims": [
+     {
+      "text": "telemetry-api reported failures calling stream-proc: requests.exceptions.ConnectionError: HTTPConnectionPool(host='stream-proc', port=4001): Max retries e…",
+      "evidence_ids": [
+       "E2"
+      ]
+     },
+     {
+      "text": "stream-proc reported failures calling tsdb: requests.exceptions.ConnectionError: HTTPConnectionPool(host='tsdb', port=8086): Max retries exceeded req_id=6…",
+      "evidence_ids": [
+       "E3"
+      ]
+     },
+     {
+      "text": "tsdb logged its own failure: OSError: [Errno 28] No space left on device",
+      "evidence_ids": [
+       "E4",
+       "E5",
+       "E6"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [],
+  "recommendations": [
+   "Inspect tsdb for disk full."
+  ]
+ },
+ "validation": {
+  "claims_total": 3,
+  "claims_supported": 3,
+  "fabricated_ids": 0,
+  "suspicious_citations": 0,
+  "hypotheses_in": 1,
+  "hypotheses_dropped": 0,
+  "abstained_by_validator": false
+ },
+ "evidence": [
+  {
+   "id": "E1",
+   "uid": "ingress.log:34",
+   "ts": "2026-01-23T12:40:43.389000Z",
+   "severity": "ERROR",
+   "component": "ingress",
+   "source": "ingress.log",
+   "line_no": 34,
+   "message": "upstream error from telemetry-api; sent 502 to client req_id=a4b2cc02",
+   "step": 0,
+   "tool": "incident",
+   "tokens": 57,
+   "suspicious": false
+  },
+  {
+   "id": "E2",
+   "uid": "telemetry-api.log:31",
+   "ts": "2026-01-23T12:40:38.479000Z",
+   "severity": "ERROR",
+   "component": "telemetry-api",
+   "source": "telemetry-api.log",
+   "line_no": 31,
+   "message": "requests.exceptions.ConnectionError: HTTPConnectionPool(host='stream-proc', port=4001): Max retries exceeded req_id=cc68b407",
+   "step": 1,
+   "tool": "e1_rules",
+   "tokens": 71,
+   "suspicious": false
+  },
+  {
+   "id": "E3",
+   "uid": "stream-proc.log:33",
+   "ts": "2026-01-23T12:40:35.916000Z",
+   "severity": "ERROR",
+   "component": "stream-proc",
+   "source": "stream-proc.log",
+   "line_no": 33,
+   "message": "requests.exceptions.ConnectionError: HTTPConnectionPool(host='tsdb', port=8086): Max retries exceeded req_id=663cfc9a",
+   "step": 1,
+   "tool": "e1_rules",
+   "tokens": 71,
+   "suspicious": false
+  },
+  {
+   "id": "E4",
+   "uid": "tsdb.log:25",
+   "ts": "2026-01-23T12:39:22Z",
+   "severity": "WARN",
+   "component": "tsdb",
+   "source": "tsdb.log",
+   "line_no": 25,
+   "message": "slow query took 130ms req_id=aba206a5",
+   "step": 1,
+   "tool": "e1_rules",
+   "tokens": 53,
+   "suspicious": false
+  },
+  {
+   "id": "E5",
+   "uid": "tsdb.log:27",
+   "ts": "2026-01-23T12:39:35.804000Z",
+   "severity": "WARN",
+   "component": "tsdb",
+   "source": "tsdb.log",
+   "line_no": 27,
+   "message": "disk /var/lib/db at 96% capacity",
+   "step": 1,
+   "tool": "e1_rules",
+   "tokens": 47,
+   "suspicious": false
+  },
+  {
+   "id": "E6",
+   "uid": "tsdb.log:33",
+   "ts": "2026-01-23T12:40:30.976000Z",
+   "severity": "ERROR",
+   "component": "tsdb",
+   "source": "tsdb.log",
+   "line_no": 33,
+   "message": "OSError: [Errno 28] No space left on device",
+   "step": 1,
+   "tool": "e1_rules",
+   "tokens": 50,
+   "suspicious": false
+  }
+ ],
+ "tool_calls": [],
+ "metrics": {
+  "evidence_token_budget": 900,
+  "unique_evidence_tokens": 349,
+  "unique_evidence_items": 6,
+  "repeated_exposures": 1,
+  "repeated_exposure_tokens": 57,
+  "llm_calls": 0,
+  "prompt_tokens_total": 0,
+  "output_tokens_total": 0,
+  "llm_seconds": 0.0,
+  "wall_seconds": 0.383,
+  "steps": 0,
+  "tool_calls": 0,
+  "blocked_tool_calls": 0,
+  "gate_rounds": 0,
+  "parse_failures": 0,
+  "normalised_fields": 0,
+  "cpu_seconds": null,
+  "mean_cpu_percent": null,
+  "peak_rss_mb": null,
+  "peak_uss_mb": null,
+  "peak_pss_mb": null,
+  "host_used_peak_mb": null,
+  "host_total_mb": null
+ }
+}

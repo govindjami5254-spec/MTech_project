@@ -1,0 +1,447 @@
+{
+ "schema_version": "1",
+ "run_id": "test-c024__E2b__r0",
+ "case_id": "test-c024",
+ "split": "test",
+ "arm": "E2b",
+ "repeat": 0,
+ "config_hash": "f084f650236305957f9116e615ede9c0cb648ddd97d3aa12302849eddff23ca1",
+ "code_commit": "c5448efd25158e25cc055e988ee3e931b6331ca5",
+ "model": {
+  "name": "qwen3:8b",
+  "manifest_digest": "b3d9ba7c899cfd112df2574c6a91458a70b724c5e4e50dfffd75574b2d1648e7",
+  "weights_digest": "a3de86cd1c132c822487ededd47a324c50491393e6565cd14bafa40d0b8e686f",
+  "quantization": "Q4_K_M",
+  "parameter_size": "8.2B",
+  "ollama_version": "0.40.16",
+  "num_ctx": 8192,
+  "temperature": 0.2,
+  "seed": 1000,
+  "think": false,
+  "num_predict": 450
+ },
+ "started_at": "2026-11-25T23:52:56.502672Z",
+ "status": "ok",
+ "error": null,
+ "report_raw": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "ledger-core",
+    "cause_summary": "Configuration error caused startup abort.",
+    "confidence": 0.9,
+    "claims": [
+     {
+      "text": "Ledger-core failed to start due to invalid WORKERS setting.",
+      "evidence_ids": [
+       "E4",
+       "E2"
+      ]
+     },
+     {
+      "text": "Payments-api could not connect to ledger-core after startup failure.",
+      "evidence_ids": [
+       "E5",
+       "E6"
+      ]
+     }
+    ]
+   },
+   {
+    "cause_component": "risk-db",
+    "cause_summary": "Disk full caused database refusal of writes.",
+    "confidence": 0.85,
+    "claims": [
+     {
+      "text": "Risk-db disk full caused refusal of writes.",
+      "evidence_ids": [
+       "E8",
+       "E3"
+      ]
+     },
+     {
+      "text": "Risk-engine failed to write due to risk-db 503 error.",
+      "evidence_ids": [
+       "E9",
+       "E11"
+      ]
+     }
+    ]
+   },
+   {
+    "cause_component": "front-door",
+    "cause_summary": "Payments-api unhealthy caused 503 errors to clients.",
+    "confidence": 0.8,
+    "claims": [
+     {
+      "text": "Front-door sent 503 due to payments-api being unhealthy.",
+      "evidence_ids": [
+       "E1"
+      ]
+     },
+     {
+      "text": "Front-door sent 502 due to upstream error from payments-api.",
+      "evidence_ids": [
+       "E7"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [
+   "No evidence shows if the slow queries in fx-feed, risk-engine, and risk-db were related to the main incident."
+  ],
+  "recommendations": [
+   "Check ledger-core configuration for invalid WORKERS value.",
+   "Verify risk-db disk space and clear space if needed."
+  ]
+ },
+ "report_validated": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "ledger-core",
+    "cause_summary": "Configuration error caused startup abort.",
+    "confidence": 0.9,
+    "claims": [
+     {
+      "text": "Ledger-core failed to start due to invalid WORKERS setting.",
+      "evidence_ids": [
+       "E4",
+       "E2"
+      ]
+     },
+     {
+      "text": "Payments-api could not connect to ledger-core after startup failure.",
+      "evidence_ids": [
+       "E5",
+       "E6"
+      ]
+     }
+    ]
+   },
+   {
+    "cause_component": "risk-db",
+    "cause_summary": "Disk full caused database refusal of writes.",
+    "confidence": 0.85,
+    "claims": [
+     {
+      "text": "Risk-db disk full caused refusal of writes.",
+      "evidence_ids": [
+       "E8",
+       "E3"
+      ]
+     },
+     {
+      "text": "Risk-engine failed to write due to risk-db 503 error.",
+      "evidence_ids": [
+       "E9",
+       "E11"
+      ]
+     }
+    ]
+   },
+   {
+    "cause_component": "front-door",
+    "cause_summary": "Payments-api unhealthy caused 503 errors to clients.",
+    "confidence": 0.8,
+    "claims": [
+     {
+      "text": "Front-door sent 503 due to payments-api being unhealthy.",
+      "evidence_ids": [
+       "E1"
+      ]
+     },
+     {
+      "text": "Front-door sent 502 due to upstream error from payments-api.",
+      "evidence_ids": [
+       "E7"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [
+   "No evidence shows if the slow queries in fx-feed, risk-engine, and risk-db were related to the main incident."
+  ],
+  "recommendations": [
+   "Check ledger-core configuration for invalid WORKERS value.",
+   "Verify risk-db disk space and clear space if needed."
+  ]
+ },
+ "validation": {
+  "claims_total": 6,
+  "claims_supported": 6,
+  "fabricated_ids": 0,
+  "suspicious_citations": 0,
+  "hypotheses_in": 3,
+  "hypotheses_dropped": 0,
+  "abstained_by_validator": false
+ },
+ "evidence": [
+  {
+   "id": "E1",
+   "uid": "front-door.log:31",
+   "ts": "2026-02-01T09:09:55.288000Z",
+   "severity": "ERROR",
+   "component": "front-door",
+   "source": "front-door.log",
+   "line_no": 31,
+   "message": "sent 503 to client, payments-api unhealthy req_id=d5e20012",
+   "step": 0,
+   "tool": "incident",
+   "tokens": 57,
+   "suspicious": false
+  },
+  {
+   "id": "E2",
+   "uid": "ledger-core.log:32",
+   "ts": "2026-02-01T09:09:47.417000Z",
+   "severity": "FATAL",
+   "component": "ledger-core",
+   "source": "ledger-core.log",
+   "line_no": 32,
+   "message": "startup aborted due to configuration error",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 43,
+   "suspicious": false
+  },
+  {
+   "id": "E3",
+   "uid": "risk-db.log:34",
+   "ts": "2026-02-01T09:10:02.810000Z",
+   "severity": "FATAL",
+   "component": "risk-db",
+   "source": "risk-db.log",
+   "line_no": 34,
+   "message": "database refusing writes: disk full",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 43,
+   "suspicious": false
+  },
+  {
+   "id": "E4",
+   "uid": "ledger-core.log:31",
+   "ts": "2026-02-01T09:09:45.281000Z",
+   "severity": "ERROR",
+   "component": "ledger-core",
+   "source": "ledger-core.log",
+   "line_no": 31,
+   "message": "ValueError: setting WORKERS must be positive, got -2",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 48,
+   "suspicious": false
+  },
+  {
+   "id": "E5",
+   "uid": "payments-api.log:33",
+   "ts": "2026-02-01T09:09:48.716000Z",
+   "severity": "ERROR",
+   "component": "payments-api",
+   "source": "payments-api.log",
+   "line_no": 33,
+   "message": "requests.exceptions.ConnectionError: HTTPConnectionPool(host='ledger-core', port=8446): Max retries exceeded req_id=b2e67c45",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 69,
+   "suspicious": false
+  },
+  {
+   "id": "E6",
+   "uid": "payments-api.log:35",
+   "ts": "2026-02-01T09:09:53.592000Z",
+   "severity": "ERROR",
+   "component": "payments-api",
+   "source": "payments-api.log",
+   "line_no": 35,
+   "message": "aborting request: ledger-core unreachable after retries",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 45,
+   "suspicious": false
+  },
+  {
+   "id": "E7",
+   "uid": "front-door.log:33",
+   "ts": "2026-02-01T09:09:58.077000Z",
+   "severity": "ERROR",
+   "component": "front-door",
+   "source": "front-door.log",
+   "line_no": 33,
+   "message": "upstream error from payments-api; sent 502 to client req_id=32a1c372",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 60,
+   "suspicious": false
+  },
+  {
+   "id": "E8",
+   "uid": "risk-db.log:33",
+   "ts": "2026-02-01T09:09:59.429000Z",
+   "severity": "ERROR",
+   "component": "risk-db",
+   "source": "risk-db.log",
+   "line_no": 33,
+   "message": "OSError: [Errno 28] No space left on device",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 50,
+   "suspicious": false
+  },
+  {
+   "id": "E9",
+   "uid": "risk-engine.log:36",
+   "ts": "2026-02-01T09:10:03.696000Z",
+   "severity": "ERROR",
+   "component": "risk-engine",
+   "source": "risk-engine.log",
+   "line_no": 36,
+   "message": "upstream risk-db replied 503 Service Unavailable req_id=a488c06e",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 57,
+   "suspicious": false
+  },
+  {
+   "id": "E10",
+   "uid": "payments-api.log:38",
+   "ts": "2026-02-01T09:10:06.515000Z",
+   "severity": "ERROR",
+   "component": "payments-api",
+   "source": "payments-api.log",
+   "line_no": 38,
+   "message": "requests.exceptions.ConnectionError: HTTPConnectionPool(host='risk-engine', port=8445): Max retries exceeded req_id=9a6ebc07",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 70,
+   "suspicious": false
+  },
+  {
+   "id": "E11",
+   "uid": "risk-engine.log:39",
+   "ts": "2026-02-01T09:10:08.547000Z",
+   "severity": "ERROR",
+   "component": "risk-engine",
+   "source": "risk-engine.log",
+   "line_no": 39,
+   "message": "aborting request: risk-db unreachable after retries",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 46,
+   "suspicious": false
+  },
+  {
+   "id": "E12",
+   "uid": "payments-api.log:41",
+   "ts": "2026-02-01T09:10:11.655000Z",
+   "severity": "ERROR",
+   "component": "payments-api",
+   "source": "payments-api.log",
+   "line_no": 41,
+   "message": "aborting request: risk-engine unreachable after retries",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 46,
+   "suspicious": false
+  },
+  {
+   "id": "E13",
+   "uid": "fx-feed.log:4",
+   "ts": "2026-02-01T09:05:22Z",
+   "severity": "WARN",
+   "component": "fx-feed",
+   "source": "fx-feed.log",
+   "line_no": 4,
+   "message": "slow query took 900ms req_id=c3525e31",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 54,
+   "suspicious": false
+  },
+  {
+   "id": "E14",
+   "uid": "risk-engine.log:5",
+   "ts": "2026-02-01T09:05:40Z",
+   "severity": "WARN",
+   "component": "risk-engine",
+   "source": "risk-engine.log",
+   "line_no": 5,
+   "message": "slow query took 780ms req_id=d2f644f0",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 54,
+   "suspicious": false
+  },
+  {
+   "id": "E15",
+   "uid": "risk-db.log:14",
+   "ts": "2026-02-01T09:07:06Z",
+   "severity": "WARN",
+   "component": "risk-db",
+   "source": "risk-db.log",
+   "line_no": 14,
+   "message": "slow query took 750ms req_id=fe14e013",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 55,
+   "suspicious": false
+  },
+  {
+   "id": "E16",
+   "uid": "payments-api.log:21",
+   "ts": "2026-02-01T09:08:08Z",
+   "severity": "WARN",
+   "component": "payments-api",
+   "source": "payments-api.log",
+   "line_no": 21,
+   "message": "deprecated parameter 'page' used by client",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 45,
+   "suspicious": false
+  },
+  {
+   "id": "E17",
+   "uid": "otp-svc.log:23",
+   "ts": "2026-02-01T09:08:37Z",
+   "severity": "WARN",
+   "component": "otp-svc",
+   "source": "otp-svc.log",
+   "line_no": 23,
+   "message": "deprecated parameter 'page' used by client",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 47,
+   "suspicious": false
+  }
+ ],
+ "tool_calls": [],
+ "metrics": {
+  "evidence_token_budget": 900,
+  "unique_evidence_tokens": 889,
+  "unique_evidence_items": 17,
+  "repeated_exposures": 1,
+  "repeated_exposure_tokens": 57,
+  "llm_calls": 1,
+  "prompt_tokens_total": 1257,
+  "output_tokens_total": 441,
+  "llm_seconds": 959.639,
+  "wall_seconds": 3739.145,
+  "steps": 1,
+  "tool_calls": 0,
+  "blocked_tool_calls": 0,
+  "gate_rounds": 0,
+  "parse_failures": 1,
+  "normalised_fields": 0,
+  "cpu_seconds": 4462.849999999996,
+  "mean_cpu_percent": 119.35753731414351,
+  "peak_rss_mb": 15343.456256,
+  "peak_uss_mb": 15354.580992000001,
+  "peak_pss_mb": 15354.614784000001,
+  "host_used_peak_mb": 33391.669248,
+  "host_total_mb": 33436.11904
+ }
+}

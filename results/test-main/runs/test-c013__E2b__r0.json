@@ -1,0 +1,435 @@
+{
+ "schema_version": "1",
+ "run_id": "test-c013__E2b__r0",
+ "case_id": "test-c013",
+ "split": "test",
+ "arm": "E2b",
+ "repeat": 0,
+ "config_hash": "f084f650236305957f9116e615ede9c0cb648ddd97d3aa12302849eddff23ca1",
+ "code_commit": "c5448efd25158e25cc055e988ee3e931b6331ca5",
+ "model": {
+  "name": "qwen3:8b",
+  "manifest_digest": "b3d9ba7c899cfd112df2574c6a91458a70b724c5e4e50dfffd75574b2d1648e7",
+  "weights_digest": "a3de86cd1c132c822487ededd47a324c50491393e6565cd14bafa40d0b8e686f",
+  "quantization": "Q4_K_M",
+  "parameter_size": "8.2B",
+  "ollama_version": "0.40.16",
+  "num_ctx": 8192,
+  "temperature": 0.2,
+  "seed": 1000,
+  "think": false,
+  "num_predict": 450
+ },
+ "started_at": "2026-11-25T19:12:33.681666Z",
+ "status": "ok",
+ "error": null,
+ "report_raw": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "core-db",
+    "cause_summary": "core-db ran out of disk space causing write failures.",
+    "confidence": 0.95,
+    "claims": [
+     {
+      "text": "core-db disk usage reached 96%.",
+      "evidence_ids": [
+       "E17"
+      ]
+     },
+     {
+      "text": "core-db write path disabled due to storage full.",
+      "evidence_ids": [
+       "E2"
+      ]
+     }
+    ]
+   },
+   {
+    "cause_component": "ledger-core",
+    "cause_summary": "ledger-core failed to connect to core-db due to disk full.",
+    "confidence": 0.85,
+    "claims": [
+     {
+      "text": "ledger-core failed to connect to core-db.",
+      "evidence_ids": [
+       "E4"
+      ]
+     },
+     {
+      "text": "ledger-core received 503 from core-db.",
+      "evidence_ids": [
+       "E6"
+      ]
+     }
+    ]
+   },
+   {
+    "cause_component": "front-door",
+    "cause_summary": "front-door failed due to downstream service failures.",
+    "confidence": 0.8,
+    "claims": [
+     {
+      "text": "front-door received 502 from payments-api.",
+      "evidence_ids": [
+       "E1"
+      ]
+     },
+     {
+      "text": "front-door received 503 from payments-api.",
+      "evidence_ids": [
+       "E10"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [],
+  "recommendations": [
+   "Check disk usage and expand storage for core-db.",
+   "Investigate connectivity between ledger-core and core-db."
+  ]
+ },
+ "report_validated": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "core-db",
+    "cause_summary": "core-db ran out of disk space causing write failures.",
+    "confidence": 0.95,
+    "claims": [
+     {
+      "text": "core-db disk usage reached 96%.",
+      "evidence_ids": [
+       "E17"
+      ]
+     },
+     {
+      "text": "core-db write path disabled due to storage full.",
+      "evidence_ids": [
+       "E2"
+      ]
+     }
+    ]
+   },
+   {
+    "cause_component": "ledger-core",
+    "cause_summary": "ledger-core failed to connect to core-db due to disk full.",
+    "confidence": 0.85,
+    "claims": [
+     {
+      "text": "ledger-core failed to connect to core-db.",
+      "evidence_ids": [
+       "E4"
+      ]
+     },
+     {
+      "text": "ledger-core received 503 from core-db.",
+      "evidence_ids": [
+       "E6"
+      ]
+     }
+    ]
+   },
+   {
+    "cause_component": "front-door",
+    "cause_summary": "front-door failed due to downstream service failures.",
+    "confidence": 0.8,
+    "claims": [
+     {
+      "text": "front-door received 502 from payments-api.",
+      "evidence_ids": [
+       "E1"
+      ]
+     },
+     {
+      "text": "front-door received 503 from payments-api.",
+      "evidence_ids": [
+       "E10"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [],
+  "recommendations": [
+   "Check disk usage and expand storage for core-db.",
+   "Investigate connectivity between ledger-core and core-db."
+  ]
+ },
+ "validation": {
+  "claims_total": 6,
+  "claims_supported": 6,
+  "fabricated_ids": 0,
+  "suspicious_citations": 0,
+  "hypotheses_in": 3,
+  "hypotheses_dropped": 0,
+  "abstained_by_validator": false
+ },
+ "evidence": [
+  {
+   "id": "E1",
+   "uid": "front-door.log:33",
+   "ts": "2026-02-12T09:50:11Z",
+   "severity": "ERROR",
+   "component": "front-door",
+   "source": "front-door.log",
+   "line_no": 33,
+   "message": "bad gateway: payments-api failed span=3ebb077a status=502",
+   "step": 0,
+   "tool": "incident",
+   "tokens": 55,
+   "suspicious": false
+  },
+  {
+   "id": "E2",
+   "uid": "core-db.log:34",
+   "ts": "2026-02-12T09:49:55Z",
+   "severity": "FATAL",
+   "component": "core-db",
+   "source": "core-db.log",
+   "line_no": 34,
+   "message": "write path disabled: storage full",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 43,
+   "suspicious": false
+  },
+  {
+   "id": "E3",
+   "uid": "core-db.log:33",
+   "ts": "2026-02-12T09:49:52Z",
+   "severity": "ERROR",
+   "component": "core-db",
+   "source": "core-db.log",
+   "line_no": 33,
+   "message": "io error: No space left on device (os error 28)",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 50,
+   "suspicious": false
+  },
+  {
+   "id": "E4",
+   "uid": "ledger-core.log:33",
+   "ts": "2026-02-12T09:49:58Z",
+   "severity": "ERROR",
+   "component": "ledger-core",
+   "source": "ledger-core.log",
+   "line_no": 33,
+   "message": "hyper::Error(Connect, ConnectError(\"tcp connect error\", Os { code: 111 })) to core-db:1522 span=edab76c5",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 74,
+   "suspicious": false
+  },
+  {
+   "id": "E5",
+   "uid": "ledger-core.log:35",
+   "ts": "2026-02-12T09:50:03Z",
+   "severity": "ERROR",
+   "component": "ledger-core",
+   "source": "ledger-core.log",
+   "line_no": 35,
+   "message": "request to core-db exhausted retry budget",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 43,
+   "suspicious": false
+  },
+  {
+   "id": "E6",
+   "uid": "ledger-core.log:36",
+   "ts": "2026-02-12T09:50:04Z",
+   "severity": "ERROR",
+   "component": "ledger-core",
+   "source": "ledger-core.log",
+   "line_no": 36,
+   "message": "upstream core-db status=503 span=b7af50f3",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 52,
+   "suspicious": false
+  },
+  {
+   "id": "E7",
+   "uid": "payments-api.log:35",
+   "ts": "2026-02-12T09:50:04Z",
+   "severity": "ERROR",
+   "component": "payments-api",
+   "source": "payments-api.log",
+   "line_no": 35,
+   "message": "hyper::Error(Connect, ConnectError(\"tcp connect error\", Os { code: 111 })) to ledger-core:8446 span=34a5dc07",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 75,
+   "suspicious": false
+  },
+  {
+   "id": "E8",
+   "uid": "payments-api.log:37",
+   "ts": "2026-02-12T09:50:09Z",
+   "severity": "ERROR",
+   "component": "payments-api",
+   "source": "payments-api.log",
+   "line_no": 37,
+   "message": "request to ledger-core exhausted retry budget",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 43,
+   "suspicious": false
+  },
+  {
+   "id": "E9",
+   "uid": "payments-api.log:39",
+   "ts": "2026-02-12T09:50:11Z",
+   "severity": "ERROR",
+   "component": "payments-api",
+   "source": "payments-api.log",
+   "line_no": 39,
+   "message": "upstream ledger-core status=503 span=74903f9e",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 54,
+   "suspicious": false
+  },
+  {
+   "id": "E10",
+   "uid": "front-door.log:35",
+   "ts": "2026-02-12T09:50:12Z",
+   "severity": "ERROR",
+   "component": "front-door",
+   "source": "front-door.log",
+   "line_no": 35,
+   "message": "service unavailable: payments-api span=d403e8ee status=503",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 55,
+   "suspicious": false
+  },
+  {
+   "id": "E11",
+   "uid": "report-batch.log:3",
+   "ts": "2026-02-12T09:45:04Z",
+   "severity": "WARN",
+   "component": "report-batch",
+   "source": "report-batch.log",
+   "line_no": 3,
+   "message": "report generation behind schedule by 0s",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 46,
+   "suspicious": false
+  },
+  {
+   "id": "E12",
+   "uid": "report-batch.log:5",
+   "ts": "2026-02-12T09:45:07Z",
+   "severity": "WARN",
+   "component": "report-batch",
+   "source": "report-batch.log",
+   "line_no": 5,
+   "message": "fx rate feed stale by 350ms",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 48,
+   "suspicious": false
+  },
+  {
+   "id": "E13",
+   "uid": "fx-feed.log:3",
+   "ts": "2026-02-12T09:45:15Z",
+   "severity": "WARN",
+   "component": "fx-feed",
+   "source": "fx-feed.log",
+   "line_no": 3,
+   "message": "fx rate feed stale by 390ms",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 46,
+   "suspicious": false
+  },
+  {
+   "id": "E14",
+   "uid": "fx-feed.log:6",
+   "ts": "2026-02-12T09:45:20Z",
+   "severity": "WARN",
+   "component": "fx-feed",
+   "source": "fx-feed.log",
+   "line_no": 6,
+   "message": "report generation behind schedule by 0s",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 44,
+   "suspicious": false
+  },
+  {
+   "id": "E15",
+   "uid": "fx-feed.log:92",
+   "ts": "2026-02-12T09:48:11Z",
+   "severity": "WARN",
+   "component": "fx-feed",
+   "source": "fx-feed.log",
+   "line_no": 92,
+   "message": "client sent oversized header, truncated span=1b1cedc2",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 51,
+   "suspicious": false
+  },
+  {
+   "id": "E16",
+   "uid": "risk-db.log:22",
+   "ts": "2026-02-12T09:48:13Z",
+   "severity": "WARN",
+   "component": "risk-db",
+   "source": "risk-db.log",
+   "line_no": 22,
+   "message": "client sent oversized header, truncated span=8095d054",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 53,
+   "suspicious": false
+  },
+  {
+   "id": "E17",
+   "uid": "core-db.log:26",
+   "ts": "2026-02-12T09:49:07Z",
+   "severity": "WARN",
+   "component": "core-db",
+   "source": "core-db.log",
+   "line_no": 26,
+   "message": "disk usage 96% on /srv/data",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 47,
+   "suspicious": false
+  }
+ ],
+ "tool_calls": [],
+ "metrics": {
+  "evidence_token_budget": 900,
+  "unique_evidence_tokens": 879,
+  "unique_evidence_items": 17,
+  "repeated_exposures": 1,
+  "repeated_exposure_tokens": 55,
+  "llm_calls": 1,
+  "prompt_tokens_total": 1247,
+  "output_tokens_total": 368,
+  "llm_seconds": 359.785,
+  "wall_seconds": 359.997,
+  "steps": 1,
+  "tool_calls": 0,
+  "blocked_tool_calls": 0,
+  "gate_rounds": 0,
+  "parse_failures": 0,
+  "normalised_fields": 0,
+  "cpu_seconds": 1019.3999999999965,
+  "mean_cpu_percent": 283.2276326606152,
+  "peak_rss_mb": 13154.951168000001,
+  "peak_uss_mb": 13151.145984,
+  "peak_pss_mb": 13151.213568,
+  "host_used_peak_mb": 31257.84576,
+  "host_total_mb": 33436.11904
+ }
+}

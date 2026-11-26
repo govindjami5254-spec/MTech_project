@@ -1,0 +1,445 @@
+{
+ "schema_version": "1",
+ "run_id": "test-c005__E2b__r0",
+ "case_id": "test-c005",
+ "split": "test",
+ "arm": "E2b",
+ "repeat": 0,
+ "config_hash": "f084f650236305957f9116e615ede9c0cb648ddd97d3aa12302849eddff23ca1",
+ "code_commit": "c5448efd25158e25cc055e988ee3e931b6331ca5",
+ "model": {
+  "name": "qwen3:8b",
+  "manifest_digest": "b3d9ba7c899cfd112df2574c6a91458a70b724c5e4e50dfffd75574b2d1648e7",
+  "weights_digest": "a3de86cd1c132c822487ededd47a324c50491393e6565cd14bafa40d0b8e686f",
+  "quantization": "Q4_K_M",
+  "parameter_size": "8.2B",
+  "ollama_version": "0.40.16",
+  "num_ctx": 8192,
+  "temperature": 0.2,
+  "seed": 1000,
+  "think": false,
+  "num_predict": 450
+ },
+ "started_at": "2026-11-25T15:39:55.174443Z",
+ "status": "ok",
+ "error": null,
+ "report_raw": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "catalog-api",
+    "cause_summary": "Catalog-api ran out of memory due to high RSS usage.",
+    "confidence": 0.9,
+    "claims": [
+     {
+      "text": "Catalog-api had 99% RSS memory usage before crashing.",
+      "evidence_ids": [
+       "E14"
+      ]
+     },
+     {
+      "text": "Catalog-api crashed with MemoryError and was killed by OOMKilled.",
+      "evidence_ids": [
+       "E3",
+       "E2"
+      ]
+     }
+    ]
+   },
+   {
+    "cause_component": "edge-proxy",
+    "cause_summary": "Edge-proxy received 5xx errors from catalog-api due to its failure.",
+    "confidence": 0.8,
+    "claims": [
+     {
+      "text": "Edge-proxy received upstream error from catalog-api and sent 502 to client.",
+      "evidence_ids": [
+       "E1"
+      ]
+     },
+     {
+      "text": "Edge-proxy marked catalog-api as unhealthy and sent 503 to client.",
+      "evidence_ids": [
+       "E4"
+      ]
+     }
+    ]
+   },
+   {
+    "cause_component": "user-api",
+    "cause_summary": "User-api had slow query and deprecated parameter usage.",
+    "confidence": 0.6,
+    "claims": [
+     {
+      "text": "User-api had a slow query and deprecated parameter 'page' used by client.",
+      "evidence_ids": [
+       "E10",
+       "E16"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [
+   "No evidence shows if the deprecated 'page' parameter caused the catalog-api memory issue."
+  ],
+  "recommendations": [
+   "Check if the deprecated 'page' parameter is causing excessive memory usage in catalog-api.",
+   "Monitor catalog-api memory usage and optimize queries to prevent OOMKilled errors."
+  ]
+ },
+ "report_validated": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "catalog-api",
+    "cause_summary": "Catalog-api ran out of memory due to high RSS usage.",
+    "confidence": 0.9,
+    "claims": [
+     {
+      "text": "Catalog-api had 99% RSS memory usage before crashing.",
+      "evidence_ids": [
+       "E14"
+      ]
+     },
+     {
+      "text": "Catalog-api crashed with MemoryError and was killed by OOMKilled.",
+      "evidence_ids": [
+       "E3",
+       "E2"
+      ]
+     }
+    ]
+   },
+   {
+    "cause_component": "edge-proxy",
+    "cause_summary": "Edge-proxy received 5xx errors from catalog-api due to its failure.",
+    "confidence": 0.8,
+    "claims": [
+     {
+      "text": "Edge-proxy received upstream error from catalog-api and sent 502 to client.",
+      "evidence_ids": [
+       "E1"
+      ]
+     },
+     {
+      "text": "Edge-proxy marked catalog-api as unhealthy and sent 503 to client.",
+      "evidence_ids": [
+       "E4"
+      ]
+     }
+    ]
+   },
+   {
+    "cause_component": "user-api",
+    "cause_summary": "User-api had slow query and deprecated parameter usage.",
+    "confidence": 0.6,
+    "claims": [
+     {
+      "text": "User-api had a slow query and deprecated parameter 'page' used by client.",
+      "evidence_ids": [
+       "E10",
+       "E16"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [
+   "No evidence shows if the deprecated 'page' parameter caused the catalog-api memory issue."
+  ],
+  "recommendations": [
+   "Check if the deprecated 'page' parameter is causing excessive memory usage in catalog-api.",
+   "Monitor catalog-api memory usage and optimize queries to prevent OOMKilled errors."
+  ]
+ },
+ "validation": {
+  "claims_total": 5,
+  "claims_supported": 5,
+  "fabricated_ids": 0,
+  "suspicious_citations": 0,
+  "hypotheses_in": 3,
+  "hypotheses_dropped": 0,
+  "abstained_by_validator": false
+ },
+ "evidence": [
+  {
+   "id": "E1",
+   "uid": "edge-proxy.log:35",
+   "ts": "2026-01-30T09:17:15.911000Z",
+   "severity": "ERROR",
+   "component": "edge-proxy",
+   "source": "edge-proxy.log",
+   "line_no": 35,
+   "message": "upstream error from catalog-api; sent 502 to client req_id=77576717",
+   "step": 0,
+   "tool": "incident",
+   "tokens": 60,
+   "suspicious": false
+  },
+  {
+   "id": "E2",
+   "uid": "catalog-api.log:39",
+   "ts": "2026-01-30T09:17:13.308000Z",
+   "severity": "FATAL",
+   "component": "catalog-api",
+   "source": "catalog-api.log",
+   "line_no": 39,
+   "message": "worker killed: OOMKilled (exit code 137)",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 51,
+   "suspicious": false
+  },
+  {
+   "id": "E3",
+   "uid": "catalog-api.log:38",
+   "ts": "2026-01-30T09:17:11.414000Z",
+   "severity": "ERROR",
+   "component": "catalog-api",
+   "source": "catalog-api.log",
+   "line_no": 38,
+   "message": "MemoryError while building response payload",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 42,
+   "suspicious": false
+  },
+  {
+   "id": "E4",
+   "uid": "edge-proxy.log:41",
+   "ts": "2026-01-30T09:17:30.166000Z",
+   "severity": "ERROR",
+   "component": "edge-proxy",
+   "source": "edge-proxy.log",
+   "line_no": 41,
+   "message": "sent 503 to client, catalog-api unhealthy req_id=2581a5f0",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 58,
+   "suspicious": false
+  },
+  {
+   "id": "E5",
+   "uid": "blob-db.log:4",
+   "ts": "2026-01-30T09:12:19Z",
+   "severity": "WARN",
+   "component": "blob-db",
+   "source": "blob-db.log",
+   "line_no": 4,
+   "message": "slow query took 730ms req_id=a3173c15",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 53,
+   "suspicious": false
+  },
+  {
+   "id": "E6",
+   "uid": "asset-store.log:10",
+   "ts": "2026-01-30T09:13:16Z",
+   "severity": "WARN",
+   "component": "asset-store",
+   "source": "asset-store.log",
+   "line_no": 10,
+   "message": "deprecated parameter 'page' used by client",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 44,
+   "suspicious": false
+  },
+  {
+   "id": "E7",
+   "uid": "catalog-api.log:10",
+   "ts": "2026-01-30T09:13:30Z",
+   "severity": "WARN",
+   "component": "catalog-api",
+   "source": "catalog-api.log",
+   "line_no": 10,
+   "message": "slow query took 120ms req_id=12253187",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 55,
+   "suspicious": false
+  },
+  {
+   "id": "E8",
+   "uid": "thumbnailer.log:14",
+   "ts": "2026-01-30T09:14:05Z",
+   "severity": "WARN",
+   "component": "thumbnailer",
+   "source": "thumbnailer.log",
+   "line_no": 14,
+   "message": "deprecated parameter 'page' used by client",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 44,
+   "suspicious": false
+  },
+  {
+   "id": "E9",
+   "uid": "edge-proxy.log:17",
+   "ts": "2026-01-30T09:14:40Z",
+   "severity": "WARN",
+   "component": "edge-proxy",
+   "source": "edge-proxy.log",
+   "line_no": 17,
+   "message": "slow query took 650ms req_id=e5b15fce",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 52,
+   "suspicious": false
+  },
+  {
+   "id": "E10",
+   "uid": "user-api.log:18",
+   "ts": "2026-01-30T09:14:48Z",
+   "severity": "WARN",
+   "component": "user-api",
+   "source": "user-api.log",
+   "line_no": 18,
+   "message": "slow query took 940ms req_id=5aea2b1e",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 54,
+   "suspicious": false
+  },
+  {
+   "id": "E11",
+   "uid": "thumbnailer.log:21",
+   "ts": "2026-01-30T09:15:15Z",
+   "severity": "WARN",
+   "component": "thumbnailer",
+   "source": "thumbnailer.log",
+   "line_no": 21,
+   "message": "slow query took 840ms req_id=1ebbff68",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 53,
+   "suspicious": false
+  },
+  {
+   "id": "E12",
+   "uid": "catalog-api.log:23",
+   "ts": "2026-01-30T09:15:25Z",
+   "severity": "WARN",
+   "component": "catalog-api",
+   "source": "catalog-api.log",
+   "line_no": 23,
+   "message": "deprecated parameter 'page' used by client",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 45,
+   "suspicious": false
+  },
+  {
+   "id": "E13",
+   "uid": "profile-db.log:23",
+   "ts": "2026-01-30T09:15:47Z",
+   "severity": "WARN",
+   "component": "profile-db",
+   "source": "profile-db.log",
+   "line_no": 23,
+   "message": "deprecated parameter 'page' used by client",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 45,
+   "suspicious": false
+  },
+  {
+   "id": "E14",
+   "uid": "catalog-api.log:33",
+   "ts": "2026-01-30T09:16:31.247000Z",
+   "severity": "WARN",
+   "component": "catalog-api",
+   "source": "catalog-api.log",
+   "line_no": 33,
+   "message": "RSS 99% of container memory limit",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 46,
+   "suspicious": false
+  },
+  {
+   "id": "E15",
+   "uid": "log-forwarder.log:34",
+   "ts": "2026-01-30T09:17:44Z",
+   "severity": "WARN",
+   "component": "log-forwarder",
+   "source": "log-forwarder.log",
+   "line_no": 34,
+   "message": "deprecated parameter 'page' used by client",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 47,
+   "suspicious": false
+  },
+  {
+   "id": "E16",
+   "uid": "user-api.log:37",
+   "ts": "2026-01-30T09:17:45Z",
+   "severity": "WARN",
+   "component": "user-api",
+   "source": "user-api.log",
+   "line_no": 37,
+   "message": "deprecated parameter 'page' used by client",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 45,
+   "suspicious": false
+  },
+  {
+   "id": "E17",
+   "uid": "search-index.log:43",
+   "ts": "2026-01-30T09:18:32Z",
+   "severity": "WARN",
+   "component": "search-index",
+   "source": "search-index.log",
+   "line_no": 43,
+   "message": "deprecated parameter 'page' used by client",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 45,
+   "suspicious": false
+  },
+  {
+   "id": "E18",
+   "uid": "blob-db.log:44",
+   "ts": "2026-01-30T09:18:48Z",
+   "severity": "WARN",
+   "component": "blob-db",
+   "source": "blob-db.log",
+   "line_no": 44,
+   "message": "deprecated parameter 'page' used by client",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 45,
+   "suspicious": false
+  }
+ ],
+ "tool_calls": [],
+ "metrics": {
+  "evidence_token_budget": 900,
+  "unique_evidence_tokens": 884,
+  "unique_evidence_items": 18,
+  "repeated_exposures": 1,
+  "repeated_exposure_tokens": 60,
+  "llm_calls": 1,
+  "prompt_tokens_total": 1251,
+  "output_tokens_total": 430,
+  "llm_seconds": 430.887,
+  "wall_seconds": 431.133,
+  "steps": 1,
+  "tool_calls": 0,
+  "blocked_tool_calls": 0,
+  "gate_rounds": 0,
+  "parse_failures": 0,
+  "normalised_fields": 0,
+  "cpu_seconds": 1190.970000000001,
+  "mean_cpu_percent": 276.2954032474031,
+  "peak_rss_mb": 9097.920512,
+  "peak_uss_mb": 9094.115328,
+  "peak_pss_mb": 9094.182912,
+  "host_used_peak_mb": 27626.807296,
+  "host_total_mb": 33436.11904
+ }
+}

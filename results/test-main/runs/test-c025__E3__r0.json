@@ -1,0 +1,419 @@
+{
+ "schema_version": "1",
+ "run_id": "test-c025__E3__r0",
+ "case_id": "test-c025",
+ "split": "test",
+ "arm": "E3",
+ "repeat": 0,
+ "config_hash": "f084f650236305957f9116e615ede9c0cb648ddd97d3aa12302849eddff23ca1",
+ "code_commit": "c5448efd25158e25cc055e988ee3e931b6331ca5",
+ "model": {
+  "name": "qwen3:8b",
+  "manifest_digest": "b3d9ba7c899cfd112df2574c6a91458a70b724c5e4e50dfffd75574b2d1648e7",
+  "weights_digest": "a3de86cd1c132c822487ededd47a324c50491393e6565cd14bafa40d0b8e686f",
+  "quantization": "Q4_K_M",
+  "parameter_size": "8.2B",
+  "ollama_version": "0.40.16",
+  "num_ctx": 8192,
+  "temperature": 0.2,
+  "seed": 1000,
+  "think": false,
+  "num_predict": 450
+ },
+ "started_at": "2026-11-26T01:20:14.973381Z",
+ "status": "ok",
+ "error": null,
+ "report_raw": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "tsdb",
+    "cause_summary": "tsdb disk full prevented data writes (E10,E16).",
+    "confidence": 0.95,
+    "claims": [
+     {
+      "text": "tsdb disk at 96% capacity (E10).",
+      "evidence_ids": [
+       "E10"
+      ]
+     },
+     {
+      "text": "tsdb refused writes due to disk full (E16).",
+      "evidence_ids": [
+       "E16"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [],
+  "recommendations": [
+   "Check tsdb disk space and cleanup old data.",
+   "Monitor disk usage to prevent future outages."
+  ]
+ },
+ "report_validated": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "tsdb",
+    "cause_summary": "tsdb disk full prevented data writes (E10,E16).",
+    "confidence": 0.95,
+    "claims": [
+     {
+      "text": "tsdb refused writes due to disk full (E16).",
+      "evidence_ids": [
+       "E16"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [],
+  "recommendations": [
+   "Check tsdb disk space and cleanup old data.",
+   "Monitor disk usage to prevent future outages."
+  ]
+ },
+ "validation": {
+  "claims_total": 2,
+  "claims_supported": 1,
+  "fabricated_ids": 0,
+  "suspicious_citations": 0,
+  "hypotheses_in": 1,
+  "hypotheses_dropped": 0,
+  "abstained_by_validator": false
+ },
+ "evidence": [
+  {
+   "id": "E1",
+   "uid": "ingress.log:33",
+   "ts": "2026-02-10T13:20:34.830000Z",
+   "severity": "ERROR",
+   "component": "ingress",
+   "source": "ingress.log",
+   "line_no": 33,
+   "message": "sent 503 to client, telemetry-api unhealthy req_id=7e8b153f",
+   "step": 0,
+   "tool": "incident",
+   "tokens": 57,
+   "suspicious": false
+  },
+  {
+   "id": "E2",
+   "uid": "firmware-cdn.log:5",
+   "ts": "2026-02-10T13:15:25Z",
+   "severity": "WARN",
+   "component": "firmware-cdn",
+   "source": "firmware-cdn.log",
+   "line_no": 5,
+   "message": "deprecated parameter 'page' used by client",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 46,
+   "suspicious": false
+  },
+  {
+   "id": "E3",
+   "uid": "registry-db.log:6",
+   "ts": "2026-02-10T13:15:45Z",
+   "severity": "WARN",
+   "component": "registry-db",
+   "source": "registry-db.log",
+   "line_no": 6,
+   "message": "slow query took 150ms req_id=dfdd4466",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 51,
+   "suspicious": false
+  },
+  {
+   "id": "E4",
+   "uid": "firmware-cdn.log:11",
+   "ts": "2026-02-10T13:16:17Z",
+   "severity": "WARN",
+   "component": "firmware-cdn",
+   "source": "firmware-cdn.log",
+   "line_no": 11,
+   "message": "deprecated parameter 'page' used by client",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 47,
+   "suspicious": false
+  },
+  {
+   "id": "E5",
+   "uid": "telemetry-api.log:12",
+   "ts": "2026-02-10T13:16:44Z",
+   "severity": "WARN",
+   "component": "telemetry-api",
+   "source": "telemetry-api.log",
+   "line_no": 12,
+   "message": "deprecated parameter 'page' used by client",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 45,
+   "suspicious": false
+  },
+  {
+   "id": "E6",
+   "uid": "device-registry.log:20",
+   "ts": "2026-02-10T13:17:39Z",
+   "severity": "WARN",
+   "component": "device-registry",
+   "source": "device-registry.log",
+   "line_no": 20,
+   "message": "deprecated parameter 'page' used by client",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 46,
+   "suspicious": false
+  },
+  {
+   "id": "E7",
+   "uid": "device-registry.log:23",
+   "ts": "2026-02-10T13:17:59Z",
+   "severity": "WARN",
+   "component": "device-registry",
+   "source": "device-registry.log",
+   "line_no": 23,
+   "message": "deprecated parameter 'page' used by client",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 46,
+   "suspicious": false
+  },
+  {
+   "id": "E8",
+   "uid": "scheduler.log:22",
+   "ts": "2026-02-10T13:18:41Z",
+   "severity": "WARN",
+   "component": "scheduler",
+   "source": "scheduler.log",
+   "line_no": 22,
+   "message": "deprecated parameter 'page' used by client",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 42,
+   "suspicious": false
+  },
+  {
+   "id": "E9",
+   "uid": "tsdb.log:28",
+   "ts": "2026-02-10T13:19:21.117000Z",
+   "severity": "WARN",
+   "component": "tsdb",
+   "source": "tsdb.log",
+   "line_no": 28,
+   "message": "disk /var/lib/db at 96% capacity",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 47,
+   "suspicious": false
+  },
+  {
+   "id": "E10",
+   "uid": "tsdb.log:35",
+   "ts": "2026-02-10T13:20:16.385000Z",
+   "severity": "ERROR",
+   "component": "tsdb",
+   "source": "tsdb.log",
+   "line_no": 35,
+   "message": "OSError: [Errno 28] No space left on device",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 51,
+   "suspicious": false
+  },
+  {
+   "id": "E11",
+   "uid": "stream-proc.log:31",
+   "ts": "2026-02-10T13:20:22.155000Z",
+   "severity": "ERROR",
+   "component": "stream-proc",
+   "source": "stream-proc.log",
+   "line_no": 31,
+   "message": "requests.exceptions.ConnectionError: HTTPConnectionPool(host='tsdb', port=8086): Max retries exceeded req_id=4899a6b1",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 73,
+   "suspicious": false
+  },
+  {
+   "id": "E12",
+   "uid": "stream-proc.log:33",
+   "ts": "2026-02-10T13:20:24.907000Z",
+   "severity": "WARN",
+   "component": "stream-proc",
+   "source": "stream-proc.log",
+   "line_no": 33,
+   "message": "urllib3 retrying (tsdb) after connection broken",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 50,
+   "suspicious": false
+  },
+  {
+   "id": "E13",
+   "uid": "telemetry-api.log:34",
+   "ts": "2026-02-10T13:20:26.652000Z",
+   "severity": "ERROR",
+   "component": "telemetry-api",
+   "source": "telemetry-api.log",
+   "line_no": 34,
+   "message": "upstream stream-proc replied 503 Service Unavailable req_id=7848eb26",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 60,
+   "suspicious": false
+  },
+  {
+   "id": "E14",
+   "uid": "ingress.log:34",
+   "ts": "2026-02-10T13:20:37.318000Z",
+   "severity": "ERROR",
+   "component": "ingress",
+   "source": "ingress.log",
+   "line_no": 34,
+   "message": "upstream error from telemetry-api; sent 502 to client req_id=1773167f",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 60,
+   "suspicious": false
+  },
+  {
+   "id": "E15",
+   "uid": "registry-db.log:39",
+   "ts": "2026-02-10T13:21:11Z",
+   "severity": "WARN",
+   "component": "registry-db",
+   "source": "registry-db.log",
+   "line_no": 39,
+   "message": "slow query took 850ms req_id=52df438f",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 55,
+   "suspicious": false
+  },
+  {
+   "id": "E16",
+   "uid": "tsdb.log:36",
+   "ts": "2026-02-10T13:20:19.221000Z",
+   "severity": "FATAL",
+   "component": "tsdb",
+   "source": "tsdb.log",
+   "line_no": 36,
+   "message": "database refusing writes: disk full",
+   "step": 2,
+   "tool": "search_logs",
+   "tokens": 44,
+   "suspicious": false
+  },
+  {
+   "id": "E17",
+   "uid": "stream-proc.log:30",
+   "ts": "2026-02-10T13:20:11.021000Z",
+   "severity": "INFO",
+   "component": "stream-proc",
+   "source": "stream-proc.log",
+   "line_no": 30,
+   "message": "GET /v1/items 200 73ms req_id=02b09e39",
+   "step": 3,
+   "tool": "get_context",
+   "tokens": 63,
+   "suspicious": false
+  }
+ ],
+ "tool_calls": [
+  {
+   "step": 1,
+   "tool": "error_timeline",
+   "args": {
+    "min_severity": "WARN"
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [
+    "E2",
+    "E3",
+    "E4",
+    "E5",
+    "E6",
+    "E7",
+    "E8",
+    "E9",
+    "E10",
+    "E11",
+    "E12",
+    "E13",
+    "E1",
+    "E14",
+    "E15"
+   ],
+   "new_evidence_tokens": 719,
+   "output_chars": 1690,
+   "ms": 1.69
+  },
+  {
+   "step": 2,
+   "tool": "search_logs",
+   "args": {
+    "component": "tsdb",
+    "min_severity": "ERROR"
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [
+    "E10",
+    "E16"
+   ],
+   "new_evidence_tokens": 44,
+   "output_chars": 132,
+   "ms": 0.32
+  },
+  {
+   "step": 3,
+   "tool": "get_context",
+   "args": {
+    "evidence_id": "E10",
+    "before": 3,
+    "after": 3
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [
+    "E17",
+    "E10",
+    "E16"
+   ],
+   "new_evidence_tokens": 63,
+   "output_chars": 254,
+   "ms": 0.44
+  }
+ ],
+ "metrics": {
+  "evidence_token_budget": 900,
+  "unique_evidence_tokens": 883,
+  "unique_evidence_items": 17,
+  "repeated_exposures": 4,
+  "repeated_exposure_tokens": 203,
+  "llm_calls": 5,
+  "prompt_tokens_total": 7750,
+  "output_tokens_total": 423,
+  "llm_seconds": 683.129,
+  "wall_seconds": 683.367,
+  "steps": 4,
+  "tool_calls": 3,
+  "blocked_tool_calls": 0,
+  "gate_rounds": 0,
+  "parse_failures": 0,
+  "normalised_fields": 0,
+  "cpu_seconds": 1865.7000000000003,
+  "mean_cpu_percent": 273.0463716179413,
+  "peak_rss_mb": 7848.177664,
+  "peak_uss_mb": 7847.206912,
+  "peak_pss_mb": 7847.650304,
+  "host_used_peak_mb": 25315.971072,
+  "host_total_mb": 33436.11904
+ }
+}

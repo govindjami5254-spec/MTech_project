@@ -1,0 +1,390 @@
+{
+ "schema_version": "1",
+ "run_id": "test-c010__A2__r0",
+ "case_id": "test-c010",
+ "split": "test",
+ "arm": "A2",
+ "repeat": 0,
+ "config_hash": "f084f650236305957f9116e615ede9c0cb648ddd97d3aa12302849eddff23ca1",
+ "code_commit": "c5448efd25158e25cc055e988ee3e931b6331ca5",
+ "model": {
+  "name": "qwen3:8b",
+  "manifest_digest": "b3d9ba7c899cfd112df2574c6a91458a70b724c5e4e50dfffd75574b2d1648e7",
+  "weights_digest": "a3de86cd1c132c822487ededd47a324c50491393e6565cd14bafa40d0b8e686f",
+  "quantization": "Q4_K_M",
+  "parameter_size": "8.2B",
+  "ollama_version": "0.40.16",
+  "num_ctx": 8192,
+  "temperature": 0.2,
+  "seed": 1000,
+  "think": false,
+  "num_predict": 450
+ },
+ "started_at": "2026-11-25T18:11:47.608301Z",
+ "status": "ok",
+ "error": null,
+ "report_raw": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "device-registry",
+    "cause_summary": "device-registry failed memory allocation (E10).",
+    "confidence": 0.95,
+    "claims": [
+     {
+      "text": "device-registry memory allocation failed (E10).",
+      "evidence_ids": [
+       "E10"
+      ]
+     },
+     {
+      "text": "device-registry used 99% cgroup memory (E9).",
+      "evidence_ids": [
+       "E9"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [],
+  "recommendations": [
+   "Check device-registry memory usage and allocation logs."
+  ]
+ },
+ "report_validated": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "device-registry",
+    "cause_summary": "device-registry failed memory allocation (E10).",
+    "confidence": 0.95,
+    "claims": [
+     {
+      "text": "device-registry memory allocation failed (E10).",
+      "evidence_ids": [
+       "E10"
+      ]
+     },
+     {
+      "text": "device-registry used 99% cgroup memory (E9).",
+      "evidence_ids": [
+       "E9"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [],
+  "recommendations": [
+   "Check device-registry memory usage and allocation logs."
+  ]
+ },
+ "validation": {
+  "claims_total": 2,
+  "claims_supported": 2,
+  "fabricated_ids": 0,
+  "suspicious_citations": 0,
+  "hypotheses_in": 1,
+  "hypotheses_dropped": 0,
+  "abstained_by_validator": false
+ },
+ "evidence": [
+  {
+   "id": "E1",
+   "uid": "ingress.log:36",
+   "ts": "2026-01-28T09:40:03Z",
+   "severity": "ERROR",
+   "component": "ingress",
+   "source": "ingress.log",
+   "line_no": 36,
+   "message": "bad gateway: telemetry-api failed span=ba51e66c status=502",
+   "step": 0,
+   "tool": "incident",
+   "tokens": 55,
+   "suspicious": false
+  },
+  {
+   "id": "E2",
+   "uid": "firmware-cdn.log:2",
+   "ts": "2026-01-28T09:34:40Z",
+   "severity": "WARN",
+   "component": "firmware-cdn",
+   "source": "firmware-cdn.log",
+   "line_no": 2,
+   "message": "report generation behind schedule by 0s",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 46,
+   "suspicious": false
+  },
+  {
+   "id": "E3",
+   "uid": "firmware-cdn.log:4",
+   "ts": "2026-01-28T09:34:43Z",
+   "severity": "WARN",
+   "component": "firmware-cdn",
+   "source": "firmware-cdn.log",
+   "line_no": 4,
+   "message": "report generation behind schedule by 0s",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 46,
+   "suspicious": false
+  },
+  {
+   "id": "E4",
+   "uid": "scheduler.log:4",
+   "ts": "2026-01-28T09:34:53Z",
+   "severity": "WARN",
+   "component": "scheduler",
+   "source": "scheduler.log",
+   "line_no": 4,
+   "message": "report generation behind schedule by 0s",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 41,
+   "suspicious": false
+  },
+  {
+   "id": "E5",
+   "uid": "scheduler.log:5",
+   "ts": "2026-01-28T09:34:55Z",
+   "severity": "WARN",
+   "component": "scheduler",
+   "source": "scheduler.log",
+   "line_no": 5,
+   "message": "fx rate feed stale by 80ms",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 42,
+   "suspicious": false
+  },
+  {
+   "id": "E6",
+   "uid": "tsdb.log:6",
+   "ts": "2026-01-28T09:35:14Z",
+   "severity": "WARN",
+   "component": "tsdb",
+   "source": "tsdb.log",
+   "line_no": 6,
+   "message": "slow poll elapsed_ms=840",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 43,
+   "suspicious": false
+  },
+  {
+   "id": "E7",
+   "uid": "stream-proc.log:8",
+   "ts": "2026-01-28T09:35:28Z",
+   "severity": "WARN",
+   "component": "stream-proc",
+   "source": "stream-proc.log",
+   "line_no": 8,
+   "message": "slow poll elapsed_ms=820",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 45,
+   "suspicious": false
+  },
+  {
+   "id": "E8",
+   "uid": "tsdb.log:21",
+   "ts": "2026-01-28T09:37:29Z",
+   "severity": "WARN",
+   "component": "tsdb",
+   "source": "tsdb.log",
+   "line_no": 21,
+   "message": "client sent oversized header, truncated span=b71108e7",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 51,
+   "suspicious": false
+  },
+  {
+   "id": "E9",
+   "uid": "device-registry.log:32",
+   "ts": "2026-01-28T09:39:19Z",
+   "severity": "WARN",
+   "component": "device-registry",
+   "source": "device-registry.log",
+   "line_no": 32,
+   "message": "allocator resident 99% of cgroup limit",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 48,
+   "suspicious": false
+  },
+  {
+   "id": "E10",
+   "uid": "device-registry.log:37",
+   "ts": "2026-01-28T09:39:54Z",
+   "severity": "ERROR",
+   "component": "device-registry",
+   "source": "device-registry.log",
+   "line_no": 37,
+   "message": "memory allocation of 1073741824 bytes failed",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 55,
+   "suspicious": false
+  },
+  {
+   "id": "E11",
+   "uid": "telemetry-api.log:36",
+   "ts": "2026-01-28T09:40:00Z",
+   "severity": "ERROR",
+   "component": "telemetry-api",
+   "source": "telemetry-api.log",
+   "line_no": 36,
+   "message": "hyper::Error(Connect, ConnectError(\"tcp connect error\", Os { code: 111 })) to device-registry:4002 span=01874727",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 79,
+   "suspicious": false
+  },
+  {
+   "id": "E12",
+   "uid": "telemetry-api.log:37",
+   "ts": "2026-01-28T09:40:02Z",
+   "severity": "WARN",
+   "component": "telemetry-api",
+   "source": "telemetry-api.log",
+   "line_no": 37,
+   "message": "tower retry: attempt 2 for device-registry",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 48,
+   "suspicious": false
+  },
+  {
+   "id": "E13",
+   "uid": "ingress.log:38",
+   "ts": "2026-01-28T09:40:04Z",
+   "severity": "ERROR",
+   "component": "ingress",
+   "source": "ingress.log",
+   "line_no": 38,
+   "message": "service unavailable: telemetry-api span=54df903e status=503",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 55,
+   "suspicious": false
+  },
+  {
+   "id": "E14",
+   "uid": "telemetry-api.log:39",
+   "ts": "2026-01-28T09:40:05Z",
+   "severity": "ERROR",
+   "component": "telemetry-api",
+   "source": "telemetry-api.log",
+   "line_no": 39,
+   "message": "request to device-registry exhausted retry budget",
+   "step": 2,
+   "tool": "search_logs",
+   "tokens": 46,
+   "suspicious": false
+  },
+  {
+   "id": "E15",
+   "uid": "telemetry-api.log:40",
+   "ts": "2026-01-28T09:40:06Z",
+   "severity": "ERROR",
+   "component": "telemetry-api",
+   "source": "telemetry-api.log",
+   "line_no": 40,
+   "message": "hyper::Error(Connect, ConnectError(\"tcp connect error\", Os { code: 111 })) to device-registry:4002 span=120affbc",
+   "step": 2,
+   "tool": "search_logs",
+   "tokens": 76,
+   "suspicious": false
+  },
+  {
+   "id": "E16",
+   "uid": "telemetry-api.log:41",
+   "ts": "2026-01-28T09:40:08Z",
+   "severity": "ERROR",
+   "component": "telemetry-api",
+   "source": "telemetry-api.log",
+   "line_no": 41,
+   "message": "hyper::Error(Connect, ConnectError(\"tcp connect error\", Os { code: 111 })) to device-registry:4002 span=7b59f84b",
+   "step": 2,
+   "tool": "search_logs",
+   "tokens": 79,
+   "suspicious": false
+  }
+ ],
+ "tool_calls": [
+  {
+   "step": 1,
+   "tool": "error_timeline",
+   "args": {
+    "min_severity": "WARN"
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [
+    "E2",
+    "E3",
+    "E4",
+    "E5",
+    "E6",
+    "E7",
+    "E8",
+    "E9",
+    "E10",
+    "E11",
+    "E12",
+    "E1",
+    "E13"
+   ],
+   "new_evidence_tokens": 599,
+   "output_chars": 1386,
+   "ms": 0.96
+  },
+  {
+   "step": 2,
+   "tool": "search_logs",
+   "args": {
+    "component": "telemetry-api",
+    "min_severity": "ERROR"
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [
+    "E11",
+    "E14",
+    "E15",
+    "E16"
+   ],
+   "new_evidence_tokens": 201,
+   "output_chars": 594,
+   "ms": 0.24
+  }
+ ],
+ "metrics": {
+  "evidence_token_budget": 900,
+  "unique_evidence_tokens": 855,
+  "unique_evidence_items": 16,
+  "repeated_exposures": 2,
+  "repeated_exposure_tokens": 134,
+  "llm_calls": 4,
+  "prompt_tokens_total": 5711,
+  "output_tokens_total": 369,
+  "llm_seconds": 375.748,
+  "wall_seconds": 376.132,
+  "steps": 3,
+  "tool_calls": 2,
+  "blocked_tool_calls": 0,
+  "gate_rounds": 0,
+  "parse_failures": 0,
+  "normalised_fields": 0,
+  "cpu_seconds": 1062.6799999999964,
+  "mean_cpu_percent": 282.58911342209365,
+  "peak_rss_mb": 11927.01952,
+  "peak_uss_mb": 11926.245376,
+  "peak_pss_mb": 11926.306816,
+  "host_used_peak_mb": 30350.409728,
+  "host_total_mb": 33436.11904
+ }
+}

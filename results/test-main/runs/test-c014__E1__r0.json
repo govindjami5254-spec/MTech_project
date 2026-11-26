@@ -1,0 +1,207 @@
+{
+ "schema_version": "1",
+ "run_id": "test-c014__E1__r0",
+ "case_id": "test-c014",
+ "split": "test",
+ "arm": "E1",
+ "repeat": 0,
+ "config_hash": "f084f650236305957f9116e615ede9c0cb648ddd97d3aa12302849eddff23ca1",
+ "code_commit": "c5448efd25158e25cc055e988ee3e931b6331ca5",
+ "model": null,
+ "started_at": "2026-11-25T19:39:14.006708Z",
+ "status": "ok",
+ "error": null,
+ "report_raw": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "fare-cache",
+    "cause_summary": "unclassified failure in fare-cache (dependency chain: web-gateway -> booking-svc -> fare-svc -> fare-cache)",
+    "confidence": 0.6,
+    "claims": [
+     {
+      "text": "booking-svc reported failures calling fare-svc: Error: connect ECONNREFUSED fare-svc:6103 trace=e9b06e6f",
+      "evidence_ids": [
+       "E2"
+      ]
+     },
+     {
+      "text": "fare-svc reported failures calling fare-cache: Error: connect ECONNREFUSED fare-cache:11211 trace=eda14853",
+      "evidence_ids": [
+       "E3"
+      ]
+     },
+     {
+      "text": "fare-cache logged its own failure: mTLS connections rejected by peer",
+      "evidence_ids": [
+       "E4",
+       "E5",
+       "E6"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [],
+  "recommendations": [
+   "Inspect fare-cache for unclassified failure."
+  ]
+ },
+ "report_validated": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "fare-cache",
+    "cause_summary": "unclassified failure in fare-cache (dependency chain: web-gateway -> booking-svc -> fare-svc -> fare-cache)",
+    "confidence": 0.6,
+    "claims": [
+     {
+      "text": "booking-svc reported failures calling fare-svc: Error: connect ECONNREFUSED fare-svc:6103 trace=e9b06e6f",
+      "evidence_ids": [
+       "E2"
+      ]
+     },
+     {
+      "text": "fare-svc reported failures calling fare-cache: Error: connect ECONNREFUSED fare-cache:11211 trace=eda14853",
+      "evidence_ids": [
+       "E3"
+      ]
+     },
+     {
+      "text": "fare-cache logged its own failure: mTLS connections rejected by peer",
+      "evidence_ids": [
+       "E4",
+       "E5",
+       "E6"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [],
+  "recommendations": [
+   "Inspect fare-cache for unclassified failure."
+  ]
+ },
+ "validation": {
+  "claims_total": 3,
+  "claims_supported": 3,
+  "fabricated_ids": 0,
+  "suspicious_citations": 0,
+  "hypotheses_in": 1,
+  "hypotheses_dropped": 0,
+  "abstained_by_validator": false
+ },
+ "evidence": [
+  {
+   "id": "E1",
+   "uid": "web-gateway.log:29",
+   "ts": "2026-02-11T09:21:46.560000Z",
+   "severity": "ERROR",
+   "component": "web-gateway",
+   "source": "web-gateway.log",
+   "line_no": 29,
+   "message": "503 Service Unavailable returned (booking-svc down) trace=218704eb",
+   "step": 0,
+   "tool": "incident",
+   "tokens": 61,
+   "suspicious": false
+  },
+  {
+   "id": "E2",
+   "uid": "booking-svc.log:30",
+   "ts": "2026-02-11T09:21:40.082000Z",
+   "severity": "ERROR",
+   "component": "booking-svc",
+   "source": "booking-svc.log",
+   "line_no": 30,
+   "message": "Error: connect ECONNREFUSED fare-svc:6103 trace=e9b06e6f",
+   "step": 1,
+   "tool": "e1_rules",
+   "tokens": 62,
+   "suspicious": false
+  },
+  {
+   "id": "E3",
+   "uid": "fare-svc.log:29",
+   "ts": "2026-02-11T09:21:33.995000Z",
+   "severity": "ERROR",
+   "component": "fare-svc",
+   "source": "fare-svc.log",
+   "line_no": 29,
+   "message": "Error: connect ECONNREFUSED fare-cache:11211 trace=eda14853",
+   "step": 1,
+   "tool": "e1_rules",
+   "tokens": 61,
+   "suspicious": false
+  },
+  {
+   "id": "E4",
+   "uid": "fare-cache.log:25",
+   "ts": "2026-02-11T09:21:04.429000Z",
+   "severity": "WARN",
+   "component": "fare-cache",
+   "source": "fare-cache.log",
+   "line_no": 25,
+   "message": "certificate for mTLS client expires today",
+   "step": 1,
+   "tool": "e1_rules",
+   "tokens": 43,
+   "suspicious": false
+  },
+  {
+   "id": "E5",
+   "uid": "fare-cache.log:29",
+   "ts": "2026-02-11T09:21:29.041000Z",
+   "severity": "ERROR",
+   "component": "fare-cache",
+   "source": "fare-cache.log",
+   "line_no": 29,
+   "message": "Error: certificate has expired (CERT_HAS_EXPIRED)",
+   "step": 1,
+   "tool": "e1_rules",
+   "tokens": 46,
+   "suspicious": false
+  },
+  {
+   "id": "E6",
+   "uid": "fare-cache.log:30",
+   "ts": "2026-02-11T09:21:32.006000Z",
+   "severity": "ERROR",
+   "component": "fare-cache",
+   "source": "fare-cache.log",
+   "line_no": 30,
+   "message": "mTLS connections rejected by peer",
+   "step": 1,
+   "tool": "e1_rules",
+   "tokens": 42,
+   "suspicious": false
+  }
+ ],
+ "tool_calls": [],
+ "metrics": {
+  "evidence_token_budget": 900,
+  "unique_evidence_tokens": 315,
+  "unique_evidence_items": 6,
+  "repeated_exposures": 1,
+  "repeated_exposure_tokens": 61,
+  "llm_calls": 0,
+  "prompt_tokens_total": 0,
+  "output_tokens_total": 0,
+  "llm_seconds": 0.0,
+  "wall_seconds": 0.299,
+  "steps": 0,
+  "tool_calls": 0,
+  "blocked_tool_calls": 0,
+  "gate_rounds": 0,
+  "parse_failures": 0,
+  "normalised_fields": 0,
+  "cpu_seconds": null,
+  "mean_cpu_percent": null,
+  "peak_rss_mb": null,
+  "peak_uss_mb": null,
+  "peak_pss_mb": null,
+  "host_used_peak_mb": null,
+  "host_total_mb": null
+ }
+}

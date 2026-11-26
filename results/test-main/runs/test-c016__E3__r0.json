@@ -1,0 +1,408 @@
+{
+ "schema_version": "1",
+ "run_id": "test-c016__E3__r0",
+ "case_id": "test-c016",
+ "split": "test",
+ "arm": "E3",
+ "repeat": 0,
+ "config_hash": "f084f650236305957f9116e615ede9c0cb648ddd97d3aa12302849eddff23ca1",
+ "code_commit": "c5448efd25158e25cc055e988ee3e931b6331ca5",
+ "model": {
+  "name": "qwen3:8b",
+  "manifest_digest": "b3d9ba7c899cfd112df2574c6a91458a70b724c5e4e50dfffd75574b2d1648e7",
+  "weights_digest": "a3de86cd1c132c822487ededd47a324c50491393e6565cd14bafa40d0b8e686f",
+  "quantization": "Q4_K_M",
+  "parameter_size": "8.2B",
+  "ollama_version": "0.40.16",
+  "num_ctx": 8192,
+  "temperature": 0.2,
+  "seed": 1000,
+  "think": false,
+  "num_predict": 450
+ },
+ "started_at": "2026-11-25T20:23:41.670414Z",
+ "status": "ok",
+ "error": null,
+ "report_raw": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "risk-db",
+    "cause_summary": "MemoryError in risk-db caused 503 errors to risk-engine (E17)},{",
+    "confidence": 0.95,
+    "claims": [
+     {
+      "text": "risk-db had MemoryError (E17)",
+      "evidence_ids": [
+       "E17"
+      ]
+     },
+     {
+      "text": "risk-db caused 503 to risk-engine (E9)",
+      "evidence_ids": [
+       "E9"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [],
+  "recommendations": [
+   "Check risk-db memory usage and container limits.",
+   "Investigate slow queries in risk-db (E5, E8)."
+  ]
+ },
+ "report_validated": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "risk-db",
+    "cause_summary": "MemoryError in risk-db caused 503 errors to risk-engine (E17)},{",
+    "confidence": 0.95,
+    "claims": [
+     {
+      "text": "risk-db had MemoryError (E17)",
+      "evidence_ids": [
+       "E17"
+      ]
+     },
+     {
+      "text": "risk-db caused 503 to risk-engine (E9)",
+      "evidence_ids": [
+       "E9"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [],
+  "recommendations": [
+   "Check risk-db memory usage and container limits.",
+   "Investigate slow queries in risk-db (E5, E8)."
+  ]
+ },
+ "validation": {
+  "claims_total": 2,
+  "claims_supported": 2,
+  "fabricated_ids": 0,
+  "suspicious_citations": 0,
+  "hypotheses_in": 1,
+  "hypotheses_dropped": 0,
+  "abstained_by_validator": false
+ },
+ "evidence": [
+  {
+   "id": "E1",
+   "uid": "front-door.log:31",
+   "ts": "2026-01-16T09:18:45.924000Z",
+   "severity": "ERROR",
+   "component": "front-door",
+   "source": "front-door.log",
+   "line_no": 31,
+   "message": "upstream error from payments-api; sent 502 to client req_id=6613b063",
+   "step": 0,
+   "tool": "incident",
+   "tokens": 60,
+   "suspicious": false
+  },
+  {
+   "id": "E2",
+   "uid": "fx-feed.log:2",
+   "ts": "2026-01-16T09:13:42Z",
+   "severity": "WARN",
+   "component": "fx-feed",
+   "source": "fx-feed.log",
+   "line_no": 2,
+   "message": "deprecated parameter 'page' used by client",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 43,
+   "suspicious": false
+  },
+  {
+   "id": "E3",
+   "uid": "core-db.log:7",
+   "ts": "2026-01-16T09:14:40Z",
+   "severity": "WARN",
+   "component": "core-db",
+   "source": "core-db.log",
+   "line_no": 7,
+   "message": "slow query took 690ms req_id=f55dbfc6",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 51,
+   "suspicious": false
+  },
+  {
+   "id": "E4",
+   "uid": "otp-svc.log:13",
+   "ts": "2026-01-16T09:15:29Z",
+   "severity": "WARN",
+   "component": "otp-svc",
+   "source": "otp-svc.log",
+   "line_no": 13,
+   "message": "deprecated parameter 'page' used by client",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 46,
+   "suspicious": false
+  },
+  {
+   "id": "E5",
+   "uid": "risk-db.log:12",
+   "ts": "2026-01-16T09:15:39Z",
+   "severity": "WARN",
+   "component": "risk-db",
+   "source": "risk-db.log",
+   "line_no": 12,
+   "message": "slow query took 450ms req_id=7cff74f0",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 53,
+   "suspicious": false
+  },
+  {
+   "id": "E6",
+   "uid": "otp-svc.log:15",
+   "ts": "2026-01-16T09:15:41Z",
+   "severity": "WARN",
+   "component": "otp-svc",
+   "source": "otp-svc.log",
+   "line_no": 15,
+   "message": "slow query took 780ms req_id=f5831b33",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 56,
+   "suspicious": false
+  },
+  {
+   "id": "E7",
+   "uid": "fx-feed.log:21",
+   "ts": "2026-01-16T09:16:44Z",
+   "severity": "WARN",
+   "component": "fx-feed",
+   "source": "fx-feed.log",
+   "line_no": 21,
+   "message": "slow query took 200ms req_id=770870a8",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 55,
+   "suspicious": false
+  },
+  {
+   "id": "E8",
+   "uid": "risk-db.log:22",
+   "ts": "2026-01-16T09:17:16Z",
+   "severity": "WARN",
+   "component": "risk-db",
+   "source": "risk-db.log",
+   "line_no": 22,
+   "message": "slow query took 260ms req_id=07e197f4",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 55,
+   "suspicious": false
+  },
+  {
+   "id": "E9",
+   "uid": "risk-engine.log:30",
+   "ts": "2026-01-16T09:18:33.866000Z",
+   "severity": "ERROR",
+   "component": "risk-engine",
+   "source": "risk-engine.log",
+   "line_no": 30,
+   "message": "upstream risk-db replied 503 Service Unavailable req_id=31d8a156",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 58,
+   "suspicious": false
+  },
+  {
+   "id": "E10",
+   "uid": "risk-engine.log:31",
+   "ts": "2026-01-16T09:18:35.384000Z",
+   "severity": "WARN",
+   "component": "risk-engine",
+   "source": "risk-engine.log",
+   "line_no": 31,
+   "message": "urllib3 retrying (risk-db) after connection broken",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 48,
+   "suspicious": false
+  },
+  {
+   "id": "E11",
+   "uid": "payments-api.log:32",
+   "ts": "2026-01-16T09:18:38.759000Z",
+   "severity": "ERROR",
+   "component": "payments-api",
+   "source": "payments-api.log",
+   "line_no": 32,
+   "message": "upstream risk-engine replied 503 Service Unavailable req_id=91a3633f",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 59,
+   "suspicious": false
+  },
+  {
+   "id": "E12",
+   "uid": "payments-api.log:33",
+   "ts": "2026-01-16T09:18:40.844000Z",
+   "severity": "WARN",
+   "component": "payments-api",
+   "source": "payments-api.log",
+   "line_no": 33,
+   "message": "urllib3 retrying (risk-engine) after connection broken",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 48,
+   "suspicious": false
+  },
+  {
+   "id": "E13",
+   "uid": "ledger-core.log:30",
+   "ts": "2026-01-16T09:18:47Z",
+   "severity": "WARN",
+   "component": "ledger-core",
+   "source": "ledger-core.log",
+   "line_no": 30,
+   "message": "slow query took 790ms req_id=9cc38080",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 55,
+   "suspicious": false
+  },
+  {
+   "id": "E14",
+   "uid": "front-door.log:32",
+   "ts": "2026-01-16T09:18:48.384000Z",
+   "severity": "ERROR",
+   "component": "front-door",
+   "source": "front-door.log",
+   "line_no": 32,
+   "message": "sent 503 to client, payments-api unhealthy req_id=343e2504",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 59,
+   "suspicious": false
+  },
+  {
+   "id": "E15",
+   "uid": "ledger-core.log:36",
+   "ts": "2026-01-16T09:19:42Z",
+   "severity": "WARN",
+   "component": "ledger-core",
+   "source": "ledger-core.log",
+   "line_no": 36,
+   "message": "slow query took 780ms req_id=23e819d5",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 56,
+   "suspicious": false
+  },
+  {
+   "id": "E16",
+   "uid": "risk-db.log:26",
+   "ts": "2026-01-16T09:17:47.015000Z",
+   "severity": "WARN",
+   "component": "risk-db",
+   "source": "risk-db.log",
+   "line_no": 26,
+   "message": "RSS 96% of container memory limit",
+   "step": 2,
+   "tool": "search_logs",
+   "tokens": 46,
+   "suspicious": false
+  },
+  {
+   "id": "E17",
+   "uid": "risk-db.log:31",
+   "ts": "2026-01-16T09:18:27.779000Z",
+   "severity": "ERROR",
+   "component": "risk-db",
+   "source": "risk-db.log",
+   "line_no": 31,
+   "message": "MemoryError while building response payload",
+   "step": 2,
+   "tool": "search_logs",
+   "tokens": 43,
+   "suspicious": false
+  }
+ ],
+ "tool_calls": [
+  {
+   "step": 1,
+   "tool": "error_timeline",
+   "args": {
+    "min_severity": "WARN"
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [
+    "E2",
+    "E3",
+    "E4",
+    "E5",
+    "E6",
+    "E7",
+    "E8",
+    "E9",
+    "E10",
+    "E11",
+    "E12",
+    "E1",
+    "E13",
+    "E14",
+    "E15"
+   ],
+   "new_evidence_tokens": 742,
+   "output_chars": 1582,
+   "ms": 44.89
+  },
+  {
+   "step": 2,
+   "tool": "search_logs",
+   "args": {
+    "component": "risk-db",
+    "min_severity": "WARN"
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [
+    "E5",
+    "E8",
+    "E16",
+    "E17"
+   ],
+   "new_evidence_tokens": 89,
+   "output_chars": 321,
+   "ms": 0.54
+  }
+ ],
+ "metrics": {
+  "evidence_token_budget": 900,
+  "unique_evidence_tokens": 891,
+  "unique_evidence_items": 17,
+  "repeated_exposures": 3,
+  "repeated_exposure_tokens": 168,
+  "llm_calls": 4,
+  "prompt_tokens_total": 5991,
+  "output_tokens_total": 410,
+  "llm_seconds": 668.405,
+  "wall_seconds": 668.734,
+  "steps": 3,
+  "tool_calls": 2,
+  "blocked_tool_calls": 0,
+  "gate_rounds": 0,
+  "parse_failures": 0,
+  "normalised_fields": 0,
+  "cpu_seconds": 1794.7899999999995,
+  "mean_cpu_percent": 268.41805533471154,
+  "peak_rss_mb": 15125.843968,
+  "peak_uss_mb": 15125.676032000001,
+  "peak_pss_mb": 15125.728255999999,
+  "host_used_peak_mb": 33257.443328,
+  "host_total_mb": 33436.11904
+ }
+}

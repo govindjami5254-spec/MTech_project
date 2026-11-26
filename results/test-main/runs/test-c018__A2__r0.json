@@ -1,0 +1,439 @@
+{
+ "schema_version": "1",
+ "run_id": "test-c018__A2__r0",
+ "case_id": "test-c018",
+ "split": "test",
+ "arm": "A2",
+ "repeat": 0,
+ "config_hash": "f084f650236305957f9116e615ede9c0cb648ddd97d3aa12302849eddff23ca1",
+ "code_commit": "c5448efd25158e25cc055e988ee3e931b6331ca5",
+ "model": {
+  "name": "qwen3:8b",
+  "manifest_digest": "b3d9ba7c899cfd112df2574c6a91458a70b724c5e4e50dfffd75574b2d1648e7",
+  "weights_digest": "a3de86cd1c132c822487ededd47a324c50491393e6565cd14bafa40d0b8e686f",
+  "quantization": "Q4_K_M",
+  "parameter_size": "8.2B",
+  "ollama_version": "0.40.16",
+  "num_ctx": 8192,
+  "temperature": 0.2,
+  "seed": 1000,
+  "think": false,
+  "num_predict": 450
+ },
+ "started_at": "2026-11-25T21:21:33.527195Z",
+ "status": "ok",
+ "error": null,
+ "report_raw": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "ledger-core",
+    "cause_summary": "Database connection pool exhausted (E10)",
+    "confidence": 0.95,
+    "claims": [
+     {
+      "text": "ledger-core had timeout error due to connection pool exhaustion (E10)",
+      "evidence_ids": [
+       "E10"
+      ]
+     },
+     {
+      "text": "ledger-core dropping requests due to database pool exhaustion (E18)",
+      "evidence_ids": [
+       "E18"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [],
+  "recommendations": [
+   "Check ledger-core database connection pool configuration.",
+   "Monitor database connection usage in real-time."
+  ]
+ },
+ "report_validated": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "ledger-core",
+    "cause_summary": "Database connection pool exhausted (E10)",
+    "confidence": 0.95,
+    "claims": [
+     {
+      "text": "ledger-core had timeout error due to connection pool exhaustion (E10)",
+      "evidence_ids": [
+       "E10"
+      ]
+     },
+     {
+      "text": "ledger-core dropping requests due to database pool exhaustion (E18)",
+      "evidence_ids": [
+       "E18"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [],
+  "recommendations": [
+   "Check ledger-core database connection pool configuration.",
+   "Monitor database connection usage in real-time."
+  ]
+ },
+ "validation": {
+  "claims_total": 2,
+  "claims_supported": 2,
+  "fabricated_ids": 0,
+  "suspicious_citations": 0,
+  "hypotheses_in": 1,
+  "hypotheses_dropped": 0,
+  "abstained_by_validator": false
+ },
+ "evidence": [
+  {
+   "id": "E1",
+   "uid": "front-door.log:35",
+   "ts": "2026-02-07T10:23:31.650000Z",
+   "severity": "ERROR",
+   "component": "front-door",
+   "source": "front-door.log",
+   "line_no": 35,
+   "message": "503 Service Unavailable returned (payments-api down) trace=500eff16",
+   "step": 0,
+   "tool": "incident",
+   "tokens": 57,
+   "suspicious": false
+  },
+  {
+   "id": "E2",
+   "uid": "report-batch.log:3",
+   "ts": "2026-02-07T10:18:34Z",
+   "severity": "WARN",
+   "component": "report-batch",
+   "source": "report-batch.log",
+   "line_no": 3,
+   "message": "unhandled header x-legacy ignored trace=f55accfe",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 50,
+   "suspicious": false
+  },
+  {
+   "id": "E3",
+   "uid": "risk-engine.log:16",
+   "ts": "2026-02-07T10:20:29Z",
+   "severity": "WARN",
+   "component": "risk-engine",
+   "source": "risk-engine.log",
+   "line_no": 16,
+   "message": "unhandled header x-legacy ignored trace=c8fb791d",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 51,
+   "suspicious": false
+  },
+  {
+   "id": "E4",
+   "uid": "core-db.log:16",
+   "ts": "2026-02-07T10:20:31Z",
+   "severity": "WARN",
+   "component": "core-db",
+   "source": "core-db.log",
+   "line_no": 16,
+   "message": "event loop lag 460ms",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 44,
+   "suspicious": false
+  },
+  {
+   "id": "E5",
+   "uid": "report-batch.log:15",
+   "ts": "2026-02-07T10:20:33.422000Z",
+   "severity": "ERROR",
+   "component": "report-batch",
+   "source": "report-batch.log",
+   "line_no": 15,
+   "message": "push notification provider returned 429 Too Many Requests",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 49,
+   "suspicious": false
+  },
+  {
+   "id": "E6",
+   "uid": "otp-svc.log:17",
+   "ts": "2026-02-07T10:20:45Z",
+   "severity": "WARN",
+   "component": "otp-svc",
+   "source": "otp-svc.log",
+   "line_no": 17,
+   "message": "event loop lag 260ms",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 46,
+   "suspicious": false
+  },
+  {
+   "id": "E7",
+   "uid": "core-db.log:19",
+   "ts": "2026-02-07T10:20:47Z",
+   "severity": "WARN",
+   "component": "core-db",
+   "source": "core-db.log",
+   "line_no": 19,
+   "message": "event loop lag 650ms",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 44,
+   "suspicious": false
+  },
+  {
+   "id": "E8",
+   "uid": "otp-svc.log:24",
+   "ts": "2026-02-07T10:21:41.947000Z",
+   "severity": "ERROR",
+   "component": "otp-svc",
+   "source": "otp-svc.log",
+   "line_no": 24,
+   "message": "failed to rotate access logs: EACCES",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 47,
+   "suspicious": false
+  },
+  {
+   "id": "E9",
+   "uid": "ledger-core.log:28",
+   "ts": "2026-02-07T10:22:51.048000Z",
+   "severity": "WARN",
+   "component": "ledger-core",
+   "source": "ledger-core.log",
+   "line_no": 28,
+   "message": "pg pool waiting clients 103",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 44,
+   "suspicious": false
+  },
+  {
+   "id": "E10",
+   "uid": "ledger-core.log:32",
+   "ts": "2026-02-07T10:23:21.784000Z",
+   "severity": "ERROR",
+   "component": "ledger-core",
+   "source": "ledger-core.log",
+   "line_no": 32,
+   "message": "Error: timeout exceeded when trying to connect (pool exhausted)",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 48,
+   "suspicious": false
+  },
+  {
+   "id": "E11",
+   "uid": "payments-api.log:32",
+   "ts": "2026-02-07T10:23:26.513000Z",
+   "severity": "ERROR",
+   "component": "payments-api",
+   "source": "payments-api.log",
+   "line_no": 32,
+   "message": "FetchError: request to http://ledger-core:8446 failed, reason: socket hang up trace=5a5391e8",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 68,
+   "suspicious": false
+  },
+  {
+   "id": "E12",
+   "uid": "payments-api.log:34",
+   "ts": "2026-02-07T10:23:28.153000Z",
+   "severity": "WARN",
+   "component": "payments-api",
+   "source": "payments-api.log",
+   "line_no": 34,
+   "message": "retry 2/3 for ledger-core scheduled in 500ms",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 52,
+   "suspicious": false
+  },
+  {
+   "id": "E13",
+   "uid": "front-door.log:37",
+   "ts": "2026-02-07T10:23:34.884000Z",
+   "severity": "ERROR",
+   "component": "front-door",
+   "source": "front-door.log",
+   "line_no": 37,
+   "message": "503 Service Unavailable returned (payments-api down) trace=3701ddfa",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 58,
+   "suspicious": false
+  },
+  {
+   "id": "E14",
+   "uid": "fx-feed.log:37",
+   "ts": "2026-02-07T10:23:49Z",
+   "severity": "WARN",
+   "component": "fx-feed",
+   "source": "fx-feed.log",
+   "line_no": 37,
+   "message": "event loop lag 680ms",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 45,
+   "suspicious": false
+  },
+  {
+   "id": "E15",
+   "uid": "payments-api.log:36",
+   "ts": "2026-02-07T10:23:31.580000Z",
+   "severity": "ERROR",
+   "component": "payments-api",
+   "source": "payments-api.log",
+   "line_no": 36,
+   "message": "circuit open for ledger-core after repeated failures",
+   "step": 2,
+   "tool": "search_logs",
+   "tokens": 45,
+   "suspicious": false
+  },
+  {
+   "id": "E16",
+   "uid": "risk-engine.log:35",
+   "ts": "2026-02-07T10:23:24.743000Z",
+   "severity": "INFO",
+   "component": "risk-engine",
+   "source": "risk-engine.log",
+   "line_no": 35,
+   "message": "served GET /api status=200 in 61ms trace=ea37e6f6",
+   "step": 3,
+   "tool": "get_context",
+   "tokens": 60,
+   "suspicious": false
+  },
+  {
+   "id": "E17",
+   "uid": "ledger-core.log:33",
+   "ts": "2026-02-07T10:23:24.801000Z",
+   "severity": "INFO",
+   "component": "ledger-core",
+   "source": "ledger-core.log",
+   "line_no": 33,
+   "message": "event loop lag 53ms ok",
+   "step": 3,
+   "tool": "get_context",
+   "tokens": 45,
+   "suspicious": false
+  },
+  {
+   "id": "E18",
+   "uid": "ledger-core.log:34",
+   "ts": "2026-02-07T10:23:26.194000Z",
+   "severity": "ERROR",
+   "component": "ledger-core",
+   "source": "ledger-core.log",
+   "line_no": 34,
+   "message": "dropping requests: database pool exhausted",
+   "step": 3,
+   "tool": "get_context",
+   "tokens": 43,
+   "suspicious": false
+  }
+ ],
+ "tool_calls": [
+  {
+   "step": 1,
+   "tool": "error_timeline",
+   "args": {
+    "min_severity": "WARN"
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [
+    "E2",
+    "E3",
+    "E4",
+    "E5",
+    "E6",
+    "E7",
+    "E8",
+    "E9",
+    "E10",
+    "E11",
+    "E12",
+    "E1",
+    "E13",
+    "E14"
+   ],
+   "new_evidence_tokens": 646,
+   "output_chars": 1464,
+   "ms": 0.55
+  },
+  {
+   "step": 2,
+   "tool": "search_logs",
+   "args": {
+    "component": "payments-api",
+    "min_severity": "ERROR"
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [
+    "E11",
+    "E15"
+   ],
+   "new_evidence_tokens": 45,
+   "output_chars": 165,
+   "ms": 15.54
+  },
+  {
+   "step": 3,
+   "tool": "get_context",
+   "args": {
+    "evidence_id": "E11",
+    "before": 3,
+    "after": 3
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [
+    "E16",
+    "E17",
+    "E18",
+    "E11"
+   ],
+   "new_evidence_tokens": 148,
+   "output_chars": 440,
+   "ms": 0.18
+  }
+ ],
+ "metrics": {
+  "evidence_token_budget": 900,
+  "unique_evidence_tokens": 896,
+  "unique_evidence_items": 18,
+  "repeated_exposures": 3,
+  "repeated_exposure_tokens": 193,
+  "llm_calls": 5,
+  "prompt_tokens_total": 7626,
+  "output_tokens_total": 399,
+  "llm_seconds": 539.293,
+  "wall_seconds": 539.613,
+  "steps": 4,
+  "tool_calls": 3,
+  "blocked_tool_calls": 0,
+  "gate_rounds": 0,
+  "parse_failures": 0,
+  "normalised_fields": 0,
+  "cpu_seconds": 1474.549999999997,
+  "mean_cpu_percent": 273.30232486757905,
+  "peak_rss_mb": 15273.664512,
+  "peak_uss_mb": 15283.417088,
+  "peak_pss_mb": 15283.448832,
+  "host_used_peak_mb": 32903.626752,
+  "host_total_mb": 33436.11904
+ }
+}

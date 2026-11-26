@@ -1,0 +1,429 @@
+{
+ "schema_version": "1",
+ "run_id": "test-c020__E3__r0",
+ "case_id": "test-c020",
+ "split": "test",
+ "arm": "E3",
+ "repeat": 0,
+ "config_hash": "f084f650236305957f9116e615ede9c0cb648ddd97d3aa12302849eddff23ca1",
+ "code_commit": "c5448efd25158e25cc055e988ee3e931b6331ca5",
+ "model": {
+  "name": "qwen3:8b",
+  "manifest_digest": "b3d9ba7c899cfd112df2574c6a91458a70b724c5e4e50dfffd75574b2d1648e7",
+  "weights_digest": "a3de86cd1c132c822487ededd47a324c50491393e6565cd14bafa40d0b8e686f",
+  "quantization": "Q4_K_M",
+  "parameter_size": "8.2B",
+  "ollama_version": "0.40.16",
+  "num_ctx": 8192,
+  "temperature": 0.2,
+  "seed": 1000,
+  "think": false,
+  "num_predict": 450
+ },
+ "started_at": "2026-11-25T22:15:16.856438Z",
+ "status": "ok",
+ "error": null,
+ "report_raw": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "asset-store",
+    "cause_summary": "asset-store failed to respond to catalog-api connections",
+    "confidence": 0.9,
+    "claims": [
+     {
+      "text": "catalog-api failed to connect to asset-store",
+      "evidence_ids": [
+       "E12"
+      ]
+     },
+     {
+      "text": "catalog-api opened circuit breaker for asset-store",
+      "evidence_ids": [
+       "E16"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [
+   "asset-store failure cause not determined"
+  ],
+  "recommendations": [
+   "Check asset-store logs for disk usage or crashes",
+   "Verify asset-store service status and network connectivity"
+  ]
+ },
+ "report_validated": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "asset-store",
+    "cause_summary": "asset-store failed to respond to catalog-api connections",
+    "confidence": 0.9,
+    "claims": [
+     {
+      "text": "catalog-api failed to connect to asset-store",
+      "evidence_ids": [
+       "E12"
+      ]
+     },
+     {
+      "text": "catalog-api opened circuit breaker for asset-store",
+      "evidence_ids": [
+       "E16"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [
+   "asset-store failure cause not determined"
+  ],
+  "recommendations": [
+   "Check asset-store logs for disk usage or crashes",
+   "Verify asset-store service status and network connectivity"
+  ]
+ },
+ "validation": {
+  "claims_total": 2,
+  "claims_supported": 2,
+  "fabricated_ids": 0,
+  "suspicious_citations": 0,
+  "hypotheses_in": 1,
+  "hypotheses_dropped": 0,
+  "abstained_by_validator": false
+ },
+ "evidence": [
+  {
+   "id": "E1",
+   "uid": "edge-proxy.log:33",
+   "ts": "2026-02-10T12:36:28.336000Z",
+   "severity": "ERROR",
+   "component": "edge-proxy",
+   "source": "edge-proxy.log",
+   "line_no": 33,
+   "message": "proxy error contacting catalog-api; responded 502 trace=2f6e76be",
+   "step": 0,
+   "tool": "incident",
+   "tokens": 56,
+   "suspicious": false
+  },
+  {
+   "id": "E2",
+   "uid": "user-api.log:2",
+   "ts": "2026-02-10T12:31:30Z",
+   "severity": "WARN",
+   "component": "user-api",
+   "source": "user-api.log",
+   "line_no": 2,
+   "message": "event loop lag 590ms",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 43,
+   "suspicious": false
+  },
+  {
+   "id": "E3",
+   "uid": "catalog-api.log:7",
+   "ts": "2026-02-10T12:32:12Z",
+   "severity": "WARN",
+   "component": "catalog-api",
+   "source": "catalog-api.log",
+   "line_no": 7,
+   "message": "unhandled header x-legacy ignored trace=5dd6ce45",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 50,
+   "suspicious": false
+  },
+  {
+   "id": "E4",
+   "uid": "asset-store.log:9",
+   "ts": "2026-02-10T12:32:38Z",
+   "severity": "WARN",
+   "component": "asset-store",
+   "source": "asset-store.log",
+   "line_no": 9,
+   "message": "unhandled header x-legacy ignored trace=1478e6f7",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 52,
+   "suspicious": false
+  },
+  {
+   "id": "E5",
+   "uid": "search-index.log:21",
+   "ts": "2026-02-10T12:34:36Z",
+   "severity": "WARN",
+   "component": "search-index",
+   "source": "search-index.log",
+   "line_no": 21,
+   "message": "event loop lag 260ms",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 44,
+   "suspicious": false
+  },
+  {
+   "id": "E6",
+   "uid": "asset-store.log:26",
+   "ts": "2026-02-10T12:34:56Z",
+   "severity": "WARN",
+   "component": "asset-store",
+   "source": "asset-store.log",
+   "line_no": 26,
+   "message": "event loop lag 860ms",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 44,
+   "suspicious": false
+  },
+  {
+   "id": "E7",
+   "uid": "log-forwarder.log:25",
+   "ts": "2026-02-10T12:35:14Z",
+   "severity": "WARN",
+   "component": "log-forwarder",
+   "source": "log-forwarder.log",
+   "line_no": 25,
+   "message": "unhandled header x-legacy ignored trace=2f91126e",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 55,
+   "suspicious": false
+  },
+  {
+   "id": "E8",
+   "uid": "blob-db.log:27",
+   "ts": "2026-02-10T12:35:19Z",
+   "severity": "WARN",
+   "component": "blob-db",
+   "source": "blob-db.log",
+   "line_no": 27,
+   "message": "event loop lag 360ms",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 44,
+   "suspicious": false
+  },
+  {
+   "id": "E9",
+   "uid": "profile-db.log:26",
+   "ts": "2026-02-10T12:35:20Z",
+   "severity": "WARN",
+   "component": "profile-db",
+   "source": "profile-db.log",
+   "line_no": 26,
+   "message": "unhandled header x-legacy ignored trace=5e64444e",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 53,
+   "suspicious": false
+  },
+  {
+   "id": "E10",
+   "uid": "blob-db.log:28",
+   "ts": "2026-02-10T12:35:26.215000Z",
+   "severity": "WARN",
+   "component": "blob-db",
+   "source": "blob-db.log",
+   "line_no": 28,
+   "message": "volume /data usage 96%",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 44,
+   "suspicious": false
+  },
+  {
+   "id": "E11",
+   "uid": "thumbnailer.log:27",
+   "ts": "2026-02-10T12:35:30Z",
+   "severity": "WARN",
+   "component": "thumbnailer",
+   "source": "thumbnailer.log",
+   "line_no": 27,
+   "message": "unhandled header x-legacy ignored trace=abe9b6ad",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 51,
+   "suspicious": false
+  },
+  {
+   "id": "E12",
+   "uid": "catalog-api.log:35",
+   "ts": "2026-02-10T12:36:25.360000Z",
+   "severity": "ERROR",
+   "component": "catalog-api",
+   "source": "catalog-api.log",
+   "line_no": 35,
+   "message": "Error: connect ECONNREFUSED asset-store:7003 trace=9c08cc0b",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 60,
+   "suspicious": false
+  },
+  {
+   "id": "E13",
+   "uid": "edge-proxy.log:35",
+   "ts": "2026-02-10T12:36:31.834000Z",
+   "severity": "ERROR",
+   "component": "edge-proxy",
+   "source": "edge-proxy.log",
+   "line_no": 35,
+   "message": "503 Service Unavailable returned (catalog-api down) trace=d0d2e4bd",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 58,
+   "suspicious": false
+  },
+  {
+   "id": "E14",
+   "uid": "search-index.log:35",
+   "ts": "2026-02-10T12:36:53Z",
+   "severity": "WARN",
+   "component": "search-index",
+   "source": "search-index.log",
+   "line_no": 35,
+   "message": "unhandled header x-legacy ignored trace=4401a9ae",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 53,
+   "suspicious": false
+  },
+  {
+   "id": "E15",
+   "uid": "catalog-api.log:36",
+   "ts": "2026-02-10T12:36:27.248000Z",
+   "severity": "WARN",
+   "component": "catalog-api",
+   "source": "catalog-api.log",
+   "line_no": 36,
+   "message": "retry 2/3 for asset-store scheduled in 500ms",
+   "step": 2,
+   "tool": "search_logs",
+   "tokens": 52,
+   "suspicious": false
+  },
+  {
+   "id": "E16",
+   "uid": "catalog-api.log:37",
+   "ts": "2026-02-10T12:36:30.510000Z",
+   "severity": "ERROR",
+   "component": "catalog-api",
+   "source": "catalog-api.log",
+   "line_no": 37,
+   "message": "circuit open for asset-store after repeated failures",
+   "step": 2,
+   "tool": "search_logs",
+   "tokens": 45,
+   "suspicious": false
+  },
+  {
+   "id": "E17",
+   "uid": "catalog-api.log:50",
+   "ts": "2026-02-10T12:38:22Z",
+   "severity": "WARN",
+   "component": "catalog-api",
+   "source": "catalog-api.log",
+   "line_no": 50,
+   "message": "unhandled header x-legacy ignored trace=f7d7efca",
+   "step": 2,
+   "tool": "search_logs",
+   "tokens": 51,
+   "suspicious": false
+  }
+ ],
+ "tool_calls": [
+  {
+   "step": 1,
+   "tool": "error_timeline",
+   "args": {
+    "min_severity": "WARN"
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [
+    "E2",
+    "E3",
+    "E4",
+    "E5",
+    "E6",
+    "E7",
+    "E8",
+    "E9",
+    "E10",
+    "E11",
+    "E12",
+    "E1",
+    "E13",
+    "E14"
+   ],
+   "new_evidence_tokens": 651,
+   "output_chars": 1428,
+   "ms": 249.09
+  },
+  {
+   "step": 2,
+   "tool": "search_logs",
+   "args": {
+    "component": "catalog-api",
+    "min_severity": "WARN"
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [
+    "E3",
+    "E12",
+    "E15",
+    "E16",
+    "E17"
+   ],
+   "new_evidence_tokens": 148,
+   "output_chars": 408,
+   "ms": 51.91
+  },
+  {
+   "step": 3,
+   "tool": "search_logs",
+   "args": {
+    "component": "asset-store",
+    "min_severity": "WARN"
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [
+    "E4",
+    "E6"
+   ],
+   "new_evidence_tokens": 0,
+   "output_chars": 128,
+   "ms": 0.31
+  }
+ ],
+ "metrics": {
+  "evidence_token_budget": 900,
+  "unique_evidence_tokens": 855,
+  "unique_evidence_items": 17,
+  "repeated_exposures": 5,
+  "repeated_exposure_tokens": 262,
+  "llm_calls": 5,
+  "prompt_tokens_total": 7683,
+  "output_tokens_total": 407,
+  "llm_seconds": 596.21,
+  "wall_seconds": 596.78,
+  "steps": 4,
+  "tool_calls": 3,
+  "blocked_tool_calls": 0,
+  "gate_rounds": 0,
+  "parse_failures": 0,
+  "normalised_fields": 0,
+  "cpu_seconds": 1647.8199999999931,
+  "mean_cpu_percent": 276.15727821204445,
+  "peak_rss_mb": 15312.621567999999,
+  "peak_uss_mb": 15321.731072,
+  "peak_pss_mb": 15321.778176,
+  "host_used_peak_mb": 33112.600576,
+  "host_total_mb": 33436.11904
+ }
+}

@@ -1,0 +1,167 @@
+{
+ "schema_version": "1",
+ "run_id": "test-c017__E1__r0",
+ "case_id": "test-c017",
+ "split": "test",
+ "arm": "E1",
+ "repeat": 0,
+ "config_hash": "f084f650236305957f9116e615ede9c0cb648ddd97d3aa12302849eddff23ca1",
+ "code_commit": "c5448efd25158e25cc055e988ee3e931b6331ca5",
+ "model": null,
+ "started_at": "2026-11-25T20:42:12.378608Z",
+ "status": "ok",
+ "error": null,
+ "report_raw": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "otp-svc",
+    "cause_summary": "unclassified failure in otp-svc (dependency chain: front-door -> otp-svc)",
+    "confidence": 0.6,
+    "claims": [
+     {
+      "text": "front-door reported failures calling otp-svc: bad gateway: otp-svc failed span=f50cae57 status=502",
+      "evidence_ids": [
+       "E1"
+      ]
+     },
+     {
+      "text": "otp-svc logged its own failure: invalid peer certificate: Expired",
+      "evidence_ids": [
+       "E2",
+       "E3",
+       "E4"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [],
+  "recommendations": [
+   "Inspect otp-svc for unclassified failure."
+  ]
+ },
+ "report_validated": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "otp-svc",
+    "cause_summary": "unclassified failure in otp-svc (dependency chain: front-door -> otp-svc)",
+    "confidence": 0.6,
+    "claims": [
+     {
+      "text": "front-door reported failures calling otp-svc: bad gateway: otp-svc failed span=f50cae57 status=502",
+      "evidence_ids": [
+       "E1"
+      ]
+     },
+     {
+      "text": "otp-svc logged its own failure: invalid peer certificate: Expired",
+      "evidence_ids": [
+       "E2",
+       "E3",
+       "E4"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [],
+  "recommendations": [
+   "Inspect otp-svc for unclassified failure."
+  ]
+ },
+ "validation": {
+  "claims_total": 2,
+  "claims_supported": 2,
+  "fabricated_ids": 0,
+  "suspicious_citations": 0,
+  "hypotheses_in": 1,
+  "hypotheses_dropped": 0,
+  "abstained_by_validator": false
+ },
+ "evidence": [
+  {
+   "id": "E1",
+   "uid": "front-door.log:36",
+   "ts": "2026-01-24T13:16:01Z",
+   "severity": "ERROR",
+   "component": "front-door",
+   "source": "front-door.log",
+   "line_no": 36,
+   "message": "bad gateway: otp-svc failed span=f50cae57 status=502",
+   "step": 0,
+   "tool": "incident",
+   "tokens": 55,
+   "suspicious": false
+  },
+  {
+   "id": "E2",
+   "uid": "otp-svc.log:12",
+   "ts": "2026-01-24T13:12:34Z",
+   "severity": "WARN",
+   "component": "otp-svc",
+   "source": "otp-svc.log",
+   "line_no": 12,
+   "message": "slow poll elapsed_ms=130",
+   "step": 1,
+   "tool": "e1_rules",
+   "tokens": 46,
+   "suspicious": false
+  },
+  {
+   "id": "E3",
+   "uid": "otp-svc.log:32",
+   "ts": "2026-01-24T13:15:33Z",
+   "severity": "WARN",
+   "component": "otp-svc",
+   "source": "otp-svc.log",
+   "line_no": 32,
+   "message": "rustls: certificate notAfter is today",
+   "step": 1,
+   "tool": "e1_rules",
+   "tokens": 46,
+   "suspicious": false
+  },
+  {
+   "id": "E4",
+   "uid": "otp-svc.log:34",
+   "ts": "2026-01-24T13:15:55Z",
+   "severity": "ERROR",
+   "component": "otp-svc",
+   "source": "otp-svc.log",
+   "line_no": 34,
+   "message": "invalid peer certificate: Expired",
+   "step": 1,
+   "tool": "e1_rules",
+   "tokens": 44,
+   "suspicious": false
+  }
+ ],
+ "tool_calls": [],
+ "metrics": {
+  "evidence_token_budget": 900,
+  "unique_evidence_tokens": 191,
+  "unique_evidence_items": 4,
+  "repeated_exposures": 1,
+  "repeated_exposure_tokens": 55,
+  "llm_calls": 0,
+  "prompt_tokens_total": 0,
+  "output_tokens_total": 0,
+  "llm_seconds": 0.0,
+  "wall_seconds": 0.372,
+  "steps": 0,
+  "tool_calls": 0,
+  "blocked_tool_calls": 0,
+  "gate_rounds": 0,
+  "parse_failures": 0,
+  "normalised_fields": 0,
+  "cpu_seconds": null,
+  "mean_cpu_percent": null,
+  "peak_rss_mb": null,
+  "peak_uss_mb": null,
+  "peak_pss_mb": null,
+  "host_used_peak_mb": null,
+  "host_total_mb": null
+ }
+}

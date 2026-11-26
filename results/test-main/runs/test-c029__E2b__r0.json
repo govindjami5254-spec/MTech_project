@@ -1,0 +1,359 @@
+{
+ "schema_version": "1",
+ "run_id": "test-c029__E2b__r0",
+ "case_id": "test-c029",
+ "split": "test",
+ "arm": "E2b",
+ "repeat": 0,
+ "config_hash": "f084f650236305957f9116e615ede9c0cb648ddd97d3aa12302849eddff23ca1",
+ "code_commit": "c5448efd25158e25cc055e988ee3e931b6331ca5",
+ "model": {
+  "name": "qwen3:8b",
+  "manifest_digest": "b3d9ba7c899cfd112df2574c6a91458a70b724c5e4e50dfffd75574b2d1648e7",
+  "weights_digest": "a3de86cd1c132c822487ededd47a324c50491393e6565cd14bafa40d0b8e686f",
+  "quantization": "Q4_K_M",
+  "parameter_size": "8.2B",
+  "ollama_version": "0.40.16",
+  "num_ctx": 8192,
+  "temperature": 0.2,
+  "seed": 1000,
+  "think": false,
+  "num_predict": 450
+ },
+ "started_at": "2026-11-26T02:54:56.726867Z",
+ "status": "ok",
+ "error": null,
+ "report_raw": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "seat-svc",
+    "cause_summary": "seat-svc unreachable causing booking-svc timeout (E2,E3,E11).",
+    "confidence": 0.9,
+    "claims": [
+     {
+      "text": "booking-svc timed out waiting for seat-svc response (E2).",
+      "evidence_ids": [
+       "E2"
+      ]
+     },
+     {
+      "text": "booking-svc retries failed to reach seat-svc (E11).",
+      "evidence_ids": [
+       "E11"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [],
+  "recommendations": [
+   "Check seat-svc availability and connectivity.",
+   "Investigate booking-svc communication issues with seat-svc."
+  ]
+ },
+ "report_validated": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "seat-svc",
+    "cause_summary": "seat-svc unreachable causing booking-svc timeout (E2,E3,E11).",
+    "confidence": 0.9,
+    "claims": [
+     {
+      "text": "booking-svc timed out waiting for seat-svc response (E2).",
+      "evidence_ids": [
+       "E2"
+      ]
+     },
+     {
+      "text": "booking-svc retries failed to reach seat-svc (E11).",
+      "evidence_ids": [
+       "E11"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [],
+  "recommendations": [
+   "Check seat-svc availability and connectivity.",
+   "Investigate booking-svc communication issues with seat-svc."
+  ]
+ },
+ "validation": {
+  "claims_total": 2,
+  "claims_supported": 2,
+  "fabricated_ids": 0,
+  "suspicious_citations": 0,
+  "hypotheses_in": 1,
+  "hypotheses_dropped": 0,
+  "abstained_by_validator": false
+ },
+ "evidence": [
+  {
+   "id": "E1",
+   "uid": "web-gateway.log:32",
+   "ts": "2026-01-11T14:15:25.009000Z",
+   "severity": "ERROR",
+   "component": "web-gateway",
+   "source": "web-gateway.log",
+   "line_no": 32,
+   "message": "upstream error from booking-svc; sent 502 to client req_id=a512b1dc",
+   "step": 0,
+   "tool": "incident",
+   "tokens": 61,
+   "suspicious": false
+  },
+  {
+   "id": "E2",
+   "uid": "booking-svc.log:29",
+   "ts": "2026-01-11T14:15:19.957000Z",
+   "severity": "ERROR",
+   "component": "booking-svc",
+   "source": "booking-svc.log",
+   "line_no": 29,
+   "message": "ReadTimeout: seat-svc did not respond within 5.0s req_id=84e2b986",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 64,
+   "suspicious": false
+  },
+  {
+   "id": "E3",
+   "uid": "booking-svc.log:31",
+   "ts": "2026-01-11T14:15:24.460000Z",
+   "severity": "ERROR",
+   "component": "booking-svc",
+   "source": "booking-svc.log",
+   "line_no": 31,
+   "message": "aborting request: seat-svc unreachable after retries",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 48,
+   "suspicious": false
+  },
+  {
+   "id": "E4",
+   "uid": "web-gateway.log:40",
+   "ts": "2026-01-11T14:15:43.787000Z",
+   "severity": "ERROR",
+   "component": "web-gateway",
+   "source": "web-gateway.log",
+   "line_no": 40,
+   "message": "sent 503 to client, booking-svc unhealthy req_id=4c9427b3",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 61,
+   "suspicious": false
+  },
+  {
+   "id": "E5",
+   "uid": "seat-svc.log:14",
+   "ts": "2026-01-11T14:12:52Z",
+   "severity": "WARN",
+   "component": "seat-svc",
+   "source": "seat-svc.log",
+   "line_no": 14,
+   "message": "slow query took 140ms req_id=fc186098",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 56,
+   "suspicious": false
+  },
+  {
+   "id": "E6",
+   "uid": "seat-db.log:19",
+   "ts": "2026-01-11T14:13:37Z",
+   "severity": "WARN",
+   "component": "seat-db",
+   "source": "seat-db.log",
+   "line_no": 19,
+   "message": "deprecated parameter 'page' used by client",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 44,
+   "suspicious": false
+  },
+  {
+   "id": "E7",
+   "uid": "seat-svc.log:20",
+   "ts": "2026-01-11T14:13:37Z",
+   "severity": "WARN",
+   "component": "seat-svc",
+   "source": "seat-svc.log",
+   "line_no": 20,
+   "message": "deprecated parameter 'page' used by client",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 46,
+   "suspicious": false
+  },
+  {
+   "id": "E8",
+   "uid": "fare-svc.log:21",
+   "ts": "2026-01-11T14:13:39Z",
+   "severity": "WARN",
+   "component": "fare-svc",
+   "source": "fare-svc.log",
+   "line_no": 21,
+   "message": "slow query took 90ms req_id=2665d3f8",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 56,
+   "suspicious": false
+  },
+  {
+   "id": "E9",
+   "uid": "booking-svc.log:22",
+   "ts": "2026-01-11T14:14:23Z",
+   "severity": "WARN",
+   "component": "booking-svc",
+   "source": "booking-svc.log",
+   "line_no": 22,
+   "message": "slow query took 900ms req_id=037c7c05",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 57,
+   "suspicious": false
+  },
+  {
+   "id": "E10",
+   "uid": "batch-exporter.log:26",
+   "ts": "2026-01-11T14:14:27Z",
+   "severity": "WARN",
+   "component": "batch-exporter",
+   "source": "batch-exporter.log",
+   "line_no": 26,
+   "message": "slow query took 640ms req_id=b771dd0d",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 56,
+   "suspicious": false
+  },
+  {
+   "id": "E11",
+   "uid": "booking-svc.log:30",
+   "ts": "2026-01-11T14:15:21.245000Z",
+   "severity": "WARN",
+   "component": "booking-svc",
+   "source": "booking-svc.log",
+   "line_no": 30,
+   "message": "urllib3 retrying (seat-svc) after connection broken",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 51,
+   "suspicious": false
+  },
+  {
+   "id": "E12",
+   "uid": "batch-exporter.log:43",
+   "ts": "2026-01-11T14:17:02Z",
+   "severity": "WARN",
+   "component": "batch-exporter",
+   "source": "batch-exporter.log",
+   "line_no": 43,
+   "message": "deprecated parameter 'page' used by client",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 47,
+   "suspicious": false
+  },
+  {
+   "id": "E13",
+   "uid": "web-gateway.log:1",
+   "ts": "2026-01-11T14:10:34.709000Z",
+   "severity": "INFO",
+   "component": "web-gateway",
+   "source": "web-gateway.log",
+   "line_no": 1,
+   "message": "worker heartbeat ok (24ms)",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 45,
+   "suspicious": false
+  },
+  {
+   "id": "E14",
+   "uid": "fare-svc.log:1",
+   "ts": "2026-01-11T14:10:37.377000Z",
+   "severity": "INFO",
+   "component": "fare-svc",
+   "source": "fare-svc.log",
+   "line_no": 1,
+   "message": "GET /v1/items 200 45ms req_id=eab24599",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 60,
+   "suspicious": false
+  },
+  {
+   "id": "E15",
+   "uid": "batch-exporter.log:1",
+   "ts": "2026-01-11T14:10:39.756000Z",
+   "severity": "INFO",
+   "component": "batch-exporter",
+   "source": "batch-exporter.log",
+   "line_no": 1,
+   "message": "worker heartbeat ok (81ms)",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 45,
+   "suspicious": false
+  },
+  {
+   "id": "E16",
+   "uid": "booking-svc.log:1",
+   "ts": "2026-01-11T14:10:40.301000Z",
+   "severity": "INFO",
+   "component": "booking-svc",
+   "source": "booking-svc.log",
+   "line_no": 1,
+   "message": "worker heartbeat ok (95ms)",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 45,
+   "suspicious": false
+  },
+  {
+   "id": "E17",
+   "uid": "seat-svc.log:1",
+   "ts": "2026-01-11T14:10:40.349000Z",
+   "severity": "INFO",
+   "component": "seat-svc",
+   "source": "seat-svc.log",
+   "line_no": 1,
+   "message": "worker heartbeat ok (29ms)",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 45,
+   "suspicious": false
+  }
+ ],
+ "tool_calls": [],
+ "metrics": {
+  "evidence_token_budget": 900,
+  "unique_evidence_tokens": 887,
+  "unique_evidence_items": 17,
+  "repeated_exposures": 1,
+  "repeated_exposure_tokens": 61,
+  "llm_calls": 2,
+  "prompt_tokens_total": 2999,
+  "output_tokens_total": 584,
+  "llm_seconds": 547.6,
+  "wall_seconds": 547.849,
+  "steps": 1,
+  "tool_calls": 0,
+  "blocked_tool_calls": 0,
+  "gate_rounds": 0,
+  "parse_failures": 1,
+  "normalised_fields": 0,
+  "cpu_seconds": 1534.5400000000022,
+  "mean_cpu_percent": 280.1409173470806,
+  "peak_rss_mb": 9948.131328,
+  "peak_uss_mb": 9947.774976,
+  "peak_pss_mb": 9948.121088,
+  "host_used_peak_mb": 27486.748672,
+  "host_total_mb": 33436.11904
+ }
+}

@@ -1,0 +1,411 @@
+{
+ "schema_version": "1",
+ "run_id": "test-c008__A2__r0",
+ "case_id": "test-c008",
+ "split": "test",
+ "arm": "A2",
+ "repeat": 0,
+ "config_hash": "f084f650236305957f9116e615ede9c0cb648ddd97d3aa12302849eddff23ca1",
+ "code_commit": "c5448efd25158e25cc055e988ee3e931b6331ca5",
+ "model": {
+  "name": "qwen3:8b",
+  "manifest_digest": "b3d9ba7c899cfd112df2574c6a91458a70b724c5e4e50dfffd75574b2d1648e7",
+  "weights_digest": "a3de86cd1c132c822487ededd47a324c50491393e6565cd14bafa40d0b8e686f",
+  "quantization": "Q4_K_M",
+  "parameter_size": "8.2B",
+  "ollama_version": "0.40.16",
+  "num_ctx": 8192,
+  "temperature": 0.2,
+  "seed": 1000,
+  "think": false,
+  "num_predict": 450
+ },
+ "started_at": "2026-11-25T17:23:21.982248Z",
+ "status": "ok",
+ "error": null,
+ "report_raw": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "stream-proc",
+    "cause_summary": "Invalid configuration prevented stream-proc from starting (E8,E9).",
+    "confidence": 0.95,
+    "claims": [
+     {
+      "text": "stream-proc failed to start due to invalid 'poolSize' configuration (E8).",
+      "evidence_ids": [
+       "E8"
+      ]
+     },
+     {
+      "text": "stream-proc refused to start with invalid configuration (E9).",
+      "evidence_ids": [
+       "E9"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [],
+  "recommendations": [
+   "Check stream-proc configuration for valid 'poolSize' value.",
+   "Verify dependencies for stream-proc during startup."
+  ]
+ },
+ "report_validated": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "stream-proc",
+    "cause_summary": "Invalid configuration prevented stream-proc from starting (E8,E9).",
+    "confidence": 0.95,
+    "claims": [
+     {
+      "text": "stream-proc failed to start due to invalid 'poolSize' configuration (E8).",
+      "evidence_ids": [
+       "E8"
+      ]
+     },
+     {
+      "text": "stream-proc refused to start with invalid configuration (E9).",
+      "evidence_ids": [
+       "E9"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [],
+  "recommendations": [
+   "Check stream-proc configuration for valid 'poolSize' value.",
+   "Verify dependencies for stream-proc during startup."
+  ]
+ },
+ "validation": {
+  "claims_total": 2,
+  "claims_supported": 2,
+  "fabricated_ids": 0,
+  "suspicious_citations": 0,
+  "hypotheses_in": 1,
+  "hypotheses_dropped": 0,
+  "abstained_by_validator": false
+ },
+ "evidence": [
+  {
+   "id": "E1",
+   "uid": "ingress.log:32",
+   "ts": "2026-01-06T10:12:53.057000Z",
+   "severity": "ERROR",
+   "component": "ingress",
+   "source": "ingress.log",
+   "line_no": 32,
+   "message": "proxy error contacting telemetry-api; responded 502 trace=a7d42f14",
+   "step": 0,
+   "tool": "incident",
+   "tokens": 55,
+   "suspicious": false
+  },
+  {
+   "id": "E2",
+   "uid": "tsdb.log:11",
+   "ts": "2026-01-06T10:09:04Z",
+   "severity": "WARN",
+   "component": "tsdb",
+   "source": "tsdb.log",
+   "line_no": 11,
+   "message": "unhandled header x-legacy ignored trace=551afd0c",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 51,
+   "suspicious": false
+  },
+  {
+   "id": "E3",
+   "uid": "tsdb.log:15",
+   "ts": "2026-01-06T10:09:39Z",
+   "severity": "WARN",
+   "component": "tsdb",
+   "source": "tsdb.log",
+   "line_no": 15,
+   "message": "unhandled header x-legacy ignored trace=ccb396ac",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 50,
+   "suspicious": false
+  },
+  {
+   "id": "E4",
+   "uid": "scheduler.log:15",
+   "ts": "2026-01-06T10:10:09.289000Z",
+   "severity": "ERROR",
+   "component": "scheduler",
+   "source": "scheduler.log",
+   "line_no": 15,
+   "message": "failed to rotate access logs: EACCES",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 43,
+   "suspicious": false
+  },
+  {
+   "id": "E5",
+   "uid": "scheduler.log:17",
+   "ts": "2026-01-06T10:10:20.730000Z",
+   "severity": "ERROR",
+   "component": "scheduler",
+   "source": "scheduler.log",
+   "line_no": 17,
+   "message": "failed to rotate access logs: EACCES",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 43,
+   "suspicious": false
+  },
+  {
+   "id": "E6",
+   "uid": "firmware-cdn.log:18",
+   "ts": "2026-01-06T10:10:21.841000Z",
+   "severity": "WARN",
+   "component": "firmware-cdn",
+   "source": "firmware-cdn.log",
+   "line_no": 18,
+   "message": "feature flag service slow to respond, using cached flags",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 49,
+   "suspicious": false
+  },
+  {
+   "id": "E7",
+   "uid": "firmware-cdn.log:20",
+   "ts": "2026-01-06T10:10:32.774000Z",
+   "severity": "WARN",
+   "component": "firmware-cdn",
+   "source": "firmware-cdn.log",
+   "line_no": 20,
+   "message": "feature flag service slow to respond, using cached flags",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 49,
+   "suspicious": false
+  },
+  {
+   "id": "E8",
+   "uid": "stream-proc.log:36",
+   "ts": "2026-01-06T10:12:44.113000Z",
+   "severity": "ERROR",
+   "component": "stream-proc",
+   "source": "stream-proc.log",
+   "line_no": 36,
+   "message": "ConfigError: 'poolSize' must be a positive integer, got 'abc'",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 54,
+   "suspicious": false
+  },
+  {
+   "id": "E9",
+   "uid": "stream-proc.log:37",
+   "ts": "2026-01-06T10:12:46.791000Z",
+   "severity": "FATAL",
+   "component": "stream-proc",
+   "source": "stream-proc.log",
+   "line_no": 37,
+   "message": "refusing to start with invalid configuration",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 45,
+   "suspicious": false
+  },
+  {
+   "id": "E10",
+   "uid": "telemetry-api.log:32",
+   "ts": "2026-01-06T10:12:47.354000Z",
+   "severity": "ERROR",
+   "component": "telemetry-api",
+   "source": "telemetry-api.log",
+   "line_no": 32,
+   "message": "FetchError: request to http://stream-proc:4001 failed, reason: socket hang up trace=e664b179",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 69,
+   "suspicious": false
+  },
+  {
+   "id": "E11",
+   "uid": "telemetry-api.log:33",
+   "ts": "2026-01-06T10:12:49.924000Z",
+   "severity": "WARN",
+   "component": "telemetry-api",
+   "source": "telemetry-api.log",
+   "line_no": 33,
+   "message": "retry 2/3 for stream-proc scheduled in 500ms",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 54,
+   "suspicious": false
+  },
+  {
+   "id": "E12",
+   "uid": "ingress.log:33",
+   "ts": "2026-01-06T10:12:56.700000Z",
+   "severity": "ERROR",
+   "component": "ingress",
+   "source": "ingress.log",
+   "line_no": 33,
+   "message": "proxy error contacting telemetry-api; responded 502 trace=668fe811",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 56,
+   "suspicious": false
+  },
+  {
+   "id": "E13",
+   "uid": "registry-db.log:42",
+   "ts": "2026-01-06T10:14:08Z",
+   "severity": "WARN",
+   "component": "registry-db",
+   "source": "registry-db.log",
+   "line_no": 42,
+   "message": "unhandled header x-legacy ignored trace=36f94563",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 54,
+   "suspicious": false
+  },
+  {
+   "id": "E14",
+   "uid": "telemetry-api.log:34",
+   "ts": "2026-01-06T10:12:52.665000Z",
+   "severity": "ERROR",
+   "component": "telemetry-api",
+   "source": "telemetry-api.log",
+   "line_no": 34,
+   "message": "circuit open for stream-proc after repeated failures",
+   "step": 2,
+   "tool": "search_logs",
+   "tokens": 47,
+   "suspicious": false
+  },
+  {
+   "id": "E15",
+   "uid": "telemetry-api.log:31",
+   "ts": "2026-01-06T10:12:45.013000Z",
+   "severity": "INFO",
+   "component": "telemetry-api",
+   "source": "telemetry-api.log",
+   "line_no": 31,
+   "message": "served GET /api status=200 in 23ms trace=688c3499",
+   "step": 3,
+   "tool": "get_context",
+   "tokens": 62,
+   "suspicious": false
+  },
+  {
+   "id": "E16",
+   "uid": "device-registry.log:32",
+   "ts": "2026-01-06T10:12:45.242000Z",
+   "severity": "INFO",
+   "component": "device-registry",
+   "source": "device-registry.log",
+   "line_no": 32,
+   "message": "served GET /api status=200 in 52ms trace=ee36eab4",
+   "step": 3,
+   "tool": "get_context",
+   "tokens": 61,
+   "suspicious": false
+  }
+ ],
+ "tool_calls": [
+  {
+   "step": 1,
+   "tool": "error_timeline",
+   "args": {
+    "min_severity": "WARN"
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [
+    "E2",
+    "E3",
+    "E4",
+    "E5",
+    "E6",
+    "E7",
+    "E8",
+    "E9",
+    "E10",
+    "E11",
+    "E1",
+    "E12",
+    "E13"
+   ],
+   "new_evidence_tokens": 617,
+   "output_chars": 1475,
+   "ms": 0.52
+  },
+  {
+   "step": 2,
+   "tool": "search_logs",
+   "args": {
+    "component": "telemetry-api",
+    "min_severity": "ERROR"
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [
+    "E10",
+    "E14"
+   ],
+   "new_evidence_tokens": 47,
+   "output_chars": 167,
+   "ms": 0.16
+  },
+  {
+   "step": 3,
+   "tool": "get_context",
+   "args": {
+    "evidence_id": "E10",
+    "before": 3,
+    "after": 3
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [
+    "E15",
+    "E16",
+    "E9",
+    "E10",
+    "E11"
+   ],
+   "new_evidence_tokens": 123,
+   "output_chars": 413,
+   "ms": 0.17
+  }
+ ],
+ "metrics": {
+  "evidence_token_budget": 900,
+  "unique_evidence_tokens": 842,
+  "unique_evidence_items": 16,
+  "repeated_exposures": 5,
+  "repeated_exposure_tokens": 292,
+  "llm_calls": 5,
+  "prompt_tokens_total": 7545,
+  "output_tokens_total": 495,
+  "llm_seconds": 699.712,
+  "wall_seconds": 700.018,
+  "steps": 4,
+  "tool_calls": 3,
+  "blocked_tool_calls": 0,
+  "gate_rounds": 0,
+  "parse_failures": 0,
+  "normalised_fields": 0,
+  "cpu_seconds": 1865.1599999999955,
+  "mean_cpu_percent": 266.48328650702877,
+  "peak_rss_mb": 11086.098432,
+  "peak_uss_mb": 11085.385728,
+  "peak_pss_mb": 11085.447168,
+  "host_used_peak_mb": 29538.59072,
+  "host_total_mb": 33436.11904
+ }
+}

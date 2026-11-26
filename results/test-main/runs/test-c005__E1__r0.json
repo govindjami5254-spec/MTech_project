@@ -1,0 +1,167 @@
+{
+ "schema_version": "1",
+ "run_id": "test-c005__E1__r0",
+ "case_id": "test-c005",
+ "split": "test",
+ "arm": "E1",
+ "repeat": 0,
+ "config_hash": "f084f650236305957f9116e615ede9c0cb648ddd97d3aa12302849eddff23ca1",
+ "code_commit": "c5448efd25158e25cc055e988ee3e931b6331ca5",
+ "model": null,
+ "started_at": "2026-11-25T15:39:54.536213Z",
+ "status": "ok",
+ "error": null,
+ "report_raw": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "catalog-api",
+    "cause_summary": "unclassified failure in catalog-api (dependency chain: edge-proxy -> catalog-api)",
+    "confidence": 0.6,
+    "claims": [
+     {
+      "text": "edge-proxy reported failures calling catalog-api: upstream error from catalog-api; sent 502 to client req_id=77576717",
+      "evidence_ids": [
+       "E1"
+      ]
+     },
+     {
+      "text": "catalog-api logged its own failure: deprecated parameter 'page' used by client",
+      "evidence_ids": [
+       "E2",
+       "E3",
+       "E4"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [],
+  "recommendations": [
+   "Inspect catalog-api for unclassified failure."
+  ]
+ },
+ "report_validated": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "catalog-api",
+    "cause_summary": "unclassified failure in catalog-api (dependency chain: edge-proxy -> catalog-api)",
+    "confidence": 0.6,
+    "claims": [
+     {
+      "text": "edge-proxy reported failures calling catalog-api: upstream error from catalog-api; sent 502 to client req_id=77576717",
+      "evidence_ids": [
+       "E1"
+      ]
+     },
+     {
+      "text": "catalog-api logged its own failure: deprecated parameter 'page' used by client",
+      "evidence_ids": [
+       "E2",
+       "E3",
+       "E4"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [],
+  "recommendations": [
+   "Inspect catalog-api for unclassified failure."
+  ]
+ },
+ "validation": {
+  "claims_total": 2,
+  "claims_supported": 2,
+  "fabricated_ids": 0,
+  "suspicious_citations": 0,
+  "hypotheses_in": 1,
+  "hypotheses_dropped": 0,
+  "abstained_by_validator": false
+ },
+ "evidence": [
+  {
+   "id": "E1",
+   "uid": "edge-proxy.log:35",
+   "ts": "2026-01-30T09:17:15.911000Z",
+   "severity": "ERROR",
+   "component": "edge-proxy",
+   "source": "edge-proxy.log",
+   "line_no": 35,
+   "message": "upstream error from catalog-api; sent 502 to client req_id=77576717",
+   "step": 0,
+   "tool": "incident",
+   "tokens": 60,
+   "suspicious": false
+  },
+  {
+   "id": "E2",
+   "uid": "catalog-api.log:10",
+   "ts": "2026-01-30T09:13:30Z",
+   "severity": "WARN",
+   "component": "catalog-api",
+   "source": "catalog-api.log",
+   "line_no": 10,
+   "message": "slow query took 120ms req_id=12253187",
+   "step": 1,
+   "tool": "e1_rules",
+   "tokens": 55,
+   "suspicious": false
+  },
+  {
+   "id": "E3",
+   "uid": "catalog-api.log:23",
+   "ts": "2026-01-30T09:15:25Z",
+   "severity": "WARN",
+   "component": "catalog-api",
+   "source": "catalog-api.log",
+   "line_no": 23,
+   "message": "deprecated parameter 'page' used by client",
+   "step": 1,
+   "tool": "e1_rules",
+   "tokens": 44,
+   "suspicious": false
+  },
+  {
+   "id": "E4",
+   "uid": "catalog-api.log:25",
+   "ts": "2026-01-30T09:15:31Z",
+   "severity": "WARN",
+   "component": "catalog-api",
+   "source": "catalog-api.log",
+   "line_no": 25,
+   "message": "deprecated parameter 'page' used by client",
+   "step": 1,
+   "tool": "e1_rules",
+   "tokens": 44,
+   "suspicious": false
+  }
+ ],
+ "tool_calls": [],
+ "metrics": {
+  "evidence_token_budget": 900,
+  "unique_evidence_tokens": 203,
+  "unique_evidence_items": 4,
+  "repeated_exposures": 1,
+  "repeated_exposure_tokens": 60,
+  "llm_calls": 0,
+  "prompt_tokens_total": 0,
+  "output_tokens_total": 0,
+  "llm_seconds": 0.0,
+  "wall_seconds": 0.295,
+  "steps": 0,
+  "tool_calls": 0,
+  "blocked_tool_calls": 0,
+  "gate_rounds": 0,
+  "parse_failures": 0,
+  "normalised_fields": 0,
+  "cpu_seconds": null,
+  "mean_cpu_percent": null,
+  "peak_rss_mb": null,
+  "peak_uss_mb": null,
+  "peak_pss_mb": null,
+  "host_used_peak_mb": null,
+  "host_total_mb": null
+ }
+}

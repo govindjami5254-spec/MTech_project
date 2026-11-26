@@ -1,0 +1,177 @@
+{
+ "schema_version": "1",
+ "run_id": "test-c008__E1__r0",
+ "case_id": "test-c008",
+ "split": "test",
+ "arm": "E1",
+ "repeat": 0,
+ "config_hash": "f084f650236305957f9116e615ede9c0cb648ddd97d3aa12302849eddff23ca1",
+ "code_commit": "c5448efd25158e25cc055e988ee3e931b6331ca5",
+ "model": null,
+ "started_at": "2026-11-25T17:00:57.081119Z",
+ "status": "ok",
+ "error": null,
+ "report_raw": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "stream-proc",
+    "cause_summary": "invalid configuration in stream-proc (dependency chain: ingress -> telemetry-api -> stream-proc)",
+    "confidence": 0.6,
+    "claims": [
+     {
+      "text": "ingress reported failures calling telemetry-api: proxy error contacting telemetry-api; responded 502 trace=a7d42f14",
+      "evidence_ids": [
+       "E1"
+      ]
+     },
+     {
+      "text": "telemetry-api reported failures calling stream-proc: FetchError: request to http://stream-proc:4001 failed, reason: socket hang up trace=e664b179",
+      "evidence_ids": [
+       "E2"
+      ]
+     },
+     {
+      "text": "stream-proc logged its own failure: refusing to start with invalid configuration",
+      "evidence_ids": [
+       "E3",
+       "E4"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [],
+  "recommendations": [
+   "Inspect stream-proc for invalid configuration."
+  ]
+ },
+ "report_validated": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "stream-proc",
+    "cause_summary": "invalid configuration in stream-proc (dependency chain: ingress -> telemetry-api -> stream-proc)",
+    "confidence": 0.6,
+    "claims": [
+     {
+      "text": "ingress reported failures calling telemetry-api: proxy error contacting telemetry-api; responded 502 trace=a7d42f14",
+      "evidence_ids": [
+       "E1"
+      ]
+     },
+     {
+      "text": "telemetry-api reported failures calling stream-proc: FetchError: request to http://stream-proc:4001 failed, reason: socket hang up trace=e664b179",
+      "evidence_ids": [
+       "E2"
+      ]
+     },
+     {
+      "text": "stream-proc logged its own failure: refusing to start with invalid configuration",
+      "evidence_ids": [
+       "E3",
+       "E4"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [],
+  "recommendations": [
+   "Inspect stream-proc for invalid configuration."
+  ]
+ },
+ "validation": {
+  "claims_total": 3,
+  "claims_supported": 3,
+  "fabricated_ids": 0,
+  "suspicious_citations": 0,
+  "hypotheses_in": 1,
+  "hypotheses_dropped": 0,
+  "abstained_by_validator": false
+ },
+ "evidence": [
+  {
+   "id": "E1",
+   "uid": "ingress.log:32",
+   "ts": "2026-01-06T10:12:53.057000Z",
+   "severity": "ERROR",
+   "component": "ingress",
+   "source": "ingress.log",
+   "line_no": 32,
+   "message": "proxy error contacting telemetry-api; responded 502 trace=a7d42f14",
+   "step": 0,
+   "tool": "incident",
+   "tokens": 55,
+   "suspicious": false
+  },
+  {
+   "id": "E2",
+   "uid": "telemetry-api.log:32",
+   "ts": "2026-01-06T10:12:47.354000Z",
+   "severity": "ERROR",
+   "component": "telemetry-api",
+   "source": "telemetry-api.log",
+   "line_no": 32,
+   "message": "FetchError: request to http://stream-proc:4001 failed, reason: socket hang up trace=e664b179",
+   "step": 1,
+   "tool": "e1_rules",
+   "tokens": 68,
+   "suspicious": false
+  },
+  {
+   "id": "E3",
+   "uid": "stream-proc.log:36",
+   "ts": "2026-01-06T10:12:44.113000Z",
+   "severity": "ERROR",
+   "component": "stream-proc",
+   "source": "stream-proc.log",
+   "line_no": 36,
+   "message": "ConfigError: 'poolSize' must be a positive integer, got 'abc'",
+   "step": 1,
+   "tool": "e1_rules",
+   "tokens": 54,
+   "suspicious": false
+  },
+  {
+   "id": "E4",
+   "uid": "stream-proc.log:37",
+   "ts": "2026-01-06T10:12:46.791000Z",
+   "severity": "FATAL",
+   "component": "stream-proc",
+   "source": "stream-proc.log",
+   "line_no": 37,
+   "message": "refusing to start with invalid configuration",
+   "step": 1,
+   "tool": "e1_rules",
+   "tokens": 45,
+   "suspicious": false
+  }
+ ],
+ "tool_calls": [],
+ "metrics": {
+  "evidence_token_budget": 900,
+  "unique_evidence_tokens": 222,
+  "unique_evidence_items": 4,
+  "repeated_exposures": 1,
+  "repeated_exposure_tokens": 55,
+  "llm_calls": 0,
+  "prompt_tokens_total": 0,
+  "output_tokens_total": 0,
+  "llm_seconds": 0.0,
+  "wall_seconds": 0.307,
+  "steps": 0,
+  "tool_calls": 0,
+  "blocked_tool_calls": 0,
+  "gate_rounds": 0,
+  "parse_failures": 0,
+  "normalised_fields": 0,
+  "cpu_seconds": null,
+  "mean_cpu_percent": null,
+  "peak_rss_mb": null,
+  "peak_uss_mb": null,
+  "peak_pss_mb": null,
+  "host_used_peak_mb": null,
+  "host_total_mb": null
+ }
+}

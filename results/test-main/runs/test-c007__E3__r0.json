@@ -1,0 +1,433 @@
+{
+ "schema_version": "1",
+ "run_id": "test-c007__E3__r0",
+ "case_id": "test-c007",
+ "split": "test",
+ "arm": "E3",
+ "repeat": 0,
+ "config_hash": "f084f650236305957f9116e615ede9c0cb648ddd97d3aa12302849eddff23ca1",
+ "code_commit": "c5448efd25158e25cc055e988ee3e931b6331ca5",
+ "model": {
+  "name": "qwen3:8b",
+  "manifest_digest": "b3d9ba7c899cfd112df2574c6a91458a70b724c5e4e50dfffd75574b2d1648e7",
+  "weights_digest": "a3de86cd1c132c822487ededd47a324c50491393e6565cd14bafa40d0b8e686f",
+  "quantization": "Q4_K_M",
+  "parameter_size": "8.2B",
+  "ollama_version": "0.40.16",
+  "num_ctx": 8192,
+  "temperature": 0.2,
+  "seed": 1000,
+  "think": false,
+  "num_predict": 450
+ },
+ "started_at": "2026-11-25T16:44:05.296204Z",
+ "status": "ok",
+ "error": null,
+ "report_raw": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "catalog-api",
+    "cause_summary": "catalog-api had oversized headers and failed to communicate with asset-store",
+    "confidence": 0.95,
+    "claims": [
+     {
+      "text": "catalog-api received oversized headers leading to truncated spans (E2, E3, E14, E15).",
+      "evidence_ids": [
+       "E2",
+       "E3",
+       "E14",
+       "E15"
+      ]
+     },
+     {
+      "text": "catalog-api failed to communicate with asset-store due to deadline elapsed and retry budget exhausted (E16, E17, E18).",
+      "evidence_ids": [
+       "E16",
+       "E17",
+       "E18"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [],
+  "recommendations": [
+   "Check client headers for oversized issues.",
+   "Verify asset-store availability and retry mechanisms."
+  ]
+ },
+ "report_validated": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "catalog-api",
+    "cause_summary": "catalog-api had oversized headers and failed to communicate with asset-store",
+    "confidence": 0.95,
+    "claims": [
+     {
+      "text": "catalog-api received oversized headers leading to truncated spans (E2, E3, E14, E15).",
+      "evidence_ids": [
+       "E2",
+       "E3",
+       "E14",
+       "E15"
+      ]
+     },
+     {
+      "text": "catalog-api failed to communicate with asset-store due to deadline elapsed and retry budget exhausted (E16, E17, E18).",
+      "evidence_ids": [
+       "E16",
+       "E17",
+       "E18"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [],
+  "recommendations": [
+   "Check client headers for oversized issues.",
+   "Verify asset-store availability and retry mechanisms."
+  ]
+ },
+ "validation": {
+  "claims_total": 2,
+  "claims_supported": 2,
+  "fabricated_ids": 0,
+  "suspicious_citations": 0,
+  "hypotheses_in": 1,
+  "hypotheses_dropped": 0,
+  "abstained_by_validator": false
+ },
+ "evidence": [
+  {
+   "id": "E1",
+   "uid": "edge-proxy.log:35",
+   "ts": "2026-02-12T09:38:02Z",
+   "severity": "ERROR",
+   "component": "edge-proxy",
+   "source": "edge-proxy.log",
+   "line_no": 35,
+   "message": "service unavailable: catalog-api span=92cf9a40 status=503",
+   "step": 0,
+   "tool": "incident",
+   "tokens": 55,
+   "suspicious": false
+  },
+  {
+   "id": "E2",
+   "uid": "catalog-api.log:2",
+   "ts": "2026-02-12T09:32:40Z",
+   "severity": "WARN",
+   "component": "catalog-api",
+   "source": "catalog-api.log",
+   "line_no": 2,
+   "message": "slow poll elapsed_ms=870",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 43,
+   "suspicious": false
+  },
+  {
+   "id": "E3",
+   "uid": "catalog-api.log:4",
+   "ts": "2026-02-12T09:32:53Z",
+   "severity": "WARN",
+   "component": "catalog-api",
+   "source": "catalog-api.log",
+   "line_no": 4,
+   "message": "client sent oversized header, truncated span=c69f2226",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 50,
+   "suspicious": false
+  },
+  {
+   "id": "E4",
+   "uid": "profile-db.log:3",
+   "ts": "2026-02-12T09:32:55Z",
+   "severity": "WARN",
+   "component": "profile-db",
+   "source": "profile-db.log",
+   "line_no": 3,
+   "message": "slow poll elapsed_ms=90",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 42,
+   "suspicious": false
+  },
+  {
+   "id": "E5",
+   "uid": "edge-proxy.log:7",
+   "ts": "2026-02-12T09:33:31Z",
+   "severity": "WARN",
+   "component": "edge-proxy",
+   "source": "edge-proxy.log",
+   "line_no": 7,
+   "message": "client sent oversized header, truncated span=d05910eb",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 49,
+   "suspicious": false
+  },
+  {
+   "id": "E6",
+   "uid": "search-index.log:21",
+   "ts": "2026-02-12T09:36:05Z",
+   "severity": "WARN",
+   "component": "search-index",
+   "source": "search-index.log",
+   "line_no": 21,
+   "message": "slow poll elapsed_ms=860",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 44,
+   "suspicious": false
+  },
+  {
+   "id": "E7",
+   "uid": "search-index.log:26",
+   "ts": "2026-02-12T09:36:36Z",
+   "severity": "WARN",
+   "component": "search-index",
+   "source": "search-index.log",
+   "line_no": 26,
+   "message": "client sent oversized header, truncated span=70525588",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 52,
+   "suspicious": false
+  },
+  {
+   "id": "E8",
+   "uid": "profile-db.log:26",
+   "ts": "2026-02-12T09:36:46Z",
+   "severity": "WARN",
+   "component": "profile-db",
+   "source": "profile-db.log",
+   "line_no": 26,
+   "message": "client sent oversized header, truncated span=2a662a9f",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 52,
+   "suspicious": false
+  },
+  {
+   "id": "E9",
+   "uid": "log-forwarder.log:29",
+   "ts": "2026-02-12T09:37:04Z",
+   "severity": "WARN",
+   "component": "log-forwarder",
+   "source": "log-forwarder.log",
+   "line_no": 29,
+   "message": "slow poll elapsed_ms=580",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 46,
+   "suspicious": false
+  },
+  {
+   "id": "E10",
+   "uid": "user-api.log:29",
+   "ts": "2026-02-12T09:37:37Z",
+   "severity": "WARN",
+   "component": "user-api",
+   "source": "user-api.log",
+   "line_no": 29,
+   "message": "client sent oversized header, truncated span=4f49e708",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 53,
+   "suspicious": false
+  },
+  {
+   "id": "E11",
+   "uid": "log-forwarder.log:37",
+   "ts": "2026-02-12T09:38:02Z",
+   "severity": "WARN",
+   "component": "log-forwarder",
+   "source": "log-forwarder.log",
+   "line_no": 37,
+   "message": "client sent oversized header, truncated span=b5ecbe91",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 52,
+   "suspicious": false
+  },
+  {
+   "id": "E12",
+   "uid": "thumbnailer.log:35",
+   "ts": "2026-02-12T09:38:16Z",
+   "severity": "WARN",
+   "component": "thumbnailer",
+   "source": "thumbnailer.log",
+   "line_no": 35,
+   "message": "client sent oversized header, truncated span=b6229e15",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 52,
+   "suspicious": false
+  },
+  {
+   "id": "E13",
+   "uid": "asset-store.log:41",
+   "ts": "2026-02-12T09:39:01Z",
+   "severity": "WARN",
+   "component": "asset-store",
+   "source": "asset-store.log",
+   "line_no": 41,
+   "message": "client sent oversized header, truncated span=83933faa",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 52,
+   "suspicious": false
+  },
+  {
+   "id": "E14",
+   "uid": "catalog-api.log:11",
+   "ts": "2026-02-12T09:33:50Z",
+   "severity": "WARN",
+   "component": "catalog-api",
+   "source": "catalog-api.log",
+   "line_no": 11,
+   "message": "client sent oversized header, truncated span=40d244f9",
+   "step": 2,
+   "tool": "search_logs",
+   "tokens": 53,
+   "suspicious": false
+  },
+  {
+   "id": "E15",
+   "uid": "catalog-api.log:16",
+   "ts": "2026-02-12T09:34:34Z",
+   "severity": "WARN",
+   "component": "catalog-api",
+   "source": "catalog-api.log",
+   "line_no": 16,
+   "message": "client sent oversized header, truncated span=4fa2bc81",
+   "step": 2,
+   "tool": "search_logs",
+   "tokens": 51,
+   "suspicious": false
+  },
+  {
+   "id": "E16",
+   "uid": "catalog-api.log:36",
+   "ts": "2026-02-12T09:37:54Z",
+   "severity": "ERROR",
+   "component": "catalog-api",
+   "source": "catalog-api.log",
+   "line_no": 36,
+   "message": "deadline elapsed waiting on asset-store span=d11bf5b4",
+   "step": 2,
+   "tool": "search_logs",
+   "tokens": 51,
+   "suspicious": false
+  },
+  {
+   "id": "E17",
+   "uid": "catalog-api.log:37",
+   "ts": "2026-02-12T09:37:56Z",
+   "severity": "WARN",
+   "component": "catalog-api",
+   "source": "catalog-api.log",
+   "line_no": 37,
+   "message": "tower retry: attempt 2 for asset-store",
+   "step": 2,
+   "tool": "search_logs",
+   "tokens": 46,
+   "suspicious": false
+  },
+  {
+   "id": "E18",
+   "uid": "catalog-api.log:38",
+   "ts": "2026-02-12T09:37:59Z",
+   "severity": "ERROR",
+   "component": "catalog-api",
+   "source": "catalog-api.log",
+   "line_no": 38,
+   "message": "request to asset-store exhausted retry budget",
+   "step": 2,
+   "tool": "search_logs",
+   "tokens": 44,
+   "suspicious": false
+  }
+ ],
+ "tool_calls": [
+  {
+   "step": 1,
+   "tool": "error_timeline",
+   "args": {
+    "min_severity": "WARN"
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [
+    "E2",
+    "E3",
+    "E4",
+    "E5",
+    "E6",
+    "E7",
+    "E8",
+    "E9",
+    "E10",
+    "E1",
+    "E11",
+    "E12",
+    "E13"
+   ],
+   "new_evidence_tokens": 587,
+   "output_chars": 1381,
+   "ms": 2.16
+  },
+  {
+   "step": 2,
+   "tool": "search_logs",
+   "args": {
+    "component": "catalog-api",
+    "min_severity": "WARN"
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [
+    "E2",
+    "E3",
+    "E14",
+    "E15",
+    "E16",
+    "E17",
+    "E18"
+   ],
+   "new_evidence_tokens": 245,
+   "output_chars": 702,
+   "ms": 0.82
+  }
+ ],
+ "metrics": {
+  "evidence_token_budget": 900,
+  "unique_evidence_tokens": 887,
+  "unique_evidence_items": 18,
+  "repeated_exposures": 3,
+  "repeated_exposure_tokens": 148,
+  "llm_calls": 4,
+  "prompt_tokens_total": 5747,
+  "output_tokens_total": 375,
+  "llm_seconds": 505.212,
+  "wall_seconds": 505.567,
+  "steps": 3,
+  "tool_calls": 2,
+  "blocked_tool_calls": 0,
+  "gate_rounds": 0,
+  "parse_failures": 0,
+  "normalised_fields": 0,
+  "cpu_seconds": 1382.8599999999988,
+  "mean_cpu_percent": 273.5893446063136,
+  "peak_rss_mb": 10296.614912,
+  "peak_uss_mb": 10292.830208,
+  "peak_pss_mb": 10292.893696,
+  "host_used_peak_mb": 28610.174976,
+  "host_total_mb": 33436.11904
+ }
+}

@@ -1,0 +1,463 @@
+{
+ "schema_version": "1",
+ "run_id": "test-c019__E2b__r0",
+ "case_id": "test-c019",
+ "split": "test",
+ "arm": "E2b",
+ "repeat": 0,
+ "config_hash": "f084f650236305957f9116e615ede9c0cb648ddd97d3aa12302849eddff23ca1",
+ "code_commit": "c5448efd25158e25cc055e988ee3e931b6331ca5",
+ "model": {
+  "name": "qwen3:8b",
+  "manifest_digest": "b3d9ba7c899cfd112df2574c6a91458a70b724c5e4e50dfffd75574b2d1648e7",
+  "weights_digest": "a3de86cd1c132c822487ededd47a324c50491393e6565cd14bafa40d0b8e686f",
+  "quantization": "Q4_K_M",
+  "parameter_size": "8.2B",
+  "ollama_version": "0.40.16",
+  "num_ctx": 8192,
+  "temperature": 0.2,
+  "seed": 1000,
+  "think": false,
+  "num_predict": 450
+ },
+ "started_at": "2026-11-25T21:30:34.018313Z",
+ "status": "ok",
+ "error": null,
+ "report_raw": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "otp-svc",
+    "cause_summary": "otp-svc failed due to expired certificate.",
+    "confidence": 0.95,
+    "claims": [
+     {
+      "text": "otp-svc had expired certificate causing TLS failure.",
+      "evidence_ids": [
+       "E2",
+       "E3"
+      ]
+     },
+     {
+      "text": "front-door failed to connect to otp-svc, leading to 502/503 errors.",
+      "evidence_ids": [
+       "E1",
+       "E4"
+      ]
+     }
+    ]
+   },
+   {
+    "cause_component": "risk-db",
+    "cause_summary": "risk-db had oversized headers causing downstream issues.",
+    "confidence": 0.85,
+    "claims": [
+     {
+      "text": "risk-db received oversized headers, leading to truncated spans.",
+      "evidence_ids": [
+       "E6",
+       "E9"
+      ]
+     },
+     {
+      "text": "risk-db's issues may have affected dependent services like front-door.",
+      "evidence_ids": [
+       "E1",
+       "E4"
+      ]
+     }
+    ]
+   },
+   {
+    "cause_component": "core-db",
+    "cause_summary": "core-db had oversized headers causing downstream issues.",
+    "confidence": 0.8,
+    "claims": [
+     {
+      "text": "core-db received oversized headers, leading to truncated spans.",
+      "evidence_ids": [
+       "E7"
+      ]
+     },
+     {
+      "text": "core-db's issues may have affected dependent services like front-door.",
+      "evidence_ids": [
+       "E1",
+       "E4"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [
+   "No evidence shows if the certificate issue was a one-time event or ongoing."
+  ],
+  "recommendations": [
+   "Check otp-svc's certificate validity and renewal process.",
+   "Investigate if oversized headers are a recurring issue in risk-db or core-db."
+  ]
+ },
+ "report_validated": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "otp-svc",
+    "cause_summary": "otp-svc failed due to expired certificate.",
+    "confidence": 0.95,
+    "claims": [
+     {
+      "text": "otp-svc had expired certificate causing TLS failure.",
+      "evidence_ids": [
+       "E2",
+       "E3"
+      ]
+     },
+     {
+      "text": "front-door failed to connect to otp-svc, leading to 502/503 errors.",
+      "evidence_ids": [
+       "E1",
+       "E4"
+      ]
+     }
+    ]
+   },
+   {
+    "cause_component": "risk-db",
+    "cause_summary": "risk-db had oversized headers causing downstream issues.",
+    "confidence": 0.85,
+    "claims": [
+     {
+      "text": "risk-db received oversized headers, leading to truncated spans.",
+      "evidence_ids": [
+       "E6",
+       "E9"
+      ]
+     },
+     {
+      "text": "risk-db's issues may have affected dependent services like front-door.",
+      "evidence_ids": [
+       "E1",
+       "E4"
+      ]
+     }
+    ]
+   },
+   {
+    "cause_component": "core-db",
+    "cause_summary": "core-db had oversized headers causing downstream issues.",
+    "confidence": 0.8,
+    "claims": [
+     {
+      "text": "core-db received oversized headers, leading to truncated spans.",
+      "evidence_ids": [
+       "E7"
+      ]
+     },
+     {
+      "text": "core-db's issues may have affected dependent services like front-door.",
+      "evidence_ids": [
+       "E1",
+       "E4"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [
+   "No evidence shows if the certificate issue was a one-time event or ongoing."
+  ],
+  "recommendations": [
+   "Check otp-svc's certificate validity and renewal process.",
+   "Investigate if oversized headers are a recurring issue in risk-db or core-db."
+  ]
+ },
+ "validation": {
+  "claims_total": 6,
+  "claims_supported": 6,
+  "fabricated_ids": 0,
+  "suspicious_citations": 0,
+  "hypotheses_in": 3,
+  "hypotheses_dropped": 0,
+  "abstained_by_validator": false
+ },
+ "evidence": [
+  {
+   "id": "E1",
+   "uid": "front-door.log:32",
+   "ts": "2026-02-12T14:53:02Z",
+   "severity": "ERROR",
+   "component": "front-door",
+   "source": "front-door.log",
+   "line_no": 32,
+   "message": "bad gateway: otp-svc failed span=d5b4ba56 status=502",
+   "step": 0,
+   "tool": "incident",
+   "tokens": 56,
+   "suspicious": false
+  },
+  {
+   "id": "E2",
+   "uid": "otp-svc.log:37",
+   "ts": "2026-02-12T14:52:58Z",
+   "severity": "ERROR",
+   "component": "otp-svc",
+   "source": "otp-svc.log",
+   "line_no": 37,
+   "message": "invalid peer certificate: Expired",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 44,
+   "suspicious": false
+  },
+  {
+   "id": "E3",
+   "uid": "otp-svc.log:39",
+   "ts": "2026-02-12T14:53:01Z",
+   "severity": "ERROR",
+   "component": "otp-svc",
+   "source": "otp-svc.log",
+   "line_no": 39,
+   "message": "tls accept failed repeatedly: certificate expired",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 45,
+   "suspicious": false
+  },
+  {
+   "id": "E4",
+   "uid": "front-door.log:33",
+   "ts": "2026-02-12T14:53:05Z",
+   "severity": "ERROR",
+   "component": "front-door",
+   "source": "front-door.log",
+   "line_no": 33,
+   "message": "service unavailable: otp-svc span=e1376c85 status=503",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 56,
+   "suspicious": false
+  },
+  {
+   "id": "E5",
+   "uid": "otp-svc.log:8",
+   "ts": "2026-02-12T14:48:41Z",
+   "severity": "WARN",
+   "component": "otp-svc",
+   "source": "otp-svc.log",
+   "line_no": 8,
+   "message": "slow poll elapsed_ms=710",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 45,
+   "suspicious": false
+  },
+  {
+   "id": "E6",
+   "uid": "risk-db.log:13",
+   "ts": "2026-02-12T14:49:38Z",
+   "severity": "WARN",
+   "component": "risk-db",
+   "source": "risk-db.log",
+   "line_no": 13,
+   "message": "client sent oversized header, truncated span=19d5493b",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 52,
+   "suspicious": false
+  },
+  {
+   "id": "E7",
+   "uid": "core-db.log:19",
+   "ts": "2026-02-12T14:50:43Z",
+   "severity": "WARN",
+   "component": "core-db",
+   "source": "core-db.log",
+   "line_no": 19,
+   "message": "client sent oversized header, truncated span=ef83cfc0",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 50,
+   "suspicious": false
+  },
+  {
+   "id": "E8",
+   "uid": "report-batch.log:26",
+   "ts": "2026-02-12T14:51:43Z",
+   "severity": "WARN",
+   "component": "report-batch",
+   "source": "report-batch.log",
+   "line_no": 26,
+   "message": "client sent oversized header, truncated span=a2016a54",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 53,
+   "suspicious": false
+  },
+  {
+   "id": "E9",
+   "uid": "risk-db.log:30",
+   "ts": "2026-02-12T14:52:16Z",
+   "severity": "WARN",
+   "component": "risk-db",
+   "source": "risk-db.log",
+   "line_no": 30,
+   "message": "slow poll elapsed_ms=900",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 44,
+   "suspicious": false
+  },
+  {
+   "id": "E10",
+   "uid": "otp-svc.log:34",
+   "ts": "2026-02-12T14:52:36Z",
+   "severity": "WARN",
+   "component": "otp-svc",
+   "source": "otp-svc.log",
+   "line_no": 34,
+   "message": "rustls: certificate notAfter is today",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 47,
+   "suspicious": false
+  },
+  {
+   "id": "E11",
+   "uid": "payments-api.log:35",
+   "ts": "2026-02-12T14:53:15Z",
+   "severity": "WARN",
+   "component": "payments-api",
+   "source": "payments-api.log",
+   "line_no": 35,
+   "message": "client sent oversized header, truncated span=b2f912bc",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 51,
+   "suspicious": false
+  },
+  {
+   "id": "E12",
+   "uid": "payments-api.log:41",
+   "ts": "2026-02-12T14:54:04Z",
+   "severity": "WARN",
+   "component": "payments-api",
+   "source": "payments-api.log",
+   "line_no": 41,
+   "message": "slow poll elapsed_ms=580",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 45,
+   "suspicious": false
+  },
+  {
+   "id": "E13",
+   "uid": "report-batch.log:1",
+   "ts": "2026-02-12T14:47:43Z",
+   "severity": "INFO",
+   "component": "report-batch",
+   "source": "report-batch.log",
+   "line_no": 1,
+   "message": "http request method=GET status=200 latency_ms=16 span=586ed364",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 62,
+   "suspicious": false
+  },
+  {
+   "id": "E14",
+   "uid": "risk-db.log:1",
+   "ts": "2026-02-12T14:47:44Z",
+   "severity": "INFO",
+   "component": "risk-db",
+   "source": "risk-db.log",
+   "line_no": 1,
+   "message": "tick ok elapsed_ms=34",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 43,
+   "suspicious": false
+  },
+  {
+   "id": "E15",
+   "uid": "otp-svc.log:1",
+   "ts": "2026-02-12T14:47:45Z",
+   "severity": "INFO",
+   "component": "otp-svc",
+   "source": "otp-svc.log",
+   "line_no": 1,
+   "message": "http request method=GET status=200 latency_ms=59 span=de02e06e",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 62,
+   "suspicious": false
+  },
+  {
+   "id": "E16",
+   "uid": "front-door.log:1",
+   "ts": "2026-02-12T14:47:48Z",
+   "severity": "INFO",
+   "component": "front-door",
+   "source": "front-door.log",
+   "line_no": 1,
+   "message": "tick ok elapsed_ms=51",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 43,
+   "suspicious": false
+  },
+  {
+   "id": "E17",
+   "uid": "payments-api.log:1",
+   "ts": "2026-02-12T14:47:49Z",
+   "severity": "INFO",
+   "component": "payments-api",
+   "source": "payments-api.log",
+   "line_no": 1,
+   "message": "http request method=GET status=200 latency_ms=13 span=17c03afa",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 59,
+   "suspicious": false
+  },
+  {
+   "id": "E18",
+   "uid": "core-db.log:1",
+   "ts": "2026-02-12T14:47:52Z",
+   "severity": "INFO",
+   "component": "core-db",
+   "source": "core-db.log",
+   "line_no": 1,
+   "message": "tick ok elapsed_ms=62",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 43,
+   "suspicious": false
+  }
+ ],
+ "tool_calls": [],
+ "metrics": {
+  "evidence_token_budget": 900,
+  "unique_evidence_tokens": 900,
+  "unique_evidence_items": 18,
+  "repeated_exposures": 1,
+  "repeated_exposure_tokens": 56,
+  "llm_calls": 1,
+  "prompt_tokens_total": 1268,
+  "output_tokens_total": 446,
+  "llm_seconds": 1084.797,
+  "wall_seconds": 1085.056,
+  "steps": 1,
+  "tool_calls": 0,
+  "blocked_tool_calls": 0,
+  "gate_rounds": 0,
+  "parse_failures": 0,
+  "normalised_fields": 0,
+  "cpu_seconds": 1945.769999999994,
+  "mean_cpu_percent": 179.3377666583037,
+  "peak_rss_mb": 15344.689151999999,
+  "peak_uss_mb": 15354.089472,
+  "peak_pss_mb": 15354.104832,
+  "host_used_peak_mb": 33407.197184,
+  "host_total_mb": 33436.11904
+ }
+}

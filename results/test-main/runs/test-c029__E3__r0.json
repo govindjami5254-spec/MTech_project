@@ -1,0 +1,500 @@
+{
+ "schema_version": "1",
+ "run_id": "test-c029__E3__r0",
+ "case_id": "test-c029",
+ "split": "test",
+ "arm": "E3",
+ "repeat": 0,
+ "config_hash": "f084f650236305957f9116e615ede9c0cb648ddd97d3aa12302849eddff23ca1",
+ "code_commit": "c5448efd25158e25cc055e988ee3e931b6331ca5",
+ "model": {
+  "name": "qwen3:8b",
+  "manifest_digest": "b3d9ba7c899cfd112df2574c6a91458a70b724c5e4e50dfffd75574b2d1648e7",
+  "weights_digest": "a3de86cd1c132c822487ededd47a324c50491393e6565cd14bafa40d0b8e686f",
+  "quantization": "Q4_K_M",
+  "parameter_size": "8.2B",
+  "ollama_version": "0.40.16",
+  "num_ctx": 8192,
+  "temperature": 0.2,
+  "seed": 1000,
+  "think": false,
+  "num_predict": 450
+ },
+ "started_at": "2026-11-26T03:04:04.644012Z",
+ "status": "ok",
+ "error": null,
+ "report_raw": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "seat-svc",
+    "cause_summary": "seat-svc had slow query causing timeout in booking-svc",
+    "confidence": 0.9,
+    "claims": [
+     {
+      "text": "booking-svc timed out waiting for seat-svc response",
+      "evidence_ids": [
+       "E2"
+      ]
+     },
+     {
+      "text": "seat-svc had a slow query before the timeout",
+      "evidence_ids": [
+       "E16"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [
+   "seat-db issue not linked to incident"
+  ],
+  "recommendations": [
+   "Check if seat-svc slow queries were recurring",
+   "Verify if seat-db parameter issue affected dependent services"
+  ]
+ },
+ "report_validated": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "seat-svc",
+    "cause_summary": "seat-svc had slow query causing timeout in booking-svc",
+    "confidence": 0.9,
+    "claims": [
+     {
+      "text": "booking-svc timed out waiting for seat-svc response",
+      "evidence_ids": [
+       "E2"
+      ]
+     },
+     {
+      "text": "seat-svc had a slow query before the timeout",
+      "evidence_ids": [
+       "E16"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [
+   "seat-db issue not linked to incident"
+  ],
+  "recommendations": [
+   "Check if seat-svc slow queries were recurring",
+   "Verify if seat-db parameter issue affected dependent services"
+  ]
+ },
+ "validation": {
+  "claims_total": 2,
+  "claims_supported": 2,
+  "fabricated_ids": 0,
+  "suspicious_citations": 0,
+  "hypotheses_in": 1,
+  "hypotheses_dropped": 0,
+  "abstained_by_validator": false
+ },
+ "evidence": [
+  {
+   "id": "E1",
+   "uid": "web-gateway.log:32",
+   "ts": "2026-01-11T14:15:25.009000Z",
+   "severity": "ERROR",
+   "component": "web-gateway",
+   "source": "web-gateway.log",
+   "line_no": 32,
+   "message": "upstream error from booking-svc; sent 502 to client req_id=a512b1dc",
+   "step": 0,
+   "tool": "incident",
+   "tokens": 61,
+   "suspicious": false
+  },
+  {
+   "id": "E2",
+   "uid": "booking-svc.log:29",
+   "ts": "2026-01-11T14:15:19.957000Z",
+   "severity": "ERROR",
+   "component": "booking-svc",
+   "source": "booking-svc.log",
+   "line_no": 29,
+   "message": "ReadTimeout: seat-svc did not respond within 5.0s req_id=84e2b986",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 64,
+   "suspicious": false
+  },
+  {
+   "id": "E3",
+   "uid": "booking-svc.log:31",
+   "ts": "2026-01-11T14:15:24.460000Z",
+   "severity": "ERROR",
+   "component": "booking-svc",
+   "source": "booking-svc.log",
+   "line_no": 31,
+   "message": "aborting request: seat-svc unreachable after retries",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 48,
+   "suspicious": false
+  },
+  {
+   "id": "E4",
+   "uid": "web-gateway.log:33",
+   "ts": "2026-01-11T14:15:28.409000Z",
+   "severity": "ERROR",
+   "component": "web-gateway",
+   "source": "web-gateway.log",
+   "line_no": 33,
+   "message": "upstream error from booking-svc; sent 502 to client req_id=0d88474a",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 63,
+   "suspicious": false
+  },
+  {
+   "id": "E5",
+   "uid": "fare-cache.log:29",
+   "ts": "2026-01-11T14:15:17.799000Z",
+   "severity": "INFO",
+   "component": "fare-cache",
+   "source": "fare-cache.log",
+   "line_no": 29,
+   "message": "worker heartbeat ok (63ms)",
+   "step": 3,
+   "tool": "get_context",
+   "tokens": 43,
+   "suspicious": false
+  },
+  {
+   "id": "E6",
+   "uid": "fare-svc.log:31",
+   "ts": "2026-01-11T14:15:18.171000Z",
+   "severity": "INFO",
+   "component": "fare-svc",
+   "source": "fare-svc.log",
+   "line_no": 31,
+   "message": "GET /v1/items 200 77ms req_id=378b70e8",
+   "step": 3,
+   "tool": "get_context",
+   "tokens": 62,
+   "suspicious": false
+  },
+  {
+   "id": "E7",
+   "uid": "batch-exporter.log:32",
+   "ts": "2026-01-11T14:15:18.487000Z",
+   "severity": "INFO",
+   "component": "batch-exporter",
+   "source": "batch-exporter.log",
+   "line_no": 32,
+   "message": "GET /v1/items 200 22ms req_id=5d572ab5",
+   "step": 3,
+   "tool": "get_context",
+   "tokens": 61,
+   "suspicious": false
+  },
+  {
+   "id": "E8",
+   "uid": "notifier.log:31",
+   "ts": "2026-01-11T14:15:20.970000Z",
+   "severity": "INFO",
+   "component": "notifier",
+   "source": "notifier.log",
+   "line_no": 31,
+   "message": "worker heartbeat ok (32ms)",
+   "step": 3,
+   "tool": "get_context",
+   "tokens": 42,
+   "suspicious": false
+  },
+  {
+   "id": "E9",
+   "uid": "booking-svc.log:30",
+   "ts": "2026-01-11T14:15:21.245000Z",
+   "severity": "WARN",
+   "component": "booking-svc",
+   "source": "booking-svc.log",
+   "line_no": 30,
+   "message": "urllib3 retrying (seat-svc) after connection broken",
+   "step": 3,
+   "tool": "get_context",
+   "tokens": 50,
+   "suspicious": false
+  },
+  {
+   "id": "E10",
+   "uid": "seat-svc.log:30",
+   "ts": "2026-01-11T14:15:22.836000Z",
+   "severity": "INFO",
+   "component": "seat-svc",
+   "source": "seat-svc.log",
+   "line_no": 30,
+   "message": "GET /v1/items 200 31ms req_id=269b403f",
+   "step": 3,
+   "tool": "get_context",
+   "tokens": 63,
+   "suspicious": false
+  },
+  {
+   "id": "E11",
+   "uid": "login-svc.log:29",
+   "ts": "2026-01-11T14:15:23.113000Z",
+   "severity": "INFO",
+   "component": "login-svc",
+   "source": "login-svc.log",
+   "line_no": 29,
+   "message": "GET /v1/items 200 16ms req_id=b228d238",
+   "step": 4,
+   "tool": "get_context",
+   "tokens": 62,
+   "suspicious": false
+  },
+  {
+   "id": "E12",
+   "uid": "web-gateway.log:31",
+   "ts": "2026-01-11T14:15:23.682000Z",
+   "severity": "INFO",
+   "component": "web-gateway",
+   "source": "web-gateway.log",
+   "line_no": 31,
+   "message": "worker heartbeat ok (19ms)",
+   "step": 4,
+   "tool": "get_context",
+   "tokens": 46,
+   "suspicious": false
+  },
+  {
+   "id": "E13",
+   "uid": "seat-db.log:29",
+   "ts": "2026-01-11T14:15:25.507000Z",
+   "severity": "INFO",
+   "component": "seat-db",
+   "source": "seat-db.log",
+   "line_no": 29,
+   "message": "worker heartbeat ok (38ms)",
+   "step": 4,
+   "tool": "get_context",
+   "tokens": 44,
+   "suspicious": false
+  },
+  {
+   "id": "E14",
+   "uid": "booking-svc.log:32",
+   "ts": "2026-01-11T14:15:25.894000Z",
+   "severity": "INFO",
+   "component": "booking-svc",
+   "source": "booking-svc.log",
+   "line_no": 32,
+   "message": "worker heartbeat ok (57ms)",
+   "step": 4,
+   "tool": "get_context",
+   "tokens": 46,
+   "suspicious": false
+  },
+  {
+   "id": "E15",
+   "uid": "notifier.log:32",
+   "ts": "2026-01-11T14:15:26.959000Z",
+   "severity": "INFO",
+   "component": "notifier",
+   "source": "notifier.log",
+   "line_no": 32,
+   "message": "worker heartbeat ok (31ms)",
+   "step": 5,
+   "tool": "get_context",
+   "tokens": 43,
+   "suspicious": false
+  },
+  {
+   "id": "E16",
+   "uid": "seat-svc.log:14",
+   "ts": "2026-01-11T14:12:52Z",
+   "severity": "WARN",
+   "component": "seat-svc",
+   "source": "seat-svc.log",
+   "line_no": 14,
+   "message": "slow query took 140ms req_id=fc186098",
+   "step": 7,
+   "tool": "search_logs",
+   "tokens": 57,
+   "suspicious": false
+  },
+  {
+   "id": "E17",
+   "uid": "seat-db.log:19",
+   "ts": "2026-01-11T14:13:37Z",
+   "severity": "WARN",
+   "component": "seat-db",
+   "source": "seat-db.log",
+   "line_no": 19,
+   "message": "deprecated parameter 'page' used by client",
+   "step": 8,
+   "tool": "search_logs",
+   "tokens": 45,
+   "suspicious": false
+  }
+ ],
+ "tool_calls": [
+  {
+   "step": 1,
+   "tool": "error_timeline",
+   "args": {
+    "min_severity": "ERROR"
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [
+    "E2",
+    "E3",
+    "E1",
+    "E4"
+   ],
+   "new_evidence_tokens": 175,
+   "output_chars": 464,
+   "ms": 0.59
+  },
+  {
+   "step": 2,
+   "tool": "search_logs",
+   "args": {
+    "component": "booking-svc",
+    "min_severity": "ERROR"
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [
+    "E2",
+    "E3"
+   ],
+   "new_evidence_tokens": 0,
+   "output_chars": 64,
+   "ms": 0.11
+  },
+  {
+   "step": 3,
+   "tool": "get_context",
+   "args": {
+    "evidence_id": "E2",
+    "before": 3,
+    "after": 3
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [
+    "E5",
+    "E6",
+    "E7",
+    "E2",
+    "E8",
+    "E9",
+    "E10"
+   ],
+   "new_evidence_tokens": 321,
+   "output_chars": 656,
+   "ms": 0.92
+  },
+  {
+   "step": 4,
+   "tool": "get_context",
+   "args": {
+    "evidence_id": "E3",
+    "before": 3,
+    "after": 3
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [
+    "E10",
+    "E11",
+    "E12",
+    "E3",
+    "E1",
+    "E13",
+    "E14"
+   ],
+   "new_evidence_tokens": 198,
+   "output_chars": 473,
+   "ms": 0.57
+  },
+  {
+   "step": 5,
+   "tool": "get_context",
+   "args": {
+    "evidence_id": "E1",
+    "before": 3,
+    "after": 3
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [
+    "E11",
+    "E12",
+    "E3",
+    "E1",
+    "E13",
+    "E14",
+    "E15"
+   ],
+   "new_evidence_tokens": 43,
+   "output_chars": 257,
+   "ms": 0.34
+  },
+  {
+   "step": 7,
+   "tool": "search_logs",
+   "args": {
+    "component": "seat-svc",
+    "min_severity": "WARN"
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [
+    "E16"
+   ],
+   "new_evidence_tokens": 57,
+   "output_chars": 183,
+   "ms": 0.43
+  },
+  {
+   "step": 8,
+   "tool": "search_logs",
+   "args": {
+    "component": "seat-db",
+    "min_severity": "WARN"
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [
+    "E17"
+   ],
+   "new_evidence_tokens": 45,
+   "output_chars": 122,
+   "ms": 0.32
+  }
+ ],
+ "metrics": {
+  "evidence_token_budget": 900,
+  "unique_evidence_tokens": 900,
+  "unique_evidence_items": 17,
+  "repeated_exposures": 13,
+  "repeated_exposure_tokens": 716,
+  "llm_calls": 9,
+  "prompt_tokens_total": 14573,
+  "output_tokens_total": 328,
+  "llm_seconds": 702.271,
+  "wall_seconds": 702.798,
+  "steps": 8,
+  "tool_calls": 7,
+  "blocked_tool_calls": 0,
+  "gate_rounds": 1,
+  "parse_failures": 0,
+  "normalised_fields": 0,
+  "cpu_seconds": 1912.500000000003,
+  "mean_cpu_percent": 272.1559141277538,
+  "peak_rss_mb": 10557.841407999998,
+  "peak_uss_mb": 10557.386752,
+  "peak_pss_mb": 10557.73184,
+  "host_used_peak_mb": 28177.027072,
+  "host_total_mb": 33436.11904
+ }
+}

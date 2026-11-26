@@ -1,0 +1,207 @@
+{
+ "schema_version": "1",
+ "run_id": "test-c006__E1__r0",
+ "case_id": "test-c006",
+ "split": "test",
+ "arm": "E1",
+ "repeat": 0,
+ "config_hash": "f084f650236305957f9116e615ede9c0cb648ddd97d3aa12302849eddff23ca1",
+ "code_commit": "c5448efd25158e25cc055e988ee3e931b6331ca5",
+ "model": null,
+ "started_at": "2026-11-25T16:10:03.214294Z",
+ "status": "ok",
+ "error": null,
+ "report_raw": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "risk-db",
+    "cause_summary": "unclassified failure in risk-db (dependency chain: front-door -> payments-api -> risk-engine -> risk-db)",
+    "confidence": 0.6,
+    "claims": [
+     {
+      "text": "payments-api reported failures calling risk-engine: upstream risk-engine replied 503 Service Unavailable req_id=bfffddad",
+      "evidence_ids": [
+       "E2"
+      ]
+     },
+     {
+      "text": "risk-engine reported failures calling risk-db: requests.exceptions.ConnectionError: HTTPConnectionPool(host='risk-db', port=1521): Max retries exceeded re…",
+      "evidence_ids": [
+       "E3"
+      ]
+     },
+     {
+      "text": "risk-db logged its own failure: deprecated parameter 'page' used by client",
+      "evidence_ids": [
+       "E4",
+       "E5",
+       "E6"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [],
+  "recommendations": [
+   "Inspect risk-db for unclassified failure."
+  ]
+ },
+ "report_validated": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "risk-db",
+    "cause_summary": "unclassified failure in risk-db (dependency chain: front-door -> payments-api -> risk-engine -> risk-db)",
+    "confidence": 0.6,
+    "claims": [
+     {
+      "text": "payments-api reported failures calling risk-engine: upstream risk-engine replied 503 Service Unavailable req_id=bfffddad",
+      "evidence_ids": [
+       "E2"
+      ]
+     },
+     {
+      "text": "risk-engine reported failures calling risk-db: requests.exceptions.ConnectionError: HTTPConnectionPool(host='risk-db', port=1521): Max retries exceeded re…",
+      "evidence_ids": [
+       "E3"
+      ]
+     },
+     {
+      "text": "risk-db logged its own failure: deprecated parameter 'page' used by client",
+      "evidence_ids": [
+       "E4",
+       "E5",
+       "E6"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [],
+  "recommendations": [
+   "Inspect risk-db for unclassified failure."
+  ]
+ },
+ "validation": {
+  "claims_total": 3,
+  "claims_supported": 3,
+  "fabricated_ids": 0,
+  "suspicious_citations": 0,
+  "hypotheses_in": 1,
+  "hypotheses_dropped": 0,
+  "abstained_by_validator": false
+ },
+ "evidence": [
+  {
+   "id": "E1",
+   "uid": "front-door.log:34",
+   "ts": "2026-01-30T10:45:02.195000Z",
+   "severity": "ERROR",
+   "component": "front-door",
+   "source": "front-door.log",
+   "line_no": 34,
+   "message": "sent 503 to client, payments-api unhealthy req_id=fd542f4b",
+   "step": 0,
+   "tool": "incident",
+   "tokens": 57,
+   "suspicious": false
+  },
+  {
+   "id": "E2",
+   "uid": "payments-api.log:37",
+   "ts": "2026-01-30T10:44:58.199000Z",
+   "severity": "ERROR",
+   "component": "payments-api",
+   "source": "payments-api.log",
+   "line_no": 37,
+   "message": "upstream risk-engine replied 503 Service Unavailable req_id=bfffddad",
+   "step": 1,
+   "tool": "e1_rules",
+   "tokens": 53,
+   "suspicious": false
+  },
+  {
+   "id": "E3",
+   "uid": "risk-engine.log:38",
+   "ts": "2026-01-30T10:44:51.304000Z",
+   "severity": "ERROR",
+   "component": "risk-engine",
+   "source": "risk-engine.log",
+   "line_no": 38,
+   "message": "requests.exceptions.ConnectionError: HTTPConnectionPool(host='risk-db', port=1521): Max retries exceeded req_id=d16c6045",
+   "step": 1,
+   "tool": "e1_rules",
+   "tokens": 69,
+   "suspicious": false
+  },
+  {
+   "id": "E4",
+   "uid": "risk-db.log:16",
+   "ts": "2026-01-30T10:41:40Z",
+   "severity": "WARN",
+   "component": "risk-db",
+   "source": "risk-db.log",
+   "line_no": 16,
+   "message": "deprecated parameter 'page' used by client",
+   "step": 1,
+   "tool": "e1_rules",
+   "tokens": 44,
+   "suspicious": false
+  },
+  {
+   "id": "E5",
+   "uid": "risk-db.log:20",
+   "ts": "2026-01-30T10:42:07Z",
+   "severity": "WARN",
+   "component": "risk-db",
+   "source": "risk-db.log",
+   "line_no": 20,
+   "message": "deprecated parameter 'page' used by client",
+   "step": 1,
+   "tool": "e1_rules",
+   "tokens": 44,
+   "suspicious": false
+  },
+  {
+   "id": "E6",
+   "uid": "risk-db.log:22",
+   "ts": "2026-01-30T10:42:19Z",
+   "severity": "WARN",
+   "component": "risk-db",
+   "source": "risk-db.log",
+   "line_no": 22,
+   "message": "deprecated parameter 'page' used by client",
+   "step": 1,
+   "tool": "e1_rules",
+   "tokens": 44,
+   "suspicious": false
+  }
+ ],
+ "tool_calls": [],
+ "metrics": {
+  "evidence_token_budget": 900,
+  "unique_evidence_tokens": 311,
+  "unique_evidence_items": 6,
+  "repeated_exposures": 1,
+  "repeated_exposure_tokens": 57,
+  "llm_calls": 0,
+  "prompt_tokens_total": 0,
+  "output_tokens_total": 0,
+  "llm_seconds": 0.0,
+  "wall_seconds": 0.314,
+  "steps": 0,
+  "tool_calls": 0,
+  "blocked_tool_calls": 0,
+  "gate_rounds": 0,
+  "parse_failures": 0,
+  "normalised_fields": 0,
+  "cpu_seconds": null,
+  "mean_cpu_percent": null,
+  "peak_rss_mb": null,
+  "peak_uss_mb": null,
+  "peak_pss_mb": null,
+  "host_used_peak_mb": null,
+  "host_total_mb": null
+ }
+}

@@ -1,0 +1,423 @@
+{
+ "schema_version": "1",
+ "run_id": "test-c004__A2__r0",
+ "case_id": "test-c004",
+ "split": "test",
+ "arm": "A2",
+ "repeat": 0,
+ "config_hash": "f084f650236305957f9116e615ede9c0cb648ddd97d3aa12302849eddff23ca1",
+ "code_commit": "c5448efd25158e25cc055e988ee3e931b6331ca5",
+ "model": {
+  "name": "qwen3:8b",
+  "manifest_digest": "b3d9ba7c899cfd112df2574c6a91458a70b724c5e4e50dfffd75574b2d1648e7",
+  "weights_digest": "a3de86cd1c132c822487ededd47a324c50491393e6565cd14bafa40d0b8e686f",
+  "quantization": "Q4_K_M",
+  "parameter_size": "8.2B",
+  "ollama_version": "0.40.16",
+  "num_ctx": 8192,
+  "temperature": 0.2,
+  "seed": 1000,
+  "think": false,
+  "num_predict": 450
+ },
+ "started_at": "2026-11-25T15:29:31.522011Z",
+ "status": "ok",
+ "error": null,
+ "report_raw": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "blob-db",
+    "cause_summary": "blob-db ran out of disk space",
+    "confidence": 0.95,
+    "claims": [
+     {
+      "text": "blob-db had no space left on device",
+      "evidence_ids": [
+       "E12"
+      ]
+     },
+     {
+      "text": "blob-db exited due to storage unavailability",
+      "evidence_ids": [
+       "E13"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [],
+  "recommendations": [
+   "Check disk usage on blob-db",
+   "Investigate storage allocation for blob-db"
+  ]
+ },
+ "report_validated": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "blob-db",
+    "cause_summary": "blob-db ran out of disk space",
+    "confidence": 0.95,
+    "claims": [
+     {
+      "text": "blob-db had no space left on device",
+      "evidence_ids": [
+       "E12"
+      ]
+     },
+     {
+      "text": "blob-db exited due to storage unavailability",
+      "evidence_ids": [
+       "E13"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [],
+  "recommendations": [
+   "Check disk usage on blob-db",
+   "Investigate storage allocation for blob-db"
+  ]
+ },
+ "validation": {
+  "claims_total": 2,
+  "claims_supported": 2,
+  "fabricated_ids": 0,
+  "suspicious_citations": 0,
+  "hypotheses_in": 1,
+  "hypotheses_dropped": 0,
+  "abstained_by_validator": false
+ },
+ "evidence": [
+  {
+   "id": "E1",
+   "uid": "edge-proxy.log:36",
+   "ts": "2026-02-03T12:23:15.372000Z",
+   "severity": "ERROR",
+   "component": "edge-proxy",
+   "source": "edge-proxy.log",
+   "line_no": 36,
+   "message": "proxy error contacting catalog-api; responded 502 trace=7402fbc3",
+   "step": 0,
+   "tool": "incident",
+   "tokens": 56,
+   "suspicious": false
+  },
+  {
+   "id": "E2",
+   "uid": "blob-db.log:27",
+   "ts": "2026-02-03T12:21:57Z",
+   "severity": "WARN",
+   "component": "blob-db",
+   "source": "blob-db.log",
+   "line_no": 27,
+   "message": "unhandled header x-legacy ignored trace=08f87068",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 53,
+   "suspicious": false
+  },
+  {
+   "id": "E3",
+   "uid": "blob-db.log:28",
+   "ts": "2026-02-03T12:22:08.417000Z",
+   "severity": "WARN",
+   "component": "blob-db",
+   "source": "blob-db.log",
+   "line_no": 28,
+   "message": "volume /data usage 98%",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 43,
+   "suspicious": false
+  },
+  {
+   "id": "E4",
+   "uid": "user-api.log:28",
+   "ts": "2026-02-03T12:22:11Z",
+   "severity": "WARN",
+   "component": "user-api",
+   "source": "user-api.log",
+   "line_no": 28,
+   "message": "event loop lag 420ms",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 44,
+   "suspicious": false
+  },
+  {
+   "id": "E5",
+   "uid": "asset-store.log:36",
+   "ts": "2026-02-03T12:23:04.609000Z",
+   "severity": "ERROR",
+   "component": "asset-store",
+   "source": "asset-store.log",
+   "line_no": 36,
+   "message": "Error: connect ECONNREFUSED blob-db:27017 trace=c2cf5c3f",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 59,
+   "suspicious": false
+  },
+  {
+   "id": "E6",
+   "uid": "asset-store.log:37",
+   "ts": "2026-02-03T12:23:06.032000Z",
+   "severity": "WARN",
+   "component": "asset-store",
+   "source": "asset-store.log",
+   "line_no": 37,
+   "message": "retry 2/3 for blob-db scheduled in 500ms",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 51,
+   "suspicious": false
+  },
+  {
+   "id": "E7",
+   "uid": "catalog-api.log:35",
+   "ts": "2026-02-03T12:23:11.105000Z",
+   "severity": "ERROR",
+   "component": "catalog-api",
+   "source": "catalog-api.log",
+   "line_no": 35,
+   "message": "Error: connect ECONNREFUSED asset-store:7003 trace=4854295f",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 60,
+   "suspicious": false
+  },
+  {
+   "id": "E8",
+   "uid": "catalog-api.log:36",
+   "ts": "2026-02-03T12:23:13.025000Z",
+   "severity": "WARN",
+   "component": "catalog-api",
+   "source": "catalog-api.log",
+   "line_no": 36,
+   "message": "retry 2/3 for asset-store scheduled in 500ms",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 51,
+   "suspicious": false
+  },
+  {
+   "id": "E9",
+   "uid": "edge-proxy.log:37",
+   "ts": "2026-02-03T12:23:18.192000Z",
+   "severity": "ERROR",
+   "component": "edge-proxy",
+   "source": "edge-proxy.log",
+   "line_no": 37,
+   "message": "proxy error contacting catalog-api; responded 502 trace=caf049fd",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 54,
+   "suspicious": false
+  },
+  {
+   "id": "E10",
+   "uid": "profile-db.log:42",
+   "ts": "2026-02-03T12:24:11Z",
+   "severity": "WARN",
+   "component": "profile-db",
+   "source": "profile-db.log",
+   "line_no": 42,
+   "message": "unhandled header x-legacy ignored trace=62e69fd1",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 53,
+   "suspicious": false
+  },
+  {
+   "id": "E11",
+   "uid": "search-index.log:44",
+   "ts": "2026-02-03T12:24:45Z",
+   "severity": "WARN",
+   "component": "search-index",
+   "source": "search-index.log",
+   "line_no": 44,
+   "message": "event loop lag 170ms",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 45,
+   "suspicious": false
+  },
+  {
+   "id": "E12",
+   "uid": "blob-db.log:35",
+   "ts": "2026-02-03T12:22:58.601000Z",
+   "severity": "ERROR",
+   "component": "blob-db",
+   "source": "blob-db.log",
+   "line_no": 35,
+   "message": "Error: ENOSPC: no space left on device, write",
+   "step": 2,
+   "tool": "search_logs",
+   "tokens": 50,
+   "suspicious": false
+  },
+  {
+   "id": "E13",
+   "uid": "blob-db.log:36",
+   "ts": "2026-02-03T12:23:01.644000Z",
+   "severity": "FATAL",
+   "component": "blob-db",
+   "source": "blob-db.log",
+   "line_no": 36,
+   "message": "storage unavailable, exiting process",
+   "step": 2,
+   "tool": "search_logs",
+   "tokens": 43,
+   "suspicious": false
+  },
+  {
+   "id": "E14",
+   "uid": "catalog-api.log:26",
+   "ts": "2026-02-03T12:22:01.881000Z",
+   "severity": "INFO",
+   "component": "catalog-api",
+   "source": "catalog-api.log",
+   "line_no": 26,
+   "message": "served GET /api status=200 in 62ms trace=6b040c92",
+   "step": 3,
+   "tool": "get_context",
+   "tokens": 61,
+   "suspicious": false
+  },
+  {
+   "id": "E15",
+   "uid": "thumbnailer.log:27",
+   "ts": "2026-02-03T12:22:04.058000Z",
+   "severity": "INFO",
+   "component": "thumbnailer",
+   "source": "thumbnailer.log",
+   "line_no": 27,
+   "message": "event loop lag 24ms ok",
+   "step": 3,
+   "tool": "get_context",
+   "tokens": 45,
+   "suspicious": false
+  },
+  {
+   "id": "E16",
+   "uid": "profile-db.log:27",
+   "ts": "2026-02-03T12:22:05.620000Z",
+   "severity": "INFO",
+   "component": "profile-db",
+   "source": "profile-db.log",
+   "line_no": 27,
+   "message": "served GET /api status=200 in 91ms trace=156d24a7",
+   "step": 3,
+   "tool": "get_context",
+   "tokens": 61,
+   "suspicious": false
+  },
+  {
+   "id": "E17",
+   "uid": "edge-proxy.log:28",
+   "ts": "2026-02-03T12:22:09.286000Z",
+   "severity": "INFO",
+   "component": "edge-proxy",
+   "source": "edge-proxy.log",
+   "line_no": 28,
+   "message": "served GET /api status=200 in 54ms trace=43d5e503",
+   "step": 3,
+   "tool": "get_context",
+   "tokens": 61,
+   "suspicious": false
+  }
+ ],
+ "tool_calls": [
+  {
+   "step": 1,
+   "tool": "error_timeline",
+   "args": {
+    "min_severity": "WARN"
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [
+    "E2",
+    "E3",
+    "E4",
+    "E5",
+    "E6",
+    "E7",
+    "E8",
+    "E1",
+    "E9",
+    "E10",
+    "E11"
+   ],
+   "new_evidence_tokens": 513,
+   "output_chars": 1134,
+   "ms": 0.46
+  },
+  {
+   "step": 2,
+   "tool": "search_logs",
+   "args": {
+    "component": "blob-db",
+    "min_severity": "ERROR"
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [
+    "E12",
+    "E13"
+   ],
+   "new_evidence_tokens": 93,
+   "output_chars": 221,
+   "ms": 0.2
+  },
+  {
+   "step": 3,
+   "tool": "get_context",
+   "args": {
+    "evidence_id": "E3",
+    "before": 3,
+    "after": 3
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [
+    "E14",
+    "E15",
+    "E16",
+    "E3",
+    "E17"
+   ],
+   "new_evidence_tokens": 228,
+   "output_chars": 555,
+   "ms": 0.26
+  }
+ ],
+ "metrics": {
+  "evidence_token_budget": 900,
+  "unique_evidence_tokens": 890,
+  "unique_evidence_items": 17,
+  "repeated_exposures": 2,
+  "repeated_exposure_tokens": 99,
+  "llm_calls": 5,
+  "prompt_tokens_total": 7430,
+  "output_tokens_total": 451,
+  "llm_seconds": 622.748,
+  "wall_seconds": 622.979,
+  "steps": 4,
+  "tool_calls": 3,
+  "blocked_tool_calls": 0,
+  "gate_rounds": 0,
+  "parse_failures": 0,
+  "normalised_fields": 0,
+  "cpu_seconds": 1607.1200000000056,
+  "mean_cpu_percent": 258.006511214613,
+  "peak_rss_mb": 9097.977856,
+  "peak_uss_mb": 8962.224128,
+  "peak_pss_mb": 8962.291712,
+  "host_used_peak_mb": 27630.317568,
+  "host_total_mb": 33436.11904
+ }
+}

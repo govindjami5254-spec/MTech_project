@@ -1,0 +1,419 @@
+{
+ "schema_version": "1",
+ "run_id": "test-c025__A2__r0",
+ "case_id": "test-c025",
+ "split": "test",
+ "arm": "A2",
+ "repeat": 0,
+ "config_hash": "f084f650236305957f9116e615ede9c0cb648ddd97d3aa12302849eddff23ca1",
+ "code_commit": "c5448efd25158e25cc055e988ee3e931b6331ca5",
+ "model": {
+  "name": "qwen3:8b",
+  "manifest_digest": "b3d9ba7c899cfd112df2574c6a91458a70b724c5e4e50dfffd75574b2d1648e7",
+  "weights_digest": "a3de86cd1c132c822487ededd47a324c50491393e6565cd14bafa40d0b8e686f",
+  "quantization": "Q4_K_M",
+  "parameter_size": "8.2B",
+  "ollama_version": "0.40.16",
+  "num_ctx": 8192,
+  "temperature": 0.2,
+  "seed": 1000,
+  "think": false,
+  "num_predict": 450
+ },
+ "started_at": "2026-11-26T01:31:38.402068Z",
+ "status": "ok",
+ "error": null,
+ "report_raw": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "tsdb",
+    "cause_summary": "tsdb disk full prevented writes (E2,E3).",
+    "confidence": 0.95,
+    "claims": [
+     {
+      "text": "tsdb disk full prevented writes (E2,E3).",
+      "evidence_ids": [
+       "E2",
+       "E3"
+      ]
+     },
+     {
+      "text": "tsdb refusing writes caused stream-proc connection errors (E4).",
+      "evidence_ids": [
+       "E4"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [
+   "tsdb disk full cause not explained"
+  ],
+  "recommendations": [
+   "Check tsdb disk usage and storage configuration.",
+   "Investigate why tsdb disk became full."
+  ]
+ },
+ "report_validated": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "tsdb",
+    "cause_summary": "tsdb disk full prevented writes (E2,E3).",
+    "confidence": 0.95,
+    "claims": [
+     {
+      "text": "tsdb disk full prevented writes (E2,E3).",
+      "evidence_ids": [
+       "E2",
+       "E3"
+      ]
+     },
+     {
+      "text": "tsdb refusing writes caused stream-proc connection errors (E4).",
+      "evidence_ids": [
+       "E4"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [
+   "tsdb disk full cause not explained"
+  ],
+  "recommendations": [
+   "Check tsdb disk usage and storage configuration.",
+   "Investigate why tsdb disk became full."
+  ]
+ },
+ "validation": {
+  "claims_total": 2,
+  "claims_supported": 2,
+  "fabricated_ids": 0,
+  "suspicious_citations": 0,
+  "hypotheses_in": 1,
+  "hypotheses_dropped": 0,
+  "abstained_by_validator": false
+ },
+ "evidence": [
+  {
+   "id": "E1",
+   "uid": "ingress.log:33",
+   "ts": "2026-02-10T13:20:34.830000Z",
+   "severity": "ERROR",
+   "component": "ingress",
+   "source": "ingress.log",
+   "line_no": 33,
+   "message": "sent 503 to client, telemetry-api unhealthy req_id=7e8b153f",
+   "step": 0,
+   "tool": "incident",
+   "tokens": 57,
+   "suspicious": false
+  },
+  {
+   "id": "E2",
+   "uid": "tsdb.log:35",
+   "ts": "2026-02-10T13:20:16.385000Z",
+   "severity": "ERROR",
+   "component": "tsdb",
+   "source": "tsdb.log",
+   "line_no": 35,
+   "message": "OSError: [Errno 28] No space left on device",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 50,
+   "suspicious": false
+  },
+  {
+   "id": "E3",
+   "uid": "tsdb.log:36",
+   "ts": "2026-02-10T13:20:19.221000Z",
+   "severity": "FATAL",
+   "component": "tsdb",
+   "source": "tsdb.log",
+   "line_no": 36,
+   "message": "database refusing writes: disk full",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 43,
+   "suspicious": false
+  },
+  {
+   "id": "E4",
+   "uid": "stream-proc.log:31",
+   "ts": "2026-02-10T13:20:22.155000Z",
+   "severity": "ERROR",
+   "component": "stream-proc",
+   "source": "stream-proc.log",
+   "line_no": 31,
+   "message": "requests.exceptions.ConnectionError: HTTPConnectionPool(host='tsdb', port=8086): Max retries exceeded req_id=4899a6b1",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 72,
+   "suspicious": false
+  },
+  {
+   "id": "E5",
+   "uid": "telemetry-api.log:34",
+   "ts": "2026-02-10T13:20:26.652000Z",
+   "severity": "ERROR",
+   "component": "telemetry-api",
+   "source": "telemetry-api.log",
+   "line_no": 34,
+   "message": "upstream stream-proc replied 503 Service Unavailable req_id=7848eb26",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 59,
+   "suspicious": false
+  },
+  {
+   "id": "E6",
+   "uid": "stream-proc.log:34",
+   "ts": "2026-02-10T13:20:27.139000Z",
+   "severity": "ERROR",
+   "component": "stream-proc",
+   "source": "stream-proc.log",
+   "line_no": 34,
+   "message": "aborting request: tsdb unreachable after retries",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 47,
+   "suspicious": false
+  },
+  {
+   "id": "E7",
+   "uid": "telemetry-api.log:37",
+   "ts": "2026-02-10T13:20:31.393000Z",
+   "severity": "ERROR",
+   "component": "telemetry-api",
+   "source": "telemetry-api.log",
+   "line_no": 37,
+   "message": "aborting request: stream-proc unreachable after retries",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 47,
+   "suspicious": false
+  },
+  {
+   "id": "E8",
+   "uid": "ingress.log:34",
+   "ts": "2026-02-10T13:20:37.318000Z",
+   "severity": "ERROR",
+   "component": "ingress",
+   "source": "ingress.log",
+   "line_no": 34,
+   "message": "upstream error from telemetry-api; sent 502 to client req_id=1773167f",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 59,
+   "suspicious": false
+  },
+  {
+   "id": "E9",
+   "uid": "ingress.log:35",
+   "ts": "2026-02-10T13:20:40.362000Z",
+   "severity": "ERROR",
+   "component": "ingress",
+   "source": "ingress.log",
+   "line_no": 35,
+   "message": "upstream error from telemetry-api; sent 502 to client req_id=c36f0624",
+   "step": 5,
+   "tool": "search_logs",
+   "tokens": 58,
+   "suspicious": false
+  },
+  {
+   "id": "E10",
+   "uid": "ingress.log:36",
+   "ts": "2026-02-10T13:20:43.896000Z",
+   "severity": "ERROR",
+   "component": "ingress",
+   "source": "ingress.log",
+   "line_no": 36,
+   "message": "upstream error from telemetry-api; sent 502 to client req_id=43b335de",
+   "step": 5,
+   "tool": "search_logs",
+   "tokens": 59,
+   "suspicious": false
+  },
+  {
+   "id": "E11",
+   "uid": "ingress.log:38",
+   "ts": "2026-02-10T13:20:46.976000Z",
+   "severity": "ERROR",
+   "component": "ingress",
+   "source": "ingress.log",
+   "line_no": 38,
+   "message": "sent 503 to client, telemetry-api unhealthy req_id=389a60a0",
+   "step": 5,
+   "tool": "search_logs",
+   "tokens": 58,
+   "suspicious": false
+  },
+  {
+   "id": "E12",
+   "uid": "ingress.log:39",
+   "ts": "2026-02-10T13:20:49.314000Z",
+   "severity": "ERROR",
+   "component": "ingress",
+   "source": "ingress.log",
+   "line_no": 39,
+   "message": "sent 503 to client, telemetry-api unhealthy req_id=fc744ec0",
+   "step": 5,
+   "tool": "search_logs",
+   "tokens": 56,
+   "suspicious": false
+  },
+  {
+   "id": "E13",
+   "uid": "ingress.log:41",
+   "ts": "2026-02-10T13:20:52.004000Z",
+   "severity": "ERROR",
+   "component": "ingress",
+   "source": "ingress.log",
+   "line_no": 41,
+   "message": "upstream error from telemetry-api; sent 502 to client req_id=4bbf4ad4",
+   "step": 5,
+   "tool": "search_logs",
+   "tokens": 58,
+   "suspicious": false
+  }
+ ],
+ "tool_calls": [
+  {
+   "step": 1,
+   "tool": "error_timeline",
+   "args": {
+    "min_severity": "ERROR"
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [
+    "E2",
+    "E3",
+    "E4",
+    "E5",
+    "E6",
+    "E7",
+    "E1",
+    "E8"
+   ],
+   "new_evidence_tokens": 377,
+   "output_chars": 951,
+   "ms": 0.69
+  },
+  {
+   "step": 2,
+   "tool": "search_logs",
+   "args": {
+    "component": "tsdb",
+    "min_severity": "ERROR"
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [
+    "E2",
+    "E3"
+   ],
+   "new_evidence_tokens": 0,
+   "output_chars": 64,
+   "ms": 0.11
+  },
+  {
+   "step": 3,
+   "tool": "search_logs",
+   "args": {
+    "component": "stream-proc",
+    "min_severity": "ERROR"
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [
+    "E4",
+    "E6"
+   ],
+   "new_evidence_tokens": 0,
+   "output_chars": 64,
+   "ms": 0.11
+  },
+  {
+   "step": 4,
+   "tool": "search_logs",
+   "args": {
+    "component": "telemetry-api",
+    "min_severity": "ERROR"
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [
+    "E5",
+    "E7"
+   ],
+   "new_evidence_tokens": 0,
+   "output_chars": 64,
+   "ms": 0.11
+  },
+  {
+   "step": 5,
+   "tool": "search_logs",
+   "args": {
+    "component": "ingress",
+    "min_severity": "ERROR"
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [
+    "E1",
+    "E8",
+    "E9",
+    "E10",
+    "E11",
+    "E12",
+    "E13"
+   ],
+   "new_evidence_tokens": 289,
+   "output_chars": 683,
+   "ms": 0.8
+  },
+  {
+   "step": 6,
+   "tool": "search_logs",
+   "args": {
+    "component": "firmware-cdn",
+    "min_severity": "ERROR"
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [],
+   "new_evidence_tokens": 0,
+   "output_chars": 24,
+   "ms": 0.06
+  }
+ ],
+ "metrics": {
+  "evidence_token_budget": 900,
+  "unique_evidence_tokens": 723,
+  "unique_evidence_items": 13,
+  "repeated_exposures": 9,
+  "repeated_exposure_tokens": 491,
+  "llm_calls": 7,
+  "prompt_tokens_total": 9595,
+  "output_tokens_total": 290,
+  "llm_seconds": 508.477,
+  "wall_seconds": 508.804,
+  "steps": 6,
+  "tool_calls": 6,
+  "blocked_tool_calls": 0,
+  "gate_rounds": 0,
+  "parse_failures": 0,
+  "normalised_fields": 0,
+  "cpu_seconds": 1375.6599999999996,
+  "mean_cpu_percent": 270.4150198483518,
+  "peak_rss_mb": 8090.07104,
+  "peak_uss_mb": 8089.571328,
+  "peak_pss_mb": 8090.01472,
+  "host_used_peak_mb": 25287.163904,
+  "host_total_mb": 33436.11904
+ }
+}

@@ -1,0 +1,207 @@
+{
+ "schema_version": "1",
+ "run_id": "test-c013__E1__r0",
+ "case_id": "test-c013",
+ "split": "test",
+ "arm": "E1",
+ "repeat": 0,
+ "config_hash": "f084f650236305957f9116e615ede9c0cb648ddd97d3aa12302849eddff23ca1",
+ "code_commit": "c5448efd25158e25cc055e988ee3e931b6331ca5",
+ "model": null,
+ "started_at": "2026-11-25T19:12:33.015835Z",
+ "status": "ok",
+ "error": null,
+ "report_raw": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "core-db",
+    "cause_summary": "disk full in core-db (dependency chain: front-door -> payments-api -> ledger-core -> core-db)",
+    "confidence": 0.6,
+    "claims": [
+     {
+      "text": "payments-api reported failures calling ledger-core: hyper::Error(Connect, ConnectError(\"tcp connect error\", Os { code: 111 })) to ledger-core:8446 span=34…",
+      "evidence_ids": [
+       "E2"
+      ]
+     },
+     {
+      "text": "ledger-core reported failures calling core-db: hyper::Error(Connect, ConnectError(\"tcp connect error\", Os { code: 111 })) to core-db:1522 span=edab76c5",
+      "evidence_ids": [
+       "E3"
+      ]
+     },
+     {
+      "text": "core-db logged its own failure: io error: No space left on device (os error 28)",
+      "evidence_ids": [
+       "E4",
+       "E5",
+       "E6"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [],
+  "recommendations": [
+   "Inspect core-db for disk full."
+  ]
+ },
+ "report_validated": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "core-db",
+    "cause_summary": "disk full in core-db (dependency chain: front-door -> payments-api -> ledger-core -> core-db)",
+    "confidence": 0.6,
+    "claims": [
+     {
+      "text": "payments-api reported failures calling ledger-core: hyper::Error(Connect, ConnectError(\"tcp connect error\", Os { code: 111 })) to ledger-core:8446 span=34…",
+      "evidence_ids": [
+       "E2"
+      ]
+     },
+     {
+      "text": "ledger-core reported failures calling core-db: hyper::Error(Connect, ConnectError(\"tcp connect error\", Os { code: 111 })) to core-db:1522 span=edab76c5",
+      "evidence_ids": [
+       "E3"
+      ]
+     },
+     {
+      "text": "core-db logged its own failure: io error: No space left on device (os error 28)",
+      "evidence_ids": [
+       "E4",
+       "E5",
+       "E6"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [],
+  "recommendations": [
+   "Inspect core-db for disk full."
+  ]
+ },
+ "validation": {
+  "claims_total": 3,
+  "claims_supported": 3,
+  "fabricated_ids": 0,
+  "suspicious_citations": 0,
+  "hypotheses_in": 1,
+  "hypotheses_dropped": 0,
+  "abstained_by_validator": false
+ },
+ "evidence": [
+  {
+   "id": "E1",
+   "uid": "front-door.log:33",
+   "ts": "2026-02-12T09:50:11Z",
+   "severity": "ERROR",
+   "component": "front-door",
+   "source": "front-door.log",
+   "line_no": 33,
+   "message": "bad gateway: payments-api failed span=3ebb077a status=502",
+   "step": 0,
+   "tool": "incident",
+   "tokens": 55,
+   "suspicious": false
+  },
+  {
+   "id": "E2",
+   "uid": "payments-api.log:35",
+   "ts": "2026-02-12T09:50:04Z",
+   "severity": "ERROR",
+   "component": "payments-api",
+   "source": "payments-api.log",
+   "line_no": 35,
+   "message": "hyper::Error(Connect, ConnectError(\"tcp connect error\", Os { code: 111 })) to ledger-core:8446 span=34a5dc07",
+   "step": 1,
+   "tool": "e1_rules",
+   "tokens": 75,
+   "suspicious": false
+  },
+  {
+   "id": "E3",
+   "uid": "ledger-core.log:33",
+   "ts": "2026-02-12T09:49:58Z",
+   "severity": "ERROR",
+   "component": "ledger-core",
+   "source": "ledger-core.log",
+   "line_no": 33,
+   "message": "hyper::Error(Connect, ConnectError(\"tcp connect error\", Os { code: 111 })) to core-db:1522 span=edab76c5",
+   "step": 1,
+   "tool": "e1_rules",
+   "tokens": 74,
+   "suspicious": false
+  },
+  {
+   "id": "E4",
+   "uid": "core-db.log:26",
+   "ts": "2026-02-12T09:49:07Z",
+   "severity": "WARN",
+   "component": "core-db",
+   "source": "core-db.log",
+   "line_no": 26,
+   "message": "disk usage 96% on /srv/data",
+   "step": 1,
+   "tool": "e1_rules",
+   "tokens": 46,
+   "suspicious": false
+  },
+  {
+   "id": "E5",
+   "uid": "core-db.log:28",
+   "ts": "2026-02-12T09:49:09Z",
+   "severity": "WARN",
+   "component": "core-db",
+   "source": "core-db.log",
+   "line_no": 28,
+   "message": "slow poll elapsed_ms=480",
+   "step": 1,
+   "tool": "e1_rules",
+   "tokens": 44,
+   "suspicious": false
+  },
+  {
+   "id": "E6",
+   "uid": "core-db.log:33",
+   "ts": "2026-02-12T09:49:52Z",
+   "severity": "ERROR",
+   "component": "core-db",
+   "source": "core-db.log",
+   "line_no": 33,
+   "message": "io error: No space left on device (os error 28)",
+   "step": 1,
+   "tool": "e1_rules",
+   "tokens": 50,
+   "suspicious": false
+  }
+ ],
+ "tool_calls": [],
+ "metrics": {
+  "evidence_token_budget": 900,
+  "unique_evidence_tokens": 344,
+  "unique_evidence_items": 6,
+  "repeated_exposures": 1,
+  "repeated_exposure_tokens": 55,
+  "llm_calls": 0,
+  "prompt_tokens_total": 0,
+  "output_tokens_total": 0,
+  "llm_seconds": 0.0,
+  "wall_seconds": 0.286,
+  "steps": 0,
+  "tool_calls": 0,
+  "blocked_tool_calls": 0,
+  "gate_rounds": 0,
+  "parse_failures": 0,
+  "normalised_fields": 0,
+  "cpu_seconds": null,
+  "mean_cpu_percent": null,
+  "peak_rss_mb": null,
+  "peak_uss_mb": null,
+  "peak_pss_mb": null,
+  "host_used_peak_mb": null,
+  "host_total_mb": null
+ }
+}

@@ -1,0 +1,207 @@
+{
+ "schema_version": "1",
+ "run_id": "test-c025__E1__r0",
+ "case_id": "test-c025",
+ "split": "test",
+ "arm": "E1",
+ "repeat": 0,
+ "config_hash": "f084f650236305957f9116e615ede9c0cb648ddd97d3aa12302849eddff23ca1",
+ "code_commit": "c5448efd25158e25cc055e988ee3e931b6331ca5",
+ "model": null,
+ "started_at": "2026-11-26T01:13:51.840053Z",
+ "status": "ok",
+ "error": null,
+ "report_raw": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "tsdb",
+    "cause_summary": "disk full in tsdb (dependency chain: ingress -> telemetry-api -> stream-proc -> tsdb)",
+    "confidence": 0.6,
+    "claims": [
+     {
+      "text": "telemetry-api reported failures calling stream-proc: upstream stream-proc replied 503 Service Unavailable req_id=7848eb26",
+      "evidence_ids": [
+       "E2"
+      ]
+     },
+     {
+      "text": "stream-proc reported failures calling tsdb: requests.exceptions.ConnectionError: HTTPConnectionPool(host='tsdb', port=8086): Max retries exceeded req_id=4…",
+      "evidence_ids": [
+       "E3"
+      ]
+     },
+     {
+      "text": "tsdb logged its own failure: database refusing writes: disk full",
+      "evidence_ids": [
+       "E4",
+       "E5",
+       "E6"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [],
+  "recommendations": [
+   "Inspect tsdb for disk full."
+  ]
+ },
+ "report_validated": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "tsdb",
+    "cause_summary": "disk full in tsdb (dependency chain: ingress -> telemetry-api -> stream-proc -> tsdb)",
+    "confidence": 0.6,
+    "claims": [
+     {
+      "text": "telemetry-api reported failures calling stream-proc: upstream stream-proc replied 503 Service Unavailable req_id=7848eb26",
+      "evidence_ids": [
+       "E2"
+      ]
+     },
+     {
+      "text": "stream-proc reported failures calling tsdb: requests.exceptions.ConnectionError: HTTPConnectionPool(host='tsdb', port=8086): Max retries exceeded req_id=4…",
+      "evidence_ids": [
+       "E3"
+      ]
+     },
+     {
+      "text": "tsdb logged its own failure: database refusing writes: disk full",
+      "evidence_ids": [
+       "E4",
+       "E5",
+       "E6"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [],
+  "recommendations": [
+   "Inspect tsdb for disk full."
+  ]
+ },
+ "validation": {
+  "claims_total": 3,
+  "claims_supported": 3,
+  "fabricated_ids": 0,
+  "suspicious_citations": 0,
+  "hypotheses_in": 1,
+  "hypotheses_dropped": 0,
+  "abstained_by_validator": false
+ },
+ "evidence": [
+  {
+   "id": "E1",
+   "uid": "ingress.log:33",
+   "ts": "2026-02-10T13:20:34.830000Z",
+   "severity": "ERROR",
+   "component": "ingress",
+   "source": "ingress.log",
+   "line_no": 33,
+   "message": "sent 503 to client, telemetry-api unhealthy req_id=7e8b153f",
+   "step": 0,
+   "tool": "incident",
+   "tokens": 57,
+   "suspicious": false
+  },
+  {
+   "id": "E2",
+   "uid": "telemetry-api.log:34",
+   "ts": "2026-02-10T13:20:26.652000Z",
+   "severity": "ERROR",
+   "component": "telemetry-api",
+   "source": "telemetry-api.log",
+   "line_no": 34,
+   "message": "upstream stream-proc replied 503 Service Unavailable req_id=7848eb26",
+   "step": 1,
+   "tool": "e1_rules",
+   "tokens": 59,
+   "suspicious": false
+  },
+  {
+   "id": "E3",
+   "uid": "stream-proc.log:31",
+   "ts": "2026-02-10T13:20:22.155000Z",
+   "severity": "ERROR",
+   "component": "stream-proc",
+   "source": "stream-proc.log",
+   "line_no": 31,
+   "message": "requests.exceptions.ConnectionError: HTTPConnectionPool(host='tsdb', port=8086): Max retries exceeded req_id=4899a6b1",
+   "step": 1,
+   "tool": "e1_rules",
+   "tokens": 72,
+   "suspicious": false
+  },
+  {
+   "id": "E4",
+   "uid": "tsdb.log:28",
+   "ts": "2026-02-10T13:19:21.117000Z",
+   "severity": "WARN",
+   "component": "tsdb",
+   "source": "tsdb.log",
+   "line_no": 28,
+   "message": "disk /var/lib/db at 96% capacity",
+   "step": 1,
+   "tool": "e1_rules",
+   "tokens": 47,
+   "suspicious": false
+  },
+  {
+   "id": "E5",
+   "uid": "tsdb.log:35",
+   "ts": "2026-02-10T13:20:16.385000Z",
+   "severity": "ERROR",
+   "component": "tsdb",
+   "source": "tsdb.log",
+   "line_no": 35,
+   "message": "OSError: [Errno 28] No space left on device",
+   "step": 1,
+   "tool": "e1_rules",
+   "tokens": 50,
+   "suspicious": false
+  },
+  {
+   "id": "E6",
+   "uid": "tsdb.log:36",
+   "ts": "2026-02-10T13:20:19.221000Z",
+   "severity": "FATAL",
+   "component": "tsdb",
+   "source": "tsdb.log",
+   "line_no": 36,
+   "message": "database refusing writes: disk full",
+   "step": 1,
+   "tool": "e1_rules",
+   "tokens": 43,
+   "suspicious": false
+  }
+ ],
+ "tool_calls": [],
+ "metrics": {
+  "evidence_token_budget": 900,
+  "unique_evidence_tokens": 328,
+  "unique_evidence_items": 6,
+  "repeated_exposures": 1,
+  "repeated_exposure_tokens": 57,
+  "llm_calls": 0,
+  "prompt_tokens_total": 0,
+  "output_tokens_total": 0,
+  "llm_seconds": 0.0,
+  "wall_seconds": 0.245,
+  "steps": 0,
+  "tool_calls": 0,
+  "blocked_tool_calls": 0,
+  "gate_rounds": 0,
+  "parse_failures": 0,
+  "normalised_fields": 0,
+  "cpu_seconds": null,
+  "mean_cpu_percent": null,
+  "peak_rss_mb": null,
+  "peak_uss_mb": null,
+  "peak_pss_mb": null,
+  "host_used_peak_mb": null,
+  "host_total_mb": null
+ }
+}

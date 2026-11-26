@@ -1,0 +1,449 @@
+{
+ "schema_version": "1",
+ "run_id": "test-c022__E2b__r0",
+ "case_id": "test-c022",
+ "split": "test",
+ "arm": "E2b",
+ "repeat": 0,
+ "config_hash": "f084f650236305957f9116e615ede9c0cb648ddd97d3aa12302849eddff23ca1",
+ "code_commit": "c5448efd25158e25cc055e988ee3e931b6331ca5",
+ "model": {
+  "name": "qwen3:8b",
+  "manifest_digest": "b3d9ba7c899cfd112df2574c6a91458a70b724c5e4e50dfffd75574b2d1648e7",
+  "weights_digest": "a3de86cd1c132c822487ededd47a324c50491393e6565cd14bafa40d0b8e686f",
+  "quantization": "Q4_K_M",
+  "parameter_size": "8.2B",
+  "ollama_version": "0.40.16",
+  "num_ctx": 8192,
+  "temperature": 0.2,
+  "seed": 1000,
+  "think": false,
+  "num_predict": 450
+ },
+ "started_at": "2026-11-25T22:53:19.887577Z",
+ "status": "ok",
+ "error": null,
+ "report_raw": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "search-index",
+    "cause_summary": "Search-index reached pool limit causing connection errors.",
+    "confidence": 0.9,
+    "claims": [
+     {
+      "text": "Search-index had SQLAlchemy pool overflow.",
+      "evidence_ids": [
+       "E16"
+      ]
+     },
+     {
+      "text": "Search-index returned 503 due to no DB connection.",
+      "evidence_ids": [
+       "E4"
+      ]
+     }
+    ]
+   },
+   {
+    "cause_component": "catalog-api",
+    "cause_summary": "Catalog-api failed to connect to search-index after retries.",
+    "confidence": 0.8,
+    "claims": [
+     {
+      "text": "Catalog-api had connection error to search-index.",
+      "evidence_ids": [
+       "E3"
+      ]
+     },
+     {
+      "text": "Catalog-api aborted request due to search-index unreachable.",
+      "evidence_ids": [
+       "E5"
+      ]
+     }
+    ]
+   },
+   {
+    "cause_component": "edge-proxy",
+    "cause_summary": "Edge-proxy sent 503 due to catalog-api being unhealthy.",
+    "confidence": 0.7,
+    "claims": [
+     {
+      "text": "Edge-proxy sent 503 to client due to catalog-api unhealthy.",
+      "evidence_ids": [
+       "E1"
+      ]
+     },
+     {
+      "text": "Edge-proxy sent 502 due to upstream error from catalog-api.",
+      "evidence_ids": [
+       "E7"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [],
+  "recommendations": [
+   "Check search-index database connection pool configuration.",
+   "Verify network connectivity between catalog-api and search-index."
+  ]
+ },
+ "report_validated": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "search-index",
+    "cause_summary": "Search-index reached pool limit causing connection errors.",
+    "confidence": 0.9,
+    "claims": [
+     {
+      "text": "Search-index had SQLAlchemy pool overflow.",
+      "evidence_ids": [
+       "E16"
+      ]
+     },
+     {
+      "text": "Search-index returned 503 due to no DB connection.",
+      "evidence_ids": [
+       "E4"
+      ]
+     }
+    ]
+   },
+   {
+    "cause_component": "catalog-api",
+    "cause_summary": "Catalog-api failed to connect to search-index after retries.",
+    "confidence": 0.8,
+    "claims": [
+     {
+      "text": "Catalog-api had connection error to search-index.",
+      "evidence_ids": [
+       "E3"
+      ]
+     },
+     {
+      "text": "Catalog-api aborted request due to search-index unreachable.",
+      "evidence_ids": [
+       "E5"
+      ]
+     }
+    ]
+   },
+   {
+    "cause_component": "edge-proxy",
+    "cause_summary": "Edge-proxy sent 503 due to catalog-api being unhealthy.",
+    "confidence": 0.7,
+    "claims": [
+     {
+      "text": "Edge-proxy sent 503 to client due to catalog-api unhealthy.",
+      "evidence_ids": [
+       "E1"
+      ]
+     },
+     {
+      "text": "Edge-proxy sent 502 due to upstream error from catalog-api.",
+      "evidence_ids": [
+       "E7"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [],
+  "recommendations": [
+   "Check search-index database connection pool configuration.",
+   "Verify network connectivity between catalog-api and search-index."
+  ]
+ },
+ "validation": {
+  "claims_total": 6,
+  "claims_supported": 6,
+  "fabricated_ids": 0,
+  "suspicious_citations": 0,
+  "hypotheses_in": 3,
+  "hypotheses_dropped": 0,
+  "abstained_by_validator": false
+ },
+ "evidence": [
+  {
+   "id": "E1",
+   "uid": "edge-proxy.log:32",
+   "ts": "2026-02-04T11:00:37.804000Z",
+   "severity": "ERROR",
+   "component": "edge-proxy",
+   "source": "edge-proxy.log",
+   "line_no": 32,
+   "message": "sent 503 to client, catalog-api unhealthy req_id=0548d366",
+   "step": 0,
+   "tool": "incident",
+   "tokens": 58,
+   "suspicious": false
+  },
+  {
+   "id": "E2",
+   "uid": "search-index.log:30",
+   "ts": "2026-02-04T11:00:25.730000Z",
+   "severity": "ERROR",
+   "component": "search-index",
+   "source": "search-index.log",
+   "line_no": 30,
+   "message": "sqlalchemy.exc.TimeoutError: QueuePool limit of size 20 reached",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 50,
+   "suspicious": false
+  },
+  {
+   "id": "E3",
+   "uid": "catalog-api.log:28",
+   "ts": "2026-02-04T11:00:29.473000Z",
+   "severity": "ERROR",
+   "component": "catalog-api",
+   "source": "catalog-api.log",
+   "line_no": 28,
+   "message": "requests.exceptions.ConnectionError: HTTPConnectionPool(host='search-index', port=9200): Max retries exceeded req_id=625a1ef3",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 69,
+   "suspicious": false
+  },
+  {
+   "id": "E4",
+   "uid": "search-index.log:32",
+   "ts": "2026-02-04T11:00:30.225000Z",
+   "severity": "ERROR",
+   "component": "search-index",
+   "source": "search-index.log",
+   "line_no": 32,
+   "message": "returning 503 internally: no DB connection available",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 47,
+   "suspicious": false
+  },
+  {
+   "id": "E5",
+   "uid": "catalog-api.log:31",
+   "ts": "2026-02-04T11:00:34.374000Z",
+   "severity": "ERROR",
+   "component": "catalog-api",
+   "source": "catalog-api.log",
+   "line_no": 31,
+   "message": "aborting request: search-index unreachable after retries",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 45,
+   "suspicious": false
+  },
+  {
+   "id": "E6",
+   "uid": "catalog-api.log:32",
+   "ts": "2026-02-04T11:00:35.684000Z",
+   "severity": "ERROR",
+   "component": "catalog-api",
+   "source": "catalog-api.log",
+   "line_no": 32,
+   "message": "upstream search-index replied 503 Service Unavailable req_id=2a9777b2",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 58,
+   "suspicious": false
+  },
+  {
+   "id": "E7",
+   "uid": "edge-proxy.log:34",
+   "ts": "2026-02-04T11:00:38.589000Z",
+   "severity": "ERROR",
+   "component": "edge-proxy",
+   "source": "edge-proxy.log",
+   "line_no": 34,
+   "message": "upstream error from catalog-api; sent 502 to client req_id=55903631",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 60,
+   "suspicious": false
+  },
+  {
+   "id": "E8",
+   "uid": "log-forwarder.log:2",
+   "ts": "2026-02-04T10:55:58Z",
+   "severity": "WARN",
+   "component": "log-forwarder",
+   "source": "log-forwarder.log",
+   "line_no": 2,
+   "message": "slow query took 490ms req_id=8fd1f683",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 55,
+   "suspicious": false
+  },
+  {
+   "id": "E9",
+   "uid": "user-api.log:3",
+   "ts": "2026-02-04T10:56:01Z",
+   "severity": "WARN",
+   "component": "user-api",
+   "source": "user-api.log",
+   "line_no": 3,
+   "message": "deprecated parameter 'page' used by client",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 43,
+   "suspicious": false
+  },
+  {
+   "id": "E10",
+   "uid": "thumbnailer.log:2",
+   "ts": "2026-02-04T10:56:04.984000Z",
+   "severity": "WARN",
+   "component": "thumbnailer",
+   "source": "thumbnailer.log",
+   "line_no": 2,
+   "message": "log shipping lag 780ms",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 44,
+   "suspicious": false
+  },
+  {
+   "id": "E11",
+   "uid": "thumbnailer.log:3",
+   "ts": "2026-02-04T10:56:06.902000Z",
+   "severity": "WARN",
+   "component": "thumbnailer",
+   "source": "thumbnailer.log",
+   "line_no": 3,
+   "message": "thumbnail queue backlog 0 items",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 42,
+   "suspicious": false
+  },
+  {
+   "id": "E12",
+   "uid": "log-forwarder.log:5",
+   "ts": "2026-02-04T10:56:15Z",
+   "severity": "WARN",
+   "component": "log-forwarder",
+   "source": "log-forwarder.log",
+   "line_no": 5,
+   "message": "thumbnail queue backlog 0 items",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 44,
+   "suspicious": false
+  },
+  {
+   "id": "E13",
+   "uid": "log-forwarder.log:6",
+   "ts": "2026-02-04T10:56:16.883000Z",
+   "severity": "WARN",
+   "component": "log-forwarder",
+   "source": "log-forwarder.log",
+   "line_no": 6,
+   "message": "log shipping lag 780ms",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 46,
+   "suspicious": false
+  },
+  {
+   "id": "E14",
+   "uid": "log-forwarder.log:25",
+   "ts": "2026-02-04T10:56:54Z",
+   "severity": "WARN",
+   "component": "log-forwarder",
+   "source": "log-forwarder.log",
+   "line_no": 25,
+   "message": "deprecated parameter 'page' used by client",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 47,
+   "suspicious": false
+  },
+  {
+   "id": "E15",
+   "uid": "profile-db.log:17",
+   "ts": "2026-02-04T10:58:27Z",
+   "severity": "WARN",
+   "component": "profile-db",
+   "source": "profile-db.log",
+   "line_no": 17,
+   "message": "deprecated parameter 'page' used by client",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 45,
+   "suspicious": false
+  },
+  {
+   "id": "E16",
+   "uid": "search-index.log:27",
+   "ts": "2026-02-04T10:59:55.245000Z",
+   "severity": "WARN",
+   "component": "search-index",
+   "source": "search-index.log",
+   "line_no": 27,
+   "message": "SQLAlchemy pool overflow 183 in use",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 46,
+   "suspicious": false
+  },
+  {
+   "id": "E17",
+   "uid": "thumbnailer.log:118",
+   "ts": "2026-02-04T10:59:56Z",
+   "severity": "WARN",
+   "component": "thumbnailer",
+   "source": "thumbnailer.log",
+   "line_no": 118,
+   "message": "deprecated parameter 'page' used by client",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 46,
+   "suspicious": false
+  },
+  {
+   "id": "E18",
+   "uid": "catalog-api.log:29",
+   "ts": "2026-02-04T11:00:31.257000Z",
+   "severity": "WARN",
+   "component": "catalog-api",
+   "source": "catalog-api.log",
+   "line_no": 29,
+   "message": "urllib3 retrying (search-index) after connection broken",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 48,
+   "suspicious": false
+  }
+ ],
+ "tool_calls": [],
+ "metrics": {
+  "evidence_token_budget": 900,
+  "unique_evidence_tokens": 893,
+  "unique_evidence_items": 18,
+  "repeated_exposures": 1,
+  "repeated_exposure_tokens": 58,
+  "llm_calls": 1,
+  "prompt_tokens_total": 1260,
+  "output_tokens_total": 365,
+  "llm_seconds": 370.091,
+  "wall_seconds": 370.299,
+  "steps": 1,
+  "tool_calls": 0,
+  "blocked_tool_calls": 0,
+  "gate_rounds": 0,
+  "parse_failures": 0,
+  "normalised_fields": 0,
+  "cpu_seconds": 1035.4600000000046,
+  "mean_cpu_percent": 279.68858148877143,
+  "peak_rss_mb": 15258.771456,
+  "peak_uss_mb": 15263.756287999999,
+  "peak_pss_mb": 15263.809536,
+  "host_used_peak_mb": 33084.514304,
+  "host_total_mb": 33436.11904
+ }
+}

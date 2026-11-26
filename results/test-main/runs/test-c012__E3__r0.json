@@ -1,0 +1,422 @@
+{
+ "schema_version": "1",
+ "run_id": "test-c012__E3__r0",
+ "case_id": "test-c012",
+ "split": "test",
+ "arm": "E3",
+ "repeat": 0,
+ "config_hash": "f084f650236305957f9116e615ede9c0cb648ddd97d3aa12302849eddff23ca1",
+ "code_commit": "c5448efd25158e25cc055e988ee3e931b6331ca5",
+ "model": {
+  "name": "qwen3:8b",
+  "manifest_digest": "b3d9ba7c899cfd112df2574c6a91458a70b724c5e4e50dfffd75574b2d1648e7",
+  "weights_digest": "a3de86cd1c132c822487ededd47a324c50491393e6565cd14bafa40d0b8e686f",
+  "quantization": "Q4_K_M",
+  "parameter_size": "8.2B",
+  "ollama_version": "0.40.16",
+  "num_ctx": 8192,
+  "temperature": 0.2,
+  "seed": 1000,
+  "think": false,
+  "num_predict": 450
+ },
+ "started_at": "2026-11-25T18:55:16.844127Z",
+ "status": "ok",
+ "error": null,
+ "report_raw": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "ledger-core",
+    "cause_summary": "Invalid WORKERS config set to -2 (E12)",
+    "confidence": 0.95,
+    "claims": [
+     {
+      "text": "ledger-core had invalid WORKERS config (E12)",
+      "evidence_ids": [
+       "E12"
+      ]
+     },
+     {
+      "text": "ledger-core failure caused payments-api to get 503 (E13)",
+      "evidence_ids": [
+       "E13"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [],
+  "recommendations": [
+   "Check ledger-core config for invalid WORKERS value",
+   "Monitor dependency health before scaling or config changes"
+  ]
+ },
+ "report_validated": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "ledger-core",
+    "cause_summary": "Invalid WORKERS config set to -2 (E12)",
+    "confidence": 0.95,
+    "claims": [
+     {
+      "text": "ledger-core had invalid WORKERS config (E12)",
+      "evidence_ids": [
+       "E12"
+      ]
+     },
+     {
+      "text": "ledger-core failure caused payments-api to get 503 (E13)",
+      "evidence_ids": [
+       "E13"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [],
+  "recommendations": [
+   "Check ledger-core config for invalid WORKERS value",
+   "Monitor dependency health before scaling or config changes"
+  ]
+ },
+ "validation": {
+  "claims_total": 2,
+  "claims_supported": 2,
+  "fabricated_ids": 0,
+  "suspicious_citations": 0,
+  "hypotheses_in": 1,
+  "hypotheses_dropped": 0,
+  "abstained_by_validator": false
+ },
+ "evidence": [
+  {
+   "id": "E1",
+   "uid": "front-door.log:34",
+   "ts": "2026-02-04T11:59:26.801000Z",
+   "severity": "ERROR",
+   "component": "front-door",
+   "source": "front-door.log",
+   "line_no": 34,
+   "message": "upstream error from payments-api; sent 502 to client req_id=c1417c31",
+   "step": 0,
+   "tool": "incident",
+   "tokens": 59,
+   "suspicious": false
+  },
+  {
+   "id": "E2",
+   "uid": "front-door.log:4",
+   "ts": "2026-02-04T11:55:02Z",
+   "severity": "WARN",
+   "component": "front-door",
+   "source": "front-door.log",
+   "line_no": 4,
+   "message": "deprecated parameter 'page' used by client",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 43,
+   "suspicious": false
+  },
+  {
+   "id": "E3",
+   "uid": "fx-feed.log:4",
+   "ts": "2026-02-04T11:55:09Z",
+   "severity": "WARN",
+   "component": "fx-feed",
+   "source": "fx-feed.log",
+   "line_no": 4,
+   "message": "deprecated parameter 'page' used by client",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 43,
+   "suspicious": false
+  },
+  {
+   "id": "E4",
+   "uid": "ledger-core.log:7",
+   "ts": "2026-02-04T11:55:37Z",
+   "severity": "WARN",
+   "component": "ledger-core",
+   "source": "ledger-core.log",
+   "line_no": 7,
+   "message": "slow query took 420ms req_id=5e8f3761",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 54,
+   "suspicious": false
+  },
+  {
+   "id": "E5",
+   "uid": "front-door.log:18",
+   "ts": "2026-02-04T11:57:19Z",
+   "severity": "WARN",
+   "component": "front-door",
+   "source": "front-door.log",
+   "line_no": 18,
+   "message": "slow query took 100ms req_id=315acd74",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 53,
+   "suspicious": false
+  },
+  {
+   "id": "E6",
+   "uid": "otp-svc.log:20",
+   "ts": "2026-02-04T11:58:01Z",
+   "severity": "WARN",
+   "component": "otp-svc",
+   "source": "otp-svc.log",
+   "line_no": 20,
+   "message": "deprecated parameter 'page' used by client",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 46,
+   "suspicious": false
+  },
+  {
+   "id": "E7",
+   "uid": "risk-db.log:21",
+   "ts": "2026-02-04T11:58:29.405000Z",
+   "severity": "WARN",
+   "component": "risk-db",
+   "source": "risk-db.log",
+   "line_no": 21,
+   "message": "disk /var/lib/db at 97% capacity",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 47,
+   "suspicious": false
+  },
+  {
+   "id": "E8",
+   "uid": "risk-engine.log:22",
+   "ts": "2026-02-04T11:58:33Z",
+   "severity": "WARN",
+   "component": "risk-engine",
+   "source": "risk-engine.log",
+   "line_no": 22,
+   "message": "deprecated parameter 'page' used by client",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 44,
+   "suspicious": false
+  },
+  {
+   "id": "E9",
+   "uid": "core-db.log:25",
+   "ts": "2026-02-04T11:58:41Z",
+   "severity": "WARN",
+   "component": "core-db",
+   "source": "core-db.log",
+   "line_no": 25,
+   "message": "slow query took 880ms req_id=bb6e13fc",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 53,
+   "suspicious": false
+  },
+  {
+   "id": "E10",
+   "uid": "risk-engine.log:24",
+   "ts": "2026-02-04T11:58:42Z",
+   "severity": "WARN",
+   "component": "risk-engine",
+   "source": "risk-engine.log",
+   "line_no": 24,
+   "message": "deprecated parameter 'page' used by client",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 45,
+   "suspicious": false
+  },
+  {
+   "id": "E11",
+   "uid": "risk-db.log:26",
+   "ts": "2026-02-04T11:58:56Z",
+   "severity": "WARN",
+   "component": "risk-db",
+   "source": "risk-db.log",
+   "line_no": 26,
+   "message": "deprecated parameter 'page' used by client",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 45,
+   "suspicious": false
+  },
+  {
+   "id": "E12",
+   "uid": "ledger-core.log:28",
+   "ts": "2026-02-04T11:59:16.136000Z",
+   "severity": "ERROR",
+   "component": "ledger-core",
+   "source": "ledger-core.log",
+   "line_no": 28,
+   "message": "ValueError: setting WORKERS must be positive, got -2",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 49,
+   "suspicious": false
+  },
+  {
+   "id": "E13",
+   "uid": "payments-api.log:28",
+   "ts": "2026-02-04T11:59:20.011000Z",
+   "severity": "ERROR",
+   "component": "payments-api",
+   "source": "payments-api.log",
+   "line_no": 28,
+   "message": "upstream ledger-core replied 503 Service Unavailable req_id=0d69f85c",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 59,
+   "suspicious": false
+  },
+  {
+   "id": "E14",
+   "uid": "payments-api.log:29",
+   "ts": "2026-02-04T11:59:22.358000Z",
+   "severity": "WARN",
+   "component": "payments-api",
+   "source": "payments-api.log",
+   "line_no": 29,
+   "message": "urllib3 retrying (ledger-core) after connection broken",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 48,
+   "suspicious": false
+  },
+  {
+   "id": "E15",
+   "uid": "core-db.log:35",
+   "ts": "2026-02-04T12:00:20Z",
+   "severity": "WARN",
+   "component": "core-db",
+   "source": "core-db.log",
+   "line_no": 35,
+   "message": "deprecated parameter 'page' used by client",
+   "step": 1,
+   "tool": "error_timeline",
+   "tokens": 45,
+   "suspicious": false
+  },
+  {
+   "id": "E16",
+   "uid": "payments-api.log:31",
+   "ts": "2026-02-04T11:59:25.926000Z",
+   "severity": "ERROR",
+   "component": "payments-api",
+   "source": "payments-api.log",
+   "line_no": 31,
+   "message": "aborting request: ledger-core unreachable after retries",
+   "step": 2,
+   "tool": "search_logs",
+   "tokens": 46,
+   "suspicious": false
+  },
+  {
+   "id": "E17",
+   "uid": "payments-api.log:33",
+   "ts": "2026-02-04T11:59:35.746000Z",
+   "severity": "ERROR",
+   "component": "payments-api",
+   "source": "payments-api.log",
+   "line_no": 33,
+   "message": "requests.exceptions.ConnectionError: HTTPConnectionPool(host='risk-engine', port=8445): Max retries exceeded req_id=59bc2f92",
+   "step": 2,
+   "tool": "search_logs",
+   "tokens": 70,
+   "suspicious": false
+  },
+  {
+   "id": "E18",
+   "uid": "payments-api.log:34",
+   "ts": "2026-02-04T11:59:37Z",
+   "severity": "WARN",
+   "component": "payments-api",
+   "source": "payments-api.log",
+   "line_no": 34,
+   "message": "urllib3 retrying (risk-engine) after connection broken",
+   "step": 2,
+   "tool": "search_logs",
+   "tokens": 48,
+   "suspicious": false
+  }
+ ],
+ "tool_calls": [
+  {
+   "step": 1,
+   "tool": "error_timeline",
+   "args": {
+    "min_severity": "WARN"
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [
+    "E2",
+    "E3",
+    "E4",
+    "E5",
+    "E6",
+    "E7",
+    "E8",
+    "E9",
+    "E10",
+    "E11",
+    "E12",
+    "E13",
+    "E14",
+    "E15"
+   ],
+   "new_evidence_tokens": 674,
+   "output_chars": 1539,
+   "ms": 1.6
+  },
+  {
+   "step": 2,
+   "tool": "search_logs",
+   "args": {
+    "component": "payments-api",
+    "min_severity": "WARN"
+   },
+   "allowed": true,
+   "error_code": null,
+   "evidence_ids": [
+    "E13",
+    "E14",
+    "E16",
+    "E17",
+    "E18"
+   ],
+   "new_evidence_tokens": 164,
+   "output_chars": 569,
+   "ms": 0.68
+  }
+ ],
+ "metrics": {
+  "evidence_token_budget": 900,
+  "unique_evidence_tokens": 897,
+  "unique_evidence_items": 18,
+  "repeated_exposures": 2,
+  "repeated_exposure_tokens": 107,
+  "llm_calls": 4,
+  "prompt_tokens_total": 5961,
+  "output_tokens_total": 448,
+  "llm_seconds": 566.057,
+  "wall_seconds": 566.524,
+  "steps": 3,
+  "tool_calls": 2,
+  "blocked_tool_calls": 0,
+  "gate_rounds": 0,
+  "parse_failures": 0,
+  "normalised_fields": 0,
+  "cpu_seconds": 1578.380000000002,
+  "mean_cpu_percent": 278.6484133380444,
+  "peak_rss_mb": 12878.761983999999,
+  "peak_uss_mb": 12874.981376,
+  "peak_pss_mb": 12875.044864,
+  "host_used_peak_mb": 31019.925504,
+  "host_total_mb": 33436.11904
+ }
+}

@@ -1,0 +1,365 @@
+{
+ "schema_version": "1",
+ "run_id": "test-c004__E2b__r0",
+ "case_id": "test-c004",
+ "split": "test",
+ "arm": "E2b",
+ "repeat": 0,
+ "config_hash": "f084f650236305957f9116e615ede9c0cb648ddd97d3aa12302849eddff23ca1",
+ "code_commit": "c5448efd25158e25cc055e988ee3e931b6331ca5",
+ "model": {
+  "name": "qwen3:8b",
+  "manifest_digest": "b3d9ba7c899cfd112df2574c6a91458a70b724c5e4e50dfffd75574b2d1648e7",
+  "weights_digest": "a3de86cd1c132c822487ededd47a324c50491393e6565cd14bafa40d0b8e686f",
+  "quantization": "Q4_K_M",
+  "parameter_size": "8.2B",
+  "ollama_version": "0.40.16",
+  "num_ctx": 8192,
+  "temperature": 0.2,
+  "seed": 1000,
+  "think": false,
+  "num_predict": 450
+ },
+ "started_at": "2026-11-25T15:07:28.118060Z",
+ "status": "ok",
+ "error": null,
+ "report_raw": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "blob-db",
+    "cause_summary": "Blob-db ran out of disk space causing storage failures.",
+    "confidence": 0.95,
+    "claims": [
+     {
+      "text": "Blob-db encountered ENOSPC error due to 98% volume usage.",
+      "evidence_ids": [
+       "E10",
+       "E3"
+      ]
+     },
+     {
+      "text": "Blob-db exited due to storage unavailability after ENOSPC error.",
+      "evidence_ids": [
+       "E2"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [
+   "No evidence shows if edge-proxy directly caused the 5xx errors or if it was a downstream symptom."
+  ],
+  "recommendations": [
+   "Check disk space usage for blob-db and ensure sufficient storage capacity.",
+   "Verify connectivity between blob-db and asset-store, and ensure blob-db is running before asset-store starts."
+  ]
+ },
+ "report_validated": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "blob-db",
+    "cause_summary": "Blob-db ran out of disk space causing storage failures.",
+    "confidence": 0.95,
+    "claims": [
+     {
+      "text": "Blob-db encountered ENOSPC error due to 98% volume usage.",
+      "evidence_ids": [
+       "E10",
+       "E3"
+      ]
+     },
+     {
+      "text": "Blob-db exited due to storage unavailability after ENOSPC error.",
+      "evidence_ids": [
+       "E2"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [
+   "No evidence shows if edge-proxy directly caused the 5xx errors or if it was a downstream symptom."
+  ],
+  "recommendations": [
+   "Check disk space usage for blob-db and ensure sufficient storage capacity.",
+   "Verify connectivity between blob-db and asset-store, and ensure blob-db is running before asset-store starts."
+  ]
+ },
+ "validation": {
+  "claims_total": 2,
+  "claims_supported": 2,
+  "fabricated_ids": 0,
+  "suspicious_citations": 0,
+  "hypotheses_in": 1,
+  "hypotheses_dropped": 0,
+  "abstained_by_validator": false
+ },
+ "evidence": [
+  {
+   "id": "E1",
+   "uid": "edge-proxy.log:36",
+   "ts": "2026-02-03T12:23:15.372000Z",
+   "severity": "ERROR",
+   "component": "edge-proxy",
+   "source": "edge-proxy.log",
+   "line_no": 36,
+   "message": "proxy error contacting catalog-api; responded 502 trace=7402fbc3",
+   "step": 0,
+   "tool": "incident",
+   "tokens": 56,
+   "suspicious": false
+  },
+  {
+   "id": "E2",
+   "uid": "blob-db.log:36",
+   "ts": "2026-02-03T12:23:01.644000Z",
+   "severity": "FATAL",
+   "component": "blob-db",
+   "source": "blob-db.log",
+   "line_no": 36,
+   "message": "storage unavailable, exiting process",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 42,
+   "suspicious": false
+  },
+  {
+   "id": "E3",
+   "uid": "blob-db.log:35",
+   "ts": "2026-02-03T12:22:58.601000Z",
+   "severity": "ERROR",
+   "component": "blob-db",
+   "source": "blob-db.log",
+   "line_no": 35,
+   "message": "Error: ENOSPC: no space left on device, write",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 49,
+   "suspicious": false
+  },
+  {
+   "id": "E4",
+   "uid": "asset-store.log:36",
+   "ts": "2026-02-03T12:23:04.609000Z",
+   "severity": "ERROR",
+   "component": "asset-store",
+   "source": "asset-store.log",
+   "line_no": 36,
+   "message": "Error: connect ECONNREFUSED blob-db:27017 trace=c2cf5c3f",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 59,
+   "suspicious": false
+  },
+  {
+   "id": "E5",
+   "uid": "asset-store.log:38",
+   "ts": "2026-02-03T12:23:09.356000Z",
+   "severity": "ERROR",
+   "component": "asset-store",
+   "source": "asset-store.log",
+   "line_no": 38,
+   "message": "circuit open for blob-db after repeated failures",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 44,
+   "suspicious": false
+  },
+  {
+   "id": "E6",
+   "uid": "catalog-api.log:35",
+   "ts": "2026-02-03T12:23:11.105000Z",
+   "severity": "ERROR",
+   "component": "catalog-api",
+   "source": "catalog-api.log",
+   "line_no": 35,
+   "message": "Error: connect ECONNREFUSED asset-store:7003 trace=4854295f",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 60,
+   "suspicious": false
+  },
+  {
+   "id": "E7",
+   "uid": "catalog-api.log:37",
+   "ts": "2026-02-03T12:23:16.517000Z",
+   "severity": "ERROR",
+   "component": "catalog-api",
+   "source": "catalog-api.log",
+   "line_no": 37,
+   "message": "circuit open for asset-store after repeated failures",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 44,
+   "suspicious": false
+  },
+  {
+   "id": "E8",
+   "uid": "edge-proxy.log:39",
+   "ts": "2026-02-03T12:23:24.387000Z",
+   "severity": "ERROR",
+   "component": "edge-proxy",
+   "source": "edge-proxy.log",
+   "line_no": 39,
+   "message": "503 Service Unavailable returned (catalog-api down) trace=bd47a786",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 58,
+   "suspicious": false
+  },
+  {
+   "id": "E9",
+   "uid": "blob-db.log:27",
+   "ts": "2026-02-03T12:21:57Z",
+   "severity": "WARN",
+   "component": "blob-db",
+   "source": "blob-db.log",
+   "line_no": 27,
+   "message": "unhandled header x-legacy ignored trace=08f87068",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 53,
+   "suspicious": false
+  },
+  {
+   "id": "E10",
+   "uid": "blob-db.log:28",
+   "ts": "2026-02-03T12:22:08.417000Z",
+   "severity": "WARN",
+   "component": "blob-db",
+   "source": "blob-db.log",
+   "line_no": 28,
+   "message": "volume /data usage 98%",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 44,
+   "suspicious": false
+  },
+  {
+   "id": "E11",
+   "uid": "user-api.log:28",
+   "ts": "2026-02-03T12:22:11Z",
+   "severity": "WARN",
+   "component": "user-api",
+   "source": "user-api.log",
+   "line_no": 28,
+   "message": "event loop lag 420ms",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 45,
+   "suspicious": false
+  },
+  {
+   "id": "E12",
+   "uid": "asset-store.log:37",
+   "ts": "2026-02-03T12:23:06.032000Z",
+   "severity": "WARN",
+   "component": "asset-store",
+   "source": "asset-store.log",
+   "line_no": 37,
+   "message": "retry 2/3 for blob-db scheduled in 500ms",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 52,
+   "suspicious": false
+  },
+  {
+   "id": "E13",
+   "uid": "catalog-api.log:36",
+   "ts": "2026-02-03T12:23:13.025000Z",
+   "severity": "WARN",
+   "component": "catalog-api",
+   "source": "catalog-api.log",
+   "line_no": 36,
+   "message": "retry 2/3 for asset-store scheduled in 500ms",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 52,
+   "suspicious": false
+  },
+  {
+   "id": "E14",
+   "uid": "profile-db.log:42",
+   "ts": "2026-02-03T12:24:11Z",
+   "severity": "WARN",
+   "component": "profile-db",
+   "source": "profile-db.log",
+   "line_no": 42,
+   "message": "unhandled header x-legacy ignored trace=62e69fd1",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 53,
+   "suspicious": false
+  },
+  {
+   "id": "E15",
+   "uid": "search-index.log:44",
+   "ts": "2026-02-03T12:24:45Z",
+   "severity": "WARN",
+   "component": "search-index",
+   "source": "search-index.log",
+   "line_no": 44,
+   "message": "event loop lag 170ms",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 45,
+   "suspicious": false
+  },
+  {
+   "id": "E16",
+   "uid": "catalog-api.log:47",
+   "ts": "2026-02-03T12:24:56Z",
+   "severity": "WARN",
+   "component": "catalog-api",
+   "source": "catalog-api.log",
+   "line_no": 47,
+   "message": "unhandled header x-legacy ignored trace=32e9482a",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 54,
+   "suspicious": false
+  },
+  {
+   "id": "E17",
+   "uid": "edge-proxy.log:1",
+   "ts": "2026-02-03T12:17:37.520000Z",
+   "severity": "INFO",
+   "component": "edge-proxy",
+   "source": "edge-proxy.log",
+   "line_no": 1,
+   "message": "served GET /api status=200 in 88ms trace=320ad27b",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 59,
+   "suspicious": false
+  }
+ ],
+ "tool_calls": [],
+ "metrics": {
+  "evidence_token_budget": 900,
+  "unique_evidence_tokens": 869,
+  "unique_evidence_items": 17,
+  "repeated_exposures": 1,
+  "repeated_exposure_tokens": 56,
+  "llm_calls": 2,
+  "prompt_tokens_total": 2957,
+  "output_tokens_total": 611,
+  "llm_seconds": 654.6,
+  "wall_seconds": 654.868,
+  "steps": 1,
+  "tool_calls": 0,
+  "blocked_tool_calls": 0,
+  "gate_rounds": 0,
+  "parse_failures": 1,
+  "normalised_fields": 0,
+  "cpu_seconds": 1822.239999999999,
+  "mean_cpu_percent": 278.29253192754555,
+  "peak_rss_mb": 8552.128512,
+  "peak_uss_mb": 8548.040704,
+  "peak_pss_mb": 8548.108288,
+  "host_used_peak_mb": 26872.451072,
+  "host_total_mb": 33436.11904
+ }
+}

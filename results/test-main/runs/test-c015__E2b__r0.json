@@ -1,0 +1,439 @@
+{
+ "schema_version": "1",
+ "run_id": "test-c015__E2b__r0",
+ "case_id": "test-c015",
+ "split": "test",
+ "arm": "E2b",
+ "repeat": 0,
+ "config_hash": "f084f650236305957f9116e615ede9c0cb648ddd97d3aa12302849eddff23ca1",
+ "code_commit": "c5448efd25158e25cc055e988ee3e931b6331ca5",
+ "model": {
+  "name": "qwen3:8b",
+  "manifest_digest": "b3d9ba7c899cfd112df2574c6a91458a70b724c5e4e50dfffd75574b2d1648e7",
+  "weights_digest": "a3de86cd1c132c822487ededd47a324c50491393e6565cd14bafa40d0b8e686f",
+  "quantization": "Q4_K_M",
+  "parameter_size": "8.2B",
+  "ollama_version": "0.40.16",
+  "num_ctx": 8192,
+  "temperature": 0.2,
+  "seed": 1000,
+  "think": false,
+  "num_predict": 450
+ },
+ "started_at": "2026-11-25T19:59:48.062473Z",
+ "status": "ok",
+ "error": null,
+ "report_raw": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "telemetry-api",
+    "cause_summary": "telemetry-api failed to respond to device-registry requests.",
+    "confidence": 0.9,
+    "claims": [
+     {
+      "text": "telemetry-api timed out waiting for device-registry response (E2).",
+      "evidence_ids": [
+       "E2"
+      ]
+     },
+     {
+      "text": "telemetry-api reported device-registry unreachable after retries (E3).",
+      "evidence_ids": [
+       "E3"
+      ]
+     }
+    ]
+   },
+   {
+    "cause_component": "device-registry",
+    "cause_summary": "device-registry did not respond to telemetry-api requests.",
+    "confidence": 0.8,
+    "claims": [
+     {
+      "text": "telemetry-api reported device-registry unreachable (E3).",
+      "evidence_ids": [
+       "E3"
+      ]
+     },
+     {
+      "text": "telemetry-api timed out waiting for device-registry (E2).",
+      "evidence_ids": [
+       "E2"
+      ]
+     }
+    ]
+   },
+   {
+    "cause_component": "ingress",
+    "cause_summary": "ingress failed due to upstream telemetry-api errors.",
+    "confidence": 0.7,
+    "claims": [
+     {
+      "text": "ingress sent 502 due to telemetry-api upstream error (E1).",
+      "evidence_ids": [
+       "E1"
+      ]
+     },
+     {
+      "text": "ingress sent 503 due to telemetry-api being unhealthy (E4).",
+      "evidence_ids": [
+       "E4"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [
+   "No logs show if device-registry was actually down or overloaded."
+  ],
+  "recommendations": [
+   "Check device-registry health and logs for failures.",
+   "Monitor telemetry-api and device-registry latency and error rates."
+  ]
+ },
+ "report_validated": {
+  "insufficient_evidence": false,
+  "hypotheses": [
+   {
+    "cause_component": "telemetry-api",
+    "cause_summary": "telemetry-api failed to respond to device-registry requests.",
+    "confidence": 0.9,
+    "claims": [
+     {
+      "text": "telemetry-api timed out waiting for device-registry response (E2).",
+      "evidence_ids": [
+       "E2"
+      ]
+     },
+     {
+      "text": "telemetry-api reported device-registry unreachable after retries (E3).",
+      "evidence_ids": [
+       "E3"
+      ]
+     }
+    ]
+   },
+   {
+    "cause_component": "device-registry",
+    "cause_summary": "device-registry did not respond to telemetry-api requests.",
+    "confidence": 0.8,
+    "claims": [
+     {
+      "text": "telemetry-api reported device-registry unreachable (E3).",
+      "evidence_ids": [
+       "E3"
+      ]
+     },
+     {
+      "text": "telemetry-api timed out waiting for device-registry (E2).",
+      "evidence_ids": [
+       "E2"
+      ]
+     }
+    ]
+   },
+   {
+    "cause_component": "ingress",
+    "cause_summary": "ingress failed due to upstream telemetry-api errors.",
+    "confidence": 0.7,
+    "claims": [
+     {
+      "text": "ingress sent 502 due to telemetry-api upstream error (E1).",
+      "evidence_ids": [
+       "E1"
+      ]
+     },
+     {
+      "text": "ingress sent 503 due to telemetry-api being unhealthy (E4).",
+      "evidence_ids": [
+       "E4"
+      ]
+     }
+    ]
+   }
+  ],
+  "evidence_gaps": [
+   "No logs show if device-registry was actually down or overloaded."
+  ],
+  "recommendations": [
+   "Check device-registry health and logs for failures.",
+   "Monitor telemetry-api and device-registry latency and error rates."
+  ]
+ },
+ "validation": {
+  "claims_total": 6,
+  "claims_supported": 6,
+  "fabricated_ids": 0,
+  "suspicious_citations": 0,
+  "hypotheses_in": 3,
+  "hypotheses_dropped": 0,
+  "abstained_by_validator": false
+ },
+ "evidence": [
+  {
+   "id": "E1",
+   "uid": "ingress.log:32",
+   "ts": "2026-01-21T13:15:05.448000Z",
+   "severity": "ERROR",
+   "component": "ingress",
+   "source": "ingress.log",
+   "line_no": 32,
+   "message": "upstream error from telemetry-api; sent 502 to client req_id=a7608d13",
+   "step": 0,
+   "tool": "incident",
+   "tokens": 58,
+   "suspicious": false
+  },
+  {
+   "id": "E2",
+   "uid": "telemetry-api.log:32",
+   "ts": "2026-01-21T13:14:57.933000Z",
+   "severity": "ERROR",
+   "component": "telemetry-api",
+   "source": "telemetry-api.log",
+   "line_no": 32,
+   "message": "ReadTimeout: device-registry did not respond within 5.0s req_id=5f413e14",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 63,
+   "suspicious": false
+  },
+  {
+   "id": "E3",
+   "uid": "telemetry-api.log:34",
+   "ts": "2026-01-21T13:15:02.850000Z",
+   "severity": "ERROR",
+   "component": "telemetry-api",
+   "source": "telemetry-api.log",
+   "line_no": 34,
+   "message": "aborting request: device-registry unreachable after retries",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 47,
+   "suspicious": false
+  },
+  {
+   "id": "E4",
+   "uid": "ingress.log:33",
+   "ts": "2026-01-21T13:15:08.985000Z",
+   "severity": "ERROR",
+   "component": "ingress",
+   "source": "ingress.log",
+   "line_no": 33,
+   "message": "sent 503 to client, telemetry-api unhealthy req_id=a1c740f2",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 56,
+   "suspicious": false
+  },
+  {
+   "id": "E5",
+   "uid": "firmware-cdn.log:2",
+   "ts": "2026-01-21T13:09:55Z",
+   "severity": "WARN",
+   "component": "firmware-cdn",
+   "source": "firmware-cdn.log",
+   "line_no": 2,
+   "message": "slow query took 930ms req_id=cc6d8eff",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 54,
+   "suspicious": false
+  },
+  {
+   "id": "E6",
+   "uid": "ingress.log:4",
+   "ts": "2026-01-21T13:10:20Z",
+   "severity": "WARN",
+   "component": "ingress",
+   "source": "ingress.log",
+   "line_no": 4,
+   "message": "deprecated parameter 'page' used by client",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 42,
+   "suspicious": false
+  },
+  {
+   "id": "E7",
+   "uid": "registry-db.log:8",
+   "ts": "2026-01-21T13:10:44Z",
+   "severity": "WARN",
+   "component": "registry-db",
+   "source": "registry-db.log",
+   "line_no": 8,
+   "message": "slow query took 720ms req_id=64eb87da",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 52,
+   "suspicious": false
+  },
+  {
+   "id": "E8",
+   "uid": "firmware-cdn.log:10",
+   "ts": "2026-01-21T13:11:08Z",
+   "severity": "WARN",
+   "component": "firmware-cdn",
+   "source": "firmware-cdn.log",
+   "line_no": 10,
+   "message": "deprecated parameter 'page' used by client",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 47,
+   "suspicious": false
+  },
+  {
+   "id": "E9",
+   "uid": "stream-proc.log:17",
+   "ts": "2026-01-21T13:12:53Z",
+   "severity": "WARN",
+   "component": "stream-proc",
+   "source": "stream-proc.log",
+   "line_no": 17,
+   "message": "deprecated parameter 'page' used by client",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 46,
+   "suspicious": false
+  },
+  {
+   "id": "E10",
+   "uid": "tsdb.log:26",
+   "ts": "2026-01-21T13:13:40Z",
+   "severity": "WARN",
+   "component": "tsdb",
+   "source": "tsdb.log",
+   "line_no": 26,
+   "message": "deprecated parameter 'page' used by client",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 45,
+   "suspicious": false
+  },
+  {
+   "id": "E11",
+   "uid": "scheduler.log:32",
+   "ts": "2026-01-21T13:14:42Z",
+   "severity": "WARN",
+   "component": "scheduler",
+   "source": "scheduler.log",
+   "line_no": 32,
+   "message": "slow query took 590ms req_id=6ce67261",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 53,
+   "suspicious": false
+  },
+  {
+   "id": "E12",
+   "uid": "telemetry-api.log:33",
+   "ts": "2026-01-21T13:14:59.918000Z",
+   "severity": "WARN",
+   "component": "telemetry-api",
+   "source": "telemetry-api.log",
+   "line_no": 33,
+   "message": "urllib3 retrying (device-registry) after connection broken",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 50,
+   "suspicious": false
+  },
+  {
+   "id": "E13",
+   "uid": "telemetry-api.log:39",
+   "ts": "2026-01-21T13:15:29Z",
+   "severity": "WARN",
+   "component": "telemetry-api",
+   "source": "telemetry-api.log",
+   "line_no": 39,
+   "message": "deprecated parameter 'page' used by client",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 46,
+   "suspicious": false
+  },
+  {
+   "id": "E14",
+   "uid": "ingress.log:1",
+   "ts": "2026-01-21T13:09:51.550000Z",
+   "severity": "INFO",
+   "component": "ingress",
+   "source": "ingress.log",
+   "line_no": 1,
+   "message": "GET /v1/items 200 56ms req_id=c65803e2",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 58,
+   "suspicious": false
+  },
+  {
+   "id": "E15",
+   "uid": "scheduler.log:1",
+   "ts": "2026-01-21T13:09:51.783000Z",
+   "severity": "INFO",
+   "component": "scheduler",
+   "source": "scheduler.log",
+   "line_no": 1,
+   "message": "worker heartbeat ok (86ms)",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 41,
+   "suspicious": false
+  },
+  {
+   "id": "E16",
+   "uid": "registry-db.log:1",
+   "ts": "2026-01-21T13:09:52.694000Z",
+   "severity": "INFO",
+   "component": "registry-db",
+   "source": "registry-db.log",
+   "line_no": 1,
+   "message": "GET /v1/items 200 11ms req_id=ff5fa7d3",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 58,
+   "suspicious": false
+  },
+  {
+   "id": "E17",
+   "uid": "firmware-cdn.log:1",
+   "ts": "2026-01-21T13:09:54.571000Z",
+   "severity": "INFO",
+   "component": "firmware-cdn",
+   "source": "firmware-cdn.log",
+   "line_no": 1,
+   "message": "GET /v1/items 200 20ms req_id=dc1b1052",
+   "step": 0,
+   "tool": "e2b_pack",
+   "tokens": 62,
+   "suspicious": false
+  }
+ ],
+ "tool_calls": [],
+ "metrics": {
+  "evidence_token_budget": 900,
+  "unique_evidence_tokens": 878,
+  "unique_evidence_items": 17,
+  "repeated_exposures": 1,
+  "repeated_exposure_tokens": 58,
+  "llm_calls": 1,
+  "prompt_tokens_total": 1241,
+  "output_tokens_total": 439,
+  "llm_seconds": 431.324,
+  "wall_seconds": 431.614,
+  "steps": 1,
+  "tool_calls": 0,
+  "blocked_tool_calls": 0,
+  "gate_rounds": 0,
+  "parse_failures": 0,
+  "normalised_fields": 0,
+  "cpu_seconds": 1194.8900000000008,
+  "mean_cpu_percent": 276.89435255524154,
+  "peak_rss_mb": 14161.063935999999,
+  "peak_uss_mb": 14158.00832,
+  "peak_pss_mb": 14158.065664,
+  "host_used_peak_mb": 32471.822336,
+  "host_total_mb": 33436.11904
+ }
+}
