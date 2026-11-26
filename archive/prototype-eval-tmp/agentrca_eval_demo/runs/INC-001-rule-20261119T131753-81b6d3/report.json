@@ -1,0 +1,87 @@
+{
+  "run_id": "INC-001-rule-20261119T131753-81b6d3",
+  "mode": "rule",
+  "incident": {
+    "id": "INC-001",
+    "rule": "gateway-5xx",
+    "description": "API gateway returned 5xx errors to clients",
+    "time": "2026-01-10T10:04:51Z",
+    "trigger": "api-gateway.log:28"
+  },
+  "hypotheses": [
+    {
+      "cause_component": "api-gateway",
+      "cause_summary": "Upstream dependency unavailable",
+      "confidence": 0.5,
+      "grounded": true,
+      "claims": [
+        {
+          "text": "503 returned to client: upstream order-service unavailable",
+          "evidence_ids": [
+            "E1"
+          ],
+          "supported": true
+        }
+      ],
+      "rank": 1
+    }
+  ],
+  "evidence_gaps": [
+    "Rule-based detection only; no dependency analysis."
+  ],
+  "recommendations": [],
+  "validation": {
+    "claims_total": 1,
+    "claims_supported": 1,
+    "fabricated_ids": 0,
+    "hypotheses_in": 1,
+    "hypotheses_dropped": 0,
+    "suspicious_citations": 0,
+    "unsupported_claim_rate": 0.0
+  },
+  "evidence": [
+    {
+      "id": "E1",
+      "uid": "api-gateway.log:28",
+      "ts": "2026-01-10T10:04:51Z",
+      "severity": "ERROR",
+      "component": "api-gateway",
+      "source": "api-gateway.log",
+      "line_no": 28,
+      "message": "503 returned to client: upstream order-service unavailable",
+      "step": 0,
+      "tool": "incident",
+      "suspicious": false,
+      "cited": true
+    }
+  ],
+  "metrics": {
+    "llm_calls": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "llm_seconds": 0.0,
+    "steps": 0,
+    "tool_calls": 0,
+    "blocked_calls": 0,
+    "gate_rounds": 0,
+    "parse_failures": 0,
+    "injection_flagged": 0,
+    "wall_seconds": 1.6230158507823944e-05,
+    "model_memory_bytes": null
+  },
+  "safety": {
+    "blocked_tool_calls": 0,
+    "injection_suspected_lines": 0,
+    "read_only": true
+  },
+  "settings": {
+    "model": "qwen3:8b",
+    "num_ctx": 8192,
+    "temperature": 0,
+    "seed": 42,
+    "think": false,
+    "coverage_gate": true,
+    "validate": true,
+    "max_steps": 8
+  }
+}

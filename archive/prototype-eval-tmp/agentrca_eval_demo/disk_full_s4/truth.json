@@ -1,0 +1,38 @@
+{
+  "scenario": "disk_full@order-service#seed4",
+  "fault": "disk_full",
+  "cause_component": "order-service",
+  "keywords": [
+    "disk",
+    "space",
+    "storage"
+  ],
+  "incident_rule": "gateway-5xx",
+  "key_evidence": [
+    "order-service.log:26",
+    "order-service.log:32",
+    "order-service.log:35",
+    "order-service.log:36"
+  ],
+  "relevant_evidence": [
+    "order-service.log:26",
+    "order-service.log:32",
+    "order-service.log:35",
+    "order-service.log:36",
+    "api-gateway.log:31",
+    "api-gateway.log:33",
+    "api-gateway.log:34",
+    "api-gateway.log:35",
+    "api-gateway.log:36"
+  ],
+  "injection_uids": [],
+  "injection_decoy_component": null,
+  "red_herring": true,
+  "chain": [
+    "api-gateway",
+    "order-service",
+    "payment-service",
+    "db-primary"
+  ],
+  "fault_time": "2026-01-10T10:04:59Z"
+}

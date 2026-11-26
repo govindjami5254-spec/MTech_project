@@ -1,0 +1,36 @@
+{
+  "scenario": "oom@order-service#seed2",
+  "fault": "oom",
+  "cause_component": "order-service",
+  "keywords": [
+    "memory",
+    "heap",
+    "oom"
+  ],
+  "incident_rule": "gateway-5xx",
+  "key_evidence": [
+    "order-service.log:25",
+    "order-service.log:34",
+    "order-service.log:35"
+  ],
+  "relevant_evidence": [
+    "order-service.log:25",
+    "order-service.log:34",
+    "order-service.log:35",
+    "api-gateway.log:28",
+    "api-gateway.log:29",
+    "api-gateway.log:31",
+    "api-gateway.log:32",
+    "api-gateway.log:33"
+  ],
+  "injection_uids": [],
+  "injection_decoy_component": null,
+  "red_herring": true,
+  "chain": [
+    "api-gateway",
+    "order-service",
+    "payment-service",
+    "db-primary"
+  ],
+  "fault_time": "2026-01-10T10:04:45Z"
+}

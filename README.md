@@ -194,6 +194,8 @@ Analyze. Analyses are refused while a research experiment is running on the same
 * `data/synthetic/{dev,test}/cases/<case>/`: one `.log` file per service, plus `incident.json`.
 * `data/synthetic/{dev,test}/truth/`: ground truth. Only the scorer reads it.
 * `data/demo`, `data/eval_run1`, `runs/`: synthetic data and outputs of the legacy prototype.
+* `archive/`: early prototype scratch outputs, the Ollama smoke test and the Ollama server log, preserved from
+  outside the project folders (see `archive/README.md`).
 * `results/`:
   * Calibration, smoke, integration, memory-check, dev pilot and operational-check outputs.
   * `results/test-main/` holds the partial test run (see below).
@@ -211,6 +213,43 @@ Analyze. Analyses are refused while a research experiment is running on the same
 | Real-inference end-to-end check of the web UI / `diagnose` | **Not done** |
 | Dissertation chapters 1–4 | Drafts in `docs/dissertation/` |
 | Results chapters 5–7 | Not written (they depend on the completed test run) |
+
+### Current stage, its purpose and remaining work (as of 2026-11-26)
+
+**Current stage: the frozen test experiment, the confirmatory run on the test split. It is paused at 147 / 480 runs.**
+
+Purpose of this stage:
+
+* It produces the evidence that answers the research question.
+* The iterative agent (E3) and the strong single-pass baseline (E2b) run on 60 unseen synthetic test cases (20 fault
+  families). Both get the same evidence budget (B = 900 tokens), and all settings are frozen (`test-freeze`).
+* The E1/E1f baselines and the A2/A3 ablations run alongside.
+* Each LLM arm runs twice (repeats r0 and r1), so run-to-run variation can be measured.
+* Because everything was fixed before any test case was seen (`docs/preregistration.md`), the results cannot be
+  tuned after the fact.
+
+Completed stages:
+
+1. Research design and literature review.
+2. Implementation stages M1–M11 (engine, synthetic data, baselines, agent, gate, validator, runner, statistics,
+   measurement fixes).
+3. Dev pilot (90 runs) and operational check (30 runs).
+4. Budget selection (B = 900) and the freeze.
+5. Dissertation drafts for chapters 1–4.
+6. Web application and CLI stages M0–M10.
+
+Remaining work:
+
+| # | Task | Notes |
+|---|---|---|
+| 1 | Resume the test experiment with the `test-freeze` code | 333 runs remain: r0 for cases c030 (E2b/E3/A2) and c031–c060, then r1 for E2b/E3/A2 on all 60 cases. At the measured speed (about 28.5 min per case per repeat) this takes **about 43 hours** of CPU time. |
+| 2 | Record the interruption and resume as a deviation | Required by the pre-registration |
+| 3 | Score and analyse: `python -m logagent_rca analyze --config configs/test.yaml` | H1 (E3 − E2b correctness, family-clustered CI), H2 (grounding), H3 (cost); A2/A3 ablations |
+| 4 | Write dissertation chapters 5 (results), 6 (discussion) and 7 (conclusion); revise chapters 1–4, abstract and references | Depends on 3 |
+| 5 | Resolve the open supervisor questions (Q-001, Q-002, Q-006), the manual literature searches (Q-014) and the IEEE full texts (Q-015) | See `docs/decisions.md` |
+| 6 | Web app: diagnose and fix the "Analyze does nothing" defect, simplify the New-analysis form, add regression tests | Diagnosis started; the root cause is not yet confirmed; changes need approval |
+| 7 | Web app: real end-to-end check with Ollama on a known synthetic case | Only when no experiment is running |
+| 8 | Submit the dissertation | Deadline **2 December 2026** |
 
 ## 11. Known limitations
 

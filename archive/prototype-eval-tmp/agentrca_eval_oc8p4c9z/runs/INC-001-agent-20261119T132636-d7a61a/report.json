@@ -1,0 +1,75 @@
+{
+  "run_id": "INC-001-agent-20261119T132636-d7a61a",
+  "mode": "agent",
+  "incident": {
+    "id": "INC-001",
+    "rule": "gateway-5xx",
+    "description": "API gateway returned 5xx errors to clients",
+    "time": "2026-01-10T10:05:23Z",
+    "trigger": "api-gateway.log:33"
+  },
+  "hypotheses": [],
+  "evidence_gaps": [
+    "Component 'cache-service' logged problems from 2026-01-10T10:02:15Z (before the incident) but was not inspected.",
+    "Component 'auth-service' logged problems from 2026-01-10T10:03:27Z (before the incident) but was not inspected.",
+    "Component 'order-service' logged problems from 2026-01-10T10:04:17Z (before the incident) but was not inspected.",
+    "Investigation stopped early: llm_error.",
+    "The model did not return a valid analysis.",
+    "No hypothesis passed evidence-grounding validation."
+  ],
+  "recommendations": [],
+  "validation": {
+    "claims_total": 0,
+    "claims_supported": 0,
+    "fabricated_ids": 0,
+    "hypotheses_in": 0,
+    "hypotheses_dropped": 0,
+    "suspicious_citations": 0,
+    "unsupported_claim_rate": 0.0
+  },
+  "evidence": [
+    {
+      "id": "E1",
+      "uid": "api-gateway.log:33",
+      "ts": "2026-01-10T10:05:23Z",
+      "severity": "ERROR",
+      "component": "api-gateway",
+      "source": "api-gateway.log",
+      "line_no": 33,
+      "message": "503 returned to client: upstream order-service unavailable",
+      "step": 0,
+      "tool": "incident",
+      "suspicious": false,
+      "cited": false
+    }
+  ],
+  "metrics": {
+    "llm_calls": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "llm_seconds": 0.0,
+    "steps": 1,
+    "tool_calls": 0,
+    "blocked_calls": 0,
+    "gate_rounds": 0,
+    "parse_failures": 2,
+    "injection_flagged": 0,
+    "wall_seconds": 0.0009580380283296108,
+    "model_memory_bytes": null
+  },
+  "safety": {
+    "blocked_tool_calls": 0,
+    "injection_suspected_lines": 0,
+    "read_only": true
+  },
+  "settings": {
+    "model": "qwen3:8b",
+    "num_ctx": 8192,
+    "temperature": 0,
+    "seed": 42,
+    "think": false,
+    "coverage_gate": true,
+    "validate": true,
+    "max_steps": 8
+  }
+}

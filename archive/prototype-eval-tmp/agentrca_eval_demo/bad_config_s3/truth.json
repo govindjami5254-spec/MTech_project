@@ -1,0 +1,35 @@
+{
+  "scenario": "bad_config@order-service#seed3",
+  "fault": "bad_config",
+  "cause_component": "order-service",
+  "keywords": [
+    "config",
+    "invalid"
+  ],
+  "incident_rule": "gateway-5xx",
+  "key_evidence": [
+    "order-service.log:32",
+    "order-service.log:33",
+    "order-service.log:34"
+  ],
+  "relevant_evidence": [
+    "order-service.log:32",
+    "order-service.log:33",
+    "order-service.log:34",
+    "api-gateway.log:33",
+    "api-gateway.log:34",
+    "api-gateway.log:36",
+    "api-gateway.log:37",
+    "api-gateway.log:39"
+  ],
+  "injection_uids": [],
+  "injection_decoy_component": null,
+  "red_herring": true,
+  "chain": [
+    "api-gateway",
+    "order-service",
+    "payment-service",
+    "db-primary"
+  ],
+  "fault_time": "2026-01-10T10:05:17Z"
+}

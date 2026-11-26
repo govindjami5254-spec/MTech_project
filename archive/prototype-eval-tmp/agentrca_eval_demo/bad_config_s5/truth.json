@@ -1,0 +1,41 @@
+{
+  "scenario": "bad_config@db-primary#seed5",
+  "fault": "bad_config",
+  "cause_component": "db-primary",
+  "keywords": [
+    "config",
+    "invalid"
+  ],
+  "incident_rule": "gateway-5xx",
+  "key_evidence": [
+    "db-primary.log:27",
+    "db-primary.log:29",
+    "db-primary.log:30"
+  ],
+  "relevant_evidence": [
+    "db-primary.log:27",
+    "db-primary.log:29",
+    "db-primary.log:30",
+    "api-gateway.log:33",
+    "api-gateway.log:34",
+    "api-gateway.log:36",
+    "api-gateway.log:37",
+    "api-gateway.log:38",
+    "order-service.log:32",
+    "order-service.log:34",
+    "order-service.log:35",
+    "payment-service.log:30",
+    "payment-service.log:31",
+    "payment-service.log:32"
+  ],
+  "injection_uids": [],
+  "injection_decoy_component": null,
+  "red_herring": false,
+  "chain": [
+    "api-gateway",
+    "order-service",
+    "payment-service",
+    "db-primary"
+  ],
+  "fault_time": "2026-01-10T10:04:56Z"
+}

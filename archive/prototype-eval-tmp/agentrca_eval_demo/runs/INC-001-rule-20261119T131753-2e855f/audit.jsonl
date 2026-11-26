@@ -1,0 +1,2 @@
+{"ts": "2026-11-19T13:17:53.982325+00:00", "run_id": "INC-001-rule-20261119T131753-2e855f", "kind": "run_start", "mode": "rule", "incident": "INC-001", "model": "qwen3:8b", "log_files": 6, "events": 377, "suspicious_lines": 0}
+{"ts": "2026-11-19T13:17:53.982497+00:00", "run_id": "INC-001-rule-20261119T131753-2e855f", "kind": "run_end", "hypotheses": 1, "validation": {"claims_total": 1, "claims_supported": 1, "fabricated_ids": 0, "hypotheses_in": 1, "hypotheses_dropped": 0, "suspicious_citations": 0, "unsupported_claim_rate": 0.0}}
